@@ -1,0 +1,29 @@
+{
+  "classId": 12,
+  "subjectId": 116,
+  "slug": "biology",
+  "name": "BIOLOGY",
+  "total": 2156,
+  "counts": {
+    "mcq": 1066,
+    "short": 965,
+    "long": 125
+  },
+  "typeTotals": {
+    "MCQ": 1066,
+    "QA": 965,
+    "LONG": 125
+  },
+  "mongo": {
+    "created": 2156,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 1066,
+      "SHORT": 965,
+      "LONG": 125
+    },
+    "chapters": 13,
+    "topics": 62
+  },
+  "at": "2026-10-23T00:14:56.266Z"
+}

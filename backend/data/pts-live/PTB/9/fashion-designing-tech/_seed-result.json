@@ -1,0 +1,29 @@
+{
+  "classId": 9,
+  "subjectId": 1603,
+  "slug": "fashion-designing-tech",
+  "name": "FASHION DESIGNING (TECH)",
+  "total": 759,
+  "counts": {
+    "mcq": 342,
+    "short": 379,
+    "long": 38
+  },
+  "typeTotals": {
+    "MCQ": 342,
+    "QA": 379,
+    "LONG": 38
+  },
+  "mongo": {
+    "created": 759,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 342,
+      "SHORT": 379,
+      "LONG": 38
+    },
+    "chapters": 9,
+    "topics": 62
+  },
+  "at": "2026-10-23T00:05:02.554Z"
+}

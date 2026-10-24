@@ -1,0 +1,5068 @@
+{
+  "generatedAt": "2026-10-17T13:30:02.236Z",
+  "classes": {
+    "Class 9": {
+      "subjectCount": {
+        "source": 20,
+        "mongo": 20,
+        "match": true
+      },
+      "subjectsOnlyInSource": [],
+      "subjectsOnlyInMongo": [],
+      "subjects": [
+        {
+          "name": "Biology",
+          "slug": "biology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 11,
+            "mongo": 11,
+            "match": true
+          },
+          "topics": {
+            "source": 57,
+            "mongo": 57,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1056,
+              "SHORT": 790,
+              "LONG": 155
+            },
+            "mongo": {
+              "MCQ": 1056,
+              "SHORT": 790,
+              "LONG": 155
+            },
+            "importable": 2001,
+            "sourceFileTotal": 2001,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Chemistry",
+          "slug": "chemistry",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 69,
+            "mongo": 69,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1142,
+              "SHORT": 1081,
+              "LONG": 153
+            },
+            "mongo": {
+              "MCQ": 1142,
+              "SHORT": 1081,
+              "LONG": 153
+            },
+            "importable": 2376,
+            "sourceFileTotal": 2376,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "سوکس",
+          "slug": "civics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 113,
+              "SHORT": 151,
+              "LONG": 32
+            },
+            "mongo": {
+              "MCQ": 113,
+              "SHORT": 151,
+              "LONG": 32
+            },
+            "importable": 296,
+            "sourceFileTotal": 296,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Computer",
+          "slug": "computer",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 58,
+            "mongo": 58,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 992,
+              "SHORT": 916,
+              "LONG": 348
+            },
+            "mongo": {
+              "MCQ": 992,
+              "SHORT": 916,
+              "LONG": 348
+            },
+            "importable": 2256,
+            "sourceFileTotal": 2256,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "معاشیات",
+          "slug": "economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "topics": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 143,
+              "SHORT": 127,
+              "LONG": 52
+            },
+            "mongo": {
+              "MCQ": 143,
+              "SHORT": 127,
+              "LONG": 52
+            },
+            "importable": 322,
+            "sourceFileTotal": 322,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ایجوکیشن",
+          "slug": "education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 14,
+            "mongo": 14,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 284,
+              "SHORT": 332,
+              "LONG": 31
+            },
+            "mongo": {
+              "MCQ": 284,
+              "SHORT": 332,
+              "LONG": 31
+            },
+            "importable": 647,
+            "sourceFileTotal": 647,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "English",
+          "slug": "english",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 31,
+            "mongo": 31,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1277,
+              "SHORT": 2391,
+              "LONG": 185
+            },
+            "mongo": {
+              "MCQ": 1277,
+              "SHORT": 2391,
+              "LONG": 185
+            },
+            "importable": 3853,
+            "sourceFileTotal": 3853,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اخلاقیات",
+          "slug": "ethics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 10,
+            "mongo": 10,
+            "match": true
+          },
+          "topics": {
+            "source": 20,
+            "mongo": 20,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 191,
+              "SHORT": 270,
+              "LONG": 46
+            },
+            "mongo": {
+              "MCQ": 191,
+              "SHORT": 270,
+              "LONG": 46
+            },
+            "importable": 507,
+            "sourceFileTotal": 507,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "غذا اور غذائیت",
+          "slug": "food-nutrition",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 14,
+            "mongo": 14,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 175,
+              "SHORT": 253,
+              "LONG": 33
+            },
+            "mongo": {
+              "MCQ": 175,
+              "SHORT": 253,
+              "LONG": 33
+            },
+            "importable": 461,
+            "sourceFileTotal": 461,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "General Science",
+          "slug": "general-science",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 40,
+            "mongo": 40,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 418,
+              "SHORT": 422,
+              "LONG": 97
+            },
+            "mongo": {
+              "MCQ": 418,
+              "SHORT": 422,
+              "LONG": 97
+            },
+            "importable": 937,
+            "sourceFileTotal": 937,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "slug": "home-economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 32,
+            "mongo": 32,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 194,
+              "SHORT": 245,
+              "LONG": 95
+            },
+            "mongo": {
+              "MCQ": 194,
+              "SHORT": 245,
+              "LONG": 95
+            },
+            "importable": 534,
+            "sourceFileTotal": 534,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "slug": "islamiyat-compulsory",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "topics": {
+            "source": 55,
+            "mongo": 55,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1242,
+              "SHORT": 1477,
+              "LONG": 232
+            },
+            "mongo": {
+              "MCQ": 1242,
+              "SHORT": 1477,
+              "LONG": 232
+            },
+            "importable": 2951,
+            "sourceFileTotal": 2951,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "slug": "islamiyat-elective",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 35,
+            "mongo": 35,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 438,
+              "SHORT": 669,
+              "LONG": 16
+            },
+            "mongo": {
+              "MCQ": 438,
+              "SHORT": 669,
+              "LONG": 16
+            },
+            "importable": 1123,
+            "sourceFileTotal": 1123,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Mathematics",
+          "slug": "mathematics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 50,
+            "mongo": 50,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 545,
+              "SHORT": 1073,
+              "LONG": 350
+            },
+            "mongo": {
+              "MCQ": 545,
+              "SHORT": 1073,
+              "LONG": 350
+            },
+            "importable": 1968,
+            "sourceFileTotal": 1968,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "slug": "physical-education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 330,
+              "SHORT": 318,
+              "LONG": 23
+            },
+            "mongo": {
+              "MCQ": 330,
+              "SHORT": 318,
+              "LONG": 23
+            },
+            "importable": 671,
+            "sourceFileTotal": 671,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Physics",
+          "slug": "physics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 88,
+            "mongo": 88,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 875,
+              "SHORT": 755,
+              "LONG": 253
+            },
+            "mongo": {
+              "MCQ": 875,
+              "SHORT": 755,
+              "LONG": 253
+            },
+            "importable": 1883,
+            "sourceFileTotal": 1883,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "مرغبانی",
+          "slug": "poultry",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 144,
+              "SHORT": 185,
+              "LONG": 33
+            },
+            "mongo": {
+              "MCQ": 144,
+              "SHORT": 185,
+              "LONG": 33
+            },
+            "importable": 362,
+            "sourceFileTotal": 362,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "پنجابی",
+          "slug": "punjabi",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 22,
+            "mongo": 22,
+            "match": true
+          },
+          "topics": {
+            "source": 25,
+            "mongo": 25,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 252,
+              "SHORT": 572,
+              "LONG": 114
+            },
+            "mongo": {
+              "MCQ": 252,
+              "SHORT": 572,
+              "LONG": 114
+            },
+            "importable": 938,
+            "sourceFileTotal": 938,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ترجمۃ القرآن المجید",
+          "slug": "tarjuma-quran",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 18,
+            "mongo": 18,
+            "match": true
+          },
+          "topics": {
+            "source": 18,
+            "mongo": 18,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 356,
+              "SHORT": 534,
+              "LONG": 83
+            },
+            "mongo": {
+              "MCQ": 356,
+              "SHORT": 534,
+              "LONG": 83
+            },
+            "importable": 973,
+            "sourceFileTotal": 973,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اُردو لازمی",
+          "slug": "urdu-compulsory",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 21,
+            "mongo": 21,
+            "match": true
+          },
+          "topics": {
+            "source": 35,
+            "mongo": 35,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1698,
+              "SHORT": 1143,
+              "LONG": 268
+            },
+            "mongo": {
+              "MCQ": 1698,
+              "SHORT": 1143,
+              "LONG": 268
+            },
+            "importable": 3109,
+            "sourceFileTotal": 3109,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        }
+      ]
+    },
+    "Class 10": {
+      "subjectCount": {
+        "source": 22,
+        "mongo": 22,
+        "match": true
+      },
+      "subjectsOnlyInSource": [],
+      "subjectsOnlyInMongo": [],
+      "subjects": [
+        {
+          "name": "Biology",
+          "slug": "biology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 10,
+            "mongo": 10,
+            "match": true
+          },
+          "topics": {
+            "source": 36,
+            "mongo": 36,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 723,
+              "SHORT": 624,
+              "LONG": 139
+            },
+            "mongo": {
+              "MCQ": 723,
+              "SHORT": 624,
+              "LONG": 139
+            },
+            "importable": 1486,
+            "sourceFileTotal": 1486,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Chemistry",
+          "slug": "chemistry",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 92,
+            "mongo": 92,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1415,
+              "SHORT": 1340,
+              "LONG": 211
+            },
+            "mongo": {
+              "MCQ": 1415,
+              "SHORT": 1340,
+              "LONG": 211
+            },
+            "importable": 2966,
+            "sourceFileTotal": 2966,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "سوکس",
+          "slug": "civics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 110,
+              "SHORT": 190,
+              "LONG": 30
+            },
+            "mongo": {
+              "MCQ": 110,
+              "SHORT": 190,
+              "LONG": 30
+            },
+            "importable": 330,
+            "sourceFileTotal": 330,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Computer",
+          "slug": "computer",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 43,
+            "mongo": 43,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 679,
+              "SHORT": 648,
+              "LONG": 178
+            },
+            "mongo": {
+              "MCQ": 679,
+              "SHORT": 648,
+              "LONG": 178
+            },
+            "importable": 1505,
+            "sourceFileTotal": 1505,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "معاشیات",
+          "slug": "economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "topics": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 142,
+              "SHORT": 134,
+              "LONG": 62
+            },
+            "mongo": {
+              "MCQ": 142,
+              "SHORT": 134,
+              "LONG": 62
+            },
+            "importable": 338,
+            "sourceFileTotal": 338,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ایجوکیشن",
+          "slug": "education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 4,
+            "mongo": 4,
+            "match": true
+          },
+          "topics": {
+            "source": 12,
+            "mongo": 12,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 268,
+              "SHORT": 276,
+              "LONG": 44
+            },
+            "mongo": {
+              "MCQ": 268,
+              "SHORT": 276,
+              "LONG": 44
+            },
+            "importable": 588,
+            "sourceFileTotal": 588,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "English",
+          "slug": "english",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "topics": {
+            "source": 33,
+            "mongo": 33,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1766,
+              "SHORT": 601,
+              "LONG": 184
+            },
+            "mongo": {
+              "MCQ": 1766,
+              "SHORT": 601,
+              "LONG": 184
+            },
+            "importable": 2551,
+            "sourceFileTotal": 2551,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اخلاقیات",
+          "slug": "ethics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 11,
+            "mongo": 11,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 78,
+              "SHORT": 136,
+              "LONG": 29
+            },
+            "mongo": {
+              "MCQ": 78,
+              "SHORT": 136,
+              "LONG": 29
+            },
+            "importable": 243,
+            "sourceFileTotal": 243,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "غذا اور غذائیت",
+          "slug": "food-nutrition",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 281,
+              "SHORT": 405,
+              "LONG": 26
+            },
+            "mongo": {
+              "MCQ": 281,
+              "SHORT": 405,
+              "LONG": 26
+            },
+            "importable": 712,
+            "sourceFileTotal": 712,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "جنرل ریاضی",
+          "slug": "general-math",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 10,
+            "mongo": 10,
+            "match": true
+          },
+          "topics": {
+            "source": 36,
+            "mongo": 36,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 158,
+              "SHORT": 558,
+              "LONG": 345
+            },
+            "mongo": {
+              "MCQ": 158,
+              "SHORT": 558,
+              "LONG": 345
+            },
+            "importable": 1061,
+            "sourceFileTotal": 1061,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "General Science",
+          "slug": "general-science",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 44,
+            "mongo": 44,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 400,
+              "SHORT": 323,
+              "LONG": 92
+            },
+            "mongo": {
+              "MCQ": 400,
+              "SHORT": 323,
+              "LONG": 92
+            },
+            "importable": 815,
+            "sourceFileTotal": 815,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "slug": "home-economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "topics": {
+            "source": 22,
+            "mongo": 22,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 296,
+              "SHORT": 294,
+              "LONG": 53
+            },
+            "mongo": {
+              "MCQ": 296,
+              "SHORT": 294,
+              "LONG": 53
+            },
+            "importable": 643,
+            "sourceFileTotal": 643,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "slug": "islamiyat-compulsory",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "topics": {
+            "source": 30,
+            "mongo": 30,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 592,
+              "SHORT": 431,
+              "LONG": 38
+            },
+            "mongo": {
+              "MCQ": 592,
+              "SHORT": 431,
+              "LONG": 38
+            },
+            "importable": 1061,
+            "sourceFileTotal": 1062,
+            "skippedOnImportRules": 1,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "slug": "islamiyat-elective",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 4,
+            "mongo": 4,
+            "match": true
+          },
+          "topics": {
+            "source": 39,
+            "mongo": 39,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 497,
+              "SHORT": 590,
+              "LONG": 30
+            },
+            "mongo": {
+              "MCQ": 497,
+              "SHORT": 590,
+              "LONG": 30
+            },
+            "importable": 1117,
+            "sourceFileTotal": 1117,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Mathematics",
+          "slug": "mathematics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 12,
+            "mongo": 12,
+            "match": true
+          },
+          "topics": {
+            "source": 54,
+            "mongo": 54,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 458,
+              "SHORT": 698,
+              "LONG": 324
+            },
+            "mongo": {
+              "MCQ": 458,
+              "SHORT": 698,
+              "LONG": 324
+            },
+            "importable": 1480,
+            "sourceFileTotal": 1480,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Pakistan Studies",
+          "slug": "pakistan-studies",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 65,
+            "mongo": 65,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 968,
+              "SHORT": 1189,
+              "LONG": 105
+            },
+            "mongo": {
+              "MCQ": 968,
+              "SHORT": 1189,
+              "LONG": 105
+            },
+            "importable": 2262,
+            "sourceFileTotal": 2262,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "slug": "physical-education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 260,
+              "SHORT": 239,
+              "LONG": 15
+            },
+            "mongo": {
+              "MCQ": 260,
+              "SHORT": 239,
+              "LONG": 15
+            },
+            "importable": 514,
+            "sourceFileTotal": 514,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Physics",
+          "slug": "physics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 12,
+            "mongo": 12,
+            "match": true
+          },
+          "topics": {
+            "source": 77,
+            "mongo": 77,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 753,
+              "SHORT": 661,
+              "LONG": 186
+            },
+            "mongo": {
+              "MCQ": 753,
+              "SHORT": 661,
+              "LONG": 186
+            },
+            "importable": 1600,
+            "sourceFileTotal": 1600,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "مرغبانی",
+          "slug": "poultry",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 171,
+              "SHORT": 212,
+              "LONG": 31
+            },
+            "mongo": {
+              "MCQ": 171,
+              "SHORT": 212,
+              "LONG": 31
+            },
+            "importable": 414,
+            "sourceFileTotal": 414,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "پنجابی",
+          "slug": "punjabi",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 23,
+            "mongo": 23,
+            "match": true
+          },
+          "topics": {
+            "source": 25,
+            "mongo": 25,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 267,
+              "SHORT": 622,
+              "LONG": 128
+            },
+            "mongo": {
+              "MCQ": 267,
+              "SHORT": 622,
+              "LONG": 128
+            },
+            "importable": 1017,
+            "sourceFileTotal": 1017,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ترجمۃ القرآن المجید",
+          "slug": "tarjuma-quran",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "topics": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 260,
+              "SHORT": 330,
+              "LONG": 50
+            },
+            "mongo": {
+              "MCQ": 260,
+              "SHORT": 330,
+              "LONG": 50
+            },
+            "importable": 640,
+            "sourceFileTotal": 640,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اُردو لازمی",
+          "slug": "urdu-compulsory",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 21,
+            "mongo": 21,
+            "match": true
+          },
+          "topics": {
+            "source": 24,
+            "mongo": 24,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 876,
+              "SHORT": 742,
+              "LONG": 294
+            },
+            "mongo": {
+              "MCQ": 876,
+              "SHORT": 742,
+              "LONG": 294
+            },
+            "importable": 1912,
+            "sourceFileTotal": 1912,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        }
+      ]
+    },
+    "Class 11": {
+      "subjectCount": {
+        "source": 30,
+        "mongo": 30,
+        "match": true
+      },
+      "subjectsOnlyInSource": [],
+      "subjectsOnlyInMongo": [],
+      "subjects": [
+        {
+          "name": "Biology",
+          "slug": "biology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 11,
+            "mongo": 11,
+            "match": true
+          },
+          "topics": {
+            "source": 68,
+            "mongo": 68,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1848,
+              "SHORT": 1700,
+              "LONG": 227
+            },
+            "mongo": {
+              "MCQ": 1848,
+              "SHORT": 1700,
+              "LONG": 227
+            },
+            "importable": 3775,
+            "sourceFileTotal": 3973,
+            "skippedOnImportRules": 198,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Business Maths",
+          "slug": "business-maths",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 19,
+            "mongo": 19,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 485,
+              "SHORT": 817,
+              "LONG": 238
+            },
+            "mongo": {
+              "MCQ": 485,
+              "SHORT": 817,
+              "LONG": 238
+            },
+            "importable": 1540,
+            "sourceFileTotal": 1540,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Chemistry",
+          "slug": "chemistry",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 14,
+            "mongo": 14,
+            "match": true
+          },
+          "topics": {
+            "source": 165,
+            "mongo": 165,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1075,
+              "SHORT": 918,
+              "LONG": 112
+            },
+            "mongo": {
+              "MCQ": 1075,
+              "SHORT": 918,
+              "LONG": 112
+            },
+            "importable": 2105,
+            "sourceFileTotal": 2328,
+            "skippedOnImportRules": 223,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "سوکس",
+          "slug": "civics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 485,
+              "SHORT": 535,
+              "LONG": 91
+            },
+            "mongo": {
+              "MCQ": 485,
+              "SHORT": 535,
+              "LONG": 91
+            },
+            "importable": 1111,
+            "sourceFileTotal": 1111,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Computer",
+          "slug": "computer",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 53,
+            "mongo": 53,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 721,
+              "SHORT": 469,
+              "LONG": 204
+            },
+            "mongo": {
+              "MCQ": 721,
+              "SHORT": 469,
+              "LONG": 204
+            },
+            "importable": 1394,
+            "sourceFileTotal": 1394,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Economics",
+          "slug": "economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 12,
+            "mongo": 12,
+            "match": true
+          },
+          "topics": {
+            "source": 12,
+            "mongo": 12,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 583,
+              "SHORT": 411,
+              "LONG": 104
+            },
+            "mongo": {
+              "MCQ": 583,
+              "SHORT": 411,
+              "LONG": 104
+            },
+            "importable": 1098,
+            "sourceFileTotal": 1098,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ایجوکیشن",
+          "slug": "education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 673,
+              "SHORT": 796,
+              "LONG": 83
+            },
+            "mongo": {
+              "MCQ": 673,
+              "SHORT": 796,
+              "LONG": 83
+            },
+            "importable": 1552,
+            "sourceFileTotal": 1552,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "English",
+          "slug": "english",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 16,
+            "mongo": 16,
+            "match": true
+          },
+          "topics": {
+            "source": 30,
+            "mongo": 30,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1329,
+              "SHORT": 921,
+              "LONG": 188
+            },
+            "mongo": {
+              "MCQ": 1329,
+              "SHORT": 921,
+              "LONG": 188
+            },
+            "importable": 2438,
+            "sourceFileTotal": 2438,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اخلاقیات",
+          "slug": "ethics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 187,
+              "SHORT": 192,
+              "LONG": 31
+            },
+            "mongo": {
+              "MCQ": 187,
+              "SHORT": 192,
+              "LONG": 31
+            },
+            "importable": 410,
+            "sourceFileTotal": 410,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "حَدِیقَۃُ الاَدَبِ",
+          "slug": "hadeeqatul-adab",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 25,
+            "mongo": 25,
+            "match": true
+          },
+          "topics": {
+            "source": 25,
+            "mongo": 25,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 111,
+              "SHORT": 144,
+              "LONG": 0
+            },
+            "mongo": {
+              "MCQ": 111,
+              "SHORT": 144,
+              "LONG": 0
+            },
+            "importable": 255,
+            "sourceFileTotal": 255,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "تاریخِ اسلام",
+          "slug": "history-of-islam",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 24,
+            "mongo": 24,
+            "match": true
+          },
+          "topics": {
+            "source": 24,
+            "mongo": 24,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 644,
+              "SHORT": 945,
+              "LONG": 112
+            },
+            "mongo": {
+              "MCQ": 644,
+              "SHORT": 945,
+              "LONG": 112
+            },
+            "importable": 1701,
+            "sourceFileTotal": 1701,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "تاریخ پاکستان",
+          "slug": "history-of-pakistan",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "topics": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 362,
+              "SHORT": 256,
+              "LONG": 63
+            },
+            "mongo": {
+              "MCQ": 362,
+              "SHORT": 256,
+              "LONG": 63
+            },
+            "importable": 681,
+            "sourceFileTotal": 681,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "slug": "home-economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 11,
+            "mongo": 11,
+            "match": true
+          },
+          "topics": {
+            "source": 11,
+            "mongo": 11,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 172,
+              "SHORT": 278,
+              "LONG": 35
+            },
+            "mongo": {
+              "MCQ": 172,
+              "SHORT": 278,
+              "LONG": 35
+            },
+            "importable": 485,
+            "sourceFileTotal": 485,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "slug": "islamiyat-compulsory",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 7,
+            "mongo": 7,
+            "match": true
+          },
+          "topics": {
+            "source": 23,
+            "mongo": 23,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 715,
+              "SHORT": 549,
+              "LONG": 39
+            },
+            "mongo": {
+              "MCQ": 715,
+              "SHORT": 549,
+              "LONG": 39
+            },
+            "importable": 1303,
+            "sourceFileTotal": 1303,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "slug": "islamiyat-elective",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 10,
+            "mongo": 10,
+            "match": true
+          },
+          "topics": {
+            "source": 10,
+            "mongo": 10,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 357,
+              "SHORT": 457,
+              "LONG": 0
+            },
+            "mongo": {
+              "MCQ": 357,
+              "SHORT": 457,
+              "LONG": 0
+            },
+            "importable": 814,
+            "sourceFileTotal": 814,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "لائبریری سائنس",
+          "slug": "library-science",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 368,
+              "SHORT": 525,
+              "LONG": 36
+            },
+            "mongo": {
+              "MCQ": 368,
+              "SHORT": 525,
+              "LONG": 36
+            },
+            "importable": 929,
+            "sourceFileTotal": 929,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Mathematics",
+          "slug": "mathematics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 48,
+            "mongo": 48,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 516,
+              "SHORT": 769,
+              "LONG": 448
+            },
+            "mongo": {
+              "MCQ": 516,
+              "SHORT": 769,
+              "LONG": 448
+            },
+            "importable": 1733,
+            "sourceFileTotal": 1923,
+            "skippedOnImportRules": 190,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "فارسی",
+          "slug": "persian",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 31,
+            "mongo": 31,
+            "match": true
+          },
+          "topics": {
+            "source": 31,
+            "mongo": 31,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 150,
+              "SHORT": 199,
+              "LONG": 0
+            },
+            "mongo": {
+              "MCQ": 150,
+              "SHORT": 199,
+              "LONG": 0
+            },
+            "importable": 349,
+            "sourceFileTotal": 349,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "slug": "physical-education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 10,
+            "mongo": 10,
+            "match": true
+          },
+          "topics": {
+            "source": 17,
+            "mongo": 17,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 642,
+              "SHORT": 724,
+              "LONG": 50
+            },
+            "mongo": {
+              "MCQ": 642,
+              "SHORT": 724,
+              "LONG": 50
+            },
+            "importable": 1416,
+            "sourceFileTotal": 1416,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "طبعی جغرافیہ",
+          "slug": "physical-geography",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 109,
+              "SHORT": 223,
+              "LONG": 45
+            },
+            "mongo": {
+              "MCQ": 109,
+              "SHORT": 223,
+              "LONG": 45
+            },
+            "importable": 377,
+            "sourceFileTotal": 377,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Physics",
+          "slug": "physics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 12,
+            "mongo": 12,
+            "match": true
+          },
+          "topics": {
+            "source": 126,
+            "mongo": 126,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1245,
+              "SHORT": 696,
+              "LONG": 241
+            },
+            "mongo": {
+              "MCQ": 1245,
+              "SHORT": 696,
+              "LONG": 241
+            },
+            "importable": 2182,
+            "sourceFileTotal": 2182,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Principles of Accounting",
+          "slug": "principles-of-accounting",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "topics": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 401,
+              "SHORT": 433,
+              "LONG": 149
+            },
+            "mongo": {
+              "MCQ": 401,
+              "SHORT": 433,
+              "LONG": 149
+            },
+            "importable": 983,
+            "sourceFileTotal": 983,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Principles of Commerce",
+          "slug": "principles-of-commerce",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 26,
+            "mongo": 26,
+            "match": true
+          },
+          "topics": {
+            "source": 26,
+            "mongo": 26,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 484,
+              "SHORT": 501,
+              "LONG": 125
+            },
+            "mongo": {
+              "MCQ": 484,
+              "SHORT": 501,
+              "LONG": 125
+            },
+            "importable": 1110,
+            "sourceFileTotal": 1110,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Principles of Economics",
+          "slug": "principles-of-economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 959,
+              "SHORT": 532,
+              "LONG": 85
+            },
+            "mongo": {
+              "MCQ": 959,
+              "SHORT": 532,
+              "LONG": 85
+            },
+            "importable": 1576,
+            "sourceFileTotal": 1577,
+            "skippedOnImportRules": 1,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "نفسیات",
+          "slug": "psychology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 12,
+            "mongo": 12,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 552,
+              "SHORT": 635,
+              "LONG": 130
+            },
+            "mongo": {
+              "MCQ": 552,
+              "SHORT": 635,
+              "LONG": 130
+            },
+            "importable": 1317,
+            "sourceFileTotal": 1317,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "پنجابی",
+          "slug": "punjabi",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 37,
+            "mongo": 37,
+            "match": true
+          },
+          "topics": {
+            "source": 37,
+            "mongo": 37,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 522,
+              "SHORT": 563,
+              "LONG": 130
+            },
+            "mongo": {
+              "MCQ": 522,
+              "SHORT": 563,
+              "LONG": 130
+            },
+            "importable": 1215,
+            "sourceFileTotal": 1215,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "سوشیالوجی",
+          "slug": "sociology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "topics": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 526,
+              "SHORT": 341,
+              "LONG": 88
+            },
+            "mongo": {
+              "MCQ": 526,
+              "SHORT": 341,
+              "LONG": 88
+            },
+            "importable": 955,
+            "sourceFileTotal": 955,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Statistics",
+          "slug": "statistics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 51,
+            "mongo": 51,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 438,
+              "SHORT": 679,
+              "LONG": 242
+            },
+            "mongo": {
+              "MCQ": 438,
+              "SHORT": 679,
+              "LONG": 242
+            },
+            "importable": 1359,
+            "sourceFileTotal": 1359,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ترجمۃ القرآن مجید",
+          "slug": "tarjuma-quran",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 4,
+            "mongo": 4,
+            "match": true
+          },
+          "topics": {
+            "source": 4,
+            "mongo": 4,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 116,
+              "SHORT": 199,
+              "LONG": 53
+            },
+            "mongo": {
+              "MCQ": 116,
+              "SHORT": 199,
+              "LONG": 53
+            },
+            "importable": 368,
+            "sourceFileTotal": 368,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اُردو لازمی",
+          "slug": "urdu-compulsory",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 24,
+            "mongo": 24,
+            "match": true
+          },
+          "topics": {
+            "source": 40,
+            "mongo": 40,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1559,
+              "SHORT": 765,
+              "LONG": 87
+            },
+            "mongo": {
+              "MCQ": 1559,
+              "SHORT": 765,
+              "LONG": 87
+            },
+            "importable": 2411,
+            "sourceFileTotal": 2411,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        }
+      ]
+    },
+    "Class 12": {
+      "subjectCount": {
+        "source": 30,
+        "mongo": 30,
+        "match": true
+      },
+      "subjectsOnlyInSource": [],
+      "subjectsOnlyInMongo": [],
+      "subjects": [
+        {
+          "name": "Biology",
+          "slug": "biology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 75,
+            "mongo": 75,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1066,
+              "SHORT": 960,
+              "LONG": 120
+            },
+            "mongo": {
+              "MCQ": 1066,
+              "SHORT": 960,
+              "LONG": 120
+            },
+            "importable": 2146,
+            "sourceFileTotal": 2146,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Business Statistics",
+          "slug": "business-statistics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 346,
+              "SHORT": 292,
+              "LONG": 137
+            },
+            "mongo": {
+              "MCQ": 346,
+              "SHORT": 292,
+              "LONG": 137
+            },
+            "importable": 775,
+            "sourceFileTotal": 775,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Chemistry",
+          "slug": "chemistry",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 17,
+            "mongo": 17,
+            "match": true
+          },
+          "topics": {
+            "source": 28,
+            "mongo": 28,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 414,
+              "SHORT": 255,
+              "LONG": 37
+            },
+            "mongo": {
+              "MCQ": 414,
+              "SHORT": 255,
+              "LONG": 37
+            },
+            "importable": 706,
+            "sourceFileTotal": 706,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "سوکس",
+          "slug": "civics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 217,
+              "SHORT": 383,
+              "LONG": 62
+            },
+            "mongo": {
+              "MCQ": 217,
+              "SHORT": 383,
+              "LONG": 62
+            },
+            "importable": 662,
+            "sourceFileTotal": 662,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Commercial Geography",
+          "slug": "commercial-geography",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 19,
+            "mongo": 18,
+            "match": false
+          },
+          "topics": {
+            "source": 45,
+            "mongo": 44,
+            "match": false
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1079,
+              "SHORT": 819,
+              "LONG": 93
+            },
+            "mongo": {
+              "MCQ": 1079,
+              "SHORT": 819,
+              "LONG": 93
+            },
+            "importable": 1991,
+            "sourceFileTotal": 1991,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": {
+            "onlySourceCount": 0,
+            "onlyMongoCount": 0
+          }
+        },
+        {
+          "name": "Computer",
+          "slug": "computer",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 69,
+            "mongo": 69,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 675,
+              "SHORT": 636,
+              "LONG": 161
+            },
+            "mongo": {
+              "MCQ": 675,
+              "SHORT": 636,
+              "LONG": 161
+            },
+            "importable": 1472,
+            "sourceFileTotal": 1472,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Economics",
+          "slug": "economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "topics": {
+            "source": 13,
+            "mongo": 13,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 969,
+              "SHORT": 693,
+              "LONG": 88
+            },
+            "mongo": {
+              "MCQ": 969,
+              "SHORT": 693,
+              "LONG": 88
+            },
+            "importable": 1750,
+            "sourceFileTotal": 1755,
+            "skippedOnImportRules": 5,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ایجوکیشن",
+          "slug": "education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 688,
+              "SHORT": 942,
+              "LONG": 98
+            },
+            "mongo": {
+              "MCQ": 688,
+              "SHORT": 942,
+              "LONG": 98
+            },
+            "importable": 1728,
+            "sourceFileTotal": 1728,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "English",
+          "slug": "english",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 14,
+            "mongo": 14,
+            "match": true
+          },
+          "topics": {
+            "source": 23,
+            "mongo": 23,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 962,
+              "SHORT": 1013,
+              "LONG": 36
+            },
+            "mongo": {
+              "MCQ": 962,
+              "SHORT": 1013,
+              "LONG": 36
+            },
+            "importable": 2011,
+            "sourceFileTotal": 2011,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اخلاقیات",
+          "slug": "ethics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "topics": {
+            "source": 5,
+            "mongo": 5,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 45,
+              "SHORT": 47,
+              "LONG": 19
+            },
+            "mongo": {
+              "MCQ": 45,
+              "SHORT": 47,
+              "LONG": 19
+            },
+            "importable": 111,
+            "sourceFileTotal": 111,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "حَدِیقَۃُ الاَدَبِ",
+          "slug": "hadeeqatul-adab",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 25,
+            "mongo": 25,
+            "match": true
+          },
+          "topics": {
+            "source": 25,
+            "mongo": 25,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 167,
+              "SHORT": 144,
+              "LONG": 0
+            },
+            "mongo": {
+              "MCQ": 167,
+              "SHORT": 144,
+              "LONG": 0
+            },
+            "importable": 311,
+            "sourceFileTotal": 311,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "تاریخِ اسلام",
+          "slug": "history-of-islam",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 17,
+            "mongo": 17,
+            "match": true
+          },
+          "topics": {
+            "source": 17,
+            "mongo": 17,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 599,
+              "SHORT": 834,
+              "LONG": 103
+            },
+            "mongo": {
+              "MCQ": 599,
+              "SHORT": 834,
+              "LONG": 103
+            },
+            "importable": 1536,
+            "sourceFileTotal": 1536,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "تاریخِ پاکستان",
+          "slug": "history-of-pakistan",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 227,
+              "SHORT": 283,
+              "LONG": 52
+            },
+            "mongo": {
+              "MCQ": 227,
+              "SHORT": 283,
+              "LONG": 52
+            },
+            "importable": 562,
+            "sourceFileTotal": 562,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "slug": "home-economics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 18,
+            "mongo": 18,
+            "match": true
+          },
+          "topics": {
+            "source": 18,
+            "mongo": 18,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 356,
+              "SHORT": 491,
+              "LONG": 72
+            },
+            "mongo": {
+              "MCQ": 356,
+              "SHORT": 491,
+              "LONG": 72
+            },
+            "importable": 919,
+            "sourceFileTotal": 919,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اِنسانی جغرافیہ",
+          "slug": "human-geography",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 93,
+              "SHORT": 217,
+              "LONG": 35
+            },
+            "mongo": {
+              "MCQ": 93,
+              "SHORT": 217,
+              "LONG": 35
+            },
+            "importable": 345,
+            "sourceFileTotal": 345,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "slug": "islamiyat-elective",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 23,
+            "mongo": 23,
+            "match": true
+          },
+          "topics": {
+            "source": 23,
+            "mongo": 23,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 373,
+              "SHORT": 424,
+              "LONG": 0
+            },
+            "mongo": {
+              "MCQ": 373,
+              "SHORT": 424,
+              "LONG": 0
+            },
+            "importable": 797,
+            "sourceFileTotal": 797,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "لائبریری سائنس",
+          "slug": "library-science",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 4,
+            "mongo": 4,
+            "match": true
+          },
+          "topics": {
+            "source": 4,
+            "mongo": 4,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 357,
+              "SHORT": 743,
+              "LONG": 44
+            },
+            "mongo": {
+              "MCQ": 357,
+              "SHORT": 743,
+              "LONG": 44
+            },
+            "importable": 1144,
+            "sourceFileTotal": 1144,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Mathematics",
+          "slug": "mathematics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 11,
+            "mongo": 11,
+            "match": true
+          },
+          "topics": {
+            "source": 43,
+            "mongo": 43,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 117,
+              "SHORT": 1083,
+              "LONG": 0
+            },
+            "mongo": {
+              "MCQ": 117,
+              "SHORT": 1083,
+              "LONG": 0
+            },
+            "importable": 1200,
+            "sourceFileTotal": 1200,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Pakistan Studies",
+          "slug": "pakistan-studies",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 6,
+            "mongo": 6,
+            "match": true
+          },
+          "topics": {
+            "source": 61,
+            "mongo": 61,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 919,
+              "SHORT": 1240,
+              "LONG": 84
+            },
+            "mongo": {
+              "MCQ": 919,
+              "SHORT": 1240,
+              "LONG": 84
+            },
+            "importable": 2243,
+            "sourceFileTotal": 2243,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "فارسی",
+          "slug": "persian",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 30,
+            "mongo": 30,
+            "match": true
+          },
+          "topics": {
+            "source": 30,
+            "mongo": 30,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 120,
+              "SHORT": 179,
+              "LONG": 0
+            },
+            "mongo": {
+              "MCQ": 120,
+              "SHORT": 179,
+              "LONG": 0
+            },
+            "importable": 299,
+            "sourceFileTotal": 299,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "slug": "physical-education",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 638,
+              "SHORT": 634,
+              "LONG": 35
+            },
+            "mongo": {
+              "MCQ": 638,
+              "SHORT": 634,
+              "LONG": 35
+            },
+            "importable": 1307,
+            "sourceFileTotal": 1307,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Physics",
+          "slug": "physics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 94,
+            "mongo": 94,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 375,
+              "SHORT": 364,
+              "LONG": 64
+            },
+            "mongo": {
+              "MCQ": 375,
+              "SHORT": 364,
+              "LONG": 64
+            },
+            "importable": 803,
+            "sourceFileTotal": 803,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Principles of Accounting",
+          "slug": "principles-of-accounting",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "topics": {
+            "source": 9,
+            "mongo": 9,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 533,
+              "SHORT": 238,
+              "LONG": 120
+            },
+            "mongo": {
+              "MCQ": 533,
+              "SHORT": 238,
+              "LONG": 120
+            },
+            "importable": 891,
+            "sourceFileTotal": 891,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Principles of Banking",
+          "slug": "principles-of-banking",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "topics": {
+            "source": 15,
+            "mongo": 15,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 560,
+              "SHORT": 492,
+              "LONG": 142
+            },
+            "mongo": {
+              "MCQ": 560,
+              "SHORT": 492,
+              "LONG": 142
+            },
+            "importable": 1194,
+            "sourceFileTotal": 1194,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "نفسیات",
+          "slug": "psychology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 4,
+            "mongo": 4,
+            "match": true
+          },
+          "topics": {
+            "source": 19,
+            "mongo": 19,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 340,
+              "SHORT": 388,
+              "LONG": 96
+            },
+            "mongo": {
+              "MCQ": 340,
+              "SHORT": 388,
+              "LONG": 96
+            },
+            "importable": 824,
+            "sourceFileTotal": 824,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "پنجابی",
+          "slug": "punjabi",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 32,
+            "mongo": 32,
+            "match": true
+          },
+          "topics": {
+            "source": 32,
+            "mongo": 32,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 619,
+              "SHORT": 588,
+              "LONG": 125
+            },
+            "mongo": {
+              "MCQ": 619,
+              "SHORT": 588,
+              "LONG": 125
+            },
+            "importable": 1332,
+            "sourceFileTotal": 1332,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "سوشیالوجی",
+          "slug": "sociology",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 14,
+            "mongo": 14,
+            "match": true
+          },
+          "topics": {
+            "source": 14,
+            "mongo": 14,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 590,
+              "SHORT": 432,
+              "LONG": 83
+            },
+            "mongo": {
+              "MCQ": 590,
+              "SHORT": 432,
+              "LONG": 83
+            },
+            "importable": 1105,
+            "sourceFileTotal": 1105,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "Statistics",
+          "slug": "statistics",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 8,
+            "mongo": 8,
+            "match": true
+          },
+          "topics": {
+            "source": 71,
+            "mongo": 71,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 496,
+              "SHORT": 650,
+              "LONG": 420
+            },
+            "mongo": {
+              "MCQ": 496,
+              "SHORT": 650,
+              "LONG": 420
+            },
+            "importable": 1566,
+            "sourceFileTotal": 1566,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "ترجمۃ القرآن مجید",
+          "slug": "tarjuma-quran",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 17,
+            "mongo": 17,
+            "match": true
+          },
+          "topics": {
+            "source": 17,
+            "mongo": 17,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 347,
+              "SHORT": 337,
+              "LONG": 63
+            },
+            "mongo": {
+              "MCQ": 347,
+              "SHORT": 337,
+              "LONG": 63
+            },
+            "importable": 747,
+            "sourceFileTotal": 747,
+            "skippedOnImportRules": 0,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        },
+        {
+          "name": "اُردو لازمی",
+          "slug": "urdu-compulsory",
+          "foundInMongo": true,
+          "chapters": {
+            "source": 24,
+            "mongo": 24,
+            "match": true
+          },
+          "topics": {
+            "source": 28,
+            "mongo": 28,
+            "match": true
+          },
+          "types": {
+            "source": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "mongo": [
+              "MCQ",
+              "SHORT",
+              "LONG"
+            ],
+            "match": true
+          },
+          "counts": {
+            "source": {
+              "MCQ": 1305,
+              "SHORT": 115,
+              "LONG": 104
+            },
+            "mongo": {
+              "MCQ": 1305,
+              "SHORT": 115,
+              "LONG": 104
+            },
+            "importable": 1524,
+            "sourceFileTotal": 1552,
+            "skippedOnImportRules": 28,
+            "match": true
+          },
+          "chapterNameDiff": {
+            "onlyA": [],
+            "onlyB": []
+          },
+          "topicIssues": []
+        }
+      ]
+    }
+  },
+  "summary": {
+    "subjectsMatch": true,
+    "chaptersMatch": false,
+    "topicsMatch": false,
+    "typesMatch": true,
+    "countsMatch": true,
+    "subjectMismatches": [],
+    "chapterMismatches": [
+      {
+        "class": "Class 12",
+        "subject": "Commercial Geography",
+        "sourceCount": 19,
+        "mongoCount": 18,
+        "onlySource": [],
+        "onlyMongo": []
+      }
+    ],
+    "topicMismatches": [
+      {
+        "class": "Class 12",
+        "subject": "Commercial Geography",
+        "sourceCount": 45,
+        "mongoCount": 44,
+        "onlySourceSample": [],
+        "onlyMongoSample": [],
+        "onlySourceCount": 0,
+        "onlyMongoCount": 0
+      }
+    ],
+    "typeMismatches": [],
+    "countMismatches": []
+  }
+}

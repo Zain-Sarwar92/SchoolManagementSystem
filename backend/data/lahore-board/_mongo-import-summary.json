@@ -1,0 +1,17 @@
+[
+  {
+    "classFolder": "10th",
+    "subject": "English",
+    "slug": "english",
+    "chapters": 15,
+    "totalSource": 2551,
+    "created": 2551,
+    "updated": 0,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 1766,
+      "SHORT": 601,
+      "LONG": 184
+    }
+  }
+]

@@ -1,0 +1,222 @@
+{
+  "board": "PTB",
+  "class": "TWO",
+  "subject": "Mathematics",
+  "slug": "mathematics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Whole Numbers",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "1.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "1.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "1.4",
+          "title": "Exercise 4"
+        },
+        {
+          "id": "1.R",
+          "title": "Review Exercise 1"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chap 2 Numbers Operations: Addition",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "2.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "2.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "2.1",
+          "title": "Review Exercise 2"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chap 2 Numbers Operations: Subtraction",
+      "topics": [
+        {
+          "id": "2.4",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "2.5",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "2.6",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "2.2",
+          "title": "Review Exercise 2"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chap 2 Numbers Operations: Multiplication",
+      "topics": [
+        {
+          "id": "2.7",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "2.8",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "2.3",
+          "title": "Review Exercise 2"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Chap 2 Numbers Operations: Division",
+      "topics": [
+        {
+          "id": "2.9",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "2.4",
+          "title": "Review Exercise 2"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Fractions",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "3.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "3.R",
+          "title": "Review Exercise 3"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Measurement (Length, Mass, Capacity)",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "4.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "4.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "4.4",
+          "title": "Exercise 4"
+        },
+        {
+          "id": "4.5",
+          "title": "Exercise 5"
+        },
+        {
+          "id": "4.6",
+          "title": "Exercise 6"
+        },
+        {
+          "id": "4.R",
+          "title": "Review Exercise 4"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Time",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Reading and Writing the Time"
+        },
+        {
+          "id": "5.2",
+          "title": "Usage of a.M. and P.M. in Time"
+        },
+        {
+          "id": "5.3",
+          "title": "Drawing Hands of the Clock"
+        },
+        {
+          "id": "5.4",
+          "title": "Solar Calendar"
+        },
+        {
+          "id": "5.5",
+          "title": "Lunar Calendar"
+        },
+        {
+          "id": "5.R",
+          "title": "Review Exercise 5"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Geometry",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "6.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "6.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "6.4",
+          "title": "Exercise 4"
+        },
+        {
+          "id": "6.5",
+          "title": "Exercise 5"
+        },
+        {
+          "id": "6.R",
+          "title": "Review Exercise 6"
+        }
+      ]
+    }
+  ]
+}

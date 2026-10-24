@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "english",
+    "subject": "English",
+    "counts": {
+      "mcq": 1329,
+      "short": 921,
+      "long": 188
+    },
+    "fieldCounts": {
+      "COMPREHENSION": 608,
+      "QA": 614,
+      "PAIR": 307,
+      "TRANSLATE_UR": 110,
+      "POEM_STANZA": 21,
+      "SYNONYM": 721,
+      "PUNCTUATION": 57
+    },
+    "total": 2438
+  }
+]

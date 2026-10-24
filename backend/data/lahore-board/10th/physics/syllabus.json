@@ -1,0 +1,388 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "Physics",
+  "slug": "physics",
+  "chapters": [
+    {
+      "number": 10,
+      "title": "Thermal Physics",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Thermal Expansion"
+        },
+        {
+          "id": "10.2",
+          "title": "Specific Heat Capacity"
+        },
+        {
+          "id": "10.3",
+          "title": "Change in State"
+        },
+        {
+          "id": "10.4",
+          "title": "Evaporation"
+        },
+        {
+          "id": "10.5",
+          "title": "Latent Heat"
+        },
+        {
+          "id": "10.6",
+          "title": "Superconductivity"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Transfer of Thermal Energy",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Conduction"
+        },
+        {
+          "id": "11.2",
+          "title": "Convection in Liquids and Gases"
+        },
+        {
+          "id": "11.3",
+          "title": "Heat Transfer Through Radiation"
+        },
+        {
+          "id": "11.4",
+          "title": "Greenhouse Effect"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Waves",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Waves and Nature of Waves"
+        },
+        {
+          "id": "12.2",
+          "title": "Types of Waves"
+        },
+        {
+          "id": "12.3",
+          "title": "Terms and Parameters of Waves"
+        },
+        {
+          "id": "12.4",
+          "title": "Properties of Waves"
+        },
+        {
+          "id": "12.5",
+          "title": "Seismic and Tsunami Waves"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Sound",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Production and Propagation of Sound"
+        },
+        {
+          "id": "13.2",
+          "title": "Speed of Sound"
+        },
+        {
+          "id": "13.3",
+          "title": "Characteristics of Sound"
+        },
+        {
+          "id": "13.4",
+          "title": "Reflection of Sound (Echo)"
+        },
+        {
+          "id": "13.5",
+          "title": "Refraction and Diffraction of Sound"
+        },
+        {
+          "id": "13.6",
+          "title": "Audible Frequency"
+        },
+        {
+          "id": "13.7",
+          "title": "Acoustic Protection of Buildings"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Light",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Reflection of Light"
+        },
+        {
+          "id": "14.2",
+          "title": "Refraction of Light"
+        },
+        {
+          "id": "14.3",
+          "title": "Optical Fibre"
+        },
+        {
+          "id": "14.4",
+          "title": "Thin Lenses"
+        },
+        {
+          "id": "14.5",
+          "title": "Optical Devices"
+        },
+        {
+          "id": "14.6",
+          "title": "Image Formation in a Normal Eye"
+        },
+        {
+          "id": "14.7",
+          "title": "Gravitational Lens and Acoustic Lens"
+        },
+        {
+          "id": "14.8",
+          "title": "Dispersion of Light By Prism"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Electrostatics",
+      "topics": [
+        {
+          "id": "15.1",
+          "title": "Electric Charge"
+        },
+        {
+          "id": "15.2",
+          "title": "Electrostatic Induction"
+        },
+        {
+          "id": "15.3",
+          "title": "Applications of Electrostatics"
+        },
+        {
+          "id": "15.4",
+          "title": "Coulomb'S Law"
+        },
+        {
+          "id": "15.5",
+          "title": "Electric Field"
+        },
+        {
+          "id": "15.6",
+          "title": "Conduction of Electric Charges"
+        },
+        {
+          "id": "15.7",
+          "title": "Accumulation of Charges"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Electricity",
+      "topics": [
+        {
+          "id": "16.1",
+          "title": "Electric Current"
+        },
+        {
+          "id": "16.2",
+          "title": "Electromotive Force and Potential Difference"
+        },
+        {
+          "id": "16.3",
+          "title": "Ohm'S Law"
+        },
+        {
+          "id": "16.4",
+          "title": "Combination of Resistances"
+        },
+        {
+          "id": "16.5",
+          "title": "Electrical Resistivity"
+        },
+        {
+          "id": "16.6",
+          "title": "Potential Divider Circuit"
+        },
+        {
+          "id": "16.7",
+          "title": "Resistor Colour Codes"
+        },
+        {
+          "id": "16.8",
+          "title": "Common Use of Electricity"
+        },
+        {
+          "id": "16.9",
+          "title": "Electric Power"
+        },
+        {
+          "id": "16.10",
+          "title": "Household Circuits and Safety Measures"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Electromagnetism",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Magnetic Effect of Steady Current"
+        },
+        {
+          "id": "17.2",
+          "title": "Force On a Current-Carrying Conductor in a Magnetic Field"
+        },
+        {
+          "id": "17.3",
+          "title": "Turning Effect On a Current-Carrying Coil in Magnetic Field"
+        },
+        {
+          "id": "17.4",
+          "title": "Electric Motor"
+        },
+        {
+          "id": "17.5",
+          "title": "Use of Magnetic Effects of Current"
+        },
+        {
+          "id": "17.6",
+          "title": "Earth'S Magnetic Field"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Electromagnetic Induction and Electromagnetic Waves",
+      "topics": [
+        {
+          "id": "18.1",
+          "title": "Electromagnetic Induction"
+        },
+        {
+          "id": "18.2",
+          "title": "a.C. Generator"
+        },
+        {
+          "id": "18.3",
+          "title": "Transformer"
+        },
+        {
+          "id": "18.4",
+          "title": "Deflection of Electron Beam in Electric and Magnetic Fields"
+        },
+        {
+          "id": "18.5",
+          "title": "Waveform On Oscilloscope"
+        },
+        {
+          "id": "18.6",
+          "title": "Scattering of Light in the Atmosphere"
+        },
+        {
+          "id": "18.7",
+          "title": "Particle Nature of Light"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Electronics",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Semiconductors"
+        },
+        {
+          "id": "19.2",
+          "title": "Analog and Digital Electronics"
+        },
+        {
+          "id": "19.3",
+          "title": "Boolean Logic"
+        },
+        {
+          "id": "19.4",
+          "title": "Logic Gates"
+        },
+        {
+          "id": "19.5",
+          "title": "Applications of Logic Gates"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Atomic and Nuclear Physics",
+      "topics": [
+        {
+          "id": "20.1",
+          "title": "Atomic Structure"
+        },
+        {
+          "id": "20.2",
+          "title": "Atomic Nucleus"
+        },
+        {
+          "id": "20.3",
+          "title": "Isotopes"
+        },
+        {
+          "id": "20.4",
+          "title": "Radioactivity"
+        },
+        {
+          "id": "20.5",
+          "title": "Radioactive Decay"
+        },
+        {
+          "id": "20.6",
+          "title": "Nuclear Reactions"
+        },
+        {
+          "id": "20.7",
+          "title": "Interconversion of Matter and Energy"
+        },
+        {
+          "id": "20.8",
+          "title": "Half-Life"
+        },
+        {
+          "id": "20.9",
+          "title": "Effect and Uses of Nuclear Radiation"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Space and Environment",
+      "topics": [
+        {
+          "id": "21.1",
+          "title": "Sun and Planetary Data"
+        },
+        {
+          "id": "21.2",
+          "title": "Global Warming and Geothermal Activity"
+        },
+        {
+          "id": "21.3",
+          "title": "Radiation Exposure"
+        }
+      ]
+    }
+  ]
+}

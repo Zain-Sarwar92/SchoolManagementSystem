@@ -1,0 +1,606 @@
+{
+  "board": "PTB",
+  "class": "12",
+  "subject": "CHEMISTRY",
+  "slug": "chemistry",
+  "chapters": [
+    {
+      "number": 17,
+      "title": "Group 2 Elements",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Properties and Trends of Group 2 Elements"
+        },
+        {
+          "id": "17.2",
+          "title": "Chemical Reactions of Group 2 Elements"
+        },
+        {
+          "id": "17.3",
+          "title": "Comparison of Group 2 Elements with Group 1 Elements"
+        },
+        {
+          "id": "17.4",
+          "title": "Thermal Decomposition of Carbonates and Nitrates"
+        },
+        {
+          "id": "17.5",
+          "title": "Solubility of Group 2 Sulphates and Hydroxides"
+        },
+        {
+          "id": "17.6",
+          "title": "Complex Ion Formation"
+        },
+        {
+          "id": "17.7",
+          "title": "Extraction and Purification of Group 2 Elements and Their Compounds"
+        },
+        {
+          "id": "17.8",
+          "title": "Uses of Group 2 Compounds"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Transition Metals",
+      "topics": [
+        {
+          "id": "18.1",
+          "title": "First Row Transition Elements (3d)"
+        },
+        {
+          "id": "18.2",
+          "title": "Properties of Transition Elements"
+        },
+        {
+          "id": "18.3",
+          "title": "Transition Metal Complexes"
+        },
+        {
+          "id": "18.4",
+          "title": "Predicting Formula and Charge of a Complexion"
+        },
+        {
+          "id": "18.5",
+          "title": "Geometry of Transition Metal Complexes"
+        },
+        {
+          "id": "18.6",
+          "title": "Colour of Complexes"
+        },
+        {
+          "id": "18.7",
+          "title": "Ligand Exchange Reactions of Complexes"
+        },
+        {
+          "id": "18.8",
+          "title": "Stability of Complexes and Stability Constant, K/Stab"
+        },
+        {
+          "id": "18.9",
+          "title": "Stereoisomerism in Transition Metal Complexes"
+        },
+        {
+          "id": "18.10",
+          "title": "Redox Reactions of Transition Metals"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Basics of Organic Chemistry",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Catenation"
+        },
+        {
+          "id": "19.2",
+          "title": "Hydrocarbons (Compounds of Carbon and Hydrogen Only)"
+        },
+        {
+          "id": "19.3",
+          "title": "Functional Groups"
+        },
+        {
+          "id": "19.4",
+          "title": "Nomenclature of Aliphatic Organic Compounds"
+        },
+        {
+          "id": "19.5",
+          "title": "Representing Organic Molecules"
+        },
+        {
+          "id": "19.6",
+          "title": "Deermination of the Molecular Formula"
+        },
+        {
+          "id": "19.7",
+          "title": "Understanding Organic Reactions"
+        },
+        {
+          "id": "19.8",
+          "title": "Mechanisms of Chemical Reactions"
+        },
+        {
+          "id": "19.9",
+          "title": "Isomerism"
+        },
+        {
+          "id": "19.10",
+          "title": "Stereochemistry in Drug Development"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Aromatic Hydrocarbons",
+      "topics": [
+        {
+          "id": "20.1",
+          "title": "Structure of Benzene"
+        },
+        {
+          "id": "20.2",
+          "title": "Nomenclature of Benzene Derived Compounds"
+        },
+        {
+          "id": "20.3",
+          "title": "Comparison of Reactivity of Benzene with Alkanes and Alkenes"
+        },
+        {
+          "id": "20.4",
+          "title": "Electrophilic Aromatic Substitution"
+        },
+        {
+          "id": "20.5",
+          "title": "Orientation in Electrophilic Substitution Reactions"
+        },
+        {
+          "id": "20.6",
+          "title": "Other Reactions of Benzene"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Halogenoalkanes",
+      "topics": [
+        {
+          "id": "21.1",
+          "title": "Preparation of Halogenoalkanes"
+        },
+        {
+          "id": "21.2",
+          "title": "Reactivity of Halogenoalkanes"
+        },
+        {
+          "id": "21.3",
+          "title": "Reactions of Halogenoalkanes"
+        },
+        {
+          "id": "21.4",
+          "title": "Examples of Reactions of Halogenoalkanes"
+        },
+        {
+          "id": "21.5",
+          "title": "Halogenoarenes"
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "title": "Hydroxy Compounds",
+      "topics": [
+        {
+          "id": "22.1",
+          "title": "Alcohols"
+        },
+        {
+          "id": "22.2",
+          "title": "Acidity of Alcohols and Phenols"
+        },
+        {
+          "id": "22.3",
+          "title": "Synthesis of Alcohols"
+        },
+        {
+          "id": "22.4",
+          "title": "Reactions of Alcohols"
+        },
+        {
+          "id": "22.5",
+          "title": "Phenols"
+        },
+        {
+          "id": "22.6",
+          "title": "Reactions of Phenol"
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "title": "Carbonyl Compounds and Carboxylic Acids",
+      "topics": [
+        {
+          "id": "23.1",
+          "title": "Carbonyl Compounds"
+        },
+        {
+          "id": "23.2",
+          "title": "Reactions of Carbonyl Compounds"
+        },
+        {
+          "id": "23.3",
+          "title": "Oxidation of Aldehydes and Ketones"
+        },
+        {
+          "id": "23.4",
+          "title": "Carboxylic Acids"
+        },
+        {
+          "id": "23.5",
+          "title": "Reactions of Carboxylic Acids"
+        },
+        {
+          "id": "23.6",
+          "title": "Relative Acidic Strength of Carboxylic Acids"
+        },
+        {
+          "id": "23.7",
+          "title": "Esters"
+        },
+        {
+          "id": "23.8",
+          "title": "Acyl Chlorides"
+        },
+        {
+          "id": "23.9",
+          "title": "Hydrolysis of Acyl Chlorides, Alkyl Chlorides and Aryl Chlorides"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Organic Nitrogen Compounds",
+      "topics": [
+        {
+          "id": "24.1",
+          "title": "Amines"
+        },
+        {
+          "id": "24.2",
+          "title": "Preparation of Amines"
+        },
+        {
+          "id": "24.3",
+          "title": "Reactions of Amines"
+        },
+        {
+          "id": "24.4",
+          "title": "Alkanenitriles"
+        },
+        {
+          "id": "24.5",
+          "title": "Amides"
+        },
+        {
+          "id": "24.6",
+          "title": "Amino Acids"
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "title": "Organic Synthesis",
+      "topics": [
+        {
+          "id": "25.1",
+          "title": "Synthesis and Retrosynthesis"
+        },
+        {
+          "id": "25.2",
+          "title": "Retrosynthesis and Systhesis of Some Compounds"
+        },
+        {
+          "id": "25.3",
+          "title": "Systhesis of Pharmaceutical Products"
+        },
+        {
+          "id": "25.4",
+          "title": "Use of Artificial Intelligence (Ai) in Drug Designing"
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "title": "Polymers",
+      "topics": [
+        {
+          "id": "26.1",
+          "title": "Polymerisation"
+        },
+        {
+          "id": "26.2",
+          "title": "Nylon"
+        },
+        {
+          "id": "26.3",
+          "title": "Identification of the Type of a Polymer, Repeat Unit and Monomers From a Polymer Section"
+        },
+        {
+          "id": "26.4",
+          "title": "Using Monomer(S) to Predict the Type of Polymerisation"
+        },
+        {
+          "id": "26.5",
+          "title": "Challenge of Non-Degradable Polymers"
+        },
+        {
+          "id": "26.6",
+          "title": "Polymers in Artificial Organs"
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "title": "Biochemistry",
+      "topics": [
+        {
+          "id": "27.1",
+          "title": "Carbohydrates"
+        },
+        {
+          "id": "27.2",
+          "title": "Proteins"
+        },
+        {
+          "id": "27.3",
+          "title": "Enzymes As Biocaralysts"
+        },
+        {
+          "id": "27.4",
+          "title": "Lipids"
+        },
+        {
+          "id": "27.5",
+          "title": "Nucleic Acids"
+        },
+        {
+          "id": "27.6",
+          "title": "Minerals"
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "title": "Chromatography",
+      "topics": [
+        {
+          "id": "28.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "28.2",
+          "title": "Paper Chromatography"
+        },
+        {
+          "id": "28.3",
+          "title": "Thin-Layer Chromatography"
+        },
+        {
+          "id": "28.4",
+          "title": "Gas Chromatography"
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "title": "Spectroscopy-1",
+      "topics": [
+        {
+          "id": "29.1",
+          "title": "Index of Hydrogen Deficiency (Ihd)"
+        },
+        {
+          "id": "29.2",
+          "title": "Atomic Spectrum"
+        },
+        {
+          "id": "29.3",
+          "title": "Spectroscopy"
+        },
+        {
+          "id": "29.4",
+          "title": "Uv/Visible Spectroscopy"
+        },
+        {
+          "id": "29.5",
+          "title": "Infrared Spectroscopy"
+        },
+        {
+          "id": "29.6",
+          "title": "Mass Spectroscopy"
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "title": "Spectroscopy-2 Nmr",
+      "topics": [
+        {
+          "id": "30.1",
+          "title": "Principle of Proton (1h) Nmr"
+        },
+        {
+          "id": "30.2",
+          "title": "Solvents for Nmr Spectroscopy"
+        },
+        {
+          "id": "30.3",
+          "title": "Chemical Environment and Chemical Shift (Sigma)"
+        },
+        {
+          "id": "30.4",
+          "title": "Interpretation of 1h Nmr Spectra"
+        },
+        {
+          "id": "30.5",
+          "title": "Prediction of 1h Spectrum for a Given Molecule"
+        },
+        {
+          "id": "30.6",
+          "title": "Determination of the Possible Structure of a Molecule From 1h Nmr"
+        },
+        {
+          "id": "30.7",
+          "title": "13c Nmr Spectroscopy"
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "title": "Materials and Energy",
+      "topics": [
+        {
+          "id": "31.1",
+          "title": "Materials"
+        },
+        {
+          "id": "31.2",
+          "title": "Toxicity and Recycleing in Material Science"
+        },
+        {
+          "id": "31.3",
+          "title": "X-Ray Crystallography and Structure Analysis"
+        },
+        {
+          "id": "31.4",
+          "title": "Fossil Fuels"
+        },
+        {
+          "id": "31.5",
+          "title": "Fractioonal Distillation and Refining of Petroleum"
+        },
+        {
+          "id": "31.6",
+          "title": "Petrochemicals"
+        },
+        {
+          "id": "31.7",
+          "title": "Energy Density and Specific Energy"
+        },
+        {
+          "id": "31.8",
+          "title": "Nuclear Energy-Fissionand Fusion"
+        },
+        {
+          "id": "31.9",
+          "title": "Solar Energy and Photovoltaic Cells"
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "title": "Medicien, Agriculture and Industry",
+      "topics": [
+        {
+          "id": "32.1",
+          "title": "Therapeutic Index and Therapeutic Window"
+        },
+        {
+          "id": "32.2",
+          "title": "Importance of Ph in Stomach"
+        },
+        {
+          "id": "32.3",
+          "title": "Mechanism of Drug Action"
+        },
+        {
+          "id": "32.4",
+          "title": "Chalkenges in Treating Viral Infections"
+        },
+        {
+          "id": "32.5",
+          "title": "Fertilizers"
+        },
+        {
+          "id": "32.6",
+          "title": "Pesticides"
+        },
+        {
+          "id": "32.7",
+          "title": "Acid Rain"
+        },
+        {
+          "id": "32.8",
+          "title": "Effect of Climate Change On Crops"
+        },
+        {
+          "id": "32.9",
+          "title": "Genetic Engineering"
+        },
+        {
+          "id": "32.10",
+          "title": "Raw Materials in Pakistan"
+        },
+        {
+          "id": "32.11",
+          "title": "Chemical Industries and Pakistan'S Economy"
+        },
+        {
+          "id": "32.12",
+          "title": "Industrial Chemical Processes"
+        },
+        {
+          "id": "32.13",
+          "title": "Applications of Industrial Chemistry"
+        },
+        {
+          "id": "32.14",
+          "title": "Safety Measures and Precautions"
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "title": "Water",
+      "topics": [
+        {
+          "id": "33.1",
+          "title": "Properties and Quality of Water"
+        },
+        {
+          "id": "33.2",
+          "title": "Source of Water Pollution"
+        },
+        {
+          "id": "33.3",
+          "title": "Common Water Pollutants"
+        },
+        {
+          "id": "33.4",
+          "title": "Water Pollution Due to Human Activities"
+        },
+        {
+          "id": "33.5",
+          "title": "Effect of Water Pollution On the Environment"
+        },
+        {
+          "id": "33.6",
+          "title": "Wastewater Treatment"
+        },
+        {
+          "id": "33.7",
+          "title": "Protection and Conservation of Water Resources"
+        },
+        {
+          "id": "33.8",
+          "title": "Rules and Regulations Regarding Water Pollution and Conservation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3029 @@
+{
+  "at": "2026-10-23T00:31:04.318Z",
+  "source": "data/lahore-board/_live-hierarchy-9-12.json",
+  "summary": {
+    "classes": {
+      "9": {
+        "allOk": true,
+        "live": 27,
+        "mongo": 27,
+        "subjectListMatch": true,
+        "issues": 0
+      },
+      "10": {
+        "allOk": true,
+        "live": 21,
+        "mongo": 21,
+        "subjectListMatch": true,
+        "issues": 0
+      },
+      "11": {
+        "allOk": true,
+        "live": 30,
+        "mongo": 30,
+        "subjectListMatch": true,
+        "issues": 0
+      },
+      "12": {
+        "allOk": true,
+        "live": 30,
+        "mongo": 30,
+        "subjectListMatch": true,
+        "issues": 0
+      }
+    },
+    "overallOk": true
+  },
+  "classes": {
+    "9": {
+      "className": "9TH",
+      "liveSubjects": 27,
+      "mongoSubjects": 27,
+      "subjectListMatch": true,
+      "onlyLive": [],
+      "onlyMongo": [],
+      "subjects": [
+        {
+          "name": "Biology",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 11,
+          "liveTopics": 57,
+          "mongoChapters": 11,
+          "mongoTopics": 57,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1056,
+            "SHORT:QA": 790,
+            "LONG:LONG": 155
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 1056,
+            "SHORT:QA": 790,
+            "LONG:LONG": 155
+          }
+        },
+        {
+          "name": "Computer",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 58,
+          "mongoChapters": 9,
+          "mongoTopics": 58,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 991,
+            "SHORT:QA": 925,
+            "LONG:LONG": 329
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 925,
+            "MCQ:MCQ": 991,
+            "LONG:LONG": 329
+          }
+        },
+        {
+          "name": "Chemistry",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 13,
+          "liveTopics": 69,
+          "mongoChapters": 13,
+          "mongoTopics": 69,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1174,
+            "SHORT:QA": 1069,
+            "LONG:LONG": 154
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 1174,
+            "SHORT:QA": 1069,
+            "LONG:LONG": 154
+          }
+        },
+        {
+          "name": "Physics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 88,
+          "mongoChapters": 9,
+          "mongoTopics": 88,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 938,
+            "SHORT:QA": 876,
+            "LONG:LONG": 256
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 876,
+            "MCQ:MCQ": 938,
+            "LONG:LONG": 256
+          }
+        },
+        {
+          "name": "Mathematics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 13,
+          "liveTopics": 38,
+          "mongoChapters": 13,
+          "mongoTopics": 38,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 545,
+            "SHORT:QA": 1072,
+            "LONG:LONG": 350
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 1072,
+            "MCQ:MCQ": 545,
+            "LONG:LONG": 350
+          }
+        },
+        {
+          "name": "English",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 13,
+          "liveTopics": 30,
+          "mongoChapters": 13,
+          "mongoTopics": 30,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:SPELLING": 341,
+            "MCQ:MEANING": 322,
+            "MCQ:GRAMMAR": 386,
+            "SHORT:QA": 136,
+            "LONG:SUMMARY": 2,
+            "SHORT:IDIOM": 292,
+            "LONG:TRANSLATE_UR": 113,
+            "LONG:POEM_STANZA": 12
+          },
+          "mongoTypeTotals": {
+            "SHORT:IDIOM": 292,
+            "MCQ:GRAMMAR": 386,
+            "MCQ:MEANING": 322,
+            "SHORT:QA": 136,
+            "LONG:TRANSLATE_UR": 113,
+            "MCQ:SPELLING": 341,
+            "LONG:POEM_STANZA": 12,
+            "LONG:SUMMARY": 2
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 21,
+          "liveTopics": 35,
+          "mongoChapters": 21,
+          "mongoTopics": 35,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1402,
+            "SHORT:QA": 1129
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 1402,
+            "SHORT:QA": 1129
+          }
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 7,
+          "liveTopics": 55,
+          "mongoChapters": 7,
+          "mongoTopics": 55,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1242,
+            "SHORT:QA": 1477,
+            "LONG:LONG": 186,
+            "LONG:HADITH": 20,
+            "LONG:PERSONALITY": 26
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 1242,
+            "LONG:HADITH": 20,
+            "SHORT:QA": 1477,
+            "LONG:LONG": 186,
+            "LONG:PERSONALITY": 26
+          }
+        },
+        {
+          "name": "General Science",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 40,
+          "mongoChapters": 6,
+          "mongoTopics": 40,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 418,
+            "SHORT:QA": 422,
+            "LONG:LONG": 97
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 422,
+            "MCQ:MCQ": 418,
+            "LONG:LONG": 97
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 14,
+          "mongoChapters": 5,
+          "mongoTopics": 14,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 284,
+            "SHORT:QA": 332,
+            "LONG:LONG": 31
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 31,
+            "SHORT:QA": 332,
+            "MCQ:MCQ": 284
+          }
+        },
+        {
+          "name": "پنجابی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 22,
+          "liveTopics": 25,
+          "mongoChapters": 22,
+          "mongoTopics": 25,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 252,
+            "SHORT:QA": 142,
+            "LONG:POEM": 86,
+            "LONG:SUMMARY": 1,
+            "SHORT:MEANING": 169,
+            "SHORT:WORD": 6,
+            "SHORT:IDIOM": 255,
+            "LONG:PASSAGE": 27
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 142,
+            "SHORT:MEANING": 169,
+            "MCQ:MCQ": 252,
+            "LONG:SUMMARY": 1,
+            "LONG:POEM": 86,
+            "SHORT:IDIOM": 255,
+            "LONG:PASSAGE": 27,
+            "SHORT:WORD": 6
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 35,
+          "mongoChapters": 5,
+          "mongoTopics": 35,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 438,
+            "SHORT:QA": 669,
+            "LONG:AYAT": 16
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 438,
+            "SHORT:QA": 669,
+            "LONG:AYAT": 16
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 32,
+          "mongoChapters": 8,
+          "mongoTopics": 32,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 194,
+            "SHORT:QA": 245,
+            "LONG:LONG": 95
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 95,
+            "SHORT:QA": 245,
+            "MCQ:MCQ": 194
+          }
+        },
+        {
+          "name": "سوکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 113,
+            "SHORT:QA": 151,
+            "LONG:LONG": 32
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 32,
+            "MCQ:MCQ": 113,
+            "SHORT:QA": 151
+          }
+        },
+        {
+          "name": "معاشیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 7,
+          "liveTopics": 7,
+          "mongoChapters": 7,
+          "mongoTopics": 7,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 143,
+            "SHORT:QA": 127,
+            "LONG:LONG": 52
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 127,
+            "MCQ:MCQ": 143,
+            "LONG:LONG": 52
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن المجید",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 18,
+          "liveTopics": 18,
+          "mongoChapters": 18,
+          "mongoTopics": 18,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 356,
+            "SHORT:QA": 447,
+            "LONG:LONG": 63,
+            "LONG:AYAT": 20,
+            "SHORT:WORD": 87
+          },
+          "mongoTypeTotals": {
+            "LONG:AYAT": 20,
+            "SHORT:QA": 447,
+            "LONG:LONG": 63,
+            "MCQ:MCQ": 356,
+            "SHORT:WORD": 87
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 10,
+          "liveTopics": 20,
+          "mongoChapters": 10,
+          "mongoTopics": 20,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 191,
+            "SHORT:QA": 270,
+            "LONG:LONG": 46
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 270,
+            "MCQ:MCQ": 191,
+            "LONG:LONG": 46
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 9,
+          "mongoChapters": 9,
+          "mongoTopics": 9,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 330,
+            "SHORT:QA": 318,
+            "LONG:LONG": 23
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 330,
+            "SHORT:QA": 318,
+            "LONG:LONG": 23
+          }
+        },
+        {
+          "name": "مرغبانی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 144,
+            "SHORT:QA": 185,
+            "LONG:LONG": 33
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 144,
+            "LONG:LONG": 33,
+            "SHORT:QA": 185
+          }
+        },
+        {
+          "name": "غذا اور غذائیت",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 14,
+          "mongoChapters": 5,
+          "mongoTopics": 14,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 175,
+            "SHORT:QA": 253,
+            "LONG:LONG": 33
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 33,
+            "MCQ:MCQ": 175,
+            "SHORT:QA": 253
+          }
+        },
+        {
+          "name": "BIOLOGY (TECH)",
+          "isTech": true,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 36,
+          "mongoChapters": 9,
+          "mongoTopics": 36,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 661,
+            "SHORT:QA": 509,
+            "LONG:LONG": 77
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 661,
+            "SHORT:QA": 509,
+            "LONG:LONG": 77
+          }
+        },
+        {
+          "name": "COMPUTER (TECH)",
+          "isTech": true,
+          "foundInMongo": true,
+          "liveChapters": 10,
+          "liveTopics": 51,
+          "mongoChapters": 10,
+          "mongoTopics": 51,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {},
+          "mongoTypeTotals": {}
+        },
+        {
+          "name": "CHEMISTRY (TECH)",
+          "isTech": true,
+          "foundInMongo": true,
+          "liveChapters": 12,
+          "liveTopics": 56,
+          "mongoChapters": 12,
+          "mongoTopics": 56,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 992,
+            "SHORT:QA": 805,
+            "LONG:LONG": 115
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 805,
+            "LONG:LONG": 115,
+            "MCQ:MCQ": 992
+          }
+        },
+        {
+          "name": "PHYSICS (TECH)",
+          "isTech": true,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 71,
+          "mongoChapters": 8,
+          "mongoTopics": 71,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 799,
+            "SHORT:QA": 733,
+            "LONG:LONG": 198
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 733,
+            "MCQ:MCQ": 799,
+            "LONG:LONG": 198
+          }
+        },
+        {
+          "name": "FASHION DESIGNING (TECH)",
+          "isTech": true,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 62,
+          "mongoChapters": 9,
+          "mongoTopics": 62,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 342,
+            "SHORT:QA": 379,
+            "LONG:LONG": 38
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 379,
+            "MCQ:MCQ": 342,
+            "LONG:LONG": 38
+          }
+        },
+        {
+          "name": "AGRICULTURE SCIENCES (TECH)",
+          "isTech": true,
+          "foundInMongo": true,
+          "liveChapters": 10,
+          "liveTopics": 27,
+          "mongoChapters": 10,
+          "mongoTopics": 27,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 281,
+            "SHORT:QA": 220,
+            "LONG:LONG": 22
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 220,
+            "LONG:LONG": 22,
+            "MCQ:MCQ": 281
+          }
+        },
+        {
+          "name": "COMMUNICATION SKILLS AND PERSONAL GROOMING (TECH)",
+          "isTech": true,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 57,
+          "mongoChapters": 9,
+          "mongoTopics": 57,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 11,
+            "SHORT:QA": 11,
+            "LONG:LONG": 8
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 11,
+            "LONG:LONG": 8,
+            "SHORT:QA": 11
+          }
+        }
+      ],
+      "allOk": true
+    },
+    "10": {
+      "className": "10TH",
+      "liveSubjects": 21,
+      "mongoSubjects": 21,
+      "subjectListMatch": true,
+      "onlyLive": [],
+      "onlyMongo": [],
+      "subjects": [
+        {
+          "name": "Biology",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 10,
+          "liveTopics": 36,
+          "mongoChapters": 10,
+          "mongoTopics": 36,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 723,
+            "SHORT:SHORT": 624,
+            "LONG:LONG": 139
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 139,
+            "MCQ:MCQ": 723,
+            "SHORT:SHORT": 624
+          }
+        },
+        {
+          "name": "Computer",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 43,
+          "mongoChapters": 8,
+          "mongoTopics": 43,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 679,
+            "SHORT:SHORT": 648,
+            "LONG:LONG": 178
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 679,
+            "SHORT:SHORT": 648,
+            "LONG:LONG": 178
+          }
+        },
+        {
+          "name": "Chemistry",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 13,
+          "liveTopics": 92,
+          "mongoChapters": 13,
+          "mongoTopics": 92,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1415,
+            "SHORT:SHORT": 1340,
+            "LONG:LONG": 211
+          },
+          "mongoTypeTotals": {
+            "SHORT:SHORT": 1340,
+            "LONG:LONG": 211,
+            "MCQ:MCQ": 1415
+          }
+        },
+        {
+          "name": "Physics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 12,
+          "liveTopics": 77,
+          "mongoChapters": 12,
+          "mongoTopics": 77,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 753,
+            "SHORT:SHORT": 661,
+            "LONG:LONG": 186
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 753,
+            "SHORT:SHORT": 661,
+            "LONG:LONG": 186
+          }
+        },
+        {
+          "name": "Mathematics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 12,
+          "liveTopics": 43,
+          "mongoChapters": 12,
+          "mongoTopics": 43,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 483,
+            "SHORT:QA": 717,
+            "LONG:LONG": 324
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 483,
+            "SHORT:QA": 717,
+            "LONG:LONG": 324
+          }
+        },
+        {
+          "name": "English",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 14,
+          "liveTopics": 27,
+          "mongoChapters": 14,
+          "mongoTopics": 27,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:SPELLING": 654,
+            "MCQ:MEANING": 658,
+            "MCQ:GRAMMAR": 256,
+            "SHORT:QA": 322,
+            "LONG:SUMMARY": 3,
+            "LONG:TRANSLATE_UR": 98,
+            "LONG:POEM_STANZA": 11
+          },
+          "mongoTypeTotals": {
+            "LONG:TRANSLATE_UR": 98,
+            "MCQ:SPELLING": 654,
+            "MCQ:MEANING": 658,
+            "MCQ:GRAMMAR": 256,
+            "SHORT:QA": 322,
+            "LONG:POEM_STANZA": 11,
+            "LONG:SUMMARY": 3
+          }
+        },
+        {
+          "name": "Pakistan Studies",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 65,
+          "mongoChapters": 8,
+          "mongoTopics": 65,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 968,
+            "SHORT:SHORT": 1189,
+            "LONG:LONG": 105
+          },
+          "mongoTypeTotals": {
+            "SHORT:SHORT": 1189,
+            "MCQ:MCQ": 968,
+            "LONG:LONG": 105
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 21,
+          "liveTopics": 26,
+          "mongoChapters": 21,
+          "mongoTopics": 26,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 811,
+            "SHORT:QA": 954
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 811,
+            "SHORT:QA": 954
+          }
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 7,
+          "liveTopics": 30,
+          "mongoChapters": 7,
+          "mongoTopics": 30,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 593,
+            "SHORT:QA": 431,
+            "LONG:LONG": 28,
+            "LONG:HADITH": 10
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 593,
+            "LONG:LONG": 28,
+            "SHORT:QA": 431,
+            "LONG:HADITH": 10
+          }
+        },
+        {
+          "name": "General Science",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 44,
+          "mongoChapters": 5,
+          "mongoTopics": 44,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 400,
+            "SHORT:SHORT": 323,
+            "LONG:LONG": 92
+          },
+          "mongoTypeTotals": {
+            "SHORT:SHORT": 323,
+            "LONG:LONG": 92,
+            "MCQ:MCQ": 400
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 4,
+          "liveTopics": 12,
+          "mongoChapters": 4,
+          "mongoTopics": 12,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 268,
+            "SHORT:SHORT": 276,
+            "LONG:LONG": 44
+          },
+          "mongoTypeTotals": {
+            "SHORT:SHORT": 276,
+            "LONG:LONG": 44,
+            "MCQ:MCQ": 268
+          }
+        },
+        {
+          "name": "پنجابی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 23,
+          "liveTopics": 25,
+          "mongoChapters": 23,
+          "mongoTopics": 25,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 267,
+            "SHORT:SHORT": 622,
+            "LONG:LONG": 128
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 267,
+            "SHORT:SHORT": 622,
+            "LONG:LONG": 128
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 4,
+          "liveTopics": 39,
+          "mongoChapters": 4,
+          "mongoTopics": 39,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 497,
+            "SHORT:SHORT": 590,
+            "LONG:LONG": 30
+          },
+          "mongoTypeTotals": {
+            "SHORT:SHORT": 590,
+            "MCQ:MCQ": 497,
+            "LONG:LONG": 30
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 7,
+          "liveTopics": 22,
+          "mongoChapters": 7,
+          "mongoTopics": 22,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 296,
+            "SHORT:SHORT": 294,
+            "LONG:LONG": 53
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 53,
+            "SHORT:SHORT": 294,
+            "MCQ:MCQ": 296
+          }
+        },
+        {
+          "name": "سوکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 110,
+            "SHORT:SHORT": 190,
+            "LONG:LONG": 30
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 30,
+            "MCQ:MCQ": 110,
+            "SHORT:SHORT": 190
+          }
+        },
+        {
+          "name": "معاشیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 7,
+          "liveTopics": 7,
+          "mongoChapters": 7,
+          "mongoTopics": 7,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 142,
+            "SHORT:SHORT": 134,
+            "LONG:LONG": 62
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 62,
+            "SHORT:SHORT": 134,
+            "MCQ:MCQ": 142
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن المجید",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 260,
+            "SHORT:SHORT": 330,
+            "LONG:LONG": 50
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 260,
+            "SHORT:SHORT": 330,
+            "LONG:LONG": 50
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 11,
+          "mongoChapters": 5,
+          "mongoTopics": 11,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 78,
+            "SHORT:SHORT": 136,
+            "LONG:LONG": 29
+          },
+          "mongoTypeTotals": {
+            "SHORT:SHORT": 136,
+            "LONG:LONG": 29,
+            "MCQ:MCQ": 78
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 260,
+            "SHORT:SHORT": 239,
+            "LONG:LONG": 15
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 260,
+            "SHORT:SHORT": 239,
+            "LONG:LONG": 15
+          }
+        },
+        {
+          "name": "مرغبانی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 171,
+            "SHORT:SHORT": 212,
+            "LONG:LONG": 31
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 171,
+            "LONG:LONG": 31,
+            "SHORT:SHORT": 212
+          }
+        },
+        {
+          "name": "غذا اور غذائیت",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 13,
+          "mongoChapters": 5,
+          "mongoTopics": 13,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 281,
+            "SHORT:SHORT": 405,
+            "LONG:LONG": 26
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 26,
+            "MCQ:MCQ": 281,
+            "SHORT:SHORT": 405
+          }
+        }
+      ],
+      "allOk": true
+    },
+    "11": {
+      "className": "INTER-I",
+      "liveSubjects": 30,
+      "mongoSubjects": 30,
+      "subjectListMatch": true,
+      "onlyLive": [],
+      "onlyMongo": [],
+      "subjects": [
+        {
+          "name": "Biology",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 12,
+          "liveTopics": 72,
+          "mongoChapters": 12,
+          "mongoTopics": 72,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1949,
+            "SHORT:QA": 1788,
+            "LONG:LONG": 238
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 238,
+            "SHORT:QA": 1788,
+            "MCQ:MCQ": 1949
+          }
+        },
+        {
+          "name": "Chemistry",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 16,
+          "liveTopics": 179,
+          "mongoChapters": 16,
+          "mongoTopics": 179,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1205,
+            "SHORT:QA": 1034,
+            "LONG:LONG": 123
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 1205,
+            "LONG:LONG": 123,
+            "SHORT:QA": 1034
+          }
+        },
+        {
+          "name": "Physics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 12,
+          "liveTopics": 126,
+          "mongoChapters": 12,
+          "mongoTopics": 126,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1245,
+            "SHORT:QA": 696,
+            "LONG:LONG": 241
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 241,
+            "MCQ:MCQ": 1245,
+            "SHORT:QA": 696
+          }
+        },
+        {
+          "name": "Mathematics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 14,
+          "liveTopics": 52,
+          "mongoChapters": 14,
+          "mongoTopics": 52,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 586,
+            "SHORT:QA": 841,
+            "LONG:LONG": 496
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 586,
+            "LONG:LONG": 496,
+            "SHORT:QA": 841
+          }
+        },
+        {
+          "name": "Computer",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 53,
+          "mongoChapters": 9,
+          "mongoTopics": 53,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 721,
+            "SHORT:QA": 469,
+            "LONG:LONG": 204
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 204,
+            "MCQ:MCQ": 721,
+            "SHORT:QA": 469
+          }
+        },
+        {
+          "name": "Statistics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 51,
+          "mongoChapters": 9,
+          "mongoTopics": 51,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 438,
+            "SHORT:QA": 679,
+            "LONG:LONG": 242
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 679,
+            "MCQ:MCQ": 438,
+            "LONG:LONG": 242
+          }
+        },
+        {
+          "name": "Economics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 12,
+          "liveTopics": 12,
+          "mongoChapters": 12,
+          "mongoTopics": 12,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 583,
+            "SHORT:QA": 411,
+            "LONG:LONG": 104
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 411,
+            "MCQ:MCQ": 583,
+            "LONG:LONG": 104
+          }
+        },
+        {
+          "name": "English",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 15,
+          "liveTopics": 30,
+          "mongoChapters": 15,
+          "mongoTopics": 30,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:COMPREHENSION": 619,
+            "MCQ:MCQ": 721,
+            "MCQ:VERB": 447,
+            "SHORT:QA": 671,
+            "LONG:LETTER": 8,
+            "LONG:TRANSLATE_UR": 110,
+            "LONG:POEM_STANZA": 21
+          },
+          "mongoTypeTotals": {
+            "MCQ:COMPREHENSION": 619,
+            "LONG:TRANSLATE_UR": 110,
+            "SHORT:QA": 671,
+            "MCQ:VERB": 447,
+            "LONG:POEM_STANZA": 21,
+            "MCQ:MCQ": 721,
+            "LONG:LETTER": 8
+          }
+        },
+        {
+          "name": "Principles of Accounting",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 401,
+            "SHORT:QA": 433,
+            "LONG:LONG": 149
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 401,
+            "SHORT:QA": 433,
+            "LONG:LONG": 149
+          }
+        },
+        {
+          "name": "Principles of Economics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 13,
+          "liveTopics": 15,
+          "mongoChapters": 13,
+          "mongoTopics": 15,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 960,
+            "SHORT:QA": 532,
+            "LONG:LONG": 85
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 960,
+            "LONG:LONG": 85,
+            "SHORT:QA": 532
+          }
+        },
+        {
+          "name": "Principles of Commerce",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 26,
+          "liveTopics": 26,
+          "mongoChapters": 26,
+          "mongoTopics": 26,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 484,
+            "SHORT:QA": 501,
+            "LONG:LONG": 125
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 484,
+            "SHORT:QA": 501,
+            "LONG:LONG": 125
+          }
+        },
+        {
+          "name": "Business Maths",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 19,
+          "mongoChapters": 6,
+          "mongoTopics": 19,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 485,
+            "SHORT:QA": 817,
+            "LONG:LONG": 238
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 817,
+            "MCQ:MCQ": 485,
+            "LONG:LONG": 238
+          }
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 7,
+          "liveTopics": 27,
+          "mongoChapters": 7,
+          "mongoTopics": 27,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 812,
+            "SHORT:QA": 632,
+            "LONG:LONG": 28,
+            "LONG:HADITH": 15
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 632,
+            "MCQ:MCQ": 812,
+            "LONG:LONG": 28,
+            "LONG:HADITH": 15
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 24,
+          "liveTopics": 40,
+          "mongoChapters": 24,
+          "mongoTopics": 40,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1559,
+            "SHORT:QA": 765,
+            "LONG:POEM": 87
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 1559,
+            "SHORT:QA": 765,
+            "LONG:POEM": 87
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 673,
+            "SHORT:QA": 796,
+            "LONG:LONG": 83
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 796,
+            "MCQ:MCQ": 673,
+            "LONG:LONG": 83
+          }
+        },
+        {
+          "name": "سوکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 9,
+          "mongoChapters": 9,
+          "mongoTopics": 9,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 485,
+            "SHORT:QA": 535,
+            "LONG:LONG": 91
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 535,
+            "LONG:LONG": 91,
+            "MCQ:MCQ": 485
+          }
+        },
+        {
+          "name": "پنجابی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 37,
+          "liveTopics": 37,
+          "mongoChapters": 37,
+          "mongoTopics": 37,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 522,
+            "SHORT:QA": 563,
+            "LONG:POEM": 130
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 522,
+            "SHORT:QA": 563,
+            "LONG:POEM": 130
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 10,
+          "liveTopics": 10,
+          "mongoChapters": 10,
+          "mongoTopics": 10,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 357,
+            "SHORT:QA": 457
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 457,
+            "MCQ:MCQ": 357
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 10,
+          "liveTopics": 17,
+          "mongoChapters": 10,
+          "mongoTopics": 17,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 642,
+            "SHORT:QA": 724,
+            "LONG:LONG": 50
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 724,
+            "LONG:LONG": 50,
+            "MCQ:MCQ": 642
+          }
+        },
+        {
+          "name": "سوشیالوجی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 526,
+            "SHORT:QA": 341,
+            "LONG:LONG": 88
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 526,
+            "SHORT:QA": 341,
+            "LONG:LONG": 88
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 187,
+            "SHORT:QA": 192,
+            "LONG:LONG": 31
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 192,
+            "MCQ:MCQ": 187,
+            "LONG:LONG": 31
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن مجید",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 4,
+          "liveTopics": 4,
+          "mongoChapters": 4,
+          "mongoTopics": 4,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 116,
+            "SHORT:QA": 99,
+            "LONG:LONG": 21,
+            "LONG:AYAT": 32,
+            "SHORT:MEANING": 100
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 99,
+            "LONG:AYAT": 32,
+            "LONG:LONG": 21,
+            "SHORT:MEANING": 100,
+            "MCQ:MCQ": 116
+          }
+        },
+        {
+          "name": "نفسیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 12,
+          "mongoChapters": 9,
+          "mongoTopics": 12,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 552,
+            "SHORT:QA": 635,
+            "LONG:LONG": 130
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 635,
+            "LONG:LONG": 130,
+            "MCQ:MCQ": 552
+          }
+        },
+        {
+          "name": "فارسی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 31,
+          "liveTopics": 31,
+          "mongoChapters": 31,
+          "mongoTopics": 31,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 150,
+            "SHORT:QA": 199
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 150,
+            "SHORT:QA": 199
+          }
+        },
+        {
+          "name": "تاریخِ اسلام",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 24,
+          "liveTopics": 24,
+          "mongoChapters": 24,
+          "mongoTopics": 24,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 644,
+            "SHORT:QA": 945,
+            "LONG:LONG": 112
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 945,
+            "LONG:LONG": 112,
+            "MCQ:MCQ": 644
+          }
+        },
+        {
+          "name": "حَدِیقَۃُ الاَدَبِ",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 25,
+          "liveTopics": 25,
+          "mongoChapters": 25,
+          "mongoTopics": 25,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 111,
+            "SHORT:QA": 144
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 111,
+            "SHORT:QA": 144
+          }
+        },
+        {
+          "name": "طبعی جغرافیہ",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 109,
+            "SHORT:QA": 223,
+            "LONG:LONG": 45
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 109,
+            "LONG:LONG": 45,
+            "SHORT:QA": 223
+          }
+        },
+        {
+          "name": "لائبریری سائنس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 368,
+            "SHORT:QA": 525,
+            "LONG:LONG": 36
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 368,
+            "LONG:LONG": 36,
+            "SHORT:QA": 525
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 11,
+          "liveTopics": 11,
+          "mongoChapters": 11,
+          "mongoTopics": 11,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 172,
+            "SHORT:QA": 278,
+            "LONG:LONG": 35
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 172,
+            "LONG:LONG": 35,
+            "SHORT:QA": 278
+          }
+        },
+        {
+          "name": "تاریخ پاکستان",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 362,
+            "SHORT:QA": 256,
+            "LONG:LONG": 63
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 256,
+            "LONG:LONG": 63,
+            "MCQ:MCQ": 362
+          }
+        }
+      ],
+      "allOk": true
+    },
+    "12": {
+      "className": "INTER-II",
+      "liveSubjects": 30,
+      "mongoSubjects": 30,
+      "subjectListMatch": true,
+      "onlyLive": [],
+      "onlyMongo": [],
+      "subjects": [
+        {
+          "name": "BIOLOGY",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 13,
+          "liveTopics": 62,
+          "mongoChapters": 13,
+          "mongoTopics": 62,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1066,
+            "SHORT:QA": 965,
+            "LONG:LONG": 125
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 1066,
+            "SHORT:QA": 965,
+            "LONG:LONG": 125
+          }
+        },
+        {
+          "name": "CHEMISTRY",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 17,
+          "liveTopics": 124,
+          "mongoChapters": 17,
+          "mongoTopics": 124,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 2231,
+            "SHORT:QA": 1756,
+            "LONG:LONG": 212
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 1756,
+            "LONG:LONG": 212,
+            "MCQ:MCQ": 2231
+          }
+        },
+        {
+          "name": "PHYSICS",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 85,
+          "mongoChapters": 9,
+          "mongoTopics": 85,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 619,
+            "SHORT:QA": 634,
+            "LONG:LONG": 125
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 634,
+            "LONG:LONG": 125,
+            "MCQ:MCQ": 619
+          }
+        },
+        {
+          "name": "MATHEMATICS",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 11,
+          "liveTopics": 43,
+          "mongoChapters": 11,
+          "mongoTopics": 43,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 117,
+            "SHORT:QA": 1083
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 1083,
+            "MCQ:MCQ": 117
+          }
+        },
+        {
+          "name": "COMPUTER",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 60,
+          "mongoChapters": 9,
+          "mongoTopics": 60,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1043,
+            "SHORT:QA": 1007,
+            "LONG:LONG": 196
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 1007,
+            "LONG:LONG": 196,
+            "MCQ:MCQ": 1043
+          }
+        },
+        {
+          "name": "Statistics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 71,
+          "mongoChapters": 8,
+          "mongoTopics": 71,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 496,
+            "SHORT:QA": 650,
+            "LONG:LONG": 420
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 650,
+            "LONG:LONG": 420,
+            "MCQ:MCQ": 496
+          }
+        },
+        {
+          "name": "Economics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 13,
+          "liveTopics": 13,
+          "mongoChapters": 13,
+          "mongoTopics": 13,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 974,
+            "SHORT:QA": 693,
+            "LONG:LONG": 88
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 88,
+            "SHORT:QA": 693,
+            "MCQ:MCQ": 974
+          }
+        },
+        {
+          "name": "ENGLISH",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 14,
+          "liveTopics": 21,
+          "mongoChapters": 14,
+          "mongoTopics": 21,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MEANING": 962,
+            "SHORT:QA": 1013,
+            "SHORT:IDIOM": 518,
+            "MCQ:MCQ": 1106
+          },
+          "mongoTypeTotals": {
+            "MCQ:MEANING": 962,
+            "SHORT:QA": 1013,
+            "MCQ:MCQ": 1106,
+            "SHORT:IDIOM": 518
+          }
+        },
+        {
+          "name": "Principles of Accounting",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 9,
+          "liveTopics": 9,
+          "mongoChapters": 9,
+          "mongoTopics": 9,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 533,
+            "SHORT:QA": 238,
+            "LONG:LONG": 120
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 533,
+            "SHORT:QA": 238,
+            "LONG:LONG": 120
+          }
+        },
+        {
+          "name": "Principles of Banking",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 560,
+            "SHORT:QA": 492,
+            "LONG:LONG": 142
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 492,
+            "MCQ:MCQ": 560,
+            "LONG:LONG": 142
+          }
+        },
+        {
+          "name": "Commercial Geography",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 19,
+          "liveTopics": 45,
+          "mongoChapters": 19,
+          "mongoTopics": 45,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1079,
+            "SHORT:QA": 819,
+            "LONG:LONG": 93
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 819,
+            "LONG:LONG": 93,
+            "MCQ:MCQ": 1079
+          }
+        },
+        {
+          "name": "Business Statistics",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 346,
+            "SHORT:QA": 292,
+            "LONG:LONG": 137
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 292,
+            "LONG:LONG": 137,
+            "MCQ:MCQ": 346
+          }
+        },
+        {
+          "name": "Pakistan Studies",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 61,
+          "mongoChapters": 6,
+          "mongoTopics": 61,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 919,
+            "SHORT:QA": 1240,
+            "LONG:LONG": 84
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 919,
+            "SHORT:QA": 1240,
+            "LONG:LONG": 84
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 24,
+          "liveTopics": 28,
+          "mongoChapters": 24,
+          "mongoTopics": 28,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 1081,
+            "SHORT:QA": 226
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 226,
+            "MCQ:MCQ": 1081
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 688,
+            "SHORT:QA": 942,
+            "LONG:LONG": 98
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 942,
+            "LONG:LONG": 98,
+            "MCQ:MCQ": 688
+          }
+        },
+        {
+          "name": "سوکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 217,
+            "SHORT:QA": 383,
+            "LONG:LONG": 62
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 62,
+            "MCQ:MCQ": 217,
+            "SHORT:QA": 383
+          }
+        },
+        {
+          "name": "پنجابی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 32,
+          "liveTopics": 32,
+          "mongoChapters": 32,
+          "mongoTopics": 32,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 619,
+            "SHORT:QA": 588,
+            "LONG:POEM": 125
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 619,
+            "SHORT:QA": 588,
+            "LONG:POEM": 125
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 23,
+          "liveTopics": 23,
+          "mongoChapters": 23,
+          "mongoTopics": 23,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 373,
+            "SHORT:QA": 424
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 424,
+            "MCQ:MCQ": 373
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 17,
+          "mongoChapters": 8,
+          "mongoTopics": 17,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 638,
+            "SHORT:QA": 634,
+            "LONG:LONG": 35
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 634,
+            "LONG:LONG": 35,
+            "MCQ:MCQ": 638
+          }
+        },
+        {
+          "name": "سوشیالوجی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 14,
+          "liveTopics": 14,
+          "mongoChapters": 14,
+          "mongoTopics": 14,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 590,
+            "SHORT:QA": 432,
+            "LONG:LONG": 83
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 432,
+            "LONG:LONG": 83,
+            "MCQ:MCQ": 590
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 45,
+            "SHORT:QA": 47,
+            "LONG:LONG": 19
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 47,
+            "MCQ:MCQ": 45,
+            "LONG:LONG": 19
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن مجید",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 17,
+          "liveTopics": 17,
+          "mongoChapters": 17,
+          "mongoTopics": 17,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 347,
+            "SHORT:QA": 227,
+            "LONG:LONG": 17,
+            "LONG:AYAT": 46,
+            "SHORT:MEANING": 110
+          },
+          "mongoTypeTotals": {
+            "LONG:AYAT": 46,
+            "SHORT:QA": 227,
+            "LONG:LONG": 17,
+            "SHORT:MEANING": 110,
+            "MCQ:MCQ": 347
+          }
+        },
+        {
+          "name": "نفسیات",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 4,
+          "liveTopics": 19,
+          "mongoChapters": 4,
+          "mongoTopics": 19,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 340,
+            "SHORT:QA": 388,
+            "LONG:LONG": 96
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 388,
+            "MCQ:MCQ": 340,
+            "LONG:LONG": 96
+          }
+        },
+        {
+          "name": "فارسی",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 30,
+          "liveTopics": 30,
+          "mongoChapters": 30,
+          "mongoTopics": 30,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 120,
+            "SHORT:QA": 179
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 120,
+            "SHORT:QA": 179
+          }
+        },
+        {
+          "name": "تاریخِ اسلام",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 17,
+          "liveTopics": 17,
+          "mongoChapters": 17,
+          "mongoTopics": 17,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 599,
+            "SHORT:QA": 834,
+            "LONG:LONG": 103
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 599,
+            "SHORT:QA": 834,
+            "LONG:LONG": 103
+          }
+        },
+        {
+          "name": "حَدِیقَۃُ الاَدَبِ",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 25,
+          "liveTopics": 25,
+          "mongoChapters": 25,
+          "mongoTopics": 25,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 167,
+            "SHORT:QA": 144
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 167,
+            "SHORT:QA": 144
+          }
+        },
+        {
+          "name": "اِنسانی جغرافیہ",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 93,
+            "SHORT:QA": 217,
+            "LONG:LONG": 35
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 93,
+            "LONG:LONG": 35,
+            "SHORT:QA": 217
+          }
+        },
+        {
+          "name": "لائبریری سائنس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 4,
+          "liveTopics": 4,
+          "mongoChapters": 4,
+          "mongoTopics": 4,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 357,
+            "SHORT:QA": 743,
+            "LONG:LONG": 44
+          },
+          "mongoTypeTotals": {
+            "MCQ:MCQ": 357,
+            "LONG:LONG": 44,
+            "SHORT:QA": 743
+          }
+        },
+        {
+          "name": "تاریخِ پاکستان",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 227,
+            "SHORT:QA": 283,
+            "LONG:LONG": 52
+          },
+          "mongoTypeTotals": {
+            "SHORT:QA": 283,
+            "MCQ:MCQ": 227,
+            "LONG:LONG": 52
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "isTech": false,
+          "foundInMongo": true,
+          "liveChapters": 18,
+          "liveTopics": 18,
+          "mongoChapters": 18,
+          "mongoTopics": 18,
+          "chapterCountMatch": true,
+          "topicCountMatch": true,
+          "seedFound": true,
+          "allChaptersTypesMatch": true,
+          "allChaptersCountsMatch": true,
+          "perChapterTypesMatch": true,
+          "perChapterCountsMatch": true,
+          "issues": [],
+          "seedTypeTotals": {
+            "MCQ:MCQ": 356,
+            "SHORT:QA": 491,
+            "LONG:LONG": 72
+          },
+          "mongoTypeTotals": {
+            "LONG:LONG": 72,
+            "SHORT:QA": 491,
+            "MCQ:MCQ": 356
+          }
+        }
+      ],
+      "allOk": true
+    }
+  }
+}

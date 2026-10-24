@@ -1,0 +1,514 @@
+{
+  "course": {
+    "ptsCourseId": 1,
+    "code": "PTB",
+    "name": "PTB",
+    "subtitle": "Syllabus",
+    "sortOrder": 1,
+    "imageUrl": "https://paktestsolution.com/images/subjects/638685002268142513.png",
+    "aliases": [
+      "Punjab Textbook"
+    ],
+    "classes": [
+      {
+        "ptsClassId": 1,
+        "name": "ONE",
+        "gradeLevel": 1
+      },
+      {
+        "ptsClassId": 2,
+        "name": "TWO",
+        "gradeLevel": 2
+      },
+      {
+        "ptsClassId": 3,
+        "name": "THREE",
+        "gradeLevel": 3
+      },
+      {
+        "ptsClassId": 4,
+        "name": "FOUR",
+        "gradeLevel": 4
+      },
+      {
+        "ptsClassId": 5,
+        "name": "5TH",
+        "gradeLevel": 5
+      },
+      {
+        "ptsClassId": 6,
+        "name": "6TH",
+        "gradeLevel": 6
+      },
+      {
+        "ptsClassId": 7,
+        "name": "7TH",
+        "gradeLevel": 7
+      },
+      {
+        "ptsClassId": 8,
+        "name": "8TH",
+        "gradeLevel": 8
+      },
+      {
+        "ptsClassId": 9,
+        "name": "9TH",
+        "gradeLevel": 9,
+        "aliases": [
+          "Class 9"
+        ]
+      },
+      {
+        "ptsClassId": 10,
+        "name": "10TH",
+        "gradeLevel": 10,
+        "aliases": [
+          "Class 10"
+        ]
+      },
+      {
+        "ptsClassId": 11,
+        "name": "INTER-I",
+        "gradeLevel": 11,
+        "aliases": [
+          "Class 11"
+        ]
+      },
+      {
+        "ptsClassId": 12,
+        "name": "INTER-II",
+        "gradeLevel": 12,
+        "aliases": [
+          "Class 12"
+        ]
+      },
+      {
+        "ptsClassId": 36,
+        "name": "OLD BOOKS",
+        "gradeLevel": null
+      }
+    ]
+  },
+  "class": {
+    "ptsClassId": 6,
+    "name": "6TH",
+    "gradeLevel": 6
+  },
+  "subject": {
+    "SubjectID": 14,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 6,
+    "SubjectName": "ہوم اکنامکس",
+    "Category": "6TH",
+    "ImageUrl": "/images/subjects/637341186526163036.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2023-12-01T00:00:00",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 7,
+      "name": "fill",
+      "bankType": "short",
+      "field": "FILL"
+    },
+    {
+      "id": 10,
+      "name": "true-false",
+      "bankType": "short",
+      "field": "TRUE_FALSE"
+    },
+    {
+      "id": 11,
+      "name": "arrange",
+      "bankType": "short",
+      "field": "ARRANGE"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 108,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 1: ہوم اکنامکس کا تعارف",
+      "Syllabus": "CHAP 1",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:01.353",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 109,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 2: غذا اور غذائیت ۔ ایک تعارف",
+      "Syllabus": "CHAP 2",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:03.85",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 110,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 3: بنیادی غذائی اجزا",
+      "Syllabus": "CHAP 3",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:06.387",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 111,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 4: انسانی نشوونما",
+      "Syllabus": "CHAP 4",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:08.75",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 112,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 5: معاشرتی کھیل",
+      "Syllabus": "CHAP 5",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:11.597",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 113,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 6: لباس",
+      "Syllabus": "CHAP 6",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:14.357",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 114,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 7: ذاتی زیبائش",
+      "Syllabus": "CHAP 7",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:17.333",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 115,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 8: آرٹ اور ڈیزائن",
+      "Syllabus": "CHAP 8",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:20.287",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 116,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 9: انتظام امور خانہ داری",
+      "Syllabus": "CHAP 9",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:23.043",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 117,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterName": "باب نمبر 10: ذرائع ووسائل",
+      "Syllabus": "CHAP 10",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:19:25.25",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 171,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 108,
+      "TopicName": "ہوم اکنامکس کا تعارف",
+      "TopicRef": "1.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:24:00.407",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 172,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 109,
+      "TopicName": "غذا اور غذائیت ۔ ایک تعارف",
+      "TopicRef": "2.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:46:36.307",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 173,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 110,
+      "TopicName": "بنیادی غذائی اجزا",
+      "TopicRef": "3.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:46:45.877",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 174,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 111,
+      "TopicName": "انسانی نشوونما",
+      "TopicRef": "4.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:46:57.557",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 175,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 112,
+      "TopicName": "معاشرتی کھیل",
+      "TopicRef": "5.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:47:11.317",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 176,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 113,
+      "TopicName": "لباس",
+      "TopicRef": "6.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:47:20.31",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 177,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 114,
+      "TopicName": "ذاتی زیبائش",
+      "TopicRef": "7.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:47:33.67",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 178,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 115,
+      "TopicName": "آرٹ اور ڈیزائن",
+      "TopicRef": "8.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:47:45.637",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 179,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 116,
+      "TopicName": "انتظام امور خانہ داری",
+      "TopicRef": "9.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:47:54.263",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 180,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 14,
+      "ChapterID": 117,
+      "TopicName": "ذرائع ووسائل",
+      "TopicRef": "10.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-20T10:48:03.677",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

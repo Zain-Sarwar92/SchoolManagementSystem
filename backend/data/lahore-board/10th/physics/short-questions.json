@@ -1,0 +1,5965 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "Physics",
+  "slug": "physics",
+  "source": "PTS PTB Class 10 Physics (read-only export)",
+  "total_questions": 1600,
+  "counts": {
+    "mcq": 753,
+    "short": 661,
+    "long": 186
+  },
+  "questions": [
+    {
+      "id": 499116,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What factors influence the thermal expansion of solids?",
+      "ur": "وہ کون سے عوامل ہیں جو ٹھوس مٹیریلز کے حرارتی پھیلاؤ کو متاثر کرتے ہیں؟"
+    },
+    {
+      "id": 499119,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do different materials exhibit varying thermal expansion behaviours?",
+      "ur": "مختلف مٹیریلز حرارتی پھیلاؤ کے مختلف رویے کیوں دکھاتے ہیں؟"
+    },
+    {
+      "id": 499121,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does evaporation contribute to cooling processes in everyday life?",
+      "ur": "روزمرہ زندگی میں اویپوریشن ٹھنڈک پیدا کرنے میں کیسے مدددیتی ہے؟"
+    },
+    {
+      "id": 499117,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is latent heat of fusion?",
+      "ur": "پھیلاؤ کی مخفی حرارت کیا ہے؟"
+    },
+    {
+      "id": 499123,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is latent heat of vaporization, and how is it calculated?",
+      "ur": "ویپورائزیشن کی مخفی حرارت کیا ہے؟ اسے کیسے معلوم کیا جاتا ہے؟"
+    },
+    {
+      "id": 499337,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does heat travel faster in metals compared to non-metals?",
+      "ur": "میٹلز میں حرارت نان میٹلز کے مقابلے میں زیادہ کیوں سفر کرتی ہے؟"
+    },
+    {
+      "id": 499338,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does convection transfer heat in liquids and gases?",
+      "ur": "مائعات اور گیسوں میں کنویکشن کے ذریعے حرارت کیسے منتقل ہوتی ہے؟"
+    },
+    {
+      "id": 499339,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What natural phenomenon causes land and sea breezes?",
+      "ur": "کون سا قدرتی عمل زمینی اور سمندری ہوائیں پیدا کرتا ہے؟"
+    },
+    {
+      "id": 499340,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How do birds and gliders take advantage of convection currents?",
+      "ur": "پرندے اور گلائیڈز کنویکشن کرنٹس کا فائدہ کیسے اٹھاتے ہیں؟"
+    },
+    {
+      "id": 499336,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are the three primary types of heat transfer?",
+      "ur": "انتقال تھرمل انرجی کے تین بنیادی طریقے کون سے ہیں؟"
+    },
+    {
+      "id": 499341,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is radiation, and how does it transfer heat?",
+      "ur": "ریڈی ایشن کیا ہے؟ اور یہ حرارت کیسے منتقل کرتی ہے؟"
+    },
+    {
+      "id": 499342,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why does a dull black surface emit and absorb more radiation than a shiny silver surface?",
+      "ur": "مدھم سیاہ چمکیلی سطح کے مقابلے میں زیادہ حرارت کیوں جذب اور خارج کرتی ہے؟"
+    },
+    {
+      "id": 499343,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does the greenhouse effect help regulate Earth's temperature?",
+      "ur": "گرین ہاؤس ایفیکٹ زمین کے ٹمپریچر کو کیسے برقرار رکھتا ہے؟"
+    },
+    {
+      "id": 499496,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What do waves transfer from one place to another?",
+      "ur": "ویو ایک جگہ سے دوسری جگہ کیا منتقل کرتی ہے؟"
+    },
+    {
+      "id": 499517,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Name any two examples of mechanical waves?",
+      "ur": "مکینیکل ویوز کی کوئی دو مثالیں لکھیں۔"
+    },
+    {
+      "id": 499518,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Which type of wave can travel through vacuum?",
+      "ur": "کون سی ویوز خلا میں سفر کرسکتی ہیں؟"
+    },
+    {
+      "id": 499519,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the difference between transverse and longitudinal waves?",
+      "ur": "ٹرانسورس اور لونگیٹیوڈنل ویوز میں کیا فرق ہے؟"
+    },
+    {
+      "id": 499520,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is meant by wavelength?",
+      "ur": "ویو لینگتھ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 499521,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write the definition of frequency?",
+      "ur": "فریکوینسی کی تعریف لکھیں۔"
+    },
+    {
+      "id": 499522,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What causes a tsunami in the ocean?",
+      "ur": "سمندر میں سونامی کس وجہ سے بنتی ہے؟"
+    },
+    {
+      "id": 499570,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does the medium affect the speed of sound?",
+      "ur": "کوئی میڈیم ساؤنڈ کی سپیڈ کو کیسے متاثر کرتا ہے؟"
+    },
+    {
+      "id": 499572,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What factors influence the loudness of sound?",
+      "ur": "ساؤنڈ کی لاؤڈینس پر کون سے عوامل اثر انداز ہوتے ہیں؟"
+    },
+    {
+      "id": 499571,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Does sound wave show reflection?",
+      "ur": "کیا ساؤنڈ ویو رفلیکشن دکھاتی ہیں؟"
+    },
+    {
+      "id": 499574,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is ultrasound, how is it used in medicine?",
+      "ur": "الٹراساؤنڈ کیا ہے؟ میڈیکل میں یہ کس طرح استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 499573,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why do we hear an echo when we clap near a building?",
+      "ur": "ہم ایک عمارت کے قریب تالی بجاتے وقت ایکو کیوں سنتے ہیں؟"
+    },
+    {
+      "id": 499613,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What happens when light passes from air to water?",
+      "ur": "جب روشنی ہوا سے پانی میں داخل ہوتی ہے تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 499616,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define refractive index. What is the refractive index of air and water?",
+      "ur": "رفریکٹیو انڈکس کی تعریف کریں۔ ہوا، پانی کا رفریکٹیوانڈیکس کیا ہے؟"
+    },
+    {
+      "id": 499622,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Write Snell's law and define the terms used in the equation.",
+      "ur": "سنیل کا قانون بیان کریں اور مساوات میں استعمال ہونے والی تمام اصطلاحات کی تعریف کریں۔"
+    },
+    {
+      "id": 499618,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the principle behind optical fibers?",
+      "ur": "آپٹیکل فائبر کا بنیادی اصول کیا ہے؟"
+    },
+    {
+      "id": 499620,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Describe briefly how a convex lens forms a real or vurtual image.",
+      "ur": "مختصر بیان کریں کہ کنویکس لینز رئیل یا ورچوئل امیج کیسے بناتا ہے؟"
+    },
+    {
+      "id": 499621,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does the power of a lens relate to its focal length?",
+      "ur": "لینز کی پاور کا اس کی فوکل لینگتھ سے کیا تعلق ہے؟"
+    },
+    {
+      "id": 499724,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What happens when like charges and unlike charges are brought close to each other?",
+      "ur": "جب ہم ایک جیسے اور مخالف الیکٹرک چارجز کو قریب لاتے ہیں تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 499723,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "List some applications of electrostatic in daily life.",
+      "ur": "الیکٹروسٹیٹکس کے روزمرہ زندگی میں چند استعمالات لکھیں۔"
+    },
+    {
+      "id": 499726,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are the dangers of static electricity?",
+      "ur": "سٹیٹک الیکٹریسٹی کے خطرات کون کون سے ہیں؟"
+    },
+    {
+      "id": 499719,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "State Coulomb's law of electrostatics and write its mathematical form.",
+      "ur": "کولمب کے قانون کو بیان کریں اور اس کی حسابی شکل لکھیں۔"
+    },
+    {
+      "id": 499720,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is an electric field?",
+      "ur": "الیکٹرک فیلڈ سے کیا مراد ہے؟"
+    },
+    {
+      "id": 499722,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Give two examples of each of electrical conductors and electrical insulators.",
+      "ur": "الیکٹریکل کنڈکٹرز اور الیکٹریکل انسولیٹرز کی دو مثالیں لکھیں۔"
+    },
+    {
+      "id": 499725,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is meant by electrical breakdown, and when does it occur?",
+      "ur": "الیکٹریکل بریک ڈاؤن کیا ہے اور یہ کب ہوتا ہے؟"
+    },
+    {
+      "id": 499925,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does an ammeter measure electric current?",
+      "ur": "ایک ایمیٹر الیکٹرک کرنٹ کی پیمائش کیسے کرتا ہے؟"
+    },
+    {
+      "id": 499926,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the main difference between direct current and alternating current?",
+      "ur": "ڈائریکٹ اور آلٹرنیٹنگ کرنٹ میں بنیادی فرق کیا ہے؟"
+    },
+    {
+      "id": 499927,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define electromotive force (e.m.f).",
+      "ur": "الیکٹرو موٹیو فورس کی تعریف کریں۔"
+    },
+    {
+      "id": 499928,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the formula for calculating the quivalent resistance of resistance of resistors connected in series?",
+      "ur": "سیریز سرکٹ میں جوڑے گئے رزسٹرز کی مساوی رزسٹنس معلوم کرنے کا فارمولا کیا ہے؟"
+    },
+    {
+      "id": 499929,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does temperature affect the resistance of a conductor?",
+      "ur": "ٹمپریچر کسی کنڈکٹر کی رزسٹنس کو کیسے متاثر کرتا ہے؟"
+    },
+    {
+      "id": 500059,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the direction of the magnetic field around a straight current carrying wire?",
+      "ur": "سیدھی کرنٹ بردار تار کے گرد میگنیٹک فیلڈ کی سمت کیا ہوتی ہے؟"
+    },
+    {
+      "id": 500061,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What happens to the magnetic field if the magnitude if the current in a wire is increased?",
+      "ur": "اگر تار میں بہنے والے کرنٹ کی مقدار بڑھا دی جائے تو میگنیٹک فیلڈ پر کیا اثر پڑے گا؟"
+    },
+    {
+      "id": 500062,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How can you identify the north and south poles of an unmarked magnetized steel bar?",
+      "ur": "بغیر نشان لگے میگنیٹک ٹائزڈ سٹیل بار کے نارتھ اور ساؤتھ پولی کیسے معلوم کیے جاسکتے ہیں؟"
+    },
+    {
+      "id": 500064,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What roles does the commutator play in a D.C motor?",
+      "ur": "ڈی سی موٹر میں کموٹینز کا کیا کردار ہوتا ہے؟"
+    },
+    {
+      "id": 500063,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What rule determines the direction of force on a current-carrying conductor placed in a magnetic field? Explain briefly.",
+      "ur": "کون سا اصول میگنیٹک فیلڈ میں رکھے ہوئے کرنٹ بردار کنڈکٹر پر لگنے والی فورس کی سمت بتاتا ہے؟ مختصر بیان کریں۔"
+    },
+    {
+      "id": 500065,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the source of the Earth's magnetic field according to the theory?",
+      "ur": "موجودہ نظریے کے مطابق زمین کے گرد میگنیٹک فیلد کا سورس کیا ہے؟"
+    },
+    {
+      "id": 500114,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the direction of induced current Lenz's law?",
+      "ur": "لینز کے قانون کے مطابق انڈیوسڈ کرنٹ کی سمت کیا ہوتی ہے؟"
+    },
+    {
+      "id": 500116,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why are slip rings used in an A.C generator?",
+      "ur": "اے سی جنریٹر میں سلپ رنگز کیویں استعمال کیے جاتے ہیں؟"
+    },
+    {
+      "id": 500117,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "When is induced e.m.f zero in an A,C generator?",
+      "ur": "اے سی جنریٹر میں انڈیوسڈ ای ایم ایف کب صفر ہوتی ہے؟"
+    },
+    {
+      "id": 500119,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the tranformer and on what principle does it work?",
+      "ur": "ٹرانسفارمر کیا ہے اور یہ کس اصول پر کام کرتا ہے؟"
+    },
+    {
+      "id": 500118,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why is the sky red at sunset?",
+      "ur": "غروب آفتاب کے وقت آسمان سرخ کیوں دکھائی دیتا ہے؟"
+    },
+    {
+      "id": 500208,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the function of a semiconductor diode?",
+      "ur": "سیمی کنڈکٹر ڈائیوڈ کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 500209,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What happens when a diode is forward biased?",
+      "ur": "جب ڈائیوڈ فارورڈ بائس حالت میں ہوتو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 500210,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the function of an LED?",
+      "ur": "ایل ای ڈی کا کیا کام ہے؟"
+    },
+    {
+      "id": 500211,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why does an LED emit light when current passes through it?",
+      "ur": "جب ایل ای ڈی میں کرنٹ گزرتا ہے تو وہ روشنی کیوں خارج کرتی ہے؟"
+    },
+    {
+      "id": 500212,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What does an analog-to-digital converter (ADC) do?",
+      "ur": "اینا لوگ ٹو ڈیجیٹل کنورٹر کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 500213,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the difference between analog and digital signals?",
+      "ur": "اینا لوگ اور ڈیجیٹل سگنلز میں کیا فرق ہے؟"
+    },
+    {
+      "id": 500214,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What Boolean logic in digital electronics?",
+      "ur": "ڈیجیٹل الیکٹرونکس میں بولیئن لاجک کیا ہے؟"
+    },
+    {
+      "id": 500216,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the role of an AND gate in digital circuits?",
+      "ur": "ڈیجیٹل سرکٹس میں اینڈ گیٹ کا کیا کردار ہے؟"
+    },
+    {
+      "id": 500215,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What does a NOT gate do in a digital circuit?",
+      "ur": "ڈیجیٹل سرکٹ میں ناٹ گیٹ کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 500349,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the structure of an atom according to Rutherford's model?",
+      "ur": "ردرفورڈ کے ماڈل کے مطابق ایٹم کی ساخت کیا ہے؟"
+    },
+    {
+      "id": 500348,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define the atomic nucleus. What are its two main characteristics?",
+      "ur": "اٹامک نیوکلئیس کی تعریف کریں اور اس کی دو بنیادی خصوصیات کیا ہیں؟"
+    },
+    {
+      "id": 500351,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does alpha radiation differ from beta radiation?",
+      "ur": "الفاریڈی ایشن بیٹا ریڈی ایشن سے کیسے مختلف ہے؟"
+    },
+    {
+      "id": 500352,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the primary energy source of the Sun and other stars?",
+      "ur": "سورج اور دیگر ستاروں کا بنیادی انرجی سورس کیا ہے؟"
+    },
+    {
+      "id": 500353,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Name the equation proposed by Einstein that relates energy and mass.",
+      "ur": "آئن سٹائن کی ماس انرجی مساوات لکھیں۔"
+    },
+    {
+      "id": 500355,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Define nuclear fusion with an example.",
+      "ur": "نیو کلئیر فیوژن کی تعریف ایک مثال کے ساتھ کریں۔"
+    },
+    {
+      "id": 500354,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the principle behind carbon dating and its applications?",
+      "ur": "کاربن ڈیٹنگ کا اصول اور اس کا استعمال کیا ہے؟"
+    },
+    {
+      "id": 500357,
+      "chapter": 20,
+      "topic_id": "20.9",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Americium-241 <img src=\"/pts-media/equations/10th/phynew-cahp11-2.svg\" /> undergoes alpha decay and produces an alpha particle. Write down the chemical equation for it and name the nucleus formed.",
+      "ur": "ایمپیریکیئم <img src=\"/pts-media/equations/10th/phynew-cahp11-2.svg\" /> الفا ڈی کے سے گزرتا ہے اور ایک الفا پارٹیکل پیدا کرتا ہے۔ اس کی کیمیکل مساوات لکھیں اور بننے والے نیوکلئیس کا نام بتائیں۔"
+    },
+    {
+      "id": 500390,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What are the two main elements that make up the Sun?",
+      "ur": "سورج کن دو اہم عناصر سے مل کر بنتا ہے؟"
+    },
+    {
+      "id": 500391,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What factors are used to compare planets in terms of their characteristics?",
+      "ur": "سیاروں کی خصوصیات کا موازنہ کرنے کےلیے کون سے عوامل استعمال کیے جاتے ہیں؟"
+    },
+    {
+      "id": 500395,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Why do cyclones weaken when they move over land?",
+      "ur": "جب سائیکلون خشکی پر آتے ہیں تو وہ کمزور کیوں پڑ جاتے ہیں؟"
+    },
+    {
+      "id": 500396,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Exercise",
+      "type": "short",
+      "en": "How does the Coriolis Effect influence the movement of cyclones?",
+      "ur": "کوریولس ایفیکٹ سائیکلونز کی حرکت کو کس طرح متاثر کرتا ہے؟"
+    },
+    {
+      "id": 500392,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Explain how global warming increases the intensity of hurricanes",
+      "ur": "وضاحت کریں کہ گلوبل وارمنگ سمندری طوفان کی شدت میں کس طرح اضافہ کرتی ہے؟"
+    },
+    {
+      "id": 500397,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is the primary cause of rising sea levels due to global warming?",
+      "ur": "گلوبل وارمنگ کی وجہ سے سمندری سطح کے بڑھنے کی بنیادی وجہ کیا ہے؟"
+    },
+    {
+      "id": 500393,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "What is background radiation, and what are its natural sources?",
+      "ur": "بیک گراؤنڈ ریڈی ایشنز کیا ہیں، ان کے قدرتی ذرائع کون سے ہیں؟"
+    },
+    {
+      "id": 500394,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "source": "Exercise",
+      "type": "short",
+      "en": "Name three safety measures used to handle radioactive materials safely.",
+      "ur": "ریڈیو ایکٹیو مٹیریل کو محفوظ طریقے سے سنبھالنے کےلیے استعمال ہونے والے تین حفاظتی اقدامات کے نام بتائیں۔"
+    },
+    {
+      "id": 504442,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define thermal expansion?",
+      "ur": "حرارتی پھیلاؤ کی تعریف کریں۔"
+    },
+    {
+      "id": 504447,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is thermal contraction?",
+      "ur": "حرارتی سکڑاؤ کیا ہے؟"
+    },
+    {
+      "id": 504449,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is linear thermal expansion?",
+      "ur": "طولی حرارتی پھیلاؤ کیا ہے؟"
+    },
+    {
+      "id": 504450,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the coefficient of linear expansion.",
+      "ur": "طولی پھیلاؤ کے کو ایفی شینٹ کی تعریف کریں۔"
+    },
+    {
+      "id": 504454,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the relationship between the coefficient of linear expansion and volume expansion?",
+      "ur": "طولی پھیلاؤ کے کوایفی شینٹ اور والیوم کے پھیلاؤ کے کو ایفی شینٹ کے درمیان کیا تعلق ہے؟"
+    },
+    {
+      "id": 504457,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Wy do liquids expand more than solids?",
+      "ur": "مائعات ٹھوس کی نسبت زیادہ کیوں پھیلتے ہیں؟"
+    },
+    {
+      "id": 504461,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between apparent and real expansion of a liquid?",
+      "ur": "مائع کے حقیقی اور ظاہری پھیلاؤ میں فرق کریں۔"
+    },
+    {
+      "id": 504463,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State Charle's Law.",
+      "ur": "چارلس کا قانون بیان کریں۔"
+    },
+    {
+      "id": 504466,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are aerosol cans dangerous when exposed to heat?",
+      "ur": "ایروسول کینز حرارت کے سامنے آنے پر خطرناک کیوں ہوتے ہیں؟"
+    },
+    {
+      "id": 504470,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are small gaps left between railway tracks?",
+      "ur": "ریلوے لائنوں کے درمیان چھوٹے خلا کیوں چھوڑے جاتے ہیں؟"
+    },
+    {
+      "id": 504473,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a hot air balloon rises?",
+      "ur": "گرم ہوا کا غبار کیسے اوپر اٹھتا ہے؟"
+    },
+    {
+      "id": 526303,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do substances expand when heated?",
+      "ur": "اشیاء گرم کرنے پر کیوں پھیلتی ہیں؟"
+    },
+    {
+      "id": 526324,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the expansion of gases help a vehicle move?",
+      "ur": "گیسوں کا پھیلاؤ گاڑی کو چلانے میں کیسے مدد کرتا ہے؟"
+    },
+    {
+      "id": 526325,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is the uncontrolled expansion of gases dangerous?",
+      "ur": "گیسوں کا غیر معمولی پھیلاؤ کیوں خطرناک ہو سکتا ہے؟"
+    },
+    {
+      "id": 526341,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are \"sun kinks\" in railway tracks and how are they prevented?",
+      "ur": "سوال 1: ریلوے ٹریکس میں \"sun kinks\" سے کیا مراد ہے اور ان سے کیسے بچا جاتا ہے؟"
+    },
+    {
+      "id": 526343,
+      "chapter": 10,
+      "topic_id": "10.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does thermal expansion affect plumbing and pipes?",
+      "ur": "تھرمل ایکسپینشن پلمبنگ اور پانی کے پائپوں کو کیسے متاثر کرتی ہے؟"
+    },
+    {
+      "id": 504475,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define specific heat capacity.",
+      "ur": "مخصوص حرارتی گنجائش کی تعریف کریں۔"
+    },
+    {
+      "id": 504478,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "List the factors that the energy required to heat a material depends on?",
+      "ur": "ان عوامل کی فہرست بنائیں جن پر میٹریل کو گرم کرنے کےلیے درکار انرجی کا انحصار ہوتا ہے؟"
+    },
+    {
+      "id": 504480,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is water used in automobile cooling system?",
+      "ur": "آٹو موبائل کولنگ سسٹم میں پانی کیوں استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 504482,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do coastal areas have milder climates than inland regions?",
+      "ur": "ساحلی علاقوں کا موسم اندرونی علاقوں کے مقابلے میں معتدل کیوں ہوتا ہے؟"
+    },
+    {
+      "id": 526351,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define specific heat capacity and write its SI unit.",
+      "ur": "مخصوص حرارتی گنجائش (Specific heat capacity) کی تعریف کریں اور اس کا SI یونٹ لکھیں۔"
+    },
+    {
+      "id": 526352,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is wood used in applications requiring thermal insulation?",
+      "ur": "تھرمل انسولیشن (حرارتی بچاؤ) کے لیے لکڑی کا استعمال کیوں کیا جاتا ہے؟"
+    },
+    {
+      "id": 526353,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are metals used to make cooking items and kettles?",
+      "ur": "کھانا پکانے کے برتن اور کیتلیاں بنانے کے لیے دھاتوں کا استعمال کیوں کیا جاتا ہے؟"
+    },
+    {
+      "id": 526354,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does metal feel colder than wood when touched, if both are at the same temperature?",
+      "ur": "اگر دھات اور لکڑی دونوں ایک ہی درجہ حرارت پر ہوں، تو چھونے پر دھات لکڑی سے زیادہ ٹھنڈی کیوں محسوس ہوتی ہے؟"
+    },
+    {
+      "id": 526361,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is water widely used in cooling and heating systems?",
+      "ur": "پانی کو کولنگ اور ہیٹنگ سسٹمز میں بڑے پیمانے پر کیوں استعمال کیا جاتا ہے؟"
+    },
+    {
+      "id": 526363,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does water protect an automobile engine from overheating?",
+      "ur": "پانی گاڑی کے انجن کو زیادہ گرم ہونے سے کیسے بچاتا ہے؟"
+    },
+    {
+      "id": 526365,
+      "chapter": 10,
+      "topic_id": "10.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of a pressure release cap in an automobile radiator?",
+      "ur": "گاڑی کے ریڈی ایٹر میں پریشر ریلیز کیپ (pressure release cap) کا کیا کام ہوتا ہے؟"
+    },
+    {
+      "id": 504483,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does energy absorption or loss affect the state of matter?",
+      "ur": "حرارت کے جذب یا اخراج سے مادے کی حالتے کیسے متاثر ہوتی ہے؟"
+    },
+    {
+      "id": 504484,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do gases exhibit the greatest thermal expansion compared to solids?",
+      "ur": "گیسیں ٹھوس اجسام کے مقابلے میں سب سے زیادہ حرارتی پھیلاؤ کیوں ظاہر کرتی ہے؟"
+    },
+    {
+      "id": 526387,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to atoms or molecules when a substance absorbs energy?",
+      "ur": "جب کوئی مادہ توانائی جذب کرتا ہے تو اس کے ایٹموں یا مالیکیولز کے ساتھ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 526388,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between melting and boiling.",
+      "ur": "پگھلنے (melting) اور ابلنے (boiling) میں فرق کریں۔"
+    },
+    {
+      "id": 526389,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define condensation and solidification.",
+      "ur": "کنڈنسیشن (condensation) اور سالیڈیفیکیشن (solidification) کی تعریف کریں۔"
+    },
+    {
+      "id": 526391,
+      "chapter": 10,
+      "topic_id": "10.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do gases exhibit the greatest thermal expansion while solids have the least?",
+      "ur": "گیسوں میں حرارتی پھیلاؤ (thermal expansion) سب سے زیادہ اور ٹھوس میں سب سے کم کیوں ہوتا ہے؟"
+    },
+    {
+      "id": 504485,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define evaporation.",
+      "ur": "اویپوریشن کی تعریف کریں۔"
+    },
+    {
+      "id": 504486,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does evaporation cause cooling?",
+      "ur": "اویپوریشن ٹھنڈک کیوں پیدا کرتی ہے؟"
+    },
+    {
+      "id": 504487,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does surface area affect ecaporation?",
+      "ur": "سطحی رقبہ اییوریشن کو کیسے متاثر کرتا ہے؟"
+    },
+    {
+      "id": 504488,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the effect of humidity on the rate of evaporation?",
+      "ur": "ہوا میں نمی ایپوریشن کو کیسے متاثر کرتی ہے؟"
+    },
+    {
+      "id": 504490,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does sweating help body to manage temperature?",
+      "ur": "پسینہ جسم کے درجہ حرارت کو کیسے کنٹرول کرتا ہے؟"
+    },
+    {
+      "id": 504492,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do modern refrigerators cool without CFCs?",
+      "ur": "جدید ریفریجریٹر CFCs کے بغیر کیسے ٹھنڈک فراہم کرتا ہے؟"
+    },
+    {
+      "id": 526407,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a liquid in a wide dish evaporate quicker than in a narrow container?",
+      "ur": "ایک چوڑے برتن میں موجود مائع، تنگ برتن کے مقابلے میں جلدی کیوں ایوایپوریٹ ہوتا ہے؟"
+    },
+    {
+      "id": 526408,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the effect of wind speed on the rate of evaporation?",
+      "ur": "ہوا کی رفتار (wind speed) کا ایواپوریشن کی شرح پر کیا اثر ہوتا ہے؟"
+    },
+    {
+      "id": 526423,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the environmental benefit of modern refrigeration systems?",
+      "ur": "جدید ریفریجریشن سسٹمز کا ماحولیاتی فائدہ کیا ہے؟"
+    },
+    {
+      "id": 526424,
+      "chapter": 10,
+      "topic_id": "10.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Briefly describe how a refrigerator works using evaporation and condensation.",
+      "ur": "ایواپوریشن اور کنڈنسیشن کے استعمال سے ریفریجریٹر کے کام کرنے کا طریقہ مختصرًا بیان کریں۔"
+    },
+    {
+      "id": 504493,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is latent heat?",
+      "ur": "مخفی حرارت کیا ہے؟"
+    },
+    {
+      "id": 504495,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define latent heat of fusion?",
+      "ur": "پگھلاؤ کی مخفی حرارت کی تعریف کریں۔"
+    },
+    {
+      "id": 504497,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the latent heat of vaporization?",
+      "ur": "ویپورائزیشن کی مخفی حرارت کیا ہے؟"
+    },
+    {
+      "id": 504498,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does temperature remain constant during a change of state?",
+      "ur": "حالت کی تبدیلی کے دوران درجہ حرارت مستقل کیوں رہتا ہے؟"
+    },
+    {
+      "id": 526432,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Latent Heat of Fusion.",
+      "ur": "لیٹنٹ ہیٹ آف فیوژن (Latent Heat of Fusion) کی تعریف کریں۔"
+    },
+    {
+      "id": 526433,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a thermometer not show a rise in temperature when ice is melting?",
+      "ur": "جب برف پگھل رہی ہوتی ہے تو تھرمامیٹر درجہ حرارت میں اضافہ کیوں نہیں دکھاتا؟"
+    },
+    {
+      "id": 526440,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Latent Heat of Vaporization.",
+      "ur": "لیٹنٹ ہیٹ آف ویپورائزیشن (Latent Heat of Vaporization) کی تعریف کریں۔"
+    },
+    {
+      "id": 526441,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Based on the temperature-time graph, what happens to the temperature while water is boiling?",
+      "ur": "درجہ حرارت-وقت گراف (temperature-time graph) کی روشنی میں بتائیں کہ جب پانی ابل رہا ہوتا ہے تو درجہ حرارت کے ساتھ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 526443,
+      "chapter": 10,
+      "topic_id": "10.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Where does the heat energy go when a liquid changes into a gas at its boiling point?",
+      "ur": "جب کوئی مائع اپنے بوائلنگ پوائنٹ پر گیس میں تبدیل ہوتا ہے تو حرارتی توانائی کہاں استعمال ہوتی ہے؟"
+    },
+    {
+      "id": 504499,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is superconductivity?",
+      "ur": "سپر کنڈکٹویٹی کیا ہے؟"
+    },
+    {
+      "id": 504501,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name two materials that exhibit superconductivity and their temperatures?",
+      "ur": "دو ایسے میٹلز کے نام بتائیں جو سپر کنڈکٹویٹی ظاہر کرتے ہیں اور ان کے ٹمپریچر لکھیں۔"
+    },
+    {
+      "id": 504504,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are two practical uses of super conductors?",
+      "ur": "سپر کنڈکٹر کے دو عملی استعمال کیا ہیں؟"
+    },
+    {
+      "id": 526453,
+      "chapter": 10,
+      "topic_id": "10.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does electric current flow without energy loss in superconductors?",
+      "ur": "سپر کنڈکٹرز میں برقی رو (Electric current) توانائی کے ضیاع کے بغیر کیوں بہتی ہے؟"
+    },
+    {
+      "id": 505659,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is conduction?",
+      "ur": "کنڈکشن کیا ہے؟"
+    },
+    {
+      "id": 505661,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are metals better conuctors than non-metals?",
+      "ur": "نان میٹلز کی نسبت میٹلز اچھے کنڈکٹرز کیوں ہیں؟"
+    },
+    {
+      "id": 505662,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "In which state of matter is conduction most efficient?",
+      "ur": "مادے کی کس حالت میں کنڈکشن زیادہ موثر ہوتی ہے؟"
+    },
+    {
+      "id": 505663,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How doea heat travel through a metal rod?",
+      "ur": "کسی میٹل میں حرارت کیسے منتقل ہوتی ہے؟"
+    },
+    {
+      "id": 505664,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is thermal equilibrium?",
+      "ur": "تھرمل توازن کیا ہے؟"
+    },
+    {
+      "id": 505665,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a metal spoon feel hotter than a wooden spoon in hot water?",
+      "ur": "گرم پانی میں کس میٹل کا چمچ لکڑی کے چمچ کی نسبت زیادہ گرم کیوں محسوس ہوتا ہے؟"
+    },
+    {
+      "id": 505666,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the best known heat conductor?",
+      "ur": "سب سے بہتر حرارت کا کنڈکٹر کون سا ہے؟"
+    },
+    {
+      "id": 505667,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do kitchen pans use conduction?",
+      "ur": "کچن کے برتن کس طرح کنڈکشن کو استعمال کرتے ہیں؟"
+    },
+    {
+      "id": 526462,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the three primary types of heat transfer?",
+      "ur": "حرارت کی منتقلی کی تین بنیادی اقسام کون سی ہیں؟"
+    },
+    {
+      "id": 526463,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a metal spoon become warm in hot water while a wooden spoon does not?",
+      "ur": "گرم پانی میں رکھنے پر دھات کا چمچ کیوں گرم ہو جاتا ہے جبکہ لکڑی کا چمچ گرم نہیں ہوتا؟"
+    },
+    {
+      "id": 526469,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain how heat gradually spreads throughout a solid during conduction.",
+      "ur": "وضاحت کریں کہ کنڈکشن کے دوران ٹھوس چیز میں حرارت آہستہ آہستہ کیسے پھیلتی ہے۔"
+    },
+    {
+      "id": 526470,
+      "chapter": 11,
+      "topic_id": "11.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do metals move heat more rapidly than non-metals?",
+      "ur": "دھاتیں غیر دھاتوں کے مقابلے میں حرارت زیادہ تیزی سے کیوں منتقل کرتی ہیں؟"
+    },
+    {
+      "id": 505673,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define convection.",
+      "ur": "کنویکشن کی تعریف کریں۔"
+    },
+    {
+      "id": 505676,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does heated fluid rise?",
+      "ur": "گرم کرنے پر مائعات اور گیسیں اوپر کیوں اٹھ جاتی ہیں؟"
+    },
+    {
+      "id": 505679,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a convection current?",
+      "ur": "کنویکشن کرنٹس کیا ہیں؟"
+    },
+    {
+      "id": 505681,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe se breeze.",
+      "ur": "سمندری ہوا کی وضاحت کریں۔"
+    },
+    {
+      "id": 505684,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define land breeze.",
+      "ur": "زمینی ہوا کی وضاحت کریں۔"
+    },
+    {
+      "id": 505686,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do gliders stay in the air without an engine?",
+      "ur": "گلائیڈرز کیسے ایک انجن کے بغیر ہوا میں رہتے ہیں؟"
+    },
+    {
+      "id": 505687,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is convection is important for marine life?",
+      "ur": "سمندری حیات میں کنویکشن کیوں اہم ہے؟"
+    },
+    {
+      "id": 505690,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Where should a heater be placed in a room for maximum efficiency?",
+      "ur": "ہیٹر کی بہتر کارکردگی کےلیے اسے کہاں پر رکھنا چاہیے؟"
+    },
+    {
+      "id": 505693,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a house holed hot water system use convection?",
+      "ur": "کس طرح گھریلو گرم پانی کا سسٹم کنویکشن کا استعمال کرتا ہے؟"
+    },
+    {
+      "id": 526480,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What do the colored streaks of potassium permanganate reveal in the water experiment?",
+      "ur": "پانی کے تجربے میں پوٹاشیم پرمینگنیٹ کی رنگین دھاریاں (coloured streaks) کیا ظاہر کرتی ہیں؟"
+    },
+    {
+      "id": 526486,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the Sun initiate convection currents in the air?",
+      "ur": "سورج ہوا میں کنویکشن کرنٹس کا آغاز کیسے کرتا ہے؟"
+    },
+    {
+      "id": 526487,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to the warm air after it rises into the atmosphere?",
+      "ur": "گرم ہوا فضا میں اوپر اٹھنے کے بعد کیا کرتی ہے؟"
+    },
+    {
+      "id": 526494,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain why a sea breeze blows during the day.",
+      "ur": "وضاحت کریں کہ دن کے وقت سی بریز (سمندری ہوا) کیوں چلتی ہے۔"
+    },
+    {
+      "id": 526495,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do birds like eagles and vultures travel long distances with little effort?",
+      "ur": "عقاب اور گدھ جیسے پرندے بہت کم محنت کے ساتھ طویل فاصلہ کیسے طے کرتے ہیں؟"
+    },
+    {
+      "id": 526504,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do convection currents help marine animals and plants survive in the ocean?",
+      "ur": "کنویکشن کرنٹس سمندر میں سمندری جانوروں اور پودوں کو زندہ رہنے میں کیسے مدد کرتے ہیں؟"
+    },
+    {
+      "id": 526505,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the process of heating a room using a gas heater during winter.",
+      "ur": "سردیوں میں گیس ہیٹر کے ذریعے کمرے کو گرم کرنے کے عمل کی وضاحت کریں۔"
+    },
+    {
+      "id": 526506,
+      "chapter": 11,
+      "topic_id": "11.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to cold water inside a household hot-water tank when it is heated?",
+      "ur": "گھریلو گرم پانی کے ٹینک کے اندر ٹھنڈے پانی کو گرم کرنے پر کیا ہوتا ہے؟"
+    },
+    {
+      "id": 505694,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is radiation?",
+      "ur": "ریڈی ایشن کیا ہے؟"
+    },
+    {
+      "id": 505695,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the Sun's heat reach the Earth?",
+      "ur": "سورج کی حرارت زمین تک کیسے پہنچتی ہے؟"
+    },
+    {
+      "id": 505698,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which surface color is the best absorber of radiation?",
+      "ur": "سطح کا کون سا رنگ ریڈی ایشن کو اچھی طرح جذب کرتا ہے؟"
+    },
+    {
+      "id": 505699,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which surface color is the best reflector of radiation?",
+      "ur": "سطح کا کون سا رنگ ریڈی ایشن کو اچھی طرح رفلیکٹ کرتا ہے؟"
+    },
+    {
+      "id": 505702,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Leslie's cube used for?",
+      "ur": "لیز لی کیوب کا کیا استعمال ہے؟"
+    },
+    {
+      "id": 505703,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does surface area affect radiation?",
+      "ur": "سطحی رقبہ کس طرح ریڈی ایشن کو متاثر کرتا ہے؟"
+    },
+    {
+      "id": 505705,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do radiators have fins?",
+      "ur": "ریڈی ایٹرز میں فنز کیوں ہوتے ہیں؟"
+    },
+    {
+      "id": 505707,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does an infrared thermometer work?",
+      "ur": "ایک انفراریڈ تھرمامیٹر کس طرح کام کرتا ہے؟"
+    },
+    {
+      "id": 505713,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of a vacuum in a thermos flask?",
+      "ur": "تھرمس فلاسک میں خلا کا کیا مقصد ہے؟"
+    },
+    {
+      "id": 505721,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is the inner wall of a thermos flask silvered?",
+      "ur": "تھرمس فلاسک کی اندرونی دیواروں پر چمکیلی پرت کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 505776,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is double-glazing?",
+      "ur": "ڈبل گیزرڈ کھڑکیاں کیا ہیں؟"
+    },
+    {
+      "id": 505779,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do false ceilings help in building?",
+      "ur": "معلق چھت کس طرح گھروں میں مفید ہوتی ہیں؟"
+    },
+    {
+      "id": 526516,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why can the Sun's heat not reach the Earth through conduction or convection?",
+      "ur": "سورج کی حرارت کنڈکشن یا کنویکشن کے ذریعے زمین تک کیوں نہیں پہنچ سکتی؟"
+    },
+    {
+      "id": 526517,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a hot cup of tea eventually cool down when placed in a room?",
+      "ur": "کمرے میں رکھنے پر چائے کا گرم کپ آخر کار کیوں ٹھنڈا ہو جاتا ہے؟"
+    },
+    {
+      "id": 526523,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Leslie's cube and what are its four different faces?",
+      "ur": "لیزلی کیوب (Leslie's cube) کیا ہے اور اس کی چار مختلف سطحیں کون سی ہیں؟"
+    },
+    {
+      "id": 526524,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Compare the radiation absorption ability of a dull black surface with a polished silver surface.",
+      "ur": "دھندلی سیاہ سطح اور پالش شدہ چاندی کی سطح کی ریڈی ایشن جذب کرنے کی صلاحیت کا موازنہ کریں۔"
+    },
+    {
+      "id": 526526,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a dull black surface heat up quickly and cool down faster?",
+      "ur": "ایک دھندلی سیاہ سطح جلدی گرم اور تیزی سے ٹھنڈی کیوں ہو جاتی ہے؟"
+    },
+    {
+      "id": 526543,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name two important factors that affect the rate of radiation emitted by an object.",
+      "ur": "ان دو اہم عوامل (factors) کے نام لکھیں جو کسی چیز سے خارج ہونے والی ریڈی ایشن کی شرح پر اثر انداز ہوتے ہیں۔"
+    },
+    {
+      "id": 526545,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is an infrared thermometer useful in dangerous or sensitive situations like COVID-19?",
+      "ur": "کووڈ-19 (COVID-19) جیسی حساس یا خطرناک صورتحال میں انفرا ریڈ تھرمامیٹر کیسے فائدہ مند ہے؟"
+    },
+    {
+      "id": 526565,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a thermos flask prevent heat loss through radiation?",
+      "ur": "ایک تھرموس فلاسسک ریڈی ایشن کے ذریعے حرارت کے ضیاع (heat loss) کو کیسے روکتا ہے؟"
+    },
+    {
+      "id": 526566,
+      "chapter": 11,
+      "topic_id": "11.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "State three ways to reduce thermal energy transfer in buildings during extreme weather.",
+      "ur": "شدید موسم کے دوران عمارتوں میں حرارتی توانائی کی منتقلی کو کم کرنے کے تین طریقے لکھیں۔"
+    },
+    {
+      "id": 505782,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is greenhouse effect?",
+      "ur": "گرین ہاؤس ایفیکٹ کیا ہے؟"
+    },
+    {
+      "id": 505785,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name two major greenhouse gasses?",
+      "ur": "دو اہم گرین ہاؤس گیسوں کے نام لکھیں۔"
+    },
+    {
+      "id": 505789,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is global warming?",
+      "ur": "گلوبل وارمنگ کیا ہے؟"
+    },
+    {
+      "id": 505795,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What would heppen to Earth without the greenhouse effect?",
+      "ur": "گرین ہاؤس ایفیکٹ کے بغیر زمین کی حالت کیسی ہوجائے گی؟"
+    },
+    {
+      "id": 505796,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are solar panels usually black?",
+      "ur": "عموما سولر پینلز سیاہ کیوں ہوتےہیں؟"
+    },
+    {
+      "id": 526570,
+      "chapter": 11,
+      "topic_id": "11.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do glass or plastic sheets create a heat trap inside a artificial greenhouse?",
+      "ur": "شیشے یا پلاسٹک کی شیٹس ایک مصنوعی گرین ہاؤس کے اندر حرارت کا جال (heat trap) کیسے بناتی ہیں؟"
+    },
+    {
+      "id": 506748,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is wave?",
+      "ur": "ویو کیا ہے؟"
+    },
+    {
+      "id": 506749,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do particles moves as a wave passes through a medium?",
+      "ur": "پارٹیکلز کس طرح حرکت کرتے ہیں جب ویو میڈیم میں سے گزرتی ہے؟"
+    },
+    {
+      "id": 506750,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Provide two everyday examples of energy tansfer through waves?",
+      "ur": "دو مثالیں دیں جس میں انرجی ویو سے منتقل ہوتی ہے۔"
+    },
+    {
+      "id": 526580,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main function of waves regarding energy and matter?",
+      "ur": "انرجی اور مادے کے حوالے سے لہروں کا بنیادی کام کیا ہے؟"
+    },
+    {
+      "id": 526581,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Do particles of a medium travel along with the wave? Explain with an example.",
+      "ur": "کیا میڈیم کے پارٹیکلز لہر کے ساتھ سفر کرتے ہیں؟ مثال سے وضاحت کریں۔"
+    },
+    {
+      "id": 526585,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens when a twig is dropped into still water?",
+      "ur": "جب ساکن پانی میں کوئی ٹہنی گرائی جائے تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 526603,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between compression and rarefaction.",
+      "ur": "کمپریشن (Compression) اور ریئرفیکشن (Rarefaction) میں فرق واضح کریں۔"
+    },
+    {
+      "id": 526604,
+      "chapter": 12,
+      "topic_id": "12.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How are ripples generated in a ripple tank experiment?",
+      "ur": "رپل ٹینک کے تجربے میں لہریں (ripples) کیسے پیدا کی جاتی ہیں؟"
+    },
+    {
+      "id": 506751,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are mechanical waves?",
+      "ur": "مکینیکل ویوز کیا ہیں؟"
+    },
+    {
+      "id": 506761,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are electromagnetic waves?",
+      "ur": "الیکٹرو میگنیٹک ویوز کیا ہیں؟"
+    },
+    {
+      "id": 506762,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name four examples of electromagnetic waves.",
+      "ur": "الیکٹرومیگنیٹک ویوز کی چار مثالیں دیں۔"
+    },
+    {
+      "id": 506764,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the speed of electromagnetic waves in a vacuum?",
+      "ur": "خلا میں الیکٹرومیگنٹک ویوز کی سپیڈ کیا ہے؟"
+    },
+    {
+      "id": 506765,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define transverse wave.",
+      "ur": "ٹرانسورس ویوز کی تعریف کریں۔"
+    },
+    {
+      "id": 506766,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a longitudinal wave.",
+      "ur": "لونگیٹیوڈنل ویوز کی تعریف کریں۔"
+    },
+    {
+      "id": 526619,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is common and what is different among all electromagnetic waves?",
+      "ur": "تمام الیکٹرو میگنیٹک لہروں میں کیا چیز مشترک اور کیا مختلف ہوتی ہے؟"
+    },
+    {
+      "id": 526648,
+      "chapter": 12,
+      "topic_id": "12.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the difference between crests and troughs?",
+      "ur": "کریسٹ (Crest) اور ٹراف (Trough) میں کیا فرق ہے؟"
+    },
+    {
+      "id": 506767,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is crest and trough?",
+      "ur": "کرسٹ اور ٹرف کیا ہے؟"
+    },
+    {
+      "id": 506771,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are compressions and rarefaction?",
+      "ur": "کمپریشن اور ریرفلیکشن کیا ہے؟"
+    },
+    {
+      "id": 506772,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define amplitude.",
+      "ur": "ایمپلی ٹیوڈ کی تعریف کریں۔"
+    },
+    {
+      "id": 506773,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define wavelength.",
+      "ur": "ویولینگتھ کی تعریف کریں۔"
+    },
+    {
+      "id": 506774,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is frequency?",
+      "ur": "فریکونسی کیا ہے؟"
+    },
+    {
+      "id": 506775,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the relationship between time period and frequency?",
+      "ur": "ٹائم پیریڈ اور فریکونسی کے مابین کیا تعلق ہے؟"
+    },
+    {
+      "id": 506777,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is wave equation?",
+      "ur": "ویو مساوات کیا ہے؟"
+    },
+    {
+      "id": 526659,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between compression and rarefaction in terms of pressure.",
+      "ur": "پریشر کے لحاظ سے کمپریشن اور ریئرفیکشن میں فرق واضح کریں۔"
+    },
+    {
+      "id": 526662,
+      "chapter": 12,
+      "topic_id": "12.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the difference between Frequency and Time Period?",
+      "ur": "فریکوئنسی اور ٹائم پیریڈ میں کیا فرق ہے؟"
+    },
+    {
+      "id": 506780,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the reflection of waves?",
+      "ur": "ویوز کی رفلیکشن کیا ہے؟"
+    },
+    {
+      "id": 506781,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the law of reflection?",
+      "ur": "رفلیکشن کا قانون بیان کریں۔"
+    },
+    {
+      "id": 506782,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define refraction?",
+      "ur": "رفریکشن کی تعریف کریں۔"
+    },
+    {
+      "id": 506784,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to the speed and wavelength of water wave when it enters shallow water?",
+      "ur": "جب پانی کی ویو گہرے حصے سے کم گہرائی والے حصے میں داخل ہوتی ہیں تو اس کی سپیڈ اور ویولینتگھ پر کیا اثر پڑتا ہے؟"
+    },
+    {
+      "id": 506785,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Does the frequency of a wave change during refraction?",
+      "ur": "کیا رفریکشن کے دوران ویو کی فریکونسی تبدیل ہوتی ہے؟"
+    },
+    {
+      "id": 506786,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is diffraction?",
+      "ur": "ڈفریکشن کیا ہے؟"
+    },
+    {
+      "id": 506787,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Under what condition is diffraction most prominent?",
+      "ur": "ڈفریکشن کس صورت میں زیادہ نمایاں ہوتی ہے؟"
+    },
+    {
+      "id": 526691,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give examples of wave reflection in daily life for sound and light.",
+      "ur": "روزمرہ زندگی سے آواز اور روشنی کی لہروں کی ریفلیکشن کی مثالیں دیں۔"
+    },
+    {
+      "id": 526720,
+      "chapter": 12,
+      "topic_id": "12.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens when the size of a slit is wider than the wavelength of the waves?",
+      "ur": "جب شگاف (slit) کا سائز لہروں کی ویولینتھ سے زیادہ چوڑا ہو تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 506791,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are primary waves and how do they travel?",
+      "ur": "پرائمری ویوز کیا ہیں؟ اور یہ کس طرح سفر کرتی ہیں؟"
+    },
+    {
+      "id": 506792,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What causes a tsunami?",
+      "ur": "سونامی کی کیا وجوہات ہیں؟"
+    },
+    {
+      "id": 506794,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a tsunami change as it reaches shallow water?",
+      "ur": "جب سونامی کب گہرے پانی کی طرف بڑھتا ہے تو اس کا طرز عمل کیسے بدلتا ہے؟"
+    },
+    {
+      "id": 526765,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a seismometer and how does it help scientists?",
+      "ur": "سیسمومیٹر (Seismometer) کیا ہے اور یہ سائنسدانوں کی کیسے مدد کرتا ہے؟"
+    },
+    {
+      "id": 526778,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do tsunami waves go unnoticed by ships in the deep ocean?",
+      "ur": "گہرے سمندر میں بحری جہازوں کو سونامی لہروں کا پتہ کیوں نہیں چل پاتا؟"
+    },
+    {
+      "id": 526780,
+      "chapter": 12,
+      "topic_id": "12.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What changes occur in a tsunami wave as it approaches the shore?",
+      "ur": "ساحل کے قریب پہنچنے پر سونامی لہر میں کیا تبدیلیاں آتی ہیں؟"
+    },
+    {
+      "id": 507867,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is sound produced?",
+      "ur": "ساؤنڈ کیسے پیدا ہوتی ہے؟"
+    },
+    {
+      "id": 507869,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the classification of sound waves?",
+      "ur": "ساؤنڈ ویوز کی نوعیت بیان کریں۔"
+    },
+    {
+      "id": 507872,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are two main regions created in a longitudinal sound wave?",
+      "ur": "لونگیٹیوڈنل ساؤنڈ ویو میں کون سے دو اہم نقاط بنتے ہیں؟"
+    },
+    {
+      "id": 507873,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is a medium essential for sound propagation?",
+      "ur": "ساؤنڈ کی اشاعت کےلیے میڈیم کی کیوں ضرورت ہوتی ہے؟"
+    },
+    {
+      "id": 507874,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the typical speed of sound in air?",
+      "ur": "عام طور پر ہوا میں ساؤنڈ کی سپیڈ کتنی ہوتی ہے؟"
+    },
+    {
+      "id": 507875,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the speed of sound vary across different states of matter?",
+      "ur": "ساؤنڈ کی سپیڈ میڈیم کی نوعیت کے مطابق کس طرح بدلتی ہے؟"
+    },
+    {
+      "id": 507876,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the formula used to calculate the speed of a wave?",
+      "ur": "کسی ویو کی سپیڈ معلوم کرنے کےلیے کون سا فارمولا استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 507878,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What factors influence the speed of sound in air?",
+      "ur": "ہوا میں ساؤنڈ کی سپیڈ پر کون سے عوامل اثر انداز ہوتے ہیں؟"
+    },
+    {
+      "id": 507880,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the speed of sound in steel, iron, Nickel?",
+      "ur": "سٹیل، آئرن اور نکل میں ساؤنڈ کی سپیڈ کیا ہے؟"
+    },
+    {
+      "id": 526816,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do human vocal cords produce sound?",
+      "ur": "انسان کے ووکل کارڈز (vocal cords) آواز کیسے پیدا کرتے ہیں؟"
+    },
+    {
+      "id": 526818,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What type of waves are sound waves? Define them.",
+      "ur": "آواز کی لہریں کس قسم کی لہریں ہیں؟ ان کی تعریف کریں۔"
+    },
+    {
+      "id": 526826,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is sound produced?",
+      "ur": "آواز کیسے پیدا ہوتی ہے؟"
+    },
+    {
+      "id": 526828,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define compression and rarefaction.",
+      "ur": "کمپریشن اور ریئرفیکشن کی تعریف کریں۔"
+    },
+    {
+      "id": 526830,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is sound called a mechanical wave?",
+      "ur": "آواز کو مکینیکل لہر کیوں کہا جاتا ہے؟"
+    },
+    {
+      "id": 526831,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the wavelength of a sound wave?",
+      "ur": "آواز کی لہر کی ویو لینگتھ (طولِ موج) کیا ہوتی ہے؟"
+    },
+    {
+      "id": 526854,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the difference between light waves and sound waves regarding their propagation.",
+      "ur": "روشنی کی لہروں اور آواز کی لہروں کے گزرنے (اشاعت) کے لحاظ سے فرق بیان کریں۔"
+    },
+    {
+      "id": 526855,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to the sound of the bell inside a bell jar when air is pumped out? What does it prove?",
+      "ur": "جب بیل جار سے ہوا پمپ کے ذریعے باہر نکالی جاتی ہے تو گھنٹی کی آواز کو کیا ہوتا ہے؟ اس سے کیا ثابت ہوتا ہے؟"
+    },
+    {
+      "id": 526856,
+      "chapter": 13,
+      "topic_id": "13.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by the longitudinal nature of sound waves?",
+      "ur": "آواز کی لہروں کی طولی نوعیت (Longitudinal Nature) سے کیا مراد ہے؟"
+    },
+    {
+      "id": 526860,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Compare the speed of sound in solids, liquids, and gases.",
+      "ur": "ٹھوس، مائع اور گیسوں میں آواز کی رفتار کا موازنہ کریں۔"
+    },
+    {
+      "id": 526861,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do temperature and humidity affect the speed of sound in air?",
+      "ur": "درجہ حرارت اور نمی ہوا میں آواز کی رفتار پر کیسے اثر انداز ہوتے ہیں؟"
+    },
+    {
+      "id": 526862,
+      "chapter": 13,
+      "topic_id": "13.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the equation used to calculate the speed of sound and define its symbols.",
+      "ur": "آواز کی رفتار معلوم کرنے کی مساوات لکھیں اور اس کی علامتوں کی وضاحت کریں۔"
+    },
+    {
+      "id": 526874,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Loudness of sound.",
+      "ur": "آواز کی لاؤڈنیس (Loudness) کی تعریف کریں۔"
+    },
+    {
+      "id": 526875,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the factors on which the loudness of sound depends.",
+      "ur": "ان عوامل کے نام لکھیں جن پر آواز کی لاؤڈنیس کا انحصار ہوتا ہے۔"
+    },
+    {
+      "id": 526877,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the area of a vibrating body affect its loudness? Give an example.",
+      "ur": "مرتعش جسم کا رقبہ آواز کی لاؤڈنیس کو کیسے متاثر کرتا ہے؟ ایک مثال دیں."
+    },
+    {
+      "id": 526879,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Does the loudness of a sound affect the time it takes for an echo to return?",
+      "ur": "برین ٹیزر کا جواب دیں: کیا آواز کی لاؤڈنیس اس وقت کو متاثر کرتی ہے جو گونج (echo) کو واپس آنے میں لگتا ہے؟"
+    },
+    {
+      "id": 526891,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Pitch and explain its relationship with frequency.",
+      "ur": "پچ (Pitch) کی تعریف کریں اور فریکوئنسی کے ساتھ اس کا تعلق واضح کریں۔"
+    },
+    {
+      "id": 526892,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is a man's voice deeper (graver) than a woman's voice?",
+      "ur": "مرد کی آواز عورت کی آواز کے مقابلے میں بھاری (موٹی) کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 526894,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by the Quality of sound?",
+      "ur": "سوال 3: آواز کی کوالٹی (Quality of sound) سے کیا مراد ہے؟"
+    },
+    {
+      "id": 526895,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do the waveforms of a violin and a flute differ according to the text?",
+      "ur": "متن کے مطابق وائلن (violin) اور بانسری (flute) کی ویو فارمز میں کیا فرق ہوتا ہے؟"
+    },
+    {
+      "id": 526918,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between musical sounds and noise.",
+      "ur": "موسیقی کی آوازوں (Musical sounds) اور شور (Noise) میں فرق بیان کریں۔"
+    },
+    {
+      "id": 526919,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the harmful effects of noise pollution on human health?",
+      "ur": "انسانی صحت پر شور کی آلودگی کے کیا نقصانات (اثرات) ہیں؟"
+    },
+    {
+      "id": 526920,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "List three ways to control or reduce noise pollution.",
+      "ur": "شور کی آلودگی کو کنٹرول یا کم کرنے کے تین طریقے لکھیں۔"
+    },
+    {
+      "id": 526921,
+      "chapter": 13,
+      "topic_id": "13.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the shape of a waveform represent when displayed on an oscilloscope?",
+      "ur": "جب آکسیلوسکوپ پر ویو فارم (waveform) دکھائی دیتی ہے، تو اس کی شکل کس چیز کو ظاہر کرتی ہے؟"
+    },
+    {
+      "id": 507882,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do we distinguish between a loud and a faint sound?",
+      "ur": "ہم نیچی اور مدھم ساؤنڈز میں کس طرح فرق کرتے ہیں؟"
+    },
+    {
+      "id": 507883,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the characteristics of Pitch?",
+      "ur": "پچ کی خصوصیات واضح کریں۔"
+    },
+    {
+      "id": 507885,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to pitch as frequency increases?",
+      "ur": "فریکوینسی بڑھنے سے پچ پر کیا فرق پڑتا ہے؟"
+    },
+    {
+      "id": 507886,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the quality of sound?",
+      "ur": "ساؤنڈ کی کوالٹی کیا ہے؟"
+    },
+    {
+      "id": 507888,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How noise is produced?",
+      "ur": "شور کیسے پیدا ہوتا ہے؟"
+    },
+    {
+      "id": 507890,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the recommended safe limit for noise exposure?",
+      "ur": "شور کا محفوظ لیول کتنا سمجھا جاتا ہے؟"
+    },
+    {
+      "id": 507891,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define an echo?",
+      "ur": "ایکو کی تعریف کریں۔"
+    },
+    {
+      "id": 507893,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the requirements for the human ears to hear a distinct echo?",
+      "ur": "ایک واضح ایکو سننے کےلیے انسانی کان کی کیا ضروریات ہیں؟"
+    },
+    {
+      "id": 507894,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name animals that use echoes to find food?",
+      "ur": "ایکو کا استعمال کرتے ہوئے خوراک تلاش کرنے والے جانوروں کے نام بتائیں۔"
+    },
+    {
+      "id": 526940,
+      "chapter": 13,
+      "topic_id": "13.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do bats identify their food using echo?",
+      "ur": "چمگادڑ گونج (echo) کی مدد سے اپنی خوراک کی شناخت کیسے کرتے ہیں؟"
+    },
+    {
+      "id": 507896,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What causes the refraction of sound waves?",
+      "ur": "ساؤنڈ کی رفریکشن کے کیا اسباب ہیں؟"
+    },
+    {
+      "id": 507898,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain why sound travels farther on a cool mornig?",
+      "ur": "ٹھنڈی صبح کے وقت ساؤنڈ زیادہ دور تک سفر کیوں کرتی ہے؟ وضاحت کریں۔"
+    },
+    {
+      "id": 507900,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is diffraction of sound?",
+      "ur": "ساؤنڈ کی ڈفریکشن سے کیا مراد ہے؟"
+    },
+    {
+      "id": 507902,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the range of human hearing?",
+      "ur": "قابل سماعت فریکوینسی کی حدود کیا ہیں؟"
+    },
+    {
+      "id": 507904,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do sound wave bend when traveling from air into water?",
+      "ur": "جب ساؤنڈ ویوز ہوا سے پانی میں داخل ہوتی ہیں تو مڑ کیوں جاتی ہیں؟"
+    },
+    {
+      "id": 507906,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is diffraction of sound, and what is a common example of it?",
+      "ur": "ساؤنڈ کی ڈفرکشن کیا ہے اور اس کی عام مثال کیا ہے؟"
+    },
+    {
+      "id": 526957,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why can a submerged person hear underwater sounds clearly, while someone above the surface struggles?",
+      "ur": "پانی کے اندر موجود شخص زیرِ آب آوازیں واضح طور پر کیوں سن سکتا ہے، جبکہ سطح سے اوپر موجود شخص کو مشکل ہوتی ہے؟"
+    },
+    {
+      "id": 526958,
+      "chapter": 13,
+      "topic_id": "13.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give a practical example of diffraction of sound from daily life.",
+      "ur": "روزمرہ زندگی سے آواز کی ڈیفریکشن کی ایک عملی مثال دیں۔"
+    },
+    {
+      "id": 507908,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is infrasound and how is it used?",
+      "ur": "انفراساؤنڈ کیا ہے؟ اور یہ کیسے استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 507909,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does SONAR calculate the depth of the ocean?",
+      "ur": "سونار کی مدد سے کس طرح سمندر کی گہرائی معلوم کی جاتی ہے؟"
+    },
+    {
+      "id": 507910,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the audible frequency range for a healthy human ear?",
+      "ur": "انسانی کان کےلیے قابل سامعت فریکوینسی کی حدود کیا ہیں؟"
+    },
+    {
+      "id": 507911,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is ultrasound and how is it used in medical?",
+      "ur": "الٹراساؤنڈ کیا ہے اور اسے میڈیکل میں کیسے استعمال کرتے ہیں؟"
+    },
+    {
+      "id": 526968,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does age affect the hearing ability of humans?",
+      "ur": "عمر بڑھنے سے انسان کے سننے کی صلاحیت پر کیا اثر پڑتا ہے؟"
+    },
+    {
+      "id": 526979,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do scientists use infrasound for earthquake detection and volcano monitoring?",
+      "ur": "سائنسدان زلزلے کی شناخت اور آتش فشاں کی نگرانی کے لیے انفراساؤنڈ کا استعمال کیسے کرتے ہیں؟"
+    },
+    {
+      "id": 526980,
+      "chapter": 13,
+      "topic_id": "13.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Ultrasonography and how does it work?",
+      "ur": "الٹراسونونوگرافی (Ultrasonography) کیا ہے اور یہ کیسے کام کرتی ہے؟"
+    },
+    {
+      "id": 507912,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the accoustic benefits of curved ceiling in theatres?",
+      "ur": "صوتی تحفظ کاتھیٹرز میں خم دار چھتوں کا کیا فائدہ ہے؟"
+    },
+    {
+      "id": 507922,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is reverberation and how can it be controlled in a hall?",
+      "ur": "باز گشت کیا ہے؟ اور یہ ہال میں کیسے کنٹرول ہوتی ہے؟"
+    },
+    {
+      "id": 526989,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is acoustic protection and how is it achieved?",
+      "ur": "ایکسٹک پروٹیکشن (Acoustic protection) کیا ہے اور یہ کیسے حاصل کی جاتی ہے؟"
+    },
+    {
+      "id": 526990,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define reverberation and state its disadvantage.",
+      "ur": "ریویربریشن (Reverberation) کی تعریف کریں اور اس کا نقصان بتائیں۔"
+    },
+    {
+      "id": 526992,
+      "chapter": 13,
+      "topic_id": "13.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is a balance between reflection and absorption necessary in auditoriums?",
+      "ur": "آڈیٹوریمز میں آواز کے انعکاس (reflection) اور جذب ہونے (absorption) کے درمیان توازن کیوں ضروری ہے؟"
+    },
+    {
+      "id": 508032,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define reflection of light. Also write its types?",
+      "ur": "روشنی کی رفلیکشن کی تعریف کریں اور اس کی اقسام لکھیں۔"
+    },
+    {
+      "id": 508033,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the first law of reflection.",
+      "ur": "رفلیکشن کا پہلا قانون بیان کریں۔"
+    },
+    {
+      "id": 508034,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the relationship between the angle of incident and the angle of reflection?",
+      "ur": "اینگل آف انسیڈنس اور اینگل آف رفلیکشن میں کیا تعلق ہے؟"
+    },
+    {
+      "id": 508035,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between regular and diffused reflection?",
+      "ur": "باقاعدہ اور بے قاعدہ رفلیکشن میں فرق کریں۔"
+    },
+    {
+      "id": 527017,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the Second Law of Reflection and write its mathematical form.",
+      "ur": "رفلیکشن کا دوسرا قانون بیان کریں اور اس کی ریاضیاتی شکل لکھیں۔"
+    },
+    {
+      "id": 527039,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "List the four properties of an image formed by a plane mirror.",
+      "ur": "پلین مرر (plane mirror) سے بننے والی تصویر کی چار خصوصیات لکھیں۔"
+    },
+    {
+      "id": 527040,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by \"Lateral Inversion\" in a plane mirror? Give an example.",
+      "ur": "پلین مرر میں \"لیٹرل انورژن\" (Lateral Inversion) سے کیا مراد ہے؟ ایک مثال دیں۔"
+    },
+    {
+      "id": 527041,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is the image formed by a plane mirror called a \"Virtual Image\"?",
+      "ur": "پلین مرر سے بننے والی تصویر کو \"ورچوئل تصویر\" کیوں کہا جاتا ہے؟"
+    },
+    {
+      "id": 508036,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is refraction of light?",
+      "ur": "روشنی کی رفریکشن کیا ہے؟"
+    },
+    {
+      "id": 508037,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does light change direction when it passes from one medium to another?",
+      "ur": "روشنی جب ایک میڈٰم سے دوسرے میڈیم میں داخل ہوتی ہے تو اپنا راستہ کیوں بدلتی ہے؟"
+    },
+    {
+      "id": 508038,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "According to snell's law. what is the ratio of the sine of the angle of incidence to the sine of the angle of refraction?",
+      "ur": "سنیل کے قانون کے مطابق سائن کے اینگل آف انسیڈنس اور سائن کے اینگل آف رفریکشن کی نسبت کیا ہے؟"
+    },
+    {
+      "id": 508040,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the speed of light change when it enters a denser medium?",
+      "ur": "روشنی کی سپیڈ کیسے بدلتی ہے جب وہ کثیف میڈیم میں داخل ہوتی ہے؟"
+    },
+    {
+      "id": 508041,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define refractive index in terms of the speed of light?",
+      "ur": "روشنی کی سپیڈ کے لحاظ سے رفریکٹوانڈیکس کی وضاحت کریں۔"
+    },
+    {
+      "id": 508042,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the critical angle?",
+      "ur": "کریٹیکل اینگل کی تعریف کریں۔"
+    },
+    {
+      "id": 508043,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to a light ray of the angle of incidence is greater than the critical angle?",
+      "ur": "جب انسیڈنس اینگل کریٹیکل اینگل سے بڑا ہوجائے تو روشنی کی رے کے ساتھ کیا ہوتا ہے؟"
+    },
+    {
+      "id": 508045,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Under what two conditions does total internal reflection occurs?",
+      "ur": "کن دو شرائط پر ٹوٹل انٹرنل رفلیکشن ہوتی ہے؟"
+    },
+    {
+      "id": 508046,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the value of critical angle for water?",
+      "ur": "پانی کے کریٹیکل اینگل کی قیمت لکھیں۔"
+    },
+    {
+      "id": 508047,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do doamonds sparkle to brightly?",
+      "ur": "ہیرا اتنا کیوں چمکتا ہے؟"
+    },
+    {
+      "id": 508049,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is an optical prism?",
+      "ur": "آپٹیکل پرزم کیا ہے؟"
+    },
+    {
+      "id": 508050,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the angle of deviation in prism.",
+      "ur": "پرزم میں اینگل آف ڈیوی ایشن کی تعریف کریں۔"
+    },
+    {
+      "id": 508052,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What path does a ray take as it enters and then exists a triangular glass prism?",
+      "ur": "ایک تکونی پرزم میں جب روشنی کی رے داخل ہوتی ہے اور پھر نکلتی تو وہ کون سا راستہ اختیار کرتی ہے؟"
+    },
+    {
+      "id": 527048,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the refractive index indicate, and how does medium density affect the speed of light?",
+      "ur": "ریفریکٹو انڈیکس کس چیز کو ظاہر کرتا ہے، اور میڈیم کی کثافت روشنی کی رفتار پر کیسے اثر انداز ہوتی ہے۔"
+    },
+    {
+      "id": 527051,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What causes the bending or refraction of light when it moves between different materials?",
+      "ur": "جب روشنی مختلف اشیاء کے درمیان سفر کرتی ہے تو اس کے مڑنے یا ریفریکشن کی کیا وجہ ہوتی ہے؟"
+    },
+    {
+      "id": 527068,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the path of a light ray passing through a triangular glass prism using the ray names.",
+      "ur": "شعاعوں کے ناموں کا استعمال کرتے ہوئے ایک تکونی شیشے کے پرزم سے گزرنے والی روشنی کی شعاع کا راستہ بیان کریں؟"
+    },
+    {
+      "id": 527069,
+      "chapter": 14,
+      "topic_id": "14.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What general phenomenon happens when light is incident at a boundary between two different media?",
+      "ur": "جب روشنی دو مختلف میڈیمز کے درمیان باؤنڈری پر پڑتی ہے تو عام طور پر کیا مظہر رونما ہوتا ہے؟"
+    },
+    {
+      "id": 508055,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which principle of light is used by optical fibers to transmit information over long distance?",
+      "ur": "آپٹیکل فائبر انفارمیشن کو زیادہ فاصلے پر منتقل کرنے کےلیے کون سا اصول استعمال کرتی ہے؟"
+    },
+    {
+      "id": 508056,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the two main primary layers of an optical fibers?",
+      "ur": "آپٹیکل فائبر کے دو بنیادی حصے کون سے ہیں؟"
+    },
+    {
+      "id": 508057,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are optical fiber preferred over copper wire for data transmission?",
+      "ur": "ڈیٹا منتقل کرنے کےلیے آپٹیکل فائبر کوتانبے کی تاروں پر ترجیح کیوں دی جاتی ہے؟"
+    },
+    {
+      "id": 527086,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "State two main advantages of optical fibres over traditional copper cables.",
+      "ur": "روایتی تانبے کی کیبلز کے مقابلے میں آپٹیکل فائبرز کے دو اہم فوائد لکھیں۔"
+    },
+    {
+      "id": 527087,
+      "chapter": 14,
+      "topic_id": "14.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do optical fibres transmit data faster than copper wires?",
+      "ur": "آپٹیکل فائبرز تانبے کی تاروں کے مقابلے میں زیادہ تیزی سے ڈیٹا کیوں منتقل کرتے ہیں؟"
+    },
+    {
+      "id": 508058,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a lens and its primary function.",
+      "ur": "لینز اور اس کے بنیادی کام کی وضاحت کریں۔"
+    },
+    {
+      "id": 508059,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the difference between a converging (convex) and diverging (Concave) lens?",
+      "ur": "کنورجنگ (کنویکس) اور ڈائی کنورجنگ (کنکیو) لینز میں فرق کریں۔"
+    },
+    {
+      "id": 508060,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the focal length of lens.",
+      "ur": "لینز کی فوکل لینگتھ کی تعریف کریں۔"
+    },
+    {
+      "id": 508061,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the SI unit for the power of a lens?",
+      "ur": "لینز کی پاور کا SI یونٹ کیا ہے؟"
+    },
+    {
+      "id": 527101,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Principal Focus for both converging and diverging lenses.",
+      "ur": "کنورجنگ اور ڈائیورجنگ دونوں لینسز کے لیے پرنسپل فوکس (Principal Focus) کی تعریف کریں۔"
+    },
+    {
+      "id": 527102,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Optical Centre? Write its key characteristic.",
+      "ur": "آپٹیکل سینٹر (Optical Centre) کیا ہے؟ اس کی سب سے اہم خصوصیت لکھیں۔"
+    },
+    {
+      "id": 527103,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Under what condition can a converging lens form a virtual and upright image?",
+      "ur": "کس شرط کے تحت ایک کنورجنگ (کانویکس) لینس ورچوئل (فرضی) اور سیدھی تصویر بنا سکتا ہے؟"
+    },
+    {
+      "id": 527107,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is the focus of a concave lens called a \"Virtual Focus\"?",
+      "ur": "کانکیو لینز کے فوکس کو \"ورچوئل فوکس\" (فرضی فوکس) کیوں کہا جاتا ہے؟"
+    },
+    {
+      "id": 527108,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Power of a lens and write its mathematical formula.",
+      "ur": "لینز کی پاور (Power of a lens) کی تعریف کریں اور اس کا ریاضیاتی فارمولا لکھیں۔"
+    },
+    {
+      "id": 527109,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the thickness of a lens affect its power?",
+      "ur": "لینس کی موٹائی اس کی پاور کو کیسے متاثر کرتی ہے؟"
+    },
+    {
+      "id": 527113,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the rule for a ray passing through the optical centre of a convex lens.",
+      "ur": "کنویکس لینز کے آپٹیکل سینٹر سے گزرنے والی شعاع کا قانون بیان کریں۔"
+    },
+    {
+      "id": 527114,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the position, size, and nature of the image when the object is placed 'Behind 2F?",
+      "ur": "جب جسم کو 2F سے پیچھے' رکھا جائے تو امیج کی پوزیشن، سائز اور نوعیت کیا ہوگی؟"
+    },
+    {
+      "id": 527115,
+      "chapter": 14,
+      "topic_id": "14.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three devices that use the principles of image formation by lenses.",
+      "ur": "ایسے تین آلات کے نام بتائیں جو لینز سے امیج بننے کے اصولوں پر کام کرتے ہیں۔"
+    },
+    {
+      "id": 508062,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Under what condition is a real image formed by a lens.",
+      "ur": "کس حالت میں لینز رئیل امیج بناتا ہے؟"
+    },
+    {
+      "id": 508063,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is virtual image?",
+      "ur": "ورچوئل امیج کیا ہے؟"
+    },
+    {
+      "id": 508064,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Where must an object be placed to use a convex lens as a magnifying glass.",
+      "ur": "کنویکس لینز کو میگنی فائنگ گلاس کے طور پر استعمال کرنے کےلیے جسم کو کہاں رکھا جائے؟"
+    },
+    {
+      "id": 527120,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is another common name for a magnifying glass?",
+      "ur": "میگنیفائینگ گلاس کا دوسرا عام نام کیا ہے؟"
+    },
+    {
+      "id": 527121,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the main components of a camera as mentioned in the text.",
+      "ur": "متن کے مطابق کیمرے کے اہم حصوں کو بیان کریں"
+    },
+    {
+      "id": 527122,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why can the image formed by a magnifying glass not be projected on a screen?",
+      "ur": "میگنیفائینگ گلاس سے بننے والی امیج کو اسکرین پر کیوں نہیں دکھایا جا سکتا"
+    },
+    {
+      "id": 527126,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What type of lenses make up the condenser lens system, and what do they do?",
+      "ur": "کنڈینسر لینز سسٹم کس قسم کے لینز سے بنتا ہے اور یہ کیا کام کرتا ہے؟"
+    },
+    {
+      "id": 527127,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the nature and position of the object (negative) in a photograph enlarger.",
+      "ur": "فوٹوگراف اینلارجر میں جسم (نیگیٹو) کی پوزیشن اور بننے والی امیج کی نوعیت بیان کریں۔"
+    },
+    {
+      "id": 527128,
+      "chapter": 14,
+      "topic_id": "14.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main similarity and difference between a slide projector and a photograph enlarger?",
+      "ur": "سلائیڈ پروجیکٹر اور فوٹوگراف اینلارجر میں بنیادی مماثلت اور فرق کیا ہے؟"
+    },
+    {
+      "id": 508065,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is accummodation of the human eye?",
+      "ur": "انسانی آنکھ کا اکاموڈیشن کیا ہے؟"
+    },
+    {
+      "id": 508066,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define short sightedness (myopia).",
+      "ur": "قریب نظری کی تعریف کریں۔"
+    },
+    {
+      "id": 508067,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is myopia corrected?",
+      "ur": "قریب نظری کو ٹھیک کیسے کیا جاسکتا ہے؟"
+    },
+    {
+      "id": 508068,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is hypermetropia.",
+      "ur": "بعید نظری کیا ہے؟"
+    },
+    {
+      "id": 508069,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which is used to correct hypermetropia?",
+      "ur": "بعید نظری کو ٹھیک کرنے کےلیے کیا استعمال کیا جاتا ہے؟"
+    },
+    {
+      "id": 527132,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a concave lens help correct short-sightedness?",
+      "ur": "کونکیو لینز شارٹ سائیٹڈنیس کو دور کرنے میں کس طرح مدد کرتا ہے؟"
+    },
+    {
+      "id": 527137,
+      "chapter": 14,
+      "topic_id": "14.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a convex lens correct long-sightedness?",
+      "ur": "ایک کنویکس لینز لانگ سائیٹڈنیس کو کیسے درست کرتا ہے؟"
+    },
+    {
+      "id": 508070,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is gravitational lensing?",
+      "ur": "گریوی ٹیشنل لینزنگ کیا ہے؟"
+    },
+    {
+      "id": 508071,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the effects of gravitational lensing?",
+      "ur": "گریوی ٹینشل لینرنگ کے کیا اثرات ہیں؟"
+    },
+    {
+      "id": 508072,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the importance of gravitational lensing?",
+      "ur": "گریوی ٹیشنل لینزنگ کی کیا اہمیت ہے؟"
+    },
+    {
+      "id": 508073,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the working of acoustic lense?",
+      "ur": "آکو سٹک لینز کا کیا کام ہے؟"
+    },
+    {
+      "id": 527142,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does gravitational lensing help astronomers study the universe?",
+      "ur": "گریویٹیشنل لینزنگ ماہرینِ فلکیات کو کائنات کا مطالعہ کرنے میں کس طرح مدد دیتی ہے؟"
+    },
+    {
+      "id": 527143,
+      "chapter": 14,
+      "topic_id": "14.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the effects gravitational lensing can have on the appearance of a distant object.",
+      "ur": "دور موجود کسی جسم کی ظاہری شکل پر گریویٹیشنل لینزنگ کے کیا اثرات ہو سکتے ہیں؟"
+    },
+    {
+      "id": 508074,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is dispersion?",
+      "ur": "ڈسپرشن کیا ہے؟"
+    },
+    {
+      "id": 508075,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is prism?",
+      "ur": "پرزم کیا ہے؟"
+    },
+    {
+      "id": 508076,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are infrared thermometers?",
+      "ur": "انفراریڈ تھرمامیٹر کیا ہے؟"
+    },
+    {
+      "id": 527154,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to white light when it enters a prism?",
+      "ur": "جب سفید روشنی پرزم میں داخل ہوتی ہے تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 527156,
+      "chapter": 14,
+      "topic_id": "14.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main advantage of an infrared thermometer?",
+      "ur": "انفرا ریڈ تھرمامیٹر کا بنیادی فائدہ کیا ہے؟"
+    },
+    {
+      "id": 508265,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define electrostatics.",
+      "ur": "الیکٹروسٹیٹکس کی تعریف کریں۔"
+    },
+    {
+      "id": 508266,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is electric charge?",
+      "ur": "الیکٹرک چارج کیا ہے؟"
+    },
+    {
+      "id": 508267,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How many types of charges?",
+      "ur": "چارجز کی کتنی اقسام ہیں؟"
+    },
+    {
+      "id": 508268,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the SI unit of charge?",
+      "ur": "چارج کا SI یونٹ کیا ہے؟"
+    },
+    {
+      "id": 508269,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can charge transfered between objects?",
+      "ur": "اجسام کے درمیان چارج کیسے منتقل ہوتا ہے؟"
+    },
+    {
+      "id": 527171,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give two examples of electrostatic force from everyday life.",
+      "ur": "روزمرہ زندگی سے الیکٹرو سٹیٹک فورس کی دو مثالیں دیں۔"
+    },
+    {
+      "id": 527185,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the location and charge of protons and electrons within an atom.",
+      "ur": "ایٹم کے اندر پروٹونز اور الیکٹرانز کی جگہ اور چارج کی وضاحت کریں۔"
+    },
+    {
+      "id": 527186,
+      "chapter": 15,
+      "topic_id": "15.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the methods through which charge can be transferred between objects.",
+      "ur": "ان طریقوں کے نام بتائیں جن کے ذریعے چارج کو اشیاء کے درمیان منتقل کیا جا سکتا ہے۔"
+    },
+    {
+      "id": 508275,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Atraction is not reliable method to determine if an object is charged? why?",
+      "ur": "کیا کشش کسی جسم کے چارجڈ ہونے کے قابل اعتماد طریقہ نہیں ہے؟ کیوں؟"
+    },
+    {
+      "id": 508278,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Show by experiment charging induction?",
+      "ur": "تجربے کے ذریعے انڈکشن کے ذریعے چارجنگ کو ظاہر کریں۔"
+    },
+    {
+      "id": 508279,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define charging by induction.",
+      "ur": "انڈکشن کے ذریعے چارجنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 508281,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define charging in Earthing.",
+      "ur": "ارتھنگ کے ذریعے چارجنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 508282,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "For what purpose electroscope used?",
+      "ur": "کس مقصد کےلیے الیکٹروسکوپ کو استعمال کیا جاتا ہے؟"
+    },
+    {
+      "id": 508283,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the working principle of electroscope?",
+      "ur": "الیکٹروسکوپ کے کام کرنے کا کیا اصول ہے؟"
+    },
+    {
+      "id": 508285,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How we can detect presence of charge on an object?",
+      "ur": "ہم کسی چیز پر چارج کی موجودگی کا کیسے پتہ لگا سکتے ہیں؟"
+    },
+    {
+      "id": 527221,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Electrostatic Induction.",
+      "ur": "الیکٹرو سٹیٹک انڈکشن کی تعریف کریں۔"
+    },
+    {
+      "id": 527222,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Earthing (or Grounding)?",
+      "ur": "ارتھنگ (یا گراؤنڈنگ) سے کیا مراد ہے؟"
+    },
+    {
+      "id": 527224,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Briefly describe the construction of a gold leaf electroscope.",
+      "ur": "گولڈ لیف الیکٹروسکوپ کی بناوٹ مختصر بیان کریں۔"
+    },
+    {
+      "id": 527240,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can an electroscope be used to detect the presence of charge on an object?",
+      "ur": "کسی شے پر چارج کی موجودگی کا پتہ لگانے کے لیے الیکٹروسکوپ کو کس طرح استعمال کیا جا سکتا ہے؟"
+    },
+    {
+      "id": 527241,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do both leaves of the electroscope move apart when a charged object is brought near the disk?",
+      "ur": "جب کسی چارج شدہ شے کو ڈسک کے قریب لایا جاتا ہے تو الیکٹروسکوپ کے دونوں ورق ایک دوسرے سے دور کیوں ہٹتے ہیں؟"
+    },
+    {
+      "id": 527242,
+      "chapter": 15,
+      "topic_id": "15.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do the leaves of an electroscope diverge even if the charged object does not touch it?",
+      "ur": "لیکٹروسکوپ کے ورق کیوں پھیل جاتے ہیں حالانکہ چارج شدہ شے الیکٹروسکوپ کو چھوتی بھی نہیں؟"
+    },
+    {
+      "id": 508288,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write applications of electrostatic?",
+      "ur": "الیکٹرو سٹیٹکس کے اطلاق لکھیں۔"
+    },
+    {
+      "id": 508289,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is xerography?",
+      "ur": "زیروگرافی کیا ہے؟"
+    },
+    {
+      "id": 508290,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write parts of photocopier machine.",
+      "ur": "فوٹو کاپی مشین کے حصوں کے نام لکھیں۔"
+    },
+    {
+      "id": 508291,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is electrostatic precipitator?",
+      "ur": "الیکٹروسٹیٹک فلٹر کیا ہے؟"
+    },
+    {
+      "id": 527255,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does toner stick to the drum during the photocopying process?",
+      "ur": "فوٹو کاپی کے عمل کے دوران ٹونر ڈرم کے ساتھ کیسے چپکتا ہے؟"
+    },
+    {
+      "id": 527267,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is an Electrostatic Precipitator (ESP)?",
+      "ur": "الیکٹرو سٹیٹک پریسی پیٹیٹر (ESP) کیا ہے؟"
+    },
+    {
+      "id": 527268,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Briefly explain the phenomenon of \"Corona Discharge\" mentioned in the text.",
+      "ur": "متن میں ذکر کردہ رجحان \"کورونا ڈسچارج\" (Corona Discharge) کی مختصر وضاحت کریں۔"
+    },
+    {
+      "id": 527269,
+      "chapter": 15,
+      "topic_id": "15.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How are the collected particles removed from the collection plates?",
+      "ur": "کلیکشن پلیٹوں پر جمع ہونے والے ذرات کو وہاں سے کیسے الگ یا صاف کیا جاتا ہے؟"
+    },
+    {
+      "id": 508292,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "State Coulomb's law.",
+      "ur": "کالمب کا قانون بیان کریں۔"
+    },
+    {
+      "id": 527277,
+      "chapter": 15,
+      "topic_id": "15.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give two differences between Newton's gravitational force and Coulomb's electrical force.",
+      "ur": "نیوٹن کی گریویٹیشنل فورس اور کولمب کی الیکٹریکل فورس میں دو فرق لکھیں."
+    },
+    {
+      "id": 508293,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define electric field.",
+      "ur": "الیکٹرک فیلڈ کی تعریف کریں۔"
+    },
+    {
+      "id": 508294,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define electric field intensity.",
+      "ur": "الیکٹرک فیلڈ انٹینسٹی کی تعریف کریں۔"
+    },
+    {
+      "id": 508297,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Does electic fiels intensity is vector quantity or scalar?",
+      "ur": "الیکٹرک فیلڈ انٹینسٹی ایک ویکٹر مقدار ہے یا سکیلر مقدار ہے؟"
+    },
+    {
+      "id": 508298,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What will be the direction of electric field?",
+      "ur": "الیکٹرک فیلڈ کی سمت کیا ہے؟"
+    },
+    {
+      "id": 527336,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is the direction of electric field intensity determined at any point?",
+      "ur": "کسی بھی پوائنٹ پر الیکٹرک فیلڈ انٹینسٹی کی سمت کا تعین کیسے کیا جاتا ہے؟"
+    },
+    {
+      "id": 527340,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "State any two properties of electric field lines.",
+      "ur": "الیکٹرک فیلڈ لائنز کی کوئی سی دو خصوصیات لکھیں۔"
+    },
+    {
+      "id": 527356,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the difference between electric field lines of an isolated positive charge and an isolated negative charge.",
+      "ur": "یک اکیلے پوزیٹو چارج اور اکیلے نیگیٹو چارج کی الیکٹرک فیلڈ لائنز میں فرق بیان کریں۔"
+    },
+    {
+      "id": 527357,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is the electric field zero inside a charged conducting sphere?",
+      "ur": "ایک چارج شدہ کنڈکٹنگ اسفیئر (گولے) کے اندر الیکٹرک فیلڈ صفر کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 527358,
+      "chapter": 15,
+      "topic_id": "15.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by a uniform electric field, and where is it commonly observed?",
+      "ur": "یونیفارم الیکٹرک فیلڈ سے کیا مراد ہے اور یہ عام طور پر کہاں دیکھی جاتی ہے؟"
+    },
+    {
+      "id": 508299,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is electrical conductors?",
+      "ur": "الیکٹریکل کنڈکٹرز کیا ہیں؟"
+    },
+    {
+      "id": 508300,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are insulators?",
+      "ur": "انسولیٹرز کیا ہیں؟"
+    },
+    {
+      "id": 527367,
+      "chapter": 15,
+      "topic_id": "15.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the \"Free Electron Model\" for conductors?",
+      "ur": "کنڈکٹرز کے لیے \"فری الیکٹران ماڈل\" (Free Electron Model) کی وضاحت کریں۔"
+    },
+    {
+      "id": 527398,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What causes the accumulation of charges, and what are its consequences in everyday life?",
+      "ur": "چارجز کے جمع ہونے کی وجہ کیا ہے اور روزمرہ کی زندگی میں اس کے کیا اثرات ہوتے ہیں؟"
+    },
+    {
+      "id": 527400,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Corona Discharge, and where is it typically observed?",
+      "ur": "کورونا ڈسچارج کیا ہے اور یہ عام طور پر کہاں دیکھا جاتا ہے؟"
+    },
+    {
+      "id": 527430,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are Lichtenberg Figures and how do they form?",
+      "ur": "لخٹن برگ فگرز (Lichtenberg Figures) کیا ہیں اور یہ کیسے بنتی ہیں؟"
+    },
+    {
+      "id": 527431,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a lightning rod safeguard a building and its occupants?",
+      "ur": "ایک لائٹننگ راڈ (آسمانی بجلی روکنے والا آلہ) کسی عمارت اور اس کے رہائشیوں کو کیسے محفوظ رکھتا ہے؟"
+    },
+    {
+      "id": 527433,
+      "chapter": 15,
+      "topic_id": "15.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain the role of electrical breakdown in the generation of lightning.",
+      "ur": "آسمانی بجلی پیدا ہونے میں الیکٹریکل بریک ڈاؤن کے کردار کی وضاحت کریں۔"
+    },
+    {
+      "id": 508400,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is electricity?",
+      "ur": "الیکٹریسٹی کیا ہے؟"
+    },
+    {
+      "id": 508401,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define electric current.",
+      "ur": "الیکٹرک کرنٹ کی تعریف کریں۔۔"
+    },
+    {
+      "id": 508403,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between direct current and alternating current.",
+      "ur": "ڈائریکٹ کرنٹ اور آلٹرنیٹنگ کرنٹ میں فرق بیان کریں۔"
+    },
+    {
+      "id": 508406,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Draw figures which represent AC and DC.",
+      "ur": "ڈائریکٹ کرنٹ اور آلٹرنیٹنگ کرنٹ کو ظاہر کرنے کی اشکال بنائیں۔"
+    },
+    {
+      "id": 508407,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the use of Ammeter?",
+      "ur": "ایمیٹر کا استعمال کیا ہے؟"
+    },
+    {
+      "id": 508408,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the difference between analogue and digital Ammeter.",
+      "ur": "اینا لاگ ایمیٹر اور ڈیجیٹل ایمیٹر میں فرق تحریر کریں۔"
+    },
+    {
+      "id": 508411,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why AC is more dangerous than DC?",
+      "ur": "ڈائریکٹ کرنٹ خطرناک کیوں ہوتا ہے؟"
+    },
+    {
+      "id": 527455,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down one advantage of A.C over D.C.",
+      "ur": "ڈی سی (D.C) کے مقابلے میں اے سی (A.C) کا ایک فائدہ لکھیں۔"
+    },
+    {
+      "id": 527456,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the preference of electric current when flowing through any circuit?",
+      "ur": "سرکٹ میں بہتے وقت الیکٹرک کرنٹ کس راستے کو ترجیح دیتا ہے؟"
+    },
+    {
+      "id": 527458,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the two main types of ammeters.",
+      "ur": "ایمیٹر کی دو اہم اقسام کے نام لکھیں."
+    },
+    {
+      "id": 527487,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does an analog ammeter move its needle to indicate current?",
+      "ur": "اینالاگ ایمیٹر کرنٹ کی نشاندہی کے لیے اپنی سوئی کو کیسے حرکت دیتا ہے؟"
+    },
+    {
+      "id": 527488,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What can happen if the positive and negative wires of a D.C source come into contact?",
+      "ur": "اگر ڈی سی (D.C) سورس کی پازیٹو اور نیگیٹو تاریں آپس میں ٹکرا جائیں تو کیا ہو سکتا ہے؟"
+    },
+    {
+      "id": 527489,
+      "chapter": 16,
+      "topic_id": "16.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is selecting the correct range important in ammeters?",
+      "ur": "ایمیٹرز میں صحیح رینج (حد) کا انتخاب کرنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 508414,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define e.m.f.",
+      "ur": "الیکٹرو مٹیو فورس کی تعریف کریں۔"
+    },
+    {
+      "id": 508416,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define potential difference.",
+      "ur": "پوٹینشل ڈفرینس کی تعریف کریں۔"
+    },
+    {
+      "id": 508417,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is volt meter?",
+      "ur": "وولٹ میٹر کیا ہے؟"
+    },
+    {
+      "id": 508419,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How analogue voltmeter is different from digital voltmeter?",
+      "ur": "اینا لوگ وولٹ میٹر اور ڈیجیٹل میٹر میں فرق تحریر کریں۔"
+    },
+    {
+      "id": 508421,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why choosing right range voltmeter is important?",
+      "ur": "صحیح رینگ والا وولٹ میٹر استعمال کرنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 527529,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give two examples of sources of e.m.f. along with the type of energy they convert.",
+      "ur": "ای ایم ایف (e.m.f.) کے ذرائع کی دو مثالیں اور ان کی تبدیل کردہ توانائی کی قسم لکھیں۔"
+    },
+    {
+      "id": 527530,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What causes a buildup of electrons at the negative terminal inside a battery?",
+      "ur": "بیٹری کے اندر نیگیٹو ٹرمینل پر الیکٹرانز کے جمع ہونے کی کیا وجہ ہوتی ہے؟"
+    },
+    {
+      "id": 527534,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Electric Potential and write its formula.",
+      "ur": "الیکٹرک پوٹینشل کی تعریف کریں اور اس کا فارمولا لکھیں۔"
+    },
+    {
+      "id": 527535,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the main difference between an analog voltmeter and a digital voltmeter?",
+      "ur": "اینالاگ وولٹ میٹر اور ڈیجیٹل وولٹ میٹر میں کیا بنیادی فرق ہے؟"
+    },
+    {
+      "id": 527549,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is choosing the right range important when using a voltmeter?",
+      "ur": "وولٹ میٹر استعمال کرتے وقت صحیح رینج (حد) کا انتخاب کرنا کیوں ضروری ہے؟"
+    },
+    {
+      "id": 527551,
+      "chapter": 16,
+      "topic_id": "16.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does the total e.m.f. remain equal to a single source in a parallel connection?",
+      "ur": "پیرلل (متوازی) کنکشن میں کل ای ایم ایف کسی ایک ہی سورس کے برابر کیوں رہتی ہے؟"
+    },
+    {
+      "id": 508422,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Ohm's Law?",
+      "ur": "اوہم کا قانون بیان کریں۔"
+    },
+    {
+      "id": 508425,
+      "chapter": 16,
+      "topic_id": "16.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why birds remains safe while sitting on the electric wire?",
+      "ur": "پرندے بجلی کی رات پر بیٹھنے پر کیوں محفوظ رہتے ہیں؟"
+    },
+    {
+      "id": 527591,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define series combination of resistors.",
+      "ur": "ریزسٹرز کے سیریز کمبینیشن کی تعریف کریں۔"
+    },
+    {
+      "id": 527592,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by equivalent resistance?",
+      "ur": "ایکویلنٹ ریزسٹنس سے کیا مراد ہے؟"
+    },
+    {
+      "id": 527623,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define parallel combination of resistors.",
+      "ur": "ریزسٹرز کے پیرلل کمبینیشن کی تعریف کریں۔"
+    },
+    {
+      "id": 527625,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "ow does the total current relate to individual currents in a parallel circuit?",
+      "ur": "پیرلل سرکٹ میں کل کرنٹ کا انفرادی کرنٹ سے کیا تعلق ہوتا ہے؟"
+    },
+    {
+      "id": 527626,
+      "chapter": 16,
+      "topic_id": "16.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the relationship between equivalent resistance and individual resistances in a parallel connection.",
+      "ur": "پیرلل کنکشن میں ایکویلنٹ ریزسٹنس اور انفرادی ریزسٹنسز کے درمیان تعلق بیان کریں۔"
+    },
+    {
+      "id": 508426,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define resistance.",
+      "ur": "رزسٹنس کی تعریف کریں۔"
+    },
+    {
+      "id": 508427,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why resistance increases in filament lamp while increases the temperature?",
+      "ur": "فلامنٹ کا ٹمپریچر بڑھنے سے اس کی رزسٹنس کیوں بڑھ جاتی ہے؟"
+    },
+    {
+      "id": 527640,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define electrical resistivity and write its formula.",
+      "ur": "الیکٹریکل ریسسٹیویٹی کی تعریف کریں اور اس کا فارمولا لکھیں۔"
+    },
+    {
+      "id": 527641,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the factors on which the resistance of a conductor depends.",
+      "ur": "کسی کنڈکٹر کی ریزسٹنس کا انحصار کن عوامل پر ہوتا ہے؟"
+    },
+    {
+      "id": 527646,
+      "chapter": 16,
+      "topic_id": "16.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a hot filament lamp have more resistance than a cold one?",
+      "ur": "ایک گرم فلیمینٹ لیمپ کی ریزسٹنس ٹھنڈے لیمپ کے مقابلے میں زیادہ کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 508481,
+      "chapter": 16,
+      "topic_id": "16.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What do you know about potential divider circuit?",
+      "ur": "پوٹینشل ڈیوائیڈر سرکٹ کے متعلق آپ کیا جانتے ہیں؟"
+    },
+    {
+      "id": 508482,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write uses of negative temperature co-efficient thermistors.",
+      "ur": "نیگٹیو ٹمپریچر کو ایفی شینٹ تھرمسٹڑز کے استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 508483,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write few applications of LDRs.",
+      "ur": "LDRs کے چند استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 527659,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the term 'Tolerance' in resistor color codes.",
+      "ur": "ریزسٹر کلر کوڈز میں لفظ 'ٹولرینس' (Tolerance) کی تعریف کریں۔"
+    },
+    {
+      "id": 527660,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Find the resistance value of a four-band resistor with the bands: Red, Violet, Yellow, and Gold.",
+      "ur": "ایک چار بینڈ والے ریزسٹر کی ریزسٹنس معلوم کریں جس کے بینڈز درج ذیل ہیں: سرخ، بنفشی (Violet)، پیلا اور سنہرا (Gold)۔"
+    },
+    {
+      "id": 527682,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a Light-Dependent Resistor (LDR).",
+      "ur": "لائٹ ڈیپینڈنٹ ریزسٹر (LDR) کی تعریف کریں۔"
+    },
+    {
+      "id": 527684,
+      "chapter": 16,
+      "topic_id": "16.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Briefly explain how light reduces the resistance inside an LDR.",
+      "ur": "مختصراً واضح کریں کہ روشنی ایل ڈی آر (LDR) کے اندر ریزسٹنس کو کیسے کم کرتی ہے۔"
+    },
+    {
+      "id": 508484,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write few uses of electricity.",
+      "ur": "الیکٹریسٹی کے چند عام استعمالات تحریر کریں۔"
+    },
+    {
+      "id": 527691,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three sectors or areas where lighting plays a key role.",
+      "ur": "ان تین جگہوں یا چیزوں کے نام لکھیں جہاں روشنی (Lighting) اہم کردار ادا کرتی ہے۔"
+    },
+    {
+      "id": 527692,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which heavy transport systems and household appliances rely on electric motors?",
+      "ur": "کون سے بھاری ٹرانسپورٹ سسٹمز اور گھریلو آلات الیکٹرک موٹرز پر انحصار کرتے ہیں؟"
+    },
+    {
+      "id": 527693,
+      "chapter": 16,
+      "topic_id": "16.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does electricity impact our electronic entertainment and connectivity?",
+      "ur": "بجلی ہماری الیکٹرانک تفریح اور رابطوں (کنیکٹیویٹی) پر کیسے اثر انداز ہوتی ہے؟"
+    },
+    {
+      "id": 508485,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Joule's Law?",
+      "ur": "جول کا قانون بیان کریں۔"
+    },
+    {
+      "id": 508486,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define electric power.",
+      "ur": "الیکٹرک پاور کی تعریف کریں۔"
+    },
+    {
+      "id": 508488,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why it is important to choose suitable power components of circuit?",
+      "ur": "سرکٹ کو ڈئزائن کرتے وقت مناسب پاور کے ساتھ کمپونینٹس کا انتخاب کیوں ضروری ہے؟"
+    },
+    {
+      "id": 527699,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define a kilowatt-hour (kWh).",
+      "ur": "کلو واٹ آور (kWh) کی تعریف کریں۔"
+    },
+    {
+      "id": 527701,
+      "chapter": 16,
+      "topic_id": "16.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write down the formula to calculate the amount of electrical energy in kilowatt-hours.",
+      "ur": "کلو واٹ آور میں الیکٹریکل انرجی کی مقدار معلوم کرنے کا فارمولا لکھیں۔"
+    },
+    {
+      "id": 508489,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write few hazards of electricity.",
+      "ur": "الیکٹریسٹی کے چند خطرات تحریر کریں۔"
+    },
+    {
+      "id": 508490,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of fuse and trip switches?",
+      "ur": "فیوز اور ٹرپ سوئچز کا کیا کردار ہے؟"
+    },
+    {
+      "id": 508492,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "An house use circuit consisit of how many wires?",
+      "ur": "ایک عام گھریلو سرکٹ کتنی وائرز پر مشتمل ہوتا ہے؟"
+    },
+    {
+      "id": 527720,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "List three common causes of electric hazards",
+      "ur": "الیکٹرک حادثات کی تین عام وجوہات لکھیں۔"
+    },
+    {
+      "id": 527721,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a fuse protect an electrical circuit?",
+      "ur": "ایک فیوز الیکٹریکل سرکٹ کی حفاظت کیسے کرتا ہے؟"
+    },
+    {
+      "id": 527722,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of a trip switch (circuit breaker)?",
+      "ur": "ٹرپ سوئچ (سرکٹ بریکر) کا کیا کام ہوتا ہے؟"
+    },
+    {
+      "id": 527748,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are double-insulated appliances, and what are their casings made of?",
+      "ur": "ڈبل انسولیٹڈ آلات (Double-insulated appliances) کیا ہیں اور ان کے کیسنگ کس مٹیریل سے بنتے ہیں؟"
+    },
+    {
+      "id": 527749,
+      "chapter": 16,
+      "topic_id": "16.10",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe the specific functions of the live, neutral, and earth wires.",
+      "ur": "لائیو، نیوٹرل اور ارتھ تاروں کے مخصوص افعال بیان کریں۔"
+    },
+    {
+      "id": 520220,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the rule to find North and South poles of a current carrying solenoid.",
+      "ur": "کرنٹ بردار سولینائڈ کا ساؤتھ اور نارتھ پول معلوم کرنے اصول بیان کریں۔"
+    },
+    {
+      "id": 520223,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State Fleming's left hand rule.",
+      "ur": "فلیمنگ کا دائیں ہاتھ کا اصول بیان کریں۔"
+    },
+    {
+      "id": 520224,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is solenoid? What type of magnetic field it posses?",
+      "ur": "سولینائڈ کیا ہے؟ یہ کس قسم کا میگنیٹک فیلڈز رکھتا ہے؟"
+    },
+    {
+      "id": 527813,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Electromagnetism.",
+      "ur": "الیکٹرو میگنیٹزم (Electromagnetism) کی تعریف کریں۔"
+    },
+    {
+      "id": 527814,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to the magnetic field pattern around a conductor if the direction of the current is reversed?",
+      "ur": "اگر کنڈکٹر میں کرنٹ کی سمت الٹ دی جائے، تو اس کے ارد گرد میگنیٹک فیلڈ کے پیٹرن (ترتیب) پر کیا اثر پڑتا ہے؟"
+    },
+    {
+      "id": 527816,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Describe how the strength of the magnetic field changes with distance from a current-carrying conductor.",
+      "ur": "واضح کریں کہ کرنٹ گزارنے والے کنڈکٹر سے فاصلے کے ساتھ میگنیٹک فیلڈ کی طاقت کیسے تبدیل ہوتی ہے۔"
+    },
+    {
+      "id": 527827,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the right-hand grip rule for finding the magnetic field direction around a straight wire.",
+      "ur": "کسی سیدھی تار کے ارد گرد میگنیٹک فیلڈ کی سمت معلوم کرنے کا رائٹ ہینڈ گرپ رول بیان کریں۔"
+    },
+    {
+      "id": 527828,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the right-hand rule used to find the poles of a solenoid.",
+      "ur": "سولیناڈ کے پولز معلوم کرنے کے لیے استعمال ہونے والا رائٹ ہینڈ رول بیان کریں۔"
+    },
+    {
+      "id": 527834,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are three important properties of magnetic field lines?",
+      "ur": "میگنیٹک فیلڈ لائنز کی کوئی سی تین اہم خصوصیات لکھیں۔"
+    },
+    {
+      "id": 527835,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What does the tangent to a magnetic field line show at any point?",
+      "ur": "کسی بھی نقطہ پر میگنیٹک فیلڈ لائن پر کھینچا گیا ٹینجنٹ (Tangent) کیا ظاہر کرتا ہے؟"
+    },
+    {
+      "id": 527836,
+      "chapter": 17,
+      "topic_id": "17.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain why two parallel wires carrying current in the same direction attract each other.",
+      "ur": "واضح کریں کہ ایک ہی سمت میں کرنٹ گزارنے والی دو متوازی تاریں ایک دوسرے کو کیوں کشش کرتی ہیں۔"
+    },
+    {
+      "id": 520225,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "When the force on a current carrying conductor in a magnetic field maximum and when its minimum?",
+      "ur": "میگنیٹک فیلڈ میں کرنٹ بردار کنڈکٹر پر فورس کب زیادہ سے زیادہ اور کب کم سے کم ہوتی ہے؟"
+    },
+    {
+      "id": 520226,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by intensity of magnetic field?",
+      "ur": "میگنیٹک فیلڈ کی شدت سے کیا مراد ہے؟"
+    },
+    {
+      "id": 520227,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define 1 Tesla?",
+      "ur": "1 ٹیسلا کی تعریف کریں۔"
+    },
+    {
+      "id": 527840,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a current-carrying wire experience a force when placed in a permanent magnetic field?",
+      "ur": "ایک مستقل میگنیٹک فیلڈ میں رکھنے پر کرنٹ گزارنے والی تار پر فورس کیوں لگتی ہے؟"
+    },
+    {
+      "id": 527841,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State three factors that can make the magnetic force on a wire stronger.",
+      "ur": "ان تین عوامل (Factors) کے نام لکھیں جو تار پر لگنے والی مقناطیسی فورس کو مزید طاقتور بنا سکتے ہیں۔"
+    },
+    {
+      "id": 527842,
+      "chapter": 17,
+      "topic_id": "17.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "State Fleming's left-hand rule.",
+      "ur": "فلیمنگ کا لیفٹ ہینڈ رول (Fleming's left-hand rule) بیان کریں۔"
+    },
+    {
+      "id": 520229,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the working principle of electric motor?",
+      "ur": "الیکٹرک موٹر کے کام کرنے کا اصول کیا ہے؟"
+    },
+    {
+      "id": 520230,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How the turning effect on the coil can be made stronger?",
+      "ur": "کوائل پر گھماؤ کا اثر کیسے مضبوط بنایا جاسکتا ہے؟"
+    },
+    {
+      "id": 527857,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a 'couple' in a current-carrying coil and what does it cause?",
+      "ur": "کرنٹ گزارنے والی کوائل میں 'کپل' (Couple) سے کیا مراد ہے اور یہ کس چیز کا سبب بنتا ہے؟"
+    },
+    {
+      "id": 527858,
+      "chapter": 17,
+      "topic_id": "17.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "List three ways by which the turning effect on a coil can be made stronger and more efficient.",
+      "ur": "ان تین طریقوں کی فہرست بنائیں جن کی مدد سے کوائل پر ٹرننگ ایفیکٹ کو زیادہ طاقتور اور کارآمد بنایا جا سکتا ہے۔"
+    },
+    {
+      "id": 520231,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is armature?",
+      "ur": "آرمیچر کیا ہے؟"
+    },
+    {
+      "id": 520232,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of split ring in D.C motor?",
+      "ur": "ڈی سی موٹر میں سپلٹ رنگ کا کیا کام ہے؟"
+    },
+    {
+      "id": 520233,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is D.C motor? On which principal does it work?",
+      "ur": "D.C موٹر کیا ہے؟ یہ کس اصول پر کام کرتا ہے؟"
+    },
+    {
+      "id": 520235,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write name of parts of D.C motor.",
+      "ur": "D.C موٹر کے حصوں کے نام لکھیں۔"
+    },
+    {
+      "id": 527862,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is an armature in a D.C. motor?",
+      "ur": "ڈی سی (D.C) موٹر میں آرمیچر (Armature) سے کیا مراد ہے؟"
+    },
+    {
+      "id": 527863,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a split ring commutator and how is it constructed?",
+      "ur": "اسپلٹ رنگ کمیوٹیٹر کیا ہے اور اس کی بناوٹ کیسی ہوتی ہے؟"
+    },
+    {
+      "id": 527864,
+      "chapter": 17,
+      "topic_id": "17.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of carbon brushes in a D.C. motor?",
+      "ur": "ڈی سی (D.C) موٹر میں کاربن برشز (Carbon brushes) کا کیا کردار ہوتا ہے؟"
+    },
+    {
+      "id": 520236,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the function of the relay?",
+      "ur": "ریلے کا کیا کام ہے؟"
+    },
+    {
+      "id": 520237,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Can magnetic poles seprated?",
+      "ur": "کیا میگنیٹک پولز کو الگ کیا جاسکتا ہے؟"
+    },
+    {
+      "id": 520239,
+      "chapter": 17,
+      "topic_id": "17.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "On which principal loud speaker work and write about its use?",
+      "ur": "لاؤڈ سپیکر کس اصول پر کام کرتے ہیں؟ اور اس کے استعمالات لکھیں۔"
+    },
+    {
+      "id": 520240,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is magneto-hydrodynamics?",
+      "ur": "میگنیٹیو ہائڈرو ڈائنامکس کیا ہے؟"
+    },
+    {
+      "id": 520242,
+      "chapter": 17,
+      "topic_id": "17.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Earth act like giant magnet justify it.",
+      "ur": "زمین بہت بڑے میگنیٹ کے طور پر کام کرتی ہے اسکی وضاحت کریں۔"
+    },
+    {
+      "id": 520325,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Is it possible elctricity can be produced without battey?",
+      "ur": "کیا یہ ممکن ہے کہ بیٹری کے بغیر الیکٹریسٹی پیدا کی جاسکتی ہے؟"
+    },
+    {
+      "id": 520326,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the benefits of electromagnetic waves?",
+      "ur": "الیکٹرو میگنیٹک ویوز کے فوائد کیا ہیں؟"
+    },
+    {
+      "id": 520327,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "The amount of e.m.f depend on which factors?",
+      "ur": "ای ایم ایف کن عوامل پر منحصر ہے؟"
+    },
+    {
+      "id": 520329,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "By adding resistance in loop with constant speed product of current remain same or changed?",
+      "ur": "اگر رفتار مستقل ہو اور سرکٹ میں رزسٹنس شامل کیے جائیں تو کرنٹ اور رزسٹنس کی پیداوار پر کیا اثر پڑے گا؟"
+    },
+    {
+      "id": 520330,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "In Faraday's law negative sign indicates what?",
+      "ur": "فیراڈے کے قانون میں نیگیٹیو نشان کیا ظاہر کرتا ہے؟"
+    },
+    {
+      "id": 520331,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happened when magnet pull toward a coil in electromagnetism?",
+      "ur": "جب میگنیٹک کو کوائل کی طرف لایا جائے تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 520332,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happened when magent pull away from coil electromagnetism.",
+      "ur": "جب میگنیٹ کو کوائل سے دور لے جایا جائے تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 527880,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Electromagnetic Induction.",
+      "ur": "الیکٹرو میگنیٹک انڈکشن (Electromagnetic induction) کی تعریف کریں۔"
+    },
+    {
+      "id": 527881,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name three devices that operate on the principle of electromagnetic induction.",
+      "ur": "الیکٹرو میگنیٹک انڈکشن کے اصول پر کام کرنے والے تین آلات کے نام لکھیں۔"
+    },
+    {
+      "id": 527906,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What mathematical relationship remains constant when changing resistors at a constant speed in electromagnetic induction?",
+      "ur": "الیکٹرو میگنیٹک انڈکشن میں مستقل رفتار پر ریزسٹرس تبدیل کرنے پر کون سا ریاضیاتی تعلق مستقل رہتا ہے؟"
+    },
+    {
+      "id": 527907,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State three ways to increase the induced current in a loop.",
+      "ur": "کسی لوپ میں انڈیوسڈ کرنٹ کو بڑھانے کے تین طریقے بیان کریں۔"
+    },
+    {
+      "id": 527912,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is Lenz's law considered a consequence of the law of conservation of energy?",
+      "ur": "لیرنز کے قانون کو قانونِ بقائے توانائی (conservation of energy) کا نتیجہ کیوں مانا جاتا ہے؟"
+    },
+    {
+      "id": 527913,
+      "chapter": 18,
+      "topic_id": "18.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the speed of moving a magnet affect the induced voltage (e.m.f.)?",
+      "ur": "مقناطیس کو حرکت دینے کی رفتار انڈیوسڈ وولٹیج (e.m.f.) پر کیسے اثر انداز ہوتی ہے؟"
+    },
+    {
+      "id": 520335,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why fast moving generators make strong current?",
+      "ur": "تیز رفتار جنریٹر زیادہ کرنٹ کیوں پیدا کرتا ہے؟"
+    },
+    {
+      "id": 520336,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "In A.C generator, why current called alternating current?",
+      "ur": "اے سی جنریٹر میں کرنٹ کو آلٹرنیٹنگ کونٹ کیوں کہا جاتا ہے؟"
+    },
+    {
+      "id": 520337,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why in A.C generators no current is produced when coil is vertical?",
+      "ur": "ای سے جنریٹر میں جب کوائل عمودی ہوتو کرنٹ کیوں پیدا نہیں ہوتا؟"
+    },
+    {
+      "id": 520339,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "At which position e.m.f at its maximum value?",
+      "ur": "کس پوزیشن پر ای ایم ایف زیادہ سے زیادہ ہوتی ہے؟"
+    },
+    {
+      "id": 527944,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define an A.C. Generator and state its working principle.",
+      "ur": "اے سی جنریٹر کی تعریف کریں اور اس کا ورکنگ پرنسپل (اصول) بتائیں۔"
+    },
+    {
+      "id": 527945,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "When does the coil produce maximum and zero voltage during its rotation?",
+      "ur": "گردش کے دوران کوائل کب زیادہ سے زیادہ اور کب صفر وولٹیج پیدا کرتی ہے؟"
+    },
+    {
+      "id": 527954,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "On what factor does the amount of e.m.f. generated in an A.C. generator depend?",
+      "ur": "اے سی جنریٹر میں پیدا ہونے والی e.m.f. کی مقدار کا انحصار کس چیز پر ہوتا ہے؟"
+    },
+    {
+      "id": 527956,
+      "chapter": 18,
+      "topic_id": "18.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What causes the direction of the e.m.f. to reverse, and how often does it happen?",
+      "ur": "کس وجہ سے e.m.f. کی سمت الٹ جاتی ہے، اور یہ کتنی دیر بعد ہوتا ہے؟"
+    },
+    {
+      "id": 520345,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why we heard buzzing in transformers?",
+      "ur": "ٹرانسفارمر میں بھنبھناہٹ کیوں سنائی دیتی ہے؟"
+    },
+    {
+      "id": 520347,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "How many types of transformer? Write their names.",
+      "ur": "ٹرانسفارمر کی کتنی اقسام ہیں ان کے نام لکھیے؟"
+    },
+    {
+      "id": 520348,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why transformers used?",
+      "ur": "ٹرانسفارمر کیوں استعمال کیے جاتے ہیں؟"
+    },
+    {
+      "id": 520349,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is turns-ration's equation?",
+      "ur": "ٹرنز ویشو کی مساوات کیا ہے؟"
+    },
+    {
+      "id": 528005,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the purpose of the soft iron core in a transformer?",
+      "ur": "ٹرانسفارمر میں نرم لوہے کے کور (soft iron core) کا کیا مقصد ہے؟"
+    },
+    {
+      "id": 528006,
+      "chapter": 18,
+      "topic_id": "18.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between a Step-up and a Step-down transformer.",
+      "ur": "اسٹیپ اپ (Step-up) اور اسٹیپ ڈاؤن (Step-down) ٹرانسفارمر میں فرق واضح کریں۔"
+    },
+    {
+      "id": 528082,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do cathode rays deflect toward the positive plate in an electric field?",
+      "ur": "الیکٹرک فیلڈ میں کیتھوڈ ریز مثبت پلیٹ (positive plate) کی طرف کیوں مڑتی ہیں؟"
+    },
+    {
+      "id": 528083,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Under what condition does a magnetic field exert force on charged particles?",
+      "ur": "میگنیٹک فیلڈ کس شرط کے تحت چارج شدہ ذرات پر فورس لگاتی ہے؟"
+    },
+    {
+      "id": 528084,
+      "chapter": 18,
+      "topic_id": "18.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can the direction of deflection of an electron beam in a magnetic field be determined?",
+      "ur": "میگنیٹک فیلڈ میں الیکٹران بیم کے مڑنے کی سمت کا پتہ کیسے لگایا جا سکتا ہے؟"
+    },
+    {
+      "id": 528128,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the main components of a Cathode Ray Tube (CRT)?",
+      "ur": "کیتھوڈ رے ٹیوب (CRT) کے بنیادی حصے کون سے ہیں؟"
+    },
+    {
+      "id": 528129,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between the functions of Y-plates and X-plates in a CRO.",
+      "ur": "ایک CRO میں وائی پلیٹس (Y-plates) اور ایکس پلیٹس (X-plates) کے کاموں میں فرق واضح کریں۔"
+    },
+    {
+      "id": 528130,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the fluorescent screen display the waveform?",
+      "ur": "فلوروسینٹ اسکرین ویوفارم کو کیسے دکھاتی ہے؟"
+    },
+    {
+      "id": 528131,
+      "chapter": 18,
+      "topic_id": "18.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Which travels faster, radiowaves or gamma rays?, why?",
+      "ur": "ریڈیو ویوز اور گیما ریز میں سے کون سی زیادہ تیز سفر کرتی ہے اور کیوں؟"
+    },
+    {
+      "id": 520350,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Is it possible to change the direction of electron beam?",
+      "ur": "کیا الیکٹرون بیم کی سمت تبدیل کی جاسکتی ہے؟"
+    },
+    {
+      "id": 520352,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why CRO is used?",
+      "ur": "CRO کیوں استعمال ہوتا ہے؟"
+    },
+    {
+      "id": 520353,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is saw-tooth wave?",
+      "ur": "سا-ٹوتھ ویو کیا ہے؟"
+    },
+    {
+      "id": 520354,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why sky is blue during day and turn red during night?",
+      "ur": "دن میں آسمان نیلا اور شام کو سرخ کیوں نظر آتا ہے؟"
+    },
+    {
+      "id": 528160,
+      "chapter": 18,
+      "topic_id": "18.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do dust and pollution affect the colors of a sunset?",
+      "ur": "گرد و غبار اور آلودگی غروبِ آفتاب کے رنگوں پر کیسے اثر انداز ہوتے ہیں؟"
+    },
+    {
+      "id": 528166,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are photons? State their key characteristics.",
+      "ur": "فوٹانز (Photons) کیا ہیں؟ ان کی بنیادی خصوصیات بیان کریں۔"
+    },
+    {
+      "id": 528168,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the photoelectric effect and explain what it proves.",
+      "ur": "فوٹو الیکٹرک ایفیکٹ (Photoelectric effect) کی تعریف کریں اور بتائیں یہ کیا ثابت کرتا ہے۔"
+    },
+    {
+      "id": 528171,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are solar sails and how do they work?",
+      "ur": "سولر سیلز (Solar sails) کیا ہیں اور یہ کیسے کام کرتے ہیں؟"
+    },
+    {
+      "id": 528172,
+      "chapter": 18,
+      "topic_id": "18.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is meant by the dual nature of light?",
+      "ur": "روشنی کی دوہری نوعیت (Dual nature) سے کیا مراد ہے؟"
+    },
+    {
+      "id": 520446,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are electronics?",
+      "ur": "الیکٹرونکس کیا ہیں؟"
+    },
+    {
+      "id": 520447,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Where does electronics use?",
+      "ur": "الیکٹرونکس کو کہاں استعمال کیا جاتا ہے؟"
+    },
+    {
+      "id": 520448,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is semi-conductors?",
+      "ur": "سیمی کنڈکٹرز کیا ہیں؟"
+    },
+    {
+      "id": 520449,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is doping?",
+      "ur": "ڈوپنگ کیا ہے؟"
+    },
+    {
+      "id": 520450,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name types of semi-conductors.",
+      "ur": "سیمی کنڈکٹرز کی اقسام نے نام لکھیں۔"
+    },
+    {
+      "id": 520451,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is P-type semi-conductors?",
+      "ur": "پی ٹائپ سیمی-کنڈکٹر کیا ہیں؟"
+    },
+    {
+      "id": 520452,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is diode?",
+      "ur": "ڈائیوڈز کیا ہیں؟"
+    },
+    {
+      "id": 520456,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What voltages required in silicon based diode?",
+      "ur": "سلیکان پر مبنی ڈائیوڈ کےلیے کتنا وولٹیج مطلوب ہے؟"
+    },
+    {
+      "id": 520458,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What voltages required for germanium based diode?",
+      "ur": "جرمینیم پر مبنی ڈائیوڈز کےلیے کتنا وولٹیج مطلوب ہے؟"
+    },
+    {
+      "id": 520459,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Draw schematic diagram of formation of PN junction.",
+      "ur": "پی این جنکشن کی تشکیل کی خالہ ڈایا گرام بنائیں۔"
+    },
+    {
+      "id": 520460,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define forward bias conductor?",
+      "ur": "فارورڈ بائس کنڈکٹر کی تعریف کریں۔"
+    },
+    {
+      "id": 520461,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define reverse bias conductor?",
+      "ur": "ریورس بائس کنڈکٹر کی تعریف کریں۔"
+    },
+    {
+      "id": 520463,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "The colour of LED depend on which factor?",
+      "ur": "LED سے پیدا ہونے والی روشنی کا رنگ کس پر منحصر ہے؟"
+    },
+    {
+      "id": 520464,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write use of LEDs.",
+      "ur": "LEDs کے استعمال تحریر کریں۔"
+    },
+    {
+      "id": 528258,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain how an N-type semiconductor is formed.",
+      "ur": "وضاحت کریں کہ N-ٹائپ سیمی کنڈکٹر کیسے بنتا ہے۔"
+    },
+    {
+      "id": 528259,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a \"Hole\" in a P-type semiconductor?",
+      "ur": "ایک P-ٹائپ سیمی کنڈکٹر میں \"ہول\" (Hole) سے کیا مراد ہے؟"
+    },
+    {
+      "id": 528332,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a Depletion Region and how is it formed?",
+      "ur": "ڈپلیشن ریجن (Depletion region) کیا ہے اور یہ کیسے بنتا ہے؟"
+    },
+    {
+      "id": 528333,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "State the barrier voltages required for silicon and germanium diodes.",
+      "ur": "سلیکان اور جرمینیم ڈائیوڈز کے لیے درکار بیریئر وولٹیج (barrier voltages) لکھیں۔"
+    },
+    {
+      "id": 528334,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Draw or describe the symbolic representation of a semiconductor diode.",
+      "ur": "سیمی کنڈکٹر ڈائیوڈ کی علامتی شکل (symbolic representation) بیان کریں۔"
+    },
+    {
+      "id": 528335,
+      "chapter": 19,
+      "topic_id": "19.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens to the depletion region during Reverse Biasing?",
+      "ur": "ریورس بائیسنگ کے دوران ڈپلیشن ریجن پر کیا گزرتی ہے؟"
+    },
+    {
+      "id": 520466,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Defferentiate between analog data and digital data.",
+      "ur": "اینا لوگ اور ڈیجیٹل کے مابین فرق بیان کریں۔"
+    },
+    {
+      "id": 520468,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can analogue data convert to digital data.",
+      "ur": "اینا لوگ ڈیٹا کو ڈیجیٹل ڈیٹا میں کیسے تبدیل کیا جاتا ہے؟"
+    },
+    {
+      "id": 528362,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Give examples of devices that use analog circuits and digital circuits.",
+      "ur": "اینالاگ اور ڈیجیٹل سرکٹس استعمال کرنے والے آلات کی مثالیں دیں۔"
+    },
+    {
+      "id": 528363,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why can't daily life quantities like sound or light be directly processed by digital circuits?",
+      "ur": "روزمرہ زندگی کی مقداریں جیسے آواز یا روشنی، ڈیجیٹل سرکٹس کے ذریعے براہِ راست پروسیس کیوں نہیں ہو سکتیں؟"
+    },
+    {
+      "id": 528364,
+      "chapter": 19,
+      "topic_id": "19.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the term \"Sampling\" in data conversion.",
+      "ur": "ڈیٹا کی تبدیلی کے عمل میں لفظ \"سیمپلنگ\" (Sampling) کی تعریف کریں۔"
+    },
+    {
+      "id": 520469,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define binary variable.",
+      "ur": "بائنری ویری ایبل کی تعریف کریں۔"
+    },
+    {
+      "id": 520471,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain AND gate truth table.",
+      "ur": "AND لاجگ ٹروتھ ٹیبل بنائیں۔"
+    },
+    {
+      "id": 520472,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain truth table of OR gate.",
+      "ur": "آرلاجک ٹروتھ ٹیبل بنائیں۔"
+    },
+    {
+      "id": 528370,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Boolean Algebra and state its significance in computing.",
+      "ur": "بولین الجبرا کی تعریف کریں اور کمپیوٹنگ میں اس کی اہمیت بتائیں۔"
+    },
+    {
+      "id": 528371,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the three basic logic operations and how they are implemented.",
+      "ur": "تین بنیادی لاجک آپریشنز کے نام لکھیں اور بتائیں کہ انہیں کیسے لاگو کیا جاتا ہے؟"
+    },
+    {
+      "id": 528372,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between the outputs of an AND gate and an OR gate.",
+      "ur": "اینڈ (AND) گیٹ اور او آر (OR) گیٹ کے آؤٹ پٹس میں فرق واضح کریں۔"
+    },
+    {
+      "id": 528373,
+      "chapter": 19,
+      "topic_id": "19.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "In Boolean logic, what is the output of an AND gate if one input is 0 and the other is 1?",
+      "ur": "بولین لاجک میں، اگر AND گیٹ کا ایک ان پٹ 0 اور دوسرا 1 ہو تو آؤٹ پٹ کیا ہوگا؟"
+    },
+    {
+      "id": 520478,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write uses of logic gate?",
+      "ur": "لاجک گیٹس کے استعمالات لکھیں۔"
+    },
+    {
+      "id": 520481,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Draw symbolic representation of AND gate.",
+      "ur": "اینڈ گیٹ کے سرکٹ سمبل بنائیں۔"
+    },
+    {
+      "id": 520482,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write truth table of NOR gate and symbolic representation.",
+      "ur": "ناٹ گیٹ کی سرکٹ سمبل اور ناٹ گیٹ کی ٹروتھ ٹیبل بنائیں۔"
+    },
+    {
+      "id": 520484,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Draw symbolic representation of OR gate.",
+      "ur": "آرگیٹ کی سرکٹ سمبل بنائیں۔"
+    },
+    {
+      "id": 528382,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the logic equation and state the function of an AND gate.",
+      "ur": "اینڈ (AND) گیٹ کی لاجک مساوات لکھیں اور اس کا کام بیان کریں۔"
+    },
+    {
+      "id": 528383,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is a NOT gate called an inverter? Write its equation.",
+      "ur": "ناٹ (NOT) گیٹ کو انورٹر کیوں کہا جاتا ہے؟ اس کی مساوات لکھیں۔"
+    },
+    {
+      "id": 528390,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a NOR gate? Explain its output condition.",
+      "ur": "نور (NOR) گیٹ کیا ہے؟ اس کے آؤٹ پٹ کی شرط واضح کریں۔"
+    },
+    {
+      "id": 528391,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Solve the left \"Brain Teaser\": Show how a NOR gate followed by a NOT gate acts as an OR gate.",
+      "ur": "بائیں طرف والے \"برین ٹیذر\" کو حل کریں: دکھائیں کہ کس طرح ایک NOR گیٹ کے بعد NOT گیٹ لگانے سے وہ OR گیٹ بن جاتا ہے۔"
+    },
+    {
+      "id": 528393,
+      "chapter": 19,
+      "topic_id": "19.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Show that a NOR gate with inverted inputs acts as an AND gate.",
+      "ur": "اگر ایک NOR گیٹ کے ان پٹس کو الٹ (invert) کر کے دیا جائے تو وہ AND گیٹ کیسے بنتا ہے۔"
+    },
+    {
+      "id": 528421,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does a burglar blocking the light affect the LDR and the alarm?",
+      "ur": "چور کے روشنی روکنے سے LDR اور الارم پر کیا اثر پڑتا ہے؟"
+    },
+    {
+      "id": 528422,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "What happens if a burglar steps on the push-button switch (S) in the alarm circuit?",
+      "ur": "اگر چور الارم سرکٹ میں لگے پش بٹن سوئچ (S) پر پیر رکھ دے تو کیا ہوتا ہے؟"
+    },
+    {
+      "id": 528423,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the key components that make up a fire alarm system.",
+      "ur": "فائر الارم سسٹم بنانے والے اہم پرزوں کے نام لکھیں۔"
+    },
+    {
+      "id": 528424,
+      "chapter": 19,
+      "topic_id": "19.5",
+      "source": "Additional",
+      "type": "short",
+      "en": "A fire alarm must go ON when either smoke is detected or heat is detected. Which logic gate fits this setup?",
+      "ur": "ایک فائر الارم کو تب آن (ON) ہونا چاہیے جب یا تو دھواں محسوس ہو یا حرارت۔ اس سیٹ اپ کے لیے کون سا لاجک گیٹ مناسب ہے؟"
+    },
+    {
+      "id": 520597,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Dalton theory of atomic model?",
+      "ur": "ڈالٹن کے ایٹمی ماڈل کا نظریہ کیا ہے؟"
+    },
+    {
+      "id": 520600,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write two findings of Rutherford''s experiment.",
+      "ur": "ردرفورڈ کے تجربے کے دو نتائج لکھیں۔"
+    },
+    {
+      "id": 520602,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define fazzy cloud.",
+      "ur": "دھندلا کلاؤڈ کی تعریف کریں۔"
+    },
+    {
+      "id": 528496,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between Atomic Physics and Nuclear Physics.",
+      "ur": "اٹامک فزکس اور نیوکلیئر فزکس میں فرق واضح کریں۔"
+    },
+    {
+      "id": 528497,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why did most alpha particles pass straight through the gold foil without any deflection?",
+      "ur": "زیادہ تر الفا ذرات بغیر مڑے (deflect ہوئے) سونے کے ورق سے سیدھے کیوں گزر گئے؟"
+    },
+    {
+      "id": 528498,
+      "chapter": 20,
+      "topic_id": "20.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What did the bouncing back of a few alpha particles at large angles indicate?",
+      "ur": "چند الفا ذرات کا بڑے زاویوں پر واپس پلٹنا کس چیز کی نشاندہی کرتا تھا؟"
+    },
+    {
+      "id": 520606,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between atomic number and mass number.",
+      "ur": "اٹامک نمبر اور ماس نمبر میں فرق کریں۔"
+    },
+    {
+      "id": 528535,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Nucleons.",
+      "ur": "نیوکلیونز (Nucleons) کی تعریف کریں۔"
+    },
+    {
+      "id": 528536,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between Charge Number and Mass Number.",
+      "ur": "چارج نمبر اور ماس نمبر میں فرق واضح کریں۔"
+    },
+    {
+      "id": 528537,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How is a nuclide represented symbolically? Explain its components.",
+      "ur": "ایک نیوکلائیڈ (nuclide) کو علامتی طور پر کیسے ظاہر کیا جاتا ہے؟ اس کے اجزاء کی وضاحت کریں۔"
+    },
+    {
+      "id": 528539,
+      "chapter": 20,
+      "topic_id": "20.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "If protons repel each other, how can so many of them stay packed in a tiny nucleus without flying apart?",
+      "ur": "اگر پروٹانز ایک دوسرے کو پرے دھکیلتے ہیں (repel کرتے ہیں)، تو وہ ایک چھوٹے سے نیوکلیئس میں الگ ہوئے بغیر اکٹھے کیسے رہ لیتے ہیں؟ انہیں کیا چیز جوڑے رکھتی ہے؟"
+    },
+    {
+      "id": 520607,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define isotopes.",
+      "ur": "آئسوٹوپس کی تعریف کریں۔"
+    },
+    {
+      "id": 528545,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why are atoms electrically neutral, and how do they become ions?",
+      "ur": "ایٹم برقی طور پر نیوٹرل (electrically neutral) کیوں ہوتے ہیں، اور وہ آئن (ion) کیسے بنتے ہیں؟"
+    },
+    {
+      "id": 528546,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do isotopes of an element behave chemically in the exact same way?",
+      "ur": "کسی عنصر کے تمام آئسوٹوپس کیمیائی طور پر ایک ہی جیسا برتاؤ کیوں کرتے ہیں؟"
+    },
+    {
+      "id": 528547,
+      "chapter": 20,
+      "topic_id": "20.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Name the three isotopes of carbon and state the number of neutrons in each.",
+      "ur": "کاربن کے تینوں آئسوٹوپس کے نام (یا علامات) لکھیں اور ان میں نیوٹرانز کی تعداد بتائیں۔"
+    },
+    {
+      "id": 520615,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why Marie-Sklodowska-Curie got noble price?",
+      "ur": "میری سکلودوسکا-کیوری، کو نوبل انعام کیوں ملا؟"
+    },
+    {
+      "id": 520616,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define radioactive decay.",
+      "ur": "ریڈیو ایکٹیوڈی کے کی تعریف کریں۔"
+    },
+    {
+      "id": 520617,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are alpha particles.",
+      "ur": "الفا پارٹیکلز کیا ہیں؟"
+    },
+    {
+      "id": 520618,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is beta decay? Write its equation.",
+      "ur": "بیٹا ڈی کے کیا ہے؟ اس کی مساوات لکھیں۔"
+    },
+    {
+      "id": 528554,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are Beta particles? Mention their types.",
+      "ur": "بیٹا ذرات کیا ہیں؟ ان کی اقسام بتائیں۔"
+    },
+    {
+      "id": 528555,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Compare the penetration power of alpha and beta particles.",
+      "ur": "الفا اور بیٹا ذرات کی نفوذ کرنے کی صلاحیت (penetration power) کا موازنہ کریں۔"
+    },
+    {
+      "id": 528568,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Ionization and on what factors does the ability of radiation to ionize depend?",
+      "ur": "آئنائزیشن (Ionization) کیا ہے اور ریڈی ایشن کی آئنائز کرنے کی صلاحیت کا انحصار کن عوامل پر ہوتا ہے؟"
+    },
+    {
+      "id": 528569,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do Gamma rays have the weakest ionizing power but the highest penetrating power?",
+      "ur": "گیما شعاعوں کی آئنائزنگ پاور سب سے کم لیکن نفوذ کرنے کی صلاحیت سب سے زیادہ ہوتی ہے کیوں؟"
+    },
+    {
+      "id": 528570,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Compare the deflection of Alpha, Beta, and Gamma radiations in electric and magnetic fields.",
+      "ur": "الیکٹرک اور میگنیٹک فیلڈز میں الفا، بیٹا اور گیما ریڈی ایشنز کے مڑنے (deflection) کا موازنہ کریں۔"
+    },
+    {
+      "id": 528571,
+      "chapter": 20,
+      "topic_id": "20.4",
+      "source": "Additional",
+      "type": "short",
+      "en": "Summarize the penetration properties of Alpha, Beta, and Gamma radiations?",
+      "ur": "الفا، بیٹا اور گیما ریڈی ایشنز کی نفوذ کرنے کی خصوصیات کا خلاصہ لکھیں۔"
+    },
+    {
+      "id": 520619,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What do you know about Nuclear reaction?",
+      "ur": "آپ نیو کلئیر ریکشنز کے بارے میں کیا جانتے ہیں؟"
+    },
+    {
+      "id": 528621,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do nuclear reactions differ from chemical reactions?",
+      "ur": "نیوکلئیر ری ایکشنز اور کیمیائی ری ایکشنز میں کیا فرق ہے؟"
+    },
+    {
+      "id": 528622,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the nuclear equation for the fission of Uranium-235.",
+      "ur": "یورینیم-235 کے فشن کی نیوکلئیر مساوات (equation) لکھیں۔"
+    },
+    {
+      "id": 528623,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why does a nuclear fission reaction release an enormous amount of energy?",
+      "ur": "ایک نیوکلئیر فشن ری ایکشن اتنی بڑی مقدار میں توانائی کیوں خارج کرتا ہے؟"
+    },
+    {
+      "id": 528627,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is a Chain Reaction, and how is it managed inside a nuclear reactor?",
+      "ur": "چین ری ایکشن (Chain Reaction) کیا ہے، اور نیوکلئیر ری ایکشن کے اندر اسے کیسے سنبھالا جاتا ہے؟"
+    },
+    {
+      "id": 528628,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Nuclear Fusion.",
+      "ur": "نیوکلئیر فیوژن (Nuclear Fusion) کی تعریف کریں۔"
+    },
+    {
+      "id": 528629,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write the fusion equation of Deuterium and Tritium.",
+      "ur": "ڈیوٹیریم اور ٹریٹیم کے فیوژن کی مساوات لکھیں۔"
+    },
+    {
+      "id": 528630,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Differentiate between Fission and Fusion.",
+      "ur": "فشن اور فیوژن کے درمیان فرق واضح کریں۔"
+    },
+    {
+      "id": 528631,
+      "chapter": 20,
+      "topic_id": "20.6",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do fusion reactions require extremely high temperatures, such as in the core of the Sun?",
+      "ur": "فیوژن ری ایکشنز کے لیے انتہائی بلند درجہ حرارت (جیسے سورج کے مرکز میں ہے) کیوں درکار ہوتا ہے؟"
+    },
+    {
+      "id": 520620,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Einstein's equation?",
+      "ur": "آئین سٹائن کی مساوات کیا ہے؟"
+    },
+    {
+      "id": 528678,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "hat is meant by \"Pair Production\"?",
+      "ur": "\"پیئر پروڈکشن\" (Pair Production) سے کیا مراد ہے؟"
+    },
+    {
+      "id": 528679,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define Mass Defect",
+      "ur": "ماس ڈیفیکٹ کی تعریف کریں۔"
+    },
+    {
+      "id": 528680,
+      "chapter": 20,
+      "topic_id": "20.7",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the Uniform Mass Scale and how is it defined?",
+      "ur": "یونیفارم ماس اسکیل کیا ہے اور اس کی تعریف کیسے کی جاتی ہے؟"
+    },
+    {
+      "id": 520621,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define half-life.",
+      "ur": "ہائف لائف کی تعریف کریں۔"
+    },
+    {
+      "id": 520622,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write few appliactions of radioactive isotopes.",
+      "ur": "ریڈیو ایکٹیو آئسوٹوپس کے کچھ استعمالات لکھیں۔"
+    },
+    {
+      "id": 520623,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define carbon dating.",
+      "ur": "کاربن ڈیٹنگ کی تعریف کریں۔"
+    },
+    {
+      "id": 520624,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why ionizing radiation are dangerous?",
+      "ur": "آئیونائزنگ ریڈی ایشنز خطرناک کیوں ہیں؟"
+    },
+    {
+      "id": 528684,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define the Activity of a radioactive material and name its units.",
+      "ur": "کسی ریڈیو ایکٹیو مٹیریل کی ایکٹیویٹی (Activity) کی تعریف کریں اور اس کے یونٹس کے نام لکھیں۔"
+    },
+    {
+      "id": 528685,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does the length of a material's half-life affect its radioactive activity?",
+      "ur": "کسی مٹیریل کی ہاف لائف کی لمبائی اس کی ریڈیو ایکٹیو سرگرمی (activity) پر کیسے اثر انداز ہوتی ہے؟"
+    },
+    {
+      "id": 528689,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why is the concept of half-life important in fields like archaeology and medicine?",
+      "ur": "آثارِ قدیمہ (archaeology) اور طب (medicine) جیسے شعبوں میں ہاف لائف کا تصور کیوں اہم ہے؟"
+    },
+    {
+      "id": 528691,
+      "chapter": 20,
+      "topic_id": "20.8",
+      "source": "Additional",
+      "type": "short",
+      "en": "How do living organisms maintain a balance of Carbon-14 while they are alive?",
+      "ur": "جاندار جب تک زندہ رہتے ہیں، وہ اپنے اندر کاربن-14 کا توازن کیسے برقرار رکھتے ہیں؟"
+    },
+    {
+      "id": 520625,
+      "chapter": 20,
+      "topic_id": "20.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why ionizing radiation are dangerous?",
+      "ur": "آئیونائزنگ ریڈی ایشنز خطرناک کیوں ہیں؟"
+    },
+    {
+      "id": 528712,
+      "chapter": 20,
+      "topic_id": "20.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can high doses of nuclear radiation be useful in medicine?",
+      "ur": "نیوکلئیر ریڈی ایشن کی زیادہ مقدار طب میں کیسے فائدہ مند ہو سکتی ہے؟"
+    },
+    {
+      "id": 528713,
+      "chapter": 20,
+      "topic_id": "20.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the genetic risks associated with radiation exposure?",
+      "ur": "ریڈی ایشن کا سامنا ہونے سے وابستہ جینیاتی خطرات کیا ہیں؟"
+    },
+    {
+      "id": 528715,
+      "chapter": 20,
+      "topic_id": "20.9",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why do industrial applications require isotopes with long half-lives compared to medical applications?",
+      "ur": "طبی استعمال کے برعکس صنعتی استعمال میں لمبی ہاف لائف والے آئسوٹوپس کی ضرورت کیوں ہوتی ہے؟"
+    },
+    {
+      "id": 520702,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of Sun in our solar system?",
+      "ur": "ہمارے سولر سسٹم میں سورج کا کیا کردار ہے؟"
+    },
+    {
+      "id": 520703,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why Sun looks like a burning hall?",
+      "ur": "سورج جلتے ہوئے گیندوں کی طرح کیوں دکھائی دیتا ہے؟"
+    },
+    {
+      "id": 520705,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is the role of energy coming from sun?",
+      "ur": "سورج سے آنے والی انرجی کا کیا کردار ہے؟"
+    },
+    {
+      "id": 520706,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How gravitational field strength vary on planets?",
+      "ur": "مختلف سیاروں پر گریوی ٹینشنل فیلڈ کی شدت کیسے بدلتی ہے؟"
+    },
+    {
+      "id": 520707,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are cyclones?",
+      "ur": "سائیکلونز کیا ہیں؟"
+    },
+    {
+      "id": 520709,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "How convection is responsible for cyclones formation?",
+      "ur": "کنویکشن کس طرح سائیکلونز کی تشکیل کا سبب بنتے ہیں؟"
+    },
+    {
+      "id": 520711,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is coriolis effect?",
+      "ur": "کور یولس ایفیکٹ کیا ہے؟"
+    },
+    {
+      "id": 520713,
+      "chapter": 21,
+      "topic_id": "21.1",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the role of Earth observing satellites?",
+      "ur": "زمین کا مشاہدہ کرنے والے سیٹلائٹس کا کیا کردار ہے؟"
+    },
+    {
+      "id": 520714,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is global warming? write few causes of it?",
+      "ur": "گلوبل وارمنگ کیا ہے؟ اس کی چند وجوہات تحریر کریں۔"
+    },
+    {
+      "id": 520717,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Why geothermal energy considered as renewable source of energy?",
+      "ur": "جیو تھرمل انرجی کو قابل تجدید انرجی کے ذرائع کیوں سمجھا جاتا ہے؟"
+    },
+    {
+      "id": 520718,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How rise in temperature effect the Earth's environment?",
+      "ur": "ٹمپریچر میں اضافہ کس طرح زمین کے ماحول کو متاثر کرتا ہے؟"
+    },
+    {
+      "id": 528772,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "What is Geothermal Activity and what natural phenomena does it cause?",
+      "ur": "جیو تھرمل ایکٹیویٹی (Geothermal Activity) کیا ہے اور یہ کن قدرتی مظاہر کا سبب بنتی ہے؟"
+    },
+    {
+      "id": 528774,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "Explain how heat waves develop and why they last for extended periods.",
+      "ur": "وضاحت کریں کہ شدید گرمی کی لہریں (heat waves) کیسے بنتی ہیں اور یہ طویل عرصے تک کیوں قائم رہتی ہیں؟"
+    },
+    {
+      "id": 528784,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How does global warming extend the wildfire season and make them more severe?",
+      "ur": "گلوبل وارمنگ جنگلاتی آگ (wildfire) کے سیزن کو کیسے طویل اور شدید بناتی ہے؟"
+    },
+    {
+      "id": 528785,
+      "chapter": 21,
+      "topic_id": "21.2",
+      "source": "Additional",
+      "type": "short",
+      "en": "How can global warming cause extreme winter storms in unexpected places?",
+      "ur": "گلوبل وارمنگ غیر متوقع مقامات پر شدید برفانی طوفانوں (winter storms) کا سبب کیسے بن سکتی ہے؟"
+    },
+    {
+      "id": 520720,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Define background radiation.",
+      "ur": "بیک گراؤنڈ ریڈی ایشن کی تعریف کریں۔"
+    },
+    {
+      "id": 520723,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "What are the safety measures during radiation exposure?",
+      "ur": "تابکاری کا سامنا کرتے وقت کون سے حفاظتی اقدامات کرنے چاہیے؟"
+    },
+    {
+      "id": 520725,
+      "chapter": 21,
+      "topic_id": "21.3",
+      "source": "Additional",
+      "type": "short",
+      "en": "Write names of sources of background radiations.",
+      "ur": "بیک گراؤنڈ ریڈی ایشنز کے ذرائع تحریر کریں۔"
+    }
+  ],
+  "type": "short"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "ا-ردو-لازمی",
+  "name": "اُردو لازمی",
+  "fixedAt": "2026-10-23T17:35:32.894Z",
+  "typeTotals": {
+    "MCQ": 1402,
+    "QA": 920,
+    "POEM": 80,
+    "SUMMARY": 10,
+    "CENTRAL": 6,
+    "PASSAGE": 113
+  },
+  "note": "Fixed Matric Urdu field mapping from existing PTS export"
+}

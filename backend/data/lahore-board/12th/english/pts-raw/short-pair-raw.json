@@ -1,0 +1,16 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "12",
+  "className": "INTER-II",
+  "subject": "ENGLISH",
+  "slug": "english",
+  "type": "short",
+  "field": "PAIR",
+  "exportName": "short-pair",
+  "subTypeId": 35,
+  "total": 0,
+  "exportedAt": "2026-09-10T08:30:46.334Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": []
+}

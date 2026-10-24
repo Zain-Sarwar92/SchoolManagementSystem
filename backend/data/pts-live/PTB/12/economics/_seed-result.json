@@ -1,0 +1,29 @@
+{
+  "classId": 12,
+  "subjectId": 122,
+  "slug": "economics",
+  "name": "Economics",
+  "total": 1755,
+  "counts": {
+    "mcq": 974,
+    "short": 693,
+    "long": 88
+  },
+  "typeTotals": {
+    "MCQ": 974,
+    "QA": 693,
+    "LONG": 88
+  },
+  "mongo": {
+    "created": 1755,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 974,
+      "SHORT": 693,
+      "LONG": 88
+    },
+    "chapters": 13,
+    "topics": 13
+  },
+  "at": "2026-10-23T00:27:37.622Z"
+}

@@ -1,0 +1,159 @@
+{
+  "board": "PTB",
+  "class": "11",
+  "subject": "Principles of Economics",
+  "slug": "principles-of-economics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Definition of Economics",
+      "_chapterId": 1326,
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Definition of Economics"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Consumer'S Demand Theory",
+      "_chapterId": 1327,
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Consumer'S Demand Theory"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Demand and Supply",
+      "_chapterId": 1328,
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Demand"
+        },
+        {
+          "id": "3.2",
+          "title": "Supply"
+        },
+        {
+          "id": "3.3",
+          "title": "Equilibrium of Demand and Supply"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Factors of Production",
+      "_chapterId": 1329,
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Factors of Production"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Laws of Return",
+      "_chapterId": 1330,
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Laws of Return"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Firm'S Costs of Production and Revenues",
+      "_chapterId": 1331,
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Firm'S Costs of Production and Revenue"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Price and Output Determination",
+      "_chapterId": 1332,
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Price and Output Determination"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Resource Pricing",
+      "_chapterId": 1333,
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Resource Pricing"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "National Income",
+      "_chapterId": 1334,
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "National Income"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Money",
+      "_chapterId": 1335,
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Money"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Business Cycle / Trade Cycle",
+      "_chapterId": 1336,
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Business Cycle / Trade Cycle"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "International Trade",
+      "_chapterId": 1337,
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "International Trade"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Public Fiance and Zakat",
+      "_chapterId": 1338,
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Public Fiance and Zakat"
+        }
+      ]
+    }
+  ]
+}

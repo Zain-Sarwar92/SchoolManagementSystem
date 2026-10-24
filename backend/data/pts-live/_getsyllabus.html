@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" href="/images/icon.png" />
+    <title>Get Syllabus - PTS</title>
+    <link href="/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet">
+    <link href="/plugins/fa/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'" />
+    <link href="/plugins/Theme/Theme.css?v=70Fl7wn3JqLKrntgPXRMj2dQJ_1hu2Fmqvl_Ae9Bl3A" rel="stylesheet" />
+    <link href="/plugins/Theme/custom-controlles.css?v=6gXdwYJDpmhRU0fdWM4YRubphFAmJ25D72WSGX8qGns" rel="stylesheet" />
+    <link href="/plugins/DataTables/datatables.min.css" rel="stylesheet" />
+    <link href="/plugins/SweetAlert2/sweetalert2.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preload" as="font" href="/fonts/Jameel Noori Nastaleeq.woff2" type="font/woff" crossorigin>
+</head>
+<body oncontextmenu="return false" ondragstart="return false;" ondrop="return false;">
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="circle-wrapper">
+            <div class="circle"></div>
+            <div class="circle-text">PTS</div>
+        </div>
+    </div>
+
+    <!-- Topbar -->
+    <div class="topbar">
+        <div class="left-info">
+            <i class="fa-solid fa-bars" id="toggleSidebar"></i>
+            <div>
+                <strong>PAKTESTSOLUTION</strong><br>
+                <small>Version 10.0</small>
+            </div>
+        </div>
+        <div class="right-text">
+            <strong>AL-HADI GROUP OF SCHOOLS &amp; ACADEMIES</strong><br>
+            HEAD OFFICE: MAIN LAJPAT ROAD SHAHDARA, LAHORE
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-content">
+            <div class="profile">
+                <img src='/images/schools/725e1d4a-5209-4586-b8b3-2e833614ebbf.jpeg' alt="..." />
+                <h4>AHMED NAUMAN</h4>
+                <p>Administrator</p>
+            </div>
+            <p class="bg-success text-white text-center mt-2 p-1"><span style="font-size:0.8rem;">VALID TILL</span><br /><blink style="font-weight:bold; font-size:1.1rem;">12-APR-2027</blink></p>
+            <hr />
+            <ul>
+                <li>
+                    <a href="/SchoolAuth/Dashboard">
+                        <span class="menu-text"><i class="fa-solid fa-home text-primary fa-fw"></i>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="/Home/PastPapers">
+                        <span class="menu-text"><i class="fa-solid fa-paperclip text-success fa-fw"></i>Past Papers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Javascript:void(0)" data-bs-toggle="modal" data-bs-target="#password-modal">
+                        <span class="menu-text"><i class="fa-solid fa-key text-warning fa-fw"></i>Change Password</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/SchoolAuth/Logout">
+                        <span class="menu-text"><i class="fa-solid fa-power-off text-danger fa-fw"></i>Logout</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottom-icons">
+            <a href="Javascript:void(0)" data-bs-toggle="modal" data-bs-target="#password-modal" title="Change Password"><i class="fa-solid fa-key text-warning"></i></a>
+            <a title="Logout" href="/SchoolAuth/Logout"><i class="fa-solid fa-power-off text-danger"></i></a>
+            <i class="fa-solid fa-expand text-info" title="Fullscreen" id="sidebarFull"></i>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content">
+        
+
+<div class="page-heading">
+    <div>
+        <h1 class="page-heading-title">Select Syllabus</h1>
+    </div>
+</div>
+
+<div id="breadcrumbs"></div>
+
+<div class="container-fluid p-3">
+    <!-- Page 1: Select Course -->
+    <div class="page-section" id="pg-1">
+            <div class="row">
+                    <div class="col-md-3 col-sm-6 mb-3 class-container">
+                        <a class="course-item" data-id="1" data-name="PTB">
+                            <div class="Courses">
+                                <img src="/images/subjects/638685002268142513.png" loading="lazy" alt="..." />
+                                <h4>PTB</h4>
+                                <p>Syllabus</p>
+                                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-3 class-container">
+                        <a class="course-item" data-id="2" data-name="AFAQ SNC">
+                            <div class="Courses">
+                                <img src="/images/subjects/638685002353912668.png" loading="lazy" alt="..." />
+                                <h4>AFAQ SNC</h4>
+                                <p>Syllabus</p>
+                                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-3 class-container">
+                        <a class="course-item" data-id="3" data-name="OXFORD SNC">
+                            <div class="Courses">
+                                <img src="/images/subjects/638985320807545481.png" loading="lazy" alt="..." />
+                                <h4>OXFORD SNC</h4>
+                                <p>Syllabus</p>
+                                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-3 class-container">
+                        <a class="course-item" data-id="4" data-name="GOHAR SNC">
+                            <div class="Courses">
+                                <img src="/images/subjects/638971582888021935.png" loading="lazy" alt="..." />
+                                <h4>GOHAR SNC</h4>
+                                <p>Syllabus</p>
+                                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-3 class-container">
+                        <a class="course-item" data-id="5" data-name="B.A">
+                            <div class="Courses">
+                                <img src="/images/subjects/638685002576869275.png" loading="lazy" alt="..." />
+                                <h4>B.A</h4>
+                                <p>Syllabus</p>
+                                <div class="arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                            </div>
+                        </a>
+                    </div>
+            </div>
+    </div>
+
+    <!-- Page 2 -->
+    <div class="page-section" id="pg-2">
+        <div class="row" id="embedHtml-pg-class"></div>
+    </div>
+
+    <!-- Page 3 -->
+    <div class="page-section" id="pg-3">
+        <div class="row" id="embedHtml-pg-subject"></div>
+    </div>
+
+    <!-- Page 4 -->
+    <div class="page-section" id="pg-4">
+        <div class="row" id="embedHtml-pg-chapter"></div>
+    </div>
+</div>
+
+<link href="/css/syllabus.css?v=8arjycCwuRY7L7tdNAYQvPtQTSs0Q8dNQ3fpWRlKr7I" rel="stylesheet" />
+<script src="/js/syllabus-min.js?v=V0fsrFA2j6R05AOmH2NAZWQ1GbGqERm2HBIi3hCxncE" defer></script>
+
+
+    </div>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/plugins/Jquery/jquery-2.1.3.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/plugins/Theme/Theme.js"></script>
+    <script src="/plugins/DataTables/datatables.min.js"></script>
+    <script src="/plugins/SweetAlert2/sweetalert2.all.min.js"></script>
+    <script src="/js/crud.js?v=2PQySljEvVgrDJ8W9_3I0JGOTE1dL0XmWMxk3qtiI84"></script>
+    <script src="/js/helper.js?v=VS1V-9rhkiGYnANKschimR9uPjMH_dDx__30aOHerbA"></script>
+    
+    <script>
+        window.GetSyllabusConfig = {
+            isTrial: false
+        };
+    </script>
+
+    <script>
+        window.addEventListener("load", function () {
+            document.getElementById("preloader").style.display = "none";
+        });
+
+        $(document).ready(function () {
+            $(".showLoader").on("submit", function () {
+                document.getElementById("preloader").style.display = "flex";
+            });
+        });
+
+        $('a[data-bs-target="#password-modal"]').on('click', function () {
+            $('#password-modal').find('form')[0].reset();
+        });
+    </script>
+    <script>
+        $(document).keydown(function (event) {
+            // Ctrl+Shift+I pressed?
+            if (event.ctrlKey && event.shiftKey && event.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+
+            // Ctrl+C or Cmd+C pressed?
+            if ((event.ctrlKey || event.metaKey) && event.keyCode == 67) {
+                return false;
+            }
+
+            // Ctrl+X or Cmd+X pressed?
+            if ((event.ctrlKey || event.metaKey) && event.keyCode == 88) {
+                return false;
+            }
+
+            // Ctrl+S or Cmd+S pressed?
+            if ((event.ctrlKey || event.metaKey) && event.keyCode == 83) {
+                return false;
+            }
+
+            // Ctrl+U or Cmd+U pressed?
+            if ((event.ctrlKey || event.metaKey) && event.keyCode == 85) {
+                return false;
+            }
+
+            // F12 pressed?
+            if (event.keyCode == 123) {
+                return false;
+            }
+        });
+    </script>
+
+
+
+
+    <style>
+        @font-face {
+            font-family: 'Jameel Noori Nastaleeq';
+            src: local('Jameel Noori Nastaleeq'), url('/fonts/Jameel Noori Nastaleeq.woff2') format('woff');
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Al Qalam Quran Majeed Web';
+            src: local('Al Qalam Quran Majeed Web') format('truetype');
+            src: url('/fonts/Al Qalam Quran Majeed Web.ttf') format('truetype');
+            font-display: swap;
+        }
+    </style>
+</body>
+</html>
+
+<div class="modal fade" role="dialog" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true" id="form-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="modal-title"></p>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" role="dialog" tabindex="-1" aria-labelledby="passwordModalLabel" aria-hidden="true" id="password-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <p class="modal-title">Change Password</p>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form onsubmit="return jQueryAjaxPost(this);" action="/SchoolAuth/ChangePassword" method="post">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group-float">
+                                <input name="CurrentPassword" type="text" class="form-control-float" autocomplete="off" required />
+                                <label class="form-label-float required">Current Password</label>
+                            </div>
+                            <div class="form-group-float">
+                                <input name="NewPassword" type="text" class="form-control-float" min="10" autocomplete="off" required />
+                                <label class="form-label-float required">New Password</label>
+                            </div>
+                            <div class="d-inline float-end">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fa-solid fa-key"></i> Change Password
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                <input name="__RequestVerificationToken" type="hidden" value="CfDJ8L5g8hpvS6FDk-yd_ITjnx5gYVMSgcIOGDSLQ4pk6uERdurIBAJu_p3xQVwc0Yl-aoKp3cy0e-Jd_LtsX-PzI6bcwqp74RDeEzVyPvWPQDtjg_aRnrptChzz6WrzWO1Ag5Xe0RMsSDNG-8ixRXEp7dQlCJEfJn4eK0tIOJmL6Cf_gm3E2mQVCd5nEMLWD13WIQ" /></form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "classId": 9,
+  "subjectId": 1604,
+  "slug": "agriculture-sciences-tech",
+  "name": "AGRICULTURE SCIENCES (TECH)",
+  "total": 523,
+  "counts": {
+    "mcq": 281,
+    "short": 220,
+    "long": 22
+  },
+  "typeTotals": {
+    "MCQ": 281,
+    "QA": 220,
+    "LONG": 22
+  },
+  "mongo": {
+    "created": 523,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 281,
+      "SHORT": 220,
+      "LONG": 22
+    },
+    "chapters": 10,
+    "topics": 27
+  },
+  "at": "2026-10-23T00:05:19.647Z"
+}

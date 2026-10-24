@@ -1,0 +1,496 @@
+{
+  "course": {
+    "ptsCourseId": 1,
+    "code": "PTB",
+    "name": "PTB",
+    "subtitle": "Syllabus",
+    "sortOrder": 1,
+    "imageUrl": "https://paktestsolution.com/images/subjects/638685002268142513.png",
+    "aliases": [
+      "Punjab Textbook"
+    ],
+    "classes": [
+      {
+        "ptsClassId": 1,
+        "name": "ONE",
+        "gradeLevel": 1
+      },
+      {
+        "ptsClassId": 2,
+        "name": "TWO",
+        "gradeLevel": 2
+      },
+      {
+        "ptsClassId": 3,
+        "name": "THREE",
+        "gradeLevel": 3
+      },
+      {
+        "ptsClassId": 4,
+        "name": "FOUR",
+        "gradeLevel": 4
+      },
+      {
+        "ptsClassId": 5,
+        "name": "5TH",
+        "gradeLevel": 5
+      },
+      {
+        "ptsClassId": 6,
+        "name": "6TH",
+        "gradeLevel": 6
+      },
+      {
+        "ptsClassId": 7,
+        "name": "7TH",
+        "gradeLevel": 7
+      },
+      {
+        "ptsClassId": 8,
+        "name": "8TH",
+        "gradeLevel": 8
+      },
+      {
+        "ptsClassId": 9,
+        "name": "9TH",
+        "gradeLevel": 9,
+        "aliases": [
+          "Class 9"
+        ]
+      },
+      {
+        "ptsClassId": 10,
+        "name": "10TH",
+        "gradeLevel": 10,
+        "aliases": [
+          "Class 10"
+        ]
+      },
+      {
+        "ptsClassId": 11,
+        "name": "INTER-I",
+        "gradeLevel": 11,
+        "aliases": [
+          "Class 11"
+        ]
+      },
+      {
+        "ptsClassId": 12,
+        "name": "INTER-II",
+        "gradeLevel": 12,
+        "aliases": [
+          "Class 12"
+        ]
+      },
+      {
+        "ptsClassId": 36,
+        "name": "OLD BOOKS",
+        "gradeLevel": null
+      }
+    ]
+  },
+  "class": {
+    "ptsClassId": 4,
+    "name": "FOUR",
+    "gradeLevel": 4
+  },
+  "subject": {
+    "SubjectID": 245,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 4,
+    "SubjectName": "General Science",
+    "Category": "SNC-2021",
+    "ImageUrl": "/images/subjects/638029869312908962.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2023-12-01T00:00:00",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 2453,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 1: Characteristics and Life Process of Organisms",
+      "Syllabus": "CHAP 1",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2454,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 2: Ecosystem",
+      "Syllabus": "CHAP 2",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2455,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 3: Human Health",
+      "Syllabus": "CHAP 3",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2456,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 4: Matter and its Characteristics",
+      "Syllabus": "CHAP 4",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2457,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 5: Forms of Energy and Energy Transfer",
+      "Syllabus": "CHAP 5",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2458,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 6: Force and Motion",
+      "Syllabus": "CHAP 6",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2459,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 7: Earth and its Resources",
+      "Syllabus": "CHAP 7",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2460,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 8: Earth's Weather and its Climate",
+      "Syllabus": "CHAP 8",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2461,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 9: Solar System and our Earth",
+      "Syllabus": "CHAP 9",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2462,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterName": "CHAP 10: Technology in Everyday Life",
+      "Syllabus": "CHAP 10",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 4947,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2453,
+      "TopicName": "Characteristics and Life Process of Organisms",
+      "TopicRef": "1.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:20:23.487",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4948,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2454,
+      "TopicName": "Ecosystem",
+      "TopicRef": "2.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4949,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2455,
+      "TopicName": "Human Health",
+      "TopicRef": "3.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4950,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2456,
+      "TopicName": "Matter and its Characteristics",
+      "TopicRef": "4.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4951,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2457,
+      "TopicName": "Forms of Energy and Energy Transfer",
+      "TopicRef": "5.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4952,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2458,
+      "TopicName": "Force and Motion",
+      "TopicRef": "6.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4953,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2459,
+      "TopicName": "Earth and its Resources",
+      "TopicRef": "7.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4954,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2460,
+      "TopicName": "Earth's Weather and its Climate",
+      "TopicRef": "8.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4955,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2461,
+      "TopicName": "Solar System and our Earth",
+      "TopicRef": "9.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4956,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 4,
+      "SubjectID": 245,
+      "ChapterID": 2462,
+      "TopicName": "Technology in Everyday Life",
+      "TopicRef": "10.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

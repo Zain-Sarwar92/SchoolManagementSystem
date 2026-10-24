@@ -1,0 +1,29 @@
+{
+  "classId": 9,
+  "subjectId": 44,
+  "slug": "computer",
+  "name": "Computer",
+  "total": 2245,
+  "counts": {
+    "mcq": 991,
+    "short": 925,
+    "long": 329
+  },
+  "typeTotals": {
+    "MCQ": 991,
+    "QA": 925,
+    "LONG": 329
+  },
+  "mongo": {
+    "created": 2245,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 991,
+      "SHORT": 925,
+      "LONG": 329
+    },
+    "chapters": 9,
+    "topics": 58
+  },
+  "at": "2026-10-23T00:02:15.158Z"
+}

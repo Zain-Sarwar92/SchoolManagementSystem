@@ -1,0 +1,394 @@
+{
+  "course": {
+    "ptsCourseId": 1,
+    "code": "PTB",
+    "name": "PTB",
+    "subtitle": "Syllabus",
+    "sortOrder": 1,
+    "imageUrl": "https://paktestsolution.com/images/subjects/638685002268142513.png",
+    "aliases": [
+      "Punjab Textbook"
+    ],
+    "classes": [
+      {
+        "ptsClassId": 1,
+        "name": "ONE",
+        "gradeLevel": 1
+      },
+      {
+        "ptsClassId": 2,
+        "name": "TWO",
+        "gradeLevel": 2
+      },
+      {
+        "ptsClassId": 3,
+        "name": "THREE",
+        "gradeLevel": 3
+      },
+      {
+        "ptsClassId": 4,
+        "name": "FOUR",
+        "gradeLevel": 4
+      },
+      {
+        "ptsClassId": 5,
+        "name": "5TH",
+        "gradeLevel": 5
+      },
+      {
+        "ptsClassId": 6,
+        "name": "6TH",
+        "gradeLevel": 6
+      },
+      {
+        "ptsClassId": 7,
+        "name": "7TH",
+        "gradeLevel": 7
+      },
+      {
+        "ptsClassId": 8,
+        "name": "8TH",
+        "gradeLevel": 8
+      },
+      {
+        "ptsClassId": 9,
+        "name": "9TH",
+        "gradeLevel": 9,
+        "aliases": [
+          "Class 9"
+        ]
+      },
+      {
+        "ptsClassId": 10,
+        "name": "10TH",
+        "gradeLevel": 10,
+        "aliases": [
+          "Class 10"
+        ]
+      },
+      {
+        "ptsClassId": 11,
+        "name": "INTER-I",
+        "gradeLevel": 11,
+        "aliases": [
+          "Class 11"
+        ]
+      },
+      {
+        "ptsClassId": 12,
+        "name": "INTER-II",
+        "gradeLevel": 12,
+        "aliases": [
+          "Class 12"
+        ]
+      },
+      {
+        "ptsClassId": 36,
+        "name": "OLD BOOKS",
+        "gradeLevel": null
+      }
+    ]
+  },
+  "class": {
+    "ptsClassId": 1,
+    "name": "ONE",
+    "gradeLevel": 1
+  },
+  "subject": {
+    "SubjectID": 93,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 1,
+    "SubjectName": "اسلامیات",
+    "Category": "SNC-2021",
+    "ImageUrl": "/images/subjects/638029846322896423.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2023-12-01T00:00:00",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 7,
+      "name": "fill",
+      "bankType": "short",
+      "field": "FILL"
+    },
+    {
+      "id": 14,
+      "name": "short-qa",
+      "bankType": "short",
+      "field": "QA"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 2711,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterName": "باب نمبر 2: ایمانیات و عبادات",
+      "Syllabus": "CHAP 2",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T11:52:18.847",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2712,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterName": "باب نمبر 3: سیرتِ طیبہﷺ",
+      "Syllabus": "CHAP 3",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T11:52:22.71",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2713,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterName": "باب نمبر 4: اَخلاق و آداب",
+      "Syllabus": "CHAP 4",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T11:52:25.873",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2714,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterName": "باب نمبر 5: ہدایت کے سر چشمے اور مشاہیرِ اسلام",
+      "Syllabus": "CHAP 5",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T11:52:29.177",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 5129,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2711,
+      "TopicName": "ایمانیات: توحید کا تعارف",
+      "TopicRef": "2.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:16:44.12",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5130,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2711,
+      "TopicName": "ایمانیات: نبوت و رِسالت",
+      "TopicRef": "2.2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:16:46.4",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5131,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2711,
+      "TopicName": "عبادات: مسجد",
+      "TopicRef": "2.3",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:16:49.017",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5132,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2711,
+      "TopicName": "عبادات: اذان",
+      "TopicRef": "2.4",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:16:51.61",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5133,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2711,
+      "TopicName": "عبادات: نماز",
+      "TopicRef": "2.5",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:16:55.91",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5134,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2712,
+      "TopicName": "ہمارے پیارے نبی حضرت محمد رسول اللہ خاتم النبیینﷺ",
+      "TopicRef": "3.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5135,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2712,
+      "TopicName": "حضرت محمد مصطفیٰ خاتم النبیینﷺ کے اَخلاق حسنہ",
+      "TopicRef": "3.2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5136,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2713,
+      "TopicName": "اچھے اَخلاق",
+      "TopicRef": "4.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5137,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2713,
+      "TopicName": "سلام کرنا",
+      "TopicRef": "4.2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 5138,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 1,
+      "SubjectID": 93,
+      "ChapterID": 2714,
+      "TopicName": "انبیائے کرام علیھم السّلام کا تعارف",
+      "TopicRef": "5.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

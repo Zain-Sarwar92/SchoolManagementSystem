@@ -1,0 +1,39 @@
+{
+  "board": "PTB",
+  "class": "9",
+  "subject": "COMPUTER (TECH)",
+  "slug": "computer-tech",
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "typeTotals": {
+    "MCQ": 0,
+    "QA": 0,
+    "LONG": 0
+  },
+  "total_questions": 0,
+  "counts": {
+    "mcq": 0,
+    "short": 0,
+    "long": 0
+  },
+  "exportedAt": "2026-10-23T00:04:14.438Z",
+  "questions": []
+}

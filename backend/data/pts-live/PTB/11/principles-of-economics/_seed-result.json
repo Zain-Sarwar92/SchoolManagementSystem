@@ -1,0 +1,29 @@
+{
+  "classId": 11,
+  "subjectId": 103,
+  "slug": "principles-of-economics",
+  "name": "Principles of Economics",
+  "total": 1577,
+  "counts": {
+    "mcq": 960,
+    "short": 532,
+    "long": 85
+  },
+  "typeTotals": {
+    "MCQ": 960,
+    "QA": 532,
+    "LONG": 85
+  },
+  "mongo": {
+    "created": 1577,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 960,
+      "SHORT": 532,
+      "LONG": 85
+    },
+    "chapters": 13,
+    "topics": 15
+  },
+  "at": "2026-10-23T00:27:17.376Z"
+}

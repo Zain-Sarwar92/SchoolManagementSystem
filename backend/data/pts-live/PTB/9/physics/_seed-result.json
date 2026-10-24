@@ -1,0 +1,29 @@
+{
+  "classId": 9,
+  "subjectId": 46,
+  "slug": "physics",
+  "name": "Physics",
+  "total": 2070,
+  "counts": {
+    "mcq": 938,
+    "short": 876,
+    "long": 256
+  },
+  "typeTotals": {
+    "MCQ": 938,
+    "QA": 876,
+    "LONG": 256
+  },
+  "mongo": {
+    "created": 2070,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 938,
+      "SHORT": 876,
+      "LONG": 256
+    },
+    "chapters": 9,
+    "topics": 88
+  },
+  "at": "2026-10-23T00:02:58.129Z"
+}

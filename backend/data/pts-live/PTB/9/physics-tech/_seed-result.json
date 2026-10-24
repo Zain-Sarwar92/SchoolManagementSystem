@@ -1,0 +1,29 @@
+{
+  "classId": 9,
+  "subjectId": 1602,
+  "slug": "physics-tech",
+  "name": "PHYSICS (TECH)",
+  "total": 1730,
+  "counts": {
+    "mcq": 799,
+    "short": 733,
+    "long": 198
+  },
+  "typeTotals": {
+    "MCQ": 799,
+    "QA": 733,
+    "LONG": 198
+  },
+  "mongo": {
+    "created": 1730,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 799,
+      "SHORT": 733,
+      "LONG": 198
+    },
+    "chapters": 8,
+    "topics": 71
+  },
+  "at": "2026-10-23T00:04:39.542Z"
+}

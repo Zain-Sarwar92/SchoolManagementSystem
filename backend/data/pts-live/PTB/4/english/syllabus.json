@@ -1,0 +1,270 @@
+{
+  "board": "PTB",
+  "class": "FOUR",
+  "subject": "English",
+  "slug": "english",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Great Caliphs of Islam",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Great Caliphs of Islam"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Beauty of Nature",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Beauty of Nature"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "the Journey of Chocolate",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "the Journey of Chocolate"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Review-1",
+      "topics": [
+        {
+          "id": "4.R",
+          "title": "Review Exercise 4"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "the Pride of Pakistan",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "the Pride of Pakistan"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Thank You, Lord",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Thank You, Lord"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Valuing Others",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Valuing Others"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Review-2",
+      "topics": [
+        {
+          "id": "8.R",
+          "title": "Review Exercise 8"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Colours of Pakistan",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Colours of Pakistan"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Good Study Habits",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Good Study Habits"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Manners",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Manners"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Review-3",
+      "topics": [
+        {
+          "id": "12.R",
+          "title": "Review Exercise 12"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Be Aware, Be Safe",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Be Aware, Be Safe"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "the Fox and the Stork",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "the Fox and the Stork"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Time to Think!",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Time to Think!"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Little Things",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Little Things"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "Review-4",
+      "topics": [
+        {
+          "id": "17.R",
+          "title": "Review Exercise 17"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "English B",
+      "topics": [
+        {
+          "id": "18.1",
+          "title": "Singular/Plural"
+        },
+        {
+          "id": "18.2",
+          "title": "Gender"
+        },
+        {
+          "id": "18.3",
+          "title": "Form of Verbs"
+        },
+        {
+          "id": "18.4",
+          "title": "Applications"
+        },
+        {
+          "id": "18.5",
+          "title": "Letters"
+        },
+        {
+          "id": "18.6",
+          "title": "Stories"
+        },
+        {
+          "id": "18.7",
+          "title": "Essays"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Tenses",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Use of Is, Am, Are"
+        },
+        {
+          "id": "19.2",
+          "title": "Use of Was, Were"
+        },
+        {
+          "id": "19.3",
+          "title": "Use Has, Have, Had"
+        },
+        {
+          "id": "19.4",
+          "title": "Use of It and There"
+        },
+        {
+          "id": "19.5",
+          "title": "Imperative Sentences"
+        },
+        {
+          "id": "19.6",
+          "title": "Use of Some Helping Verbs"
+        },
+        {
+          "id": "19.7",
+          "title": "Use of Why, Where, When, What, Who"
+        },
+        {
+          "id": "19.8",
+          "title": "Present Indefinite Tense"
+        },
+        {
+          "id": "19.9",
+          "title": "Present Continuous Tense"
+        },
+        {
+          "id": "19.10",
+          "title": "Past Indefinite Tense"
+        },
+        {
+          "id": "19.11",
+          "title": "Past Continuous Tense"
+        },
+        {
+          "id": "19.12",
+          "title": "Future Indefinite Tense"
+        },
+        {
+          "id": "19.13",
+          "title": "Future Continuous Tense"
+        }
+      ]
+    }
+  ]
+}

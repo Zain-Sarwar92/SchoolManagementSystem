@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "chemistry",
+    "subject": "Chemistry",
+    "counts": {
+      "mcq": 1415,
+      "short": 1340,
+      "long": 211
+    },
+    "total": 2966
+  }
+]

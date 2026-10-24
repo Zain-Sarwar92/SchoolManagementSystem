@@ -1,0 +1,29 @@
+{
+  "classId": 12,
+  "subjectId": 134,
+  "slug": "فزیکل-ایجوکیشن",
+  "name": "فزیکل ایجوکیشن",
+  "total": 1307,
+  "counts": {
+    "mcq": 638,
+    "short": 634,
+    "long": 35
+  },
+  "typeTotals": {
+    "MCQ": 638,
+    "QA": 634,
+    "LONG": 35
+  },
+  "mongo": {
+    "created": 1307,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 638,
+      "SHORT": 634,
+      "LONG": 35
+    },
+    "chapters": 8,
+    "topics": 17
+  },
+  "at": "2026-10-23T00:30:51.519Z"
+}

@@ -1,0 +1,381 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "English",
+  "slug": "english",
+  "source": "PTS PTB INTER-II (Class 12) English (read-only export)",
+  "total_questions": 2011,
+  "counts": {
+    "mcq": 962,
+    "short": 1013,
+    "long": 36
+  },
+  "fieldCounts": {
+    "MEANING": 962,
+    "QA": 1013,
+    "ESSAYS": 36
+  },
+  "questions": [
+    {
+      "id": 541771,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "A picnic party"
+    },
+    {
+      "id": 541772,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "My hero in history"
+    },
+    {
+      "id": 541774,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "My first day at college"
+    },
+    {
+      "id": 541777,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Science in the service of man"
+    },
+    {
+      "id": 541778,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "An accident"
+    },
+    {
+      "id": 541779,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Co-education"
+    },
+    {
+      "id": 541780,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Information technology"
+    },
+    {
+      "id": 541781,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Students and politics"
+    },
+    {
+      "id": 541782,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Why I love Pakistan"
+    },
+    {
+      "id": 541783,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Unemployment"
+    },
+    {
+      "id": 541784,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Earthquake"
+    },
+    {
+      "id": 541785,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Dignity of work"
+    },
+    {
+      "id": 541786,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "An ideal student"
+    },
+    {
+      "id": 541787,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "City life"
+    },
+    {
+      "id": 541788,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Kashmir issue"
+    },
+    {
+      "id": 541790,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Woman place in society"
+    },
+    {
+      "id": 541791,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Corruption"
+    },
+    {
+      "id": 541792,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Horrors of science"
+    },
+    {
+      "id": 541793,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "A cricket match"
+    },
+    {
+      "id": 541797,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Pleasures of college life"
+    },
+    {
+      "id": 541799,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Television"
+    },
+    {
+      "id": 541800,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "The scene at a railway station"
+    },
+    {
+      "id": 541801,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Courtesy"
+    },
+    {
+      "id": 541802,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Sports and games"
+    },
+    {
+      "id": 541803,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "My best friend"
+    },
+    {
+      "id": 541804,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "My favourite book"
+    },
+    {
+      "id": 541805,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Horrors of war"
+    },
+    {
+      "id": 541806,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Our education system"
+    },
+    {
+      "id": 541807,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Our examination system"
+    },
+    {
+      "id": 541808,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Over population"
+    },
+    {
+      "id": 541809,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Science an enemy of man"
+    },
+    {
+      "id": 541811,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Democracy"
+    },
+    {
+      "id": 541812,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Mobile phones"
+    },
+    {
+      "id": 541813,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Flood and its effects"
+    },
+    {
+      "id": 541814,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "An ideal teacher"
+    },
+    {
+      "id": 541815,
+      "chapter": 14,
+      "topic_id": "14.1",
+      "type": "long",
+      "field": "ESSAYS",
+      "source": "Exercise",
+      "priority": "Past Papers",
+      "en": "Computer"
+    }
+  ],
+  "type": "long"
+}

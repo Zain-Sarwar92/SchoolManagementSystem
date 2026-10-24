@@ -1,0 +1,31 @@
+{
+  "classId": 10,
+  "subjectId": 67,
+  "slug": "اسلامیات-لازمی",
+  "name": "اسلامیات لازمی",
+  "total": 1062,
+  "counts": {
+    "mcq": 593,
+    "short": 431,
+    "long": 38
+  },
+  "typeTotals": {
+    "MCQ": 593,
+    "QA": 431,
+    "LONG": 28,
+    "HADITH": 10,
+    "PERSONALITY": 0
+  },
+  "mongo": {
+    "created": 1062,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 593,
+      "SHORT": 431,
+      "LONG": 38
+    },
+    "chapters": 7,
+    "topics": 30
+  },
+  "at": "2026-10-23T00:12:14.755Z"
+}

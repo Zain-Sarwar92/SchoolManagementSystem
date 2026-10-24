@@ -1,0 +1,26 @@
+{
+  "slug": "biology-tech",
+  "name": "BIOLOGY (TECH)",
+  "total": 1247,
+  "counts": {
+    "mcq": 661,
+    "short": 509,
+    "long": 77
+  },
+  "typeTotals": {
+    "MCQ": 661,
+    "QA": 509,
+    "LONG": 77
+  },
+  "mongo": {
+    "created": 1247,
+    "updated": 0,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 661,
+      "SHORT": 509,
+      "LONG": 77
+    }
+  },
+  "at": "2026-10-22T22:53:56.417Z"
+}

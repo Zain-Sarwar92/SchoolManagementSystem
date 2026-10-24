@@ -1,0 +1,1237 @@
+/* —— PTS Print page chrome —— */
+.pts-print-page {
+  min-height: 100vh;
+  width: 100%;
+  max-width: none;
+  background: #e8e8e8;
+  padding: 0.3rem 0.4rem 1rem;
+  box-sizing: border-box;
+}
+
+.pts-print-page-inner {
+  width: 100%;
+  max-width: none !important;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.pts-print-page-inner .tg-exam-print-root,
+.pts-print-page .tg-exam-print-root {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+
+.pts-print-page-inner .exam-sheet,
+.pts-print-page .exam-sheet {
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box;
+}
+
+.pts-print-bar {
+  --pts-ctrl-w: 7.25rem;
+  --pts-ctrl-h: 2rem;
+  margin-bottom: 0.55rem;
+  padding: 0.5rem 0.6rem 0.55rem;
+  border: 1px solid #c8c8c8;
+  border-radius: 3px;
+  background: #f3f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pts-print-bar-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.45rem 0.5rem;
+}
+
+.pts-print-bar-row--checks {
+  margin-top: 0.5rem;
+  padding-top: 0.45rem;
+  border-top: 1px solid #ddd;
+  align-items: center;
+  gap: 0.55rem 0.85rem;
+}
+
+.pts-print-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  width: var(--pts-ctrl-w);
+  min-width: var(--pts-ctrl-w);
+  max-width: var(--pts-ctrl-w);
+  box-sizing: border-box;
+}
+
+.pts-print-field label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #222;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pts-print-field input[type="number"],
+.pts-print-field select {
+  width: 100%;
+  height: var(--pts-ctrl-h);
+  min-height: var(--pts-ctrl-h);
+  max-height: var(--pts-ctrl-h);
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 0 0.4rem;
+  background: #fff;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #111;
+  line-height: 1.2;
+}
+
+.pts-print-field select {
+  cursor: pointer;
+  padding-right: 0.25rem;
+}
+
+/* Layout / Watermark — same height, slightly wider but equal to each other */
+.pts-print-field--wide {
+  width: 11.5rem;
+  min-width: 11.5rem;
+  max-width: 11.5rem;
+}
+
+.pts-print-field--color {
+  width: var(--pts-ctrl-w);
+  min-width: var(--pts-ctrl-w);
+  max-width: var(--pts-ctrl-w);
+}
+
+.pts-print-field--color input[type="color"] {
+  width: 100%;
+  height: var(--pts-ctrl-h);
+  min-height: var(--pts-ctrl-h);
+  padding: 0.15rem;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  background: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.pts-print-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.74rem;
+  font-weight: 600;
+  color: #111;
+  white-space: nowrap;
+}
+
+.pts-print-check input {
+  width: 0.95rem;
+  height: 0.95rem;
+  margin: 0;
+  accent-color: #2b6cb0;
+}
+
+.pts-print-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+
+.pts-btn {
+  border: 0;
+  border-radius: 3px;
+  height: var(--pts-ctrl-h);
+  padding: 0 0.85rem;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.pts-btn--shuffle {
+  background: #5eb3e4;
+}
+
+.pts-btn--edit {
+  background: #2b6cb0;
+}
+
+.pts-btn--print {
+  background: #38a169;
+}
+
+.pts-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+@font-face {
+  font-family: "Jameel Noori Nastaleeq";
+  src: url("/fonts/JameelNooriNastaleeq.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* —— PTS exam sheet —— */
+.exam-sheet {
+  --exam-line-height: 1.2;
+  --exam-en-size: 11pt;
+  --exam-ur-size: 12pt;
+  --font-urdu: "Jameel Noori Nastaleeq", "Noto Nastaliq Urdu", serif;
+  --exam-header-scale: 1;
+  --exam-logo-scale: 1;
+  --exam-eq-boost: 0px;
+  --exam-ink: #000;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #111;
+  border-radius: 0;
+  padding: 0.3rem 0.4rem 0.5rem;
+  color: var(--exam-ink);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 0.12);
+  font-family: "Times New Roman", Times, Georgia, serif;
+  font-size: var(--exam-en-size);
+  line-height: var(--exam-line-height);
+  overflow: hidden;
+}
+
+.exam-brand-header {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 0.15rem;
+}
+
+.exam-brand-row {
+  display: grid;
+  grid-template-columns: 52px 1fr 52px;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.exam-brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exam-logo-img {
+  width: calc(48px * var(--exam-header-scale) * var(--exam-logo-scale, 1));
+  height: calc(48px * var(--exam-header-scale) * var(--exam-logo-scale, 1));
+  object-fit: contain;
+}
+
+.exam-logo-img--center {
+  width: calc(68px * var(--exam-header-scale) * var(--exam-logo-scale, 1));
+  height: calc(68px * var(--exam-header-scale) * var(--exam-logo-scale, 1));
+}
+
+.exam-logo-img--sm {
+  width: calc(44px * var(--exam-logo-scale, 1));
+  height: calc(44px * var(--exam-logo-scale, 1));
+}
+
+.exam-logo-fallback {
+  display: grid;
+  place-items: center;
+  width: calc(48px * var(--exam-logo-scale, 1));
+  height: calc(48px * var(--exam-logo-scale, 1));
+  border: 2px solid #111;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+.exam-brand-center {
+  text-align: center;
+  min-width: 0;
+}
+
+.exam-org-name {
+  margin: 0;
+  font-size: calc(1.35rem * var(--exam-header-scale));
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  line-height: 1.15;
+  color: #000;
+  font-family: "Times New Roman", Times, Georgia, serif;
+}
+
+.exam-org-address {
+  margin: 0.15rem 0 0;
+  font-size: calc(0.68rem * var(--exam-header-scale));
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #222;
+}
+
+.exam-brand-spacer {
+  width: 52px;
+}
+
+/* —— Meta block —— */
+.exam-info-block {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin-top: 0.15rem;
+  border: 1px solid #000;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+/* Real table — 3 equal fields/row; borders print on label AND value */
+.exam-info-block--pts {
+  border: 1px solid #000;
+  overflow: visible;
+  padding: 0;
+}
+
+.exam-pts-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  margin: 0;
+}
+
+.exam-pts-col-k {
+  width: 12%;
+}
+
+.exam-pts-col-v {
+  width: 21.333%;
+}
+
+.exam-pts-th,
+.exam-pts-td {
+  border: 1px solid #000;
+  padding: 0.18rem 0.3rem;
+  vertical-align: middle;
+  height: 1.65rem;
+  font-size: 0.72rem;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+.exam-pts-th {
+  background: #f0f0f0;
+  font-weight: 700;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.exam-pts-td {
+  background: #fff;
+  font-weight: 650;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.exam-pts-td--blank {
+  min-height: 1.65rem;
+}
+
+.exam-info-block--l3 {
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+/* Student Name | Roll Number — ALWAYS equal 50% / 50% (layouts 2/4/5) */
+.exam-identity-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  border-bottom: 1.5px solid #000;
+}
+
+.exam-identity-field {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  align-items: stretch;
+  min-height: 2.25rem;
+  min-width: 0;
+  border-right: 1px solid #000;
+  background: #fff;
+}
+
+.exam-identity-field:last-child {
+  border-right: none;
+}
+
+.exam-identity-label {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 7.5rem;
+  min-width: 7.5rem;
+  max-width: 7.5rem;
+  padding: 0.3rem 0.45rem;
+  border-right: 1px solid #000;
+  background: #efefef;
+  font-size: 0.78rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.exam-identity-value {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  width: 100%;
+  padding: 0.25rem 0.45rem;
+  background: #fff;
+}
+
+.exam-info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+}
+
+/* Classic PTS: 4 equal columns — Student Name & Roll Number same size */
+.exam-info-grid--pts {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+/* Layout 2 — equal 2-column pairs */
+.exam-info-grid--pairs {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.exam-info-grid--pairs .exam-info-cell {
+  border-right: 1px solid #000;
+}
+
+.exam-info-grid--pairs .exam-info-cell:nth-child(2n) {
+  border-right: none;
+}
+
+.exam-info-cell {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  align-items: stretch;
+  min-height: 2rem;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 0.78rem;
+  min-width: 0;
+  background: #fff;
+}
+
+.exam-info-grid:not(.exam-info-grid--pairs) .exam-info-cell:nth-child(4n) {
+  border-right: none;
+}
+
+.exam-info-cell-wide {
+  grid-column: 1 / -1;
+  border-right: none;
+}
+
+/* Syllabus spans 3 cols; Exam takes the last col (classic PTS) */
+.exam-info-grid--pts .exam-info-cell-wide {
+  grid-column: span 3;
+  border-right: 1px solid #000;
+}
+
+.exam-info-grid--pts .exam-info-cell-wide + .exam-info-cell {
+  border-right: none;
+}
+
+.exam-info-cell-span2 {
+  grid-column: span 2;
+  border-right: none;
+}
+
+.exam-info-grid--pts > .exam-info-cell:nth-last-child(-n + 2) {
+  border-bottom: none;
+}
+
+.exam-info-grid:not(.exam-info-grid--pts) > .exam-info-cell:last-child {
+  border-bottom: none;
+}
+
+.exam-info-grid--pairs > .exam-info-cell:nth-last-child(-n + 2) {
+  border-bottom: none;
+}
+
+.exam-info-label {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 7.5rem;
+  min-width: 7.5rem;
+  max-width: 7.5rem;
+  padding: 0.28rem 0.4rem;
+  border-right: 1px solid #000;
+  background: #efefef;
+  font-weight: 700;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.exam-info-value {
+  display: flex;
+  align-items: center;
+  padding: 0.28rem 0.45rem;
+  font-weight: 650;
+  min-width: 0;
+  width: 100%;
+  background: #fff;
+}
+
+/* Blank Student Name / Roll Number — empty cell, no underscore line */
+.exam-info-cell--blank {
+  min-height: 2.15rem;
+}
+
+.exam-info-cell--blank .exam-info-value {
+  padding: 0.28rem 0.45rem;
+  min-height: 1.4rem;
+}
+
+.exam-info-write-line {
+  display: none;
+}
+
+/* Layout 4 — chip strip */
+.exam-info-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0.4rem;
+  background: #fafafa;
+}
+
+.exam-info-chip {
+  display: grid;
+  grid-template-columns: auto minmax(3.5rem, 1fr);
+  align-items: center;
+  min-height: 1.85rem;
+  flex: 1 1 10.5rem;
+  border: 1px solid #111;
+  font-size: 0.76rem;
+  background: #fff;
+}
+
+.exam-info-chip--wide {
+  flex: 1 1 100%;
+}
+
+.exam-info-chip-label {
+  padding: 0.25rem 0.4rem;
+  background: #efefef;
+  border-right: 1px solid #111;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.exam-info-chip-value {
+  padding: 0.25rem 0.4rem;
+  min-width: 0;
+  font-weight: 650;
+}
+
+/* Layout 5 — three meta columns */
+.exam-info-split {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+}
+
+.exam-info-split-col {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #111;
+  min-width: 0;
+}
+
+.exam-info-split-col:last-child {
+  border-right: none;
+}
+
+.exam-info-split .exam-info-cell {
+  border-right: none;
+  width: 100%;
+}
+
+.exam-info-split .exam-info-cell:last-child {
+  border-bottom: none;
+}
+
+/* Layout accents */
+.exam-info-block--l2 .exam-identity-row {
+  background: #f7f7f7;
+}
+
+.exam-info-block--l4 .exam-identity-row {
+  border-bottom-width: 2px;
+}
+
+.exam-info-block--l5 .exam-identity-label {
+  background: #e8e8e8;
+}
+
+.exam-info-block--l1 .exam-info-grid--pts,
+.exam-info-block--l3 .exam-info-grid--pts {
+  /* force equal quarters so Name/Roll never stretch unevenly */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.exam-info-block--l1 .exam-info-cell--blank,
+.exam-info-block--l3 .exam-info-cell--blank {
+  min-width: 0;
+}
+
+/* Brand variants */
+.exam-brand-header--centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.25rem;
+  padding-bottom: 0.35rem;
+}
+
+.exam-logo-fallback--center {
+  margin: 0 auto;
+}
+
+.exam-brand-header--bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.35rem 0.5rem;
+  margin-bottom: 0.45rem;
+  border: 1.5px solid #111;
+  background: #f7f7f7;
+}
+
+.exam-brand-bar-text {
+  min-width: 0;
+  text-align: left;
+}
+
+.exam-brand-header--bar .exam-org-name {
+  font-size: calc(1.15rem * var(--exam-header-scale));
+  text-align: left;
+}
+
+.exam-q-bilingual--stack {
+  grid-template-columns: 1fr;
+  gap: 0.25rem;
+}
+
+.exam-bubble-sheet--dense {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.exam-bubble-sheet--row {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.exam-bubble-sheet--boxed {
+  background: #fafafa;
+}
+
+.exam-sheet--layout-2 .exam-part-banner {
+  background: #f3f3f3;
+  padding-inline: 0.5rem;
+  border-top: 2px solid #111;
+}
+
+.exam-sheet--layout-2 .exam-bubble-sheet {
+  border-style: dashed;
+}
+
+.exam-sheet--layout-3 .exam-part-banner h2 {
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.exam-sheet--layout-3 .exam-org-name {
+  border-bottom: 2px solid #111;
+  padding-bottom: 0.2rem;
+  display: inline-block;
+}
+
+.exam-sheet--layout-4 .exam-part-banner {
+  border-top: 1.5px solid #000;
+}
+
+.exam-sheet--layout-4 .exam-q-item {
+  padding-bottom: 0.35rem;
+  border-bottom: 1px dotted #bbb;
+}
+
+.exam-sheet--layout-5 .exam-section {
+  border-left: 3px solid #111;
+  padding-left: 0.55rem;
+}
+
+.exam-sheet--layout-5 .exam-bubble-sheet {
+  border-width: 2px;
+}
+
+.exam-bubble-sheet {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.12rem 0.55rem;
+  margin: 0.2rem 0 0;
+  padding: 0.22rem 0.35rem;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.exam-bubble-row {
+  display: flex;
+  align-items: center;
+  gap: 0.28rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.exam-bubble-no {
+  min-width: 1rem;
+}
+
+.exam-bubble {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.exam-bubble-circle {
+  width: 0.82rem;
+  height: 0.82rem;
+  border: 1.5px solid #111;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.exam-bubble-letter {
+  font-size: 0.7rem;
+  font-weight: 650;
+}
+
+.exam-watermark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: calc(min(420px, 55%) * var(--exam-logo-scale, 1));
+  max-height: calc(55vh * var(--exam-logo-scale, 1));
+  opacity: 0.1;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 0;
+  object-fit: contain;
+}
+
+.exam-watermark--full {
+  width: calc(min(560px, 70%) * var(--exam-logo-scale, 1));
+  max-height: calc(65vh * var(--exam-logo-scale, 1));
+  opacity: 0.13;
+}
+
+.exam-part-banner {
+  position: relative;
+  z-index: 1;
+  margin-top: 0.35rem;
+  padding: 0.2rem 0 0.1rem;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
+.exam-part-banner h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.exam-part-marks {
+  margin: 0.05rem 0 0;
+  font-size: 0.85rem;
+  font-weight: 750;
+}
+
+.exam-section-ur {
+  font-family: var(--font-urdu);
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.exam-section {
+  position: relative;
+  z-index: 1;
+  margin-top: 0.15rem;
+}
+
+.exam-section--bordered {
+  border: 1.5px solid #111;
+  padding: 0.25rem 0.35rem;
+}
+
+.exam-inline-marks {
+  margin: 0 0 0.1rem;
+  font-size: 0.86rem;
+  font-weight: 750;
+  text-align: center;
+}
+
+.exam-attempt-note {
+  margin: 0.05rem 0 0;
+  font-size: 0.8rem;
+  font-weight: 650;
+}
+
+.exam-q-prompt {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.15rem 0.75rem;
+  align-items: start;
+  margin-bottom: 0.25rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid #111;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.exam-q-prompt-single {
+  grid-template-columns: 1fr;
+}
+
+.exam-q-prompt-line {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.exam-q-heading,
+.exam-q-heading strong {
+  font-weight: 700;
+}
+
+.exam-q-prompt .exam-q-en.exam-q-heading,
+.exam-q-prompt .exam-q-ur.exam-q-heading {
+  font-weight: 700;
+}
+
+/* Jameel often has no true bold — fake weight for Urdu section headings */
+.exam-q-heading--bold,
+.exam-q-heading--bold strong {
+  font-weight: 700;
+  text-shadow: 0.35px 0 0 currentColor, -0.35px 0 0 currentColor;
+}
+
+.exam-q-list {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.exam-q-item {
+  margin-bottom: 0.35rem;
+  font-size: var(--exam-en-size);
+  line-height: var(--exam-line-height);
+}
+
+.exam-q-num {
+  font-weight: 800;
+}
+
+.exam-q-stem {
+  margin: 0;
+}
+
+.exam-q-en {
+  text-align: left;
+  direction: ltr;
+  unicode-bidi: isolate;
+  font-size: var(--exam-en-size);
+}
+
+.exam-q-ur {
+  text-align: right;
+  direction: rtl;
+  unicode-bidi: isolate;
+  font-family: var(--font-urdu);
+  font-size: var(--exam-ur-size);
+  line-height: 1.65;
+}
+
+.exam-q-bilingual {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 0.1rem 0.85rem;
+  align-items: start;
+}
+
+.exam-mcq-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.15rem 0.5rem;
+  margin-top: 0.12rem;
+  padding-inline-start: 0.75rem;
+  font-size: 0.92em;
+}
+
+.exam-mcq-opt {
+  flex: 1 1 22%;
+  min-width: 5rem;
+  white-space: normal;
+}
+
+.exam-mcq-opt [dir="rtl"] {
+  font-family: var(--font-urdu);
+  font-size: 1.08em;
+  line-height: 1.6;
+}
+
+.exam-mcq-letter {
+  font-weight: 750;
+}
+
+.exam-mcq-opt--correct {
+  background: rgba(56, 161, 105, 0.12);
+  border-radius: 0.25rem;
+  outline: 1px solid rgba(56, 161, 105, 0.35);
+  padding: 0.08rem 0.2rem;
+}
+
+.exam-answer-key {
+  position: relative;
+  z-index: 1;
+  margin-top: 1rem;
+  padding: 0.7rem 0.85rem;
+  border: 1px dashed #888;
+  background: #fafafa;
+}
+
+.exam-answer-key h4 {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 750;
+}
+
+.exam-answer-key p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.exam-empty {
+  position: relative;
+  z-index: 1;
+  margin: 1.5rem 0;
+  text-align: center;
+  color: #666;
+}
+
+.exam-sheet .tg-eq-img {
+  display: inline-block;
+  vertical-align: middle;
+  max-height: calc(7.5rem + var(--exam-eq-boost));
+  max-width: min(100%, 30rem);
+  width: auto;
+  height: auto;
+  margin: 0.15rem 0.15rem;
+  object-fit: contain;
+}
+
+@media (max-width: 900px) {
+  .exam-info-grid:not(.exam-info-grid--pairs):not(.exam-info-grid--pts),
+  .exam-bubble-sheet,
+  .exam-bubble-sheet--dense,
+  .exam-bubble-sheet--row,
+  .exam-info-split {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Keep PTS 4-col structure; only shrink labels */
+  .exam-info-grid--pts {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .exam-info-grid--pts .exam-info-cell-wide {
+    grid-column: span 3;
+  }
+
+  .exam-info-cell-span2 {
+    grid-column: span 2;
+  }
+
+  .exam-info-split-col:nth-child(2) {
+    border-right: none;
+  }
+
+  .exam-identity-label,
+  .exam-info-label {
+    font-size: 0.7rem;
+  }
+
+  .exam-identity-field,
+  .exam-info-cell {
+    grid-template-columns: 6.4rem minmax(0, 1fr);
+  }
+
+  .exam-identity-label,
+  .exam-info-label {
+    width: 6.4rem;
+    min-width: 6.4rem;
+    max-width: 6.4rem;
+  }
+}
+
+@media (max-width: 719px) {
+  .exam-q-bilingual,
+  .exam-q-prompt:not(.exam-q-prompt-single) {
+    grid-template-columns: 1fr;
+  }
+
+  .exam-brand-row {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .exam-brand-spacer {
+    display: none;
+  }
+
+  .exam-identity-field,
+  .exam-info-cell,
+  .exam-info-split .exam-info-cell {
+    grid-template-columns: 6.25rem minmax(0, 1fr);
+  }
+}
+
+@page {
+  size: A4 portrait;
+  margin: 8mm 8mm;
+}
+
+@media print {
+  .pts-print-bar,
+  .no-print {
+    display: none !important;
+  }
+
+  html,
+  body {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+  }
+
+  .pts-print-page {
+    background: #fff !important;
+    padding: 0 !important;
+    min-height: 0;
+  }
+
+  .pts-print-page,
+  .pts-print-page-inner,
+  .tg-exam-print-root,
+  .pts-print-page-inner .tg-exam-print-root,
+  .exam-sheet {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+
+  .exam-sheet {
+    border: 0 !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /*
+   * Fixed watermark repeats on EVERY printed page (Chrome/Edge).
+   * Absolute only paints once inside the first page of a long sheet.
+   */
+  .exam-watermark {
+    position: fixed !important;
+    left: 50% !important;
+    top: 50% !important;
+    width: calc(min(420px, 52%) * var(--exam-logo-scale, 1)) !important;
+    max-height: calc(50% * var(--exam-logo-scale, 1)) !important;
+    transform: translate(-50%, -50%) !important;
+    opacity: 0.11 !important;
+    z-index: 0 !important;
+    pointer-events: none !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .exam-watermark--full {
+    width: calc(min(560px, 68%) * var(--exam-logo-scale, 1)) !important;
+    max-height: calc(60% * var(--exam-logo-scale, 1)) !important;
+    opacity: 0.14 !important;
+  }
+
+  /* Content stays above watermark on all pages */
+  .exam-brand-header,
+  .exam-info-block,
+  .exam-bubble-sheet,
+  .exam-part-banner,
+  .exam-section,
+  .exam-q-list,
+  .exam-answer-key {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Keep table / bubble borders visible in print (Chrome drops light borders) */
+  .exam-info-block,
+  .exam-bubble-sheet,
+  .exam-info-chips,
+  .exam-info-chip,
+  .exam-section--bordered {
+    border: 1px solid #000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .exam-pts-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    table-layout: fixed !important;
+  }
+
+  .exam-pts-th,
+  .exam-pts-td {
+    border: 1px solid #000 !important;
+    padding: 0.15rem 0.28rem !important;
+    height: 1.55rem !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .exam-pts-th {
+    background: #f0f0f0 !important;
+  }
+
+  .exam-info-block--pts {
+    overflow: visible !important;
+    border: 1px solid #000 !important;
+  }
+
+  .exam-brand-header,
+  .exam-brand-row,
+  .exam-org-name,
+  .exam-org-address,
+  .exam-logo-img {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .exam-brand-header {
+    display: block !important;
+  }
+
+  .exam-brand-row {
+    display: grid !important;
+    grid-template-columns: 52px 1fr 52px !important;
+  }
+
+  .exam-identity-row {
+    border-bottom: 1.5px solid #000 !important;
+  }
+
+  .exam-identity-field,
+  .exam-info-cell {
+    border-right: 1px solid #000 !important;
+    border-bottom: 1px solid #000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .exam-identity-field:last-child,
+  .exam-info-grid:not(.exam-info-grid--pairs) .exam-info-cell:nth-child(4n),
+  .exam-info-grid--pairs .exam-info-cell:nth-child(2n),
+  .exam-info-grid--pts .exam-info-cell-wide + .exam-info-cell {
+    border-right: none !important;
+  }
+
+  .exam-info-grid--pts > .exam-info-cell:nth-last-child(-n + 2),
+  .exam-info-grid--pairs > .exam-info-cell:nth-last-child(-n + 2) {
+    border-bottom: none !important;
+  }
+
+  .exam-info-label,
+  .exam-identity-label,
+  .exam-info-chip-label {
+    border-right: 1px solid #000 !important;
+    background: #efefef !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .exam-info-write-line {
+    display: none !important;
+  }
+
+  .exam-bubble-circle {
+    border: 1.5px solid #000 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .exam-part-banner,
+  .exam-q-prompt {
+    border-top-color: #000 !important;
+    border-bottom-color: #000 !important;
+  }
+
+  .exam-info-grid--pts {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+
+  .exam-info-grid--pts .exam-info-cell-wide {
+    grid-column: span 3 !important;
+    border-right: 1px solid #000 !important;
+  }
+
+  .exam-info-cell--blank,
+  .exam-identity-field {
+    min-height: 2.1rem;
+  }
+
+  .exam-sheet .tg-eq-img {
+    max-height: 12rem;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

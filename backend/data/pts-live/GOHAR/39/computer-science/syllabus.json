@@ -1,0 +1,68 @@
+{
+  "board": "GOHAR SNC",
+  "class": "ONE",
+  "subject": "COMPUTER Science ",
+  "slug": "computer-science",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Computer",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Computer"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Turing the Computer On and Off",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Turing the Computer On and Off"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Desktop and Its Components",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Desktop and Its Components"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Paint",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Paint"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Interesting Uses of a Computer",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Interesting Uses of a Computer"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Scratchjr",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Scartchjr"
+        }
+      ]
+    }
+  ]
+}

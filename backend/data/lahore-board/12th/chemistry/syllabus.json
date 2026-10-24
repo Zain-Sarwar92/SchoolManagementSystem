@@ -1,0 +1,208 @@
+{
+  "board": "Lahore",
+  "class": "12",
+  "subject": "Chemistry",
+  "slug": "chemistry",
+  "chapters": [
+    {
+      "number": 17,
+      "title": "Group 2 Elements",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Properties and Trends of Group 2 Elements"
+        },
+        {
+          "id": "17.2",
+          "title": "Chemical Reactions of Group 2 Elements"
+        },
+        {
+          "id": "17.3",
+          "title": "Comparison of Group 2 Elements with Group 1 Elements"
+        },
+        {
+          "id": "17.4",
+          "title": "Thermal Decomposition of Carbonates and Nitrates"
+        },
+        {
+          "id": "17.5",
+          "title": "Solubility of Group 2 Sulphates and Hydroxides"
+        },
+        {
+          "id": "17.6",
+          "title": "Complex Ion Formation"
+        },
+        {
+          "id": "17.7",
+          "title": "Extraction and Purification of Group 2 Elements and Their Compounds"
+        },
+        {
+          "id": "17.8",
+          "title": "Uses of Group 2 Compounds"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Transition Metals",
+      "topics": [
+        {
+          "id": "18.1",
+          "title": "First Row Transition Elements (3d)"
+        },
+        {
+          "id": "18.2",
+          "title": "Properties of Transition Elements"
+        },
+        {
+          "id": "18.3",
+          "title": "Transition Metal Complexes"
+        },
+        {
+          "id": "18.4",
+          "title": "Predicting Formula and Charge of a Complexion"
+        },
+        {
+          "id": "18.5",
+          "title": "Geometry of Transition Metal Complexes"
+        },
+        {
+          "id": "18.6",
+          "title": "Colour of Complexes"
+        },
+        {
+          "id": "18.7",
+          "title": "Ligand Exchange Reactions of Complexes"
+        },
+        {
+          "id": "18.8",
+          "title": "Stability of Complexes and Stability Constant, K/Stab"
+        },
+        {
+          "id": "18.9",
+          "title": "Stereoisomerism in Transition Metal Complexes"
+        },
+        {
+          "id": "18.10",
+          "title": "Redox Reactions of Transition Metals"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "Basics of Organic Chemistry",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Catenation"
+        },
+        {
+          "id": "19.2",
+          "title": "Hydrocarbons (Compounds of Carbon and Hydrogen Only)"
+        },
+        {
+          "id": "19.3",
+          "title": "Functional Groups"
+        },
+        {
+          "id": "19.4",
+          "title": "Nomenclature of Aliphatic Organic Compounds"
+        },
+        {
+          "id": "19.5",
+          "title": "Representing Organic Molecules"
+        },
+        {
+          "id": "19.6",
+          "title": "Deermination of the Molecular Formula"
+        },
+        {
+          "id": "19.7",
+          "title": "Understanding Organic Reactions"
+        },
+        {
+          "id": "19.8",
+          "title": "Mechanisms of Chemical Reactions"
+        },
+        {
+          "id": "19.9",
+          "title": "Isomerism"
+        },
+        {
+          "id": "19.10",
+          "title": "Stereochemistry in Drug Development"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Aromatic Hydrocarbons",
+      "topics": []
+    },
+    {
+      "number": 21,
+      "title": "Halogenoalkanes",
+      "topics": []
+    },
+    {
+      "number": 22,
+      "title": "Hydroxy Compounds",
+      "topics": []
+    },
+    {
+      "number": 23,
+      "title": "Carbonyl Compounds and Carboxylic Acids",
+      "topics": []
+    },
+    {
+      "number": 24,
+      "title": "Organic Nitrogen Compounds",
+      "topics": []
+    },
+    {
+      "number": 25,
+      "title": "Organic Synthesis",
+      "topics": []
+    },
+    {
+      "number": 26,
+      "title": "Polymers",
+      "topics": []
+    },
+    {
+      "number": 27,
+      "title": "Biochemistry",
+      "topics": []
+    },
+    {
+      "number": 28,
+      "title": "Chromatography",
+      "topics": []
+    },
+    {
+      "number": 29,
+      "title": "Spectroscopy-1",
+      "topics": []
+    },
+    {
+      "number": 30,
+      "title": "Spectroscopy-2 Nmr",
+      "topics": []
+    },
+    {
+      "number": 31,
+      "title": "Materials and Energy",
+      "topics": []
+    },
+    {
+      "number": 32,
+      "title": "Medicien, Agriculture and Industry",
+      "topics": []
+    },
+    {
+      "number": 33,
+      "title": "Water",
+      "topics": []
+    }
+  ]
+}

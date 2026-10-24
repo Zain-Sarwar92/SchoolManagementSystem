@@ -1,0 +1,29 @@
+{
+  "classId": 12,
+  "subjectId": 117,
+  "slug": "chemistry",
+  "name": "CHEMISTRY",
+  "total": 4199,
+  "counts": {
+    "mcq": 2231,
+    "short": 1756,
+    "long": 212
+  },
+  "typeTotals": {
+    "MCQ": 2231,
+    "QA": 1756,
+    "LONG": 212
+  },
+  "mongo": {
+    "created": 4199,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 2231,
+      "SHORT": 1756,
+      "LONG": 212
+    },
+    "chapters": 17,
+    "topics": 124
+  },
+  "at": "2026-10-23T00:15:20.933Z"
+}

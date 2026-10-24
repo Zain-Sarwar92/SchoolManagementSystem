@@ -1,0 +1,240 @@
+{
+  "board": "PTB",
+  "class": "THREE",
+  "subject": "English",
+  "slug": "english",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "All Are Welcome",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "All Are Welcome"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Gifts of Nature",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Gifts of Nature"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "the People I Love",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "the People I Love"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Kindness to Children",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Kindness to Children"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Review-1",
+      "topics": [
+        {
+          "id": "5.R",
+          "title": "Review Exercise 5"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Road Safety",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Road Safety"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "the Day of Silence",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "the Day of Silence"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "I Like to Play",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "I Like to Play"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Saving Resources",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Saving Resources"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Review-2",
+      "topics": [
+        {
+          "id": "10.R",
+          "title": "Review Exercise 10"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "My Culture - My Pride",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "My Culture - My Pride"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Our Family Picnic",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Our Family Picnic"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Healthy Habits",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Healthy Habits"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Review-3",
+      "topics": [
+        {
+          "id": "14.R",
+          "title": "Review Exercise 14"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "English B",
+      "topics": [
+        {
+          "id": "15.1",
+          "title": "Singular/Plural"
+        },
+        {
+          "id": "15.2",
+          "title": "Gender"
+        },
+        {
+          "id": "15.3",
+          "title": "Form of Verbs"
+        },
+        {
+          "id": "15.4",
+          "title": "Applications"
+        },
+        {
+          "id": "15.5",
+          "title": "Letters"
+        },
+        {
+          "id": "15.6",
+          "title": "Stories"
+        },
+        {
+          "id": "15.7",
+          "title": "Essays"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Tenses",
+      "topics": [
+        {
+          "id": "16.1",
+          "title": "Use of Is, Am, Are"
+        },
+        {
+          "id": "16.2",
+          "title": "Use of Was, Were"
+        },
+        {
+          "id": "16.3",
+          "title": "Use Has, Have, Had"
+        },
+        {
+          "id": "16.4",
+          "title": "Use of It and There"
+        },
+        {
+          "id": "16.5",
+          "title": "Imperative Sentences"
+        },
+        {
+          "id": "16.6",
+          "title": "Use of Some Helping Verbs"
+        },
+        {
+          "id": "16.7",
+          "title": "Use of Why, Where, When, What, Who"
+        },
+        {
+          "id": "16.8",
+          "title": "Present Indefinite Tense"
+        },
+        {
+          "id": "16.9",
+          "title": "Present Continuous Tense"
+        },
+        {
+          "id": "16.10",
+          "title": "Past Indefinite Tense"
+        },
+        {
+          "id": "16.11",
+          "title": "Past Continuous Tense"
+        },
+        {
+          "id": "16.12",
+          "title": "Future Indefinite Tense"
+        },
+        {
+          "id": "16.13",
+          "title": "Future Continuous Tense"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "classId": 10,
+  "subjectId": 66,
+  "slug": "ا-ردو-لازمی",
+  "name": "اُردو لازمی",
+  "total": 1765,
+  "counts": {
+    "mcq": 811,
+    "short": 954,
+    "long": 0
+  },
+  "typeTotals": {
+    "MCQ": 811,
+    "QA": 0,
+    "LONG": 0,
+    "QA_14": 742,
+    "QA_19": 85,
+    "QA_28": 16,
+    "QA_30": 6,
+    "QA_48": 105
+  },
+  "mongo": {
+    "created": 1765,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 811,
+      "SHORT": 954,
+      "LONG": 0
+    },
+    "chapters": 21,
+    "topics": 26
+  },
+  "at": "2026-10-23T00:11:54.505Z"
+}

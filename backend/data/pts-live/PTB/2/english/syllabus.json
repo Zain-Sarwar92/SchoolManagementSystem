@@ -1,0 +1,202 @@
+{
+  "board": "PTB",
+  "class": "TWO",
+  "subject": "English",
+  "slug": "english",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "a Tiny Creature",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "a Tiny Creature"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "My Home and City",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "My Home and City"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Let'S Plant Trees",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Let'S Plant Trees"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Review 1",
+      "topics": [
+        {
+          "id": "4.R",
+          "title": "Review Exercise 4"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Bee On My Nose",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Bee On My Nose"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Attention!",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Attention!"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Be Honest",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Be Honest"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Review 2",
+      "topics": [
+        {
+          "id": "8.R",
+          "title": "Review Exercise 8"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Sports Day",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Sports Day"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "My School",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "My School"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "What a Good Deed",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "What a Good Deed"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Review 3",
+      "topics": [
+        {
+          "id": "12.R",
+          "title": "Review Exercise 12"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "An Ant and a Dove",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "An Ant and a Dove"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Love for Parents",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Love for Parents"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Seasons",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Seasons"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "Review 4",
+      "topics": [
+        {
+          "id": "16.R",
+          "title": "Review Exercise 16"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "English B",
+      "topics": [
+        {
+          "id": "17.1",
+          "title": "Singular/Plural"
+        },
+        {
+          "id": "17.2",
+          "title": "Gender"
+        },
+        {
+          "id": "17.3",
+          "title": "Form of Verbs"
+        },
+        {
+          "id": "17.4",
+          "title": "Applications"
+        },
+        {
+          "id": "17.5",
+          "title": "Letters"
+        },
+        {
+          "id": "17.6",
+          "title": "Stories"
+        },
+        {
+          "id": "17.7",
+          "title": "Essays"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "classId": 9,
+  "subjectId": 1600,
+  "slug": "computer-tech",
+  "name": "COMPUTER (TECH)",
+  "total": 0,
+  "counts": {
+    "mcq": 0,
+    "short": 0,
+    "long": 0
+  },
+  "typeTotals": {
+    "MCQ": 0,
+    "QA": 0,
+    "LONG": 0
+  },
+  "mongo": {
+    "created": 0,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 0,
+      "SHORT": 0,
+      "LONG": 0
+    },
+    "chapters": 10,
+    "topics": 51
+  },
+  "at": "2026-10-23T00:04:15.314Z"
+}

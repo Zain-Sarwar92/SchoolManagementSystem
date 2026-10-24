@@ -1,0 +1,108 @@
+{
+  "board": "PTB",
+  "class": "5TH",
+  "subject": "General Science",
+  "slug": "general-science",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Classification of Living Organisms",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Classification of Living Organisms"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Microorganisms",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Microorganisms"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Flowers and Seeds",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Flowers and Seeds"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Environmental Pollution",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Environmental Pollution"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Physical and Chemical Changes of Matter",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Physical and Chemical Changes of Matter"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Light and Sound",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Light and Sound"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Electricity and Magnetism",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Electricity and Magnetism"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Structure of the Earth",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Structure of the Earth"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Space and Satellites",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Space and Satellites"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Technology in Everyday Life",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Technology in Everyday Life"
+        }
+      ]
+    }
+  ]
+}

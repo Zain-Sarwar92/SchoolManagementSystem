@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "pakistan-studies",
+    "subject": "Pakistan Studies",
+    "counts": {
+      "mcq": 919,
+      "short": 1240,
+      "long": 84
+    },
+    "fieldCounts": {
+      "MCQ": 919,
+      "QA": 1240,
+      "LONG": 84
+    },
+    "total": 2243
+  }
+]

@@ -1,0 +1,3068 @@
+{
+  "generatedAt": "2026-10-17T19:51:18.462Z",
+  "source": "data/lahore-board/10th (PTS export) vs Mongo Gen*",
+  "note": "This compares local PTS seed dumps, not a fresh live scrape. Use seedPtsLive for live refresh.",
+  "ptsSubjectFolders": 22,
+  "mongoSubjectCount": 22,
+  "subjects": [
+    {
+      "name": "Biology",
+      "folder": "biology",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 10,
+        "mongo": 10
+      },
+      "questionTotal": {
+        "pts": 1486,
+        "mongo": 1486
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 139,
+          "MCQ:MCQ": 723,
+          "SHORT:SHORT": 624
+        },
+        "mongoTypes": {
+          "LONG:LONG": 139,
+          "MCQ:MCQ": 723,
+          "SHORT:SHORT": 624
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "Human Digestive System",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 207,
+          "mongoTotal": 207,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "Human Respiratory System",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 233,
+          "mongoTotal": 233,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "Human Blood Circulatory System",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 152,
+          "mongoTotal": 152,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "Human Urinary System",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 162,
+          "mongoTotal": 162,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "Coordination",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 129,
+          "mongoTotal": 129,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "Reproduction",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 174,
+          "mongoTotal": 174,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "Inheritance",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 91,
+          "mongoTotal": 91,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "Biotechnology",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 107,
+          "mongoTotal": 107,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "Diseases and Immunity",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 140,
+          "mongoTotal": 140,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "Evolution",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 91,
+          "mongoTotal": 91,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "folder": "chemistry",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 13,
+        "mongo": 13
+      },
+      "questionTotal": {
+        "pts": 2966,
+        "mongo": 2966
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 211,
+          "MCQ:MCQ": 1415,
+          "SHORT:SHORT": 1340
+        },
+        "mongoTypes": {
+          "LONG:LONG": 211,
+          "MCQ:MCQ": 1415,
+          "SHORT:SHORT": 1340
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 14,
+          "title": "States of Matter and Phase Changes",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 316,
+          "mongoTotal": 316,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "title": "Stoichiometry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 214,
+          "mongoTotal": 214,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 16,
+          "title": "Electrochemistry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 404,
+          "mongoTotal": 404,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 17,
+          "title": "Reaction Kinetics",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 166,
+          "mongoTotal": 166,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 18,
+          "title": "Salts",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 126,
+          "mongoTotal": 126,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 19,
+          "title": "Nitrogen and Sulphur",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 192,
+          "mongoTotal": 192,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 20,
+          "title": "Water",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 312,
+          "mongoTotal": 312,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 21,
+          "title": "Organic Chemistry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 290,
+          "mongoTotal": 290,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 22,
+          "title": "Hydrocarbons",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 232,
+          "mongoTotal": 232,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 23,
+          "title": "Monohydroxy Alkanes Or Alcohols",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 163,
+          "mongoTotal": 163,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 24,
+          "title": "Carboxylic Acids",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 147,
+          "mongoTotal": 147,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 25,
+          "title": "Biochemistry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 252,
+          "mongoTotal": 252,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 26,
+          "title": "Polymers",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 152,
+          "mongoTotal": 152,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "سوکس",
+      "folder": "civics",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 5,
+        "mongo": 5
+      },
+      "questionTotal": {
+        "pts": 330,
+        "mongo": 330
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 30,
+          "MCQ:MCQ": 110,
+          "SHORT:SHORT": 190
+        },
+        "mongoTypes": {
+          "LONG:LONG": 30,
+          "MCQ:MCQ": 110,
+          "SHORT:SHORT": 190
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 6,
+          "title": "باب نمبر 6 : حقوق و فرائض",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 59,
+          "mongoTotal": 59,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "باب نمبر 7 : نظریہ پاکستان اور تحریک پاکستان",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 57,
+          "mongoTotal": 57,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "باب نمبر 8 : پاکستان میں آئینی ارتقاء",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 77,
+          "mongoTotal": 77,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "باب نمبر 9 : پاکستان میں مقامی حکومتیں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 59,
+          "mongoTotal": 59,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "باب نمبر 10 : پاکستان اور اس کے ہمسایہ ممالک",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 78,
+          "mongoTotal": 78,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "Computer",
+      "folder": "computer",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 8,
+        "mongo": 8
+      },
+      "questionTotal": {
+        "pts": 1505,
+        "mongo": 1505
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 178,
+          "MCQ:MCQ": 679,
+          "SHORT:SHORT": 648
+        },
+        "mongoTypes": {
+          "LONG:LONG": 178,
+          "MCQ:MCQ": 679,
+          "SHORT:SHORT": 648
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "Operating Systems: Structure and Services",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 284,
+          "mongoTotal": 284,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "System Recovery and Advanced Maintenance",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 230,
+          "mongoTotal": 230,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "Introduction to Python Programming",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 147,
+          "mongoTotal": 147,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "Control Structures in Python",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 157,
+          "mongoTotal": 157,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "Introduction to Data Science",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 214,
+          "mongoTotal": 214,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "Introduction Artificial Intelligence (Ai), and Machine Learning (Ml)",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 130,
+          "mongoTotal": 130,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "Applications of Ai",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 166,
+          "mongoTotal": 166,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "Digital Entrepreneurship",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 177,
+          "mongoTotal": 177,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "معاشیات",
+      "folder": "economics",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 7,
+        "mongo": 7
+      },
+      "questionTotal": {
+        "pts": 338,
+        "mongo": 338
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 62,
+          "MCQ:MCQ": 142,
+          "SHORT:SHORT": 134
+        },
+        "mongoTypes": {
+          "LONG:LONG": 62,
+          "MCQ:MCQ": 142,
+          "SHORT:SHORT": 134
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 8,
+          "title": "باب نمبر 8: قومی آمدنی کے بنیادی تصورات",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 51,
+          "mongoTotal": 51,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "باب نمبر 9: زر",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 49,
+          "mongoTotal": 49,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "باب نمبر 10: بنک",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 49,
+          "mongoTotal": 49,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "باب نمبر 11: تجارت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 43,
+          "mongoTotal": 43,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "باب نمبر 12: سرکاری مالیات",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 50,
+          "mongoTotal": 50,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 13,
+          "title": "باب نمبر 13: معاشی ترقی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 50,
+          "mongoTotal": 50,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 14,
+          "title": "باب نمبر 14: اسلام کا معاشی نظام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 46,
+          "mongoTotal": 46,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "ایجوکیشن",
+      "folder": "education",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 4,
+        "mongo": 4
+      },
+      "questionTotal": {
+        "pts": 588,
+        "mongo": 588
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 44,
+          "MCQ:MCQ": 268,
+          "SHORT:SHORT": 276
+        },
+        "mongoTypes": {
+          "LONG:LONG": 44,
+          "MCQ:MCQ": 268,
+          "SHORT:SHORT": 276
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 6,
+          "title": "باب نمبر 6: پاکستان میں تعلیم",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 191,
+          "mongoTotal": 191,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "باب نمبر 7: نصاب",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 159,
+          "mongoTotal": 159,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "باب نمبر 8: مدرسہ کی سرگرمیوں کی تنظیم",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 137,
+          "mongoTotal": 137,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "باب نمبر 9: رہنمائی اور مشاورت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 101,
+          "mongoTotal": 101,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "English",
+      "folder": "english",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 15,
+        "mongo": 15
+      },
+      "questionTotal": {
+        "pts": 2551,
+        "mongo": 2551
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:ESSAYS": 32,
+          "LONG:POEM_STANZA": 11,
+          "LONG:SUMMARY": 3,
+          "LONG:TRANSLATE_EN": 40,
+          "LONG:TRANSLATE_UR": 98,
+          "MCQ:COMPREHENSION": 61,
+          "MCQ:GRAMMAR": 256,
+          "MCQ:MEANING": 658,
+          "MCQ:SPELLING": 654,
+          "MCQ:VERB": 137,
+          "SHORT:DI": 200,
+          "SHORT:PAIR": 79,
+          "SHORT:QA": 322
+        },
+        "mongoTypes": {
+          "LONG:ESSAYS": 32,
+          "LONG:POEM_STANZA": 11,
+          "LONG:SUMMARY": 3,
+          "LONG:TRANSLATE_EN": 40,
+          "LONG:TRANSLATE_UR": 98,
+          "MCQ:COMPREHENSION": 61,
+          "MCQ:GRAMMAR": 256,
+          "MCQ:MEANING": 658,
+          "MCQ:SPELLING": 654,
+          "MCQ:VERB": 137,
+          "SHORT:DI": 200,
+          "SHORT:PAIR": 79,
+          "SHORT:QA": 322
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "Hazrat Muhammad’S (ﷺ) Social Reforms for The Rights of Women, Orphans and Slaves",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 257,
+          "mongoTotal": 257,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "My Beloved Pakistan (Poem)",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 137,
+          "mongoTotal": 137,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "Digital Globalisation Transforming The English Language",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 248,
+          "mongoTotal": 248,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "The Earth: Act Now for Tomorrow",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 173,
+          "mongoTotal": 173,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "The Happy Prince",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 333,
+          "mongoTotal": 333,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "Review 1",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 4,
+          "mongoTotal": 4,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "Drug Abuse",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 223,
+          "mongoTotal": 223,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "Time (Poem)",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 81,
+          "mongoTotal": 81,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "Pollution-Free Pakistan with Greenery All Around",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 222,
+          "mongoTotal": 222,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "The Road Not Taken (Poem)",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 148,
+          "mongoTotal": 148,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "The Three Questions",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 313,
+          "mongoTotal": 313,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "Review 2",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 5,
+          "mongoTotal": 5,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 13,
+          "title": "Tenses",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 137,
+          "mongoTotal": 137,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 14,
+          "title": "Direct & Indirect",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 119,
+          "mongoTotal": 119,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "title": "English B",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 151,
+          "mongoTotal": 151,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "اخلاقیات",
+      "folder": "ethics",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 5,
+        "mongo": 5
+      },
+      "questionTotal": {
+        "pts": 243,
+        "mongo": 243
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 29,
+          "MCQ:MCQ": 78,
+          "SHORT:SHORT": 136
+        },
+        "mongoTypes": {
+          "LONG:LONG": 29,
+          "MCQ:MCQ": 78,
+          "SHORT:SHORT": 136
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "باب اول: مذاہب کا تعارف",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 42,
+          "mongoTotal": 42,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "باب دوم: عالمی مذاہب",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 34,
+          "mongoTotal": 34,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "باب سوم: اخلاق و اقدار",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 76,
+          "mongoTotal": 76,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "باب چہارم: آداب",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 32,
+          "mongoTotal": 32,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "باب پنجم: مشاہیر",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 59,
+          "mongoTotal": 59,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "غذا اور غذائیت",
+      "folder": "food-nutrition",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 5,
+        "mongo": 5
+      },
+      "questionTotal": {
+        "pts": 712,
+        "mongo": 712
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 26,
+          "MCQ:MCQ": 281,
+          "SHORT:SHORT": 405
+        },
+        "mongoTypes": {
+          "LONG:LONG": 26,
+          "MCQ:MCQ": 281,
+          "SHORT:SHORT": 405
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 6,
+          "title": "باب نمبر 6: غذاؤں کی تیاری اور پکانے کے طریقے",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 84,
+          "mongoTotal": 84,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "باب نمبر 7: خاندان اور معاشرے کی غذائیت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 138,
+          "mongoTotal": 138,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "باب نمبر 8: انتظام طعام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 198,
+          "mongoTotal": 198,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "باب نمبر 9: میز لگانا اور کھانا پیش کرنا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 139,
+          "mongoTotal": 139,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "باب نمبر 10: غذاؤں کو محفوظ کرنا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 153,
+          "mongoTotal": 153,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "جنرل ریاضی",
+      "folder": "general-math",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 10,
+        "mongo": 10
+      },
+      "questionTotal": {
+        "pts": 1061,
+        "mongo": 1061
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 345,
+          "MCQ:MCQ": 158,
+          "SHORT:SHORT": 558
+        },
+        "mongoTypes": {
+          "LONG:LONG": 345,
+          "MCQ:MCQ": 158,
+          "SHORT:SHORT": 558
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "Algebraic Formulas and Applications",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 162,
+          "mongoTotal": 162,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "Factorization",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 152,
+          "mongoTotal": 152,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "Algebraic Manipulation",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 124,
+          "mongoTotal": 124,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "Linear Equations and Inequalities",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 83,
+          "mongoTotal": 83,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "Quadratic Equations",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 80,
+          "mongoTotal": 80,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "Matrices and Determinants",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 157,
+          "mongoTotal": 157,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "Fundamentals of Geometry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 95,
+          "mongoTotal": 95,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "Practical Geometry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 61,
+          "mongoTotal": 61,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "Areas and Volumes",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 88,
+          "mongoTotal": 88,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "Introduction to Coordinate Geometry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 59,
+          "mongoTotal": 59,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "General Science",
+      "folder": "general-science",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 5,
+        "mongo": 5
+      },
+      "questionTotal": {
+        "pts": 815,
+        "mongo": 815
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 92,
+          "MCQ:MCQ": 400,
+          "SHORT:SHORT": 323
+        },
+        "mongoTypes": {
+          "LONG:LONG": 92,
+          "MCQ:MCQ": 400,
+          "SHORT:SHORT": 323
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 7,
+          "title": "باب نمبر 7: انرجی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 177,
+          "mongoTotal": 177,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "باب نمبر 8: کرنٹ الیکٹریسٹی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 168,
+          "mongoTotal": 168,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "باب نمبر 9: بنیادی الیکٹرونکس",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 191,
+          "mongoTotal": 191,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "باب نمبر 10: سائنس اور ٹیکنالوجی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 196,
+          "mongoTotal": 196,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "باب نمبر 11: پاکستان کا سپیس اور نیو کلئیر پروگرام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 83,
+          "mongoTotal": 83,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "ہوم اکنامکس",
+      "folder": "home-economics",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 7,
+        "mongo": 7
+      },
+      "questionTotal": {
+        "pts": 643,
+        "mongo": 643
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 53,
+          "MCQ:MCQ": 296,
+          "SHORT:SHORT": 294
+        },
+        "mongoTypes": {
+          "LONG:LONG": 53,
+          "MCQ:MCQ": 296,
+          "SHORT:SHORT": 294
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "باب نمبر1: پارچہ بافی اور لباس کا تعارف",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 111,
+          "mongoTotal": 111,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "باب نمبر2: لباس بنانا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 92,
+          "mongoTotal": 92,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "باب نمبر3: عمر کے مختلف گروپوں کی لباس کی ضروریات",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 105,
+          "mongoTotal": 105,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "باب نمبر4: انتظام کا تعارف",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 112,
+          "mongoTotal": 112,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "باب نمبر5: ماحول اور انتظام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 72,
+          "mongoTotal": 72,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "باب نمبر6: آرٹ اور ڈیزائن",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 113,
+          "mongoTotal": 113,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "باب نمبر7: روزمرہ زندگی میں آرٹ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 38,
+          "mongoTotal": 38,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "اسلامیات لازمی",
+      "folder": "islamiyat-compulsory",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 7,
+        "mongo": 7
+      },
+      "questionTotal": {
+        "pts": 1062,
+        "mongo": 1061
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": false,
+        "ptsTypes": {
+          "LONG:LONG": 38,
+          "MCQ:MCQ": 593,
+          "SHORT:SHORT": 431
+        },
+        "mongoTypes": {
+          "LONG:LONG": 38,
+          "MCQ:MCQ": 592,
+          "SHORT:SHORT": 431
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": [
+          {
+            "type": "MCQ:MCQ",
+            "pts": 593,
+            "mongo": 592
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "باب اوّل: قرآن مجید و حدیثِ نبویﷺ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 21,
+          "mongoTotal": 21,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "باب دوم : ایمانیات و عبادات",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 189,
+          "mongoTotal": 189,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "باب سوم : سیرت نبوی خاتم النبین ﷺ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 196,
+          "mongoTotal": 196,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "باب چہارم: اخلاق و آداب",
+          "typesMatch": true,
+          "countsMatch": false,
+          "ptsTotal": 163,
+          "mongoTotal": 162,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 93,
+              "mongo": 92
+            }
+          ]
+        },
+        {
+          "chapter": 5,
+          "title": "پاب پنجم: حسن معاشرت و معاملات",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 113,
+          "mongoTotal": 113,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "باب ششم : ہدایت کے سر چشمے اور مشاہیر اسلام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 308,
+          "mongoTotal": 308,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "باب ہفتم: اسلامی تعلیمات اور عصر حاضر کے تقاضے",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 72,
+          "mongoTotal": 72,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "اسلامیات اختیاری",
+      "folder": "islamiyat-elective",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 4,
+        "mongo": 4
+      },
+      "questionTotal": {
+        "pts": 1117,
+        "mongo": 1117
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 30,
+          "MCQ:MCQ": 497,
+          "SHORT:SHORT": 590
+        },
+        "mongoTypes": {
+          "LONG:LONG": 30,
+          "MCQ:MCQ": 497,
+          "SHORT:SHORT": 590
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "آیات کریمہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 386,
+          "mongoTotal": 386,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "احادیث مبارکہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 176,
+          "mongoTotal": 176,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "باب سوم ۔ تعلیماتِ اسلام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 434,
+          "mongoTotal": 434,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "باب پنجم ۔ عربی زبان کی گرامر",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 121,
+          "mongoTotal": 121,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "folder": "mathematics",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 12,
+        "mongo": 12
+      },
+      "questionTotal": {
+        "pts": 1480,
+        "mongo": 1480
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 324,
+          "MCQ:MCQ": 458,
+          "SHORT:SHORT": 698
+        },
+        "mongoTypes": {
+          "LONG:LONG": 324,
+          "MCQ:MCQ": 458,
+          "SHORT:SHORT": 698
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "Complex Numbers",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 182,
+          "mongoTotal": 182,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "Quadratic Equations and Inequalities",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 192,
+          "mongoTotal": 192,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "Matrices and Determinants",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 232,
+          "mongoTotal": 232,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "Functions and Graphs",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 164,
+          "mongoTotal": 164,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "Algebraic Fractions",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 125,
+          "mongoTotal": 125,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "Vectors in Plane",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 124,
+          "mongoTotal": 124,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "Trigonometry",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 98,
+          "mongoTotal": 98,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "Chords and Arcs of a Circle",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 82,
+          "mongoTotal": 82,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "Tangent and Angles of a Circle",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 76,
+          "mongoTotal": 76,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "Practical Geometry of Circles",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 33,
+          "mongoTotal": 33,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "Information Handling",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 87,
+          "mongoTotal": 87,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "Probability",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 85,
+          "mongoTotal": 85,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "Pakistan Studies",
+      "folder": "pakistan-studies",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 8,
+        "mongo": 8
+      },
+      "questionTotal": {
+        "pts": 2262,
+        "mongo": 2262
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 105,
+          "MCQ:MCQ": 968,
+          "SHORT:SHORT": 1189
+        },
+        "mongoTypes": {
+          "LONG:LONG": 105,
+          "MCQ:MCQ": 968,
+          "SHORT:SHORT": 1189
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "Ideological Foundation of Pakistan",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 207,
+          "mongoTotal": 207,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "Pakistan Movement",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 193,
+          "mongoTotal": 193,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "History of Pakistan (1947 to Present) and Constitutional Development in Pakistan",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 514,
+          "mongoTotal": 514,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "Geography of Pakistan",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 340,
+          "mongoTotal": 340,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "Pakistan and International Affairs",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 200,
+          "mongoTotal": 200,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "Pakistan'S Resources and Economic Development",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 147,
+          "mongoTotal": 147,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "Population, Society, and Cultural Harmony in Pakistan",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 474,
+          "mongoTotal": 474,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "Empowering Women in Pakistan",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 187,
+          "mongoTotal": 187,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "فزیکل ایجوکیشن",
+      "folder": "physical-education",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 8,
+        "mongo": 8
+      },
+      "questionTotal": {
+        "pts": 514,
+        "mongo": 514
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 15,
+          "MCQ:MCQ": 260,
+          "SHORT:SHORT": 239
+        },
+        "mongoTypes": {
+          "LONG:LONG": 15,
+          "MCQ:MCQ": 260,
+          "SHORT:SHORT": 239
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "باب نمبر 1: فزیکل فٹنس",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 38,
+          "mongoTotal": 38,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "باب نمبر 2: تفریحی اور چھوٹے رقبے کے کھیل",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 49,
+          "mongoTotal": 49,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "باب نمبر 3: قامتی نقائص کی اصلاحی ورزشیں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 27,
+          "mongoTotal": 27,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "باب نمبر 4: کھیلیں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 94,
+          "mongoTotal": 94,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "باب نمبر 5: اتھلیٹکس",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 91,
+          "mongoTotal": 91,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "باب نمبر 6: تفریحی مشاغل",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 39,
+          "mongoTotal": 39,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "باب نمبر 7: معاشرے کی صحت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 73,
+          "mongoTotal": 73,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "باب نمبر 8: غذائیت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 103,
+          "mongoTotal": 103,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "folder": "physics",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 12,
+        "mongo": 12
+      },
+      "questionTotal": {
+        "pts": 1600,
+        "mongo": 1600
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 186,
+          "MCQ:MCQ": 753,
+          "SHORT:SHORT": 661
+        },
+        "mongoTypes": {
+          "LONG:LONG": 186,
+          "MCQ:MCQ": 753,
+          "SHORT:SHORT": 661
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 10,
+          "title": "Thermal Physics",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 148,
+          "mongoTotal": 148,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "Transfer of Thermal Energy",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 147,
+          "mongoTotal": 147,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "Waves",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 132,
+          "mongoTotal": 132,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 13,
+          "title": "Sound",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 163,
+          "mongoTotal": 163,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 14,
+          "title": "Light",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 193,
+          "mongoTotal": 193,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "title": "Electrostatics",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 131,
+          "mongoTotal": 131,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 16,
+          "title": "Electricity",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 163,
+          "mongoTotal": 163,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 17,
+          "title": "Electromagnetism",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 91,
+          "mongoTotal": 91,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 18,
+          "title": "Electromagnetic Induction and Electromagnetic Waves",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 113,
+          "mongoTotal": 113,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 19,
+          "title": "Electronics",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 113,
+          "mongoTotal": 113,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 20,
+          "title": "Atomic and Nuclear Physics",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 145,
+          "mongoTotal": 145,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 21,
+          "title": "Space and Environment",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 61,
+          "mongoTotal": 61,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "مرغبانی",
+      "folder": "poultry",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 6,
+        "mongo": 6
+      },
+      "questionTotal": {
+        "pts": 414,
+        "mongo": 414
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 31,
+          "MCQ:MCQ": 171,
+          "SHORT:SHORT": 212
+        },
+        "mongoTypes": {
+          "LONG:LONG": 31,
+          "MCQ:MCQ": 171,
+          "SHORT:SHORT": 212
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 7,
+          "title": "باب نمبر 7: مرغیوں کی خوراک",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 74,
+          "mongoTotal": 74,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "باب نمبر 8: برائلر پرندوں کی پرورش",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 85,
+          "mongoTotal": 85,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "باب نمبر 9: لیئر مرغیوں کی پرورش",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 89,
+          "mongoTotal": 89,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "باب نمبر 10: مرغیوں کے امراض",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 66,
+          "mongoTotal": 66,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "باب نمبر 11: مرغیوں میں بیماریوں کی روک تھام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 81,
+          "mongoTotal": 81,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "باب نمبر 12: پولٹری فارم کا حساب کتاب",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 19,
+          "mongoTotal": 19,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "پنجابی",
+      "folder": "punjabi",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 23,
+        "mongo": 23
+      },
+      "questionTotal": {
+        "pts": 1017,
+        "mongo": 1017
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 128,
+          "MCQ:MCQ": 267,
+          "SHORT:SHORT": 622
+        },
+        "mongoTypes": {
+          "LONG:LONG": 128,
+          "MCQ:MCQ": 267,
+          "SHORT:SHORT": 622
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "نثر نمبر 7: غازی علم الدین شہید",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 85,
+          "mongoTotal": 85,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "نثر نمبر 8: واپسی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 71,
+          "mongoTotal": 71,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "نثر نمبر 9: ساڈا وسیب ۔۔ ساڈا ورثہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 78,
+          "mongoTotal": 78,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "نثر نمبر 10: قصہ اک طوطے دا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 51,
+          "mongoTotal": 51,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "نثر نمبر 11: ٹھیڈا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 49,
+          "mongoTotal": 49,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "نثر نمبر 12: ساڈا ماحول",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 47,
+          "mongoTotal": 47,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "نثر نمبر 13: ہمت کرے انسان تے",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 61,
+          "mongoTotal": 61,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "نظم نمبر 1: امن",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 27,
+          "mongoTotal": 27,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "نظم نمبر 2: میں خیراں منگاں دیس دیاں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 28,
+          "mongoTotal": 28,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "نظم نمبر 3: شہید دی ماں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 26,
+          "mongoTotal": 26,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "نظم نمبر 4: دیس پیار",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 37,
+          "mongoTotal": 37,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "نظم نمبر 5: اک طالب علم دی دعا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 20,
+          "mongoTotal": 20,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 13,
+          "title": "نظم نمبر 6: وطن آہلنا رہے سلامت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 22,
+          "mongoTotal": 22,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 14,
+          "title": "نظم نمبر 7: کیہڑے پاسے جاواں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 26,
+          "mongoTotal": 26,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "title": "نظم نمبر 8: سکھ سنہیڑا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 21,
+          "mongoTotal": 21,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 16,
+          "title": "نظم نمبر 9: زراعتی گیت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 32,
+          "mongoTotal": 32,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 17,
+          "title": "نظم نمبر 10: بکرا منڈی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 24,
+          "mongoTotal": 24,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 18,
+          "title": "غزل نمبر 1: عارف عبد المتین",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 15,
+          "mongoTotal": 15,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 19,
+          "title": "غزل نمبر 2: منیر نیازی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 17,
+          "mongoTotal": 17,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 20,
+          "title": "غزل نمبر 3: اقبال سوکڑی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 18,
+          "mongoTotal": 18,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 21,
+          "title": "غزل نمبر 4: اکرام مجید",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 18,
+          "mongoTotal": 18,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 22,
+          "title": "غزل نمبر 5: ڈاکٹر محمد یونس احقر",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 14,
+          "mongoTotal": 14,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 23,
+          "title": "گرائمر",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 230,
+          "mongoTotal": 230,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "ترجمۃ القرآن المجید",
+      "folder": "tarjuma-quran",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 15,
+        "mongo": 15
+      },
+      "questionTotal": {
+        "pts": 640,
+        "mongo": 640
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 50,
+          "MCQ:MCQ": 260,
+          "SHORT:SHORT": 330
+        },
+        "mongoTypes": {
+          "LONG:LONG": 50,
+          "MCQ:MCQ": 260,
+          "SHORT:SHORT": 330
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "سورۃ نمبر 4: سُورَۃُ الاَنعَامِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 66,
+          "mongoTotal": 66,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "سورۃ نمبر 5: سُورَۃُ الاَعرَافِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 50,
+          "mongoTotal": 50,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "سورۃ نمبر 6: سُورَۃُ یُونُسَ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 29,
+          "mongoTotal": 29,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "سورۃ نمبر 7: سُورَۃُ ھُودِِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 43,
+          "mongoTotal": 43,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "سورۃ نمب 8: سُورَۃُ الرَّعدِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 31,
+          "mongoTotal": 31,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "سورۃ نمبر 9: سُورَۃُ اِبرٰھِیمَ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 44,
+          "mongoTotal": 44,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "سورۃ نمبر 10: سُورَۃُ الحِجرِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 32,
+          "mongoTotal": 32,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "سورۃ نمبر 11: سُورَۃُ النَّحلِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 49,
+          "mongoTotal": 49,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "سورۃ نمبر 12: سُورَۃُ بَنِیٓ اِسرَءِیلَ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 69,
+          "mongoTotal": 69,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "سورۃ نمبر 13: سُورَۃُ الکَھفِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 51,
+          "mongoTotal": 51,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "سورۃ نمبر 14: سُورَۃُ المُومِنُونَ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 50,
+          "mongoTotal": 50,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "سورۃ نمبر 15: سُورَۃُ الزُّمَرِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 41,
+          "mongoTotal": 41,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 13,
+          "title": "سورۃ نمبر 16: سُورَۃُ المُومِنِ (اَلغَافِر)",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 24,
+          "mongoTotal": 24,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 14,
+          "title": "سورۃ نمبر 17: سُورَۃُ حٰمٓ اَلسَّجدَۃِ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 26,
+          "mongoTotal": 26,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "title": "سورۃ نمبر 18: سُورَۃُ الشُّورٰی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 35,
+          "mongoTotal": 35,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    },
+    {
+      "name": "اُردو لازمی",
+      "folder": "urdu-compulsory",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 21,
+        "mongo": 21
+      },
+      "questionTotal": {
+        "pts": 1912,
+        "mongo": 1912
+      },
+      "allTopics": {
+        "typesMatch": true,
+        "countsMatch": true,
+        "ptsTypes": {
+          "LONG:LONG": 294,
+          "MCQ:MCQ": 876,
+          "SHORT:SHORT": 742
+        },
+        "mongoTypes": {
+          "LONG:LONG": 294,
+          "MCQ:MCQ": 876,
+          "SHORT:SHORT": 742
+        },
+        "onlyPts": [],
+        "onlyMongo": [],
+        "countMismatch": []
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "نظم نمبر 1: حمد",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 63,
+          "mongoTotal": 63,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "نظم نمبر 2: نعت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 49,
+          "mongoTotal": 49,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "نثر نمبر 3: اخلاق نبوی خاتم النبین ﷺ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 97,
+          "mongoTotal": 97,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "نثر نمبر 4: سر سید کا بچپن",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 123,
+          "mongoTotal": 123,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "نثر نمبر 5: محسن کا محلہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 110,
+          "mongoTotal": 110,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "نثر نمبر 6: کفارہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 131,
+          "mongoTotal": 131,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "نثر نمبر 7: سویرے جو کل آنکھ میری کھلی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 123,
+          "mongoTotal": 123,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "نثر نمبر 8: دوستی کا پھل",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 110,
+          "mongoTotal": 110,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "نثر نمبر 9: میرا گاؤں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 109,
+          "mongoTotal": 109,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "نثر نمبر 10: بابل کے کھنڈر",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 114,
+          "mongoTotal": 114,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "نثر نمبر 11: اولڈ ایج ہوم",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 131,
+          "mongoTotal": 131,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "نثر نمبر 12: کچھ ذریعہ تعلیم کے باب میں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 92,
+          "mongoTotal": 92,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 13,
+          "title": "نظم نمبر 13: آدمی نامہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 62,
+          "mongoTotal": 62,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 14,
+          "title": "نظم نمبر 14: نمودِ صُبح",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 66,
+          "mongoTotal": 66,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "title": "نظم نمبر 15: خِطاب بہ جوانانِ اسلام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 59,
+          "mongoTotal": 59,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 16,
+          "title": "نظم نمبر 16: وغیرہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 45,
+          "mongoTotal": 45,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 17,
+          "title": "غزل نمبر 17: بازیچہ اطفال ہے دنیا مِرے آگے",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 47,
+          "mongoTotal": 47,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 18,
+          "title": "غزل نمبر 18: اثر اس کو ذرا نہیں ہوتا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 46,
+          "mongoTotal": 46,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 19,
+          "title": "غزل نمبر 19: ہے مشقِ سخن جاری،چکی کی مشقت بھی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 43,
+          "mongoTotal": 43,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 20,
+          "title": "غزل نمبر 20: یوں کہنے کو پیرا یہ اظہار بہت ہے",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 41,
+          "mongoTotal": 41,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 21,
+          "title": "اُردو ب",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 251,
+          "mongoTotal": 251,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "subjectsCompared": 22,
+    "missingInMongo": [],
+    "allTopicsTypeOk": 22,
+    "allTopicsTypeFail": 0,
+    "allTopicsCountOk": 21,
+    "allTopicsCountFail": 1,
+    "chaptersTypeOk": 210,
+    "chaptersTypeFail": 0,
+    "chaptersCountOk": 209,
+    "chaptersCountFail": 1
+  },
+  "subjectsOnlyInMongo": []
+}

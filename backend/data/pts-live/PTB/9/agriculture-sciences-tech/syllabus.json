@@ -1,0 +1,170 @@
+{
+  "board": "PTB",
+  "class": "9",
+  "subject": "AGRICULTURE SCIENCES (TECH)",
+  "slug": "agriculture-sciences-tech",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Agriculture in Pakistan",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Importance of Agriculture"
+        },
+        {
+          "id": "1.2",
+          "title": "Components of Agriculture"
+        },
+        {
+          "id": "1.3",
+          "title": "Crop Husbandry"
+        },
+        {
+          "id": "1.4",
+          "title": "Animal Husbandry"
+        },
+        {
+          "id": "1.5",
+          "title": "Poultry Farming"
+        },
+        {
+          "id": "1.6",
+          "title": "Fish Farming"
+        },
+        {
+          "id": "1.7",
+          "title": "Agro Forestry"
+        },
+        {
+          "id": "1.8",
+          "title": "Systems of Agriculture"
+        },
+        {
+          "id": "1.9",
+          "title": "Irrigated Agriculture"
+        },
+        {
+          "id": "1.10",
+          "title": "Constraints in Agriculture"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Crop Production and Farming System",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Introduction"
+        },
+        {
+          "id": "2.2",
+          "title": "Factors Affecting Crop Production"
+        },
+        {
+          "id": "2.3",
+          "title": "Major Crops"
+        },
+        {
+          "id": "2.4",
+          "title": "Minor Crops"
+        },
+        {
+          "id": "2.5",
+          "title": "Fodder Crops"
+        },
+        {
+          "id": "2.6",
+          "title": "Cropping System"
+        },
+        {
+          "id": "2.7",
+          "title": "Types of Cropping Systems"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Production Technologies of Major Rabi and Kharif Crops",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Rabi Crops"
+        },
+        {
+          "id": "3.2",
+          "title": "Production Technologies of Major Rabi Crops"
+        },
+        {
+          "id": "3.3",
+          "title": "Kharif Crops"
+        },
+        {
+          "id": "3.4",
+          "title": "Production Technologies of Major Kharif Crops"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Crop Rotation and Cropping Pattern",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Crop Rotation"
+        },
+        {
+          "id": "4.2",
+          "title": "Principles of Crop Rotation"
+        },
+        {
+          "id": "4.3",
+          "title": "Selection of Crops Suitable for Crop Rotation"
+        },
+        {
+          "id": "4.4",
+          "title": "Factors Affecting Crop Rotation"
+        },
+        {
+          "id": "4.5",
+          "title": "Cropping Pattern"
+        },
+        {
+          "id": "4.6",
+          "title": "Important Cropping Patterns of Pakistan"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Soil and Water Conservation",
+      "topics": []
+    },
+    {
+      "number": 6,
+      "title": "Management Soil and Water Problems",
+      "topics": []
+    },
+    {
+      "number": 7,
+      "title": "Farm Forestry/ Agro Forestry",
+      "topics": []
+    },
+    {
+      "number": 8,
+      "title": "Production of Farm Animals",
+      "topics": []
+    },
+    {
+      "number": 9,
+      "title": "Dairy Industry",
+      "topics": []
+    },
+    {
+      "number": 10,
+      "title": "Poultry Husbandry",
+      "topics": []
+    }
+  ]
+}

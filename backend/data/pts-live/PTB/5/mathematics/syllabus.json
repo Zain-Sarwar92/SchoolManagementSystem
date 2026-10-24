@@ -1,0 +1,214 @@
+{
+  "board": "PTB",
+  "class": "5TH",
+  "subject": "Mathematics",
+  "slug": "mathematics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Whole Number and Operations",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "1.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "1.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "1.4",
+          "title": "Exercise 4"
+        },
+        {
+          "id": "1.R",
+          "title": "Review Exercise 1"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Hcf and Lcm",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "2.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "2.R",
+          "title": "Review Exercise 2"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Fractions",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "3.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "3.R",
+          "title": "Review Exercise 3"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Decimals and Percentages",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "4.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "4.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "4.4",
+          "title": "Exercise 4"
+        },
+        {
+          "id": "4.5",
+          "title": "Exercise 5"
+        },
+        {
+          "id": "4.6",
+          "title": "Exercise 6"
+        },
+        {
+          "id": "4.7",
+          "title": "Exercise 7"
+        },
+        {
+          "id": "4.R",
+          "title": "Review Exercise 4"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Distance and Time",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "5.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "5.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "5.R",
+          "title": "Review Exercise 5"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Unitary Method",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "6.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "6.R",
+          "title": "Review Exercise 6"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Geometry",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "7.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "7.3",
+          "title": "Exercise 3"
+        },
+        {
+          "id": "7.4",
+          "title": "Exercise 4"
+        },
+        {
+          "id": "7.5",
+          "title": "Exercise 5"
+        },
+        {
+          "id": "7.R",
+          "title": "Review Exercise 7"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Perimeter and Area",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "8.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "8.R",
+          "title": "Review Exercise 8"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Data Handling",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Exercise 1"
+        },
+        {
+          "id": "9.2",
+          "title": "Exercise 2"
+        },
+        {
+          "id": "9.R",
+          "title": "Review Exercise 9"
+        }
+      ]
+    }
+  ]
+}

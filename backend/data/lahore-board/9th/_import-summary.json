@@ -1,0 +1,34 @@
+[
+  {
+    "board": "Punjab Textbook",
+    "className": "Class 9",
+    "subject": "اُردو لازمی",
+    "slug": "urdu-compulsory",
+    "chapters": 21,
+    "topics": 60,
+    "totalSource": 3109,
+    "created": 288,
+    "updated": 2821,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 1698,
+      "SHORT": 1143,
+      "LONG": 268
+    },
+    "fieldCounts": {
+      "MCQ": 1698,
+      "QA": 920,
+      "CORRECT": 131,
+      "IDIOM": 79,
+      "MEANING": 13,
+      "POEM": 80,
+      "SUMMARY": 10,
+      "PASSAGE": 113,
+      "LETTER": 24,
+      "APPLICATION": 6,
+      "STORY": 23,
+      "DIALOGUE": 6,
+      "CENTRAL": 6
+    }
+  }
+]

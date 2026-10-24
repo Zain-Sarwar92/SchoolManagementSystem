@@ -1,0 +1,398 @@
+{
+  "generatedAt": "2026-10-23T22:15:22.318Z",
+  "class": "9TH",
+  "source": "data/lahore-board/9th (PTS export) vs Mongo Gen*",
+  "note": "This compares local PTS seed dumps, not a fresh live scrape.",
+  "ptsSubjectFolders": 1,
+  "mongoSubjectCount": 27,
+  "subjects": [
+    {
+      "name": "اُردو لازمی",
+      "folder": "urdu-compulsory",
+      "foundInMongo": true,
+      "chapterCount": {
+        "pts": 21,
+        "mongo": 21
+      },
+      "questionTotal": {
+        "pts": 2716,
+        "mongo": 2813
+      },
+      "allTopics": {
+        "typesMatch": false,
+        "countsMatch": false,
+        "ptsTypes": {
+          "LONG:APPLICATION": 1,
+          "LONG:CENTRAL": 6,
+          "LONG:PASSAGE": 113,
+          "LONG:POEM": 80,
+          "LONG:SUMMARY": 10,
+          "MCQ:MCQ": 1402,
+          "SHORT:CORRECT": 184,
+          "SHORT:QA": 920
+        },
+        "mongoTypes": {
+          "LONG:APPLICATION": 6,
+          "LONG:CENTRAL": 6,
+          "LONG:DIALOGUE": 6,
+          "LONG:LETTER": 24,
+          "LONG:PASSAGE": 113,
+          "LONG:POEM": 80,
+          "LONG:STORY": 23,
+          "LONG:SUMMARY": 10,
+          "MCQ:MCQ": 1402,
+          "SHORT:CORRECT": 131,
+          "SHORT:IDIOM": 79,
+          "SHORT:MEANING": 13,
+          "SHORT:QA": 920
+        },
+        "onlyPts": [],
+        "onlyMongo": [
+          {
+            "type": "LONG:DIALOGUE",
+            "mongo": 6
+          },
+          {
+            "type": "LONG:LETTER",
+            "mongo": 24
+          },
+          {
+            "type": "LONG:STORY",
+            "mongo": 23
+          },
+          {
+            "type": "SHORT:IDIOM",
+            "mongo": 79
+          },
+          {
+            "type": "SHORT:MEANING",
+            "mongo": 13
+          }
+        ],
+        "countMismatch": [
+          {
+            "type": "LONG:APPLICATION",
+            "pts": 1,
+            "mongo": 6
+          },
+          {
+            "type": "SHORT:CORRECT",
+            "pts": 184,
+            "mongo": 131
+          }
+        ]
+      },
+      "chapters": [
+        {
+          "chapter": 1,
+          "title": "نثر نمبر1: اخلاق حسنہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 151,
+          "mongoTotal": 151,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 2,
+          "title": "نثر نمبر 2: اپنی مدد آپ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 103,
+          "mongoTotal": 103,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 3,
+          "title": "نثر نمبر 3: کلیم اور مرزا ظاہر دار بیگ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 115,
+          "mongoTotal": 115,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 4,
+          "title": "نثر نمبر 4: نام دیو-مالی",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 130,
+          "mongoTotal": 130,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 5,
+          "title": "نثر نمبر 5: آرام و سکون",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 126,
+          "mongoTotal": 126,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 6,
+          "title": "نثر نمبر 6: کتبہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 120,
+          "mongoTotal": 120,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 7,
+          "title": "نثر نمبر 7: ابتدائی حساب",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 104,
+          "mongoTotal": 104,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "title": "نثر نمبر 8: لڑی میں پروے ہوئے منظر",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 136,
+          "mongoTotal": 136,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 9,
+          "title": "نثر نمبر 9: بھیڑیا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 117,
+          "mongoTotal": 117,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 10,
+          "title": "نظم نمبر 1: حمد",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 61,
+          "mongoTotal": 69,
+          "onlyPts": [],
+          "onlyMongo": [
+            {
+              "type": "SHORT:MEANING",
+              "mongo": 8
+            }
+          ],
+          "countMismatch": []
+        },
+        {
+          "chapter": 11,
+          "title": "نظم نمبر 2: نعت",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 68,
+          "mongoTotal": 73,
+          "onlyPts": [],
+          "onlyMongo": [
+            {
+              "type": "SHORT:MEANING",
+              "mongo": 5
+            }
+          ],
+          "countMismatch": []
+        },
+        {
+          "chapter": 12,
+          "title": "نظم نمبر 3: محنت کی برکت",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 95,
+          "mongoTotal": 95,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 13,
+          "title": "نظم نمبر 4: جاوید کے نام",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 73,
+          "mongoTotal": 73,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 14,
+          "title": "نظم نمبر 5: پیام لطیف",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 78,
+          "mongoTotal": 78,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "title": "نظم نمبر 6: کرکٹ اور مشاعرہ",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 73,
+          "mongoTotal": 73,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 16,
+          "title": "غزل نمبر 1: فقیرا نہ آئے صدا کرچلے",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 71,
+          "mongoTotal": 71,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 17,
+          "title": "غزل نمبر 2: سن تو سہی جہاں میں ہے تیرا افسانہ کیا",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 58,
+          "mongoTotal": 58,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 18,
+          "title": "غزل نمبر 3: غم ہے یا خوشی ہے تو",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 53,
+          "mongoTotal": 53,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 19,
+          "title": "غزل نمبر 4: کاش طوفاں میں سفینے کو اتارا ہو",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 53,
+          "mongoTotal": 53,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 20,
+          "title": "نثر نمبر 10: حوصلہ نہ ہارو آگے بڑھو منزل اب کے دور نہیں",
+          "typesMatch": true,
+          "countsMatch": true,
+          "ptsTotal": 80,
+          "mongoTotal": 80,
+          "onlyPts": [],
+          "onlyMongo": [],
+          "countMismatch": []
+        },
+        {
+          "chapter": 21,
+          "title": "اُردو (ب)",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 851,
+          "mongoTotal": 935,
+          "onlyPts": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:DIALOGUE",
+              "mongo": 6
+            },
+            {
+              "type": "LONG:LETTER",
+              "mongo": 24
+            },
+            {
+              "type": "LONG:STORY",
+              "mongo": 23
+            },
+            {
+              "type": "SHORT:IDIOM",
+              "mongo": 79
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "LONG:APPLICATION",
+              "pts": 1,
+              "mongo": 6
+            },
+            {
+              "type": "SHORT:CORRECT",
+              "pts": 184,
+              "mongo": 131
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "subjectsCompared": 1,
+    "missingInMongo": [],
+    "allTopicsTypeOk": 0,
+    "allTopicsTypeFail": 1,
+    "allTopicsCountOk": 0,
+    "allTopicsCountFail": 1,
+    "chaptersTypeOk": 18,
+    "chaptersTypeFail": 3,
+    "chaptersCountOk": 18,
+    "chaptersCountFail": 3
+  },
+  "subjectsOnlyInMongo": [
+    "AGRICULTURE SCIENCES (TECH)",
+    "BIOLOGY (TECH)",
+    "Biology",
+    "CHEMISTRY (TECH)",
+    "COMMUNICATION SKILLS AND PERSONAL GROOMING (TECH)",
+    "COMPUTER (TECH)",
+    "Chemistry",
+    "Computer",
+    "English",
+    "FASHION DESIGNING (TECH)",
+    "General Science",
+    "Mathematics",
+    "PHYSICS (TECH)",
+    "Physics",
+    "اخلاقیات",
+    "اسلامیات اختیاری",
+    "اسلامیات لازمی",
+    "ایجوکیشن",
+    "ترجمۃ القرآن المجید",
+    "سوکس",
+    "غذا اور غذائیت",
+    "فزیکل ایجوکیشن",
+    "مرغبانی",
+    "معاشیات",
+    "پنجابی",
+    "ہوم اکنامکس"
+  ]
+}

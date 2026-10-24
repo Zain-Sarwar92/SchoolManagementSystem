@@ -1,0 +1,26 @@
+{
+  "slug": "chemistry-tech",
+  "name": "CHEMISTRY (TECH)",
+  "total": 1912,
+  "counts": {
+    "mcq": 992,
+    "short": 805,
+    "long": 115
+  },
+  "typeTotals": {
+    "MCQ": 992,
+    "QA": 805,
+    "LONG": 115
+  },
+  "mongo": {
+    "created": 1912,
+    "updated": 0,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 992,
+      "SHORT": 805,
+      "LONG": 115
+    }
+  },
+  "at": "2026-10-22T23:04:54.088Z"
+}

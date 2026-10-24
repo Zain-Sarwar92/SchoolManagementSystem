@@ -1,0 +1,29 @@
+{
+  "classId": 11,
+  "subjectId": 97,
+  "slug": "mathematics",
+  "name": "Mathematics",
+  "total": 1923,
+  "counts": {
+    "mcq": 586,
+    "short": 841,
+    "long": 496
+  },
+  "typeTotals": {
+    "MCQ": 586,
+    "QA": 841,
+    "LONG": 496
+  },
+  "mongo": {
+    "created": 1923,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 586,
+      "SHORT": 841,
+      "LONG": 496
+    },
+    "chapters": 14,
+    "topics": 52
+  },
+  "at": "2026-10-23T00:13:25.613Z"
+}

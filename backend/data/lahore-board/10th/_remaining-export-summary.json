@@ -1,0 +1,13 @@
+[
+  {
+    "slug": "tarjuma-quran",
+    "name": "ترجمۃ القرآن المجید",
+    "totals": {
+      "mcq": 260,
+      "short": 236,
+      "long": 15,
+      "long-ayat": 35,
+      "short-word": 94
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "classId": 9,
+  "subjectId": 48,
+  "slug": "english",
+  "name": "English",
+  "total": 1604,
+  "counts": {
+    "mcq": 1049,
+    "short": 428,
+    "long": 127
+  },
+  "typeTotals": {
+    "COMPREHENSION": 0,
+    "SPELLING": 341,
+    "MEANING": 322,
+    "VERB": 0,
+    "GRAMMAR": 386,
+    "QA": 136,
+    "LETTER": 0,
+    "TRANSLATE_EN": 0,
+    "VOICE": 0,
+    "STORY": 0,
+    "SUMMARY": 2,
+    "DIALOGUE": 0,
+    "WORD": 0,
+    "IDIOM": 292,
+    "TRANSLATE_UR": 113,
+    "PASSAGE": 0,
+    "POEM_STANZA": 12
+  },
+  "mongo": {
+    "created": 1604,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 1049,
+      "SHORT": 428,
+      "LONG": 127
+    },
+    "chapters": 13,
+    "topics": 30
+  },
+  "at": "2026-10-23T00:10:22.593Z"
+}

@@ -1,0 +1,544 @@
+[
+  {
+    "slug": "biology",
+    "name": "Biology",
+    "total": 2001,
+    "counts": {
+      "mcq": 1056,
+      "short": 790,
+      "long": 155
+    },
+    "fieldCounts": {
+      "MCQ": 1056,
+      "QA": 790,
+      "LONG": 155
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 2001,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 1056,
+        "SHORT": 790,
+        "LONG": 155
+      }
+    },
+    "at": "2026-10-17T14:01:06.052Z"
+  },
+  {
+    "slug": "computer",
+    "name": "Computer",
+    "total": 2244,
+    "counts": {
+      "mcq": 991,
+      "short": 925,
+      "long": 328
+    },
+    "fieldCounts": {
+      "MCQ": 991,
+      "QA": 925,
+      "LONG": 328
+    },
+    "mongo": {
+      "created": 16,
+      "updated": 2228,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 991,
+        "SHORT": 925,
+        "LONG": 328
+      }
+    },
+    "at": "2026-10-17T14:02:33.090Z"
+  },
+  {
+    "slug": "chemistry",
+    "name": "Chemistry",
+    "total": 2376,
+    "counts": {
+      "mcq": 1142,
+      "short": 1081,
+      "long": 153
+    },
+    "fieldCounts": {
+      "MCQ": 1142,
+      "QA": 1081,
+      "LONG": 153
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 2376,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 1142,
+        "SHORT": 1081,
+        "LONG": 153
+      }
+    },
+    "at": "2026-10-17T14:03:49.874Z"
+  },
+  {
+    "slug": "physics",
+    "name": "Physics",
+    "total": 1894,
+    "counts": {
+      "mcq": 885,
+      "short": 757,
+      "long": 252
+    },
+    "fieldCounts": {
+      "MCQ": 885,
+      "QA": 757,
+      "LONG": 252
+    },
+    "mongo": {
+      "created": 44,
+      "updated": 1850,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 885,
+        "SHORT": 757,
+        "LONG": 252
+      }
+    },
+    "at": "2026-10-17T14:05:08.020Z"
+  },
+  {
+    "slug": "mathematics",
+    "name": "Mathematics",
+    "total": 1967,
+    "counts": {
+      "mcq": 545,
+      "short": 1072,
+      "long": 350
+    },
+    "fieldCounts": {
+      "MCQ": 545,
+      "QA": 1072,
+      "LONG": 350
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 1967,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 545,
+        "SHORT": 1072,
+        "LONG": 350
+      }
+    },
+    "at": "2026-10-17T14:05:50.082Z"
+  },
+  {
+    "slug": "english",
+    "name": "English",
+    "total": 3622,
+    "counts": {
+      "mcq": 1217,
+      "short": 2278,
+      "long": 127
+    },
+    "fieldCounts": {
+      "SPELLING": 341,
+      "MEANING": 322,
+      "VERB": 168,
+      "GRAMMAR": 386,
+      "QA": 136,
+      "TRANSLATE_EN": 1183,
+      "VOICE": 667,
+      "SUMMARY": 2,
+      "IDIOM": 292,
+      "TRANSLATE_UR": 113,
+      "POEM_STANZA": 12
+    },
+    "mongo": {
+      "created": 292,
+      "updated": 3330,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 1217,
+        "SHORT": 2278,
+        "LONG": 127
+      }
+    },
+    "at": "2026-10-17T14:08:20.912Z"
+  },
+  {
+    "slug": "urdu-compulsory",
+    "name": "اُردو لازمی",
+    "total": 2716,
+    "counts": {
+      "mcq": 1402,
+      "short": 1104,
+      "long": 210
+    },
+    "fieldCounts": {
+      "MCQ": 1402,
+      "QA": 920,
+      "CORRECT": 184,
+      "POEM": 80,
+      "SUMMARY": 10,
+      "PASSAGE": 113,
+      "APPLICATION": 1,
+      "CENTRAL": 6
+    },
+    "mongo": {
+      "created": 94,
+      "updated": 2622,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 1402,
+        "SHORT": 1104,
+        "LONG": 210
+      }
+    },
+    "at": "2026-10-17T14:10:44.922Z"
+  },
+  {
+    "slug": "islamiyat-compulsory",
+    "name": "اسلامیات لازمی",
+    "total": 2951,
+    "counts": {
+      "mcq": 1242,
+      "short": 1477,
+      "long": 232
+    },
+    "fieldCounts": {
+      "MCQ": 1242,
+      "QA": 1477,
+      "LONG": 186,
+      "HADITH": 20,
+      "PERSONALITY": 26
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 2951,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 1242,
+        "SHORT": 1477,
+        "LONG": 232
+      }
+    },
+    "at": "2026-10-17T14:12:10.696Z"
+  },
+  {
+    "slug": "general-science",
+    "name": "General Science",
+    "total": 937,
+    "counts": {
+      "mcq": 418,
+      "short": 422,
+      "long": 97
+    },
+    "fieldCounts": {
+      "MCQ": 418,
+      "QA": 422,
+      "LONG": 97
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 937,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 418,
+        "SHORT": 422,
+        "LONG": 97
+      }
+    },
+    "at": "2026-10-17T14:12:51.008Z"
+  },
+  {
+    "slug": "education",
+    "name": "ایجوکیشن",
+    "total": 647,
+    "counts": {
+      "mcq": 284,
+      "short": 332,
+      "long": 31
+    },
+    "fieldCounts": {
+      "MCQ": 284,
+      "QA": 332,
+      "LONG": 31
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 647,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 284,
+        "SHORT": 332,
+        "LONG": 31
+      }
+    },
+    "at": "2026-10-17T14:13:07.666Z"
+  },
+  {
+    "slug": "punjabi",
+    "name": "پنجابی",
+    "total": 938,
+    "counts": {
+      "mcq": 252,
+      "short": 572,
+      "long": 114
+    },
+    "fieldCounts": {
+      "MCQ": 252,
+      "QA": 142,
+      "POEM": 86,
+      "SUMMARY": 1,
+      "MEANING": 169,
+      "WORD": 6,
+      "IDIOM": 255,
+      "PASSAGE": 27
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 938,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 252,
+        "SHORT": 572,
+        "LONG": 114
+      }
+    },
+    "at": "2026-10-17T14:14:17.271Z"
+  },
+  {
+    "slug": "islamiyat-elective",
+    "name": "اسلامیات اختیاری",
+    "total": 1123,
+    "counts": {
+      "mcq": 438,
+      "short": 669,
+      "long": 16
+    },
+    "fieldCounts": {
+      "MCQ": 438,
+      "QA": 669,
+      "AYAT": 16
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 1123,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 438,
+        "SHORT": 669,
+        "LONG": 16
+      }
+    },
+    "at": "2026-10-17T14:14:51.218Z"
+  },
+  {
+    "slug": "home-economics",
+    "name": "ہوم اکنامکس",
+    "total": 534,
+    "counts": {
+      "mcq": 194,
+      "short": 245,
+      "long": 95
+    },
+    "fieldCounts": {
+      "MCQ": 194,
+      "QA": 245,
+      "LONG": 95
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 534,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 194,
+        "SHORT": 245,
+        "LONG": 95
+      }
+    },
+    "at": "2026-10-17T14:15:17.880Z"
+  },
+  {
+    "slug": "civics",
+    "name": "سوکس",
+    "total": 296,
+    "counts": {
+      "mcq": 113,
+      "short": 151,
+      "long": 32
+    },
+    "fieldCounts": {
+      "MCQ": 113,
+      "QA": 151,
+      "LONG": 32
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 296,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 113,
+        "SHORT": 151,
+        "LONG": 32
+      }
+    },
+    "at": "2026-10-17T14:15:24.965Z"
+  },
+  {
+    "slug": "economics",
+    "name": "معاشیات",
+    "total": 322,
+    "counts": {
+      "mcq": 143,
+      "short": 127,
+      "long": 52
+    },
+    "fieldCounts": {
+      "MCQ": 143,
+      "QA": 127,
+      "LONG": 52
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 322,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 143,
+        "SHORT": 127,
+        "LONG": 52
+      }
+    },
+    "at": "2026-10-17T14:15:32.250Z"
+  },
+  {
+    "slug": "tarjuma-quran",
+    "name": "ترجمۃ القرآن المجید",
+    "total": 973,
+    "counts": {
+      "mcq": 356,
+      "short": 534,
+      "long": 83
+    },
+    "fieldCounts": {
+      "MCQ": 356,
+      "QA": 447,
+      "LONG": 63,
+      "AYAT": 20,
+      "WORD": 87
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 973,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 356,
+        "SHORT": 534,
+        "LONG": 83
+      }
+    },
+    "at": "2026-10-17T14:16:05.312Z"
+  },
+  {
+    "slug": "ethics",
+    "name": "اخلاقیات",
+    "total": 507,
+    "counts": {
+      "mcq": 191,
+      "short": 270,
+      "long": 46
+    },
+    "fieldCounts": {
+      "MCQ": 191,
+      "QA": 270,
+      "LONG": 46
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 507,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 191,
+        "SHORT": 270,
+        "LONG": 46
+      }
+    },
+    "at": "2026-10-17T14:16:25.757Z"
+  },
+  {
+    "slug": "physical-education",
+    "name": "فزیکل ایجوکیشن",
+    "total": 671,
+    "counts": {
+      "mcq": 330,
+      "short": 318,
+      "long": 23
+    },
+    "fieldCounts": {
+      "MCQ": 330,
+      "QA": 318,
+      "LONG": 23
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 671,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 330,
+        "SHORT": 318,
+        "LONG": 23
+      }
+    },
+    "at": "2026-10-17T14:16:42.162Z"
+  },
+  {
+    "slug": "poultry",
+    "name": "مرغبانی",
+    "total": 362,
+    "counts": {
+      "mcq": 144,
+      "short": 185,
+      "long": 33
+    },
+    "fieldCounts": {
+      "MCQ": 144,
+      "QA": 185,
+      "LONG": 33
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 362,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 144,
+        "SHORT": 185,
+        "LONG": 33
+      }
+    },
+    "at": "2026-10-17T14:16:49.717Z"
+  },
+  {
+    "slug": "food-nutrition",
+    "name": "غذا اور غذائیت",
+    "total": 461,
+    "counts": {
+      "mcq": 175,
+      "short": 253,
+      "long": 33
+    },
+    "fieldCounts": {
+      "MCQ": 175,
+      "QA": 253,
+      "LONG": 33
+    },
+    "mongo": {
+      "created": 0,
+      "updated": 461,
+      "skipped": 0,
+      "typeCounts": {
+        "MCQ": 175,
+        "SHORT": 253,
+        "LONG": 33
+      }
+    },
+    "at": "2026-10-17T14:17:03.962Z"
+  }
+]

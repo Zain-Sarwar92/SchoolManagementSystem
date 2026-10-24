@@ -1,0 +1,200 @@
+{
+  "board": "PTB",
+  "class": "10",
+  "subject": "English",
+  "slug": "english",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "HAZRAT MUHAMMAD’S (ﷺ) SOCIAL REFORMS FOR THE RIGHTS OF WOMEN, ORPHANS AND SLAVES",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "HAZRAT MUHAMMAD’S (ﷺ) SOCIAL REFORMS FOR THE RIGHTS OF WOMEN, ORPHANS AND SLAVES"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "My Beloved Pakistan (Poem)",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "My Beloved Pakistan (Poem)"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Digital Globalisation Transforming the English Language",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Digital Globalisation Transforming the English Language"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "the Earth: Act Now for Tomorrow",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "the Earth: Act Now for Tomorrow"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "the Happy Prince",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "the Happy Prince"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Review 1",
+      "topics": [
+        {
+          "id": "6.R",
+          "title": "Review Exercise 6"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Drug Abuse",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Drug Abuse"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Time (Poem)",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Time (Poem)"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Pollution-Free Pakistan with Greenery All Around",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Pollution-Free Pakistan with Greenery All Around"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "the Road Not Taken (Poem)",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "the Road Not Taken (Poem)"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "the Three Questions",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "the Three Questions"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Review 2",
+      "topics": [
+        {
+          "id": "12.R",
+          "title": "Review Exercise 12"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "English B",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "Pair of Words"
+        },
+        {
+          "id": "13.2",
+          "title": "Essays"
+        },
+        {
+          "id": "13.3",
+          "title": "Translate Into English Paragraphs"
+        },
+        {
+          "id": "13.4",
+          "title": "Direct and Indirect Speech"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Forms of Verbs",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Present Indefinite Tense"
+        },
+        {
+          "id": "14.2",
+          "title": "Present Continuous Tense"
+        },
+        {
+          "id": "14.3",
+          "title": "Present Perfect Tense"
+        },
+        {
+          "id": "14.4",
+          "title": "Present Perfect Continuous Tense"
+        },
+        {
+          "id": "14.5",
+          "title": "Past Indefinite Tense"
+        },
+        {
+          "id": "14.6",
+          "title": "Past Continuous Tense"
+        },
+        {
+          "id": "14.7",
+          "title": "Past Perfect Tense"
+        },
+        {
+          "id": "14.8",
+          "title": "Past Perfect Continuous Tense"
+        },
+        {
+          "id": "14.9",
+          "title": "Future Indefinite Tense"
+        },
+        {
+          "id": "14.10",
+          "title": "Future Continuous Tense"
+        },
+        {
+          "id": "14.11",
+          "title": "Future Perfect Tense"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "board": "PTB",
+  "class": "ONE",
+  "subject": "Mathematics",
+  "slug": "mathematics",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Whole Numbers",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Whole Numbers"
+        },
+        {
+          "id": "1.2",
+          "title": "Review Exercise 1"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Number Operations",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Addition"
+        },
+        {
+          "id": "2.2",
+          "title": "Subtraction"
+        },
+        {
+          "id": "2.3",
+          "title": "Review Exercise 2"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Measurement",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Length"
+        },
+        {
+          "id": "3.2",
+          "title": "Mass"
+        },
+        {
+          "id": "3.3",
+          "title": "Review Exercise 3"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Money",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Money"
+        },
+        {
+          "id": "4.2",
+          "title": "Review Exercise 4"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Time",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Time"
+        },
+        {
+          "id": "5.2",
+          "title": "Review Exercise 5"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Geometry",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Shapes"
+        },
+        {
+          "id": "6.2",
+          "title": "Position"
+        },
+        {
+          "id": "6.3",
+          "title": "Review Exercise 6"
+        }
+      ]
+    }
+  ]
+}

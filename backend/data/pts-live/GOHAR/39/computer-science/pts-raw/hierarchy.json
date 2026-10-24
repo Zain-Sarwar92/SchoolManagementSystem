@@ -1,0 +1,319 @@
+{
+  "course": {
+    "ptsCourseId": 4,
+    "code": "GOHAR",
+    "name": "GOHAR SNC",
+    "subtitle": "Syllabus",
+    "sortOrder": 4,
+    "imageUrl": "https://paktestsolution.com/images/subjects/638971582888021935.png",
+    "classes": [
+      {
+        "ptsClassId": 39,
+        "name": "ONE",
+        "gradeLevel": 1
+      },
+      {
+        "ptsClassId": 40,
+        "name": "TWO",
+        "gradeLevel": 2
+      },
+      {
+        "ptsClassId": 41,
+        "name": "THREE",
+        "gradeLevel": 3
+      },
+      {
+        "ptsClassId": 42,
+        "name": "FOUR",
+        "gradeLevel": 4
+      },
+      {
+        "ptsClassId": 43,
+        "name": "5TH",
+        "gradeLevel": 5
+      },
+      {
+        "ptsClassId": 44,
+        "name": "6TH",
+        "gradeLevel": 6
+      },
+      {
+        "ptsClassId": 45,
+        "name": "7TH",
+        "gradeLevel": 7
+      }
+    ]
+  },
+  "class": {
+    "ptsClassId": 39,
+    "name": "ONE",
+    "gradeLevel": 1
+  },
+  "subject": {
+    "SubjectID": 1586,
+    "AdminID": 14,
+    "CourseID": 4,
+    "ClassID": 39,
+    "SubjectName": "COMPUTER Science ",
+    "Category": "SRM",
+    "ImageUrl": null,
+    "CreatedDateTime": "2026-05-22T09:24:33.913",
+    "UpdatedDateTime": "2026-05-22T09:24:33.913",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 7,
+      "name": "subtype-7",
+      "bankType": "short",
+      "field": "SUBTYPE_7"
+    },
+    {
+      "id": 10,
+      "name": "subtype-10",
+      "bankType": "short",
+      "field": "SUBTYPE_10"
+    },
+    {
+      "id": 11,
+      "name": "subtype-11",
+      "bankType": "long",
+      "field": "LONG"
+    },
+    {
+      "id": 14,
+      "name": "short-qa",
+      "bankType": "short",
+      "field": "QA"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 8301,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterName": "CHAP 1: COMPUTER",
+      "Syllabus": "L1",
+      "TextDirection": 1,
+      "CreatedDateTime": "2026-05-22T10:44:44.547",
+      "UpdatedDateTime": "2026-05-22T10:44:44.547",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 8302,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterName": "CHAP 2: TURING THE COMPUTER ON AND OFF",
+      "Syllabus": "L2",
+      "TextDirection": 1,
+      "CreatedDateTime": "2026-05-22T10:45:20.37",
+      "UpdatedDateTime": "2026-05-22T10:45:20.37",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 8303,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterName": "CHAP 3: DESKTOP AND ITS COMPONENTS",
+      "Syllabus": "L3",
+      "TextDirection": 1,
+      "CreatedDateTime": "2026-05-22T10:45:39",
+      "UpdatedDateTime": "2026-05-22T10:49:45.59",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 8304,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterName": "CHAP 4: PAINT",
+      "Syllabus": "L4",
+      "TextDirection": 1,
+      "CreatedDateTime": "2026-05-22T10:45:53.493",
+      "UpdatedDateTime": "2026-05-22T10:45:53.493",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 8305,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterName": "CHAP 5: INTERESTING USES OF A COMPUTER",
+      "Syllabus": "L5",
+      "TextDirection": 1,
+      "CreatedDateTime": "2026-05-22T10:46:10.667",
+      "UpdatedDateTime": "2026-05-22T10:46:10.667",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 8306,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterName": "CHAP 6: SCRATCHJR",
+      "Syllabus": "L6",
+      "TextDirection": 1,
+      "CreatedDateTime": "2026-05-22T10:46:58.463",
+      "UpdatedDateTime": "2026-05-22T10:46:58.463",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 15121,
+      "AdminID": 14,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterID": 8301,
+      "TopicName": "COMPUTER",
+      "TopicRef": "1.",
+      "CreatedDateTime": "2026-05-22T10:47:56",
+      "UpdatedDateTime": "2026-06-01T10:39:18.297",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15122,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterID": 8302,
+      "TopicName": "TURING THE COMPUTER ON AND OFF",
+      "TopicRef": "2.",
+      "CreatedDateTime": "2026-05-22T10:48:09.56",
+      "UpdatedDateTime": "2026-05-22T10:48:09.56",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15123,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterID": 8303,
+      "TopicName": "DESKTOP AND ITS COMPONENTS",
+      "TopicRef": "3.",
+      "CreatedDateTime": "2026-05-22T10:48:42.433",
+      "UpdatedDateTime": "2026-05-22T10:48:42.433",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15124,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterID": 8304,
+      "TopicName": "PAINT",
+      "TopicRef": "4.",
+      "CreatedDateTime": "2026-05-22T10:48:51.127",
+      "UpdatedDateTime": "2026-05-22T10:48:51.127",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15125,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterID": 8305,
+      "TopicName": "INTERESTING USES OF A COMPUTER",
+      "TopicRef": "5.",
+      "CreatedDateTime": "2026-05-22T10:49:17.767",
+      "UpdatedDateTime": "2026-05-22T10:49:17.767",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 15126,
+      "AdminID": 21,
+      "CourseID": 4,
+      "ClassID": 39,
+      "SubjectID": 1586,
+      "ChapterID": 8306,
+      "TopicName": "SCARTCHJR",
+      "TopicRef": "6.",
+      "CreatedDateTime": "2026-05-22T10:49:34.197",
+      "UpdatedDateTime": "2026-05-22T10:49:34.197",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

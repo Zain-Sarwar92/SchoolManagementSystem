@@ -1,0 +1,29 @@
+{
+  "classId": 12,
+  "subjectId": 126,
+  "slug": "commercial-geography",
+  "name": "Commercial Geography",
+  "total": 1991,
+  "counts": {
+    "mcq": 1079,
+    "short": 819,
+    "long": 93
+  },
+  "typeTotals": {
+    "MCQ": 1079,
+    "QA": 819,
+    "LONG": 93
+  },
+  "mongo": {
+    "created": 1991,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 1079,
+      "SHORT": 819,
+      "LONG": 93
+    },
+    "chapters": 19,
+    "topics": 45
+  },
+  "at": "2026-10-23T00:20:47.552Z"
+}

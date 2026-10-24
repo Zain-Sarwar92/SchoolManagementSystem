@@ -1,0 +1,3201 @@
+{
+  "source": "https://paktestsolution.com (live browser session)",
+  "generatedAt": "2026-10-15T23:22:33.300Z",
+  "classes": {
+    "Class 9": {
+      "liveTotal": 26,
+      "liveCore": 20,
+      "liveTech": 6,
+      "mongo": 20,
+      "subjects": [
+        {
+          "name": "Biology",
+          "found": true,
+          "liveChapters": 11,
+          "liveTopics": 57,
+          "mongoChapters": 11,
+          "mongoTopics": 57,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1056,
+            "SHORT": 790,
+            "LONG": 155
+          }
+        },
+        {
+          "name": "Computer",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 58,
+          "mongoChapters": 9,
+          "mongoTopics": 58,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 992,
+            "SHORT": 916,
+            "LONG": 348
+          }
+        },
+        {
+          "name": "Chemistry",
+          "found": true,
+          "liveChapters": 13,
+          "liveTopics": 69,
+          "mongoChapters": 13,
+          "mongoTopics": 69,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1142,
+            "SHORT": 1081,
+            "LONG": 153
+          }
+        },
+        {
+          "name": "Physics",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 88,
+          "mongoChapters": 9,
+          "mongoTopics": 88,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 875,
+            "SHORT": 755,
+            "LONG": 253
+          }
+        },
+        {
+          "name": "Mathematics",
+          "found": true,
+          "liveChapters": 13,
+          "liveTopics": 38,
+          "mongoChapters": 13,
+          "mongoTopics": 50,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 545,
+            "SHORT": 1073,
+            "LONG": 350
+          }
+        },
+        {
+          "name": "English",
+          "found": true,
+          "liveChapters": 13,
+          "liveTopics": 30,
+          "mongoChapters": 13,
+          "mongoTopics": 31,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 1277,
+            "SHORT": 2391,
+            "LONG": 185
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "found": true,
+          "liveChapters": 21,
+          "liveTopics": 35,
+          "mongoChapters": 21,
+          "mongoTopics": 35,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1698,
+            "SHORT": 1143,
+            "LONG": 268
+          }
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "found": true,
+          "liveChapters": 7,
+          "liveTopics": 55,
+          "mongoChapters": 7,
+          "mongoTopics": 55,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1242,
+            "SHORT": 1477,
+            "LONG": 232
+          }
+        },
+        {
+          "name": "General Science",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 40,
+          "mongoChapters": 6,
+          "mongoTopics": 40,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 418,
+            "SHORT": 422,
+            "LONG": 97
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 14,
+          "mongoChapters": 5,
+          "mongoTopics": 14,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 284,
+            "SHORT": 332,
+            "LONG": 31
+          }
+        },
+        {
+          "name": "پنجابی",
+          "found": true,
+          "liveChapters": 22,
+          "liveTopics": 25,
+          "mongoChapters": 22,
+          "mongoTopics": 25,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 252,
+            "SHORT": 572,
+            "LONG": 114
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 35,
+          "mongoChapters": 5,
+          "mongoTopics": 35,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 438,
+            "SHORT": 669,
+            "LONG": 16
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 32,
+          "mongoChapters": 8,
+          "mongoTopics": 32,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 194,
+            "SHORT": 245,
+            "LONG": 95
+          }
+        },
+        {
+          "name": "سوکس",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 113,
+            "SHORT": 151,
+            "LONG": 32
+          }
+        },
+        {
+          "name": "معاشیات",
+          "found": true,
+          "liveChapters": 7,
+          "liveTopics": 7,
+          "mongoChapters": 7,
+          "mongoTopics": 7,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 143,
+            "SHORT": 127,
+            "LONG": 52
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن المجید",
+          "found": true,
+          "liveChapters": 18,
+          "liveTopics": 18,
+          "mongoChapters": 18,
+          "mongoTopics": 18,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 356,
+            "SHORT": 534,
+            "LONG": 83
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "found": true,
+          "liveChapters": 10,
+          "liveTopics": 20,
+          "mongoChapters": 10,
+          "mongoTopics": 20,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 191,
+            "SHORT": 270,
+            "LONG": 46
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 9,
+          "mongoChapters": 9,
+          "mongoTopics": 9,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 330,
+            "SHORT": 318,
+            "LONG": 23
+          }
+        },
+        {
+          "name": "مرغبانی",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 144,
+            "SHORT": 185,
+            "LONG": 33
+          }
+        },
+        {
+          "name": "غذا اور غذائیت",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 14,
+          "mongoChapters": 5,
+          "mongoTopics": 14,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 175,
+            "SHORT": 253,
+            "LONG": 33
+          }
+        }
+      ]
+    },
+    "Class 10": {
+      "liveTotal": 21,
+      "liveCore": 21,
+      "liveTech": 0,
+      "mongo": 22,
+      "subjects": [
+        {
+          "name": "Biology",
+          "found": true,
+          "liveChapters": 10,
+          "liveTopics": 36,
+          "mongoChapters": 10,
+          "mongoTopics": 36,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 723,
+            "SHORT": 624,
+            "LONG": 139
+          }
+        },
+        {
+          "name": "Computer",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 43,
+          "mongoChapters": 8,
+          "mongoTopics": 43,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 679,
+            "SHORT": 648,
+            "LONG": 178
+          }
+        },
+        {
+          "name": "Chemistry",
+          "found": true,
+          "liveChapters": 13,
+          "liveTopics": 92,
+          "mongoChapters": 13,
+          "mongoTopics": 92,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1415,
+            "SHORT": 1340,
+            "LONG": 211
+          }
+        },
+        {
+          "name": "Physics",
+          "found": true,
+          "liveChapters": 12,
+          "liveTopics": 77,
+          "mongoChapters": 12,
+          "mongoTopics": 77,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 753,
+            "SHORT": 661,
+            "LONG": 186
+          }
+        },
+        {
+          "name": "Mathematics",
+          "found": true,
+          "liveChapters": 12,
+          "liveTopics": 43,
+          "mongoChapters": 12,
+          "mongoTopics": 54,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 458,
+            "SHORT": 698,
+            "LONG": 324
+          }
+        },
+        {
+          "name": "English",
+          "found": true,
+          "liveChapters": 15,
+          "liveTopics": 32,
+          "mongoChapters": 15,
+          "mongoTopics": 33,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 1766,
+            "SHORT": 601,
+            "LONG": 184
+          }
+        },
+        {
+          "name": "Pakistan Studies",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 65,
+          "mongoChapters": 8,
+          "mongoTopics": 65,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 968,
+            "SHORT": 1189,
+            "LONG": 105
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "found": true,
+          "liveChapters": 21,
+          "liveTopics": 26,
+          "mongoChapters": 21,
+          "mongoTopics": 24,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 876,
+            "SHORT": 742,
+            "LONG": 294
+          }
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "found": true,
+          "liveChapters": 7,
+          "liveTopics": 30,
+          "mongoChapters": 7,
+          "mongoTopics": 30,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 592,
+            "SHORT": 431,
+            "LONG": 38
+          }
+        },
+        {
+          "name": "General Science",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 44,
+          "mongoChapters": 5,
+          "mongoTopics": 44,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 400,
+            "SHORT": 323,
+            "LONG": 92
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "found": true,
+          "liveChapters": 4,
+          "liveTopics": 12,
+          "mongoChapters": 4,
+          "mongoTopics": 12,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 268,
+            "SHORT": 276,
+            "LONG": 44
+          }
+        },
+        {
+          "name": "پنجابی",
+          "found": true,
+          "liveChapters": 23,
+          "liveTopics": 25,
+          "mongoChapters": 23,
+          "mongoTopics": 25,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 267,
+            "SHORT": 622,
+            "LONG": 128
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "found": true,
+          "liveChapters": 4,
+          "liveTopics": 39,
+          "mongoChapters": 4,
+          "mongoTopics": 39,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 497,
+            "SHORT": 590,
+            "LONG": 30
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "found": true,
+          "liveChapters": 7,
+          "liveTopics": 22,
+          "mongoChapters": 7,
+          "mongoTopics": 22,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 296,
+            "SHORT": 294,
+            "LONG": 53
+          }
+        },
+        {
+          "name": "سوکس",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 110,
+            "SHORT": 190,
+            "LONG": 30
+          }
+        },
+        {
+          "name": "معاشیات",
+          "found": true,
+          "liveChapters": 7,
+          "liveTopics": 7,
+          "mongoChapters": 7,
+          "mongoTopics": 7,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 142,
+            "SHORT": 134,
+            "LONG": 62
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن المجید",
+          "found": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 260,
+            "SHORT": 330,
+            "LONG": 50
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 11,
+          "mongoChapters": 5,
+          "mongoTopics": 11,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 78,
+            "SHORT": 136,
+            "LONG": 29
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 260,
+            "SHORT": 239,
+            "LONG": 15
+          }
+        },
+        {
+          "name": "مرغبانی",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 171,
+            "SHORT": 212,
+            "LONG": 31
+          }
+        },
+        {
+          "name": "غذا اور غذائیت",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 13,
+          "mongoChapters": 5,
+          "mongoTopics": 13,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 281,
+            "SHORT": 405,
+            "LONG": 26
+          }
+        }
+      ]
+    },
+    "Class 11": {
+      "liveTotal": 30,
+      "liveCore": 30,
+      "liveTech": 0,
+      "mongo": 30,
+      "subjects": [
+        {
+          "name": "Biology",
+          "found": true,
+          "liveChapters": 12,
+          "liveTopics": 72,
+          "mongoChapters": 11,
+          "mongoTopics": 68,
+          "chapterMatch": false,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 1848,
+            "SHORT": 1700,
+            "LONG": 227
+          }
+        },
+        {
+          "name": "Chemistry",
+          "found": true,
+          "liveChapters": 16,
+          "liveTopics": 179,
+          "mongoChapters": 14,
+          "mongoTopics": 165,
+          "chapterMatch": false,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 1075,
+            "SHORT": 918,
+            "LONG": 112
+          }
+        },
+        {
+          "name": "Physics",
+          "found": true,
+          "liveChapters": 12,
+          "liveTopics": 126,
+          "mongoChapters": 12,
+          "mongoTopics": 126,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1245,
+            "SHORT": 696,
+            "LONG": 241
+          }
+        },
+        {
+          "name": "Mathematics",
+          "found": true,
+          "liveChapters": 14,
+          "liveTopics": 52,
+          "mongoChapters": 13,
+          "mongoTopics": 48,
+          "chapterMatch": false,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 516,
+            "SHORT": 769,
+            "LONG": 448
+          }
+        },
+        {
+          "name": "Computer",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 53,
+          "mongoChapters": 9,
+          "mongoTopics": 53,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 721,
+            "SHORT": 469,
+            "LONG": 204
+          }
+        },
+        {
+          "name": "Statistics",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 51,
+          "mongoChapters": 9,
+          "mongoTopics": 51,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 438,
+            "SHORT": 679,
+            "LONG": 242
+          }
+        },
+        {
+          "name": "Economics",
+          "found": true,
+          "liveChapters": 12,
+          "liveTopics": 12,
+          "mongoChapters": 12,
+          "mongoTopics": 12,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 583,
+            "SHORT": 411,
+            "LONG": 104
+          }
+        },
+        {
+          "name": "English",
+          "found": true,
+          "liveChapters": 16,
+          "liveTopics": 30,
+          "mongoChapters": 16,
+          "mongoTopics": 30,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1329,
+            "SHORT": 921,
+            "LONG": 188
+          }
+        },
+        {
+          "name": "Principles of Accounting",
+          "found": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 401,
+            "SHORT": 433,
+            "LONG": 149
+          }
+        },
+        {
+          "name": "Principles of Economics",
+          "found": true,
+          "liveChapters": 13,
+          "liveTopics": 15,
+          "mongoChapters": 13,
+          "mongoTopics": 15,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 959,
+            "SHORT": 532,
+            "LONG": 85
+          }
+        },
+        {
+          "name": "Principles of Commerce",
+          "found": true,
+          "liveChapters": 26,
+          "liveTopics": 26,
+          "mongoChapters": 26,
+          "mongoTopics": 26,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 484,
+            "SHORT": 501,
+            "LONG": 125
+          }
+        },
+        {
+          "name": "Business Maths",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 19,
+          "mongoChapters": 6,
+          "mongoTopics": 19,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 485,
+            "SHORT": 817,
+            "LONG": 238
+          }
+        },
+        {
+          "name": "اسلامیات لازمی",
+          "found": true,
+          "liveChapters": 7,
+          "liveTopics": 27,
+          "mongoChapters": 7,
+          "mongoTopics": 23,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 715,
+            "SHORT": 549,
+            "LONG": 39
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "found": true,
+          "liveChapters": 24,
+          "liveTopics": 40,
+          "mongoChapters": 24,
+          "mongoTopics": 40,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1559,
+            "SHORT": 765,
+            "LONG": 87
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 673,
+            "SHORT": 796,
+            "LONG": 83
+          }
+        },
+        {
+          "name": "سوکس",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 9,
+          "mongoChapters": 9,
+          "mongoTopics": 9,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 485,
+            "SHORT": 535,
+            "LONG": 91
+          }
+        },
+        {
+          "name": "پنجابی",
+          "found": true,
+          "liveChapters": 37,
+          "liveTopics": 37,
+          "mongoChapters": 37,
+          "mongoTopics": 37,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 522,
+            "SHORT": 563,
+            "LONG": 130
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "found": true,
+          "liveChapters": 10,
+          "liveTopics": 10,
+          "mongoChapters": 10,
+          "mongoTopics": 10,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 357,
+            "SHORT": 457,
+            "LONG": 0
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "found": true,
+          "liveChapters": 10,
+          "liveTopics": 17,
+          "mongoChapters": 10,
+          "mongoTopics": 17,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 642,
+            "SHORT": 724,
+            "LONG": 50
+          }
+        },
+        {
+          "name": "سوشیالوجی",
+          "found": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 526,
+            "SHORT": 341,
+            "LONG": 88
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 187,
+            "SHORT": 192,
+            "LONG": 31
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن مجید",
+          "found": true,
+          "liveChapters": 4,
+          "liveTopics": 4,
+          "mongoChapters": 4,
+          "mongoTopics": 4,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 116,
+            "SHORT": 199,
+            "LONG": 53
+          }
+        },
+        {
+          "name": "نفسیات",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 12,
+          "mongoChapters": 9,
+          "mongoTopics": 12,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 552,
+            "SHORT": 635,
+            "LONG": 130
+          }
+        },
+        {
+          "name": "فارسی",
+          "found": true,
+          "liveChapters": 31,
+          "liveTopics": 31,
+          "mongoChapters": 31,
+          "mongoTopics": 31,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 150,
+            "SHORT": 199,
+            "LONG": 0
+          }
+        },
+        {
+          "name": "تاریخِ اسلام",
+          "found": true,
+          "liveChapters": 24,
+          "liveTopics": 24,
+          "mongoChapters": 24,
+          "mongoTopics": 24,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 644,
+            "SHORT": 945,
+            "LONG": 112
+          }
+        },
+        {
+          "name": "حَدِیقَۃُ الاَدَبِ",
+          "found": true,
+          "liveChapters": 25,
+          "liveTopics": 25,
+          "mongoChapters": 25,
+          "mongoTopics": 25,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 111,
+            "SHORT": 144,
+            "LONG": 0
+          }
+        },
+        {
+          "name": "طبعی جغرافیہ",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 109,
+            "SHORT": 223,
+            "LONG": 45
+          }
+        },
+        {
+          "name": "لائبریری سائنس",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 368,
+            "SHORT": 525,
+            "LONG": 36
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "found": true,
+          "liveChapters": 11,
+          "liveTopics": 11,
+          "mongoChapters": 11,
+          "mongoTopics": 11,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 172,
+            "SHORT": 278,
+            "LONG": 35
+          }
+        },
+        {
+          "name": "تاریخ پاکستان",
+          "found": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 362,
+            "SHORT": 256,
+            "LONG": 63
+          }
+        }
+      ]
+    },
+    "Class 12": {
+      "liveTotal": 30,
+      "liveCore": 30,
+      "liveTech": 0,
+      "mongo": 30,
+      "subjects": [
+        {
+          "name": "BIOLOGY",
+          "found": true,
+          "liveChapters": 13,
+          "liveTopics": 62,
+          "mongoChapters": 13,
+          "mongoTopics": 75,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 1066,
+            "SHORT": 960,
+            "LONG": 120
+          }
+        },
+        {
+          "name": "CHEMISTRY",
+          "found": true,
+          "liveChapters": 17,
+          "liveTopics": 124,
+          "mongoChapters": 17,
+          "mongoTopics": 28,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 414,
+            "SHORT": 255,
+            "LONG": 37
+          }
+        },
+        {
+          "name": "PHYSICS",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 85,
+          "mongoChapters": 9,
+          "mongoTopics": 94,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 375,
+            "SHORT": 364,
+            "LONG": 64
+          }
+        },
+        {
+          "name": "MATHEMATICS",
+          "found": true,
+          "liveChapters": 11,
+          "liveTopics": 43,
+          "mongoChapters": 11,
+          "mongoTopics": 43,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 117,
+            "SHORT": 1083,
+            "LONG": 0
+          }
+        },
+        {
+          "name": "COMPUTER",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 60,
+          "mongoChapters": 9,
+          "mongoTopics": 69,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 675,
+            "SHORT": 636,
+            "LONG": 161
+          }
+        },
+        {
+          "name": "Statistics",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 71,
+          "mongoChapters": 8,
+          "mongoTopics": 71,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 496,
+            "SHORT": 650,
+            "LONG": 420
+          }
+        },
+        {
+          "name": "Economics",
+          "found": true,
+          "liveChapters": 13,
+          "liveTopics": 13,
+          "mongoChapters": 13,
+          "mongoTopics": 13,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 969,
+            "SHORT": 693,
+            "LONG": 88
+          }
+        },
+        {
+          "name": "ENGLISH",
+          "found": true,
+          "liveChapters": 14,
+          "liveTopics": 21,
+          "mongoChapters": 14,
+          "mongoTopics": 23,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 962,
+            "SHORT": 1013,
+            "LONG": 36
+          }
+        },
+        {
+          "name": "Principles of Accounting",
+          "found": true,
+          "liveChapters": 9,
+          "liveTopics": 9,
+          "mongoChapters": 9,
+          "mongoTopics": 9,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 533,
+            "SHORT": 238,
+            "LONG": 120
+          }
+        },
+        {
+          "name": "Principles of Banking",
+          "found": true,
+          "liveChapters": 15,
+          "liveTopics": 15,
+          "mongoChapters": 15,
+          "mongoTopics": 15,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 560,
+            "SHORT": 492,
+            "LONG": 142
+          }
+        },
+        {
+          "name": "Commercial Geography",
+          "found": true,
+          "liveChapters": 19,
+          "liveTopics": 45,
+          "mongoChapters": 18,
+          "mongoTopics": 44,
+          "chapterMatch": false,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 1079,
+            "SHORT": 819,
+            "LONG": 93
+          }
+        },
+        {
+          "name": "Business Statistics",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 346,
+            "SHORT": 292,
+            "LONG": 137
+          }
+        },
+        {
+          "name": "Pakistan Studies",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 61,
+          "mongoChapters": 6,
+          "mongoTopics": 61,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 919,
+            "SHORT": 1240,
+            "LONG": 84
+          }
+        },
+        {
+          "name": "اُردو لازمی",
+          "found": true,
+          "liveChapters": 24,
+          "liveTopics": 28,
+          "mongoChapters": 24,
+          "mongoTopics": 28,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 1305,
+            "SHORT": 115,
+            "LONG": 104
+          }
+        },
+        {
+          "name": "ایجوکیشن",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 688,
+            "SHORT": 942,
+            "LONG": 98
+          }
+        },
+        {
+          "name": "سوکس",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 217,
+            "SHORT": 383,
+            "LONG": 62
+          }
+        },
+        {
+          "name": "پنجابی",
+          "found": true,
+          "liveChapters": 32,
+          "liveTopics": 32,
+          "mongoChapters": 32,
+          "mongoTopics": 32,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 619,
+            "SHORT": 588,
+            "LONG": 125
+          }
+        },
+        {
+          "name": "اسلامیات اختیاری",
+          "found": true,
+          "liveChapters": 23,
+          "liveTopics": 23,
+          "mongoChapters": 23,
+          "mongoTopics": 23,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 373,
+            "SHORT": 424,
+            "LONG": 0
+          }
+        },
+        {
+          "name": "فزیکل ایجوکیشن",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 17,
+          "mongoChapters": 8,
+          "mongoTopics": 15,
+          "chapterMatch": true,
+          "topicMatch": false,
+          "typeCountsMongo": {
+            "MCQ": 638,
+            "SHORT": 634,
+            "LONG": 35
+          }
+        },
+        {
+          "name": "سوشیالوجی",
+          "found": true,
+          "liveChapters": 14,
+          "liveTopics": 14,
+          "mongoChapters": 14,
+          "mongoTopics": 14,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 590,
+            "SHORT": 432,
+            "LONG": 83
+          }
+        },
+        {
+          "name": "اخلاقیات",
+          "found": true,
+          "liveChapters": 5,
+          "liveTopics": 5,
+          "mongoChapters": 5,
+          "mongoTopics": 5,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 45,
+            "SHORT": 47,
+            "LONG": 19
+          }
+        },
+        {
+          "name": "ترجمۃ القرآن مجید",
+          "found": true,
+          "liveChapters": 17,
+          "liveTopics": 17,
+          "mongoChapters": 17,
+          "mongoTopics": 17,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 347,
+            "SHORT": 337,
+            "LONG": 63
+          }
+        },
+        {
+          "name": "نفسیات",
+          "found": true,
+          "liveChapters": 4,
+          "liveTopics": 19,
+          "mongoChapters": 4,
+          "mongoTopics": 19,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 340,
+            "SHORT": 388,
+            "LONG": 96
+          }
+        },
+        {
+          "name": "فارسی",
+          "found": true,
+          "liveChapters": 30,
+          "liveTopics": 30,
+          "mongoChapters": 30,
+          "mongoTopics": 30,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 120,
+            "SHORT": 179,
+            "LONG": 0
+          }
+        },
+        {
+          "name": "تاریخِ اسلام",
+          "found": true,
+          "liveChapters": 17,
+          "liveTopics": 17,
+          "mongoChapters": 17,
+          "mongoTopics": 17,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 599,
+            "SHORT": 834,
+            "LONG": 103
+          }
+        },
+        {
+          "name": "حَدِیقَۃُ الاَدَبِ",
+          "found": true,
+          "liveChapters": 25,
+          "liveTopics": 25,
+          "mongoChapters": 25,
+          "mongoTopics": 25,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 167,
+            "SHORT": 144,
+            "LONG": 0
+          }
+        },
+        {
+          "name": "اِنسانی جغرافیہ",
+          "found": true,
+          "liveChapters": 6,
+          "liveTopics": 6,
+          "mongoChapters": 6,
+          "mongoTopics": 6,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 93,
+            "SHORT": 217,
+            "LONG": 35
+          }
+        },
+        {
+          "name": "لائبریری سائنس",
+          "found": true,
+          "liveChapters": 4,
+          "liveTopics": 4,
+          "mongoChapters": 4,
+          "mongoTopics": 4,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 357,
+            "SHORT": 743,
+            "LONG": 44
+          }
+        },
+        {
+          "name": "تاریخِ پاکستان",
+          "found": true,
+          "liveChapters": 8,
+          "liveTopics": 8,
+          "mongoChapters": 8,
+          "mongoTopics": 8,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 227,
+            "SHORT": 283,
+            "LONG": 52
+          }
+        },
+        {
+          "name": "ہوم اکنامکس",
+          "found": true,
+          "liveChapters": 18,
+          "liveTopics": 18,
+          "mongoChapters": 18,
+          "mongoTopics": 18,
+          "chapterMatch": true,
+          "topicMatch": true,
+          "typeCountsMongo": {
+            "MCQ": 356,
+            "SHORT": 491,
+            "LONG": 72
+          }
+        }
+      ]
+    }
+  },
+  "summary": {
+    "subjectsCoreMatch": false,
+    "chaptersMatch": false,
+    "topicsMatch": false,
+    "subjectIssues": [
+      {
+        "class": "Class 10",
+        "onlyLive": [],
+        "onlyMongo": [
+          "جنرل ریاضی"
+        ],
+        "liveTech": []
+      }
+    ],
+    "chapterIssues": [
+      {
+        "class": "Class 9",
+        "subject": "Mathematics",
+        "live": 13,
+        "mongo": 13,
+        "onlyLiveSample": [
+          "|unit 1: real number",
+          "|unit 2: logarithms",
+          "|unit 3: set and functions",
+          "|unit 4: factorization and algebraic manipulation",
+          "|unit 5: linear equations and inequalities"
+        ],
+        "onlyMongoSample": [
+          "1|real number",
+          "2|logarithms",
+          "3|set and functions",
+          "4|factorization and algebraic manipulation",
+          "5|linear equations and inequalities"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "English",
+        "live": 13,
+        "mongo": 13,
+        "onlyLiveSample": [
+          "|lesson 1: the saviour of mankind",
+          "|lesson 2: patriotism",
+          "|poem 3: daffodils",
+          "|lesson 4: hazrat asma (r.a)",
+          "|lesson 5: women empowerment through enterpreneuship"
+        ],
+        "onlyMongoSample": [
+          "1|lesson 1: the saviour of mankind",
+          "2|lesson 2: patriotism",
+          "3|poem 3: daffodils",
+          "4|lesson 4: hazrat asma (r.a)",
+          "5|lesson 5: women empowerment through enterpreneuship"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "اُردو لازمی",
+        "live": 21,
+        "mongo": 21,
+        "onlyLiveSample": [
+          "|نثر نمبر1: اخلاق حسنہ",
+          "|نثر نمبر 2: اپنی مدد آپ",
+          "|نثر نمبر 3: کلیم اور مرزا ظاہر دار بیگ",
+          "|نثر نمبر 4: نام دیو-مالی",
+          "|نثر نمبر 5: آرام و سکون"
+        ],
+        "onlyMongoSample": [
+          "1|نثر نمبر1: اخلاق حسنہ",
+          "2|نثر نمبر 2: اپنی مدد آپ",
+          "3|نثر نمبر 3: کلیم اور مرزا ظاہر دار بیگ",
+          "4|نثر نمبر 4: نام دیو-مالی",
+          "5|نثر نمبر 5: آرام و سکون"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "اسلامیات لازمی",
+        "live": 7,
+        "mongo": 7,
+        "onlyLiveSample": [
+          "|باب اول: قرآن مجید اور حدیث نبوی خاتم النبین صلى الله عليه وسلم",
+          "|باب دوم: ایمانیات و عبادات",
+          "|باب سوم: سیرت نبوی خاتم النبین صلى الله عليه وسلم",
+          "|باب چہارم: اخلاق و آداب",
+          "|باب پنجم: حسن معاملات و معاشرت"
+        ],
+        "onlyMongoSample": [
+          "1|باب اول: قرآن مجید اور حدیث نبوی خاتم النبین صلى الله عليه وسلم",
+          "2|باب دوم: ایمانیات و عبادات",
+          "3|باب سوم: سیرت نبوی خاتم النبین صلى الله عليه وسلم",
+          "4|باب چہارم: اخلاق و آداب",
+          "5|باب پنجم: حسن معاملات و معاشرت"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "General Science",
+        "live": 6,
+        "mongo": 6,
+        "onlyLiveSample": [
+          "|باب نمبر 1: سائنس کا تعارف اور کردار",
+          "|باب نمبر 2: ہماری زندگی اور کیمیا",
+          "|باب نمبر 3: بائیو کیمسٹری اور بائیوٹیکنالوجی",
+          "|باب نمبر 4: انسانی صحت",
+          "|باب نمبر 5: بیماریاں، وجوہات اور بچاؤ"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: سائنس کا تعارف اور کردار",
+          "2|باب نمبر 2: ہماری زندگی اور کیمیا",
+          "3|باب نمبر 3: بائیو کیمسٹری اور بائیوٹیکنالوجی",
+          "4|باب نمبر 4: انسانی صحت",
+          "5|باب نمبر 5: بیماریاں، وجوہات اور بچاؤ"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "ایجوکیشن",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 1: تعلیم کے تصورات",
+          "|باب نمبر 2: تعلیم کا دائرہ کار اور وظائف",
+          "|باب نمبر 3: انسانی نشوونما اور بالیدگی",
+          "|باب نمبر 4: تعلّم",
+          "|باب نمبر 5: گھر، سکول اور معاشرہ"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: تعلیم کے تصورات",
+          "2|باب نمبر 2: تعلیم کا دائرہ کار اور وظائف",
+          "3|باب نمبر 3: انسانی نشوونما اور بالیدگی",
+          "4|باب نمبر 4: تعلّم",
+          "5|باب نمبر 5: گھر، سکول اور معاشرہ"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "پنجابی",
+        "live": 22,
+        "mongo": 22,
+        "onlyLiveSample": [
+          "|باب نمبر 1: ذات نبیصلى الله عليه وسلمدی رحمت جھڑیاں",
+          "|باب نمبر 2: لمیاں اُڈیکاں",
+          "|باب نمبر 3: قائداعظم بارے کجھ یاد گار واقعے",
+          "|باب نمبر 4: آسرا",
+          "|باب نمبر 5: حضرت نوشہ گنج بخش"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: ذات نبیصلى الله عليه وسلمدی رحمت جھڑیاں",
+          "2|باب نمبر 2: لمیاں اُڈیکاں",
+          "3|باب نمبر 3: قائداعظم بارے کجھ یاد گار واقعے",
+          "4|باب نمبر 4: آسرا",
+          "5|باب نمبر 5: حضرت نوشہ گنج بخش"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "اسلامیات اختیاری",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|آیات کریمہ",
+          "|احادیث مبارکہ",
+          "|باب اوّل ۔ القرآن",
+          "|باب چہارم ۔ سیرت طیبہ صلى الله عليه وسلم",
+          "|باب پنجم ۔ عربی زبان کی گرامر"
+        ],
+        "onlyMongoSample": [
+          "1|آیات کریمہ",
+          "2|احادیث مبارکہ",
+          "3|باب اوّل ۔ القرآن",
+          "4|باب چہارم ۔ سیرت طیبہ صلى الله عليه وسلم",
+          "5|باب پنجم ۔ عربی زبان کی گرامر"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "ہوم اکنامکس",
+        "live": 8,
+        "mongo": 8,
+        "onlyLiveSample": [
+          "|باب نمبر 1: ہوم اکنامکس کا تعارف",
+          "|باب نمبر 2: غذا اور غذائیت",
+          "|باب نمبر 3: غذا اور خوراک کو سجھنا",
+          "|باب نمبر 4: کھانوں کی تیاری",
+          "|باب نمبر 5: بچوں کی نگہداشت اور نشوونما کا تعارف"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: ہوم اکنامکس کا تعارف",
+          "2|باب نمبر 2: غذا اور غذائیت",
+          "3|باب نمبر 3: غذا اور خوراک کو سجھنا",
+          "4|باب نمبر 4: کھانوں کی تیاری",
+          "5|باب نمبر 5: بچوں کی نگہداشت اور نشوونما کا تعارف"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "سوکس",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر: 1 علم شہریت کا تعارف",
+          "|باب نمبر: 2 افراد کے روابط",
+          "|باب نمبر: 3 ریاست",
+          "|باب نمبر: 4 حکومت",
+          "|باب نمبر: 5 شہری اور ریاست"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر: 1 علم شہریت کا تعارف",
+          "2|باب نمبر: 2 افراد کے روابط",
+          "3|باب نمبر: 3 ریاست",
+          "4|باب نمبر: 4 حکومت",
+          "5|باب نمبر: 5 شہری اور ریاست"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "معاشیات",
+        "live": 7,
+        "mongo": 7,
+        "onlyLiveSample": [
+          "|باب نمبر 1: معاشیات کا تعارف",
+          "|باب نمبر 2: معاشیات کا نفسِ مضمون",
+          "|باب نمبر 3: طلب",
+          "|باب نمبر 4: رسد",
+          "|باب نمبر 5: توازن اور قیمت کا تعین"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: معاشیات کا تعارف",
+          "2|باب نمبر 2: معاشیات کا نفسِ مضمون",
+          "3|باب نمبر 3: طلب",
+          "4|باب نمبر 4: رسد",
+          "5|باب نمبر 5: توازن اور قیمت کا تعین"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "ترجمۃ القرآن المجید",
+        "live": 18,
+        "mongo": 18,
+        "onlyLiveSample": [
+          "|سورۃ نمبر 4: سُورَۃُ مَریَمِ",
+          "|سورۃ نمبر 5: سُورَۃُ طٰہٰ",
+          "|سورۃ نمبر 6: سُورَۃُ الاَنبِیَاءِ",
+          "|سورۃ نمبر 7: سُورَۃُ الَحَجّ",
+          "|سورۃ نمبر 8: سُورَۃُ الفُرقَانَ"
+        ],
+        "onlyMongoSample": [
+          "1|سورۃ نمبر 4: سُورَۃُ مَریَمِ",
+          "2|سورۃ نمبر 5: سُورَۃُ طٰہٰ",
+          "3|سورۃ نمبر 6: سُورَۃُ الاَنبِیَاءِ",
+          "4|سورۃ نمبر 7: سُورَۃُ الَحَجّ",
+          "5|سورۃ نمبر 8: سُورَۃُ الفُرقَانَ"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "اخلاقیات",
+        "live": 10,
+        "mongo": 10,
+        "onlyLiveSample": [
+          "|باب اول: مذاہب کا تعارف",
+          "|باب دوم: عالمی مذاہب",
+          "|باب سوم: اخلاق و اقدار",
+          "|باب چہارم: آداب",
+          "|باب پنجم: مشاہیر"
+        ],
+        "onlyMongoSample": [
+          "1|باب اول: مذاہب کا تعارف",
+          "2|باب دوم: عالمی مذاہب",
+          "3|باب سوم: اخلاق و اقدار",
+          "4|باب چہارم: آداب",
+          "5|باب پنجم: مشاہیر"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "فزیکل ایجوکیشن",
+        "live": 9,
+        "mongo": 9,
+        "onlyLiveSample": [
+          "|باب نمبر 1: تعلیم جسمانی کی تعریف",
+          "|باب نمبر 2: حرکات",
+          "|باب نمبر 3: تعلیمی جمناسٹک",
+          "|باب نمبر 4: قامت",
+          "|باب نمبر 5: منظم کھیلیں"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: تعلیم جسمانی کی تعریف",
+          "2|باب نمبر 2: حرکات",
+          "3|باب نمبر 3: تعلیمی جمناسٹک",
+          "4|باب نمبر 4: قامت",
+          "5|باب نمبر 5: منظم کھیلیں"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "مرغبانی",
+        "live": 6,
+        "mongo": 6,
+        "onlyLiveSample": [
+          "|باب نمبر 1: مرغبانی کا تعارف و اہمیت",
+          "|باب نمبر 2: مرغ کا جسم اور مختلف اعضاء",
+          "|باب نمبر 3: مرغیوں کی نسلیں",
+          "|باب نمبر 4: ہیچری کے انتظامات",
+          "|باب نمبر 5: مرغی خانے کی عمارت"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: مرغبانی کا تعارف و اہمیت",
+          "2|باب نمبر 2: مرغ کا جسم اور مختلف اعضاء",
+          "3|باب نمبر 3: مرغیوں کی نسلیں",
+          "4|باب نمبر 4: ہیچری کے انتظامات",
+          "5|باب نمبر 5: مرغی خانے کی عمارت"
+        ]
+      },
+      {
+        "class": "Class 9",
+        "subject": "غذا اور غذائیت",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 1: غذا اور غذائیت کا تعارف",
+          "|باب نمبر 2: توانائی اور غذائی اجزا",
+          "|باب نمبر 3: متوازن غذا",
+          "|باب نمبر 4: غذاؤں کی اجزائے ترکیبی",
+          "|باب نمبر 5: اشیائے خوردنی کی خریداری اور سٹور کرنا"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: غذا اور غذائیت کا تعارف",
+          "2|باب نمبر 2: توانائی اور غذائی اجزا",
+          "3|باب نمبر 3: متوازن غذا",
+          "4|باب نمبر 4: غذاؤں کی اجزائے ترکیبی",
+          "5|باب نمبر 5: اشیائے خوردنی کی خریداری اور سٹور کرنا"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "Computer",
+        "live": 8,
+        "mongo": 8,
+        "onlyLiveSample": [
+          "|unit 01: operating systems: structure and services",
+          "|unit 02: system recovery and advanced maintenance",
+          "|unit 03: introduction to python programming",
+          "|unit 04: control structures in python",
+          "|unit 05: introduction to data science"
+        ],
+        "onlyMongoSample": [
+          "1|operating systems: structure and services",
+          "2|system recovery and advanced maintenance",
+          "3|introduction to python programming",
+          "4|control structures in python",
+          "5|introduction to data science"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "Mathematics",
+        "live": 12,
+        "mongo": 12,
+        "onlyLiveSample": [
+          "|unit 1: complex numbers",
+          "|unit 2: quadratic equations and inequalities",
+          "|unit 3: matrices and determinants",
+          "|unit 4: functions and graphs",
+          "|unit 5: algebraic fractions"
+        ],
+        "onlyMongoSample": [
+          "1|complex numbers",
+          "2|quadratic equations and inequalities",
+          "3|matrices and determinants",
+          "4|functions and graphs",
+          "5|algebraic fractions"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "English",
+        "live": 15,
+        "mongo": 15,
+        "onlyLiveSample": [
+          "|unit 1: hazrat muhammad’s (صلى الله عليه وسلم) social reforms for the rights of women, orphans and slaves",
+          "|unit 2: my beloved pakistan (poem)",
+          "|unit 3: digital globalisation transforming the english language",
+          "|unit 4: the earth: act now for tomorrow",
+          "|unit 5: the happy prince"
+        ],
+        "onlyMongoSample": [
+          "1|hazrat muhammad’s (صلى الله عليه وسلم) social reforms for the rights of women, orphans and slaves",
+          "2|my beloved pakistan (poem)",
+          "3|digital globalisation transforming the english language",
+          "4|the earth: act now for tomorrow",
+          "5|the happy prince"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "اُردو لازمی",
+        "live": 21,
+        "mongo": 21,
+        "onlyLiveSample": [
+          "|نظم نمبر 1: حمد",
+          "|نظم نمبر 2: نعت",
+          "|نثر نمبر 3: اخلاق نبوی خاتم النبین صلى الله عليه وسلم",
+          "|نثر نمبر 4: سر سید کا بچپن",
+          "|نثر نمبر 5: محسن کا محلہ"
+        ],
+        "onlyMongoSample": [
+          "1|نظم نمبر 1: حمد",
+          "2|نظم نمبر 2: نعت",
+          "3|نثر نمبر 3: اخلاق نبوی خاتم النبین صلى الله عليه وسلم",
+          "4|نثر نمبر 4: سر سید کا بچپن",
+          "5|نثر نمبر 5: محسن کا محلہ"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "اسلامیات لازمی",
+        "live": 7,
+        "mongo": 7,
+        "onlyLiveSample": [
+          "|باب اوّل: قرآن مجید و حدیثِ نبویصلى الله عليه وسلم",
+          "|باب دوم : ایمانیات و عبادات",
+          "|باب سوم : سیرت نبوی خاتم النبین صلى الله عليه وسلم",
+          "|باب چہارم: اخلاق و آداب",
+          "|پاب پنجم: حسن معاشرت و معاملات"
+        ],
+        "onlyMongoSample": [
+          "1|باب اوّل: قرآن مجید و حدیثِ نبویصلى الله عليه وسلم",
+          "2|باب دوم : ایمانیات و عبادات",
+          "3|باب سوم : سیرت نبوی خاتم النبین صلى الله عليه وسلم",
+          "4|باب چہارم: اخلاق و آداب",
+          "5|پاب پنجم: حسن معاشرت و معاملات"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "General Science",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 7: انرجی",
+          "|باب نمبر 8: کرنٹ الیکٹریسٹی",
+          "|باب نمبر 9: بنیادی الیکٹرونکس",
+          "|باب نمبر 10: سائنس اور ٹیکنالوجی",
+          "|باب نمبر 11: پاکستان کا سپیس اور نیو کلئیر پروگرام"
+        ],
+        "onlyMongoSample": [
+          "7|باب نمبر 7: انرجی",
+          "8|باب نمبر 8: کرنٹ الیکٹریسٹی",
+          "9|باب نمبر 9: بنیادی الیکٹرونکس",
+          "10|باب نمبر 10: سائنس اور ٹیکنالوجی",
+          "11|باب نمبر 11: پاکستان کا سپیس اور نیو کلئیر پروگرام"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "ایجوکیشن",
+        "live": 4,
+        "mongo": 4,
+        "onlyLiveSample": [
+          "|باب نمبر 6: پاکستان میں تعلیم",
+          "|باب نمبر 7: نصاب",
+          "|باب نمبر 8: مدرسہ کی سرگرمیوں کی تنظیم",
+          "|باب نمبر 9: رہنمائی اور مشاورت"
+        ],
+        "onlyMongoSample": [
+          "6|باب نمبر 6: پاکستان میں تعلیم",
+          "7|باب نمبر 7: نصاب",
+          "8|باب نمبر 8: مدرسہ کی سرگرمیوں کی تنظیم",
+          "9|باب نمبر 9: رہنمائی اور مشاورت"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "پنجابی",
+        "live": 23,
+        "mongo": 23,
+        "onlyLiveSample": [
+          "|نثر نمبر 7: غازی علم الدین شہید",
+          "|نثر نمبر 8: واپسی",
+          "|نثر نمبر 9: ساڈا وسیب ۔۔ ساڈا ورثہ",
+          "|نثر نمبر 10: قصہ اک طوطے دا",
+          "|نثر نمبر 11: ٹھیڈا"
+        ],
+        "onlyMongoSample": [
+          "1|نثر نمبر 7: غازی علم الدین شہید",
+          "2|نثر نمبر 8: واپسی",
+          "3|نثر نمبر 9: ساڈا وسیب ۔۔ ساڈا ورثہ",
+          "4|نثر نمبر 10: قصہ اک طوطے دا",
+          "5|نثر نمبر 11: ٹھیڈا"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "اسلامیات اختیاری",
+        "live": 4,
+        "mongo": 4,
+        "onlyLiveSample": [
+          "|آیات کریمہ",
+          "|احادیث مبارکہ",
+          "|باب سوم ۔ تعلیماتِ اسلام",
+          "|باب پنجم ۔ عربی زبان کی گرامر"
+        ],
+        "onlyMongoSample": [
+          "1|آیات کریمہ",
+          "2|احادیث مبارکہ",
+          "3|باب سوم ۔ تعلیماتِ اسلام",
+          "4|باب پنجم ۔ عربی زبان کی گرامر"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "ہوم اکنامکس",
+        "live": 7,
+        "mongo": 7,
+        "onlyLiveSample": [
+          "|باب نمبر1: پارچہ بافی اور لباس کا تعارف",
+          "|باب نمبر2: لباس بنانا",
+          "|باب نمبر3: عمر کے مختلف گروپوں کی لباس کی ضروریات",
+          "|باب نمبر4: انتظام کا تعارف",
+          "|باب نمبر5: ماحول اور انتظام"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر1: پارچہ بافی اور لباس کا تعارف",
+          "2|باب نمبر2: لباس بنانا",
+          "3|باب نمبر3: عمر کے مختلف گروپوں کی لباس کی ضروریات",
+          "4|باب نمبر4: انتظام کا تعارف",
+          "5|باب نمبر5: ماحول اور انتظام"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "سوکس",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 6 : حقوق و فرائض",
+          "|باب نمبر 7 : نظریہ پاکستان اور تحریک پاکستان",
+          "|باب نمبر 8 : پاکستان میں آئینی ارتقاء",
+          "|باب نمبر 9 : پاکستان میں مقامی حکومتیں",
+          "|باب نمبر 10 : پاکستان اور اس کے ہمسایہ ممالک"
+        ],
+        "onlyMongoSample": [
+          "6|باب نمبر 6 : حقوق و فرائض",
+          "7|باب نمبر 7 : نظریہ پاکستان اور تحریک پاکستان",
+          "8|باب نمبر 8 : پاکستان میں آئینی ارتقاء",
+          "9|باب نمبر 9 : پاکستان میں مقامی حکومتیں",
+          "10|باب نمبر 10 : پاکستان اور اس کے ہمسایہ ممالک"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "معاشیات",
+        "live": 7,
+        "mongo": 7,
+        "onlyLiveSample": [
+          "|باب نمبر 8: قومی آمدنی کے بنیادی تصورات",
+          "|باب نمبر 9: زر",
+          "|باب نمبر 10: بنک",
+          "|باب نمبر 11: تجارت",
+          "|باب نمبر 12: سرکاری مالیات"
+        ],
+        "onlyMongoSample": [
+          "8|باب نمبر 8: قومی آمدنی کے بنیادی تصورات",
+          "9|باب نمبر 9: زر",
+          "10|باب نمبر 10: بنک",
+          "11|باب نمبر 11: تجارت",
+          "12|باب نمبر 12: سرکاری مالیات"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "ترجمۃ القرآن المجید",
+        "live": 15,
+        "mongo": 15,
+        "onlyLiveSample": [
+          "|سورۃ نمبر 4: سُورَۃُ الاَنعَامِ",
+          "|سورۃ نمبر 5: سُورَۃُ الاَعرَافِ",
+          "|سورۃ نمبر 6: سُورَۃُ یُونُسَ",
+          "|سورۃ نمبر 7: سُورَۃُ ھُودِِ",
+          "|سورۃ نمب 8: سُورَۃُ الرَّعدِ"
+        ],
+        "onlyMongoSample": [
+          "1|سورۃ نمبر 4: سُورَۃُ الاَنعَامِ",
+          "2|سورۃ نمبر 5: سُورَۃُ الاَعرَافِ",
+          "3|سورۃ نمبر 6: سُورَۃُ یُونُسَ",
+          "4|سورۃ نمبر 7: سُورَۃُ ھُودِِ",
+          "5|سورۃ نمب 8: سُورَۃُ الرَّعدِ"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "اخلاقیات",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب اول: مذاہب کا تعارف",
+          "|باب دوم: عالمی مذاہب",
+          "|باب سوم: اخلاق و اقدار",
+          "|باب چہارم: آداب",
+          "|باب پنجم: مشاہیر"
+        ],
+        "onlyMongoSample": [
+          "1|باب اول: مذاہب کا تعارف",
+          "2|باب دوم: عالمی مذاہب",
+          "3|باب سوم: اخلاق و اقدار",
+          "4|باب چہارم: آداب",
+          "5|باب پنجم: مشاہیر"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "فزیکل ایجوکیشن",
+        "live": 8,
+        "mongo": 8,
+        "onlyLiveSample": [
+          "|باب نمبر 1: فزیکل فٹنس",
+          "|باب نمبر 2: تفریحی اور چھوٹے رقبے کے کھیل",
+          "|باب نمبر 3: قامتی نقائص کی اصلاحی ورزشیں",
+          "|باب نمبر 4: کھیلیں",
+          "|باب نمبر 5: اتھلیٹکس"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: فزیکل فٹنس",
+          "2|باب نمبر 2: تفریحی اور چھوٹے رقبے کے کھیل",
+          "3|باب نمبر 3: قامتی نقائص کی اصلاحی ورزشیں",
+          "4|باب نمبر 4: کھیلیں",
+          "5|باب نمبر 5: اتھلیٹکس"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "مرغبانی",
+        "live": 6,
+        "mongo": 6,
+        "onlyLiveSample": [
+          "|باب نمبر 7: مرغیوں کی خوراک",
+          "|باب نمبر 8: برائلر پرندوں کی پرورش",
+          "|باب نمبر 9: لیئر مرغیوں کی پرورش",
+          "|باب نمبر 10: مرغیوں کے امراض",
+          "|باب نمبر 11: مرغیوں میں بیماریوں کی روک تھام"
+        ],
+        "onlyMongoSample": [
+          "7|باب نمبر 7: مرغیوں کی خوراک",
+          "8|باب نمبر 8: برائلر پرندوں کی پرورش",
+          "9|باب نمبر 9: لیئر مرغیوں کی پرورش",
+          "10|باب نمبر 10: مرغیوں کے امراض",
+          "11|باب نمبر 11: مرغیوں میں بیماریوں کی روک تھام"
+        ]
+      },
+      {
+        "class": "Class 10",
+        "subject": "غذا اور غذائیت",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 6: غذاؤں کی تیاری اور پکانے کے طریقے",
+          "|باب نمبر 7: خاندان اور معاشرے کی غذائیت",
+          "|باب نمبر 8: انتظام طعام",
+          "|باب نمبر 9: میز لگانا اور کھانا پیش کرنا",
+          "|باب نمبر 10: غذاؤں کو محفوظ کرنا"
+        ],
+        "onlyMongoSample": [
+          "6|باب نمبر 6: غذاؤں کی تیاری اور پکانے کے طریقے",
+          "7|باب نمبر 7: خاندان اور معاشرے کی غذائیت",
+          "8|باب نمبر 8: انتظام طعام",
+          "9|باب نمبر 9: میز لگانا اور کھانا پیش کرنا",
+          "10|باب نمبر 10: غذاؤں کو محفوظ کرنا"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "Biology",
+        "live": 12,
+        "mongo": 11,
+        "onlyLiveSample": [
+          "7|structural and computational biology"
+        ],
+        "onlyMongoSample": []
+      },
+      {
+        "class": "Class 11",
+        "subject": "Chemistry",
+        "live": 16,
+        "mongo": 14,
+        "onlyLiveSample": [
+          "15|basic separation techniques",
+          "16|lab safety and practical skills"
+        ],
+        "onlyMongoSample": []
+      },
+      {
+        "class": "Class 11",
+        "subject": "Mathematics",
+        "live": 14,
+        "mongo": 13,
+        "onlyLiveSample": [
+          "|unit 1: complex numbers",
+          "|unit 2: functions and graphs",
+          "|unit 3: theory of quadratic functions",
+          "|unit 4: matrices and determinants",
+          "|unit 5: partial fractions"
+        ],
+        "onlyMongoSample": [
+          "1|complex numbers",
+          "2|functions and graphs",
+          "3|theory of quadratic functions",
+          "4|matrices and determinants",
+          "5|partial fractions"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "Economics",
+        "live": 12,
+        "mongo": 12,
+        "onlyLiveSample": [
+          "|باب نمبر 1: معاشیات کی نوعیت اور وسعت",
+          "|باب نمبر 2: رؤیہ صارف کا تجزیہ",
+          "|باب نمبر 3: معاشیات میں شماریات اور ریاضی کے بنیادی آلات",
+          "|باب نمبر 4: طلب",
+          "|باب نمبر 5: رسد"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: معاشیات کی نوعیت اور وسعت",
+          "2|باب نمبر 2: رؤیہ صارف کا تجزیہ",
+          "3|باب نمبر 3: معاشیات میں شماریات اور ریاضی کے بنیادی آلات",
+          "4|باب نمبر 4: طلب",
+          "5|باب نمبر 5: رسد"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "English",
+        "live": 16,
+        "mongo": 16,
+        "onlyLiveSample": [
+          "|unit 1: khatam-un-nabiyeen hazrat muhammad (saw)",
+          "|unit 2: responsibility of the youth in nation-building",
+          "|unit 3: a bird came down the walk (poem)",
+          "|unit 4: team moon",
+          "|unit 5: impact of global warming on pakistan"
+        ],
+        "onlyMongoSample": [
+          "1|khatam-un-nabiyeen hazrat muhammad (saw)",
+          "2|responsibility of the youth in nation-building",
+          "3|a bird came down the walk (poem)",
+          "4|team moon",
+          "5|impact of global warming on pakistan"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "Business Maths",
+        "live": 6,
+        "mongo": 6,
+        "onlyLiveSample": [
+          "|unit 1: business arithmetic",
+          "|unit 2: mathematics of finance",
+          "|unit 3: linear, quadratic & simultaneous equations",
+          "|unit 4: functions & their graphs",
+          "|unit 5: elements of matrix algebra"
+        ],
+        "onlyMongoSample": [
+          "1|business arithmetic",
+          "2|mathematics of finance",
+          "3|linear, quadratic & simultaneous equations",
+          "4|functions & their graphs",
+          "5|elements of matrix algebra"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "اسلامیات لازمی",
+        "live": 7,
+        "mongo": 7,
+        "onlyLiveSample": [
+          "|باب نمبر 1: قرآن مجیدوحدیث خاتم النبین صلى الله عليه وسلم",
+          "|باب نمبر 2: ایمانیات وعبادات",
+          "|باب نمبر 3: سیرت نبوی خاتم النبینصلى الله عليه وسلم",
+          "|باب نمبر 4: اخلاق وآداب",
+          "|باب نمبر 5: حسن معاملات ومعاشرت"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: قرآن مجیدوحدیث خاتم النبین صلى الله عليه وسلم",
+          "2|باب نمبر 2: ایمانیات وعبادات",
+          "3|باب نمبر 3: سیرت نبوی خاتم النبینصلى الله عليه وسلم",
+          "4|باب نمبر 4: اخلاق وآداب",
+          "5|باب نمبر 5: حسن معاملات ومعاشرت"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "اُردو لازمی",
+        "live": 24,
+        "mongo": 24,
+        "onlyLiveSample": [
+          "|نظم نمبر 1: حمد",
+          "|نظم نمبر 2: نعت",
+          "|نثر نمبر 1: اخلاقِ نبویصلى الله عليه وسلم",
+          "|نثر نمبر 2: فاقہ میں روزہ",
+          "|نثر نمبر 3: مکاتیبِ غالب"
+        ],
+        "onlyMongoSample": [
+          "1|نظم نمبر 1: حمد",
+          "2|نظم نمبر 2: نعت",
+          "3|نثر نمبر 1: اخلاقِ نبویصلى الله عليه وسلم",
+          "4|نثر نمبر 2: فاقہ میں روزہ",
+          "5|نثر نمبر 3: مکاتیبِ غالب"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "ایجوکیشن",
+        "live": 8,
+        "mongo": 8,
+        "onlyLiveSample": [
+          "|باب نمبر 1: تعلیم",
+          "|باب نمبر 2: مقاصد تعلیم",
+          "|باب نمبر 3: تعلیم کی بنیادیں",
+          "|باب نمبر 4: انسانی نشوونما",
+          "|باب نمبر 5: تعلّم"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: تعلیم",
+          "2|باب نمبر 2: مقاصد تعلیم",
+          "3|باب نمبر 3: تعلیم کی بنیادیں",
+          "4|باب نمبر 4: انسانی نشوونما",
+          "5|باب نمبر 5: تعلّم"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "سوکس",
+        "live": 9,
+        "mongo": 9,
+        "onlyLiveSample": [
+          "|باب نمبر 1: علم شہریت کا تعارف",
+          "|باب نمبر 2: علم شہریت کے بنیادی تصورات",
+          "|باب نمبر 3: ریاست",
+          "|باب نمبر 4: اقتداراعلیٰ",
+          "|باب نمبر 5: حکومت"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: علم شہریت کا تعارف",
+          "2|باب نمبر 2: علم شہریت کے بنیادی تصورات",
+          "3|باب نمبر 3: ریاست",
+          "4|باب نمبر 4: اقتداراعلیٰ",
+          "5|باب نمبر 5: حکومت"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "پنجابی",
+        "live": 37,
+        "mongo": 37,
+        "onlyLiveSample": [
+          "|نثر نمبر 1: معراج شریف",
+          "|نثر نمبر 2: پنجابی زبان دی کہانی",
+          "|نثر نمبر 3: حضرت بہاؤ الدین زکریا ملتانی",
+          "|نثر نمبر 4: پاکستان بن گیا اے",
+          "|نثر نمبر 5: ٹاہلی تھلے"
+        ],
+        "onlyMongoSample": [
+          "1|نثر نمبر 1: معراج شریف",
+          "2|نثر نمبر 2: پنجابی زبان دی کہانی",
+          "3|نثر نمبر 3: حضرت بہاؤ الدین زکریا ملتانی",
+          "4|نثر نمبر 4: پاکستان بن گیا اے",
+          "5|نثر نمبر 5: ٹاہلی تھلے"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "اسلامیات اختیاری",
+        "live": 10,
+        "mongo": 10,
+        "onlyLiveSample": [
+          "|باب نمبر 1: تہذیب وتمدن",
+          "|باب نمبر 2: تقوٰی، ذکر، شکر، عفودرگزر، عدل، احسان، خدمت خلق",
+          "|باب نمبر 3: خاندانی و عائلی زندگی، والدین کے حقوق، حقوق الزوجین",
+          "|باب نمبر 4: اسلام کا نظام تعلیم، شاگرد کے حقوق، استاد کے حقوق، مکتب ، مسجد",
+          "|باب نمبر 5: صلہ رحمی، ہمسائے کے حقوق، شہری کے حقوق و فرائض"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: تہذیب وتمدن",
+          "2|باب نمبر 2: تقوٰی، ذکر، شکر، عفودرگزر، عدل، احسان، خدمت خلق",
+          "3|باب نمبر 3: خاندانی و عائلی زندگی، والدین کے حقوق، حقوق الزوجین",
+          "4|باب نمبر 4: اسلام کا نظام تعلیم، شاگرد کے حقوق، استاد کے حقوق، مکتب ، مسجد",
+          "5|باب نمبر 5: صلہ رحمی، ہمسائے کے حقوق، شہری کے حقوق و فرائض"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "فزیکل ایجوکیشن",
+        "live": 10,
+        "mongo": 10,
+        "onlyLiveSample": [
+          "|باب نمبر 1: جسمانی تعلیم کی تعریف واہمیت",
+          "|باب نمبر 2: جسمانی تعلیم کے اغراض ومقاصد",
+          "|باب نمبر 3: جسمانی سرگرمیوں کا دائرہ کار",
+          "|باب نمبر 4: منظم کھیل",
+          "|باب نمبر 5: کسرتی کھیلوں کے ضابطے اور بنیادی مہارتیں"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: جسمانی تعلیم کی تعریف واہمیت",
+          "2|باب نمبر 2: جسمانی تعلیم کے اغراض ومقاصد",
+          "3|باب نمبر 3: جسمانی سرگرمیوں کا دائرہ کار",
+          "4|باب نمبر 4: منظم کھیل",
+          "5|باب نمبر 5: کسرتی کھیلوں کے ضابطے اور بنیادی مہارتیں"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "سوشیالوجی",
+        "live": 15,
+        "mongo": 15,
+        "onlyLiveSample": [
+          "|باب نمبر 1: عمرانیات کا تعارف",
+          "|باب نمبر 2: عمرانیات بطور سائنس",
+          "|باب نمبر 3: عمرانیات اور ہماری زندگی",
+          "|باب نمبر 4: معاشرتی تفاعل",
+          "|باب نمبر 5: معاشرتی گروہ"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: عمرانیات کا تعارف",
+          "2|باب نمبر 2: عمرانیات بطور سائنس",
+          "3|باب نمبر 3: عمرانیات اور ہماری زندگی",
+          "4|باب نمبر 4: معاشرتی تفاعل",
+          "5|باب نمبر 5: معاشرتی گروہ"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "اخلاقیات",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 1: مذاہب کا تعارف",
+          "|باب نمبر 2: پاکستان میں مختلف مذاہب",
+          "|باب نمبر 3: اخلاقی اقدار",
+          "|باب نمبر 4 : آداب",
+          "|باب نمبر 5: مشاہیر"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: مذاہب کا تعارف",
+          "2|باب نمبر 2: پاکستان میں مختلف مذاہب",
+          "3|باب نمبر 3: اخلاقی اقدار",
+          "4|باب نمبر 4 : آداب",
+          "5|باب نمبر 5: مشاہیر"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "ترجمۃ القرآن مجید",
+        "live": 4,
+        "mongo": 4,
+        "onlyLiveSample": [
+          "|سورۃ نمبر 4: سُورۃُ اَلبَقرَۃِ",
+          "|سورۃ نمبر 8: سُورۃُ آلِ عِمرٰان",
+          "|سورۃ نمبر 12: سُورۃُ آلِ الانفال",
+          "|سورۃ نمبر 16: سُورۃُ التوبہ"
+        ],
+        "onlyMongoSample": [
+          "1|سورۃ نمبر 4: سُورۃُ اَلبَقرَۃِ",
+          "2|سورۃ نمبر 8: سُورۃُ آلِ عِمرٰان",
+          "3|سورۃ نمبر 12: سُورۃُ آلِ الانفال",
+          "4|سورۃ نمبر 16: سُورۃُ التوبہ"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "نفسیات",
+        "live": 9,
+        "mongo": 9,
+        "onlyLiveSample": [
+          "|باب نمبر 1: نفسیات کا تعارف",
+          "|باب نمبر 2: اسالیبِ تحقیق",
+          "|باب نمبر 3: نظامِ عصبی اور کردار",
+          "|باب نمبر 4: حواس، توجہ اور ادراکِ حواس",
+          "|باب نمبر 5: آموزش اور حافظہ"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: نفسیات کا تعارف",
+          "2|باب نمبر 2: اسالیبِ تحقیق",
+          "3|باب نمبر 3: نظامِ عصبی اور کردار",
+          "4|باب نمبر 4: حواس، توجہ اور ادراکِ حواس",
+          "5|باب نمبر 5: آموزش اور حافظہ"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "فارسی",
+        "live": 31,
+        "mongo": 31,
+        "onlyLiveSample": [
+          "|درس نمبر 1: ترجمہ سورہ الحمد",
+          "|درس نمبر 2: نعت",
+          "|درس نمبر 3: کلام خدا",
+          "|درس نمبر 4: کتاب",
+          "|درس نمبر 5: سید علی ہجویریؒ (خلفای راشدین)"
+        ],
+        "onlyMongoSample": [
+          "1|درس نمبر 1: ترجمہ سورہ الحمد",
+          "2|درس نمبر 2: نعت",
+          "3|درس نمبر 3: کلام خدا",
+          "4|درس نمبر 4: کتاب",
+          "5|درس نمبر 5: سید علی ہجویریؒ (خلفای راشدین)"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "تاریخِ اسلام",
+        "live": 24,
+        "mongo": 24,
+        "onlyLiveSample": [
+          "|باب نمبر 1: عرب قبل از اسلام اور باشندے",
+          "|باب نمبر 2: رسول اللہ صلى الله عليه وسلم کی ابتدائی زندگی",
+          "|باب نمبر 3: مکہ میں اشاعت اسلام",
+          "|باب نمبر 4: مکہ میں اشاعت اسلام (i)",
+          "|باب نمبر 5 : مدینہ میں اشاعت اسلام (ii)"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: عرب قبل از اسلام اور باشندے",
+          "2|باب نمبر 2: رسول اللہ صلى الله عليه وسلم کی ابتدائی زندگی",
+          "3|باب نمبر 3: مکہ میں اشاعت اسلام",
+          "4|باب نمبر 4: مکہ میں اشاعت اسلام (i)",
+          "5|باب نمبر 5 : مدینہ میں اشاعت اسلام (ii)"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "حَدِیقَۃُ الاَدَبِ",
+        "live": 25,
+        "mongo": 25,
+        "onlyLiveSample": [
+          "|سبق نمبر 1: مِنْ ھَدْیِ الْقُرْآنِ الْکَرِیْمِ",
+          "|سبق نمبر 2: مِنْ ھَدْیِ الْاَحَادِیْث",
+          "|سبق نمبر 3: فِکْرَۃُ انْشَاءٍ بَاکِسْتَان",
+          "|سبق نمبر 4: کِتَابُ اَلْفُ لَیْلَۃٍ وَّ لَیْلَۃٌ",
+          "|سبق نمبر 5: فِیْ الْحَمْدِ لِلّٰہِ وَالثَۤنَاءِ عَلَیْہِ"
+        ],
+        "onlyMongoSample": [
+          "1|سبق نمبر 1: مِنْ ھَدْیِ الْقُرْآنِ الْکَرِیْمِ",
+          "2|سبق نمبر 2: مِنْ ھَدْیِ الْاَحَادِیْث",
+          "3|سبق نمبر 3: فِکْرَۃُ انْشَاءٍ بَاکِسْتَان",
+          "4|سبق نمبر 4: کِتَابُ اَلْفُ لَیْلَۃٍ وَّ لَیْلَۃٌ",
+          "5|سبق نمبر 5: فِیْ الْحَمْدِ لِلّٰہِ وَالثَۤنَاءِ عَلَیْہِ"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "طبعی جغرافیہ",
+        "live": 8,
+        "mongo": 8,
+        "onlyLiveSample": [
+          "|باب نمبر 1: طبعی جغرافیہ",
+          "|باب نمبر 2: زمین کی اندرونی ساخت",
+          "|باب نمبر 3: زمینی خدوخال",
+          "|باب نمبر 4: کرہ ہوائی",
+          "|باب نمبر 5: ہواؤں کا عالمی نظام"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: طبعی جغرافیہ",
+          "2|باب نمبر 2: زمین کی اندرونی ساخت",
+          "3|باب نمبر 3: زمینی خدوخال",
+          "4|باب نمبر 4: کرہ ہوائی",
+          "5|باب نمبر 5: ہواؤں کا عالمی نظام"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "لائبریری سائنس",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 1: کتب خانہ",
+          "|باب نمبر 2: فن تحریر",
+          "|باب نمبر 3: لائبریری مواد",
+          "|باب نمبر 4: کتب خانوں کی تحریر",
+          "|باب نمبر 5: انفارمیشن"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: کتب خانہ",
+          "2|باب نمبر 2: فن تحریر",
+          "3|باب نمبر 3: لائبریری مواد",
+          "4|باب نمبر 4: کتب خانوں کی تحریر",
+          "5|باب نمبر 5: انفارمیشن"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "ہوم اکنامکس",
+        "live": 11,
+        "mongo": 11,
+        "onlyLiveSample": [
+          "|باب نمبر 1: بچوں کی نشوونما",
+          "|باب نمبر 2: ذات کا تصور اور شخصیت کی نشوونما",
+          "|باب نمبر 3: خاندان اور افراد خانہ کے باہمی تعلقات",
+          "|باب نمبر 4: بچوں کو سمجھنا اور ان کی رہنمائی کرنا",
+          "|باب نمبر 5: انتظام خانہ داری کا تعارف و مقاصد"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: بچوں کی نشوونما",
+          "2|باب نمبر 2: ذات کا تصور اور شخصیت کی نشوونما",
+          "3|باب نمبر 3: خاندان اور افراد خانہ کے باہمی تعلقات",
+          "4|باب نمبر 4: بچوں کو سمجھنا اور ان کی رہنمائی کرنا",
+          "5|باب نمبر 5: انتظام خانہ داری کا تعارف و مقاصد"
+        ]
+      },
+      {
+        "class": "Class 11",
+        "subject": "تاریخ پاکستان",
+        "live": 15,
+        "mongo": 15,
+        "onlyLiveSample": [
+          "|باب نمبر 1: دو قومی نظریہ کا ارتقا",
+          "|باب نمبر 2: جنگ آزادی 1857",
+          "|باب نمبر 3: سر سید احمد خان",
+          "|باب نمبر 4: مذہبی اور سیاسی تحرکیں",
+          "|باب نمبر 5: تقسیم بنگال"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: دو قومی نظریہ کا ارتقا",
+          "2|باب نمبر 2: جنگ آزادی 1857",
+          "3|باب نمبر 3: سر سید احمد خان",
+          "4|باب نمبر 4: مذہبی اور سیاسی تحرکیں",
+          "5|باب نمبر 5: تقسیم بنگال"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "MATHEMATICS",
+        "live": 11,
+        "mongo": 11,
+        "onlyLiveSample": [
+          "|unit 1: graphical representation of functions",
+          "|unit 2: further differentiation",
+          "|unit 3: integration",
+          "|unit 4: differential equations",
+          "|unit 5: analytical geometry"
+        ],
+        "onlyMongoSample": [
+          "1|graphical representation of functions",
+          "2|further differentiation",
+          "3|integration",
+          "4|differential equations",
+          "5|analytical geometry"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "Economics",
+        "live": 13,
+        "mongo": 13,
+        "onlyLiveSample": [
+          "|باب نمبر 1: قومی آمدنی",
+          "|باب نمبر 2: زر",
+          "|باب نمبر 3: بینک",
+          "|باب نمبر 4: سرکاری مالیات",
+          "|باب نمبر 5: بین الاقوامی تجارت"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: قومی آمدنی",
+          "2|باب نمبر 2: زر",
+          "3|باب نمبر 3: بینک",
+          "4|باب نمبر 4: سرکاری مالیات",
+          "5|باب نمبر 5: بین الاقوامی تجارت"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "ENGLISH",
+        "live": 14,
+        "mongo": 14,
+        "onlyLiveSample": [
+          "|unit 01: journey to taif",
+          "|unit 02: the last lesson",
+          "|unit 03: on his blindness (poem)",
+          "|unit 04: the power of digital learning",
+          "|unit 05: the giving tree"
+        ],
+        "onlyMongoSample": [
+          "1|journey to taif",
+          "2|the last lesson",
+          "3|on his blindness (poem)",
+          "4|the power of digital learning",
+          "5|the giving tree"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "Commercial Geography",
+        "live": 19,
+        "mongo": 18,
+        "onlyLiveSample": [],
+        "onlyMongoSample": []
+      },
+      {
+        "class": "Class 12",
+        "subject": "Pakistan Studies",
+        "live": 6,
+        "mongo": 6,
+        "onlyLiveSample": [
+          "6|pakistan and international affairs",
+          "4|resources and economic development of pakistan"
+        ],
+        "onlyMongoSample": [
+          "4|pakistan and international affairs",
+          "6|pakistan's resources and economic development"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "اُردو لازمی",
+        "live": 24,
+        "mongo": 24,
+        "onlyLiveSample": [
+          "|نظم نمبر 1: حمد",
+          "|نظم نمبر 2: نعت",
+          "|نثر نمبر 3: ہجرت حبشہ",
+          "|نثر نمبر 4: ماں جی",
+          "|نثر نمبر 5: کافی"
+        ],
+        "onlyMongoSample": [
+          "1|نظم نمبر 1: حمد",
+          "2|نظم نمبر 2: نعت",
+          "3|نثر نمبر 3: ہجرت حبشہ",
+          "4|نثر نمبر 4: ماں جی",
+          "5|نثر نمبر 5: کافی"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "ایجوکیشن",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 1: برصغیر میں مسلمانوں کی تعلیم",
+          "|باب نمبر 2: جنوبی ایشیا میں برطانوی نظام تعلیم",
+          "|باب نمبر 3: پاکستان کی تعلیمی پالیسیاں اور منصوبے",
+          "|باب نمبر 4: پاکستان کے تعلیمی مسائل",
+          "|باب نمبر 5: تعلیم کے فروغ کے لئے مختلف تنظیموں کا کردار"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: برصغیر میں مسلمانوں کی تعلیم",
+          "2|باب نمبر 2: جنوبی ایشیا میں برطانوی نظام تعلیم",
+          "3|باب نمبر 3: پاکستان کی تعلیمی پالیسیاں اور منصوبے",
+          "4|باب نمبر 4: پاکستان کے تعلیمی مسائل",
+          "5|باب نمبر 5: تعلیم کے فروغ کے لئے مختلف تنظیموں کا کردار"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "سوکس",
+        "live": 6,
+        "mongo": 6,
+        "onlyLiveSample": [
+          "|باب نمبر 1: تحریکِ پاکستان",
+          "|باب نمبر 2: آئینی ارتقا 73-1947ء",
+          "|باب نمبر 3: پاکستان میں معاشرتی خدمات",
+          "|باب نمبر 4: پاکستان میں معاشرتی نظم و ضبط",
+          "|باب نمبر 5: قومی یکجہتی و سالمیت"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: تحریکِ پاکستان",
+          "2|باب نمبر 2: آئینی ارتقا 73-1947ء",
+          "3|باب نمبر 3: پاکستان میں معاشرتی خدمات",
+          "4|باب نمبر 4: پاکستان میں معاشرتی نظم و ضبط",
+          "5|باب نمبر 5: قومی یکجہتی و سالمیت"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "پنجابی",
+        "live": 32,
+        "mongo": 32,
+        "onlyLiveSample": [
+          "|نثر نمبر 1: تصوف تے پنجابی زبان",
+          "|نثر نمبر 2: زراعت کہانی",
+          "|نثر نمبر 3: پتنگے",
+          "|نثر نمبر 4: پچھلی پڑھائی",
+          "|نثر نمبر 5: پنجابی نثر دیاں ونڈاں"
+        ],
+        "onlyMongoSample": [
+          "1|نثر نمبر 1: تصوف تے پنجابی زبان",
+          "2|نثر نمبر 2: زراعت کہانی",
+          "3|نثر نمبر 3: پتنگے",
+          "4|نثر نمبر 4: پچھلی پڑھائی",
+          "5|نثر نمبر 5: پنجابی نثر دیاں ونڈاں"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "اسلامیات اختیاری",
+        "live": 23,
+        "mongo": 23,
+        "onlyLiveSample": [
+          "|باب نمبر 1: تعارفِ مطالعہ قرآن، نزول وحی، تدوین قرآن مجید، حفاظت قرآن مجید",
+          "|سورۃ بقرہ رکوع: 1,2",
+          "|سورۃ بقرہ رکوع: 3,4",
+          "|سورۃ بقرہ رکوع: 5,6",
+          "|سورۃ بقرہ رکوع: 7,8"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: تعارفِ مطالعہ قرآن، نزول وحی، تدوین قرآن مجید، حفاظت قرآن مجید",
+          "2|سورۃ بقرہ رکوع: 1,2",
+          "3|سورۃ بقرہ رکوع: 3,4",
+          "3|باب نمبر 3: تعارف حدیث، ضرورت و اہمیت، جمع وتدوین کتب حدیث",
+          "4|سورۃ بقرہ رکوع: 5,6"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "فزیکل ایجوکیشن",
+        "live": 8,
+        "mongo": 8,
+        "onlyLiveSample": [
+          "|باب نمبر 6: کھیلوں کی افادیت",
+          "|باب نمبر 7: منظم کھیل",
+          "|باب نمبر 8: کسرتی کھیل",
+          "|باب نمبر 9: جسمانی نظام",
+          "|باب نمبر 10: خوراک اور غذائیت"
+        ],
+        "onlyMongoSample": [
+          "6|باب نمبر 6: کھیلوں کی افادیت",
+          "7|باب نمبر 7: منظم کھیل",
+          "8|باب نمبر 8: کسرتی کھیل",
+          "9|باب نمبر 9: جسمانی نظام",
+          "10|باب نمبر 10: خوراک اور غذائیت"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "سوشیالوجی",
+        "live": 14,
+        "mongo": 14,
+        "onlyLiveSample": [
+          "|باب نمبر 1: پاکستان کا نسلی وثقافتی ورثہ",
+          "|باب نمبر 2: پاکستان کی نظریاتی بنیادیں",
+          "|باب نمبر 3: پاکستان کی ذیلی ثقافتیں",
+          "|باب نمبر 4: ثقافتی یکجہتی",
+          "|باب نمبر 5: پنجاب کی دیہی آباد کاری"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: پاکستان کا نسلی وثقافتی ورثہ",
+          "2|باب نمبر 2: پاکستان کی نظریاتی بنیادیں",
+          "3|باب نمبر 3: پاکستان کی ذیلی ثقافتیں",
+          "4|باب نمبر 4: ثقافتی یکجہتی",
+          "5|باب نمبر 5: پنجاب کی دیہی آباد کاری"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "اخلاقیات",
+        "live": 5,
+        "mongo": 5,
+        "onlyLiveSample": [
+          "|باب نمبر 1: مذاہب کا تعارف",
+          "|باب نمبر 2: پاکستان میں مختلف مذاہب",
+          "|باب نمبر 3: اخلاقی اقدار",
+          "|باب نمبر 4 : آداب",
+          "|باب نمبر 5: مشاہیر"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: مذاہب کا تعارف",
+          "2|باب نمبر 2: پاکستان میں مختلف مذاہب",
+          "3|باب نمبر 3: اخلاقی اقدار",
+          "4|باب نمبر 4 : آداب",
+          "5|باب نمبر 5: مشاہیر"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "ترجمۃ القرآن مجید",
+        "live": 17,
+        "mongo": 17,
+        "onlyLiveSample": [
+          "|سورۃ نمبر 4: سُورَۃُ النِسَآءِ",
+          "|سورۃ نمبر 5: سُورَۃُ المَآئِدَۃِ",
+          "|سورۃ نمبر6: سُورَۃُ النُّورِ",
+          "|سورۃ نمبر 7: سُورَۃُ الاَحزَابِ",
+          "|سورۃ نمبر 8: سُورَۃُ مُحَمَّدِِ"
+        ],
+        "onlyMongoSample": [
+          "1|سورۃ نمبر 4: سُورَۃُ النِسَآءِ",
+          "2|سورۃ نمبر 5: سُورَۃُ المَآئِدَۃِ",
+          "3|سورۃ نمبر6: سُورَۃُ النُّورِ",
+          "4|سورۃ نمبر 7: سُورَۃُ الاَحزَابِ",
+          "5|سورۃ نمبر 8: سُورَۃُ مُحَمَّدِِ"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "نفسیات",
+        "live": 4,
+        "mongo": 4,
+        "onlyLiveSample": [
+          "|حصہ اوّل: نموئی نفسیات",
+          "|حصہ دوم: صحت کی نفسیات",
+          "|حصہ سوم: سماجی نفسیات",
+          "|حصہ چہارم: رہنمائی اور مشاورت"
+        ],
+        "onlyMongoSample": [
+          "1|حصہ اوّل: نموئی نفسیات",
+          "2|حصہ دوم: صحت کی نفسیات",
+          "3|حصہ سوم: سماجی نفسیات",
+          "4|حصہ چہارم: رہنمائی اور مشاورت"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "فارسی",
+        "live": 30,
+        "mongo": 30,
+        "onlyLiveSample": [
+          "|درس نمبر 1: حمد",
+          "|درس نمبر 2: نعت",
+          "|درس نمبر 3: عین القضات ھمدانیؒ برگزیدہ نامہ ھا",
+          "|درس نمبر 4: رباعیات ابو سعید ابوالخیر",
+          "|درس نمبر 5: دمی با شیخ ابو سعید ابو الخیرؒ"
+        ],
+        "onlyMongoSample": [
+          "1|درس نمبر 1: حمد",
+          "2|درس نمبر 2: نعت",
+          "3|درس نمبر 3: عین القضات ھمدانیؒ برگزیدہ نامہ ھا",
+          "4|درس نمبر 4: رباعیات ابو سعید ابوالخیر",
+          "5|درس نمبر 5: دمی با شیخ ابو سعید ابو الخیرؒ"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "تاریخِ اسلام",
+        "live": 17,
+        "mongo": 17,
+        "onlyLiveSample": [
+          "|باب نمبر 1: عباسی تحریک اور خلافت بنو عباس کا قیام",
+          "|باب نمبر 2: ابو العباس عبداللہ السفاح",
+          "|باب نمبر 3: ابو جعفر منصور",
+          "|باب نمبر 4: محمد المہدی ، موسی الہادی",
+          "|باب نمبر 5: ہارون الرشید"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: عباسی تحریک اور خلافت بنو عباس کا قیام",
+          "2|باب نمبر 2: ابو العباس عبداللہ السفاح",
+          "3|باب نمبر 3: ابو جعفر منصور",
+          "4|باب نمبر 4: محمد المہدی ، موسی الہادی",
+          "5|باب نمبر 5: ہارون الرشید"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "حَدِیقَۃُ الاَدَبِ",
+        "live": 25,
+        "mongo": 25,
+        "onlyLiveSample": [
+          "|سبق نممبر 26: السَّیّدُ جَمَالُ الدِّیْنِ الْافْغَانِیُّ",
+          "|سبق نممبر 27: بَیْنَ النُّکتِ الْعَرَبیّۃِ وَالبَاکِسْتَانِیّۃِ",
+          "|سبق نمبر 28: الرَّسَائِلُ کتابُ ابِی بکرٍ الٰی خَالِدِ بْنِ اِلوَلیْد",
+          "|سبق نمبر 29: التِّلْفِزْیُوْنُ",
+          "|سبق نمبر 30: فِیْ حُبِّ الْوَطَنِ"
+        ],
+        "onlyMongoSample": [
+          "1|سبق نممبر 26: السَّیّدُ جَمَالُ الدِّیْنِ الْافْغَانِیُّ",
+          "2|سبق نممبر 27: بَیْنَ النُّکتِ الْعَرَبیّۃِ وَالبَاکِسْتَانِیّۃِ",
+          "3|سبق نمبر 28: الرَّسَائِلُ کتابُ ابِی بکرٍ الٰی خَالِدِ بْنِ اِلوَلیْد",
+          "4|سبق نمبر 29: التِّلْفِزْیُوْنُ",
+          "5|سبق نمبر 30: فِیْ حُبِّ الْوَطَنِ"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "اِنسانی جغرافیہ",
+        "live": 6,
+        "mongo": 6,
+        "onlyLiveSample": [
+          "|باب نمبر 1: انسانی جغرافیہ",
+          "|باب نمبر 2: دنیا کی آبادی",
+          "|باب نمبر 3: انسانی بستیاں",
+          "|باب نمبر 4: معاشی سرگرمیاں",
+          "|باب نمبر 5: سیاسی جغرافیہ"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: انسانی جغرافیہ",
+          "2|باب نمبر 2: دنیا کی آبادی",
+          "3|باب نمبر 3: انسانی بستیاں",
+          "4|باب نمبر 4: معاشی سرگرمیاں",
+          "5|باب نمبر 5: سیاسی جغرافیہ"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "لائبریری سائنس",
+        "live": 4,
+        "mongo": 4,
+        "onlyLiveSample": [
+          "|باب نمبر1:درجہ بندی",
+          "|باب نمبر2:کیٹلا گ سازی",
+          "|باب نمبر 3: حوالہ جاتی کتب کا استعمال",
+          "|باب نمبر 4: لائبریری مواد کا اجرا"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر1:درجہ بندی",
+          "2|باب نمبر2:کیٹلا گ سازی",
+          "3|باب نمبر 3: حوالہ جاتی کتب کا استعمال",
+          "4|باب نمبر 4: لائبریری مواد کا اجرا"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "تاریخِ پاکستان",
+        "live": 8,
+        "mongo": 8,
+        "onlyLiveSample": [
+          "|باب نمبر1: قیام پاکستان اور اس کی ابتدائی مشکلات",
+          "|باب نمبر2: سیاسی اور دستوری ارتقاء(1947-58ء)",
+          "|باب نمبر3: ایوب خان کا دور",
+          "|باب نمبر4: یحییٰ خان کا مارشل لاء",
+          "|باب نمبر5: 1971ء کا دستوری بحران اور مشرقی پاکستان کی علیحدگی"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر1: قیام پاکستان اور اس کی ابتدائی مشکلات",
+          "2|باب نمبر2: سیاسی اور دستوری ارتقاء(1947-58ء)",
+          "3|باب نمبر3: ایوب خان کا دور",
+          "4|باب نمبر4: یحییٰ خان کا مارشل لاء",
+          "5|باب نمبر5: 1971ء کا دستوری بحران اور مشرقی پاکستان کی علیحدگی"
+        ]
+      },
+      {
+        "class": "Class 12",
+        "subject": "ہوم اکنامکس",
+        "live": 18,
+        "mongo": 18,
+        "onlyLiveSample": [
+          "|باب نمبر 1: غذا کی اہمیت",
+          "|باب نمبر 2: متوازن غذا",
+          "|باب نمبر 3: غذائی ضروریات",
+          "|باب نمبر 4: پروٹین",
+          "|باب نمبر 5: کاربوہائیڈریٹ یا نشاستہ"
+        ],
+        "onlyMongoSample": [
+          "1|باب نمبر 1: غذا کی اہمیت",
+          "2|باب نمبر 2: متوازن غذا",
+          "3|باب نمبر 3: غذائی ضروریات",
+          "4|باب نمبر 4: پروٹین",
+          "5|باب نمبر 5: کاربوہائیڈریٹ یا نشاستہ"
+        ]
+      }
+    ],
+    "topicIssues": [
+      {
+        "class": "Class 9",
+        "subject": "Mathematics",
+        "live": 38,
+        "mongo": 50
+      },
+      {
+        "class": "Class 9",
+        "subject": "English",
+        "live": 30,
+        "mongo": 31
+      },
+      {
+        "class": "Class 10",
+        "subject": "Mathematics",
+        "live": 43,
+        "mongo": 54
+      },
+      {
+        "class": "Class 10",
+        "subject": "English",
+        "live": 32,
+        "mongo": 33
+      },
+      {
+        "class": "Class 10",
+        "subject": "اُردو لازمی",
+        "live": 26,
+        "mongo": 24
+      },
+      {
+        "class": "Class 11",
+        "subject": "Biology",
+        "live": 72,
+        "mongo": 68
+      },
+      {
+        "class": "Class 11",
+        "subject": "Chemistry",
+        "live": 179,
+        "mongo": 165
+      },
+      {
+        "class": "Class 11",
+        "subject": "Mathematics",
+        "live": 52,
+        "mongo": 48
+      },
+      {
+        "class": "Class 11",
+        "subject": "اسلامیات لازمی",
+        "live": 27,
+        "mongo": 23
+      },
+      {
+        "class": "Class 12",
+        "subject": "BIOLOGY",
+        "live": 62,
+        "mongo": 75
+      },
+      {
+        "class": "Class 12",
+        "subject": "CHEMISTRY",
+        "live": 124,
+        "mongo": 28
+      },
+      {
+        "class": "Class 12",
+        "subject": "PHYSICS",
+        "live": 85,
+        "mongo": 94
+      },
+      {
+        "class": "Class 12",
+        "subject": "COMPUTER",
+        "live": 60,
+        "mongo": 69
+      },
+      {
+        "class": "Class 12",
+        "subject": "ENGLISH",
+        "live": 21,
+        "mongo": 23
+      },
+      {
+        "class": "Class 12",
+        "subject": "Commercial Geography",
+        "live": 45,
+        "mongo": 44
+      },
+      {
+        "class": "Class 12",
+        "subject": "فزیکل ایجوکیشن",
+        "live": 17,
+        "mongo": 15
+      }
+    ]
+  }
+}

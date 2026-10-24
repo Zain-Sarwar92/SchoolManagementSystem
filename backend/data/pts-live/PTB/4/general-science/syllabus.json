@@ -1,0 +1,108 @@
+{
+  "board": "PTB",
+  "class": "FOUR",
+  "subject": "General Science",
+  "slug": "general-science",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Characteristics and Life Process of Organisms",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Characteristics and Life Process of Organisms"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Ecosystem",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Ecosystem"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Human Health",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Human Health"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Matter and Its Characteristics",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Matter and Its Characteristics"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Forms of Energy and Energy Transfer",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Forms of Energy and Energy Transfer"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Force and Motion",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Force and Motion"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Earth and Its Resources",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Earth and Its Resources"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Earth'S Weather and Its Climate",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Earth'S Weather and Its Climate"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Solar System and Our Earth",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Solar System and Our Earth"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Technology in Everyday Life",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Technology in Everyday Life"
+        }
+      ]
+    }
+  ]
+}

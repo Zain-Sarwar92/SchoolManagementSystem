@@ -1,0 +1,16 @@
+{
+  "board": "Lahore",
+  "course": "PTB",
+  "class": "12",
+  "className": "INTER-II",
+  "subject": "اُردو لازمی",
+  "slug": "urdu-compulsory",
+  "type": "long",
+  "field": "PASSAGE",
+  "exportName": "long-passage",
+  "subTypeId": 48,
+  "total": 0,
+  "exportedAt": "2026-09-09T13:37:22.392Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "questions": []
+}

@@ -1,0 +1,212 @@
+{
+  "board": "Lahore",
+  "class": "10",
+  "subject": "Biology",
+  "slug": "biology",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Human Digestive System",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Nutrition and Its Importance"
+        },
+        {
+          "id": "1.2",
+          "title": "Human Digestive System"
+        },
+        {
+          "id": "1.3",
+          "title": "Disorders of the Digestive System"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Human Respiratory System",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Human Respiratory System"
+        },
+        {
+          "id": "2.2",
+          "title": "the Mechanism of Breathing"
+        },
+        {
+          "id": "2.3",
+          "title": "Respiratory Disorders"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Human Blood Circulatory System",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Blood and Its Components"
+        },
+        {
+          "id": "3.2",
+          "title": "Human Heart"
+        },
+        {
+          "id": "3.3",
+          "title": "Blood Vessels"
+        },
+        {
+          "id": "3.4",
+          "title": "Arterial & Venous Systems"
+        },
+        {
+          "id": "3.5",
+          "title": "Cardiovascular Disorders"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Human Urinary System",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Human Urinary System"
+        },
+        {
+          "id": "4.2",
+          "title": "Functioning of the Kidney"
+        },
+        {
+          "id": "4.3",
+          "title": "Disorders of Kidney"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Coordination",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Neurons - the Units of Nervous System"
+        },
+        {
+          "id": "5.2",
+          "title": "Divisions of the Nervous System"
+        },
+        {
+          "id": "5.3",
+          "title": "Endocrine System"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reproduction",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Formation of Gametes and Fertilization"
+        },
+        {
+          "id": "6.2",
+          "title": "Role of Hormones in Sexual Development"
+        },
+        {
+          "id": "6.3",
+          "title": "Reproductive Systems"
+        },
+        {
+          "id": "6.4",
+          "title": "Sexually Transmitted Diseases"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Inheritance",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Structure of Chromosome"
+        },
+        {
+          "id": "7.2",
+          "title": "Dna and Rna"
+        },
+        {
+          "id": "7.3",
+          "title": "Mendel'S Laws of Inheritance"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Biotechnology",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Introduction of Biotechnology"
+        },
+        {
+          "id": "8.2",
+          "title": "Genetic Engineering"
+        },
+        {
+          "id": "8.3",
+          "title": "Applications of Biotechnology"
+        },
+        {
+          "id": "8.4",
+          "title": "Potential Risks of Biotechnology"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Diseases and Immunity",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Disease"
+        },
+        {
+          "id": "9.2",
+          "title": "Pathogens"
+        },
+        {
+          "id": "9.3",
+          "title": "Immunity"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Evolution",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Darwin'S Observations"
+        },
+        {
+          "id": "10.2",
+          "title": "Theory of Evolution By Natural Selection"
+        },
+        {
+          "id": "10.3",
+          "title": "Species and Speciation"
+        },
+        {
+          "id": "10.4",
+          "title": "Sources of Variation"
+        },
+        {
+          "id": "10.5",
+          "title": "Evidences of Evolution"
+        }
+      ]
+    }
+  ]
+}

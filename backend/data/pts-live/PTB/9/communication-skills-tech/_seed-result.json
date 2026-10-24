@@ -1,0 +1,26 @@
+{
+  "slug": "communication-skills-tech",
+  "name": "COMMUNICATION SKILLS AND PERSONAL GROOMING (TECH)",
+  "total": 30,
+  "counts": {
+    "mcq": 11,
+    "short": 11,
+    "long": 8
+  },
+  "typeTotals": {
+    "MCQ": 11,
+    "QA": 11,
+    "LONG": 8
+  },
+  "mongo": {
+    "created": 30,
+    "updated": 0,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 11,
+      "SHORT": 11,
+      "LONG": 8
+    }
+  },
+  "at": "2026-10-22T23:11:10.224Z"
+}

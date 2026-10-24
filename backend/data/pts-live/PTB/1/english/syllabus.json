@@ -1,0 +1,192 @@
+{
+  "board": "PTB",
+  "class": "ONE",
+  "subject": "English",
+  "slug": "english",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Time to Recall",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Time to Recall"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "My Family and I",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "My Father and I"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Cobbler, Cobbler",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Cobbler, Cobbler"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Review 1",
+      "topics": [
+        {
+          "id": "4.R",
+          "title": "Review Exercise 4"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Let'S Have Fun!",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Let'S Have Fun!"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Sharing Is Caring",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Sharing Is Carring"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Review 2",
+      "topics": [
+        {
+          "id": "7.R",
+          "title": "Review Exercise 7"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Blessings of Allah سبحانہ و تعالیٰ",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Blessing of Allah سبحان و تعالیٰ"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Classroom Manners",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Classroom Manners"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Nature Is Beautiful",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Nature Is Beautiful"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "a Greeting Card",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "a Greeting Card"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Review 3",
+      "topics": [
+        {
+          "id": "12.R",
+          "title": "Review Exercise 12"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "the Hare and the Tortoise",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "the Hare and the Tortoise"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Love Animals",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Love Animals"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "title": "Review 4",
+      "topics": [
+        {
+          "id": "15.R",
+          "title": "Review Exercise 15"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "English B",
+      "topics": [
+        {
+          "id": "16.1",
+          "title": "Singular/Plural"
+        },
+        {
+          "id": "16.2",
+          "title": "Gender"
+        },
+        {
+          "id": "16.3",
+          "title": "Form of Verbs"
+        },
+        {
+          "id": "16.4",
+          "title": "Applications"
+        },
+        {
+          "id": "16.5",
+          "title": "Letters"
+        },
+        {
+          "id": "16.6",
+          "title": "Stories"
+        },
+        {
+          "id": "16.7",
+          "title": "Essays"
+        }
+      ]
+    }
+  ]
+}

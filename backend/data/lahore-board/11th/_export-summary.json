@@ -1,0 +1,12 @@
+[
+  {
+    "slug": "islamiyat-compulsory",
+    "name": "اسلامیات لازمی",
+    "totals": {
+      "mcq": 715,
+      "short": 549,
+      "long": 24,
+      "long-hadith": 15
+    }
+  }
+]

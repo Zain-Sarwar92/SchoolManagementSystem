@@ -1,0 +1,290 @@
+{
+  "board": "PTB",
+  "class": "9TH",
+  "subject": "COMMUNICATION SKILLS AND PERSONAL GROOMING (TECH)",
+  "slug": "communication-skills-tech",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Introduction to Communication",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Definition and Importance of Communication"
+        },
+        {
+          "id": "1.2",
+          "title": "Elements of Communication"
+        },
+        {
+          "id": "1.3",
+          "title": "Types of Communication"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Effective Communication Skills",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Active Listening"
+        },
+        {
+          "id": "2.2",
+          "title": "Clarity and Conciseness: Getting Your Point Across"
+        },
+        {
+          "id": "2.3",
+          "title": "Communication Barriers"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Non-Verbal Communication",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Types of Non-Verbal Communication"
+        },
+        {
+          "id": "3.2",
+          "title": "the Silent Language-Understanding Body Language"
+        },
+        {
+          "id": "3.3",
+          "title": "Types of Gestures"
+        },
+        {
+          "id": "3.4",
+          "title": "Visual Communication"
+        },
+        {
+          "id": "3.5",
+          "title": "the Art of the Handshake"
+        },
+        {
+          "id": "3.6",
+          "title": "Combining Eye Contact and Handshakes"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Chap 4:  Written Communication Skills",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Writing Skills: Parts of Speech"
+        },
+        {
+          "id": "4.2",
+          "title": "Writing Skills: Sentences"
+        },
+        {
+          "id": "4.3",
+          "title": "Paragraph"
+        },
+        {
+          "id": "4.4",
+          "title": "Etiquette of Writing Email"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Chap 5:  Confidence Building and Self-Presentation",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Shyness and Social Anxiety"
+        },
+        {
+          "id": "5.2",
+          "title": "Impact of Shyness and Social Anxiety"
+        },
+        {
+          "id": "5.3",
+          "title": "Strategies for Managing Social Anxiety"
+        },
+        {
+          "id": "5.4",
+          "title": "a Personalized Action Plan for Managing Social Anxiety"
+        },
+        {
+          "id": "5.5",
+          "title": "Psychological Foundations of Self-Confidence"
+        },
+        {
+          "id": "5.6",
+          "title": "Factors That Undermine Or Enhance Self-Confidence"
+        },
+        {
+          "id": "5.7",
+          "title": "Long-Term Benefits of Self-Confidence"
+        },
+        {
+          "id": "5.8",
+          "title": "Developing Routines and Habits to Foster Self-Confidence"
+        },
+        {
+          "id": "5.9",
+          "title": "Communication Styles That Convey Self-Confidence"
+        },
+        {
+          "id": "5.10",
+          "title": "Overcoming Setbacks"
+        },
+        {
+          "id": "5.11",
+          "title": "Understanding Communication Styles"
+        },
+        {
+          "id": "5.12",
+          "title": "Benefits of Assertive Communication"
+        },
+        {
+          "id": "5.13",
+          "title": "Consequences of Aggression and Passive Behaviour"
+        },
+        {
+          "id": "5.14",
+          "title": "Adjusting Behaviours Or Language"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Personal Grooming and Hygiene",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "Personal Hygiene"
+        },
+        {
+          "id": "6.2",
+          "title": "Hygiene Practices for Maintaining Cleanliness"
+        },
+        {
+          "id": "6.3",
+          "title": "Using Hygiene Products Effectively"
+        },
+        {
+          "id": "6.4",
+          "title": "Skin and Haircare Basics"
+        },
+        {
+          "id": "6.5",
+          "title": "Developing a Basic Skincare Routine"
+        },
+        {
+          "id": "6.6",
+          "title": "Effective Haircare Practices"
+        },
+        {
+          "id": "6.7",
+          "title": "Treatments for Specific Concerns"
+        },
+        {
+          "id": "6.8",
+          "title": "Dressing Appropriately for Different Occasions"
+        },
+        {
+          "id": "6.9",
+          "title": "Selecting Outfits for Various Occasions"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Chap 7:  Social Manners",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "Dining Etiquette"
+        },
+        {
+          "id": "7.2",
+          "title": "Use of Cutlery and Napkin"
+        },
+        {
+          "id": "7.3",
+          "title": "Groomed and Respectful Impression"
+        },
+        {
+          "id": "7.4",
+          "title": "Hosting and Attending Formal Events"
+        },
+        {
+          "id": "7.5",
+          "title": "Planning and Executing Formal Events"
+        },
+        {
+          "id": "7.6",
+          "title": "Cultural Sensitivity in Social Interactions"
+        },
+        {
+          "id": "7.7",
+          "title": "Cultural Awareness and Sensitivity"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Professional Etiquette",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Importance of Proper Manners"
+        },
+        {
+          "id": "8.2",
+          "title": "Greeting and Introducing Oneself"
+        },
+        {
+          "id": "8.3",
+          "title": "Telephone and Email Etiquette"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Media and Digital Communication",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Basics of Social Media Etiquette"
+        },
+        {
+          "id": "9.2",
+          "title": "Etiquette of Social Media Interactions"
+        },
+        {
+          "id": "9.3",
+          "title": "Responsible Internet Usage"
+        },
+        {
+          "id": "9.4",
+          "title": "Practising Responsible Internet Habits"
+        },
+        {
+          "id": "9.5",
+          "title": "Impact of Digital Communication On Personal Image"
+        },
+        {
+          "id": "9.6",
+          "title": "Curating Digital Content for Positive Personal Image"
+        },
+        {
+          "id": "9.7",
+          "title": "Appropriate Language, Tone, and Visuals"
+        },
+        {
+          "id": "9.8",
+          "title": "Managing and Auditing Online Profiles"
+        }
+      ]
+    }
+  ]
+}

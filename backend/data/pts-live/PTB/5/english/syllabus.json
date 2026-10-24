@@ -1,0 +1,280 @@
+{
+  "board": "PTB",
+  "class": "5TH",
+  "subject": "English",
+  "slug": "english",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Patience",
+      "topics": [
+        {
+          "id": "1.1",
+          "title": "Patience"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Be Grateful",
+      "topics": [
+        {
+          "id": "2.1",
+          "title": "Be Grateful"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Women As Role Models",
+      "topics": [
+        {
+          "id": "3.1",
+          "title": "Women As Role Models"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Review-1",
+      "topics": [
+        {
+          "id": "4.R",
+          "title": "Review Exercise 4"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Unforgettable Moments of My Life",
+      "topics": [
+        {
+          "id": "4.1",
+          "title": "Unforgettable Moments of My Life"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Amazing Planet",
+      "topics": [
+        {
+          "id": "5.1",
+          "title": "Amazing Planet"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "a Fit and Healthy Life",
+      "topics": [
+        {
+          "id": "6.1",
+          "title": "a Fit and Healthy Life"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Review-2",
+      "topics": [
+        {
+          "id": "8.R",
+          "title": "Review Exercise 8"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "What Goes Around, Comes Around",
+      "topics": [
+        {
+          "id": "7.1",
+          "title": "What Goes Around, Comes Around"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Do What'S Right",
+      "topics": [
+        {
+          "id": "8.1",
+          "title": "Do What'S Right"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Patriotism",
+      "topics": [
+        {
+          "id": "9.1",
+          "title": "Patriotism"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "title": "Eid-Ul-Azha",
+      "topics": [
+        {
+          "id": "10.1",
+          "title": "Eid-Ul-Azha"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "Review-3",
+      "topics": [
+        {
+          "id": "13.R",
+          "title": "Review Exercise 13"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Let'S Be Helpful",
+      "topics": [
+        {
+          "id": "11.1",
+          "title": "Let'S Be Helpful"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "title": "Our National Animal",
+      "topics": [
+        {
+          "id": "12.1",
+          "title": "Our National Animal"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "title": "When Something Went Wrong",
+      "topics": [
+        {
+          "id": "13.1",
+          "title": "When Something Went Wrong"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "Together We Live",
+      "topics": [
+        {
+          "id": "14.1",
+          "title": "Together We Live"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "Review-4",
+      "topics": [
+        {
+          "id": "18.R",
+          "title": "Review Exercise 18"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "title": "English B",
+      "topics": [
+        {
+          "id": "19.1",
+          "title": "Singular/Plural"
+        },
+        {
+          "id": "19.2",
+          "title": "Gender"
+        },
+        {
+          "id": "19.3",
+          "title": "Form of Verbs"
+        },
+        {
+          "id": "19.4",
+          "title": "Applications"
+        },
+        {
+          "id": "19.5",
+          "title": "Letters"
+        },
+        {
+          "id": "19.6",
+          "title": "Stories"
+        },
+        {
+          "id": "19.7",
+          "title": "Essays"
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "title": "Tenses",
+      "topics": [
+        {
+          "id": "20.1",
+          "title": "Use of Is, Am, Are"
+        },
+        {
+          "id": "20.2",
+          "title": "Use of Was, Were"
+        },
+        {
+          "id": "20.3",
+          "title": "Use Has, Have, Had"
+        },
+        {
+          "id": "20.4",
+          "title": "Use of It and There"
+        },
+        {
+          "id": "20.5",
+          "title": "Imperative Sentences"
+        },
+        {
+          "id": "20.6",
+          "title": "Use of Some Helping Verbs"
+        },
+        {
+          "id": "20.7",
+          "title": "Use of Why, Where, When, What, Who"
+        },
+        {
+          "id": "20.8",
+          "title": "Present Indefinite Tense"
+        },
+        {
+          "id": "20.9",
+          "title": "Present Continuous Tense"
+        },
+        {
+          "id": "20.10",
+          "title": "Past Indefinite Tense"
+        },
+        {
+          "id": "20.11",
+          "title": "Past Continuous Tense"
+        },
+        {
+          "id": "20.12",
+          "title": "Future Indefinite Tense"
+        },
+        {
+          "id": "20.13",
+          "title": "Future Continuous Tense"
+        }
+      ]
+    }
+  ]
+}

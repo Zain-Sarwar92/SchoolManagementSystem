@@ -1,0 +1,496 @@
+{
+  "course": {
+    "ptsCourseId": 1,
+    "code": "PTB",
+    "name": "PTB",
+    "subtitle": "Syllabus",
+    "sortOrder": 1,
+    "imageUrl": "https://paktestsolution.com/images/subjects/638685002268142513.png",
+    "aliases": [
+      "Punjab Textbook"
+    ],
+    "classes": [
+      {
+        "ptsClassId": 1,
+        "name": "ONE",
+        "gradeLevel": 1
+      },
+      {
+        "ptsClassId": 2,
+        "name": "TWO",
+        "gradeLevel": 2
+      },
+      {
+        "ptsClassId": 3,
+        "name": "THREE",
+        "gradeLevel": 3
+      },
+      {
+        "ptsClassId": 4,
+        "name": "FOUR",
+        "gradeLevel": 4
+      },
+      {
+        "ptsClassId": 5,
+        "name": "5TH",
+        "gradeLevel": 5
+      },
+      {
+        "ptsClassId": 6,
+        "name": "6TH",
+        "gradeLevel": 6
+      },
+      {
+        "ptsClassId": 7,
+        "name": "7TH",
+        "gradeLevel": 7
+      },
+      {
+        "ptsClassId": 8,
+        "name": "8TH",
+        "gradeLevel": 8
+      },
+      {
+        "ptsClassId": 9,
+        "name": "9TH",
+        "gradeLevel": 9,
+        "aliases": [
+          "Class 9"
+        ]
+      },
+      {
+        "ptsClassId": 10,
+        "name": "10TH",
+        "gradeLevel": 10,
+        "aliases": [
+          "Class 10"
+        ]
+      },
+      {
+        "ptsClassId": 11,
+        "name": "INTER-I",
+        "gradeLevel": 11,
+        "aliases": [
+          "Class 11"
+        ]
+      },
+      {
+        "ptsClassId": 12,
+        "name": "INTER-II",
+        "gradeLevel": 12,
+        "aliases": [
+          "Class 12"
+        ]
+      },
+      {
+        "ptsClassId": 36,
+        "name": "OLD BOOKS",
+        "gradeLevel": null
+      }
+    ]
+  },
+  "class": {
+    "ptsClassId": 5,
+    "name": "5TH",
+    "gradeLevel": 5
+  },
+  "subject": {
+    "SubjectID": 239,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 5,
+    "SubjectName": "General Science",
+    "Category": "SNC-2021",
+    "ImageUrl": "/images/subjects/638029879955234001.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2023-12-01T00:00:00",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 2351,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 1: Classification of Living Organisms",
+      "Syllabus": "CHAP 1",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2352,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 2: Microorganisms",
+      "Syllabus": "CHAP 2",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2353,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 3: Flowers and Seeds",
+      "Syllabus": "CHAP 3",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2354,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 4: Environmental Pollution",
+      "Syllabus": "CHAP 4",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2355,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 5: Physical and Chemical Changes of Matter",
+      "Syllabus": "CHAP 5",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2356,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 6: Light and Sound",
+      "Syllabus": "CHAP 6",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2357,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 7: Electricity and Magnetism",
+      "Syllabus": "CHAP 7",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2358,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 8: Structure of the Earth",
+      "Syllabus": "CHAP 8",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2359,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 9: Space and Satellites",
+      "Syllabus": "CHAP 9",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2360,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterName": "CHAP 10: Technology in Everyday Life",
+      "Syllabus": "CHAP 10",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 4828,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2351,
+      "TopicName": "Classification of Living Organisms",
+      "TopicRef": "1.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:22:07.903",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4829,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2352,
+      "TopicName": "Microorganisms",
+      "TopicRef": "2.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4830,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2353,
+      "TopicName": "Flowers and Seeds",
+      "TopicRef": "3.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4831,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2354,
+      "TopicName": "Environmental Pollution",
+      "TopicRef": "4.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4832,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2355,
+      "TopicName": "Physical and Chemical Changes of Matter",
+      "TopicRef": "5.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4833,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2356,
+      "TopicName": "Light and Sound",
+      "TopicRef": "6.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4834,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2357,
+      "TopicName": "Electricity and Magnetism",
+      "TopicRef": "7.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4835,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2358,
+      "TopicName": "Structure of the Earth",
+      "TopicRef": "8.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4836,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2359,
+      "TopicName": "Space and Satellites",
+      "TopicRef": "9.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4837,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 239,
+      "ChapterID": 2360,
+      "TopicName": "Technology in Everyday Life",
+      "TopicRef": "10.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

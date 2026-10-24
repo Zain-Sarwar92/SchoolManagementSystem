@@ -1,0 +1,497 @@
+{
+  "course": {
+    "ptsCourseId": 1,
+    "code": "PTB",
+    "name": "PTB",
+    "subtitle": "Syllabus",
+    "sortOrder": 1,
+    "imageUrl": "https://paktestsolution.com/images/subjects/638685002268142513.png",
+    "aliases": [
+      "Punjab Textbook"
+    ],
+    "classes": [
+      {
+        "ptsClassId": 1,
+        "name": "ONE",
+        "gradeLevel": 1
+      },
+      {
+        "ptsClassId": 2,
+        "name": "TWO",
+        "gradeLevel": 2
+      },
+      {
+        "ptsClassId": 3,
+        "name": "THREE",
+        "gradeLevel": 3
+      },
+      {
+        "ptsClassId": 4,
+        "name": "FOUR",
+        "gradeLevel": 4
+      },
+      {
+        "ptsClassId": 5,
+        "name": "5TH",
+        "gradeLevel": 5
+      },
+      {
+        "ptsClassId": 6,
+        "name": "6TH",
+        "gradeLevel": 6
+      },
+      {
+        "ptsClassId": 7,
+        "name": "7TH",
+        "gradeLevel": 7
+      },
+      {
+        "ptsClassId": 8,
+        "name": "8TH",
+        "gradeLevel": 8
+      },
+      {
+        "ptsClassId": 9,
+        "name": "9TH",
+        "gradeLevel": 9,
+        "aliases": [
+          "Class 9"
+        ]
+      },
+      {
+        "ptsClassId": 10,
+        "name": "10TH",
+        "gradeLevel": 10,
+        "aliases": [
+          "Class 10"
+        ]
+      },
+      {
+        "ptsClassId": 11,
+        "name": "INTER-I",
+        "gradeLevel": 11,
+        "aliases": [
+          "Class 11"
+        ]
+      },
+      {
+        "ptsClassId": 12,
+        "name": "INTER-II",
+        "gradeLevel": 12,
+        "aliases": [
+          "Class 12"
+        ]
+      },
+      {
+        "ptsClassId": 36,
+        "name": "OLD BOOKS",
+        "gradeLevel": null
+      }
+    ]
+  },
+  "class": {
+    "ptsClassId": 5,
+    "name": "5TH",
+    "gradeLevel": 5
+  },
+  "subject": {
+    "SubjectID": 240,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 5,
+    "SubjectName": "Social Studies",
+    "Category": "SNC-2021",
+    "ImageUrl": "/images/subjects/638029880131327704.jpg",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2023-12-01T00:00:00",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 10,
+      "name": "true-false",
+      "bankType": "short",
+      "field": "TRUE_FALSE"
+    },
+    {
+      "id": 11,
+      "name": "arrange",
+      "bankType": "short",
+      "field": "ARRANGE"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 2345,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterName": "باب نمبر 1: شہریت",
+      "Syllabus": "CHAP 1",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:15:54.043",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2346,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterName": "باب نمبر 2: ثقافت",
+      "Syllabus": "CHAP 2",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:15:56.33",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2347,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterName": "باب نمبر 3: ریاست اور حکومت",
+      "Syllabus": "CHAP 3",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:15:58.59",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2348,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterName": "باب نمبر 4: تاریخ",
+      "Syllabus": "CHAP 4",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:16:00.813",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2349,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterName": "باب نمبر 5: جغرافیہ",
+      "Syllabus": "CHAP 5",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:16:03.067",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 2350,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterName": "باب نمبر 6: معاشیات",
+      "Syllabus": "CHAP 6",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:16:05.913",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 4815,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2345,
+      "TopicName": "شہریت اور انسانی حقوق",
+      "TopicRef": "1.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:22:20.817",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4816,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2346,
+      "TopicName": "ہمارا رہن سہن",
+      "TopicRef": "2.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4817,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2346,
+      "TopicName": "ذرائع ابلاغ",
+      "TopicRef": "2.2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4818,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2347,
+      "TopicName": "ریاست اور حکومت",
+      "TopicRef": "3.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4819,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2348,
+      "TopicName": "تہذیبوں کا آغاز",
+      "TopicRef": "4.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4820,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2348,
+      "TopicName": "پاکستان کی تاریخی شخصیات",
+      "TopicRef": "4.2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4821,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2349,
+      "TopicName": "نقشے کی مہارتیں اور گلوب",
+      "TopicRef": "5.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4822,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2349,
+      "TopicName": "پاکستان کے طبعی خدوخال",
+      "TopicRef": "5.2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4823,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2349,
+      "TopicName": "موسم اور آب و ہوا",
+      "TopicRef": "5.3",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4824,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2349,
+      "TopicName": "آبادی",
+      "TopicRef": "5.4",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4825,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2350,
+      "TopicName": "معاشیات",
+      "TopicRef": "6.1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4826,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2350,
+      "TopicName": "کاروبار",
+      "TopicRef": "6.2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 4827,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 5,
+      "SubjectID": 240,
+      "ChapterID": 2350,
+      "TopicName": "زر کا اِرتقا",
+      "TopicRef": "6.3",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2023-12-01T00:00:00",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

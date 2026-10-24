@@ -1,0 +1,4095 @@
+{
+  "done": {
+    "1:1:90": {
+      "slug": "english",
+      "total": 727,
+      "typeTotals": {
+        "COMPREHENSION": 17,
+        "SPELLING": 50,
+        "GRAMMAR": 5,
+        "FILL": 65,
+        "TRUE_FALSE": 1,
+        "ARRANGE": 8,
+        "TRACE": 107,
+        "LETTER": 18,
+        "APPLICATION": 7,
+        "STORY": 13,
+        "ESSAY": 30,
+        "WORD": 24,
+        "USE_SENTENCE": 45,
+        "VOCAB": 139,
+        "GENDER": 51,
+        "TRANSLATE_UR": 17,
+        "RHYME": 70,
+        "MISSING_LETTERS": 60
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "TRUE_FALSE": 1,
+          "TRACE": 20
+        },
+        "2": {
+          "COMPREHENSION": 4,
+          "SPELLING": 5,
+          "FILL": 9,
+          "ARRANGE": 2,
+          "TRACE": 3,
+          "USE_SENTENCE": 3,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 5
+        },
+        "3": {
+          "SPELLING": 4,
+          "FILL": 12,
+          "ARRANGE": 3,
+          "TRACE": 3,
+          "USE_SENTENCE": 4,
+          "MISSING_LETTERS": 9
+        },
+        "4": {
+          "COMPREHENSION": 4,
+          "SPELLING": 5,
+          "FILL": 3,
+          "TRACE": 24,
+          "USE_SENTENCE": 7,
+          "VOCAB": 6,
+          "TRANSLATE_UR": 1,
+          "MISSING_LETTERS": 6
+        },
+        "5": {
+          "COMPREHENSION": 3,
+          "SPELLING": 4,
+          "FILL": 6,
+          "ARRANGE": 1,
+          "TRACE": 9,
+          "WORD": 5,
+          "USE_SENTENCE": 3,
+          "MISSING_LETTERS": 5
+        },
+        "6": {
+          "COMPREHENSION": 3,
+          "SPELLING": 5,
+          "TRACE": 5,
+          "USE_SENTENCE": 3,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 7
+        },
+        "7": {
+          "SPELLING": 7,
+          "GRAMMAR": 5,
+          "FILL": 12,
+          "ARRANGE": 1,
+          "TRACE": 11,
+          "WORD": 5,
+          "USE_SENTENCE": 6,
+          "VOCAB": 6,
+          "GENDER": 5,
+          "TRANSLATE_UR": 1,
+          "MISSING_LETTERS": 5
+        },
+        "8": {
+          "SPELLING": 4,
+          "FILL": 9,
+          "TRACE": 11,
+          "WORD": 4,
+          "USE_SENTENCE": 3,
+          "MISSING_LETTERS": 5
+        },
+        "9": {
+          "COMPREHENSION": 3,
+          "SPELLING": 4,
+          "TRACE": 4,
+          "WORD": 5,
+          "USE_SENTENCE": 3,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 5
+        },
+        "10": {
+          "SPELLING": 7,
+          "FILL": 5,
+          "TRACE": 4,
+          "USE_SENTENCE": 4,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 6
+        },
+        "11": {
+          "SPELLING": 5,
+          "FILL": 3,
+          "TRACE": 6,
+          "USE_SENTENCE": 3,
+          "VOCAB": 8,
+          "MISSING_LETTERS": 7
+        },
+        "12": {
+          "FILL": 3,
+          "ARRANGE": 1,
+          "TRACE": 4,
+          "WORD": 5,
+          "USE_SENTENCE": 3
+        },
+        "15": {
+          "FILL": 3,
+          "TRACE": 3,
+          "USE_SENTENCE": 3,
+          "VOCAB": 4
+        },
+        "16": {
+          "LETTER": 18,
+          "APPLICATION": 7,
+          "STORY": 13,
+          "ESSAY": 30,
+          "VOCAB": 115,
+          "GENDER": 46,
+          "RHYME": 70
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.170Z"
+    },
+    "1:1:91": {
+      "slug": "general-knowledge",
+      "total": 55,
+      "typeTotals": {
+        "MCQ": 16,
+        "FILL": 18,
+        "TRUE_FALSE": 4,
+        "ARRANGE": 6,
+        "QA": 11
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 3,
+          "FILL": 9,
+          "ARRANGE": 1
+        },
+        "2": {
+          "MCQ": 5,
+          "ARRANGE": 1
+        },
+        "3": {
+          "QA": 2
+        },
+        "4": {
+          "ARRANGE": 1
+        },
+        "5": {
+          "QA": 1
+        },
+        "6": {
+          "TRUE_FALSE": 4,
+          "ARRANGE": 1
+        },
+        "7": {
+          "FILL": 5,
+          "QA": 1
+        },
+        "8": {
+          "ARRANGE": 1,
+          "QA": 2
+        },
+        "9": {
+          "FILL": 4,
+          "QA": 2
+        },
+        "10": {
+          "MCQ": 3
+        },
+        "11": {
+          "ARRANGE": 1,
+          "QA": 1
+        },
+        "12": {
+          "QA": 2
+        },
+        "14": {
+          "MCQ": 5
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.187Z"
+    },
+    "1:1:92": {
+      "slug": "mathematics",
+      "total": 565,
+      "typeTotals": {
+        "FILL": 16,
+        "ARRANGE": 6,
+        "QA": 543
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "FILL": 16,
+          "ARRANGE": 1,
+          "QA": 252
+        },
+        "2": {
+          "QA": 163
+        },
+        "3": {
+          "QA": 19
+        },
+        "4": {
+          "ARRANGE": 1,
+          "QA": 32
+        },
+        "5": {
+          "ARRANGE": 3,
+          "QA": 31
+        },
+        "6": {
+          "ARRANGE": 1,
+          "QA": 46
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.202Z"
+    },
+    "1:1:93": {
+      "slug": "اسلامیات",
+      "total": 110,
+      "typeTotals": {
+        "MCQ": 29,
+        "FILL": 30,
+        "QA": 51
+      },
+      "chapterTypeCounts": {
+        "2": {
+          "MCQ": 14,
+          "FILL": 15,
+          "QA": 25
+        },
+        "3": {
+          "MCQ": 6,
+          "FILL": 8,
+          "QA": 11
+        },
+        "4": {
+          "MCQ": 6,
+          "FILL": 4,
+          "QA": 10
+        },
+        "5": {
+          "MCQ": 3,
+          "FILL": 3,
+          "QA": 5
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.205Z"
+    },
+    "1:1:255": {
+      "slug": "ا-ردو",
+      "total": 1905,
+      "typeTotals": {
+        "FILL": 40,
+        "TRUE_FALSE": 710,
+        "ARRANGE": 7,
+        "QA": 84,
+        "LETTER": 8,
+        "APPLICATION": 6,
+        "CORRECT": 81,
+        "STORY": 13,
+        "WORD": 81,
+        "USE_SENTENCE": 125,
+        "VOCAB": 334,
+        "GENDER": 141,
+        "MEANING": 274,
+        "PASSAGE": 1
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "FILL": 4,
+          "ARRANGE": 2,
+          "QA": 11,
+          "WORD": 7,
+          "USE_SENTENCE": 7
+        },
+        "2": {
+          "ARRANGE": 1,
+          "QA": 4,
+          "WORD": 11,
+          "USE_SENTENCE": 11
+        },
+        "3": {
+          "ARRANGE": 1,
+          "QA": 3,
+          "WORD": 11,
+          "USE_SENTENCE": 15
+        },
+        "4": {
+          "WORD": 10,
+          "USE_SENTENCE": 10
+        },
+        "5": {
+          "QA": 3
+        },
+        "6": {
+          "FILL": 11,
+          "TRUE_FALSE": 5,
+          "QA": 10,
+          "WORD": 8,
+          "USE_SENTENCE": 8
+        },
+        "7": {
+          "TRUE_FALSE": 5,
+          "QA": 3,
+          "WORD": 7,
+          "USE_SENTENCE": 7,
+          "VOCAB": 6,
+          "PASSAGE": 1
+        },
+        "8": {
+          "FILL": 5,
+          "QA": 6,
+          "WORD": 9,
+          "USE_SENTENCE": 9,
+          "GENDER": 6
+        },
+        "9": {
+          "QA": 6,
+          "WORD": 11,
+          "USE_SENTENCE": 11
+        },
+        "10": {
+          "VOCAB": 6
+        },
+        "11": {
+          "ARRANGE": 1,
+          "QA": 13,
+          "WORD": 7,
+          "USE_SENTENCE": 7
+        },
+        "12": {
+          "FILL": 5,
+          "QA": 3,
+          "USE_SENTENCE": 4
+        },
+        "13": {
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 3,
+          "USE_SENTENCE": 8
+        },
+        "14": {
+          "USE_SENTENCE": 6
+        },
+        "15": {
+          "QA": 4
+        },
+        "16": {
+          "FILL": 5,
+          "QA": 3,
+          "USE_SENTENCE": 7
+        },
+        "17": {
+          "FILL": 5,
+          "QA": 3,
+          "USE_SENTENCE": 8
+        },
+        "18": {
+          "ARRANGE": 1,
+          "QA": 4,
+          "USE_SENTENCE": 7
+        },
+        "19": {
+          "QA": 5
+        },
+        "20": {
+          "LETTER": 8,
+          "APPLICATION": 6,
+          "CORRECT": 81,
+          "STORY": 13,
+          "TRUE_FALSE": 700,
+          "VOCAB": 322,
+          "GENDER": 135,
+          "MEANING": 274
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.228Z"
+    },
+    "1:2:86": {
+      "slug": "english",
+      "total": 1050,
+      "typeTotals": {
+        "COMPREHENSION": 153,
+        "SPELLING": 125,
+        "FILL": 7,
+        "ARRANGE": 6,
+        "TRACE": 65,
+        "LETTER": 18,
+        "APPLICATION": 7,
+        "STORY": 13,
+        "ESSAY": 30,
+        "WORD": 125,
+        "USE_SENTENCE": 125,
+        "VOCAB": 115,
+        "GENDER": 46,
+        "TRANSLATE_UR": 20,
+        "RHYME": 70,
+        "MISSING_LETTERS": 125
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "COMPREHENSION": 14,
+          "SPELLING": 13,
+          "ARRANGE": 5,
+          "TRACE": 5,
+          "WORD": 13,
+          "USE_SENTENCE": 13,
+          "MISSING_LETTERS": 13
+        },
+        "2": {
+          "COMPREHENSION": 14,
+          "SPELLING": 11,
+          "TRACE": 4,
+          "WORD": 11,
+          "USE_SENTENCE": 11,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 11
+        },
+        "3": {
+          "COMPREHENSION": 13,
+          "SPELLING": 13,
+          "ARRANGE": 1,
+          "TRACE": 4,
+          "WORD": 13,
+          "USE_SENTENCE": 13,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 13
+        },
+        "4": {
+          "COMPREHENSION": 10,
+          "SPELLING": 9,
+          "FILL": 4,
+          "TRACE": 7,
+          "WORD": 9,
+          "USE_SENTENCE": 9,
+          "MISSING_LETTERS": 9
+        },
+        "5": {
+          "COMPREHENSION": 14,
+          "SPELLING": 10,
+          "TRACE": 3,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "MISSING_LETTERS": 10
+        },
+        "6": {
+          "COMPREHENSION": 14,
+          "SPELLING": 12,
+          "TRACE": 3,
+          "WORD": 12,
+          "USE_SENTENCE": 12,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 12
+        },
+        "7": {
+          "COMPREHENSION": 14,
+          "SPELLING": 10,
+          "TRACE": 8,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 10
+        },
+        "8": {
+          "COMPREHENSION": 14,
+          "SPELLING": 7,
+          "TRACE": 8,
+          "WORD": 7,
+          "USE_SENTENCE": 7,
+          "MISSING_LETTERS": 7
+        },
+        "9": {
+          "COMPREHENSION": 4,
+          "SPELLING": 11,
+          "FILL": 3,
+          "TRACE": 3,
+          "WORD": 11,
+          "USE_SENTENCE": 11,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 11
+        },
+        "10": {
+          "COMPREHENSION": 15,
+          "SPELLING": 14,
+          "TRACE": 9,
+          "WORD": 14,
+          "USE_SENTENCE": 14,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 14
+        },
+        "11": {
+          "COMPREHENSION": 13,
+          "SPELLING": 8,
+          "TRACE": 3,
+          "WORD": 8,
+          "USE_SENTENCE": 8,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 8
+        },
+        "12": {
+          "COMPREHENSION": 14,
+          "SPELLING": 7,
+          "TRACE": 5,
+          "WORD": 7,
+          "USE_SENTENCE": 7,
+          "MISSING_LETTERS": 7
+        },
+        "16": {
+          "TRACE": 3
+        },
+        "17": {
+          "LETTER": 18,
+          "APPLICATION": 7,
+          "STORY": 13,
+          "ESSAY": 30,
+          "VOCAB": 115,
+          "GENDER": 46,
+          "RHYME": 70
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.243Z"
+    },
+    "1:2:87": {
+      "slug": "general-knowledge",
+      "total": 284,
+      "typeTotals": {
+        "MCQ": 70,
+        "FILL": 32,
+        "TRUE_FALSE": 44,
+        "ARRANGE": 6,
+        "QA": 132
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 6,
+          "FILL": 4,
+          "TRUE_FALSE": 5,
+          "QA": 6
+        },
+        "2": {
+          "MCQ": 4,
+          "TRUE_FALSE": 3,
+          "ARRANGE": 2,
+          "QA": 7
+        },
+        "3": {
+          "MCQ": 4,
+          "TRUE_FALSE": 4,
+          "QA": 7
+        },
+        "4": {
+          "MCQ": 4,
+          "FILL": 4,
+          "QA": 7
+        },
+        "5": {
+          "MCQ": 4,
+          "FILL": 4,
+          "TRUE_FALSE": 4,
+          "ARRANGE": 1,
+          "QA": 10
+        },
+        "6": {
+          "MCQ": 5,
+          "FILL": 4,
+          "TRUE_FALSE": 4,
+          "QA": 7
+        },
+        "7": {
+          "MCQ": 5,
+          "FILL": 3,
+          "QA": 10
+        },
+        "8": {
+          "MCQ": 4,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 9
+        },
+        "9": {
+          "MCQ": 4,
+          "FILL": 4,
+          "QA": 12
+        },
+        "10": {
+          "MCQ": 3,
+          "FILL": 4,
+          "QA": 9
+        },
+        "11": {
+          "MCQ": 6,
+          "TRUE_FALSE": 4,
+          "QA": 7
+        },
+        "12": {
+          "MCQ": 5,
+          "TRUE_FALSE": 4,
+          "ARRANGE": 1,
+          "QA": 9
+        },
+        "13": {
+          "MCQ": 4,
+          "TRUE_FALSE": 4,
+          "ARRANGE": 1,
+          "QA": 7
+        },
+        "14": {
+          "MCQ": 4,
+          "TRUE_FALSE": 8,
+          "QA": 7
+        },
+        "15": {
+          "MCQ": 4,
+          "QA": 9
+        },
+        "16": {
+          "MCQ": 4,
+          "TRUE_FALSE": 4,
+          "QA": 9
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.262Z"
+    },
+    "1:2:88": {
+      "slug": "mathematics",
+      "total": 669,
+      "typeTotals": {
+        "MCQ": 45,
+        "FILL": 30,
+        "ARRANGE": 10,
+        "QA": 584
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 5,
+          "FILL": 5,
+          "QA": 129
+        },
+        "2": {
+          "MCQ": 20,
+          "FILL": 21,
+          "ARRANGE": 4,
+          "QA": 214
+        },
+        "3": {
+          "MCQ": 5,
+          "ARRANGE": 3,
+          "QA": 44
+        },
+        "4": {
+          "MCQ": 5,
+          "FILL": 4,
+          "QA": 95
+        },
+        "5": {
+          "MCQ": 5,
+          "QA": 74
+        },
+        "6": {
+          "MCQ": 5,
+          "ARRANGE": 3,
+          "QA": 28
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.326Z"
+    },
+    "1:2:89": {
+      "slug": "اسلامیات",
+      "total": 211,
+      "typeTotals": {
+        "MCQ": 90,
+        "FILL": 30,
+        "ARRANGE": 2,
+        "QA": 89
+      },
+      "chapterTypeCounts": {
+        "2": {
+          "MCQ": 39,
+          "FILL": 12,
+          "ARRANGE": 2,
+          "QA": 44
+        },
+        "3": {
+          "MCQ": 14,
+          "FILL": 6,
+          "QA": 13
+        },
+        "4": {
+          "MCQ": 22,
+          "FILL": 9,
+          "QA": 23
+        },
+        "5": {
+          "MCQ": 15,
+          "FILL": 3,
+          "QA": 9
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.338Z"
+    },
+    "1:2:256": {
+      "slug": "ا-ردو",
+      "total": 2169,
+      "typeTotals": {
+        "MCQ": 220,
+        "FILL": 16,
+        "TRUE_FALSE": 718,
+        "ARRANGE": 3,
+        "QA": 57,
+        "LETTER": 8,
+        "APPLICATION": 6,
+        "CORRECT": 81,
+        "STORY": 13,
+        "WORD": 13,
+        "USE_SENTENCE": 297,
+        "VOCAB": 322,
+        "GENDER": 135,
+        "MEANING": 274,
+        "PASSAGE": 6
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 10,
+          "ARRANGE": 1,
+          "QA": 3,
+          "USE_SENTENCE": 15
+        },
+        "2": {
+          "MCQ": 11,
+          "FILL": 4,
+          "QA": 3,
+          "USE_SENTENCE": 14
+        },
+        "3": {
+          "MCQ": 9,
+          "FILL": 3,
+          "QA": 3,
+          "USE_SENTENCE": 14
+        },
+        "4": {
+          "MCQ": 7,
+          "QA": 4,
+          "USE_SENTENCE": 16,
+          "PASSAGE": 1
+        },
+        "5": {
+          "USE_SENTENCE": 14
+        },
+        "6": {
+          "MCQ": 9,
+          "ARRANGE": 1,
+          "USE_SENTENCE": 5
+        },
+        "7": {
+          "MCQ": 8,
+          "TRUE_FALSE": 5,
+          "QA": 3,
+          "USE_SENTENCE": 16
+        },
+        "8": {
+          "MCQ": 9,
+          "FILL": 4,
+          "QA": 4,
+          "USE_SENTENCE": 12
+        },
+        "9": {
+          "MCQ": 10,
+          "TRUE_FALSE": 3,
+          "QA": 4,
+          "USE_SENTENCE": 15
+        },
+        "10": {
+          "MCQ": 9,
+          "USE_SENTENCE": 14
+        },
+        "11": {
+          "MCQ": 3,
+          "QA": 3,
+          "USE_SENTENCE": 14
+        },
+        "12": {
+          "MCQ": 8,
+          "FILL": 5,
+          "PASSAGE": 1
+        },
+        "13": {
+          "USE_SENTENCE": 11
+        },
+        "14": {
+          "MCQ": 11,
+          "QA": 3,
+          "USE_SENTENCE": 14
+        },
+        "15": {
+          "MCQ": 19,
+          "QA": 3,
+          "USE_SENTENCE": 14
+        },
+        "16": {
+          "MCQ": 6,
+          "TRUE_FALSE": 5,
+          "QA": 3,
+          "USE_SENTENCE": 14,
+          "PASSAGE": 1
+        },
+        "17": {
+          "MCQ": 9,
+          "QA": 4,
+          "WORD": 13,
+          "USE_SENTENCE": 10
+        },
+        "18": {
+          "PASSAGE": 1
+        },
+        "19": {
+          "MCQ": 13,
+          "USE_SENTENCE": 14
+        },
+        "20": {
+          "MCQ": 12,
+          "QA": 3,
+          "USE_SENTENCE": 12
+        },
+        "21": {
+          "MCQ": 13,
+          "TRUE_FALSE": 5,
+          "QA": 3,
+          "USE_SENTENCE": 10,
+          "PASSAGE": 1
+        },
+        "22": {
+          "MCQ": 10,
+          "ARRANGE": 1,
+          "QA": 3,
+          "USE_SENTENCE": 10
+        },
+        "23": {
+          "MCQ": 14,
+          "QA": 4,
+          "USE_SENTENCE": 12
+        },
+        "24": {
+          "MCQ": 6,
+          "USE_SENTENCE": 14
+        },
+        "25": {
+          "MCQ": 14,
+          "QA": 4,
+          "USE_SENTENCE": 13
+        },
+        "26": {
+          "PASSAGE": 1
+        },
+        "27": {
+          "LETTER": 8,
+          "APPLICATION": 6,
+          "CORRECT": 81,
+          "STORY": 13,
+          "TRUE_FALSE": 700,
+          "VOCAB": 322,
+          "GENDER": 135,
+          "MEANING": 274
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.401Z"
+    },
+    "1:3:250": {
+      "slug": "english",
+      "total": 1706,
+      "typeTotals": {
+        "COMPREHENSION": 121,
+        "SPELLING": 118,
+        "VERB": 17,
+        "GRAMMAR": 7,
+        "FILL": 88,
+        "ARRANGE": 3,
+        "TRACE": 43,
+        "LETTER": 18,
+        "APPLICATION": 7,
+        "TRUE_FALSE": 308,
+        "TRANSLATE_EN": 317,
+        "STORY": 13,
+        "ESSAY": 30,
+        "WORD": 92,
+        "USE_SENTENCE": 110,
+        "VOCAB": 125,
+        "GENDER": 46,
+        "TRANSLATE_UR": 37,
+        "RHYME": 70,
+        "MISSING_LETTERS": 136
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "COMPREHENSION": 10,
+          "SPELLING": 10,
+          "ARRANGE": 1,
+          "TRACE": 5,
+          "WORD": 6,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 10
+        },
+        "2": {
+          "COMPREHENSION": 10,
+          "SPELLING": 10,
+          "FILL": 4,
+          "TRACE": 3,
+          "USE_SENTENCE": 10,
+          "MISSING_LETTERS": 19
+        },
+        "3": {
+          "COMPREHENSION": 5,
+          "SPELLING": 10,
+          "ARRANGE": 1,
+          "TRACE": 3,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 10
+        },
+        "4": {
+          "COMPREHENSION": 10,
+          "SPELLING": 10,
+          "GRAMMAR": 3,
+          "TRACE": 3,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 5,
+          "MISSING_LETTERS": 10
+        },
+        "5": {
+          "COMPREHENSION": 10,
+          "SPELLING": 10,
+          "ARRANGE": 1,
+          "TRACE": 4,
+          "WORD": 16,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 14
+        },
+        "6": {
+          "COMPREHENSION": 10,
+          "SPELLING": 10,
+          "TRACE": 3,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "VOCAB": 10,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 16
+        },
+        "7": {
+          "COMPREHENSION": 10,
+          "SPELLING": 10,
+          "FILL": 7,
+          "TRACE": 4,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 10
+        },
+        "8": {
+          "COMPREHENSION": 10,
+          "SPELLING": 14,
+          "TRACE": 4,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 5,
+          "MISSING_LETTERS": 16
+        },
+        "9": {
+          "COMPREHENSION": 10,
+          "SPELLING": 10,
+          "GRAMMAR": 4,
+          "TRACE": 4,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 10
+        },
+        "10": {
+          "COMPREHENSION": 10,
+          "SPELLING": 14,
+          "FILL": 4,
+          "TRACE": 4,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "MISSING_LETTERS": 11
+        },
+        "11": {
+          "COMPREHENSION": 11,
+          "SPELLING": 10,
+          "TRACE": 4,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 10
+        },
+        "14": {
+          "TRACE": 2
+        },
+        "15": {
+          "LETTER": 18,
+          "APPLICATION": 7,
+          "STORY": 13,
+          "ESSAY": 30,
+          "VOCAB": 115,
+          "GENDER": 46,
+          "RHYME": 70
+        },
+        "16": {
+          "COMPREHENSION": 15,
+          "VERB": 17,
+          "FILL": 73,
+          "TRUE_FALSE": 308,
+          "TRANSLATE_EN": 317
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.439Z"
+    },
+    "1:3:251": {
+      "slug": "general-knowledge",
+      "total": 580,
+      "typeTotals": {
+        "MCQ": 188,
+        "FILL": 33,
+        "TRUE_FALSE": 25,
+        "ARRANGE": 4,
+        "QA": 330
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 10,
+          "FILL": 5,
+          "TRUE_FALSE": 5,
+          "QA": 18
+        },
+        "2": {
+          "MCQ": 7,
+          "ARRANGE": 1,
+          "QA": 18
+        },
+        "3": {
+          "MCQ": 7,
+          "FILL": 4,
+          "QA": 20
+        },
+        "4": {
+          "MCQ": 10,
+          "QA": 10
+        },
+        "5": {
+          "MCQ": 16,
+          "QA": 12
+        },
+        "6": {
+          "MCQ": 14,
+          "QA": 14
+        },
+        "7": {
+          "MCQ": 17,
+          "FILL": 5,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 54
+        },
+        "8": {
+          "MCQ": 18,
+          "TRUE_FALSE": 5,
+          "QA": 46
+        },
+        "9": {
+          "MCQ": 12,
+          "QA": 26
+        },
+        "10": {
+          "MCQ": 12,
+          "QA": 18
+        },
+        "11": {
+          "MCQ": 11,
+          "FILL": 4,
+          "QA": 17
+        },
+        "12": {
+          "MCQ": 14,
+          "FILL": 5,
+          "QA": 14
+        },
+        "13": {
+          "MCQ": 9,
+          "TRUE_FALSE": 5,
+          "QA": 10
+        },
+        "14": {
+          "MCQ": 7,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 19
+        },
+        "15": {
+          "MCQ": 14,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 14
+        },
+        "16": {
+          "MCQ": 10,
+          "FILL": 5,
+          "QA": 20
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.459Z"
+    },
+    "1:3:252": {
+      "slug": "mathematics",
+      "total": 573,
+      "typeTotals": {
+        "MCQ": 28,
+        "FILL": 21,
+        "ARRANGE": 14,
+        "QA": 510
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 5,
+          "FILL": 10,
+          "ARRANGE": 3,
+          "QA": 108
+        },
+        "2": {
+          "MCQ": 8,
+          "FILL": 6,
+          "QA": 113
+        },
+        "3": {
+          "MCQ": 7,
+          "ARRANGE": 2,
+          "QA": 90
+        },
+        "4": {
+          "MCQ": 3,
+          "QA": 70
+        },
+        "5": {
+          "ARRANGE": 9,
+          "QA": 40
+        },
+        "6": {
+          "MCQ": 5,
+          "FILL": 5,
+          "QA": 58
+        },
+        "7": {
+          "QA": 31
+        }
+      },
+      "restored": true,
+      "at": "2026-10-22T21:48:06.502Z"
+    },
+    "1:3:253": {
+      "slug": "اسلامیات",
+      "total": 562,
+      "typeTotals": {
+        "MCQ": 262,
+        "FILL": 62,
+        "QA": 203,
+        "LONG": 35
+      },
+      "chapterTypeCounts": {
+        "2": {
+          "MCQ": 116,
+          "FILL": 27,
+          "QA": 90,
+          "LONG": 14
+        },
+        "3": {
+          "MCQ": 51,
+          "FILL": 12,
+          "QA": 40,
+          "LONG": 7
+        },
+        "4": {
+          "MCQ": 25,
+          "FILL": 8,
+          "QA": 19,
+          "LONG": 4
+        },
+        "5": {
+          "MCQ": 14,
+          "FILL": 4,
+          "QA": 11,
+          "LONG": 2
+        },
+        "6": {
+          "MCQ": 44,
+          "FILL": 7,
+          "QA": 33,
+          "LONG": 6
+        },
+        "7": {
+          "MCQ": 12,
+          "FILL": 4,
+          "QA": 10,
+          "LONG": 2
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 562,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 262,
+          "SHORT": 265,
+          "LONG": 35
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:49:01.589Z"
+    },
+    "1:3:254": {
+      "slug": "ا-ردو",
+      "total": 2266,
+      "typeTotals": {
+        "MCQ": 292,
+        "FILL": 55,
+        "TRUE_FALSE": 331,
+        "ARRANGE": 6,
+        "QA": 119,
+        "LETTER": 8,
+        "APPLICATION": 6,
+        "CORRECT": 81,
+        "STORY": 13,
+        "WORD": 10,
+        "USE_SENTENCE": 200,
+        "VOCAB": 327,
+        "GENDER": 135,
+        "MEANING": 274,
+        "PASSAGE": 15
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 19,
+          "FILL": 6,
+          "QA": 4,
+          "USE_SENTENCE": 8
+        },
+        "2": {
+          "MCQ": 20,
+          "FILL": 4,
+          "ARRANGE": 1,
+          "QA": 4,
+          "USE_SENTENCE": 10,
+          "PASSAGE": 1
+        },
+        "3": {
+          "MCQ": 12,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 8
+        },
+        "4": {
+          "MCQ": 8,
+          "FILL": 5,
+          "TRUE_FALSE": 5,
+          "QA": 4,
+          "USE_SENTENCE": 8,
+          "PASSAGE": 1
+        },
+        "5": {
+          "QA": 4,
+          "WORD": 5,
+          "TRUE_FALSE": 6,
+          "PASSAGE": 1
+        },
+        "6": {
+          "MCQ": 8,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 5,
+          "USE_SENTENCE": 12
+        },
+        "7": {
+          "MCQ": 7
+        },
+        "8": {
+          "MCQ": 8,
+          "ARRANGE": 1,
+          "QA": 5,
+          "USE_SENTENCE": 7
+        },
+        "9": {
+          "MCQ": 16,
+          "FILL": 4,
+          "ARRANGE": 1,
+          "QA": 5,
+          "USE_SENTENCE": 10,
+          "PASSAGE": 1
+        },
+        "10": {
+          "MCQ": 19,
+          "QA": 5,
+          "WORD": 5,
+          "USE_SENTENCE": 9,
+          "PASSAGE": 1
+        },
+        "11": {
+          "QA": 3,
+          "PASSAGE": 1
+        },
+        "12": {
+          "MCQ": 25,
+          "TRUE_FALSE": 5,
+          "QA": 5,
+          "USE_SENTENCE": 8,
+          "PASSAGE": 1
+        },
+        "13": {
+          "MCQ": 8,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 5,
+          "USE_SENTENCE": 16
+        },
+        "14": {
+          "MCQ": 3
+        },
+        "15": {
+          "MCQ": 19,
+          "QA": 5,
+          "USE_SENTENCE": 11
+        },
+        "16": {
+          "QA": 4,
+          "PASSAGE": 1
+        },
+        "17": {
+          "MCQ": 10,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 12,
+          "PASSAGE": 1
+        },
+        "18": {
+          "MCQ": 14,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 12,
+          "PASSAGE": 1
+        },
+        "19": {
+          "MCQ": 15,
+          "QA": 5,
+          "USE_SENTENCE": 10,
+          "PASSAGE": 1
+        },
+        "20": {
+          "MCQ": 15,
+          "ARRANGE": 1,
+          "QA": 5,
+          "USE_SENTENCE": 7,
+          "PASSAGE": 1
+        },
+        "21": {
+          "MCQ": 18,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 10
+        },
+        "22": {
+          "QA": 4,
+          "VOCAB": 5,
+          "TRUE_FALSE": 4,
+          "PASSAGE": 1
+        },
+        "23": {
+          "MCQ": 11,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 9
+        },
+        "24": {
+          "MCQ": 13,
+          "QA": 5,
+          "USE_SENTENCE": 9,
+          "PASSAGE": 1
+        },
+        "25": {
+          "MCQ": 8,
+          "USE_SENTENCE": 17
+        },
+        "26": {
+          "MCQ": 16,
+          "FILL": 6,
+          "QA": 5,
+          "USE_SENTENCE": 7
+        },
+        "27": {
+          "QA": 3
+        },
+        "28": {
+          "QA": 9,
+          "PASSAGE": 1
+        },
+        "29": {
+          "LETTER": 8,
+          "APPLICATION": 6,
+          "CORRECT": 81,
+          "STORY": 13,
+          "TRUE_FALSE": 700,
+          "VOCAB": 322,
+          "GENDER": 135,
+          "MEANING": 274
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 10,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 14,
+          "field": "QA"
+        },
+        {
+          "id": 15,
+          "field": "LETTER"
+        },
+        {
+          "id": 16,
+          "field": "APPLICATION"
+        },
+        {
+          "id": 24,
+          "field": "CORRECT"
+        },
+        {
+          "id": 26,
+          "field": "STORY"
+        },
+        {
+          "id": 27,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 34,
+          "field": "WORD"
+        },
+        {
+          "id": 37,
+          "field": "USE_SENTENCE"
+        },
+        {
+          "id": 38,
+          "field": "VOCAB"
+        },
+        {
+          "id": 39,
+          "field": "GENDER"
+        },
+        {
+          "id": 40,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 41,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 42,
+          "field": "MEANING"
+        },
+        {
+          "id": 45,
+          "field": "PASSAGE"
+        }
+      ],
+      "mongo": {
+        "created": 2266,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 292,
+          "SHORT": 1932,
+          "LONG": 42
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "TRUE_FALSE",
+          "ARRANGE",
+          "QA",
+          "LETTER",
+          "APPLICATION",
+          "CORRECT",
+          "STORY",
+          "TRUE_FALSE",
+          "WORD",
+          "USE_SENTENCE",
+          "VOCAB",
+          "GENDER",
+          "TRUE_FALSE",
+          "TRUE_FALSE",
+          "MEANING",
+          "PASSAGE"
+        ]
+      },
+      "at": "2026-10-22T21:50:41.947Z"
+    },
+    "1:4:244": {
+      "slug": "english",
+      "total": 2226,
+      "typeTotals": {
+        "COMPREHENSION": 145,
+        "SPELLING": 242,
+        "VERB": 17,
+        "FILL": 88,
+        "TRACE": 60,
+        "LETTER": 18,
+        "APPLICATION": 7,
+        "TRUE_FALSE": 66,
+        "TRANSLATE_EN": 317,
+        "STORY": 13,
+        "ESSAY": 30,
+        "WORD": 242,
+        "USE_SENTENCE": 242,
+        "VOCAB": 115,
+        "GENDER": 46,
+        "TRANSLATE_UR": 26,
+        "RHYME": 70,
+        "MISSING_LETTERS": 240
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "COMPREHENSION": 10,
+          "SPELLING": 20,
+          "FILL": 5,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 5,
+          "MISSING_LETTERS": 20
+        },
+        "2": {
+          "COMPREHENSION": 9,
+          "SPELLING": 14,
+          "TRACE": 3,
+          "WORD": 14,
+          "USE_SENTENCE": 14,
+          "MISSING_LETTERS": 14
+        },
+        "3": {
+          "COMPREHENSION": 4,
+          "SPELLING": 20,
+          "TRACE": 5,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 20
+        },
+        "4": {
+          "COMPREHENSION": 17,
+          "SPELLING": 20,
+          "TRACE": 7,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 20
+        },
+        "5": {
+          "COMPREHENSION": 9,
+          "SPELLING": 20,
+          "TRACE": 5,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "MISSING_LETTERS": 20
+        },
+        "6": {
+          "COMPREHENSION": 1,
+          "SPELLING": 20,
+          "FILL": 5,
+          "TRACE": 4,
+          "WORD": 19,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 20
+        },
+        "7": {
+          "COMPREHENSION": 18,
+          "SPELLING": 20,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 20
+        },
+        "8": {
+          "COMPREHENSION": 17,
+          "SPELLING": 18,
+          "TRACE": 9,
+          "WORD": 18,
+          "USE_SENTENCE": 18,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 18
+        },
+        "9": {
+          "COMPREHENSION": 4,
+          "SPELLING": 10,
+          "TRACE": 3,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "MISSING_LETTERS": 9
+        },
+        "10": {
+          "COMPREHENSION": 7,
+          "SPELLING": 20,
+          "FILL": 5,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 19
+        },
+        "11": {
+          "COMPREHENSION": 10,
+          "SPELLING": 20,
+          "TRACE": 3,
+          "WORD": 21,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 20
+        },
+        "12": {
+          "COMPREHENSION": 14,
+          "SPELLING": 20,
+          "TRACE": 7,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 20
+        },
+        "13": {
+          "COMPREHENSION": 4,
+          "SPELLING": 20,
+          "TRACE": 2,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "MISSING_LETTERS": 20
+        },
+        "17": {
+          "COMPREHENSION": 6,
+          "TRACE": 3
+        },
+        "18": {
+          "LETTER": 18,
+          "APPLICATION": 7,
+          "STORY": 13,
+          "ESSAY": 30,
+          "VOCAB": 115,
+          "GENDER": 46,
+          "RHYME": 70
+        },
+        "19": {
+          "COMPREHENSION": 15,
+          "VERB": 17,
+          "FILL": 73,
+          "TRUE_FALSE": 308,
+          "TRANSLATE_EN": 317
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "COMPREHENSION"
+        },
+        {
+          "id": 2,
+          "field": "SPELLING"
+        },
+        {
+          "id": 5,
+          "field": "VERB"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 14,
+          "field": "TRACE"
+        },
+        {
+          "id": 15,
+          "field": "LETTER"
+        },
+        {
+          "id": 16,
+          "field": "APPLICATION"
+        },
+        {
+          "id": 20,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 21,
+          "field": "TRANSLATE_EN"
+        },
+        {
+          "id": 26,
+          "field": "STORY"
+        },
+        {
+          "id": 27,
+          "field": "ESSAY"
+        },
+        {
+          "id": 34,
+          "field": "WORD"
+        },
+        {
+          "id": 37,
+          "field": "USE_SENTENCE"
+        },
+        {
+          "id": 38,
+          "field": "VOCAB"
+        },
+        {
+          "id": 39,
+          "field": "GENDER"
+        },
+        {
+          "id": 43,
+          "field": "TRANSLATE_UR"
+        },
+        {
+          "id": 52,
+          "field": "RHYME"
+        },
+        {
+          "id": 56,
+          "field": "MISSING_LETTERS"
+        },
+        {
+          "id": 62,
+          "field": "TRUE_FALSE"
+        }
+      ],
+      "mongo": {
+        "created": 2226,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 404,
+          "SHORT": 1728,
+          "LONG": 94
+        },
+        "types": [
+          "COMPREHENSION",
+          "SPELLING",
+          "VERB",
+          "FILL",
+          "TRACE",
+          "LETTER",
+          "APPLICATION",
+          "TRUE_FALSE",
+          "TRANSLATE_EN",
+          "STORY",
+          "ESSAY",
+          "WORD",
+          "USE_SENTENCE",
+          "VOCAB",
+          "GENDER",
+          "TRANSLATE_UR",
+          "RHYME",
+          "MISSING_LETTERS",
+          "TRUE_FALSE"
+        ]
+      },
+      "at": "2026-10-22T21:51:12.355Z"
+    },
+    "1:4:245": {
+      "slug": "general-science",
+      "total": 423,
+      "typeTotals": {
+        "MCQ": 198,
+        "QA": 199,
+        "LONG": 26
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 21,
+          "QA": 20,
+          "LONG": 2
+        },
+        "2": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 3
+        },
+        "3": {
+          "MCQ": 19,
+          "QA": 19,
+          "LONG": 3
+        },
+        "4": {
+          "MCQ": 18,
+          "QA": 20,
+          "LONG": 2
+        },
+        "5": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 2
+        },
+        "6": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 3
+        },
+        "7": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 3
+        },
+        "8": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 2
+        },
+        "9": {
+          "MCQ": 19,
+          "QA": 20,
+          "LONG": 3
+        },
+        "10": {
+          "MCQ": 21,
+          "QA": 20,
+          "LONG": 3
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 423,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 198,
+          "SHORT": 199,
+          "LONG": 26
+        },
+        "types": [
+          "MCQ",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:51:45.122Z"
+    },
+    "1:4:246": {
+      "slug": "social-studies",
+      "total": 446,
+      "typeTotals": {
+        "MCQ": 169,
+        "FILL": 14,
+        "TRUE_FALSE": 30,
+        "ARRANGE": 6,
+        "QA": 188,
+        "LONG": 39
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 24,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 29,
+          "LONG": 5
+        },
+        "2": {
+          "MCQ": 23,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 29,
+          "LONG": 4
+        },
+        "3": {
+          "MCQ": 25,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 27,
+          "LONG": 7
+        },
+        "4": {
+          "MCQ": 30,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 28,
+          "LONG": 7
+        },
+        "5": {
+          "MCQ": 53,
+          "FILL": 14,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 59,
+          "LONG": 13
+        },
+        "6": {
+          "MCQ": 14,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 16,
+          "LONG": 3
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 10,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 446,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 169,
+          "SHORT": 238,
+          "LONG": 39
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "TRUE_FALSE",
+          "ARRANGE",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:52:14.897Z"
+    },
+    "1:4:247": {
+      "slug": "mathematics",
+      "total": 973,
+      "typeTotals": {
+        "MCQ": 53,
+        "FILL": 16,
+        "QA": 904
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 16,
+          "QA": 243
+        },
+        "2": {
+          "MCQ": 5,
+          "QA": 99
+        },
+        "3": {
+          "MCQ": 5,
+          "QA": 120
+        },
+        "4": {
+          "MCQ": 5,
+          "FILL": 16,
+          "QA": 133
+        },
+        "5": {
+          "MCQ": 10,
+          "QA": 226
+        },
+        "6": {
+          "MCQ": 8,
+          "QA": 73
+        },
+        "7": {
+          "MCQ": 4,
+          "QA": 10
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 14,
+          "field": "QA"
+        }
+      ],
+      "mongo": {
+        "created": 973,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 53,
+          "SHORT": 920,
+          "LONG": 0
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "QA"
+        ]
+      },
+      "at": "2026-10-22T21:54:59.936Z"
+    },
+    "1:4:248": {
+      "slug": "اسلامیات",
+      "total": 847,
+      "typeTotals": {
+        "MCQ": 331,
+        "FILL": 89,
+        "ARRANGE": 2,
+        "QA": 379,
+        "LONG": 46
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 73,
+          "FILL": 10,
+          "ARRANGE": 2,
+          "QA": 79,
+          "LONG": 10
+        },
+        "2": {
+          "MCQ": 102,
+          "FILL": 28,
+          "QA": 94,
+          "LONG": 12
+        },
+        "3": {
+          "MCQ": 27,
+          "FILL": 13,
+          "QA": 46,
+          "LONG": 6
+        },
+        "4": {
+          "MCQ": 31,
+          "FILL": 15,
+          "QA": 39,
+          "LONG": 6
+        },
+        "5": {
+          "MCQ": 79,
+          "FILL": 18,
+          "QA": 92,
+          "LONG": 8
+        },
+        "6": {
+          "MCQ": 19,
+          "FILL": 5,
+          "QA": 29,
+          "LONG": 4
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 847,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 331,
+          "SHORT": 470,
+          "LONG": 46
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "ARRANGE",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:55:18.458Z"
+    },
+    "1:4:249": {
+      "slug": "ا-ردو",
+      "total": 2398,
+      "typeTotals": {
+        "MCQ": 216,
+        "FILL": 53,
+        "TRUE_FALSE": 331,
+        "ARRANGE": 6,
+        "QA": 118,
+        "LETTER": 8,
+        "APPLICATION": 6,
+        "POEM": 75,
+        "CORRECT": 81,
+        "STORY": 13,
+        "WORD": 104,
+        "USE_SENTENCE": 205,
+        "VOCAB": 322,
+        "GENDER": 155,
+        "MEANING": 274,
+        "PASSAGE": 7
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 26,
+          "ARRANGE": 1,
+          "QA": 5,
+          "POEM": 12,
+          "USE_SENTENCE": 12
+        },
+        "2": {
+          "MCQ": 15,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 5,
+          "POEM": 7,
+          "USE_SENTENCE": 10
+        },
+        "3": {
+          "MCQ": 11,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 10,
+          "PASSAGE": 1
+        },
+        "4": {
+          "FILL": 5,
+          "QA": 4,
+          "WORD": 8,
+          "USE_SENTENCE": 11
+        },
+        "5": {
+          "MCQ": 5,
+          "ARRANGE": 1,
+          "WORD": 5,
+          "GENDER": 10,
+          "PASSAGE": 1
+        },
+        "6": {
+          "QA": 5
+        },
+        "7": {
+          "MCQ": 13,
+          "QA": 7,
+          "WORD": 5,
+          "USE_SENTENCE": 10,
+          "PASSAGE": 1
+        },
+        "8": {
+          "MCQ": 8,
+          "FILL": 6,
+          "QA": 5,
+          "POEM": 8,
+          "WORD": 6,
+          "USE_SENTENCE": 9
+        },
+        "9": {
+          "QA": 6
+        },
+        "10": {
+          "MCQ": 8,
+          "TRUE_FALSE": 5,
+          "QA": 6,
+          "WORD": 12,
+          "USE_SENTENCE": 15
+        },
+        "11": {
+          "MCQ": 14,
+          "FILL": 5,
+          "QA": 5,
+          "POEM": 12,
+          "WORD": 6,
+          "USE_SENTENCE": 12
+        },
+        "12": {
+          "WORD": 5,
+          "TRUE_FALSE": 5,
+          "PASSAGE": 1
+        },
+        "13": {
+          "MCQ": 10,
+          "FILL": 5,
+          "QA": 6,
+          "WORD": 6,
+          "USE_SENTENCE": 11
+        },
+        "14": {
+          "MCQ": 13,
+          "ARRANGE": 1,
+          "QA": 6,
+          "POEM": 11,
+          "WORD": 6,
+          "USE_SENTENCE": 12
+        },
+        "15": {
+          "MCQ": 8,
+          "TRUE_FALSE": 5,
+          "QA": 5,
+          "USE_SENTENCE": 10
+        },
+        "16": {
+          "MCQ": 7,
+          "TRUE_FALSE": 5,
+          "QA": 6,
+          "USE_SENTENCE": 9
+        },
+        "17": {
+          "WORD": 5,
+          "TRUE_FALSE": 6,
+          "PASSAGE": 1
+        },
+        "18": {
+          "MCQ": 12,
+          "FILL": 5,
+          "QA": 5,
+          "POEM": 4,
+          "WORD": 6,
+          "USE_SENTENCE": 10
+        },
+        "19": {
+          "MCQ": 5,
+          "FILL": 5,
+          "QA": 5,
+          "WORD": 6,
+          "USE_SENTENCE": 8,
+          "TRUE_FALSE": 5,
+          "PASSAGE": 1
+        },
+        "20": {
+          "MCQ": 15,
+          "ARRANGE": 1,
+          "QA": 5,
+          "POEM": 16,
+          "USE_SENTENCE": 12
+        },
+        "21": {
+          "MCQ": 7,
+          "FILL": 4,
+          "QA": 4,
+          "WORD": 10,
+          "USE_SENTENCE": 12
+        },
+        "22": {
+          "ARRANGE": 1,
+          "TRUE_FALSE": 10,
+          "PASSAGE": 1
+        },
+        "23": {
+          "MCQ": 9,
+          "TRUE_FALSE": 5,
+          "QA": 4,
+          "WORD": 6,
+          "USE_SENTENCE": 10
+        },
+        "25": {
+          "MCQ": 18,
+          "FILL": 4,
+          "QA": 5,
+          "POEM": 5,
+          "WORD": 4,
+          "USE_SENTENCE": 8,
+          "GENDER": 10
+        },
+        "26": {
+          "QA": 8
+        },
+        "27": {
+          "MCQ": 12,
+          "TRUE_FALSE": 5,
+          "QA": 6,
+          "WORD": 8,
+          "USE_SENTENCE": 14
+        },
+        "28": {
+          "FILL": 4,
+          "TRUE_FALSE": 4
+        },
+        "29": {
+          "LETTER": 8,
+          "APPLICATION": 6,
+          "CORRECT": 81,
+          "STORY": 13,
+          "TRUE_FALSE": 700,
+          "VOCAB": 322,
+          "GENDER": 135,
+          "MEANING": 274
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 10,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 14,
+          "field": "QA"
+        },
+        {
+          "id": 15,
+          "field": "LETTER"
+        },
+        {
+          "id": 16,
+          "field": "APPLICATION"
+        },
+        {
+          "id": 19,
+          "field": "POEM"
+        },
+        {
+          "id": 24,
+          "field": "CORRECT"
+        },
+        {
+          "id": 26,
+          "field": "STORY"
+        },
+        {
+          "id": 27,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 34,
+          "field": "WORD"
+        },
+        {
+          "id": 37,
+          "field": "USE_SENTENCE"
+        },
+        {
+          "id": 38,
+          "field": "VOCAB"
+        },
+        {
+          "id": 39,
+          "field": "GENDER"
+        },
+        {
+          "id": 40,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 41,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 42,
+          "field": "MEANING"
+        },
+        {
+          "id": 45,
+          "field": "PASSAGE"
+        }
+      ],
+      "mongo": {
+        "created": 2398,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 216,
+          "SHORT": 2073,
+          "LONG": 109
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "TRUE_FALSE",
+          "ARRANGE",
+          "QA",
+          "LETTER",
+          "APPLICATION",
+          "POEM",
+          "CORRECT",
+          "STORY",
+          "TRUE_FALSE",
+          "WORD",
+          "USE_SENTENCE",
+          "VOCAB",
+          "GENDER",
+          "TRUE_FALSE",
+          "TRUE_FALSE",
+          "MEANING",
+          "PASSAGE"
+        ]
+      },
+      "at": "2026-10-22T21:55:45.432Z"
+    },
+    "1:5:238": {
+      "slug": "english",
+      "total": 2340,
+      "typeTotals": {
+        "COMPREHENSION": 61,
+        "SPELLING": 258,
+        "VERB": 17,
+        "FILL": 103,
+        "ARRANGE": 1,
+        "TRACE": 57,
+        "LETTER": 18,
+        "APPLICATION": 7,
+        "TRUE_FALSE": 66,
+        "TRANSLATE_EN": 317,
+        "STORY": 13,
+        "ESSAY": 30,
+        "WORD": 265,
+        "USE_SENTENCE": 311,
+        "VOCAB": 123,
+        "GENDER": 46,
+        "TRANSLATE_UR": 36,
+        "RHYME": 70,
+        "MISSING_LETTERS": 299
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "SPELLING": 20,
+          "FILL": 3,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 22,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 25
+        },
+        "2": {
+          "COMPREHENSION": 5,
+          "SPELLING": 20,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 20,
+          "MISSING_LETTERS": 20
+        },
+        "3": {
+          "SPELLING": 20,
+          "FILL": 4,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 24,
+          "TRANSLATE_UR": 5,
+          "MISSING_LETTERS": 25
+        },
+        "4": {
+          "COMPREHENSION": 5,
+          "SPELLING": 19,
+          "TRACE": 6,
+          "WORD": 23,
+          "USE_SENTENCE": 27,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 24
+        },
+        "5": {
+          "SPELLING": 14,
+          "FILL": 4,
+          "TRACE": 3,
+          "WORD": 14,
+          "USE_SENTENCE": 14,
+          "MISSING_LETTERS": 14
+        },
+        "6": {
+          "COMPREHENSION": 5,
+          "SPELLING": 20,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "TRACE": 3,
+          "WORD": 24,
+          "USE_SENTENCE": 23,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 20
+        },
+        "7": {
+          "COMPREHENSION": 5,
+          "SPELLING": 20,
+          "TRACE": 3,
+          "WORD": 24,
+          "USE_SENTENCE": 24,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 23
+        },
+        "8": {
+          "COMPREHENSION": 4,
+          "SPELLING": 20,
+          "TRACE": 6,
+          "WORD": 24,
+          "USE_SENTENCE": 29,
+          "TRANSLATE_UR": 4,
+          "MISSING_LETTERS": 20
+        },
+        "9": {
+          "COMPREHENSION": 5,
+          "SPELLING": 16,
+          "TRACE": 3,
+          "WORD": 5,
+          "USE_SENTENCE": 17,
+          "MISSING_LETTERS": 16
+        },
+        "10": {
+          "COMPREHENSION": 4,
+          "SPELLING": 18,
+          "FILL": 5,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 27,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 24
+        },
+        "11": {
+          "SPELLING": 20,
+          "FILL": 5,
+          "TRACE": 3,
+          "WORD": 20,
+          "USE_SENTENCE": 22,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 25
+        },
+        "12": {
+          "COMPREHENSION": 4,
+          "SPELLING": 20,
+          "TRACE": 6,
+          "WORD": 20,
+          "USE_SENTENCE": 23,
+          "TRANSLATE_UR": 3,
+          "MISSING_LETTERS": 24
+        },
+        "13": {
+          "COMPREHENSION": 4,
+          "SPELLING": 16,
+          "TRACE": 3,
+          "WORD": 16,
+          "USE_SENTENCE": 19,
+          "VOCAB": 8,
+          "TRANSLATE_UR": 2,
+          "MISSING_LETTERS": 19
+        },
+        "14": {
+          "COMPREHENSION": 5,
+          "SPELLING": 15,
+          "FILL": 4,
+          "TRACE": 3,
+          "WORD": 15,
+          "USE_SENTENCE": 15,
+          "MISSING_LETTERS": 20
+        },
+        "18": {
+          "TRACE": 6,
+          "USE_SENTENCE": 5
+        },
+        "19": {
+          "LETTER": 18,
+          "APPLICATION": 7,
+          "STORY": 13,
+          "ESSAY": 30,
+          "VOCAB": 115,
+          "GENDER": 46,
+          "RHYME": 70
+        },
+        "20": {
+          "COMPREHENSION": 15,
+          "VERB": 17,
+          "FILL": 73,
+          "TRUE_FALSE": 308,
+          "TRANSLATE_EN": 317
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "COMPREHENSION"
+        },
+        {
+          "id": 2,
+          "field": "SPELLING"
+        },
+        {
+          "id": 5,
+          "field": "VERB"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 14,
+          "field": "TRACE"
+        },
+        {
+          "id": 15,
+          "field": "LETTER"
+        },
+        {
+          "id": 16,
+          "field": "APPLICATION"
+        },
+        {
+          "id": 20,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 21,
+          "field": "TRANSLATE_EN"
+        },
+        {
+          "id": 26,
+          "field": "STORY"
+        },
+        {
+          "id": 27,
+          "field": "ESSAY"
+        },
+        {
+          "id": 34,
+          "field": "WORD"
+        },
+        {
+          "id": 37,
+          "field": "USE_SENTENCE"
+        },
+        {
+          "id": 38,
+          "field": "VOCAB"
+        },
+        {
+          "id": 39,
+          "field": "GENDER"
+        },
+        {
+          "id": 43,
+          "field": "TRANSLATE_UR"
+        },
+        {
+          "id": 52,
+          "field": "RHYME"
+        },
+        {
+          "id": 56,
+          "field": "MISSING_LETTERS"
+        },
+        {
+          "id": 62,
+          "field": "TRUE_FALSE"
+        }
+      ],
+      "mongo": {
+        "created": 2340,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 336,
+          "SHORT": 1900,
+          "LONG": 104
+        },
+        "types": [
+          "COMPREHENSION",
+          "SPELLING",
+          "VERB",
+          "FILL",
+          "ARRANGE",
+          "TRACE",
+          "LETTER",
+          "APPLICATION",
+          "TRUE_FALSE",
+          "TRANSLATE_EN",
+          "STORY",
+          "ESSAY",
+          "WORD",
+          "USE_SENTENCE",
+          "VOCAB",
+          "GENDER",
+          "TRANSLATE_UR",
+          "RHYME",
+          "MISSING_LETTERS",
+          "TRUE_FALSE"
+        ]
+      },
+      "at": "2026-10-22T21:56:14.579Z"
+    },
+    "1:5:239": {
+      "slug": "general-science",
+      "total": 412,
+      "typeTotals": {
+        "MCQ": 195,
+        "QA": 194,
+        "LONG": 23
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 2
+        },
+        "2": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 2
+        },
+        "3": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 2
+        },
+        "4": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 3
+        },
+        "5": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 2
+        },
+        "6": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 3
+        },
+        "7": {
+          "MCQ": 17,
+          "QA": 20,
+          "LONG": 3
+        },
+        "8": {
+          "MCQ": 21,
+          "QA": 19,
+          "LONG": 2
+        },
+        "9": {
+          "MCQ": 20,
+          "QA": 18,
+          "LONG": 2
+        },
+        "10": {
+          "MCQ": 17,
+          "QA": 17,
+          "LONG": 2
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 412,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 195,
+          "SHORT": 194,
+          "LONG": 23
+        },
+        "types": [
+          "MCQ",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:56:35.127Z"
+    },
+    "1:5:240": {
+      "slug": "social-studies",
+      "total": 456,
+      "typeTotals": {
+        "MCQ": 195,
+        "TRUE_FALSE": 30,
+        "ARRANGE": 4,
+        "QA": 194,
+        "LONG": 33
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 17,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 15,
+          "LONG": 2
+        },
+        "2": {
+          "MCQ": 32,
+          "TRUE_FALSE": 5,
+          "QA": 28,
+          "LONG": 6
+        },
+        "3": {
+          "MCQ": 17,
+          "TRUE_FALSE": 5,
+          "QA": 12,
+          "LONG": 3
+        },
+        "4": {
+          "MCQ": 33,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 33,
+          "LONG": 5
+        },
+        "5": {
+          "MCQ": 55,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 63,
+          "LONG": 10
+        },
+        "6": {
+          "MCQ": 41,
+          "TRUE_FALSE": 5,
+          "ARRANGE": 1,
+          "QA": 43,
+          "LONG": 7
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 10,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 456,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 195,
+          "SHORT": 228,
+          "LONG": 33
+        },
+        "types": [
+          "MCQ",
+          "TRUE_FALSE",
+          "ARRANGE",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:56:54.889Z"
+    },
+    "1:5:241": {
+      "slug": "mathematics",
+      "total": 1051,
+      "typeTotals": {
+        "MCQ": 176,
+        "ARRANGE": 1,
+        "QA": 874
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 30,
+          "ARRANGE": 1,
+          "QA": 125
+        },
+        "2": {
+          "MCQ": 19,
+          "QA": 93
+        },
+        "3": {
+          "MCQ": 5,
+          "QA": 69
+        },
+        "4": {
+          "MCQ": 37,
+          "QA": 264
+        },
+        "5": {
+          "MCQ": 29,
+          "QA": 81
+        },
+        "6": {
+          "MCQ": 20,
+          "QA": 19
+        },
+        "7": {
+          "MCQ": 13,
+          "QA": 127
+        },
+        "8": {
+          "MCQ": 12,
+          "QA": 77
+        },
+        "9": {
+          "MCQ": 11,
+          "QA": 19
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 14,
+          "field": "QA"
+        }
+      ],
+      "mongo": {
+        "created": 1051,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 176,
+          "SHORT": 875,
+          "LONG": 0
+        },
+        "types": [
+          "MCQ",
+          "ARRANGE",
+          "QA"
+        ]
+      },
+      "at": "2026-10-22T21:58:42.770Z"
+    },
+    "1:5:242": {
+      "slug": "اسلامیات",
+      "total": 837,
+      "typeTotals": {
+        "MCQ": 396,
+        "FILL": 110,
+        "ARRANGE": 1,
+        "QA": 281,
+        "LONG": 49
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 77,
+          "FILL": 20,
+          "QA": 69,
+          "LONG": 10
+        },
+        "2": {
+          "MCQ": 131,
+          "FILL": 30,
+          "ARRANGE": 1,
+          "QA": 79,
+          "LONG": 14
+        },
+        "3": {
+          "MCQ": 30,
+          "FILL": 15,
+          "QA": 23,
+          "LONG": 6
+        },
+        "4": {
+          "MCQ": 58,
+          "FILL": 15,
+          "QA": 28,
+          "LONG": 6
+        },
+        "5": {
+          "MCQ": 77,
+          "FILL": 20,
+          "QA": 60,
+          "LONG": 9
+        },
+        "6": {
+          "MCQ": 23,
+          "FILL": 10,
+          "QA": 22,
+          "LONG": 4
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 837,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 396,
+          "SHORT": 392,
+          "LONG": 49
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "ARRANGE",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:58:55.049Z"
+    },
+    "1:5:243": {
+      "slug": "ا-ردو",
+      "total": 2338,
+      "typeTotals": {
+        "MCQ": 263,
+        "FILL": 68,
+        "TRUE_FALSE": 327,
+        "ARRANGE": 14,
+        "QA": 101,
+        "LETTER": 8,
+        "APPLICATION": 6,
+        "POEM": 77,
+        "CORRECT": 81,
+        "STORY": 13,
+        "WORD": 32,
+        "USE_SENTENCE": 210,
+        "VOCAB": 328,
+        "GENDER": 135,
+        "MEANING": 274,
+        "PASSAGE": 7
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 11,
+          "FILL": 6,
+          "ARRANGE": 1,
+          "QA": 7,
+          "POEM": 10,
+          "WORD": 12,
+          "USE_SENTENCE": 12
+        },
+        "2": {
+          "MCQ": 14,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 5,
+          "POEM": 8,
+          "WORD": 10,
+          "USE_SENTENCE": 10,
+          "PASSAGE": 1
+        },
+        "3": {
+          "MCQ": 22,
+          "FILL": 5,
+          "QA": 5,
+          "WORD": 5,
+          "USE_SENTENCE": 12,
+          "PASSAGE": 1
+        },
+        "4": {
+          "MCQ": 26,
+          "TRUE_FALSE": 6,
+          "QA": 6,
+          "USE_SENTENCE": 16,
+          "VOCAB": 6
+        },
+        "5": {
+          "MCQ": 17,
+          "FILL": 10,
+          "QA": 5,
+          "USE_SENTENCE": 7,
+          "PASSAGE": 1
+        },
+        "7": {
+          "MCQ": 18,
+          "ARRANGE": 2,
+          "QA": 4,
+          "POEM": 7,
+          "USE_SENTENCE": 10
+        },
+        "8": {
+          "MCQ": 14,
+          "ARRANGE": 1,
+          "QA": 5,
+          "USE_SENTENCE": 10
+        },
+        "9": {
+          "MCQ": 14,
+          "ARRANGE": 1,
+          "QA": 5,
+          "USE_SENTENCE": 16,
+          "PASSAGE": 1
+        },
+        "10": {
+          "MCQ": 21,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 5,
+          "POEM": 22,
+          "USE_SENTENCE": 11
+        },
+        "11": {
+          "MCQ": 14,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 11
+        },
+        "12": {
+          "MCQ": 4,
+          "FILL": 5,
+          "TRUE_FALSE": 5,
+          "QA": 5,
+          "USE_SENTENCE": 14,
+          "PASSAGE": 1
+        },
+        "13": {
+          "MCQ": 4,
+          "FILL": 6,
+          "ARRANGE": 1,
+          "QA": 5,
+          "POEM": 3,
+          "USE_SENTENCE": 9
+        },
+        "15": {
+          "MCQ": 15,
+          "FILL": 6,
+          "TRUE_FALSE": 5,
+          "QA": 5,
+          "USE_SENTENCE": 8,
+          "PASSAGE": 1
+        },
+        "16": {
+          "MCQ": 4,
+          "FILL": 5,
+          "ARRANGE": 1,
+          "QA": 5,
+          "WORD": 5,
+          "USE_SENTENCE": 9
+        },
+        "17": {
+          "MCQ": 9,
+          "ARRANGE": 2,
+          "QA": 5,
+          "POEM": 12,
+          "USE_SENTENCE": 6
+        },
+        "18": {
+          "MCQ": 12,
+          "FILL": 5,
+          "TRUE_FALSE": 5,
+          "QA": 5,
+          "USE_SENTENCE": 14,
+          "PASSAGE": 1
+        },
+        "19": {
+          "MCQ": 9,
+          "QA": 5,
+          "USE_SENTENCE": 8
+        },
+        "20": {
+          "MCQ": 14,
+          "ARRANGE": 2,
+          "QA": 5,
+          "POEM": 6,
+          "USE_SENTENCE": 8
+        },
+        "21": {
+          "MCQ": 11,
+          "FILL": 5,
+          "QA": 5,
+          "USE_SENTENCE": 12
+        },
+        "23": {
+          "MCQ": 10,
+          "ARRANGE": 1,
+          "QA": 4,
+          "POEM": 9,
+          "USE_SENTENCE": 7
+        },
+        "24": {
+          "LETTER": 8,
+          "APPLICATION": 6,
+          "CORRECT": 81,
+          "STORY": 13,
+          "TRUE_FALSE": 700,
+          "VOCAB": 322,
+          "GENDER": 135,
+          "MEANING": 274
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 10,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 14,
+          "field": "QA"
+        },
+        {
+          "id": 15,
+          "field": "LETTER"
+        },
+        {
+          "id": 16,
+          "field": "APPLICATION"
+        },
+        {
+          "id": 19,
+          "field": "POEM"
+        },
+        {
+          "id": 24,
+          "field": "CORRECT"
+        },
+        {
+          "id": 26,
+          "field": "STORY"
+        },
+        {
+          "id": 27,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 34,
+          "field": "WORD"
+        },
+        {
+          "id": 37,
+          "field": "USE_SENTENCE"
+        },
+        {
+          "id": 38,
+          "field": "VOCAB"
+        },
+        {
+          "id": 39,
+          "field": "GENDER"
+        },
+        {
+          "id": 40,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 41,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 42,
+          "field": "MEANING"
+        },
+        {
+          "id": 45,
+          "field": "PASSAGE"
+        }
+      ],
+      "mongo": {
+        "created": 2338,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 263,
+          "SHORT": 1964,
+          "LONG": 111
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "TRUE_FALSE",
+          "ARRANGE",
+          "QA",
+          "LETTER",
+          "APPLICATION",
+          "POEM",
+          "CORRECT",
+          "STORY",
+          "TRUE_FALSE",
+          "WORD",
+          "USE_SENTENCE",
+          "VOCAB",
+          "GENDER",
+          "TRUE_FALSE",
+          "TRUE_FALSE",
+          "MEANING",
+          "PASSAGE"
+        ]
+      },
+      "at": "2026-10-22T21:59:16.683Z"
+    },
+    "1:6:14": {
+      "slug": "ہوم-اکنامکس",
+      "total": 239,
+      "typeTotals": {
+        "MCQ": 76,
+        "FILL": 39,
+        "TRUE_FALSE": 15,
+        "ARRANGE": 2,
+        "QA": 87,
+        "LONG": 20
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 13,
+          "FILL": 3,
+          "QA": 9,
+          "LONG": 2
+        },
+        "2": {
+          "MCQ": 5,
+          "FILL": 5,
+          "QA": 8
+        },
+        "3": {
+          "MCQ": 7,
+          "FILL": 4,
+          "TRUE_FALSE": 10,
+          "ARRANGE": 1,
+          "QA": 7
+        },
+        "4": {
+          "MCQ": 10,
+          "FILL": 5,
+          "QA": 10,
+          "LONG": 4
+        },
+        "5": {
+          "MCQ": 6,
+          "FILL": 5,
+          "QA": 6,
+          "LONG": 3
+        },
+        "6": {
+          "MCQ": 11,
+          "FILL": 3,
+          "QA": 8,
+          "LONG": 4
+        },
+        "7": {
+          "MCQ": 5,
+          "FILL": 5,
+          "QA": 11,
+          "LONG": 2
+        },
+        "8": {
+          "MCQ": 9,
+          "ARRANGE": 1,
+          "QA": 15
+        },
+        "9": {
+          "MCQ": 5,
+          "FILL": 5,
+          "TRUE_FALSE": 5,
+          "QA": 8,
+          "LONG": 2
+        },
+        "10": {
+          "MCQ": 5,
+          "FILL": 4,
+          "QA": 5,
+          "LONG": 3
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 10,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 11,
+          "field": "ARRANGE"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 239,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 76,
+          "SHORT": 143,
+          "LONG": 20
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "TRUE_FALSE",
+          "ARRANGE",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:59:29.108Z"
+    },
+    "1:6:15": {
+      "slug": "پنجابی",
+      "total": 369,
+      "typeTotals": {
+        "QA": 93,
+        "POEM": 65,
+        "MEANING": 22,
+        "WORD": 189
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "QA": 1,
+          "POEM": 7,
+          "WORD": 5
+        },
+        "2": {
+          "QA": 4,
+          "WORD": 12
+        },
+        "3": {
+          "QA": 1,
+          "POEM": 8,
+          "WORD": 7
+        },
+        "4": {
+          "QA": 3,
+          "WORD": 5
+        },
+        "5": {
+          "QA": 2,
+          "POEM": 5,
+          "WORD": 4
+        },
+        "6": {
+          "QA": 4,
+          "WORD": 7
+        },
+        "7": {
+          "QA": 3,
+          "WORD": 12
+        },
+        "8": {
+          "QA": 2,
+          "POEM": 3,
+          "WORD": 2
+        },
+        "9": {
+          "QA": 4,
+          "WORD": 3
+        },
+        "10": {
+          "QA": 4,
+          "WORD": 7
+        },
+        "11": {
+          "QA": 3,
+          "POEM": 4,
+          "WORD": 4
+        },
+        "12": {
+          "QA": 3,
+          "MEANING": 16,
+          "WORD": 3
+        },
+        "13": {
+          "QA": 4,
+          "WORD": 9
+        },
+        "14": {
+          "QA": 3,
+          "WORD": 6
+        },
+        "15": {
+          "QA": 4,
+          "MEANING": 6,
+          "WORD": 6
+        },
+        "16": {
+          "QA": 3,
+          "WORD": 9
+        },
+        "17": {
+          "QA": 2,
+          "POEM": 10,
+          "WORD": 4
+        },
+        "18": {
+          "QA": 4,
+          "WORD": 6
+        },
+        "19": {
+          "QA": 3,
+          "POEM": 7,
+          "WORD": 6
+        },
+        "20": {
+          "QA": 3,
+          "WORD": 5
+        },
+        "21": {
+          "QA": 3,
+          "WORD": 5
+        },
+        "22": {
+          "QA": 3,
+          "WORD": 6
+        },
+        "23": {
+          "QA": 2,
+          "POEM": 3,
+          "WORD": 6
+        },
+        "24": {
+          "QA": 5,
+          "WORD": 10
+        },
+        "25": {
+          "QA": 2,
+          "POEM": 3,
+          "WORD": 3
+        },
+        "26": {
+          "QA": 5,
+          "WORD": 6
+        },
+        "27": {
+          "QA": 3,
+          "POEM": 3,
+          "WORD": 5
+        },
+        "28": {
+          "QA": 3,
+          "WORD": 7
+        },
+        "29": {
+          "QA": 2,
+          "POEM": 6,
+          "WORD": 4
+        },
+        "30": {
+          "QA": 4,
+          "WORD": 8
+        },
+        "31": {
+          "POEM": 3,
+          "WORD": 4
+        },
+        "32": {
+          "QA": 1,
+          "POEM": 3,
+          "WORD": 3
+        }
+      },
+      "types": [
+        {
+          "id": 14,
+          "field": "QA"
+        },
+        {
+          "id": 19,
+          "field": "POEM"
+        },
+        {
+          "id": 34,
+          "field": "MEANING"
+        },
+        {
+          "id": 37,
+          "field": "WORD"
+        }
+      ],
+      "mongo": {
+        "created": 369,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 0,
+          "SHORT": 304,
+          "LONG": 65
+        },
+        "types": [
+          "QA",
+          "POEM",
+          "MEANING",
+          "WORD"
+        ]
+      },
+      "at": "2026-10-22T21:59:41.771Z"
+    },
+    "1:6:16": {
+      "slug": "زرعی-تعلیم",
+      "total": 204,
+      "typeTotals": {
+        "MCQ": 32,
+        "FILL": 45,
+        "TRUE_FALSE": 44,
+        "QA": 41,
+        "LONG": 42
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 5,
+          "FILL": 8,
+          "TRUE_FALSE": 9,
+          "QA": 11,
+          "LONG": 9
+        },
+        "2": {
+          "MCQ": 7,
+          "FILL": 9,
+          "TRUE_FALSE": 7,
+          "QA": 10,
+          "LONG": 7
+        },
+        "3": {
+          "MCQ": 6,
+          "FILL": 9,
+          "TRUE_FALSE": 9,
+          "QA": 9,
+          "LONG": 7
+        },
+        "4": {
+          "MCQ": 6,
+          "FILL": 10,
+          "TRUE_FALSE": 12,
+          "QA": 6,
+          "LONG": 7
+        },
+        "5": {
+          "MCQ": 8,
+          "FILL": 9,
+          "TRUE_FALSE": 7,
+          "QA": 5,
+          "LONG": 12
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 7,
+          "field": "FILL"
+        },
+        {
+          "id": 10,
+          "field": "TRUE_FALSE"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 204,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 32,
+          "SHORT": 130,
+          "LONG": 42
+        },
+        "types": [
+          "MCQ",
+          "FILL",
+          "TRUE_FALSE",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T21:59:53.498Z"
+    },
+    "1:6:17": {
+      "slug": "ترجمۃ-القرا-ن",
+      "total": 237,
+      "typeTotals": {
+        "MCQ": 80,
+        "QA": 80,
+        "LONG": 32,
+        "AYAT": 9,
+        "WORD": 36
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2,
+          "AYAT": 2,
+          "WORD": 13
+        },
+        "2": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "3": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "4": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "5": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "6": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2,
+          "AYAT": 2,
+          "WORD": 10
+        },
+        "7": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "8": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "9": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2,
+          "AYAT": 1,
+          "WORD": 5
+        },
+        "10": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2,
+          "AYAT": 4,
+          "WORD": 8
+        },
+        "11": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "12": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "13": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "14": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "15": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        },
+        "16": {
+          "MCQ": 5,
+          "QA": 5,
+          "LONG": 2
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        },
+        {
+          "id": 17,
+          "field": "AYAT"
+        },
+        {
+          "id": 37,
+          "field": "WORD"
+        }
+      ],
+      "mongo": {
+        "created": 237,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 80,
+          "SHORT": 116,
+          "LONG": 41
+        },
+        "types": [
+          "MCQ",
+          "QA",
+          "LONG",
+          "AYAT",
+          "WORD"
+        ]
+      },
+      "at": "2026-10-22T22:00:05.936Z"
+    },
+    "1:9:1604": {
+      "slug": "agriculture-sciences-tech",
+      "total": 523,
+      "typeTotals": {
+        "MCQ": 281,
+        "QA": 220,
+        "LONG": 22
+      },
+      "chapterTypeCounts": {
+        "1": {
+          "MCQ": 115,
+          "QA": 101,
+          "LONG": 10
+        },
+        "2": {
+          "MCQ": 97,
+          "QA": 77,
+          "LONG": 5
+        },
+        "3": {
+          "MCQ": 63,
+          "QA": 37,
+          "LONG": 4
+        },
+        "4": {
+          "MCQ": 6,
+          "QA": 5,
+          "LONG": 3
+        }
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 523,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 281,
+          "SHORT": 220,
+          "LONG": 22
+        },
+        "types": [
+          "MCQ",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T22:15:42.653Z"
+    },
+    "1:9:1599": {
+      "slug": "biology-tech",
+      "total": 1247,
+      "typeTotals": {
+        "MCQ": 661,
+        "QA": 509,
+        "LONG": 77
+      },
+      "types": [
+        {
+          "id": 1,
+          "field": "MCQ"
+        },
+        {
+          "id": 12,
+          "field": "QA"
+        },
+        {
+          "id": 13,
+          "field": "LONG"
+        }
+      ],
+      "mongo": {
+        "created": 1247,
+        "updated": 0,
+        "skipped": 0,
+        "typeCounts": {
+          "MCQ": 661,
+          "SHORT": 509,
+          "LONG": 77
+        },
+        "types": [
+          "MCQ",
+          "QA",
+          "LONG"
+        ]
+      },
+      "at": "2026-10-22T22:53:56.417Z"
+    }
+  }
+}

@@ -1,0 +1,1771 @@
+[
+  {
+    "slug": "english",
+    "name": "English",
+    "total": 3622,
+    "allFields": {
+      "SPELLING": 341,
+      "MEANING": 322,
+      "GRAMMAR": 386,
+      "QA": 136,
+      "IDIOM": 292,
+      "TRANSLATE_UR": 113,
+      "SUMMARY": 2,
+      "POEM_STANZA": 12,
+      "VERB": 168,
+      "TRANSLATE_EN": 1183,
+      "VOICE": 667
+    },
+    "allTypeField": {
+      "MCQ:SPELLING": 341,
+      "MCQ:MEANING": 322,
+      "MCQ:GRAMMAR": 386,
+      "SHORT:QA": 136,
+      "SHORT:IDIOM": 292,
+      "LONG:TRANSLATE_UR": 113,
+      "LONG:SUMMARY": 2,
+      "LONG:POEM_STANZA": 12,
+      "MCQ:VERB": 168,
+      "SHORT:TRANSLATE_EN": 1183,
+      "SHORT:VOICE": 667
+    },
+    "chapters": [
+      {
+        "n": 1,
+        "title": "Lesson 1: the Saviour of Mankind",
+        "topics": 1,
+        "total": 186,
+        "types": {
+          "MCQ": 129,
+          "SHORT": 47,
+          "LONG": 10
+        },
+        "fields": {
+          "SPELLING": 38,
+          "MEANING": 34,
+          "GRAMMAR": 57,
+          "QA": 13,
+          "IDIOM": 34,
+          "TRANSLATE_UR": 10
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 38,
+          "MCQ:MEANING": 34,
+          "MCQ:GRAMMAR": 57,
+          "SHORT:QA": 13,
+          "SHORT:IDIOM": 34,
+          "LONG:TRANSLATE_UR": 10
+        }
+      },
+      {
+        "n": 2,
+        "title": "Lesson 2: Patriotism",
+        "topics": 1,
+        "total": 157,
+        "types": {
+          "MCQ": 112,
+          "SHORT": 40,
+          "LONG": 5
+        },
+        "fields": {
+          "SPELLING": 18,
+          "MEANING": 16,
+          "GRAMMAR": 78,
+          "QA": 14,
+          "IDIOM": 26,
+          "TRANSLATE_UR": 5
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 18,
+          "MCQ:MEANING": 16,
+          "MCQ:GRAMMAR": 78,
+          "SHORT:QA": 14,
+          "SHORT:IDIOM": 26,
+          "LONG:TRANSLATE_UR": 5
+        }
+      },
+      {
+        "n": 3,
+        "title": "Poem 3: Daffodils",
+        "topics": 1,
+        "total": 157,
+        "types": {
+          "MCQ": 107,
+          "SHORT": 45,
+          "LONG": 5
+        },
+        "fields": {
+          "SPELLING": 24,
+          "MEANING": 16,
+          "GRAMMAR": 67,
+          "QA": 20,
+          "SUMMARY": 1,
+          "IDIOM": 25,
+          "POEM_STANZA": 4
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 24,
+          "MCQ:MEANING": 16,
+          "MCQ:GRAMMAR": 67,
+          "SHORT:QA": 20,
+          "LONG:SUMMARY": 1,
+          "SHORT:IDIOM": 25,
+          "LONG:POEM_STANZA": 4
+        }
+      },
+      {
+        "n": 4,
+        "title": "Lesson 4: Hazrat Asma (R.a)",
+        "topics": 1,
+        "total": 133,
+        "types": {
+          "MCQ": 76,
+          "SHORT": 50,
+          "LONG": 7
+        },
+        "fields": {
+          "SPELLING": 31,
+          "MEANING": 25,
+          "GRAMMAR": 20,
+          "QA": 13,
+          "IDIOM": 37,
+          "TRANSLATE_UR": 7
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 31,
+          "MCQ:MEANING": 25,
+          "MCQ:GRAMMAR": 20,
+          "SHORT:QA": 13,
+          "SHORT:IDIOM": 37,
+          "LONG:TRANSLATE_UR": 7
+        }
+      },
+      {
+        "n": 5,
+        "title": "Lesson 5: Women Empowerment Through Enterpreneuship",
+        "topics": 1,
+        "total": 137,
+        "types": {
+          "MCQ": 80,
+          "SHORT": 33,
+          "LONG": 24
+        },
+        "fields": {
+          "SPELLING": 37,
+          "MEANING": 33,
+          "GRAMMAR": 10,
+          "QA": 10,
+          "IDIOM": 23,
+          "TRANSLATE_UR": 24
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 37,
+          "MCQ:MEANING": 33,
+          "MCQ:GRAMMAR": 10,
+          "SHORT:QA": 10,
+          "SHORT:IDIOM": 23,
+          "LONG:TRANSLATE_UR": 24
+        }
+      },
+      {
+        "n": 6,
+        "title": "Lesson 6: the Value of Time",
+        "topics": 1,
+        "total": 154,
+        "types": {
+          "MCQ": 113,
+          "SHORT": 29,
+          "LONG": 12
+        },
+        "fields": {
+          "SPELLING": 35,
+          "MEANING": 24,
+          "GRAMMAR": 54,
+          "QA": 8,
+          "IDIOM": 21,
+          "TRANSLATE_UR": 12
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 35,
+          "MCQ:MEANING": 24,
+          "MCQ:GRAMMAR": 54,
+          "SHORT:QA": 8,
+          "SHORT:IDIOM": 21,
+          "LONG:TRANSLATE_UR": 12
+        }
+      },
+      {
+        "n": 7,
+        "title": "Poem 7: If",
+        "topics": 1,
+        "total": 109,
+        "types": {
+          "MCQ": 75,
+          "SHORT": 25,
+          "LONG": 9
+        },
+        "fields": {
+          "SPELLING": 23,
+          "MEANING": 16,
+          "GRAMMAR": 36,
+          "QA": 10,
+          "SUMMARY": 1,
+          "IDIOM": 15,
+          "POEM_STANZA": 8
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 23,
+          "MCQ:MEANING": 16,
+          "MCQ:GRAMMAR": 36,
+          "SHORT:QA": 10,
+          "LONG:SUMMARY": 1,
+          "SHORT:IDIOM": 15,
+          "LONG:POEM_STANZA": 8
+        }
+      },
+      {
+        "n": 8,
+        "title": "Lesson 8: the Impact of Globalisation On Culture and Economy",
+        "topics": 1,
+        "total": 143,
+        "types": {
+          "MCQ": 84,
+          "SHORT": 45,
+          "LONG": 14
+        },
+        "fields": {
+          "SPELLING": 38,
+          "MEANING": 33,
+          "GRAMMAR": 13,
+          "QA": 13,
+          "IDIOM": 32,
+          "TRANSLATE_UR": 14
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 38,
+          "MCQ:MEANING": 33,
+          "MCQ:GRAMMAR": 13,
+          "SHORT:QA": 13,
+          "SHORT:IDIOM": 32,
+          "LONG:TRANSLATE_UR": 14
+        }
+      },
+      {
+        "n": 9,
+        "title": "Lesson 9: Quality Education:a Key to Success",
+        "topics": 1,
+        "total": 153,
+        "types": {
+          "MCQ": 101,
+          "SHORT": 38,
+          "LONG": 14
+        },
+        "fields": {
+          "SPELLING": 31,
+          "MEANING": 39,
+          "GRAMMAR": 31,
+          "QA": 12,
+          "IDIOM": 26,
+          "TRANSLATE_UR": 14
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 31,
+          "MCQ:MEANING": 39,
+          "MCQ:GRAMMAR": 31,
+          "SHORT:QA": 12,
+          "SHORT:IDIOM": 26,
+          "LONG:TRANSLATE_UR": 14
+        }
+      },
+      {
+        "n": 10,
+        "title": "Lesson 10: the Silent Predator and the Majestic Prey-Snow Leopard and Markhor",
+        "topics": 1,
+        "total": 129,
+        "types": {
+          "MCQ": 82,
+          "SHORT": 33,
+          "LONG": 14
+        },
+        "fields": {
+          "SPELLING": 32,
+          "MEANING": 35,
+          "GRAMMAR": 15,
+          "QA": 9,
+          "IDIOM": 24,
+          "TRANSLATE_UR": 14
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 32,
+          "MCQ:MEANING": 35,
+          "MCQ:GRAMMAR": 15,
+          "SHORT:QA": 9,
+          "SHORT:IDIOM": 24,
+          "LONG:TRANSLATE_UR": 14
+        }
+      },
+      {
+        "n": 11,
+        "title": "Lesson 11: the Dear Departed (One-Act Play) Stanley Houghton",
+        "topics": 1,
+        "total": 146,
+        "types": {
+          "MCQ": 90,
+          "SHORT": 43,
+          "LONG": 13
+        },
+        "fields": {
+          "SPELLING": 34,
+          "MEANING": 51,
+          "GRAMMAR": 5,
+          "QA": 14,
+          "IDIOM": 29,
+          "TRANSLATE_UR": 13
+        },
+        "byTypeField": {
+          "MCQ:SPELLING": 34,
+          "MCQ:MEANING": 51,
+          "MCQ:GRAMMAR": 5,
+          "SHORT:QA": 14,
+          "SHORT:IDIOM": 29,
+          "LONG:TRANSLATE_UR": 13
+        }
+      },
+      {
+        "n": 12,
+        "title": "English B",
+        "topics": 4,
+        "total": 0,
+        "types": {},
+        "fields": {},
+        "byTypeField": {}
+      },
+      {
+        "n": 13,
+        "title": "Tenses",
+        "topics": 15,
+        "total": 2018,
+        "types": {
+          "MCQ": 168,
+          "SHORT": 1850
+        },
+        "fields": {
+          "VERB": 168,
+          "TRANSLATE_EN": 1183,
+          "VOICE": 667
+        },
+        "byTypeField": {
+          "MCQ:VERB": 168,
+          "SHORT:TRANSLATE_EN": 1183,
+          "SHORT:VOICE": 667
+        }
+      }
+    ],
+    "empty": [
+      "12: English B"
+    ],
+    "fieldChapters": {
+      "SPELLING": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "MEANING": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "GRAMMAR": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "QA": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "IDIOM": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "TRANSLATE_UR": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        11
+      ],
+      "SUMMARY": [
+        3,
+        7
+      ],
+      "POEM_STANZA": [
+        3,
+        7
+      ],
+      "VERB": [
+        13
+      ],
+      "TRANSLATE_EN": [
+        13
+      ],
+      "VOICE": [
+        13
+      ]
+    }
+  },
+  {
+    "slug": "urdu-compulsory",
+    "name": "اُردو لازمی",
+    "total": 2716,
+    "allFields": {
+      "MCQ": 1402,
+      "QA": 920,
+      "SUMMARY": 10,
+      "PASSAGE": 113,
+      "POEM": 80,
+      "CENTRAL": 6,
+      "CORRECT": 184,
+      "APPLICATION": 1
+    },
+    "allTypeField": {
+      "MCQ:MCQ": 1402,
+      "SHORT:QA": 920,
+      "LONG:SUMMARY": 10,
+      "LONG:PASSAGE": 113,
+      "LONG:POEM": 80,
+      "LONG:CENTRAL": 6,
+      "SHORT:CORRECT": 184,
+      "LONG:APPLICATION": 1
+    },
+    "chapters": [
+      {
+        "n": 1,
+        "title": "نثر نمبر1: اخلاق حسنہ",
+        "topics": 1,
+        "total": 151,
+        "types": {
+          "MCQ": 75,
+          "SHORT": 63,
+          "LONG": 13
+        },
+        "fields": {
+          "MCQ": 75,
+          "QA": 63,
+          "SUMMARY": 1,
+          "PASSAGE": 12
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 75,
+          "SHORT:QA": 63,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 12
+        }
+      },
+      {
+        "n": 2,
+        "title": "نثر نمبر 2: اپنی مدد آپ",
+        "topics": 1,
+        "total": 103,
+        "types": {
+          "MCQ": 43,
+          "SHORT": 50,
+          "LONG": 10
+        },
+        "fields": {
+          "MCQ": 43,
+          "QA": 50,
+          "SUMMARY": 1,
+          "PASSAGE": 9
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 43,
+          "SHORT:QA": 50,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 9
+        }
+      },
+      {
+        "n": 3,
+        "title": "نثر نمبر 3: کلیم اور مرزا ظاہر دار بیگ",
+        "topics": 1,
+        "total": 115,
+        "types": {
+          "MCQ": 49,
+          "SHORT": 55,
+          "LONG": 11
+        },
+        "fields": {
+          "MCQ": 49,
+          "QA": 55,
+          "SUMMARY": 1,
+          "PASSAGE": 10
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 49,
+          "SHORT:QA": 55,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 10
+        }
+      },
+      {
+        "n": 4,
+        "title": "نثر نمبر 4: نام دیو-مالی",
+        "topics": 1,
+        "total": 130,
+        "types": {
+          "MCQ": 53,
+          "SHORT": 65,
+          "LONG": 12
+        },
+        "fields": {
+          "MCQ": 53,
+          "QA": 65,
+          "SUMMARY": 1,
+          "PASSAGE": 11
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 53,
+          "SHORT:QA": 65,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 11
+        }
+      },
+      {
+        "n": 5,
+        "title": "نثر نمبر 5: آرام و سکون",
+        "topics": 1,
+        "total": 126,
+        "types": {
+          "MCQ": 41,
+          "SHORT": 77,
+          "LONG": 8
+        },
+        "fields": {
+          "MCQ": 41,
+          "QA": 77,
+          "SUMMARY": 1,
+          "PASSAGE": 7
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 41,
+          "SHORT:QA": 77,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 7
+        }
+      },
+      {
+        "n": 6,
+        "title": "نثر نمبر 6: کتبہ",
+        "topics": 1,
+        "total": 120,
+        "types": {
+          "MCQ": 45,
+          "SHORT": 54,
+          "LONG": 21
+        },
+        "fields": {
+          "MCQ": 45,
+          "QA": 54,
+          "SUMMARY": 1,
+          "PASSAGE": 20
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 45,
+          "SHORT:QA": 54,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 20
+        }
+      },
+      {
+        "n": 7,
+        "title": "نثر نمبر 7: ابتدائی حساب",
+        "topics": 1,
+        "total": 104,
+        "types": {
+          "MCQ": 39,
+          "SHORT": 56,
+          "LONG": 9
+        },
+        "fields": {
+          "MCQ": 39,
+          "QA": 56,
+          "SUMMARY": 1,
+          "PASSAGE": 8
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 39,
+          "SHORT:QA": 56,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 8
+        }
+      },
+      {
+        "n": 8,
+        "title": "نثر نمبر 8: لڑی میں پروے ہوئے منظر",
+        "topics": 1,
+        "total": 136,
+        "types": {
+          "MCQ": 46,
+          "SHORT": 77,
+          "LONG": 13
+        },
+        "fields": {
+          "MCQ": 46,
+          "QA": 77,
+          "SUMMARY": 1,
+          "PASSAGE": 12
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 46,
+          "SHORT:QA": 77,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 12
+        }
+      },
+      {
+        "n": 9,
+        "title": "نثر نمبر 9: بھیڑیا",
+        "topics": 1,
+        "total": 117,
+        "types": {
+          "MCQ": 48,
+          "SHORT": 59,
+          "LONG": 10
+        },
+        "fields": {
+          "MCQ": 48,
+          "QA": 59,
+          "SUMMARY": 1,
+          "PASSAGE": 9
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 48,
+          "SHORT:QA": 59,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 9
+        }
+      },
+      {
+        "n": 10,
+        "title": "نظم نمبر 1: حمد",
+        "topics": 1,
+        "total": 61,
+        "types": {
+          "MCQ": 22,
+          "SHORT": 34,
+          "LONG": 5
+        },
+        "fields": {
+          "MCQ": 22,
+          "QA": 34,
+          "POEM": 4,
+          "CENTRAL": 1
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 22,
+          "SHORT:QA": 34,
+          "LONG:POEM": 4,
+          "LONG:CENTRAL": 1
+        }
+      },
+      {
+        "n": 11,
+        "title": "نظم نمبر 2: نعت",
+        "topics": 1,
+        "total": 68,
+        "types": {
+          "MCQ": 25,
+          "SHORT": 36,
+          "LONG": 7
+        },
+        "fields": {
+          "MCQ": 25,
+          "QA": 36,
+          "POEM": 6,
+          "CENTRAL": 1
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 25,
+          "SHORT:QA": 36,
+          "LONG:POEM": 6,
+          "LONG:CENTRAL": 1
+        }
+      },
+      {
+        "n": 12,
+        "title": "نظم نمبر 3: محنت کی برکت",
+        "topics": 1,
+        "total": 95,
+        "types": {
+          "MCQ": 28,
+          "SHORT": 51,
+          "LONG": 16
+        },
+        "fields": {
+          "MCQ": 28,
+          "QA": 51,
+          "POEM": 15,
+          "CENTRAL": 1
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 28,
+          "SHORT:QA": 51,
+          "LONG:POEM": 15,
+          "LONG:CENTRAL": 1
+        }
+      },
+      {
+        "n": 13,
+        "title": "نظم نمبر 4: جاوید کے نام",
+        "topics": 1,
+        "total": 73,
+        "types": {
+          "MCQ": 27,
+          "SHORT": 40,
+          "LONG": 6
+        },
+        "fields": {
+          "MCQ": 27,
+          "QA": 40,
+          "POEM": 5,
+          "CENTRAL": 1
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 27,
+          "SHORT:QA": 40,
+          "LONG:POEM": 5,
+          "LONG:CENTRAL": 1
+        }
+      },
+      {
+        "n": 14,
+        "title": "نظم نمبر 5: پیام لطیف",
+        "topics": 1,
+        "total": 78,
+        "types": {
+          "MCQ": 24,
+          "SHORT": 42,
+          "LONG": 12
+        },
+        "fields": {
+          "MCQ": 24,
+          "QA": 42,
+          "POEM": 11,
+          "CENTRAL": 1
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 24,
+          "SHORT:QA": 42,
+          "LONG:POEM": 11,
+          "LONG:CENTRAL": 1
+        }
+      },
+      {
+        "n": 15,
+        "title": "نظم نمبر 6: کرکٹ اور مشاعرہ",
+        "topics": 1,
+        "total": 73,
+        "types": {
+          "MCQ": 24,
+          "SHORT": 36,
+          "LONG": 13
+        },
+        "fields": {
+          "MCQ": 24,
+          "QA": 36,
+          "POEM": 12,
+          "CENTRAL": 1
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 24,
+          "SHORT:QA": 36,
+          "LONG:POEM": 12,
+          "LONG:CENTRAL": 1
+        }
+      },
+      {
+        "n": 16,
+        "title": "غزل نمبر 1: فقیرا نہ آئے صدا کرچلے",
+        "topics": 1,
+        "total": 71,
+        "types": {
+          "MCQ": 30,
+          "SHORT": 34,
+          "LONG": 7
+        },
+        "fields": {
+          "MCQ": 30,
+          "QA": 34,
+          "POEM": 7
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 30,
+          "SHORT:QA": 34,
+          "LONG:POEM": 7
+        }
+      },
+      {
+        "n": 17,
+        "title": "غزل نمبر 2: سن تو سہی جہاں میں ہے تیرا افسانہ کیا",
+        "topics": 1,
+        "total": 58,
+        "types": {
+          "MCQ": 23,
+          "SHORT": 29,
+          "LONG": 6
+        },
+        "fields": {
+          "MCQ": 23,
+          "QA": 29,
+          "POEM": 6
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 23,
+          "SHORT:QA": 29,
+          "LONG:POEM": 6
+        }
+      },
+      {
+        "n": 18,
+        "title": "غزل نمبر 3: غم ہے یا خوشی ہے تو",
+        "topics": 1,
+        "total": 53,
+        "types": {
+          "MCQ": 17,
+          "SHORT": 28,
+          "LONG": 8
+        },
+        "fields": {
+          "MCQ": 17,
+          "QA": 28,
+          "POEM": 8
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 17,
+          "SHORT:QA": 28,
+          "LONG:POEM": 8
+        }
+      },
+      {
+        "n": 19,
+        "title": "غزل نمبر 4: کاش طوفاں میں سفینے کو اتارا ہو",
+        "topics": 1,
+        "total": 53,
+        "types": {
+          "MCQ": 21,
+          "SHORT": 26,
+          "LONG": 6
+        },
+        "fields": {
+          "MCQ": 21,
+          "QA": 26,
+          "POEM": 6
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 21,
+          "SHORT:QA": 26,
+          "LONG:POEM": 6
+        }
+      },
+      {
+        "n": 20,
+        "title": "نثر نمبر 10: حوصلہ نہ ہارو آگے بڑھو منزل اب کے دور نہیں",
+        "topics": 1,
+        "total": 80,
+        "types": {
+          "MCQ": 56,
+          "SHORT": 8,
+          "LONG": 16
+        },
+        "fields": {
+          "MCQ": 56,
+          "QA": 8,
+          "SUMMARY": 1,
+          "PASSAGE": 15
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 56,
+          "SHORT:QA": 8,
+          "LONG:SUMMARY": 1,
+          "LONG:PASSAGE": 15
+        }
+      },
+      {
+        "n": 21,
+        "title": "اُردو (ب)",
+        "topics": 15,
+        "total": 851,
+        "types": {
+          "MCQ": 666,
+          "SHORT": 184,
+          "LONG": 1
+        },
+        "fields": {
+          "MCQ": 666,
+          "CORRECT": 184,
+          "APPLICATION": 1
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 666,
+          "SHORT:CORRECT": 184,
+          "LONG:APPLICATION": 1
+        }
+      }
+    ],
+    "empty": [],
+    "fieldChapters": {
+      "MCQ": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "QA": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "SUMMARY": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        20
+      ],
+      "PASSAGE": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        20
+      ],
+      "POEM": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "CENTRAL": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "CORRECT": [
+        21
+      ],
+      "APPLICATION": [
+        21
+      ]
+    }
+  },
+  {
+    "slug": "islamiyat-compulsory",
+    "name": "اسلامیات لازمی",
+    "total": 2951,
+    "allFields": {
+      "MCQ": 1242,
+      "QA": 1477,
+      "LONG": 186,
+      "HADITH": 20,
+      "PERSONALITY": 26
+    },
+    "allTypeField": {
+      "MCQ:MCQ": 1242,
+      "SHORT:QA": 1477,
+      "LONG:LONG": 186,
+      "LONG:HADITH": 20,
+      "LONG:PERSONALITY": 26
+    },
+    "chapters": [
+      {
+        "n": 1,
+        "title": "باب اول: قرآن مجید اور حدیث نبوی خاتم النبین ﷺ",
+        "topics": 4,
+        "total": 208,
+        "types": {
+          "MCQ": 62,
+          "SHORT": 120,
+          "LONG": 26
+        },
+        "fields": {
+          "MCQ": 62,
+          "QA": 120,
+          "LONG": 6,
+          "HADITH": 20
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 62,
+          "SHORT:QA": 120,
+          "LONG:LONG": 6,
+          "LONG:HADITH": 20
+        }
+      },
+      {
+        "n": 2,
+        "title": "باب دوم: ایمانیات و عبادات",
+        "topics": 9,
+        "total": 553,
+        "types": {
+          "MCQ": 261,
+          "SHORT": 257,
+          "LONG": 35
+        },
+        "fields": {
+          "MCQ": 261,
+          "QA": 257,
+          "LONG": 35
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 261,
+          "SHORT:QA": 257,
+          "LONG:LONG": 35
+        }
+      },
+      {
+        "n": 3,
+        "title": "باب سوم: سیرت نبوی خاتم النبین ﷺ",
+        "topics": 12,
+        "total": 581,
+        "types": {
+          "MCQ": 245,
+          "SHORT": 304,
+          "LONG": 32
+        },
+        "fields": {
+          "MCQ": 245,
+          "QA": 304,
+          "LONG": 32
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 245,
+          "SHORT:QA": 304,
+          "LONG:LONG": 32
+        }
+      },
+      {
+        "n": 4,
+        "title": "باب چہارم: اخلاق و آداب",
+        "topics": 9,
+        "total": 394,
+        "types": {
+          "MCQ": 176,
+          "SHORT": 195,
+          "LONG": 23
+        },
+        "fields": {
+          "MCQ": 176,
+          "QA": 195,
+          "LONG": 23
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 176,
+          "SHORT:QA": 195,
+          "LONG:LONG": 23
+        }
+      },
+      {
+        "n": 5,
+        "title": "باب پنجم: حسن معاملات و معاشرت",
+        "topics": 6,
+        "total": 300,
+        "types": {
+          "MCQ": 118,
+          "SHORT": 146,
+          "LONG": 36
+        },
+        "fields": {
+          "MCQ": 118,
+          "QA": 146,
+          "LONG": 36
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 118,
+          "SHORT:QA": 146,
+          "LONG:LONG": 36
+        }
+      },
+      {
+        "n": 6,
+        "title": "باب ششم: ہدایت کے سرچشمے اور مشاہیر اسلام",
+        "topics": 11,
+        "total": 733,
+        "types": {
+          "MCQ": 304,
+          "SHORT": 361,
+          "LONG": 68
+        },
+        "fields": {
+          "MCQ": 304,
+          "QA": 361,
+          "LONG": 42,
+          "PERSONALITY": 26
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 304,
+          "SHORT:QA": 361,
+          "LONG:LONG": 42,
+          "LONG:PERSONALITY": 26
+        }
+      },
+      {
+        "n": 7,
+        "title": "باب ہفتم: اسلامی تعلیمات اور عصر حاضر کے تقاضے",
+        "topics": 4,
+        "total": 182,
+        "types": {
+          "MCQ": 76,
+          "SHORT": 94,
+          "LONG": 12
+        },
+        "fields": {
+          "MCQ": 76,
+          "QA": 94,
+          "LONG": 12
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 76,
+          "SHORT:QA": 94,
+          "LONG:LONG": 12
+        }
+      }
+    ],
+    "empty": [],
+    "fieldChapters": {
+      "MCQ": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "QA": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "LONG": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "HADITH": [
+        1
+      ],
+      "PERSONALITY": [
+        6
+      ]
+    }
+  },
+  {
+    "slug": "tarjuma-quran",
+    "name": "ترجمۃ القرآن المجید",
+    "total": 973,
+    "allFields": {
+      "MCQ": 356,
+      "QA": 447,
+      "LONG": 63,
+      "AYAT": 20,
+      "WORD": 87
+    },
+    "allTypeField": {
+      "MCQ:MCQ": 356,
+      "SHORT:QA": 447,
+      "LONG:LONG": 63,
+      "LONG:AYAT": 20,
+      "SHORT:WORD": 87
+    },
+    "chapters": [
+      {
+        "n": 1,
+        "title": "سورۃ نمبر 4: سُورَۃُ مَریَمِ",
+        "topics": 1,
+        "total": 102,
+        "types": {
+          "MCQ": 31,
+          "SHORT": 64,
+          "LONG": 7
+        },
+        "fields": {
+          "MCQ": 31,
+          "QA": 45,
+          "LONG": 4,
+          "AYAT": 3,
+          "WORD": 19
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 31,
+          "SHORT:QA": 45,
+          "LONG:LONG": 4,
+          "LONG:AYAT": 3,
+          "SHORT:WORD": 19
+        }
+      },
+      {
+        "n": 2,
+        "title": "سورۃ نمبر 5: سُورَۃُ  طٰہٰ",
+        "topics": 1,
+        "total": 64,
+        "types": {
+          "MCQ": 23,
+          "SHORT": 36,
+          "LONG": 5
+        },
+        "fields": {
+          "MCQ": 23,
+          "QA": 22,
+          "LONG": 3,
+          "AYAT": 2,
+          "WORD": 14
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 23,
+          "SHORT:QA": 22,
+          "LONG:LONG": 3,
+          "LONG:AYAT": 2,
+          "SHORT:WORD": 14
+        }
+      },
+      {
+        "n": 3,
+        "title": "سورۃ نمبر 6: سُورَۃُ الاَنبِیَاءِ",
+        "topics": 1,
+        "total": 70,
+        "types": {
+          "MCQ": 24,
+          "SHORT": 40,
+          "LONG": 6
+        },
+        "fields": {
+          "MCQ": 24,
+          "QA": 28,
+          "LONG": 3,
+          "AYAT": 3,
+          "WORD": 12
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 24,
+          "SHORT:QA": 28,
+          "LONG:LONG": 3,
+          "LONG:AYAT": 3,
+          "SHORT:WORD": 12
+        }
+      },
+      {
+        "n": 4,
+        "title": "سورۃ نمبر 7: سُورَۃُ الَحَجّ",
+        "topics": 1,
+        "total": 53,
+        "types": {
+          "MCQ": 19,
+          "SHORT": 28,
+          "LONG": 6
+        },
+        "fields": {
+          "MCQ": 19,
+          "QA": 25,
+          "LONG": 3,
+          "AYAT": 3,
+          "WORD": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 19,
+          "SHORT:QA": 25,
+          "LONG:LONG": 3,
+          "LONG:AYAT": 3,
+          "SHORT:WORD": 3
+        }
+      },
+      {
+        "n": 5,
+        "title": "سورۃ نمبر 8: سُورَۃُ الفُرقَانَ",
+        "topics": 1,
+        "total": 90,
+        "types": {
+          "MCQ": 19,
+          "SHORT": 60,
+          "LONG": 11
+        },
+        "fields": {
+          "MCQ": 19,
+          "QA": 31,
+          "LONG": 4,
+          "AYAT": 7,
+          "WORD": 29
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 19,
+          "SHORT:QA": 31,
+          "LONG:LONG": 4,
+          "LONG:AYAT": 7,
+          "SHORT:WORD": 29
+        }
+      },
+      {
+        "n": 6,
+        "title": "سورۃ نمبر 9: سُورَۃُ الشّعَرَآءِ",
+        "topics": 1,
+        "total": 36,
+        "types": {
+          "MCQ": 15,
+          "SHORT": 18,
+          "LONG": 3
+        },
+        "fields": {
+          "MCQ": 15,
+          "QA": 18,
+          "LONG": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 15,
+          "SHORT:QA": 18,
+          "LONG:LONG": 3
+        }
+      },
+      {
+        "n": 7,
+        "title": "سورۃ نمبر 10: سُورَۃُ النُّملِ",
+        "topics": 1,
+        "total": 50,
+        "types": {
+          "MCQ": 21,
+          "SHORT": 26,
+          "LONG": 3
+        },
+        "fields": {
+          "MCQ": 21,
+          "QA": 26,
+          "LONG": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 21,
+          "SHORT:QA": 26,
+          "LONG:LONG": 3
+        }
+      },
+      {
+        "n": 8,
+        "title": "سورۃ نمبر 11: سُورَۃُ القَصَصِ",
+        "topics": 1,
+        "total": 45,
+        "types": {
+          "MCQ": 20,
+          "SHORT": 22,
+          "LONG": 3
+        },
+        "fields": {
+          "MCQ": 20,
+          "QA": 22,
+          "LONG": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 20,
+          "SHORT:QA": 22,
+          "LONG:LONG": 3
+        }
+      },
+      {
+        "n": 9,
+        "title": "سورۃ نمبر 12: سُورَۃُ العَنکَبُوتَ",
+        "topics": 1,
+        "total": 43,
+        "types": {
+          "MCQ": 19,
+          "SHORT": 21,
+          "LONG": 3
+        },
+        "fields": {
+          "MCQ": 19,
+          "QA": 21,
+          "LONG": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 19,
+          "SHORT:QA": 21,
+          "LONG:LONG": 3
+        }
+      },
+      {
+        "n": 10,
+        "title": "سورۃ نمبر 13: سُورَۃُ الرُّومہِ",
+        "topics": 1,
+        "total": 58,
+        "types": {
+          "MCQ": 24,
+          "SHORT": 28,
+          "LONG": 6
+        },
+        "fields": {
+          "MCQ": 24,
+          "QA": 28,
+          "LONG": 6
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 24,
+          "SHORT:QA": 28,
+          "LONG:LONG": 6
+        }
+      },
+      {
+        "n": 11,
+        "title": "سورۃ نمبر 14: سُورَۃُ لُقمنَ",
+        "topics": 1,
+        "total": 47,
+        "types": {
+          "MCQ": 19,
+          "SHORT": 23,
+          "LONG": 5
+        },
+        "fields": {
+          "MCQ": 19,
+          "QA": 23,
+          "LONG": 5
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 19,
+          "SHORT:QA": 23,
+          "LONG:LONG": 5
+        }
+      },
+      {
+        "n": 12,
+        "title": "سورۃ نمبر 15: سُورَۃُ  السَّجدَۃِ",
+        "topics": 1,
+        "total": 34,
+        "types": {
+          "MCQ": 15,
+          "SHORT": 16,
+          "LONG": 3
+        },
+        "fields": {
+          "MCQ": 15,
+          "QA": 16,
+          "LONG": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 15,
+          "SHORT:QA": 16,
+          "LONG:LONG": 3
+        }
+      },
+      {
+        "n": 13,
+        "title": "سورۃ نمبر 16: سُورَۃُ  سَبَاِِ",
+        "topics": 1,
+        "total": 42,
+        "types": {
+          "MCQ": 16,
+          "SHORT": 24,
+          "LONG": 2
+        },
+        "fields": {
+          "MCQ": 16,
+          "QA": 24,
+          "LONG": 2
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 16,
+          "SHORT:QA": 24,
+          "LONG:LONG": 2
+        }
+      },
+      {
+        "n": 14,
+        "title": "سورۃ نمبر 17: سُورَۃُ فَاطِرِِ",
+        "topics": 1,
+        "total": 40,
+        "types": {
+          "MCQ": 17,
+          "SHORT": 20,
+          "LONG": 3
+        },
+        "fields": {
+          "MCQ": 17,
+          "QA": 20,
+          "LONG": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 17,
+          "SHORT:QA": 20,
+          "LONG:LONG": 3
+        }
+      },
+      {
+        "n": 15,
+        "title": "سورۃ نمبر 18: سُورَۃُ یَس",
+        "topics": 1,
+        "total": 50,
+        "types": {
+          "MCQ": 19,
+          "SHORT": 25,
+          "LONG": 6
+        },
+        "fields": {
+          "MCQ": 19,
+          "QA": 25,
+          "LONG": 6
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 19,
+          "SHORT:QA": 25,
+          "LONG:LONG": 6
+        }
+      },
+      {
+        "n": 16,
+        "title": "سورۃ نمبر 19: سُورَۃُ الصّٰفّٰتِ",
+        "topics": 1,
+        "total": 42,
+        "types": {
+          "MCQ": 16,
+          "SHORT": 23,
+          "LONG": 3
+        },
+        "fields": {
+          "MCQ": 16,
+          "QA": 23,
+          "LONG": 3
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 16,
+          "SHORT:QA": 23,
+          "LONG:LONG": 3
+        }
+      },
+      {
+        "n": 17,
+        "title": "سورۃ نمبر 20: سُورَۃُ صٓ",
+        "topics": 1,
+        "total": 44,
+        "types": {
+          "MCQ": 20,
+          "SHORT": 20,
+          "LONG": 4
+        },
+        "fields": {
+          "MCQ": 20,
+          "QA": 20,
+          "LONG": 4
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 20,
+          "SHORT:QA": 20,
+          "LONG:LONG": 4
+        }
+      },
+      {
+        "n": 18,
+        "title": "سورۃ نمبر 21: سُورَۃُ الاَحقَافِ",
+        "topics": 1,
+        "total": 63,
+        "types": {
+          "MCQ": 19,
+          "SHORT": 40,
+          "LONG": 4
+        },
+        "fields": {
+          "MCQ": 19,
+          "QA": 30,
+          "LONG": 2,
+          "AYAT": 2,
+          "WORD": 10
+        },
+        "byTypeField": {
+          "MCQ:MCQ": 19,
+          "SHORT:QA": 30,
+          "LONG:LONG": 2,
+          "LONG:AYAT": 2,
+          "SHORT:WORD": 10
+        }
+      }
+    ],
+    "empty": [],
+    "fieldChapters": {
+      "MCQ": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "QA": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "LONG": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "AYAT": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18
+      ],
+      "WORD": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        18
+      ]
+    }
+  }
+]

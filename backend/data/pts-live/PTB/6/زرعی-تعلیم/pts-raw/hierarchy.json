@@ -1,0 +1,328 @@
+{
+  "course": {
+    "ptsCourseId": 1,
+    "code": "PTB",
+    "name": "PTB",
+    "subtitle": "Syllabus",
+    "sortOrder": 1,
+    "imageUrl": "https://paktestsolution.com/images/subjects/638685002268142513.png",
+    "aliases": [
+      "Punjab Textbook"
+    ],
+    "classes": [
+      {
+        "ptsClassId": 1,
+        "name": "ONE",
+        "gradeLevel": 1
+      },
+      {
+        "ptsClassId": 2,
+        "name": "TWO",
+        "gradeLevel": 2
+      },
+      {
+        "ptsClassId": 3,
+        "name": "THREE",
+        "gradeLevel": 3
+      },
+      {
+        "ptsClassId": 4,
+        "name": "FOUR",
+        "gradeLevel": 4
+      },
+      {
+        "ptsClassId": 5,
+        "name": "5TH",
+        "gradeLevel": 5
+      },
+      {
+        "ptsClassId": 6,
+        "name": "6TH",
+        "gradeLevel": 6
+      },
+      {
+        "ptsClassId": 7,
+        "name": "7TH",
+        "gradeLevel": 7
+      },
+      {
+        "ptsClassId": 8,
+        "name": "8TH",
+        "gradeLevel": 8
+      },
+      {
+        "ptsClassId": 9,
+        "name": "9TH",
+        "gradeLevel": 9,
+        "aliases": [
+          "Class 9"
+        ]
+      },
+      {
+        "ptsClassId": 10,
+        "name": "10TH",
+        "gradeLevel": 10,
+        "aliases": [
+          "Class 10"
+        ]
+      },
+      {
+        "ptsClassId": 11,
+        "name": "INTER-I",
+        "gradeLevel": 11,
+        "aliases": [
+          "Class 11"
+        ]
+      },
+      {
+        "ptsClassId": 12,
+        "name": "INTER-II",
+        "gradeLevel": 12,
+        "aliases": [
+          "Class 12"
+        ]
+      },
+      {
+        "ptsClassId": 36,
+        "name": "OLD BOOKS",
+        "gradeLevel": null
+      }
+    ]
+  },
+  "class": {
+    "ptsClassId": 6,
+    "name": "6TH",
+    "gradeLevel": 6
+  },
+  "subject": {
+    "SubjectID": 16,
+    "AdminID": 1,
+    "CourseID": 1,
+    "ClassID": 6,
+    "SubjectName": "زرعی تعلیم",
+    "Category": "6TH",
+    "ImageUrl": "/images/subjects/637341186757520596.JPG",
+    "CreatedDateTime": "2025-11-11T00:00:00",
+    "UpdatedDateTime": "2023-12-01T00:00:00",
+    "IsActive": true,
+    "Admin": null,
+    "Course": null,
+    "Class": null
+  },
+  "types": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 7,
+      "name": "fill",
+      "bankType": "short",
+      "field": "FILL"
+    },
+    {
+      "id": 10,
+      "name": "true-false",
+      "bankType": "short",
+      "field": "TRUE_FALSE"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
+  "chapters": [
+    {
+      "ChapterID": 122,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterName": "باب نمبر 1: زیبائشی پودوں کی افزائش",
+      "Syllabus": "CHAP 1",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:21:48.007",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 123,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterName": "باب نمبر 2: مختلف ماحول میں پودوں کی نشوونما کا مطالعہ",
+      "Syllabus": "CHAP 2",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:21:50.413",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 124,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterName": "باب نمبر 3: فصلوں اور سبزیوں سے جڑی بوٹیوں کی تلفی",
+      "Syllabus": "CHAP 3",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:21:52.857",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 125,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterName": "باب نمبر 4: مٹی کا مطالعہ",
+      "Syllabus": "CHAP 4",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:21:55.43",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 126,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterName": "باب نمبر 5: مفید جانوروں اور پرندوں کی پرورش",
+      "Syllabus": "CHAP 5",
+      "TextDirection": 2,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2024-11-20T12:21:57.997",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    }
+  ],
+  "topics": [
+    {
+      "TopicID": 199,
+      "AdminID": 14,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterID": 122,
+      "TopicName": "زیبائشی پودوں کی افزائش",
+      "TopicRef": "1",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-06-01T11:24:28.237",
+      "IsTrial": true,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 200,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterID": 123,
+      "TopicName": "مختلف ماحول میں پودوں کی نشوونما کا مطالعہ",
+      "TopicRef": "2",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-21T12:25:35.433",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 201,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterID": 124,
+      "TopicName": "فصلوں اور سبزیوں سے جڑی بوٹیوں کی تلفی",
+      "TopicRef": "3",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-21T12:25:40.76",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 202,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterID": 125,
+      "TopicName": "مٹی کا مطالعہ",
+      "TopicRef": "4",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-21T12:25:46.127",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    },
+    {
+      "TopicID": 203,
+      "AdminID": 21,
+      "CourseID": 1,
+      "ClassID": 6,
+      "SubjectID": 16,
+      "ChapterID": 126,
+      "TopicName": "مفید جانوروں اور پرندوں کی پرورش",
+      "TopicRef": "5",
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2025-11-21T12:25:55.483",
+      "IsTrial": false,
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null,
+      "Chapter": null
+    }
+  ]
+}

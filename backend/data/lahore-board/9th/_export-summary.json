@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "urdu-compulsory",
+    "name": "اُردو لازمی",
+    "totals": {
+      "mcq": 1698,
+      "short-qa": 920,
+      "short-correct": 131,
+      "short-idiom": 79,
+      "short-meaning": 13,
+      "long-poem": 80,
+      "long-summary": 10,
+      "long-passage": 113,
+      "long-letter": 24,
+      "long-application": 6,
+      "long-story": 23,
+      "long-dialogue": 6,
+      "long-central": 6
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "board": "Punjab Textbook",
+    "className": "Class 12",
+    "subject": "Pakistan Studies",
+    "slug": "pakistan-studies",
+    "chapters": 6,
+    "topics": 122,
+    "totalSource": 2243,
+    "created": 1867,
+    "updated": 376,
+    "skipped": 0,
+    "typeCounts": {
+      "MCQ": 919,
+      "SHORT": 1240,
+      "LONG": 84
+    },
+    "fieldCounts": {
+      "MCQ": 919,
+      "QA": 1240,
+      "LONG": 84
+    }
+  }
+]
