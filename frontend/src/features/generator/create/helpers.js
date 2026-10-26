@@ -39,7 +39,7 @@ export function subjectIconFor(name) {
 export function shortClassBadge(className) {
   const raw = String(className || "").trim();
   if (!raw) return "?";
-  /* PTS labels: 9TH, INTER-I, ONE, 3RD YEAR, OLD BOOKS */
+  /* class labels: 9TH, INTER-I, ONE, 3RD YEAR, OLD BOOKS */
   if (/^(ONE|TWO|THREE|FOUR)$/i.test(raw)) return raw.slice(0, 3).toUpperCase();
   if (/INTER/i.test(raw)) return raw.replace(/INTER-?/i, "I").slice(0, 4);
   if (/OLD/i.test(raw)) return "OLD";

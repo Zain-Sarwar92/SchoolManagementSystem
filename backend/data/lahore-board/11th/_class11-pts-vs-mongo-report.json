@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T19:54:21.425Z",
-  "class": "Class 11",
+  "generatedAt": "2026-10-24T21:30:45.253Z",
+  "class": "INTER-I",
   "source": "data/lahore-board/11th (PTS export) vs Mongo Gen*",
   "note": "This compares local PTS seed dumps, not a fresh live scrape.",
   "ptsSubjectFolders": 30,
@@ -12,11 +12,11 @@
       "foundInMongo": true,
       "chapterCount": {
         "pts": 11,
-        "mongo": 11
+        "mongo": 12
       },
       "questionTotal": {
         "pts": 3973,
-        "mongo": 3775
+        "mongo": 3975
       },
       "allTopics": {
         "typesMatch": true,
@@ -27,9 +27,9 @@
           "SHORT:QA": 1785
         },
         "mongoTypes": {
-          "LONG:LONG": 227,
-          "MCQ:MCQ": 1848,
-          "SHORT:QA": 1700
+          "LONG:LONG": 238,
+          "MCQ:MCQ": 1949,
+          "SHORT:QA": 1788
         },
         "onlyPts": [],
         "onlyMongo": [],
@@ -37,17 +37,17 @@
           {
             "type": "LONG:LONG",
             "pts": 235,
-            "mongo": 227
+            "mongo": 238
           },
           {
             "type": "MCQ:MCQ",
             "pts": 1953,
-            "mongo": 1848
+            "mongo": 1949
           },
           {
             "type": "SHORT:QA",
             "pts": 1785,
-            "mongo": 1700
+            "mongo": 1788
           }
         ]
       },
@@ -56,12 +56,23 @@
           "chapter": 1,
           "title": "Biodiversity and Classification",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 630,
-          "mongoTotal": 630,
+          "mongoTotal": 636,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 19,
+              "mongo": 22
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 336,
+              "mongo": 339
+            }
+          ]
         },
         {
           "chapter": 2,
@@ -78,12 +89,18 @@
           "chapter": 3,
           "title": "Cells and Subcellular Organelles",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 565,
-          "mongoTotal": 565,
+          "mongoTotal": 564,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 289,
+              "mongo": 288
+            }
+          ]
         },
         {
           "chapter": 4,
@@ -119,15 +136,29 @@
           "countMismatch": []
         },
         {
+          "chapter": 7,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 198
+        },
+        {
           "chapter": 8,
           "title": "Plant Physiology",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 435,
-          "mongoTotal": 435,
+          "mongoTotal": 434,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 224,
+              "mongo": 223
+            }
+          ]
         },
         {
           "chapter": 9,
@@ -144,12 +175,18 @@
           "chapter": 10,
           "title": "Human Respiratory System",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 247,
-          "mongoTotal": 247,
+          "mongoTotal": 245,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 122,
+              "mongo": 120
+            }
+          ]
         },
         {
           "chapter": 11,
@@ -279,11 +316,11 @@
       "foundInMongo": true,
       "chapterCount": {
         "pts": 14,
-        "mongo": 14
+        "mongo": 16
       },
       "questionTotal": {
         "pts": 2328,
-        "mongo": 2105
+        "mongo": 2362
       },
       "allTopics": {
         "typesMatch": true,
@@ -294,9 +331,9 @@
           "SHORT:QA": 1016
         },
         "mongoTypes": {
-          "LONG:LONG": 112,
-          "MCQ:MCQ": 1075,
-          "SHORT:QA": 918
+          "LONG:LONG": 123,
+          "MCQ:MCQ": 1205,
+          "SHORT:QA": 1034
         },
         "onlyPts": [],
         "onlyMongo": [],
@@ -304,17 +341,17 @@
           {
             "type": "LONG:LONG",
             "pts": 119,
-            "mongo": 112
+            "mongo": 123
           },
           {
             "type": "MCQ:MCQ",
             "pts": 1193,
-            "mongo": 1075
+            "mongo": 1205
           },
           {
             "type": "SHORT:QA",
             "pts": 1016,
-            "mongo": 918
+            "mongo": 1034
           }
         ]
       },
@@ -400,23 +437,45 @@
           "chapter": 8,
           "title": "Chemical Equilibrium",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 109,
-          "mongoTotal": 109,
+          "mongoTotal": 128,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 10,
+              "mongo": 11
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 51,
+              "mongo": 64
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 48,
+              "mongo": 53
+            }
+          ]
         },
         {
           "chapter": 9,
           "title": "Acid-Base Chemistry",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 129,
-          "mongoTotal": 129,
+          "mongoTotal": 132,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 6,
+              "mongo": 9
+            }
+          ]
         },
         {
           "chapter": 10,
@@ -433,12 +492,23 @@
           "chapter": 11,
           "title": "Hydrocarbons",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 163,
-          "mongoTotal": 163,
+          "mongoTotal": 175,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 73,
+              "mongo": 72
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 82,
+              "mongo": 95
+            }
+          ]
         },
         {
           "chapter": 12,
@@ -472,6 +542,22 @@
           "onlyPts": [],
           "onlyMongo": [],
           "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 120
+        },
+        {
+          "chapter": 16,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 103
         }
       ]
     },
@@ -1027,15 +1113,15 @@
       "foundInMongo": true,
       "chapterCount": {
         "pts": 16,
-        "mongo": 16
+        "mongo": 15
       },
       "questionTotal": {
         "pts": 2438,
-        "mongo": 2438
+        "mongo": 3026
       },
       "allTopics": {
-        "typesMatch": true,
-        "countsMatch": true,
+        "typesMatch": false,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:POEM_STANZA": 21,
           "LONG:PUNCTUATION": 57,
@@ -1046,194 +1132,439 @@
           "SHORT:QA": 614
         },
         "mongoTypes": {
+          "LONG:APPLICATION": 18,
+          "LONG:LETTER": 23,
           "LONG:POEM_STANZA": 21,
           "LONG:PUNCTUATION": 57,
+          "LONG:STORY": 23,
           "LONG:TRANSLATE_UR": 110,
-          "MCQ:COMPREHENSION": 608,
+          "MCQ:COMPREHENSION": 769,
           "MCQ:SYNONYM": 721,
-          "SHORT:PAIR": 307,
-          "SHORT:QA": 614
+          "MCQ:VERB": 279,
+          "SHORT:PAIR": 107,
+          "SHORT:QA": 898
         },
         "onlyPts": [],
-        "onlyMongo": [],
-        "countMismatch": []
+        "onlyMongo": [
+          {
+            "type": "LONG:APPLICATION",
+            "mongo": 18
+          },
+          {
+            "type": "LONG:LETTER",
+            "mongo": 23
+          },
+          {
+            "type": "LONG:STORY",
+            "mongo": 23
+          },
+          {
+            "type": "MCQ:VERB",
+            "mongo": 279
+          }
+        ],
+        "countMismatch": [
+          {
+            "type": "MCQ:COMPREHENSION",
+            "pts": 608,
+            "mongo": 769
+          },
+          {
+            "type": "SHORT:PAIR",
+            "pts": 307,
+            "mongo": 107
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 614,
+            "mongo": 898
+          }
+        ]
       },
       "chapters": [
         {
           "chapter": 1,
           "title": "Khatam-Un-Nabiyeen Hazrat Muhammad (Saw)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 199,
-          "mongoTotal": 199,
+          "mongoTotal": 278,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 29
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 50,
+              "mongo": 80
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 38,
+              "mongo": 58
+            }
+          ]
         },
         {
           "chapter": 2,
           "title": "Responsibility of the Youth in Nation-Building",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 157,
-          "mongoTotal": 157,
+          "mongoTotal": 223,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 26
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 50,
+              "mongo": 70
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 48,
+              "mongo": 68
+            }
+          ]
         },
         {
           "chapter": 3,
           "title": "a Bird Came Down the Walk (Poem)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 90,
-          "mongoTotal": 90,
+          "mongoTotal": 128,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 20
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 30,
+              "mongo": 48
+            }
+          ]
         },
         {
           "chapter": 4,
           "title": "Team Moon",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 132,
-          "mongoTotal": 132,
+          "mongoTotal": 197,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 25
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 31,
+              "mongo": 51
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 38,
+              "mongo": 58
+            }
+          ]
         },
         {
           "chapter": 5,
           "title": "Impact of Global Warming On Pakistan",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 206,
-          "mongoTotal": 206,
+          "mongoTotal": 266,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 25
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 43,
+              "mongo": 78
+            }
+          ]
         },
         {
           "chapter": 6,
           "title": "the Echoing Green (Poem)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 88,
-          "mongoTotal": 88,
+          "mongoTotal": 127,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 18
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 32,
+              "mongo": 53
+            }
+          ]
         },
         {
           "chapter": 7,
           "title": "What You Do Is What You Are",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 121,
-          "mongoTotal": 121,
+          "mongoTotal": 179,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 18
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 30,
+              "mongo": 50
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 38,
+              "mongo": 58
+            }
+          ]
         },
         {
           "chapter": 8,
           "title": "Clean Water",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 145,
-          "mongoTotal": 145,
+          "mongoTotal": 173,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 18
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 41,
+              "mongo": 51
+            }
+          ]
         },
         {
           "chapter": 9,
           "title": "Freedom (Poem)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 75,
-          "mongoTotal": 75,
+          "mongoTotal": 115,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 15
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 20,
+              "mongo": 30
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 41,
+              "mongo": 56
+            }
+          ]
         },
         {
           "chapter": 10,
           "title": "the Punishment of Shahpesh, the Persian, On Khipil, the Builder",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 158,
-          "mongoTotal": 158,
+          "mongoTotal": 221,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 22
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 29,
+              "mongo": 50
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 38,
+              "mongo": 58
+            }
+          ]
         },
         {
           "chapter": 11,
           "title": "Those Winter Sundays (Poem)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 75,
-          "mongoTotal": 75,
+          "mongoTotal": 109,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 14
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 37,
+              "mongo": 57
+            }
+          ]
         },
         {
           "chapter": 12,
           "title": "the Impact of Ai On Society, Human Relationships, and Ethics",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 184,
-          "mongoTotal": 184,
+          "mongoTotal": 243,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 19
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 55,
+              "mongo": 75
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 38,
+              "mongo": 58
+            }
+          ]
         },
         {
           "chapter": 13,
           "title": "Ruba'Iyat (Poem)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 96,
-          "mongoTotal": 96,
+          "mongoTotal": 147,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 11
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:COMPREHENSION",
+              "pts": 35,
+              "mongo": 55
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 38,
+              "mongo": 58
+            }
+          ]
         },
         {
           "chapter": 14,
           "title": "the End of the Beginning",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 405,
-          "mongoTotal": 405,
+          "mongoTotal": 449,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:VERB",
+              "mongo": 19
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 114,
+              "mongo": 139
+            }
+          ]
         },
         {
           "chapter": 15,
           "title": "Correct Form of Verb",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 171,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:APPLICATION",
+              "mongo": 18
+            },
+            {
+              "type": "LONG:LETTER",
+              "mongo": 23
+            },
+            {
+              "type": "LONG:STORY",
+              "mongo": 23
+            },
+            {
+              "type": "SHORT:PAIR",
+              "mongo": 107
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 16,
-          "title": "English (B)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 307,
-          "mongoTotal": 307,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         }
       ]
     },
@@ -2285,11 +2616,11 @@
       },
       "questionTotal": {
         "pts": 1303,
-        "mongo": 1303
+        "mongo": 1487
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": true,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:HADITH": 15,
           "LONG:LONG": 24,
@@ -2298,13 +2629,29 @@
         },
         "mongoTypes": {
           "LONG:HADITH": 15,
-          "LONG:LONG": 24,
-          "MCQ:MCQ": 715,
-          "SHORT:QA": 549
+          "LONG:LONG": 28,
+          "MCQ:MCQ": 812,
+          "SHORT:QA": 632
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": []
+        "countMismatch": [
+          {
+            "type": "LONG:LONG",
+            "pts": 24,
+            "mongo": 28
+          },
+          {
+            "type": "MCQ:MCQ",
+            "pts": 715,
+            "mongo": 812
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 549,
+            "mongo": 632
+          }
+        ]
       },
       "chapters": [
         {
@@ -2333,54 +2680,131 @@
           "chapter": 3,
           "title": "باب نمبر 3: سیرت نبوی خاتم النبینﷺ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 206,
-          "mongoTotal": 206,
+          "mongoTotal": 351,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 4,
+              "mongo": 7
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 108,
+              "mongo": 190
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 94,
+              "mongo": 154
+            }
+          ]
         },
         {
           "chapter": 4,
           "title": "باب نمبر 4: اخلاق وآداب",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 109,
-          "mongoTotal": 109,
+          "mongoTotal": 151,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 2,
+              "mongo": 3
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 56,
+              "mongo": 75
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 51,
+              "mongo": 73
+            }
+          ]
         },
         {
           "chapter": 5,
           "title": "باب نمبر 5: حسن معاملات ومعاشرت",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 162,
-          "mongoTotal": 162,
+          "mongoTotal": 206,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 3,
+              "mongo": 4
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 91,
+              "mongo": 116
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 68,
+              "mongo": 86
+            }
+          ]
         },
         {
           "chapter": 6,
           "title": "باب نمبر 6: ہدایت کے سرچشمے اور مشاہیر اسلام",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 218,
-          "mongoTotal": 218,
+          "mongoTotal": 266,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 2,
+              "mongo": 3
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 132,
+              "mongo": 159
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 84,
+              "mongo": 104
+            }
+          ]
         },
         {
           "chapter": 7,
           "title": "باب نمبر 7: اسلامی تعلیمات اور عصر حاضر کے تقاضے",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 95,
-          "mongoTotal": 95,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:LONG",
+              "pts": 2
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 56
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 37
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         }
@@ -2396,132 +2820,188 @@
       },
       "questionTotal": {
         "pts": 814,
-        "mongo": 814
+        "mongo": 873
       },
       "allTopics": {
-        "typesMatch": true,
-        "countsMatch": true,
+        "typesMatch": false,
+        "countsMatch": false,
         "ptsTypes": {
           "MCQ:MCQ": 357,
           "SHORT:QA": 457
         },
         "mongoTypes": {
+          "LONG:LONG": 59,
           "MCQ:MCQ": 357,
           "SHORT:QA": 457
         },
         "onlyPts": [],
-        "onlyMongo": [],
+        "onlyMongo": [
+          {
+            "type": "LONG:LONG",
+            "mongo": 59
+          }
+        ],
         "countMismatch": []
       },
       "chapters": [
         {
           "chapter": 1,
           "title": "باب نمبر 1: تہذیب وتمدن",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 93,
-          "mongoTotal": 93,
+          "mongoTotal": 95,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 2
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 2,
           "title": "باب نمبر 2: تقوٰی، ذکر، شکر، عفودرگزر، عدل، احسان، خدمت خلق",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 104,
-          "mongoTotal": 104,
+          "mongoTotal": 113,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 9
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 3,
           "title": "باب نمبر 3: خاندانی  و عائلی زندگی،  والدین کے حقوق، حقوق الزوجین",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 70,
-          "mongoTotal": 70,
+          "mongoTotal": 74,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 4
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 4,
           "title": "باب نمبر 4: اسلام کا نظام تعلیم، شاگرد کے حقوق، استاد کے حقوق، مکتب ، مسجد",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 75,
-          "mongoTotal": 75,
+          "mongoTotal": 81,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 6
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 5,
           "title": "باب نمبر 5: صلہ رحمی، ہمسائے کے حقوق، شہری کے حقوق و فرائض",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 68,
-          "mongoTotal": 68,
+          "mongoTotal": 73,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 5
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 6,
           "title": "باب نمبر 6: عالم اسلام، اخوت، تبلیغ ودعوت، جہاد",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 58,
-          "mongoTotal": 58,
+          "mongoTotal": 63,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 5
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 7,
           "title": "باب نمبر 7: ظہوراسلام سے قبل عرب کے حالات، رسولﷺ کی ابتدائی زندگی، قریش کے مقاط سے ہجرت مدینہ، میثاق مدینہ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 149,
-          "mongoTotal": 149,
+          "mongoTotal": 156,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 7
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 8,
           "title": "باب نمبر 8: غزوہ بدر، غزوہ احد، صلح حدیبیہ، غزوہ خیبر، غزوہ مؤتہ، جنگ حنین",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 61,
-          "mongoTotal": 61,
+          "mongoTotal": 67,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 6
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 9,
           "title": "باب نمبر 9: فتح مکہ، غزوہ حنین و تبوک، حجتہ الوداع، میثاق مدینہ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 40,
-          "mongoTotal": 40,
+          "mongoTotal": 48,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 8
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 10,
           "title": "باب نمبر 10: حضرت ابوبکرصدیقؓ، حضرت عمرؓ، حضرت عثمانؓ، حضرت علیؓ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 96,
-          "mongoTotal": 96,
+          "mongoTotal": 103,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 7
+            }
+          ],
           "countMismatch": []
         }
       ]
@@ -2619,44 +3099,28 @@
       "foundInMongo": true,
       "chapterCount": {
         "pts": 13,
-        "mongo": 13
+        "mongo": 14
       },
       "questionTotal": {
         "pts": 1923,
-        "mongo": 1733
+        "mongo": 1923
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": false,
+        "countsMatch": true,
         "ptsTypes": {
           "LONG:LONG": 496,
           "MCQ:MCQ": 586,
           "SHORT:QA": 841
         },
         "mongoTypes": {
-          "LONG:LONG": 448,
-          "MCQ:MCQ": 516,
-          "SHORT:QA": 769
+          "LONG:LONG": 496,
+          "MCQ:MCQ": 586,
+          "SHORT:QA": 841
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": [
-          {
-            "type": "LONG:LONG",
-            "pts": 496,
-            "mongo": 448
-          },
-          {
-            "type": "MCQ:MCQ",
-            "pts": 586,
-            "mongo": 516
-          },
-          {
-            "type": "SHORT:QA",
-            "pts": 841,
-            "mongo": 769
-          }
-        ]
+        "countMismatch": []
       },
       "chapters": [
         {
@@ -2735,6 +3199,14 @@
           "onlyPts": [],
           "onlyMongo": [],
           "countMismatch": []
+        },
+        {
+          "chapter": 8,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 190
         },
         {
           "chapter": 9,
@@ -4126,11 +4598,11 @@
       },
       "questionTotal": {
         "pts": 1577,
-        "mongo": 1576
+        "mongo": 1577
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": false,
+        "countsMatch": true,
         "ptsTypes": {
           "LONG:LONG": 85,
           "MCQ:MCQ": 960,
@@ -4138,18 +4610,12 @@
         },
         "mongoTypes": {
           "LONG:LONG": 85,
-          "MCQ:MCQ": 959,
+          "MCQ:MCQ": 960,
           "SHORT:QA": 532
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": [
-          {
-            "type": "MCQ:MCQ",
-            "pts": 960,
-            "mongo": 959
-          }
-        ]
+        "countMismatch": []
       },
       "chapters": [
         {
@@ -4244,18 +4710,12 @@
           "chapter": 9,
           "title": "National Income",
           "typesMatch": true,
-          "countsMatch": false,
+          "countsMatch": true,
           "ptsTotal": 108,
-          "mongoTotal": 107,
+          "mongoTotal": 108,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": [
-            {
-              "type": "MCQ:MCQ",
-              "pts": 62,
-              "mongo": 61
-            }
-          ]
+          "countMismatch": []
         },
         {
           "chapter": 10,
@@ -5214,8 +5674,8 @@
         "mongo": 368
       },
       "allTopics": {
-        "typesMatch": true,
-        "countsMatch": true,
+        "typesMatch": false,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:AYAT": 32,
           "LONG:LONG": 21,
@@ -5227,57 +5687,113 @@
           "LONG:AYAT": 32,
           "LONG:LONG": 21,
           "MCQ:MCQ": 116,
-          "SHORT:MEANING": 100,
-          "SHORT:QA": 99
+          "SHORT:QA": 99,
+          "SHORT:WORD": 100
         },
-        "onlyPts": [],
-        "onlyMongo": [],
+        "onlyPts": [
+          {
+            "type": "SHORT:MEANING",
+            "pts": 100
+          }
+        ],
+        "onlyMongo": [
+          {
+            "type": "SHORT:WORD",
+            "mongo": 100
+          }
+        ],
         "countMismatch": []
       },
       "chapters": [
         {
           "chapter": 1,
-          "title": "سورۃ نمبر 4: سُورۃُ اَلبَقرَۃِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 108,
-          "mongoTotal": 108,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 2,
-          "title": "سورۃ نمبر 8: سُورۃُ آلِ عِمرٰان",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 97,
-          "mongoTotal": 97,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 3,
-          "title": "سورۃ نمبر 12: سُورۃُ آلِ الانفال",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 87,
-          "mongoTotal": 87,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 4,
           "title": "سورۃ نمبر 16: سُورۃُ التوبہ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 76,
-          "mongoTotal": 76,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 108,
+          "onlyPts": [
+            {
+              "type": "SHORT:MEANING",
+              "pts": 20
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "SHORT:WORD",
+              "mongo": 33
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "LONG:AYAT",
+              "pts": 10,
+              "mongo": 8
+            },
+            {
+              "type": "LONG:LONG",
+              "pts": 6,
+              "mongo": 5
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 24,
+              "mongo": 33
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 16,
+              "mongo": 29
+            }
+          ]
+        },
+        {
+          "chapter": 8,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 97
+        },
+        {
+          "chapter": 12,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 87
+        },
+        {
+          "chapter": 16,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 76
         }
       ]
     },
@@ -5291,265 +5807,699 @@
       },
       "questionTotal": {
         "pts": 2411,
-        "mongo": 2411
+        "mongo": 2880
       },
       "allTopics": {
-        "typesMatch": true,
-        "countsMatch": true,
+        "typesMatch": false,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:POEM": 87,
           "MCQ:MCQ": 1559,
           "SHORT:QA": 765
         },
         "mongoTypes": {
+          "LONG:ABRIDGED": 93,
+          "LONG:APPLICATION": 43,
+          "LONG:CENTRAL": 7,
+          "LONG:DIALOGUE": 47,
+          "LONG:HISTORY": 37,
+          "LONG:NEWSPAPER": 18,
+          "LONG:PASSAGE": 128,
           "LONG:POEM": 87,
-          "MCQ:MCQ": 1559,
+          "LONG:RECEIPT": 26,
+          "LONG:SUMMARY": 10,
+          "MCQ:MCQ": 1619,
           "SHORT:QA": 765
         },
         "onlyPts": [],
-        "onlyMongo": [],
-        "countMismatch": []
+        "onlyMongo": [
+          {
+            "type": "LONG:ABRIDGED",
+            "mongo": 93
+          },
+          {
+            "type": "LONG:APPLICATION",
+            "mongo": 43
+          },
+          {
+            "type": "LONG:CENTRAL",
+            "mongo": 7
+          },
+          {
+            "type": "LONG:DIALOGUE",
+            "mongo": 47
+          },
+          {
+            "type": "LONG:HISTORY",
+            "mongo": 37
+          },
+          {
+            "type": "LONG:NEWSPAPER",
+            "mongo": 18
+          },
+          {
+            "type": "LONG:PASSAGE",
+            "mongo": 128
+          },
+          {
+            "type": "LONG:RECEIPT",
+            "mongo": 26
+          },
+          {
+            "type": "LONG:SUMMARY",
+            "mongo": 10
+          }
+        ],
+        "countMismatch": [
+          {
+            "type": "MCQ:MCQ",
+            "pts": 1559,
+            "mongo": 1619
+          }
+        ]
       },
       "chapters": [
         {
           "chapter": 1,
           "title": "نظم نمبر 1: حمد",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 55,
-          "mongoTotal": 55,
+          "mongoTotal": 240,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 16
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "LONG:POEM",
+              "pts": 7,
+              "mongo": 13
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5,
+              "mongo": 106
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 43,
+              "mongo": 103
+            }
+          ]
         },
         {
           "chapter": 2,
           "title": "نظم نمبر 2: نعت",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 58,
-          "mongoTotal": 58,
+          "mongoTotal": 218,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 12
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "LONG:POEM",
+              "pts": 8,
+              "mongo": 15
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 6,
+              "mongo": 61
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 44,
+              "mongo": 128
+            }
+          ]
         },
         {
           "chapter": 3,
           "title": "نثر نمبر 1: اخلاقِ نبویﷺ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 126,
-          "mongoTotal": 126,
+          "mongoTotal": 184,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 5
+            },
+            {
+              "type": "LONG:POEM",
+              "mongo": 10
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 96,
+              "mongo": 69
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 30,
+              "mongo": 98
+            }
+          ]
         },
         {
           "chapter": 4,
           "title": "نثر نمبر 2: فاقہ میں روزہ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 99,
-          "mongoTotal": 99,
+          "mongoTotal": 175,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 15
+            },
+            {
+              "type": "LONG:POEM",
+              "mongo": 15
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 50,
+              "mongo": 60
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 49,
+              "mongo": 83
+            }
+          ]
         },
         {
           "chapter": 5,
           "title": "نثر نمبر 3: مکاتیبِ غالب",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 102,
-          "mongoTotal": 102,
+          "mongoTotal": 176,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 12
+            },
+            {
+              "type": "LONG:POEM",
+              "mongo": 16
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 58,
+              "mongo": 51
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 44,
+              "mongo": 95
+            }
+          ]
         },
         {
           "chapter": 6,
           "title": "نثر نمبر 4: استاد عدالت کے کٹہرے میں",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 81,
-          "mongoTotal": 81,
+          "mongoTotal": 155,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 13
+            },
+            {
+              "type": "LONG:POEM",
+              "mongo": 6
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 48,
+              "mongo": 65
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 33,
+              "mongo": 69
+            }
+          ]
         },
         {
           "chapter": 7,
           "title": "نثر نمبر 5:چارپائی",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 73,
-          "mongoTotal": 73,
+          "mongoTotal": 185,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 21
+            },
+            {
+              "type": "LONG:POEM",
+              "mongo": 12
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 40,
+              "mongo": 73
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 33,
+              "mongo": 77
+            }
+          ]
         },
         {
           "chapter": 8,
           "title": "نثر نمبر 6:اور پاکستان بن گیا",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 90,
-          "mongoTotal": 90,
+          "mongoTotal": 72,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 10
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 60,
+              "mongo": 32
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 30,
+              "mongo": 29
+            }
+          ]
         },
         {
           "chapter": 9,
           "title": "نثر نمبر 7: نیا قانون",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 118,
-          "mongoTotal": 118,
+          "mongoTotal": 121,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 16
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 68,
+              "mongo": 60
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 50,
+              "mongo": 44
+            }
+          ]
         },
         {
           "chapter": 10,
           "title": "نثر نمبر 8: دہلیز",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 61,
-          "mongoTotal": 61,
+          "mongoTotal": 88,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 8
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 32,
+              "mongo": 40
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 29,
+              "mongo": 39
+            }
+          ]
         },
         {
           "chapter": 11,
-          "title": "نثر نمبر 9: تاریخ کا کفن",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 104,
-          "mongoTotal": 104,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 12,
-          "title": "نثر نمبر 10: پاکستانی زبانیں اور ان کا باہمی رشتہ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 79,
-          "mongoTotal": 79,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 13,
           "title": "نظم نمبر 3: اے وادیِ لولاب",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 44,
-          "mongoTotal": 44,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 5
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 6
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 33
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 14,
           "title": "نظم نمبر 4: او دیس سے آنے والے بتا",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 50,
-          "mongoTotal": 50,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 10
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 7
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 33
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 15,
           "title": "نظم نمبر 5: آزادی",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 49,
-          "mongoTotal": 49,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 9
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 6
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 34
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 16,
           "title": "نظم نمبر 6: اِخلاص",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 50,
-          "mongoTotal": 50,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 6
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 39
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 17,
           "title": "نظم نمبر 7: کھڑا ڈنر",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 44,
-          "mongoTotal": 44,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 12
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 27
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 18,
           "title": "غزل نمبر 1: پتّاپتّا بُوٹابُوٹا حال ہمارا جانے ہے",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 41,
-          "mongoTotal": 41,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 6
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 30
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 19,
           "title": "غزل نمبر 2: سر میں سودا بھی نہیں،دل میں تمنّا بھی نہیں",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 47,
-          "mongoTotal": 47,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 7
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 35
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 20,
           "title": "غزل نمبر 3: بے چین بہت پھرنا، گھبرائے ہوئے رہنا",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 31,
-          "mongoTotal": 31,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 5
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 21
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 21,
           "title": "غزل نمبر 4: سلسلے توڑگیا وہ سبھی جاتے جاتے",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 27,
-          "mongoTotal": 27,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 5
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 17
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
         {
           "chapter": 22,
           "title": "غزل نمبر 5: بادباں کھلنے سے پہلے کا اشارہ دیکھنا",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 40,
-          "mongoTotal": 40,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:POEM",
+              "pts": 7
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 28
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
         },
@@ -5557,22 +6507,53 @@
           "chapter": 23,
           "title": "حصہ قوائدوانشا (معروضی)",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 942,
-          "mongoTotal": 942,
+          "mongoTotal": 1002,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 942,
+              "mongo": 1002
+            }
+          ]
         },
         {
           "chapter": 24,
           "title": "(گرائمر (مکالمے)، (رداد/،مضامین)، (درخواستیں)، (رسیدیں)، (تلخیص پیرگراف",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 264,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:ABRIDGED",
+              "mongo": 93
+            },
+            {
+              "type": "LONG:APPLICATION",
+              "mongo": 43
+            },
+            {
+              "type": "LONG:DIALOGUE",
+              "mongo": 47
+            },
+            {
+              "type": "LONG:HISTORY",
+              "mongo": 37
+            },
+            {
+              "type": "LONG:NEWSPAPER",
+              "mongo": 18
+            },
+            {
+              "type": "LONG:RECEIPT",
+              "mongo": 26
+            }
+          ],
           "countMismatch": []
         }
       ]
@@ -5581,14 +6562,14 @@
   "summary": {
     "subjectsCompared": 30,
     "missingInMongo": [],
-    "allTopicsTypeOk": 30,
-    "allTopicsTypeFail": 0,
-    "allTopicsCountOk": 26,
-    "allTopicsCountFail": 4,
-    "chaptersTypeOk": 413,
-    "chaptersTypeFail": 0,
-    "chaptersCountOk": 412,
-    "chaptersCountFail": 1
+    "allTopicsTypeOk": 26,
+    "allTopicsTypeFail": 4,
+    "allTopicsCountOk": 23,
+    "allTopicsCountFail": 7,
+    "chaptersTypeOk": 359,
+    "chaptersTypeFail": 61,
+    "chaptersCountOk": 347,
+    "chaptersCountFail": 73
   },
   "subjectsOnlyInMongo": []
 }

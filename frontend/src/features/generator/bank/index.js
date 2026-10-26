@@ -10,12 +10,17 @@ export {
   pickPool,
 } from "./api.js";
 
-export { SOURCE_OPTIONS, sourceKind, sourceLabel } from "./source.js";
+export {
+  SOURCE_OPTIONS,
+  sourceKind,
+  sourceLabel,
+  sourceLabelShort,
+} from "./source.js";
 
 export {
   subtypeLabel,
   isClassicThreeTypeSubject,
-  buildPtsPickerOptions,
+  buildPickerOptions,
   sumQuestionTypesForTopics,
   parsePickerValue,
 } from "./questionTypes.js";

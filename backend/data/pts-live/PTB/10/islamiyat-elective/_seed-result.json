@@ -1,0 +1,26 @@
+{
+  "classId": 10,
+  "subjectId": 72,
+  "slug": "islamiyat-elective",
+  "name": "اسلامیات اختیاری",
+  "total": 1175,
+  "typeTotals": {
+    "MCQ": 497,
+    "QA": 590,
+    "LONG": 45,
+    "AYAT": 30,
+    "HADITH": 13
+  },
+  "mongo": {
+    "created": 1175,
+    "skipped": 0,
+    "typeCounts": {
+      "LONG:AYAT": 30,
+      "LONG:HADITH": 13,
+      "LONG:LONG": 45,
+      "MCQ:MCQ": 497,
+      "SHORT:QA": 590
+    }
+  },
+  "at": "2026-10-24T14:26:05.180Z"
+}

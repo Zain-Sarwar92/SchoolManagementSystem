@@ -42,8 +42,32 @@ function scoredCount(section) {
   return Math.min(n, attempt);
 }
 
+function sectionQuestionMarks(section) {
+  const each = Number(section.marksEach) || 0;
+  return (section.questions || []).slice(0, scoredCount(section)).map((q) => {
+    const m = Number(q?.marks);
+    return Number.isFinite(m) && m > 0 ? m : each;
+  });
+}
+
 function sectionMarksTotal(section) {
-  return scoredCount(section) * (Number(section.marksEach) || 0);
+  const marks = sectionQuestionMarks(section);
+  return marks.length
+    ? marks.reduce((sum, m) => sum + m, 0)
+    : scoredCount(section) * (Number(section.marksEach) || 0);
+}
+
+function sectionMarksLine(section) {
+  const marks = sectionQuestionMarks(section);
+  const total = sectionMarksTotal(section);
+  if (!marks.length) {
+    const each = Number(section.marksEach) || 0;
+    return `(${each} x 0 = 0)`;
+  }
+  if (marks.every((m) => m === marks[0])) {
+    return `(${marks[0]} x ${marks.length} = ${total})`;
+  }
+  return `(${marks.join(" + ")} = ${total})`;
 }
 
 function normalizeMcqKey(value) {
@@ -54,7 +78,7 @@ function normalizeMcqKey(value) {
   return match?.[1] ?? null;
 }
 
-/** PTS-style meta cell — blank = empty write-in area (no underscore line) */
+/** board-style meta cell — blank = empty write-in area (no underscore line) */
 function MetaCell({
   label,
   value = "",
@@ -528,7 +552,7 @@ function InfoGrid({
 }
 
 /**
- * PTS-style printable exam sheet with 5 selectable layouts.
+ * board-style printable exam sheet with 5 selectable layouts.
  */
 export default function ExamPaperSheet({
   meta = {},
@@ -582,7 +606,10 @@ export default function ExamPaperSheet({
           .join(" · ")
       : "";
 
-  const showWatermark = watermark !== "none" && Boolean(logoUrl);
+  const showLogoWatermark =
+    (watermark === "mono" || watermark === "full") && Boolean(logoUrl);
+  const showSchoolWatermark =
+    watermark === "school" && Boolean(orgName);
 
   return (
     <article
@@ -595,7 +622,7 @@ export default function ExamPaperSheet({
         .join(" ")}
       style={styleVars || undefined}
     >
-      {showWatermark ? (
+      {showLogoWatermark ? (
         <img
           src={logoUrl}
           alt=""
@@ -607,6 +634,11 @@ export default function ExamPaperSheet({
             .join(" ")}
           aria-hidden="true"
         />
+      ) : null}
+      {showSchoolWatermark ? (
+        <div className="exam-watermark exam-watermark--school" aria-hidden="true">
+          {orgName}
+        </div>
       ) : null}
 
       <BrandHeader
@@ -632,9 +664,7 @@ export default function ExamPaperSheet({
         <p className="exam-empty">No questions added yet.</p>
       ) : (
         sections.map((section, sIdx) => {
-          const scored = scoredCount(section);
-          const marks = sectionMarksTotal(section);
-          const marksLine = `(${Number(section.marksEach) || 0} x ${scored} = ${marks})`;
+          const marksLine = sectionMarksLine(section);
           const subjectName = meta.subjectName || meta.subjectLabel || "";
           const urduOnlyHeadings = isUrduLikeSubject(subjectName);
           const prompt = sectionInstruction(section.type, section.subType, {

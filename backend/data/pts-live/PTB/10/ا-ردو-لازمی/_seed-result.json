@@ -3,32 +3,30 @@
   "subjectId": 66,
   "slug": "ا-ردو-لازمی",
   "name": "اُردو لازمی",
-  "total": 1765,
-  "counts": {
-    "mcq": 811,
-    "short": 954,
-    "long": 0
-  },
+  "total": 2009,
   "typeTotals": {
-    "MCQ": 811,
-    "QA": 0,
-    "LONG": 0,
-    "QA_14": 742,
-    "QA_19": 85,
-    "QA_28": 16,
-    "QA_30": 6,
-    "QA_48": 105
+    "MCQ": 962,
+    "QA": 742,
+    "POEM": 85,
+    "ESSAYS": 81,
+    "SUMMARY": 16,
+    "CENTRAL": 6,
+    "TAFHEEM": 12,
+    "PASSAGE": 105
   },
   "mongo": {
-    "created": 1765,
+    "created": 2009,
     "skipped": 0,
     "typeCounts": {
-      "MCQ": 811,
-      "SHORT": 954,
-      "LONG": 0
-    },
-    "chapters": 21,
-    "topics": 26
+      "LONG:CENTRAL": 6,
+      "LONG:ESSAYS": 81,
+      "LONG:PASSAGE": 105,
+      "LONG:POEM": 85,
+      "LONG:SUMMARY": 16,
+      "LONG:TAFHEEM": 12,
+      "MCQ:MCQ": 962,
+      "SHORT:QA": 742
+    }
   },
-  "at": "2026-10-23T00:11:54.505Z"
+  "at": "2026-10-24T14:04:39.241Z"
 }

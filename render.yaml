@@ -1,0 +1,38 @@
+# Free backend deploy: https://render.com
+# 1) Connect this GitHub repo
+# 2) Fill MONGO_URI, CLIENT_URL, SUPER_ADMIN_* in the dashboard
+# 3) After first deploy, open Shell → npm run seed
+# 4) Then seed/import your question bank
+
+services:
+  - type: web
+    name: sms-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "5000"
+      - key: JWT_EXPIRES_IN
+        value: 1d
+      - key: API_RATE_LIMIT
+        value: "300"
+      - key: PTS_MEDIA_ROOT
+        value: /opt/render/project/src/public/pts-media
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGO_URI
+        sync: false
+      - key: CLIENT_URL
+        sync: false
+      - key: SUPER_ADMIN_NAME
+        value: Super Admin
+      - key: SUPER_ADMIN_EMAIL
+        sync: false
+      - key: SUPER_ADMIN_PASSWORD
+        sync: false

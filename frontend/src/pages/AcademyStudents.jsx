@@ -22,6 +22,7 @@ import { toast } from "../components/ui/toast.jsx";
 import { sectionSwatch } from "../utils/sectionColors.js";
 import { academicSession, isSessionLabel, nextSessionLabel, sessionChoices } from "../utils/studentListPrint.js";
 import api from "../services/api.js";
+import { openProtectedUpload } from "../utils/protectedUpload.js";
 
 const MAJOR_LABELS = {
   science: "Science",
@@ -1299,14 +1300,19 @@ function AcademyStudents() {
           />
           {fileUrl ? (
             <div className="flex flex-wrap items-center gap-2 text-sm">
-              <a
-                href={fileUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="font-medium text-navy underline"
+              <button
+                type="button"
+                onClick={async () => {
+                  try {
+                    await openProtectedUpload(fileUrl);
+                  } catch {
+                    toast.error("Could not open file");
+                  }
+                }}
+                className="cursor-pointer font-medium text-navy underline"
               >
                 {fileName || "View file"}
-              </a>
+              </button>
               <button
                 type="button"
                 onClick={() => setCustomValue(field.key, "")}
@@ -2874,14 +2880,19 @@ function AcademyStudents() {
                 let display = "—";
                 if (value && typeof value === "object" && value.url) {
                   display = (
-                    <a
-                      href={value.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="underline"
+                    <button
+                      type="button"
+                      onClick={async () => {
+                        try {
+                          await openProtectedUpload(value.url);
+                        } catch {
+                          toast.error("Could not open file");
+                        }
+                      }}
+                      className="cursor-pointer underline"
                     >
                       {value.originalName || "View file"}
-                    </a>
+                    </button>
                   );
                 } else if (typeof value === "boolean") {
                   display = value ? "Yes" : "No";

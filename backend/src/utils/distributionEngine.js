@@ -1,4 +1,4 @@
-/** Port of _compare_Test_System/src/lib/distribution/engine.ts */
+/** Question-type distribution engine for paper generation. */
 
 export function shuffle(items) {
   const arr = [...items];

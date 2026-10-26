@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import {
   ArrowLeft,
+  ChevronDown,
   Library,
   List,
+  Menu,
   Pencil,
   Save,
   Printer,
@@ -20,7 +22,7 @@ import api from "../../../services/api.js";
 import { openGeneratorPrintTab } from "../print/index.js";
 import {
   SOURCE_OPTIONS,
-  buildPtsPickerOptions,
+  buildPickerOptions,
   fetchSubjectSyllabus,
   isClassicThreeTypeSubject,
   parsePickerValue,
@@ -28,6 +30,7 @@ import {
   searchPool,
   sourceKind,
   sourceLabel,
+  sourceLabelShort,
   subtypeLabel,
   sumQuestionTypesForTopics,
 } from "../bank/index.js";
@@ -72,6 +75,7 @@ import {
   autofillChapterPlan,
   validateChapterPlan,
   buildTopicUsage,
+  buildTopicUsageForType,
 } from "../create/index.js";
 
 function GeneratorCreate() {
@@ -84,7 +88,17 @@ function GeneratorCreate() {
   const pendingEditSectionRef = useRef(null);
   /** Skip leave confirm when Back/Cancel already confirmed and consumes history guard */
   const paperLeaveViaUiRef = useRef(false);
+  const pickerMenuRef = useRef(null);
   const academy = user?.academy;
+
+  const showQuestionMenu = () => {
+    requestAnimationFrame(() => {
+      pickerMenuRef.current?.scrollIntoView({
+        block: "start",
+        behavior: "smooth",
+      });
+    });
+  };
 
   const { boards, loading, catalogError, reloadCatalog } =
     useGeneratorCatalog();
@@ -102,10 +116,13 @@ function GeneratorCreate() {
   const [selectedTopicIds, setSelectedTopicIds] = useState([]);
 
   const [modalOpen, setModalOpen] = useState(false);
+  /** Question Menu (filters) — collapses after Search so bank gets space */
+  const [pickerMenuOpen, setPickerMenuOpen] = useState(true);
+  /** Mobile paper actions — board-style hamburger drawer */
+  const [paperRailOpen, setPaperRailOpen] = useState(false);
   const [saveModalOpen, setSaveModalOpen] = useState(false);
   /** Custom confirm: { kind: 'leave-paper' } | { kind: 'cancel-section', section } */
   const [confirmDialog, setConfirmDialog] = useState(null);
-  const [pickerFiltersOpen, setPickerFiltersOpen] = useState(true);
   const [showAnswerKey, setShowAnswerKey] = useState(false);
   const [inlineEditing, setInlineEditing] = useState(false);
   const [printMode, setPrintMode] = useState("single");
@@ -222,7 +239,6 @@ function GeneratorCreate() {
         setEditingSectionKey(null);
         setDraftSelected([]);
         setPool([]);
-        setPickerFiltersOpen(true);
         setModalOpen(Boolean(openMenuOnLoad) && !editSectionKeyOnLoad);
         setStep("paper");
         if (editSectionKeyOnLoad) {
@@ -301,13 +317,10 @@ function GeneratorCreate() {
     [paperSections]
   );
 
-  /** Paper-wide topic usage so later types prefer less-used topics. */
+  /** Topic usage for the active type only (MCQ ≠ Short ≠ Long). */
   const paperTopicUsage = useMemo(
-    () =>
-      buildTopicUsage(
-        paperSections.flatMap((s) => s.questions || [])
-      ),
-    [paperSections]
+    () => buildTopicUsageForType(paperSections, activeType),
+    [paperSections, activeType]
   );
 
   const paperQuestionCount = useMemo(
@@ -348,8 +361,8 @@ function GeneratorCreate() {
     plannerQuestionTotal > 0;
 
   /**
-   * Question-type dropdown: PTS catalog filtered to selected topics only
-   * (e.g. Summary Matric only on poem chapters — matches PTS).
+   * Question-type dropdown: type catalog filtered to selected topics only
+   * (e.g. Summary Matric only on poem chapters — matches board Generate Paper).
    */
   const selectionQuestionTypes = useMemo(
     () =>
@@ -359,7 +372,7 @@ function GeneratorCreate() {
 
   const pickerOptions = useMemo(
     () =>
-      buildPtsPickerOptions({
+      buildPickerOptions({
         subjectName: subject?.name,
         className: klass?.name,
         questionTypes: selectedTopicIds.length
@@ -491,7 +504,6 @@ function GeneratorCreate() {
     setPool([]);
     setDraftSelected([]);
     setPickerMessage(null);
-    setPickerFiltersOpen(true);
     setEditingSectionKey(null);
   };
 
@@ -702,14 +714,32 @@ function GeneratorCreate() {
     }
   };
 
-  const jumpTo = (target) => {
-    if (target === "subject" && klass) {
+  const clearBelow = (level) => {
+    if (level <= 0) setBoard(null);
+    if (level <= 1) setKlass(null);
+    if (level <= 2) {
       setSubject(null);
       setChapters([]);
       setQuestionTypes([]);
       setSelectedChapterIds([]);
       setSelectedTopicIds([]);
-      resetBuildState();
+    }
+    resetBuildState();
+  };
+
+  const jumpTo = (target) => {
+    if (target === "board") {
+      clearBelow(0);
+      setStep("board");
+      return;
+    }
+    if (target === "class" && board) {
+      clearBelow(1);
+      setStep("class");
+      return;
+    }
+    if (target === "subject" && klass) {
+      clearBelow(2);
       setStep("subject");
       return;
     }
@@ -723,6 +753,29 @@ function GeneratorCreate() {
       setStep("chapters");
     }
   };
+
+  const selectedChapterNums = chapters
+    .map((c, i) =>
+      selectedChapterIds.includes(c.id) ? String(c.order || i + 1) : null
+    )
+    .filter(Boolean)
+    .join(", ");
+
+  const selectionPath = [
+    board && {
+      id: "board",
+      label: "Board",
+      value: String(board.name || "").replace(/ Board$/i, "") || board.name,
+    },
+    klass && { id: "class", label: "Class", value: klass.name },
+    subject && { id: "subject", label: "Subject", value: subject.name },
+    subject &&
+      (step === "chapters" || step === "paper") && {
+        id: "chapters",
+        label: "Ch",
+        value: selectedChapterNums || "—",
+      },
+  ].filter(Boolean);
 
   const syncMediumForType = async (type, field) => {
     if (!subject?.id || !type) return;
@@ -794,6 +847,7 @@ function GeneratorCreate() {
       toast.error("Enter marks for each question first.");
       return;
     }
+    setPickerMenuOpen(false);
     setPending(true);
     setPickerMessage(null);
     try {
@@ -936,7 +990,6 @@ function GeneratorCreate() {
           ? `Random · planner quotas · ${questions.length} selected · bank open${truncNote}`
           : `Random selected · ${questions.length} selected · bank open${truncNote}`
       );
-      setPickerFiltersOpen(false);
     } catch (err) {
       toast.error(err.response?.data?.message || "Random select failed");
     } finally {
@@ -1004,10 +1057,11 @@ function GeneratorCreate() {
         ...new Set([...usedQuestionIds, ...draftSelected.map((q) => q.id)]),
       ];
       const draftOthers = draftSelected.filter((q) => q.id !== questionId);
-      const topicUsage = buildTopicUsage([
-        ...paperSections.flatMap((s) => s.questions || []),
-        ...draftOthers,
-      ]);
+      const topicUsage = buildTopicUsageForType(
+        paperSections,
+        activeType,
+        draftOthers
+      );
       const quotas =
         hasChapterPlan && current?.chapterId
           ? [{ chapterId: current.chapterId, count: 1 }]
@@ -1054,10 +1108,14 @@ function GeneratorCreate() {
     const marks = parsedMarks();
     const attempt = parsedAttempt();
     if (need < 1) {
+      setPickerMenuOpen(true);
+      showQuestionMenu();
       toast.error("Enter the required number of questions.");
       return;
     }
     if (!(marksPerQuestion !== "" && marks >= 1)) {
+      setPickerMenuOpen(true);
+      showQuestionMenu();
       toast.error("Marks each is required (enter at least 1).");
       return;
     }
@@ -1149,7 +1207,8 @@ function GeneratorCreate() {
       const allQs = nextSections.flatMap((s) => s.questions || []);
       setMedium(aggregateQuestionsMedium(allQs));
     }
-    setPickerFiltersOpen(true);
+    setPickerMenuOpen(true);
+    showQuestionMenu();
     toast.success(
       wasEditing
         ? `${TYPE_META[activeType].short} section updated (Q${qNo})`
@@ -1208,8 +1267,9 @@ function GeneratorCreate() {
       setRequiredCount("");
     }
     setMarksPerQuestion("");
-    setPickerFiltersOpen(true);
+    setPickerMenuOpen(true);
     setModalOpen(true);
+    showQuestionMenu();
     void syncMediumForType(nextType, first?.subType || null);
   };
 
@@ -1244,8 +1304,9 @@ function GeneratorCreate() {
     );
     setDraftSelected(selected);
     setEditingSectionKey(section.key);
-    setPickerFiltersOpen(true);
+    setPickerMenuOpen(true);
     setModalOpen(true);
+    showQuestionMenu();
     setPickerMessage(
       count
         ? `Editing Q${sectionQNumber(section.key, paperSections)} · ${count} selected`
@@ -1332,8 +1393,9 @@ function GeneratorCreate() {
           )
         ),
       ];
+      /* Same-type sections only — don't let MCQ topics skew Short/Long refresh */
       const otherQuestions = paperSections
-        .filter((s) => s.key !== sectionKey)
+        .filter((s) => s.key !== sectionKey && s.type === section.type)
         .flatMap((s) => s.questions || []);
       const quotas = hasChapterPlan
         ? chapterQuotasForType(chapterPlan, section.type)
@@ -1582,9 +1644,10 @@ function GeneratorCreate() {
                     ? "tg-pool-source--add"
                     : "",
               ].join(" ")}
+              title={sourceLabel(q.source)}
             >
-              {sourceLabel(q.source)}
-                </span>
+              {sourceLabelShort(q.source)}
+            </span>
           </span>
           <span className="tg-pool-body">
             <span className="tg-pool-stem">
@@ -1745,6 +1808,11 @@ function GeneratorCreate() {
                   </strong>
                   {isUrduLikeSubject(subject?.name) ? attemptNote : null}
                 </p>
+                {interactive && section.type === "LONG" ? (
+                  <p className="tg-exam-marks-hint no-print">
+                    Change any question’s marks below — total updates automatically
+                  </p>
+                ) : null}
               </div>
 
               {interactive ? (
@@ -1795,6 +1863,7 @@ function GeneratorCreate() {
                     medium={medium}
                     showAnswerKey={showAnswerKey}
                     inlineEdit={inlineEditing && interactive}
+                    marksEdit={interactive}
                     onUpdateText={(patch) =>
                       updatePaperQuestionText(section.key, q.id, patch)
                     }
@@ -1808,6 +1877,11 @@ function GeneratorCreate() {
     );
   };
 
+  const runRailAction = (fn) => {
+    setPaperRailOpen(false);
+    if (typeof fn === "function") fn();
+  };
+
   const paperRailItems = [
     {
       id: "menu",
@@ -1815,7 +1889,7 @@ function GeneratorCreate() {
       label: "Question's Menu",
       icon: List,
       title: "Add a new question section to the paper",
-      onClick: openAddQuestionsMenu,
+      onClick: () => runRailAction(openAddQuestionsMenu),
     },
     {
       id: "edit",
@@ -1824,7 +1898,7 @@ function GeneratorCreate() {
       icon: Pencil,
       title: "Edit question text on the paper",
       active: inlineEditing,
-      onClick: () => setInlineEditing((v) => !v),
+      onClick: () => runRailAction(() => setInlineEditing((v) => !v)),
     },
     {
       id: "save",
@@ -1832,7 +1906,7 @@ function GeneratorCreate() {
       label: editingPaperId ? "Update Paper" : "Save Paper",
       icon: Save,
       accent: "save",
-      onClick: openSaveModal,
+      onClick: () => runRailAction(openSaveModal),
       disabled: !paperSections.length || pending,
     },
     {
@@ -1840,7 +1914,7 @@ function GeneratorCreate() {
       group: "Print",
       label: "Print Single",
       icon: Printer,
-      onClick: () => printPaper("single"),
+      onClick: () => runRailAction(() => printPaper("single")),
       disabled: !paperSections.length,
     },
     {
@@ -1848,7 +1922,7 @@ function GeneratorCreate() {
       group: "Print",
       label: "Double Vertical",
       icon: Printer,
-      onClick: () => printPaper("double-v"),
+      onClick: () => runRailAction(() => printPaper("double-v")),
       disabled: !paperSections.length,
     },
     {
@@ -1856,7 +1930,7 @@ function GeneratorCreate() {
       group: "Print",
       label: "Double Horizontal",
       icon: Printer,
-      onClick: () => printPaper("double-h"),
+      onClick: () => runRailAction(() => printPaper("double-h")),
       disabled: !paperSections.length,
     },
     {
@@ -1865,7 +1939,7 @@ function GeneratorCreate() {
       label: "Cancel Paper",
       icon: X,
       accent: "danger",
-      onClick: cancelPaper,
+      onClick: () => runRailAction(cancelPaper),
     },
   ];
 
@@ -1886,38 +1960,13 @@ function GeneratorCreate() {
       <div className="tg-surface mb-3 px-3 py-2.5 sm:px-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="min-w-0">
-            <div className="flex min-w-0 flex-wrap items-baseline gap-x-2 gap-y-0.5">
-              <h2 className="font-display text-lg font-bold text-tg-ink sm:text-xl">
-                {headTitle}
-              </h2>
-              {subject ? (
-                <p className="flex flex-wrap items-center gap-1 text-xs text-tg-ink/65">
-                    <button
-                      type="button"
-                      className="font-semibold text-tg-blue hover:underline"
-                    onClick={() => jumpTo("subject")}
-                    >
-                    {subject.name}
-                    </button>
-                  {step === "chapters" ? (
-                  <>
-                      <span className="opacity-45">/</span>
-                      <span className="font-semibold text-tg-ink">Syllabus</span>
-                  </>
-                ) : null}
-                </p>
-            ) : null}
-            </div>
+            <h2 className="font-display text-lg font-bold text-tg-ink sm:text-xl">
+              {headTitle}
+            </h2>
           </div>
 
-          <div className="flex flex-wrap items-center gap-1.5">
-            <Link
-              to="/academy/generator/papers"
-              className="rounded-lg border border-tg-blue/30 bg-tg-cream/70 px-2.5 py-1.5 text-xs font-semibold text-tg-ink transition hover:bg-tg-mist/50"
-            >
-              Saved tests
-            </Link>
-            {step !== "board" ? (
+          {step !== "board" ? (
+            <div className="flex flex-wrap items-center gap-1.5">
               <button
                 type="button"
                 onClick={goBack}
@@ -1926,9 +1975,35 @@ function GeneratorCreate() {
               >
                 Back
               </button>
-            ) : null}
-          </div>
+            </div>
+          ) : null}
         </div>
+
+        {selectionPath.length ? (
+          <div className="tg-path" aria-label="Current selection">
+            {selectionPath.map((item, i) => (
+              <span key={item.id} className="tg-path-item">
+                {i > 0 ? <span className="tg-path-sep">/</span> : null}
+                {item.id === step ? (
+                  <span className="tg-path-chip tg-path-chip--on">
+                    <small>{item.label}</small>
+                    <span dir="auto">{item.value}</span>
+                  </span>
+                ) : (
+                  <button
+                    type="button"
+                    className="tg-path-chip"
+                    onClick={() => jumpTo(item.id)}
+                    title={`Change ${item.label}`}
+                  >
+                    <small>{item.label}</small>
+                    <span dir="auto">{item.value}</span>
+                  </button>
+                )}
+              </span>
+            ))}
+          </div>
+        ) : null}
 
           <nav
           className="mt-2 flex flex-wrap items-center gap-1.5 border-t border-tg-mist/60 pt-2"
@@ -2103,22 +2178,6 @@ function GeneratorCreate() {
       {step === "chapters" ? (
         <>
           <div className="tg-syllabus-toolbar tg-syllabus-toolbar--chapters">
-            <div className="tg-syllabus-toolbar-meta">
-              <p className="tg-syllabus-toolbar-subject tg-font-urdu" dir="auto">
-                {subject?.name || "Subject"}
-              </p>
-              <div className="tg-syllabus-stats">
-                <span className="tg-syllabus-stat">
-                  <strong>{chapters.length}</strong> chapters
-                </span>
-                <span className="tg-syllabus-stat tg-syllabus-stat--accent">
-                  <strong>{selectedChapterIds.length}</strong> chapters selected
-                </span>
-                <span className="tg-syllabus-stat tg-syllabus-stat--accent">
-                  <strong>{selectedTopicIds.length}</strong> topics selected
-                </span>
-              </div>
-            </div>
             {(() => {
               const allOn =
                 chapters.length > 0 &&
@@ -2195,11 +2254,13 @@ function GeneratorCreate() {
                     >
                       {allTopicsSelected ? "✓" : someTopicsSelected ? "–" : ""}
                     </span>
-                    <span className="tg-chapter-row-index" aria-hidden>
-                      {String(chapter.order || chIdx + 1).padStart(2, "0")}
-                    </span>
                     <span
-                      className="tg-chapter-row-title tg-font-urdu"
+                      className={[
+                        "tg-chapter-row-title",
+                        isUrduLikeSubject(subject?.name) ? "tg-font-urdu" : "",
+                      ]
+                        .filter(Boolean)
+                        .join(" ")}
                       dir="auto"
                     >
                       {chapter.name}
@@ -2252,7 +2313,14 @@ function GeneratorCreate() {
                               {topicOn ? "✓" : ""}
                             </span>
                             <span
-                              className="tg-topic-row-title tg-font-urdu"
+                              className={[
+                                "tg-topic-row-title",
+                                isUrduLikeSubject(subject?.name)
+                                  ? "tg-font-urdu"
+                                  : "",
+                              ]
+                                .filter(Boolean)
+                                .join(" ")}
                               dir="auto"
                             >
                               {topic.name}
@@ -2294,6 +2362,8 @@ function GeneratorCreate() {
                 type="button"
                 onClick={openSelectQuestions}
                 disabled={!selectedTopicIds.length || pending}
+                aria-label="Continue to select questions"
+                title="Continue to select questions"
                 className={[
                   "tg-continue-cta",
                   selectedTopicIds.length && !pending
@@ -2304,10 +2374,6 @@ function GeneratorCreate() {
                   .join(" ")}
               >
                 <span className="tg-continue-cta-shine" aria-hidden />
-                <span className="tg-continue-cta-label">
-                  Continue
-                  <span className="tg-continue-cta-sub">Select Questions</span>
-                </span>
                 <span className="tg-continue-cta-arrow" aria-hidden>
                   →
                 </span>
@@ -2319,37 +2385,70 @@ function GeneratorCreate() {
 
         </>
       ) : (
-        <div className="tg-paper-workspace">
-          <aside className="tg-paper-rail no-print">
-            <div className="tg-paper-rail-profile">
-              {academy?.logo ? (
-                <img
-                  src={academy.logo}
-                  alt=""
-                  className="tg-paper-rail-logo"
-                />
-              ) : (
-                <span className="tg-paper-rail-logo tg-paper-rail-logo--fallback">
-                  TG
-                </span>
-              )}
-              <div className="min-w-0">
-                <p className="tg-paper-rail-name">
-                  {user?.name ||
-                    (user?.role === "sub_account"
+        <div
+          className={[
+            "tg-paper-workspace",
+            paperRailOpen ? "tg-paper-workspace--rail-open" : "",
+          ]
+            .filter(Boolean)
+            .join(" ")}
+        >
+          {paperRailOpen ? (
+            <button
+              type="button"
+              className="tg-paper-rail-backdrop no-print"
+              aria-label="Close menu"
+              onClick={() => setPaperRailOpen(false)}
+            />
+          ) : null}
+
+          <aside
+            className={[
+              "tg-paper-rail no-print",
+              paperRailOpen ? "tg-paper-rail--open" : "",
+            ]
+              .filter(Boolean)
+              .join(" ")}
+          >
+            <div className="tg-paper-rail-head">
+              <div className="tg-paper-rail-profile">
+                {academy?.logo ? (
+                  <img
+                    src={academy.logo}
+                    alt=""
+                    className="tg-paper-rail-logo"
+                  />
+                ) : (
+                  <span className="tg-paper-rail-logo tg-paper-rail-logo--fallback">
+                    TG
+                  </span>
+                )}
+                <div className="min-w-0">
+                  <p className="tg-paper-rail-name">
+                    {user?.name ||
+                      (user?.role === "sub_account"
+                        ? "Sub account"
+                        : user?.role === "teacher"
+                          ? "Teacher"
+                          : "Administrator")}
+                  </p>
+                  <p className="tg-paper-rail-role">
+                    {user?.role === "sub_account"
                       ? "Sub account"
                       : user?.role === "teacher"
                         ? "Teacher"
-                        : "Administrator")}
-                </p>
-                <p className="tg-paper-rail-role">
-                  {user?.role === "sub_account"
-                    ? "Sub account"
-                    : user?.role === "teacher"
-                      ? "Teacher"
-                      : "Administrator"}
-                </p>
+                        : "Administrator"}
+                  </p>
+                </div>
               </div>
+              <button
+                type="button"
+                className="tg-paper-rail-close"
+                aria-label="Close menu"
+                onClick={() => setPaperRailOpen(false)}
+              >
+                <X className="size-4" strokeWidth={2.25} />
+              </button>
             </div>
 
             <nav className="tg-paper-rail-nav" aria-label="Paper actions">
@@ -2392,7 +2491,7 @@ function GeneratorCreate() {
             <div className="tg-paper-rail-foot">
               <button
                 type="button"
-                onClick={handleLogout}
+                onClick={() => runRailAction(handleLogout)}
                 className="tg-paper-rail-iconbtn tg-paper-rail-iconbtn--danger"
                 title="Logout"
               >
@@ -2400,7 +2499,7 @@ function GeneratorCreate() {
               </button>
               <button
                 type="button"
-                onClick={toggleFullscreen}
+                onClick={() => runRailAction(toggleFullscreen)}
                 className="tg-paper-rail-iconbtn"
                 title="Fullscreen"
               >
@@ -2408,7 +2507,9 @@ function GeneratorCreate() {
               </button>
               <button
                 type="button"
-                onClick={() => setShowAnswerKey((v) => !v)}
+                onClick={() =>
+                  runRailAction(() => setShowAnswerKey((v) => !v))
+                }
                 className={[
                   "tg-paper-rail-key",
                   showAnswerKey ? "tg-paper-rail-key--on" : "",
@@ -2423,17 +2524,26 @@ function GeneratorCreate() {
             <div className="tg-paper-stage-bar no-print">
               <button
                 type="button"
-                onClick={cancelPaper}
-                className="tg-paper-back"
+                className="tg-paper-menu-btn"
+                aria-label="Open paper menu"
+                aria-expanded={paperRailOpen}
+                onClick={() => setPaperRailOpen(true)}
               >
-                <ArrowLeft className="size-4" strokeWidth={2.25} />
-                Back
+                <Menu className="size-5" strokeWidth={2.25} />
               </button>
               <p className="tg-paper-stage-bar-hint">
                 {subject?.name
                   ? `${klass?.name || ""} · ${subject.name}`
                   : "Paper workspace"}
               </p>
+              <button
+                type="button"
+                onClick={cancelPaper}
+                className="tg-paper-back"
+              >
+                <ArrowLeft className="size-4" strokeWidth={2.25} />
+                Back
+              </button>
             </div>
             {!paperSections.length ? (
               <div className="tg-paper-empty no-print">
@@ -2660,218 +2770,197 @@ function GeneratorCreate() {
             <div
               className={[
                 "tg-picker-body",
-                pickerFiltersOpen ? "tg-picker-body--menu-open" : "",
+                pickerMenuOpen ? "tg-picker-body--menu-open" : "",
               ]
                 .filter(Boolean)
                 .join(" ")}
             >
-              {/* Outer scroll: Question Menu area — scrolls whole picker */}
               <div className="tg-picker-shell tg-scroll-quiet">
-                {/* SECTION 1 — Question Menu */}
-                <section className="tg-picker-sec tg-picker-sec--menu">
-              <button
-                type="button"
-                    className="tg-picker-sec-toggle"
-                onClick={() => setPickerFiltersOpen((o) => !o)}
-              >
-                <span>
-                      {pickerFiltersOpen
-                        ? "1. Hide Question Menu"
-                        : "1. Question Menu"}
-                </span>
-                <span className="text-xs text-tg-deep/70">
-                  {activeSubType
-                    ? subtypeLabel(activeSubType)
-                    : TYPE_META[activeType].short}
-                      {parsedRequired() > 0
-                        ? ` · ${parsedRequired()} req`
-                        : ""}
-                </span>
-              </button>
-
-              {pickerFiltersOpen ? (
-                <div className="tg-picker-fields">
-                  <label className="tg-picker-field--type block">
-                    <span className="tg-picker-label">
-                      Question type <span aria-hidden>*</span>
-                    </span>
-                    <select
-                      required
-                      aria-required="true"
-                      className={[
-                        "tg-native-select",
-                        pickerOptions.some((o) =>
-                          /[\u0600-\u06FF]/.test(o.label || "")
-                        )
-                          ? "tg-font-urdu"
-                          : "",
-                      ]
-                        .filter(Boolean)
-                        .join(" ")}
-                      value={
-                        pickerOptions.some((o) => o.value === pickerValue)
-                          ? pickerValue
-                          : pickerOptions[0]?.value || "MCQ:"
-                      }
-                      onChange={(e) =>
-                        activatePickerOption(String(e.target.value))
-                      }
+                <section
+                  ref={pickerMenuRef}
+                  className={[
+                    "tg-picker-sec tg-picker-sec--menu",
+                    pickerMenuOpen ? "" : "tg-picker-sec--menu-collapsed",
+                  ]
+                    .filter(Boolean)
+                    .join(" ")}
+                >
+                  {pickerMenuOpen ? null : (
+                    <button
+                      type="button"
+                      className="tg-picker-sec-toggle"
+                      onClick={() => setPickerMenuOpen(true)}
                     >
-                      {pickerOptions.map((opt) => (
-                        <option
-                          key={opt.value}
-                          value={opt.value}
-                          className={
-                            /[\u0600-\u06FF]/.test(opt.label || "")
+                      <span>Question Menu</span>
+                      <ChevronDown className="size-4 shrink-0 opacity-70" aria-hidden />
+                    </button>
+                  )}
+                  {pickerMenuOpen ? (
+                    <>
+                  <div className="tg-picker-fields">
+                      <label className="tg-picker-field--type block">
+                        <span className="tg-picker-label">
+                          Question type <span aria-hidden>*</span>
+                        </span>
+                        <select
+                          required
+                          aria-required="true"
+                          className={[
+                            "tg-native-select",
+                            pickerOptions.some((o) =>
+                              /[\u0600-\u06FF]/.test(o.label || "")
+                            )
                               ? "tg-font-urdu"
-                              : undefined
+                              : "",
+                          ]
+                            .filter(Boolean)
+                            .join(" ")}
+                          value={
+                            pickerOptions.some((o) => o.value === pickerValue)
+                              ? pickerValue
+                              : pickerOptions[0]?.value || "MCQ:"
+                          }
+                          onChange={(e) =>
+                            activatePickerOption(String(e.target.value))
                           }
                         >
-                          {opt.label}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                  <label className="tg-picker-field--sm block">
-                    <span className="tg-picker-label">Source</span>
-                    <select
-                      className="tg-native-select"
-                      value={sourceFilter}
-                      onChange={(e) => {
-                        setSourceFilter(String(e.target.value));
-                        setPool([]);
-                        setDraftSelected([]);
-                      }}
-                    >
-                      {SOURCE_OPTIONS.map((opt) => (
-                        <option key={opt.value} value={opt.value}>
-                          {opt.label}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                  <label className="tg-picker-field--sm block">
-                    <span className="tg-picker-label">Medium</span>
-                    <select
-                      className="tg-native-select"
-                      value={medium}
-                      onChange={(e) => setMedium(String(e.target.value))}
-                    >
-                      {MEDIUM_OPTIONS.map((opt) => (
-                        <option key={opt.value} value={opt.value}>
-                          {opt.label}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                  <label className="tg-picker-field--sm block">
-                    <span className="tg-picker-label">
-                      Required <span aria-hidden>*</span>
-                      {hasChapterPlan ? " (planner)" : ""}
-                    </span>
-                    <input
-                      type="number"
-                      min={1}
-                      required={!hasChapterPlan}
-                      aria-required={!hasChapterPlan}
-                      placeholder="Req"
-                      value={requiredCount}
-                      readOnly={hasChapterPlan}
-                      title={
-                        hasChapterPlan
-                          ? "Set from chapter planner"
-                          : undefined
-                      }
-                      onChange={(e) => {
-                        if (hasChapterPlan) return;
-                        setRequiredCount(
-                          e.target.value === ""
-                            ? ""
-                            : Math.max(1, Number(e.target.value))
-                        );
-                      }}
-                      className="tg-field h-[2.35rem] w-full px-2 text-sm"
-                    />
-                  </label>
-                  <label className="tg-picker-field--sm block">
-                    <span className="tg-picker-label">
-                      Marks <span aria-hidden>*</span>
-                    </span>
-                    <input
-                      type="number"
-                      min={1}
-                      required
-                      aria-required="true"
-                      placeholder="Marks"
-                      value={marksPerQuestion}
-                      onChange={(e) =>
-                        setMarksPerQuestion(
-                          e.target.value === ""
-                            ? ""
-                            : Math.max(1, Number(e.target.value))
-                        )
-                      }
-                      className="tg-field h-[2.35rem] w-full px-2 text-sm"
-                    />
-                  </label>
-                  <label className="tg-picker-field--sm block">
-                    <span className="tg-picker-label">Attempt any</span>
-                    <input
-                      type="number"
-                      min={0}
-                      placeholder="—"
-                      value={attemptCount}
-                      onChange={(e) =>
-                        setAttemptCount(
-                          e.target.value === ""
-                            ? ""
-                            : Math.max(0, Number(e.target.value))
-                        )
-                      }
-                      className="tg-field h-[2.35rem] w-full px-2 text-sm"
-                    />
-                  </label>
-                </div>
-              ) : null}
+                          {pickerOptions.map((opt) => (
+                            <option
+                              key={opt.value}
+                              value={opt.value}
+                              className={
+                                /[\u0600-\u06FF]/.test(opt.label || "")
+                                  ? "tg-font-urdu"
+                                  : undefined
+                              }
+                            >
+                              {opt.label}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                      <label className="tg-picker-field--sm block">
+                        <span className="tg-picker-label">Source</span>
+                        <select
+                          className="tg-native-select"
+                          value={sourceFilter}
+                          onChange={(e) => {
+                            setSourceFilter(String(e.target.value));
+                            setPool([]);
+                            setDraftSelected([]);
+                          }}
+                        >
+                          {SOURCE_OPTIONS.map((opt) => (
+                            <option key={opt.value} value={opt.value}>
+                              {opt.label}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                      <label className="tg-picker-field--sm block">
+                        <span className="tg-picker-label">Medium</span>
+                        <select
+                          className="tg-native-select"
+                          value={medium}
+                          onChange={(e) => setMedium(String(e.target.value))}
+                        >
+                          {MEDIUM_OPTIONS.map((opt) => (
+                            <option key={opt.value} value={opt.value}>
+                              {opt.label}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                      <label className="tg-picker-field--sm block">
+                        <span className="tg-picker-label">
+                          Required <span aria-hidden>*</span>
+                          {hasChapterPlan ? " (planner)" : ""}
+                        </span>
+                        <input
+                          type="number"
+                          min={1}
+                          required={!hasChapterPlan}
+                          aria-required={!hasChapterPlan}
+                          placeholder="Req"
+                          value={requiredCount}
+                          readOnly={hasChapterPlan}
+                          title={
+                            hasChapterPlan
+                              ? "Set from chapter planner"
+                              : undefined
+                          }
+                          onChange={(e) => {
+                            if (hasChapterPlan) return;
+                            setRequiredCount(
+                              e.target.value === ""
+                                ? ""
+                                : Math.max(1, Number(e.target.value))
+                            );
+                          }}
+                          className="tg-field h-[2.35rem] w-full px-2 text-sm"
+                        />
+                      </label>
+                      <label className="tg-picker-field--sm block">
+                        <span className="tg-picker-label">
+                          Marks <span aria-hidden>*</span>
+                        </span>
+                        <input
+                          type="number"
+                          min={1}
+                          required
+                          aria-required="true"
+                          placeholder="Marks"
+                          value={marksPerQuestion}
+                          onChange={(e) =>
+                            setMarksPerQuestion(
+                              e.target.value === ""
+                                ? ""
+                                : Math.max(1, Number(e.target.value))
+                            )
+                          }
+                          className="tg-field h-[2.35rem] w-full px-2 text-sm"
+                        />
+                      </label>
+                      <label className="tg-picker-field--sm block">
+                        <span className="tg-picker-label">Attempt any</span>
+                        <input
+                          type="number"
+                          min={0}
+                          placeholder="—"
+                          value={attemptCount}
+                          onChange={(e) =>
+                            setAttemptCount(
+                              e.target.value === ""
+                                ? ""
+                                : Math.max(0, Number(e.target.value))
+                            )
+                          }
+                          className="tg-field h-[2.35rem] w-full px-2 text-sm"
+                        />
+                      </label>
+                    </div>
 
-              <div className="tg-picker-actions">
-                    {draftSelected.length > 0 ? (
-                <button
-                  type="button"
-                        onClick={() => setDraftSelected([])}
-                        className="tg-picker-clear-btn"
-                >
-                        Clear selected
-                </button>
-                    ) : (
-                      <span className="tg-picker-actions-spacer" aria-hidden />
-                    )}
-                <button
-                  type="button"
+                  <div className="tg-picker-actions">
+                    <p className="tg-picker-selected-count" aria-live="polite">
+                      {draftSelected.length}
+                      {parsedRequired() > 0
+                        ? ` of ${parsedRequired()} selected`
+                        : " selected"}
+                    </p>
+                    <button
+                      type="button"
                       onClick={runSearch}
-                  disabled={pending}
+                      disabled={pending}
                       className="tg-picker-search-btn disabled:opacity-50"
-                >
+                    >
                       {pending ? "Searching…" : "Search"}
-                </button>
-              </div>
+                    </button>
+                  </div>
+                    </>
+                  ) : null}
                 </section>
 
-                {/* SECTION 2 — Question Bank (grows with content; outer shell scrolls) */}
                 <section className="tg-picker-sec tg-picker-sec--bank">
-                  <div className="tg-pool-summary">
-                    <span>
-                      2. Question Bank ·{" "}
-                      {activeSubType
-                        ? subtypeLabel(activeSubType)
-                        : TYPE_META[activeType].label}
-                    </span>
-                    <span>
-                      {pending
-                        ? "Loading…"
-                        : `${pool.length} questions · ${draftSelected.length} selected`}
-                    </span>
-                  </div>
                   <div
                     className="tg-pool-zone tg-pool-zone--bank tg-scroll-quiet"
                     onWheel={(e) => e.stopPropagation()}
@@ -2891,27 +2980,26 @@ function GeneratorCreate() {
                 </section>
 
                 <div className="tg-pool-mid-actions">
-                                <button
-                                  type="button"
+                  <button
+                    type="button"
                     onClick={runSelectRandom}
                     disabled={pending}
                     className="tg-pool-mid-btn tg-pool-mid-btn--random"
                   >
                     Random Select →
-                                </button>
-                                <button
-                                  type="button"
+                  </button>
+                  <button
+                    type="button"
                     onClick={addSectionToPaper}
                     disabled={pending}
                     className="tg-pool-mid-btn tg-pool-mid-btn--add"
                   >
                     {editingSectionKey
                       ? "Update Section →"
-                      : "Add Question's →"}
-                                </button>
-                              </div>
+                      : "Add Questions →"}
+                  </button>
+                </div>
 
-                {/* SECTION 3 — Selected expands; no nested scroll until content needs outer shell */}
                 <section className="tg-picker-sec tg-picker-sec--selected">
                   <div className="tg-pool-summary tg-pool-summary--selected">
                     <span>3. Selected Questions</span>
@@ -2921,7 +3009,7 @@ function GeneratorCreate() {
                         ? ` of ${parsedRequired()} required`
                         : ""}
                     </span>
-                        </div>
+                  </div>
                   <div className="tg-pool-zone tg-pool-zone--selected">
                     {renderSelectedList()}
                   </div>
@@ -2930,30 +3018,7 @@ function GeneratorCreate() {
             </div>
 
             <div className="tg-modal-footer">
-              <p className="text-sm font-semibold text-tg-ink">
-                {draftSelected.length} selected
-                {parsedRequired() > 0 ? ` of ${parsedRequired()} required` : ""}
-                {paperSections.length
-                  ? ` · paper: ${paperQuestionCount} qs / ${paperMarks} marks`
-                  : ""}
-              </p>
-              <div className="flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() => setModalOpen(false)}
-                  className="rounded-xl border border-tg-blue/30 bg-white px-3 py-2 text-sm font-semibold text-tg-ink"
-                >
-                  View Test
-                </button>
-                <button
-                  type="button"
-                  onClick={addSectionToPaper}
-                  disabled={pending}
-                  className="tg-btn-primary px-4 py-2 text-sm disabled:opacity-50"
-                >
-                  {editingSectionKey ? "Update Section →" : "Add Questions →"}
-                </button>
-              </div>
+  
             </div>
           </div>
         </div>

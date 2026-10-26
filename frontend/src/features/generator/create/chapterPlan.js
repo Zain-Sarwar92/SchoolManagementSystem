@@ -166,3 +166,14 @@ export function buildTopicUsage(questions = []) {
   }
   return usage;
 }
+
+/**
+ * Topic balance scoped to one question type (MCQ / SHORT / LONG).
+ * MCQ usage must not push Short/Long toward duplicate topics.
+ */
+export function buildTopicUsageForType(sections = [], type, extraQuestions = []) {
+  const fromSections = (sections || [])
+    .filter((s) => s?.type === type)
+    .flatMap((s) => s.questions || []);
+  return buildTopicUsage([...fromSections, ...(extraQuestions || [])]);
+}

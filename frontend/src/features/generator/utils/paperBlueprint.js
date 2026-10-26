@@ -31,7 +31,7 @@ export const TYPE_META = {
 };
 
 /**
- * Board / PTS-style question headings by catalog field (subType).
+ * Board / board-style question headings by catalog field (subType).
  * Falls back to TYPE_META when a field has no dedicated heading.
  */
 export const FIELD_HEADINGS = {
@@ -44,7 +44,7 @@ export const FIELD_HEADINGS = {
     en: "Choose the correct answer.",
     ur: "درج ذیل سوالات کے صحیح جوابات کا انتخاب کیجیے۔",
   },
-  /* English Matric — EmHeading/UmHeading from live PTS QuestionSubType */
+  /* English Matric — EmHeading/UmHeading from live Generate Paper QuestionSubType */
   SPELLING: {
     en: "Choose the word with correct spelling.",
     ur: "درست ہجے والا لفظ منتخب کیجیے۔",
@@ -225,10 +225,10 @@ export const FIELD_HEADINGS = {
 };
 
 /**
- * Urdu / Punjabi Matric — PTS board-style headings (field codes overlap English
+ * Urdu / Punjabi Matric — board-style headings (field codes overlap English
  * e.g. PASSAGE = تشریح vs English comprehension).
  */
-/** Exact PTS Generate-Paper Urdu Matric headings (from live PTS print). */
+/** Exact board Generate-Paper Urdu Matric headings (from live Generate Paper print). */
 const URDU_MATRIC_FIELD_HEADINGS = {
   MCQ: {
     en: "Circle the correct option from the four possible answers.",
@@ -292,7 +292,7 @@ const URDU_MATRIC_FIELD_HEADINGS = {
   },
 };
 
-/** Urdu / Punjabi — PTS papers use Urdu-only section headings (no English line). */
+/** Urdu / Punjabi — papers use Urdu-only section headings (no English line). */
 export function isUrduLikeSubject(name) {
   const raw = String(name || "");
   const n = raw.trim().toLowerCase();
@@ -303,7 +303,7 @@ export function isUrduLikeSubject(name) {
   );
 }
 
-/** Live PTS Class 10 English EmHeading for Translate Into English Paragraphs (44). */
+/** Live Generate Paper Class 10 English EmHeading for Translate Into English Paragraphs (44). */
 const CLASS10_TRANSLATE_EN_HEADING = {
   en: "Translate the following paragraph into English.",
   ur: "مندرجہ ذیل پیراگراف کا انگلش میں ترجمہ تحریر کریں۔",
@@ -316,7 +316,7 @@ function isClass10ClassName(className) {
 
 /**
  * Section question heading from type + field (subType).
- * Pass `subjectName` so Urdu Matric PASSAGE/POEM use PTS تشریح wording
+ * Pass `subjectName` so Urdu Matric PASSAGE/POEM use تشریح wording
  * (not English comprehension prompts).
  * Pass `className` for Class 10 English paragraph-translate heading.
  */
@@ -380,20 +380,39 @@ export function sectionScoredCount(section) {
   return Math.min(total, attempt);
 }
 
+/** Per scored question marks (falls back to section marksEach). */
+export function sectionQuestionMarks(section) {
+  const each = Number(section?.marksEach) || 0;
+  const n = sectionScoredCount(section);
+  return (section?.questions || []).slice(0, n).map((q) => {
+    const m = Number(q?.marks);
+    return Number.isFinite(m) && m > 0 ? m : each;
+  });
+}
+
 export function sectionTotalMarks(section) {
+  const marks = sectionQuestionMarks(section);
+  if (marks.length) return marks.reduce((sum, m) => sum + m, 0);
   const each = Number(section?.marksEach);
-  if (!Number.isFinite(each) || each <= 0) return 0;
-  return sectionScoredCount(section) * each;
+  return Number.isFinite(each) && each > 0 ? 0 : 0;
 }
 
 export function paperTotalMarks(sections = []) {
   return sections.reduce((sum, s) => sum + sectionTotalMarks(s), 0);
 }
 
+/** Equal → `5 x 2 = 10`; mixed → `4 + 5 = 9` (board-style). */
 export function marksLine(section) {
-  const count = sectionScoredCount(section);
-  const each = Number(section?.marksEach) || 0;
-  return `${each} x ${count} = ${count * each}`;
+  const marks = sectionQuestionMarks(section);
+  if (!marks.length) {
+    const each = Number(section?.marksEach) || 0;
+    return `${each} x 0 = 0`;
+  }
+  const total = marks.reduce((sum, m) => sum + m, 0);
+  if (marks.every((m) => m === marks[0])) {
+    return `${marks[0]} x ${marks.length} = ${total}`;
+  }
+  return `${marks.join(" + ")} = ${total}`;
 }
 
 /** UI medium (ENGLISH|URDU|BOTH) ↔ API (english|urdu|dual) */

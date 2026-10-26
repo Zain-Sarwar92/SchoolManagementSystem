@@ -3,29 +3,23 @@
   "subjectId": 106,
   "slug": "اسلامیات-لازمی",
   "name": "اسلامیات لازمی",
+  "className": "INTER-I",
   "total": 1487,
-  "counts": {
-    "mcq": 812,
-    "short": 632,
-    "long": 43
-  },
   "typeTotals": {
     "MCQ": 812,
     "QA": 632,
     "LONG": 28,
-    "HADITH": 15,
-    "PERSONALITY": 0
+    "HADITH": 15
   },
   "mongo": {
     "created": 1487,
     "skipped": 0,
     "typeCounts": {
-      "MCQ": 812,
-      "SHORT": 632,
-      "LONG": 43
-    },
-    "chapters": 7,
-    "topics": 27
+      "LONG:HADITH": 15,
+      "LONG:LONG": 28,
+      "MCQ:MCQ": 812,
+      "SHORT:QA": 632
+    }
   },
-  "at": "2026-10-23T00:14:37.148Z"
+  "at": "2026-10-24T20:49:40.209Z"
 }

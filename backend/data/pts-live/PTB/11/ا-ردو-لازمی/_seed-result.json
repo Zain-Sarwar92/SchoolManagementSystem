@@ -1,0 +1,40 @@
+{
+  "classId": 11,
+  "subjectId": 107,
+  "slug": "urdu-compulsory",
+  "name": "اُردو لازمی",
+  "total": 2880,
+  "typeTotals": {
+    "MCQ": 1619,
+    "QA": 765,
+    "APPLICATION": 43,
+    "POEM": 87,
+    "RECEIPT": 26,
+    "NEWSPAPER": 18,
+    "SUMMARY": 10,
+    "CENTRAL": 7,
+    "DIALOGUE": 47,
+    "HISTORY": 37,
+    "PASSAGE": 128,
+    "ABRIDGED": 93
+  },
+  "mongo": {
+    "created": 2880,
+    "skipped": 0,
+    "typeCounts": {
+      "LONG:ABRIDGED": 93,
+      "LONG:APPLICATION": 43,
+      "LONG:CENTRAL": 7,
+      "LONG:DIALOGUE": 47,
+      "LONG:HISTORY": 37,
+      "LONG:NEWSPAPER": 18,
+      "LONG:PASSAGE": 128,
+      "LONG:POEM": 87,
+      "LONG:RECEIPT": 26,
+      "LONG:SUMMARY": 10,
+      "MCQ:MCQ": 1619,
+      "SHORT:QA": 765
+    }
+  },
+  "at": "2026-10-24T20:39:01.990Z"
+}

@@ -7,7 +7,7 @@ import tailwindcss from "@tailwindcss/vite";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ptsMediaRoot = path.resolve(
   __dirname,
-  "../_compare_Test_System/public/pts-media"
+  "../backend/public/pts-media"
 );
 
 export default defineConfig({

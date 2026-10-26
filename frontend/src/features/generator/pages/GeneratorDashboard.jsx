@@ -4,7 +4,6 @@ import {
   ClipboardList,
   FilePlus2,
   FolderOpen,
-  Layers2,
   Settings2,
   UsersRound,
 } from "lucide-react";
@@ -14,8 +13,7 @@ import { useAuth } from "../../../context/AuthContext.jsx";
 import api from "../../../services/api.js";
 
 /**
- * Module tiles — same 6 routes; visual language matches syllabus cards.
- * Method 2 stays a disabled placeholder.
+ * Module tiles — visual language matches syllabus cards.
  */
 const TILES = [
   {
@@ -25,19 +23,12 @@ const TILES = [
     icon: FilePlus2,
   },
   {
-    to: null,
-    title: "Generate Paper",
-    subtitle: "Method 2",
-    icon: Layers2,
-    badge: "Coming soon",
-    disabled: true,
-  },
-  {
     to: "/academy/generator/papers",
     title: "Saved Papers",
     subtitle: "Download / Print",
     icon: FolderOpen,
     countKey: "papers",
+    tone: 3,
   },
   {
     to: "/academy/generator/sub-accounts",
@@ -45,18 +36,21 @@ const TILES = [
     subtitle: "Create subuser logins",
     icon: UsersRound,
     countKey: "users",
+    tone: 4,
   },
   {
     to: "/academy/generator/activities",
     title: "Account Activities",
     subtitle: "Audit log",
     icon: ClipboardList,
+    tone: 5,
   },
   {
     to: "/academy/generator/settings",
     title: "Account Settings",
     subtitle: "Fonts, sizes & print",
     icon: Settings2,
+    tone: 6,
   },
 ];
 
@@ -101,9 +95,12 @@ function GeneratorDashboard() {
     <GeneratorLayout>
       <div className="tg-dash-head">
         <p className="tg-dash-eyebrow">Welcome</p>
-        <h1 className="tg-dash-title">{user?.name || "Administrator"}</h1>
+        <h1 className="tg-dash-title">Dashboard</h1>
         <p className="tg-dash-sub">
-          {user?.academy?.name || "Test Generator"} · Paper Generator dashboard
+          {[user?.name, user?.academy?.name]
+            .filter(Boolean)
+            .filter((v, i, arr) => arr.indexOf(v) === i)
+            .join(" · ") || "Paper generator"}
         </p>
       </div>
 
@@ -118,22 +115,27 @@ function GeneratorDashboard() {
           const Icon = tile.icon;
           const count =
             tile.countKey != null ? counts[tile.countKey] : undefined;
-          const showCountSkeleton =
-            tile.countKey != null && statsLoading && count == null;
+          const countEl =
+            tile.countKey == null ? null : statsLoading && count == null ? (
+              <span className="tg-dash-tile-count tg-dash-tile-count--skel" aria-hidden />
+            ) : (
+              <span className="tg-dash-tile-count">{count ?? 0}</span>
+            );
 
-          const body = (
-            <>
-              {tile.badge ? (
-                <span className="tg-dash-badge">{tile.badge}</span>
-              ) : null}
-              {showCountSkeleton ? (
-                <span
-                  className="tg-dash-tile-count tg-dash-tile-count--skel"
-                  aria-hidden
-                />
-              ) : count != null ? (
-                <span className="tg-dash-tile-count">{count}</span>
-              ) : null}
+          return (
+            <Link
+              key={`${tile.title}-${tile.subtitle}`}
+              to={tile.to}
+              className={[
+                "tg-dash-tile",
+                "tg-anim-in",
+                tile.tone ? `tg-dash-tone-${tile.tone}` : "",
+              ]
+                .filter(Boolean)
+                .join(" ")}
+              style={{ "--tg-anim-i": index }}
+            >
+              {countEl}
               <span className="tg-dash-tile-icon" aria-hidden>
                 <Icon strokeWidth={1.75} className="size-7" />
               </span>
@@ -141,61 +143,10 @@ function GeneratorDashboard() {
                 <h3>{tile.title}</h3>
                 <p>{tile.subtitle}</p>
               </span>
-            </>
-          );
-
-          const className = [
-            "tg-dash-tile",
-            "tg-anim-in",
-            tile.disabled ? "tg-dash-tile--muted" : "",
-          ]
-            .filter(Boolean)
-            .join(" ");
-
-          const style = { "--tg-anim-i": index };
-
-          if (tile.disabled || !tile.to) {
-            return (
-              <div
-                key={`${tile.title}-${tile.subtitle}`}
-                className={className}
-                style={style}
-                aria-disabled="true"
-              >
-                {body}
-              </div>
-            );
-          }
-
-          return (
-            <Link
-              key={`${tile.title}-${tile.subtitle}`}
-              to={tile.to}
-              className={className}
-              style={style}
-            >
-              {body}
             </Link>
           );
         })}
       </section>
-
-      <aside
-        className="tg-dash-notes tg-anim-in"
-        style={{ "--tg-anim-i": 6 }}
-      >
-        <h2>Quick tips</h2>
-        <ul>
-          <li>
-            Generate papers from the built-in syllabus — no school setup needed.
-          </li>
-          <li>Saved papers stay in your Test Generator account only.</li>
-          <li>
-            Account Settings saves default fonts, sizes, and print layout for
-            every paper.
-          </li>
-        </ul>
-      </aside>
     </GeneratorLayout>
   );
 }

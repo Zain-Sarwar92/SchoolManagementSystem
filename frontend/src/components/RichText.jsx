@@ -54,7 +54,7 @@ export function looksLikeRichHtml(value) {
   return /<\s*(img|br|sub|sup|span|strong|em|b|i|u)\b/i.test(value);
 }
 
-/** Map PTS absolute paths → /pts-media/... */
+/** Map absolute media paths → /pts-media/... */
 export function rewriteMediaSrc(src) {
   let s = String(src || "")
     .trim()
@@ -106,10 +106,21 @@ export function sanitizeRichHtml(input) {
         if (!ok) return "";
         const altMatch = attrs.match(/\salt\s*=\s*(["'])([^"']*)\1/i);
         const alt = altMatch?.[2] ?? "";
+        /* Drop width/height so CSS can scale equations (esp. on mobile). */
         const styleMatch = attrs.match(/\sstyle\s*=\s*(["'])([^"']*)\1/i);
-        const style = styleMatch?.[2]
-          ? ` style="${styleMatch[2].replace(/"/g, "&quot;")}"`
-          : "";
+        let style = "";
+        if (styleMatch?.[2]) {
+          const cleaned = styleMatch[2]
+            .replace(
+              /(?:^|;)\s*(?:width|height|max-width|max-height|min-width|min-height)\s*:[^;]*/gi,
+              ""
+            )
+            .replace(/^;+|;+$/g, "")
+            .trim();
+          if (cleaned) {
+            style = ` style="${cleaned.replace(/"/g, "&quot;")}"`;
+          }
+        }
         return `<img src="${src.replace(/"/g, "&quot;")}" alt="${alt.replace(/"/g, "&quot;")}" class="tg-eq-img"${style} />`;
       }
 

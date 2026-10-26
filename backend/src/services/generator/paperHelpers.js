@@ -14,13 +14,14 @@ export function scoredCount(questionCount, attemptCount) {
 }
 
 export function sectionMarks(section) {
+  const qs = section.questions || [];
+  const n = scoredCount(qs.length, section.attemptCount);
   const each = Number(section.marksEach);
-  if (!Number.isFinite(each) || each <= 0) return 0;
-  const n = scoredCount(
-    section.questions?.length || 0,
-    section.attemptCount
-  );
-  return n * each;
+  const fallback = Number.isFinite(each) && each > 0 ? each : 0;
+  return qs.slice(0, n).reduce((sum, q) => {
+    const m = Number(q.marks);
+    return sum + (Number.isFinite(m) && m > 0 ? m : fallback);
+  }, 0);
 }
 
 export function paperOwnerFilter(user) {

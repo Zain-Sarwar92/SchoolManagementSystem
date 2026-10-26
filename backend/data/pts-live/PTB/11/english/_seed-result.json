@@ -3,43 +3,36 @@
   "subjectId": 101,
   "slug": "english",
   "name": "English",
-  "total": 2597,
-  "counts": {
-    "mcq": 1787,
-    "short": 671,
-    "long": 139
-  },
+  "total": 3026,
   "typeTotals": {
-    "COMPREHENSION": 619,
-    "SPELLING": 0,
-    "MEANING": 0,
-    "MCQ_4": 721,
-    "VERB": 447,
-    "GRAMMAR": 0,
-    "QA": 614,
-    "LETTER": 8,
-    "TRANSLATE_EN": 0,
-    "VOICE": 0,
-    "STORY": 0,
-    "SUMMARY": 0,
-    "DIALOGUE": 0,
-    "WORD": 0,
-    "IDIOM": 0,
+    "COMPREHENSION": 769,
+    "SYNONYM": 721,
+    "VERB": 279,
+    "QA": 898,
+    "LETTER": 23,
+    "APPLICATION": 18,
+    "STORY": 23,
+    "PAIR": 107,
     "TRANSLATE_UR": 110,
-    "PASSAGE": 0,
-    "QA_46": 57,
+    "PUNCTUATION": 57,
     "POEM_STANZA": 21
   },
   "mongo": {
-    "created": 2597,
+    "created": 3026,
     "skipped": 0,
     "typeCounts": {
-      "MCQ": 1787,
-      "SHORT": 671,
-      "LONG": 139
-    },
-    "chapters": 15,
-    "topics": 30
+      "LONG:APPLICATION": 18,
+      "LONG:LETTER": 23,
+      "LONG:POEM_STANZA": 21,
+      "LONG:PUNCTUATION": 57,
+      "LONG:STORY": 23,
+      "LONG:TRANSLATE_UR": 110,
+      "MCQ:COMPREHENSION": 769,
+      "MCQ:SYNONYM": 721,
+      "MCQ:VERB": 279,
+      "SHORT:PAIR": 107,
+      "SHORT:QA": 898
+    }
   },
-  "at": "2026-10-23T00:30:30.279Z"
+  "at": "2026-10-24T14:57:35.212Z"
 }

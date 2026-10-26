@@ -1,7 +1,7 @@
 import Class from "../models/Class.js";
 import Section from "../models/Section.js";
 
-/** PTS-style built-in grades — no manual Classes/Sections modules needed. */
+/** board-style built-in grades — no manual Classes/Sections modules needed. */
 const DEFAULT_GRADES = [
   { gradeLevel: 1, name: "Class 1" },
   { gradeLevel: 2, name: "Class 2" },

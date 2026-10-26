@@ -24,7 +24,7 @@ export {
   fetchSubjectSyllabus,
   searchPool,
   pickPool,
-  buildPtsPickerOptions,
+  buildPickerOptions,
   SOURCE_OPTIONS,
 } from "./bank/index.js";
 

@@ -123,7 +123,7 @@ function AcademyAdminDashboard() {
     load();
   }, [tgOnly]);
 
-  // PTS-style Test Generator dashboard — completely separate from AM UI
+  // board-style Test Generator dashboard — completely separate from AM UI
   if (tgOnly) {
     return <GeneratorDashboard />;
   }

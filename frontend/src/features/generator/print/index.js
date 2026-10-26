@@ -11,6 +11,7 @@ export {
   PRINT_MODE_LIST,
   PRINT_LAYOUTS,
   WATERMARK_MODES,
+  WATERMARK_MODE_LIST,
   normalizePrintMode,
   printRootClassName,
 } from "./printConstants.js";

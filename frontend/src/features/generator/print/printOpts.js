@@ -1,4 +1,8 @@
-import { PRINT_LAYOUTS, WATERMARK_MODES } from "./printConstants.js";
+import {
+  PRINT_LAYOUTS,
+  WATERMARK_MODES,
+  WATERMARK_MODE_LIST,
+} from "./printConstants.js";
 
 const PREFS_KEY = "tg_print_prefs_v2";
 
@@ -35,6 +39,10 @@ export function normalizePrintOpts(partial = {}) {
   const next = { ...base, ...(partial && typeof partial === "object" ? partial : {}) };
   const layout = String(next.layout || "1");
   next.layout = PRINT_LAYOUTS.includes(layout) ? layout : "1";
+  const wm = String(next.watermark || WATERMARK_MODES.MONO);
+  next.watermark = WATERMARK_MODE_LIST.includes(wm)
+    ? wm
+    : WATERMARK_MODES.MONO;
   return next;
 }
 

@@ -1,102 +1,102 @@
 {
   "board": "PTB",
   "class": "12",
-  "subject": "ENGLISH",
+  "subject": "English",
   "slug": "english",
   "chapters": [
     {
       "number": 1,
-      "title": "Journey to Taif",
+      "title": "UNIT 01: JOURNEY TO TAIF",
       "topics": [
         {
           "id": "1.1",
-          "title": "Journey to Taif"
+          "title": "JOURNEY TO TAIF "
         }
       ]
     },
     {
       "number": 2,
-      "title": "the Last Lesson",
+      "title": "UNIT 02: THE LAST LESSON",
       "topics": [
         {
           "id": "2.1",
-          "title": "the Last Lesson"
+          "title": "THE LAST LESSON "
         }
       ]
     },
     {
       "number": 3,
-      "title": "On His Blindness  (Poem)",
+      "title": "UNIT 03: ON HIS BLINDNESS  (POEM) ",
       "topics": [
         {
           "id": "3.1",
-          "title": "On His Blindness  (Poem)"
+          "title": "ON HIS BLINDNESS  (POEM) "
         }
       ]
     },
     {
       "number": 4,
-      "title": "the Power of Digital  Learning",
+      "title": "UNIT 04: THE POWER OF DIGITAL  LEARNING ",
       "topics": [
         {
           "id": "4.1",
-          "title": "the Power of Digital  Learning"
+          "title": "THE POWER OF DIGITAL  LEARNING "
         }
       ]
     },
     {
       "number": 5,
-      "title": "the Giving Tree",
+      "title": "UNIT 05: THE GIVING TREE ",
       "topics": [
         {
           "id": "5.1",
-          "title": "the Giving Tree"
+          "title": "THE GIVING TREE "
         }
       ]
     },
     {
       "number": 6,
-      "title": "the Fun They Had",
+      "title": "UNIT 06: THE FUN THEY HAD",
       "topics": [
         {
           "id": "6.1",
-          "title": "the Fun They Had"
+          "title": "THE FUN THEY HAD"
         }
       ]
     },
     {
       "number": 7,
-      "title": "Because I Could Not  Stop for Death  (Poem)",
+      "title": "UNIT 07: BECAUSE I COULD NOT  STOP FOR DEATH  (POEM) ",
       "topics": [
         {
           "id": "7.1",
-          "title": "Because I Could Not  Stop for Death  (Poem)"
+          "title": "BECAUSE I COULD NOT  STOP FOR DEATH  (POEM) "
         }
       ]
     },
     {
       "number": 8,
-      "title": "the Devoted Friend",
+      "title": "UNIT 08: THE DEVOTED FRIEND",
       "topics": [
         {
           "id": "8.1",
-          "title": "the Devoted Friend"
+          "title": "THE DEVOTED FRIEND"
         }
       ]
     },
     {
       "number": 9,
-      "title": "the Doll'S House",
+      "title": "UNIT 09: THE DOLL'S HOUSE",
       "topics": [
         {
           "id": "9.1",
-          "title": "the Doll'S House"
+          "title": "THE DOLL'S HOUSE"
         }
       ]
     },
     {
       "number": 10,
-      "title": "ALL THE WORLD’S A  STAGE  (POEM)",
+      "title": "UNIT 10: ALL THE WORLD’S A  STAGE  (POEM) ",
       "topics": [
         {
           "id": "10.1",
@@ -106,69 +106,69 @@
     },
     {
       "number": 11,
-      "title": "a Letter to God",
+      "title": "UNIT 11: A LETTER TO GOD ",
       "topics": [
         {
           "id": "11.1",
-          "title": "a Letter to God"
+          "title": "A LETTER TO GOD"
         }
       ]
     },
     {
       "number": 12,
-      "title": "a Visit to the Swat  Valley",
+      "title": "UNIT 12: A VISIT TO THE SWAT  VALLEY ",
       "topics": [
         {
           "id": "12.1",
-          "title": "a Visit to the Swat  Valley"
+          "title": "A VISIT TO THE SWAT  VALLEY "
         }
       ]
     },
     {
       "number": 13,
-      "title": "the Pearl  (Novel)",
+      "title": "UNIT 13: THE PEARL  (NOVEL) ",
       "topics": [
         {
           "id": "13.1",
-          "title": "Chapter 1"
+          "title": "CHAPTER 1"
         },
         {
           "id": "13.2",
-          "title": "Chapter 2"
+          "title": "CHAPTER 2"
         },
         {
           "id": "13.3",
-          "title": "Chapter 3"
+          "title": "CHAPTER 3"
         },
         {
           "id": "13.4",
-          "title": "Chapter 4"
+          "title": "CHAPTER 4"
         },
         {
           "id": "13.5",
-          "title": "Chapter 5"
+          "title": "CHAPTER 5"
         },
         {
           "id": "13.6",
-          "title": "Chapter 6"
+          "title": "CHAPTER 6"
         }
       ]
     },
     {
-      "number": 14,
-      "title": "English (B)",
+      "number": 15,
+      "title": "ENGLISH (B)",
       "topics": [
         {
-          "id": "14.1",
+          "id": "1",
           "title": "Essays"
         },
         {
-          "id": "14.2",
+          "id": "2",
           "title": "Idioms"
         },
         {
-          "id": "14.3",
-          "title": "Translate Into English Paragraph'S"
+          "id": "3",
+          "title": "Translate into English Paragraph's"
         }
       ]
     }

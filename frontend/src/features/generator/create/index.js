@@ -28,4 +28,5 @@ export {
   autofillChapterPlan,
   validateChapterPlan,
   buildTopicUsage,
+  buildTopicUsageForType,
 } from "./chapterPlan.js";

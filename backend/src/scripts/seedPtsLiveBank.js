@@ -36,10 +36,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const BASE = "https://www.paktestsolution.com";
 const DATA_ROOT = path.resolve(__dirname, "../../data/pts-live");
 const PROGRESS_PATH = path.join(DATA_ROOT, "_progress.json");
-const MEDIA_ROOT = path.resolve(
-  __dirname,
-  "../../../_compare_Test_System/public/pts-media"
-);
+const MEDIA_ROOT = path.resolve(__dirname, "../../public/pts-media");
 const PRIORITIES = [1, 2, 3, 4, 5];
 const TOPIC_CHUNK = 24;
 const MONGO_CHUNK = 400;

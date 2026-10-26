@@ -1,0 +1,1085 @@
+{
+  "generatedAt": "2026-10-24T21:24:25.279Z",
+  "match": [
+    {
+      "name": "AGRICULTURE SCIENCES (TECH)",
+      "slug": "agriculture-sciences-tech",
+      "mongo": 523,
+      "ptsDump": 523,
+      "ptsSource": "pts-live/agriculture-sciences-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "BIOLOGY (TECH)",
+      "slug": "biology-tech",
+      "mongo": 1247,
+      "ptsDump": 1247,
+      "ptsSource": "pts-live/biology-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Biology",
+      "slug": "biology",
+      "mongo": 2001,
+      "ptsDump": 2001,
+      "ptsSource": "lahore/biology",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "CHEMISTRY (TECH)",
+      "slug": "chemistry-tech",
+      "mongo": 1912,
+      "ptsDump": 1912,
+      "ptsSource": "pts-live/chemistry-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "COMMUNICATION SKILLS AND PERSONAL GROOMING (TECH)",
+      "slug": "communication-skills-tech",
+      "mongo": 30,
+      "ptsDump": 30,
+      "ptsSource": "pts-live/communication-skills-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Chemistry",
+      "slug": "chemistry",
+      "mongo": 2397,
+      "ptsDump": 2397,
+      "ptsSource": "pts-live/chemistry",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Computer",
+      "slug": "computer",
+      "mongo": 2245,
+      "ptsDump": 2245,
+      "ptsSource": "pts-live/computer",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "FASHION DESIGNING (TECH)",
+      "slug": "fashion-designing-tech",
+      "mongo": 759,
+      "ptsDump": 759,
+      "ptsSource": "pts-live/fashion-designing-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "General Science",
+      "slug": "general-science",
+      "mongo": 937,
+      "ptsDump": 937,
+      "ptsSource": "lahore/general-science",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Mathematics",
+      "slug": "mathematics",
+      "mongo": 1967,
+      "ptsDump": 1967,
+      "ptsSource": "pts-live/mathematics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "PHYSICS (TECH)",
+      "slug": "physics-tech",
+      "mongo": 1730,
+      "ptsDump": 1730,
+      "ptsSource": "pts-live/physics-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Physics",
+      "slug": "physics",
+      "mongo": 2070,
+      "ptsDump": 2070,
+      "ptsSource": "pts-live/physics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "اخلاقیات",
+      "slug": "ethics",
+      "mongo": 507,
+      "ptsDump": 507,
+      "ptsSource": "lahore/ethics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "اسلامیات اختیاری",
+      "slug": "islamiyat-elective",
+      "mongo": 1186,
+      "ptsDump": 1186,
+      "ptsSource": "lahore/islamiyat-elective",
+      "status": "MATCH",
+      "subTypes": [
+        "AYAT",
+        "HADITH",
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": [
+        "AYAT",
+        "HADITH"
+      ]
+    },
+    {
+      "name": "ایجوکیشن",
+      "slug": "education",
+      "mongo": 647,
+      "ptsDump": 647,
+      "ptsSource": "lahore/education",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "ترجمۃ القرآن المجید",
+      "slug": "tarjuma-quran",
+      "mongo": 973,
+      "ptsDump": 973,
+      "ptsSource": "lahore/tarjuma-quran",
+      "status": "MATCH",
+      "subTypes": [
+        "AYAT",
+        "LONG",
+        "MCQ",
+        "QA",
+        "WORD"
+      ],
+      "extras": [
+        "AYAT",
+        "WORD"
+      ]
+    },
+    {
+      "name": "سوکس",
+      "slug": "civics",
+      "mongo": 296,
+      "ptsDump": 296,
+      "ptsSource": "lahore/civics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "غذا اور غذائیت",
+      "slug": "food-nutrition",
+      "mongo": 461,
+      "ptsDump": 461,
+      "ptsSource": "lahore/food-nutrition",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "فزیکل ایجوکیشن",
+      "slug": "physical-education",
+      "mongo": 671,
+      "ptsDump": 671,
+      "ptsSource": "lahore/physical-education",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "مرغبانی",
+      "slug": "poultry",
+      "mongo": 362,
+      "ptsDump": 362,
+      "ptsSource": "lahore/poultry",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "معاشیات",
+      "slug": "economics",
+      "mongo": 322,
+      "ptsDump": 322,
+      "ptsSource": "lahore/economics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "پنجابی",
+      "slug": "punjabi",
+      "mongo": 938,
+      "ptsDump": 938,
+      "ptsSource": "lahore/punjabi",
+      "status": "MATCH",
+      "subTypes": [
+        "IDIOM",
+        "MCQ",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "QA",
+        "SUMMARY",
+        "WORD"
+      ],
+      "extras": [
+        "IDIOM",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "SUMMARY",
+        "WORD"
+      ]
+    },
+    {
+      "name": "ہوم اکنامکس",
+      "slug": "home-economics",
+      "mongo": 534,
+      "ptsDump": 534,
+      "ptsSource": "lahore/home-economics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    }
+  ],
+  "diff": [
+    {
+      "name": "English",
+      "slug": "english",
+      "mongo": 3856,
+      "ptsDump": 4021,
+      "ptsSource": "pts-live/english",
+      "status": "DIFF",
+      "subTypes": [
+        "COMPREHENSION",
+        "DIALOGUE",
+        "GRAMMAR",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM_STANZA",
+        "QA",
+        "SPELLING",
+        "STORY",
+        "SUMMARY",
+        "TRANSLATE_EN",
+        "TRANSLATE_UR",
+        "VERB",
+        "VOICE",
+        "WORD"
+      ],
+      "extras": [
+        "DIALOGUE",
+        "GRAMMAR",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM_STANZA",
+        "SPELLING",
+        "STORY",
+        "SUMMARY",
+        "TRANSLATE_EN",
+        "TRANSLATE_UR",
+        "VERB",
+        "VOICE",
+        "WORD"
+      ]
+    },
+    {
+      "name": "اسلامیات لازمی",
+      "slug": "islamiyat-compulsory",
+      "mongo": 2933,
+      "ptsDump": 2951,
+      "ptsSource": "lahore/islamiyat-compulsory",
+      "status": "DIFF",
+      "subTypes": [
+        "HADITH",
+        "LONG",
+        "MCQ",
+        "PERSONALITY",
+        "QA"
+      ],
+      "extras": [
+        "HADITH",
+        "PERSONALITY"
+      ]
+    }
+  ],
+  "noPtsDump": [
+    {
+      "name": "اُردو لازمی",
+      "slug": "-----",
+      "mongo": 3064,
+      "ptsDump": null,
+      "ptsSource": null,
+      "status": "NO_PTS_DUMP",
+      "subTypes": [
+        "APPLICATION",
+        "CENTRAL",
+        "CORRECT",
+        "DIALOGUE",
+        "IDIOM",
+        "LETTER",
+        "MCQ",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "QA",
+        "STORY",
+        "SUMMARY"
+      ],
+      "extras": [
+        "APPLICATION",
+        "CENTRAL",
+        "CORRECT",
+        "DIALOGUE",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "STORY",
+        "SUMMARY"
+      ]
+    }
+  ],
+  "missingBoth": [],
+  "missingMongo": [
+    {
+      "name": "COMPUTER (TECH)",
+      "slug": "computer-tech",
+      "mongo": 0,
+      "ptsDump": 0,
+      "ptsSource": "pts-live/computer-tech",
+      "status": "MISSING_MONGO",
+      "subTypes": [],
+      "extras": []
+    }
+  ],
+  "withExtras": [
+    {
+      "name": "English",
+      "slug": "english",
+      "mongo": 3856,
+      "ptsDump": 4021,
+      "ptsSource": "pts-live/english",
+      "status": "DIFF",
+      "subTypes": [
+        "COMPREHENSION",
+        "DIALOGUE",
+        "GRAMMAR",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM_STANZA",
+        "QA",
+        "SPELLING",
+        "STORY",
+        "SUMMARY",
+        "TRANSLATE_EN",
+        "TRANSLATE_UR",
+        "VERB",
+        "VOICE",
+        "WORD"
+      ],
+      "extras": [
+        "DIALOGUE",
+        "GRAMMAR",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM_STANZA",
+        "SPELLING",
+        "STORY",
+        "SUMMARY",
+        "TRANSLATE_EN",
+        "TRANSLATE_UR",
+        "VERB",
+        "VOICE",
+        "WORD"
+      ]
+    },
+    {
+      "name": "اسلامیات اختیاری",
+      "slug": "islamiyat-elective",
+      "mongo": 1186,
+      "ptsDump": 1186,
+      "ptsSource": "lahore/islamiyat-elective",
+      "status": "MATCH",
+      "subTypes": [
+        "AYAT",
+        "HADITH",
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": [
+        "AYAT",
+        "HADITH"
+      ]
+    },
+    {
+      "name": "اسلامیات لازمی",
+      "slug": "islamiyat-compulsory",
+      "mongo": 2933,
+      "ptsDump": 2951,
+      "ptsSource": "lahore/islamiyat-compulsory",
+      "status": "DIFF",
+      "subTypes": [
+        "HADITH",
+        "LONG",
+        "MCQ",
+        "PERSONALITY",
+        "QA"
+      ],
+      "extras": [
+        "HADITH",
+        "PERSONALITY"
+      ]
+    },
+    {
+      "name": "اُردو لازمی",
+      "slug": "-----",
+      "mongo": 3064,
+      "ptsDump": null,
+      "ptsSource": null,
+      "status": "NO_PTS_DUMP",
+      "subTypes": [
+        "APPLICATION",
+        "CENTRAL",
+        "CORRECT",
+        "DIALOGUE",
+        "IDIOM",
+        "LETTER",
+        "MCQ",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "QA",
+        "STORY",
+        "SUMMARY"
+      ],
+      "extras": [
+        "APPLICATION",
+        "CENTRAL",
+        "CORRECT",
+        "DIALOGUE",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "STORY",
+        "SUMMARY"
+      ]
+    },
+    {
+      "name": "ترجمۃ القرآن المجید",
+      "slug": "tarjuma-quran",
+      "mongo": 973,
+      "ptsDump": 973,
+      "ptsSource": "lahore/tarjuma-quran",
+      "status": "MATCH",
+      "subTypes": [
+        "AYAT",
+        "LONG",
+        "MCQ",
+        "QA",
+        "WORD"
+      ],
+      "extras": [
+        "AYAT",
+        "WORD"
+      ]
+    },
+    {
+      "name": "پنجابی",
+      "slug": "punjabi",
+      "mongo": 938,
+      "ptsDump": 938,
+      "ptsSource": "lahore/punjabi",
+      "status": "MATCH",
+      "subTypes": [
+        "IDIOM",
+        "MCQ",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "QA",
+        "SUMMARY",
+        "WORD"
+      ],
+      "extras": [
+        "IDIOM",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "SUMMARY",
+        "WORD"
+      ]
+    }
+  ],
+  "all": [
+    {
+      "name": "AGRICULTURE SCIENCES (TECH)",
+      "slug": "agriculture-sciences-tech",
+      "mongo": 523,
+      "ptsDump": 523,
+      "ptsSource": "pts-live/agriculture-sciences-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "BIOLOGY (TECH)",
+      "slug": "biology-tech",
+      "mongo": 1247,
+      "ptsDump": 1247,
+      "ptsSource": "pts-live/biology-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Biology",
+      "slug": "biology",
+      "mongo": 2001,
+      "ptsDump": 2001,
+      "ptsSource": "lahore/biology",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "CHEMISTRY (TECH)",
+      "slug": "chemistry-tech",
+      "mongo": 1912,
+      "ptsDump": 1912,
+      "ptsSource": "pts-live/chemistry-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "COMMUNICATION SKILLS AND PERSONAL GROOMING (TECH)",
+      "slug": "communication-skills-tech",
+      "mongo": 30,
+      "ptsDump": 30,
+      "ptsSource": "pts-live/communication-skills-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "COMPUTER (TECH)",
+      "slug": "computer-tech",
+      "mongo": 0,
+      "ptsDump": 0,
+      "ptsSource": "pts-live/computer-tech",
+      "status": "MISSING_MONGO",
+      "subTypes": [],
+      "extras": []
+    },
+    {
+      "name": "Chemistry",
+      "slug": "chemistry",
+      "mongo": 2397,
+      "ptsDump": 2397,
+      "ptsSource": "pts-live/chemistry",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Computer",
+      "slug": "computer",
+      "mongo": 2245,
+      "ptsDump": 2245,
+      "ptsSource": "pts-live/computer",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "English",
+      "slug": "english",
+      "mongo": 3856,
+      "ptsDump": 4021,
+      "ptsSource": "pts-live/english",
+      "status": "DIFF",
+      "subTypes": [
+        "COMPREHENSION",
+        "DIALOGUE",
+        "GRAMMAR",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM_STANZA",
+        "QA",
+        "SPELLING",
+        "STORY",
+        "SUMMARY",
+        "TRANSLATE_EN",
+        "TRANSLATE_UR",
+        "VERB",
+        "VOICE",
+        "WORD"
+      ],
+      "extras": [
+        "DIALOGUE",
+        "GRAMMAR",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM_STANZA",
+        "SPELLING",
+        "STORY",
+        "SUMMARY",
+        "TRANSLATE_EN",
+        "TRANSLATE_UR",
+        "VERB",
+        "VOICE",
+        "WORD"
+      ]
+    },
+    {
+      "name": "FASHION DESIGNING (TECH)",
+      "slug": "fashion-designing-tech",
+      "mongo": 759,
+      "ptsDump": 759,
+      "ptsSource": "pts-live/fashion-designing-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "General Science",
+      "slug": "general-science",
+      "mongo": 937,
+      "ptsDump": 937,
+      "ptsSource": "lahore/general-science",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Mathematics",
+      "slug": "mathematics",
+      "mongo": 1967,
+      "ptsDump": 1967,
+      "ptsSource": "pts-live/mathematics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "PHYSICS (TECH)",
+      "slug": "physics-tech",
+      "mongo": 1730,
+      "ptsDump": 1730,
+      "ptsSource": "pts-live/physics-tech",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "Physics",
+      "slug": "physics",
+      "mongo": 2070,
+      "ptsDump": 2070,
+      "ptsSource": "pts-live/physics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "اخلاقیات",
+      "slug": "ethics",
+      "mongo": 507,
+      "ptsDump": 507,
+      "ptsSource": "lahore/ethics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "اسلامیات اختیاری",
+      "slug": "islamiyat-elective",
+      "mongo": 1186,
+      "ptsDump": 1186,
+      "ptsSource": "lahore/islamiyat-elective",
+      "status": "MATCH",
+      "subTypes": [
+        "AYAT",
+        "HADITH",
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": [
+        "AYAT",
+        "HADITH"
+      ]
+    },
+    {
+      "name": "اسلامیات لازمی",
+      "slug": "islamiyat-compulsory",
+      "mongo": 2933,
+      "ptsDump": 2951,
+      "ptsSource": "lahore/islamiyat-compulsory",
+      "status": "DIFF",
+      "subTypes": [
+        "HADITH",
+        "LONG",
+        "MCQ",
+        "PERSONALITY",
+        "QA"
+      ],
+      "extras": [
+        "HADITH",
+        "PERSONALITY"
+      ]
+    },
+    {
+      "name": "اُردو لازمی",
+      "slug": "-----",
+      "mongo": 3064,
+      "ptsDump": null,
+      "ptsSource": null,
+      "status": "NO_PTS_DUMP",
+      "subTypes": [
+        "APPLICATION",
+        "CENTRAL",
+        "CORRECT",
+        "DIALOGUE",
+        "IDIOM",
+        "LETTER",
+        "MCQ",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "QA",
+        "STORY",
+        "SUMMARY"
+      ],
+      "extras": [
+        "APPLICATION",
+        "CENTRAL",
+        "CORRECT",
+        "DIALOGUE",
+        "IDIOM",
+        "LETTER",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "STORY",
+        "SUMMARY"
+      ]
+    },
+    {
+      "name": "ایجوکیشن",
+      "slug": "education",
+      "mongo": 647,
+      "ptsDump": 647,
+      "ptsSource": "lahore/education",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "ترجمۃ القرآن المجید",
+      "slug": "tarjuma-quran",
+      "mongo": 973,
+      "ptsDump": 973,
+      "ptsSource": "lahore/tarjuma-quran",
+      "status": "MATCH",
+      "subTypes": [
+        "AYAT",
+        "LONG",
+        "MCQ",
+        "QA",
+        "WORD"
+      ],
+      "extras": [
+        "AYAT",
+        "WORD"
+      ]
+    },
+    {
+      "name": "سوکس",
+      "slug": "civics",
+      "mongo": 296,
+      "ptsDump": 296,
+      "ptsSource": "lahore/civics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "غذا اور غذائیت",
+      "slug": "food-nutrition",
+      "mongo": 461,
+      "ptsDump": 461,
+      "ptsSource": "lahore/food-nutrition",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "فزیکل ایجوکیشن",
+      "slug": "physical-education",
+      "mongo": 671,
+      "ptsDump": 671,
+      "ptsSource": "lahore/physical-education",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "مرغبانی",
+      "slug": "poultry",
+      "mongo": 362,
+      "ptsDump": 362,
+      "ptsSource": "lahore/poultry",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "معاشیات",
+      "slug": "economics",
+      "mongo": 322,
+      "ptsDump": 322,
+      "ptsSource": "lahore/economics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    },
+    {
+      "name": "پنجابی",
+      "slug": "punjabi",
+      "mongo": 938,
+      "ptsDump": 938,
+      "ptsSource": "lahore/punjabi",
+      "status": "MATCH",
+      "subTypes": [
+        "IDIOM",
+        "MCQ",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "QA",
+        "SUMMARY",
+        "WORD"
+      ],
+      "extras": [
+        "IDIOM",
+        "MEANING",
+        "PASSAGE",
+        "POEM",
+        "SUMMARY",
+        "WORD"
+      ]
+    },
+    {
+      "name": "ہوم اکنامکس",
+      "slug": "home-economics",
+      "mongo": 534,
+      "ptsDump": 534,
+      "ptsSource": "lahore/home-economics",
+      "status": "MATCH",
+      "subTypes": [
+        "LONG",
+        "MCQ",
+        "QA"
+      ],
+      "extras": []
+    }
+  ]
+}

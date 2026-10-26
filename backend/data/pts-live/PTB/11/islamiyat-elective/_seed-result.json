@@ -1,0 +1,23 @@
+{
+  "classId": 11,
+  "subjectId": 111,
+  "slug": "islamiyat-elective",
+  "name": "اسلامیات اختیاری",
+  "className": "INTER-I",
+  "total": 873,
+  "typeTotals": {
+    "MCQ": 357,
+    "QA": 457,
+    "LONG": 59
+  },
+  "mongo": {
+    "created": 873,
+    "skipped": 0,
+    "typeCounts": {
+      "LONG:LONG": 59,
+      "MCQ:MCQ": 357,
+      "SHORT:QA": 457
+    }
+  },
+  "at": "2026-10-24T20:43:32.536Z"
+}

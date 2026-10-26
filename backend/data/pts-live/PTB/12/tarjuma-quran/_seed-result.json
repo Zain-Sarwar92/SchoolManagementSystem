@@ -1,0 +1,26 @@
+{
+  "classId": 12,
+  "subjectId": 137,
+  "slug": "tarjuma-quran",
+  "name": "ترجمۃ القرآن المجید",
+  "total": 747,
+  "typeTotals": {
+    "MCQ": 347,
+    "QA": 227,
+    "LONG": 17,
+    "AYAT": 46,
+    "WORD": 110
+  },
+  "mongo": {
+    "created": 747,
+    "skipped": 0,
+    "typeCounts": {
+      "LONG:AYAT": 46,
+      "LONG:LONG": 17,
+      "MCQ:MCQ": 347,
+      "SHORT:QA": 227,
+      "SHORT:WORD": 110
+    }
+  },
+  "at": "2026-10-24T21:16:38.819Z"
+}

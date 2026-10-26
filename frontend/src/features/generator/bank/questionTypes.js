@@ -1,12 +1,12 @@
 /**
- * PTS Generate-Paper question-type catalogs + labels.
- * Keep names/order aligned with `_compare_Test_System` english-fields.ts.
+ * Generate-Paper question-type catalogs + labels.
+ * Keep names/order stable for English field labels.
  */
 
 import { TYPE_GROUP_LABELS } from "../utils/paperBlueprint.js";
 
 /** @typedef {'MCQ'|'SHORT'|'LONG'} QType */
-/** @typedef {{ type: QType, field: string, label: string, value: string }} PtsTypeOption */
+/** @typedef {{ type: QType, field: string, label: string, value: string }} TypeOption */
 
 export { TYPE_GROUP_LABELS };
 
@@ -21,7 +21,7 @@ const FIELD_ALIASES = {
   MCQ: ["MCQ", "COMPREHENSION"],
 };
 
-/** Primary English (PTS ONE–8TH) — PTS subtype names (do not merge IDs). */
+/** Primary English (ONE–8TH) — subtype names (do not merge IDs). */
 export const PRIMARY_ENGLISH_QUESTION_TYPE_OPTIONS = [
   { type: "MCQ", field: "COMPREHENSION", label: "Multiple Options (چارممکنہ جوابات)", value: "MCQ:COMPREHENSION" },
   { type: "MCQ", field: "SPELLING", label: "Tick Correct Spelling", value: "MCQ:SPELLING" },
@@ -44,7 +44,7 @@ export const PRIMARY_ENGLISH_QUESTION_TYPE_OPTIONS = [
   { type: "LONG", field: "TRANSLATE_UR", label: "Translate Into Urdu Paragraphs", value: "LONG:TRANSLATE_UR" },
 ];
 
-/** Primary Urdu (PTS ONE–8TH) — PTS names (Urdu script where PTS uses it). */
+/** Primary Urdu (ONE–8TH) — subtype names (Urdu script where the catalog uses it). */
 export const PRIMARY_URDU_QUESTION_TYPE_OPTIONS = [
   { type: "MCQ", field: "MCQ", label: "Multiple Options (چارممکنہ جوابات)", value: "MCQ:MCQ" },
   { type: "SHORT", field: "FILL", label: "خالی جگہ پُر کیجیے", value: "SHORT:FILL" },
@@ -60,8 +60,8 @@ export const PRIMARY_URDU_QUESTION_TYPE_OPTIONS = [
   { type: "LONG", field: "LONG", label: "تفصیلی سوالات", value: "LONG:LONG" },
 ];
 
-/** Class 9 English — exact PTS Generate Paper order/names. */
-/** Exact PTS Class 9 English All-Topics dropdown (15) — order + labels match live PTS. */
+/** Class 9 English — exact board Generate Paper order/names. */
+/** Exact board Class 9 English All-Topics dropdown (15) — order + labels match live Generate Paper. */
 export const CLASS9_ENGLISH_QUESTION_TYPE_OPTIONS = [
   { type: "MCQ", field: "SPELLING", label: "Tick Correct Spelling", value: "MCQ:SPELLING" },
   { type: "MCQ", field: "MEANING", label: "Correct Meaning Of Underlined Word", value: "MCQ:MEANING" },
@@ -81,7 +81,7 @@ export const CLASS9_ENGLISH_QUESTION_TYPE_OPTIONS = [
 ];
 
 /**
- * Exact PTS Class 10 English All-Topics dropdown (12) — order + labels match live PTS
+ * Exact board Class 10 English All-Topics dropdown (12) — order + labels match live Generate Paper
  * (ClassID=10&SubjectID=64, all chapters selected).
  */
 export const CLASS10_ENGLISH_QUESTION_TYPE_OPTIONS = [
@@ -99,33 +99,38 @@ export const CLASS10_ENGLISH_QUESTION_TYPE_OPTIONS = [
   { type: "LONG", field: "POEM_STANZA", label: "Poems Stanzas", value: "LONG:POEM_STANZA" },
 ];
 
-/** Inter English — PTS-style names (fixed order; empty bank types stay hidden). */
+/** Inter English — board-style names (fixed order; empty bank types stay hidden). */
 export const SECONDARY_ENGLISH_QUESTION_TYPE_OPTIONS = [
   { type: "MCQ", field: "COMPREHENSION", label: "Multiple Options (چارممکنہ جوابات)", value: "MCQ:COMPREHENSION" },
   { type: "MCQ", field: "SPELLING", label: "Tick Correct Spelling", value: "MCQ:SPELLING" },
   { type: "MCQ", field: "MEANING", label: "Correct Meaning Of Underlined Word", value: "MCQ:MEANING" },
-  { type: "MCQ", field: "SYNONYM", label: "Tick Cross Synonyms / Antonyms", value: "MCQ:SYNONYM" },
+  { type: "MCQ", field: "SYNONYM", label: "Tick Correct Synonyms", value: "MCQ:SYNONYM" },
+  { type: "MCQ", field: "ANTONYM", label: "Tick Correct Antonyms", value: "MCQ:ANTONYM" },
   { type: "MCQ", field: "VERB", label: "Tick Correct Form Of Verb", value: "MCQ:VERB" },
   { type: "MCQ", field: "GRAMMAR", label: "Tick Correct According To Grammar", value: "MCQ:GRAMMAR" },
+  { type: "MCQ", field: "SENTENCE", label: "Correct Sentences", value: "MCQ:SENTENCE" },
+  { type: "MCQ", field: "PREPOSITION", label: "Correct Prepositions", value: "MCQ:PREPOSITION" },
   { type: "SHORT", field: "QA", label: "Question Answers (سوالات جوابات)", value: "SHORT:QA" },
   { type: "LONG", field: "LETTER", label: "Letters (خطوط)", value: "LONG:LETTER" },
+  { type: "LONG", field: "APPLICATION", label: "Applications (درخواستیں)", value: "LONG:APPLICATION" },
   { type: "SHORT", field: "TRANSLATE_EN", label: "Translate Into English Sentences", value: "SHORT:TRANSLATE_EN" },
   { type: "SHORT", field: "DI", label: "Direct & Indirect", value: "SHORT:DI" },
   { type: "SHORT", field: "VOICE", label: "Active & Passive Voice", value: "SHORT:VOICE" },
   { type: "LONG", field: "STORY", label: "Stories (کہانیاں)", value: "LONG:STORY" },
   { type: "LONG", field: "SUMMARY", label: "Summary (خلاصہ) Matric", value: "LONG:SUMMARY" },
   { type: "LONG", field: "DIALOGUE", label: "Dialogues (مکالمے)", value: "LONG:DIALOGUE" },
-  { type: "SHORT", field: "PAIR", label: "Words Into Sentences (الفاظ کو جملوں میں استعمال)", value: "SHORT:PAIR" },
+  { type: "SHORT", field: "PAIR", label: "Pair Of Words", value: "SHORT:PAIR" },
   { type: "SHORT", field: "IDIOM", label: "Idioms", value: "SHORT:IDIOM" },
   { type: "LONG", field: "ESSAYS", label: "Essays (مضامین)", value: "LONG:ESSAYS" },
+  { type: "LONG", field: "CRITICAL", label: "Critical appreciations", value: "LONG:CRITICAL" },
   { type: "LONG", field: "TRANSLATE_UR", label: "Translate Into Urdu Paragraphs", value: "LONG:TRANSLATE_UR" },
   { type: "LONG", field: "PASSAGE", label: "Comprehension Paragraphs (تفہیم عبارات)", value: "LONG:PASSAGE" },
+  { type: "LONG", field: "PUNCTUATION", label: "Punctuate The Paragraph", value: "LONG:PUNCTUATION" },
   { type: "LONG", field: "POEM_STANZA", label: "Poems Stanzas", value: "LONG:POEM_STANZA" },
-  { type: "LONG", field: "PUNCTUATION", label: "Punctuate the paragraph", value: "LONG:PUNCTUATION" },
   { type: "LONG", field: "TRANSLATE_EN", label: "Translate Into English Paragraphs", value: "LONG:TRANSLATE_EN" },
 ];
 
-/** Class 9+ Urdu — PTS Generate Paper order (all-topics paper). */
+/** Class 9+ Urdu — Generate Paper order (all-topics paper). */
 export const URDU_QUESTION_TYPE_OPTIONS = [
   { type: "MCQ", field: "MCQ", label: "Multiple Options (چارممکنہ جوابات)", value: "MCQ:MCQ" },
   { type: "SHORT", field: "QA", label: "Question Answers (سوالات جوابات)", value: "SHORT:QA" },
@@ -143,6 +148,25 @@ export const URDU_QUESTION_TYPE_OPTIONS = [
   { type: "LONG", field: "TAFHEEM", label: "Comprehension Paragraphs (تفہیم عبارات)", value: "LONG:TAFHEEM" },
 ];
 
+/** Inter Urdu — Generate Paper order (INTER-I/II). Empty types stay hidden. */
+export const INTER_URDU_QUESTION_TYPE_OPTIONS = [
+  { type: "MCQ", field: "MCQ", label: "Multiple Options (چارممکنہ جوابات)", value: "MCQ:MCQ" },
+  { type: "SHORT", field: "QA", label: "Question Answers (سوالات جوابات)", value: "SHORT:QA" },
+  { type: "LONG", field: "LETTER", label: "Letters (خطوط)", value: "LONG:LETTER" },
+  { type: "LONG", field: "APPLICATION", label: "Applications (درخواستیں)", value: "LONG:APPLICATION" },
+  { type: "LONG", field: "POEM", label: "اشعار کی تشریح", value: "LONG:POEM" },
+  { type: "LONG", field: "AUTOBIOGRAPHY", label: "آپ بیتی", value: "LONG:AUTOBIOGRAPHY" },
+  { type: "LONG", field: "RECEIPT", label: "Receipt (رسید)", value: "LONG:RECEIPT" },
+  { type: "LONG", field: "NEWSPAPER", label: "Newspapers روزنامچے", value: "LONG:NEWSPAPER" },
+  { type: "LONG", field: "ESSAYS", label: "Essays (مضامین)", value: "LONG:ESSAYS" },
+  { type: "LONG", field: "SUMMARY", label: "Summary (خلاصہ) Inter", value: "LONG:SUMMARY" },
+  { type: "LONG", field: "CENTRAL", label: "Theme (مرکزی خیال)", value: "LONG:CENTRAL" },
+  { type: "LONG", field: "DIALOGUE", label: "Dialogues (مکالمے)", value: "LONG:DIALOGUE" },
+  { type: "LONG", field: "HISTORY", label: "History (روداد)", value: "LONG:HISTORY" },
+  { type: "LONG", field: "PASSAGE", label: "پیراگراف کی تشریح Inter", value: "LONG:PASSAGE" },
+  { type: "LONG", field: "ABRIDGED", label: "Abridged Text (تلخیصِ عبارت)", value: "LONG:ABRIDGED" },
+];
+
 export const ISLAMIYAT_QUESTION_TYPE_OPTIONS = [
   { type: "MCQ", field: "MCQ", label: "Multiple Options (چارممکنہ جوابات)", value: "MCQ:MCQ" },
   { type: "SHORT", field: "QA", label: "Short Questions (مختصر سوالات)", value: "SHORT:QA" },
@@ -156,7 +180,7 @@ export const TARJUMA_QUESTION_TYPE_OPTIONS = [
   { type: "SHORT", field: "QA", label: "Short Questions (مختصر سوالات)", value: "SHORT:QA" },
   { type: "LONG", field: "LONG", label: "Long Questions (تفصیلاً سوالات)", value: "LONG:LONG" },
   { type: "LONG", field: "AYAT", label: "Verses (آیات)", value: "LONG:AYAT" },
-  { type: "SHORT", field: "PAIR", label: "Word Meaning (الفاظ معنی)", value: "SHORT:PAIR" },
+  { type: "SHORT", field: "WORD", label: "Word Meaning (الفاظ معنی)", value: "SHORT:WORD" },
 ];
 
 export const ISLAMIYAT_ELECTIVE_QUESTION_TYPE_OPTIONS = [
@@ -167,19 +191,25 @@ export const ISLAMIYAT_ELECTIVE_QUESTION_TYPE_OPTIONS = [
   { type: "LONG", field: "HADITH", label: "Hadith (احادیث)", value: "LONG:HADITH" },
 ];
 
-/** Punjabi — PTS-style labels for Class 9 multi-type bank */
+/** Punjabi — Generate-Paper types (Class 9+) */
 export const PUNJABI_QUESTION_TYPE_OPTIONS = [
   { type: "MCQ", field: "MCQ", label: "Multiple Options (چارممکنہ جوابات)", value: "MCQ:MCQ" },
   { type: "SHORT", field: "QA", label: "Question Answers (سوالات جوابات)", value: "SHORT:QA" },
-  { type: "SHORT", field: "MEANING", label: "الفاظ معنی", value: "SHORT:MEANING" },
-  { type: "SHORT", field: "WORD", label: "Word Meaning (الفاظ معنی)", value: "SHORT:WORD" },
-  { type: "SHORT", field: "IDIOM", label: "Idioms / محاورات", value: "SHORT:IDIOM" },
+  { type: "LONG", field: "LETTER", label: "Letters (خطوط)", value: "LONG:LETTER" },
   { type: "LONG", field: "POEM", label: "اشعار کی تشریح", value: "LONG:POEM" },
+  { type: "LONG", field: "STORY", label: "Stories (کہانیاں)", value: "LONG:STORY" },
+  { type: "LONG", field: "ESSAYS", label: "Essays (مضامین)", value: "LONG:ESSAYS" },
   { type: "LONG", field: "SUMMARY", label: "Summary (خلاصہ)", value: "LONG:SUMMARY" },
+  { type: "LONG", field: "CENTRAL", label: "Theme (مرکزی خیال)", value: "LONG:CENTRAL" },
+  { type: "LONG", field: "VITAL", label: "(Vital) حیاتی", value: "LONG:VITAL" },
+  { type: "SHORT", field: "WORD", label: "Words Into Sentences (الفاظ کو جملوں میں استعمال)", value: "SHORT:WORD" },
+  { type: "SHORT", field: "MEANING", label: "Word Meaning (الفاظ معنی)", value: "SHORT:MEANING" },
+  { type: "SHORT", field: "VOCAB", label: "Singular Plural (واحد جمع)", value: "SHORT:VOCAB" },
+  { type: "SHORT", field: "GENDER", label: "Genders (مذکرمونث)", value: "SHORT:GENDER" },
   { type: "LONG", field: "PASSAGE", label: "پیراگراف کی تشریح", value: "LONG:PASSAGE" },
 ];
 
-/** Exact PTS Generate-Paper style labels (codes → display names). */
+/** Exact board Generate-Paper style labels (codes → display names). */
 const FALLBACK_LABELS = {
   MCQ: "Multiple Options (چارممکنہ جوابات)",
   COMPREHENSION: "Multiple Options (چارممکنہ جوابات)",
@@ -208,6 +238,16 @@ const FALLBACK_LABELS = {
   VOICE: "Active & Passive Voice",
   TRANSLATE_EN: "Translate Into English Sentences",
   TRANSLATE_UR: "Translate Into Urdu Paragraphs",
+  RECEIPT: "Receipt (رسید)",
+  NEWSPAPER: "Newspapers روزنامچے",
+  HISTORY: "History (روداد)",
+  VITAL: "(Vital) حیاتی",
+  ABRIDGED: "Abridged Text (تلخیصِ عبارت)",
+  SENTENCE: "Correct Sentences",
+  PREPOSITION: "Correct Prepositions",
+  ANTONYM: "Tick Correct Antonyms",
+  CRITICAL: "Critical appreciations",
+  AUTOBIOGRAPHY: "آپ بیتی",
   SUMMARY: "Summary (خلاصہ) Matric",
   PASSAGE: "پیراگراف کی تشریح Matric",
   POEM: "اشعار کی تشریح",
@@ -294,7 +334,7 @@ export function isSecondaryClassName(className) {
   );
 }
 
-/** English PTS catalog for the selected class (primary ≠ 9th ≠ 10 ≠ Inter). */
+/** English type catalog for the selected class (primary ≠ 9th ≠ 10 ≠ Inter). */
 export function englishCatalogForClass(className) {
   if (isClass9ClassName(className)) return CLASS9_ENGLISH_QUESTION_TYPE_OPTIONS;
   if (isClass10ClassName(className)) return CLASS10_ENGLISH_QUESTION_TYPE_OPTIONS;
@@ -303,7 +343,7 @@ export function englishCatalogForClass(className) {
 }
 
 /** Subjects where chapters can expose different subtypes (not only MCQ/Short/Long). */
-function usesPtsTypeFields(subjectName) {
+function usesCatalogTypeFields(subjectName) {
   return (
     isEnglishSubjectName(subjectName) ||
     isUrduSubjectName(subjectName) ||
@@ -318,7 +358,7 @@ function usesPtsTypeFields(subjectName) {
  * Used to gate the multi-chapter quota planner popup.
  */
 export function isClassicThreeTypeSubject(subjectName, questionTypes = []) {
-  if (usesPtsTypeFields(subjectName)) return false;
+  if (usesCatalogTypeFields(subjectName)) return false;
   const types = new Set();
   for (const row of questionTypes || []) {
     const t = row?.type;
@@ -327,7 +367,7 @@ export function isClassicThreeTypeSubject(subjectName, questionTypes = []) {
     if ((row.count || 0) > 0 || row.count == null) types.add(t);
   }
   if (!types.size) {
-    /* Empty bank / no counts yet — still treat non-PTS as classic. */
+    /* Empty bank / no counts yet — still treat non-catalog as classic. */
     return true;
   }
   return types.has("MCQ") && types.has("SHORT") && types.has("LONG");
@@ -361,12 +401,12 @@ export function fieldCountsFromQuestionTypes(questionTypes) {
 }
 
 /**
- * PTS-named type menu from a fixed catalog.
+ * Catalog-named type menu from a fixed catalog.
  * Pass chapter/topic-scoped `questionTypes` (via sumQuestionTypesForTopics) so
- * types with 0 questions in the current selection are hidden — matches PTS.
+ * types with 0 questions in the current selection are hidden — matches board Generate Paper.
  * English catalog depends on class (primary ≠ 9th ≠ 10/Inter).
  */
-export function buildPtsPickerOptions({
+export function buildPickerOptions({
   subjectName,
   className,
   questionTypes,
@@ -374,16 +414,19 @@ export function buildPtsPickerOptions({
 } = {}) {
   const counts = fieldCountsFromQuestionTypes(questionTypes);
 
-  /** @type {PtsTypeOption[] | null} */
+  /** @type {TypeOption[] | null} */
   let catalog = null;
 
   if (isEnglishSubjectName(subjectName)) {
     catalog = englishCatalogForClass(className);
   } else if (isUrduSubjectName(subjectName)) {
-    catalog =
-      isClass9ClassName(className) || isSecondaryClassName(className)
-        ? URDU_QUESTION_TYPE_OPTIONS
-        : PRIMARY_URDU_QUESTION_TYPE_OPTIONS;
+    if (isIntermediateClassName(className)) {
+      catalog = INTER_URDU_QUESTION_TYPE_OPTIONS;
+    } else if (isClass9ClassName(className) || isSecondaryClassName(className)) {
+      catalog = URDU_QUESTION_TYPE_OPTIONS;
+    } else {
+      catalog = PRIMARY_URDU_QUESTION_TYPE_OPTIONS;
+    }
   } else if (isIslamiyatElectiveSubjectName(subjectName)) {
     catalog = ISLAMIYAT_ELECTIVE_QUESTION_TYPE_OPTIONS;
   } else if (isIslamiyatSubjectName(subjectName)) {
@@ -398,7 +441,7 @@ export function buildPtsPickerOptions({
     return buildPickerOptions(questionTypes);
   }
 
-  /** Fixed PTS catalog only — do not append extra discovered/custom subtypes. */
+  /** Fixed type catalog only — do not append extra discovered/custom subtypes. */
   const mapped = [];
   for (const opt of catalog) {
     const count = countForField(counts, opt.field);
@@ -496,7 +539,7 @@ function inferTypeFromSubType(subType, countsByType = {}) {
   return "LONG";
 }
 
-/** Generic fallback when subject has no PTS catalog — flat PTS labels. */
+/** Generic fallback when subject has no type catalog — flat class labels. */
 function buildPickerOptions(questionTypes) {
   const rows = Array.isArray(questionTypes) ? questionTypes : [];
   if (!rows.length) {

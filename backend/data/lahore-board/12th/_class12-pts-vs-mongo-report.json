@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T19:54:26.481Z",
-  "class": "Class 12",
+  "generatedAt": "2026-10-24T21:33:15.766Z",
+  "class": "INTER-II",
   "source": "data/lahore-board/12th (PTS export) vs Mongo Gen*",
   "note": "This compares local PTS seed dumps, not a fresh live scrape.",
   "ptsSubjectFolders": 30,
@@ -16,24 +16,35 @@
       },
       "questionTotal": {
         "pts": 2146,
-        "mongo": 2146
+        "mongo": 2156
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": true,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:LONG": 120,
           "MCQ:MCQ": 1066,
           "SHORT:QA": 960
         },
         "mongoTypes": {
-          "LONG:LONG": 120,
+          "LONG:LONG": 125,
           "MCQ:MCQ": 1066,
-          "SHORT:QA": 960
+          "SHORT:QA": 965
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": []
+        "countMismatch": [
+          {
+            "type": "LONG:LONG",
+            "pts": 120,
+            "mongo": 125
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 960,
+            "mongo": 965
+          }
+        ]
       },
       "chapters": [
         {
@@ -62,23 +73,35 @@
           "chapter": 15,
           "title": "Human Nervous System",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 300,
-          "mongoTotal": 300,
+          "mongoTotal": 298,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 22,
+              "mongo": 20
+            }
+          ]
         },
         {
           "chapter": 16,
           "title": "Human Endocrine System",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 148,
-          "mongoTotal": 148,
+          "mongoTotal": 150,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 7,
+              "mongo": 9
+            }
+          ]
         },
         {
           "chapter": 17,
@@ -95,56 +118,91 @@
           "chapter": 18,
           "title": "Inheritance",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 253,
-          "mongoTotal": 253,
+          "mongoTotal": 256,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 14,
+              "mongo": 17
+            }
+          ]
         },
         {
           "chapter": 19,
           "title": "Chromosome and Dna",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 284,
           "mongoTotal": 284,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 22,
+              "mongo": 17
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 117,
+              "mongo": 122
+            }
+          ]
         },
         {
           "chapter": 20,
           "title": "Biotechnology",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 125,
-          "mongoTotal": 125,
+          "mongoTotal": 128,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 4,
+              "mongo": 7
+            }
+          ]
         },
         {
           "chapter": 21,
           "title": "Immunity",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 167,
-          "mongoTotal": 167,
+          "mongoTotal": 168,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 9,
+              "mongo": 10
+            }
+          ]
         },
         {
           "chapter": 22,
           "title": "Biostatistics",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 141,
-          "mongoTotal": 141,
+          "mongoTotal": 143,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 5,
+              "mongo": 7
+            }
+          ]
         },
         {
           "chapter": 23,
@@ -172,12 +230,18 @@
           "chapter": 25,
           "title": "Ecology",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 159,
-          "mongoTotal": 159,
+          "mongoTotal": 160,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 7,
+              "mongo": 8
+            }
+          ]
         }
       ]
     },
@@ -289,211 +353,437 @@
       },
       "questionTotal": {
         "pts": 706,
-        "mongo": 706
+        "mongo": 4199
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": true,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:LONG": 37,
           "MCQ:MCQ": 414,
           "SHORT:QA": 255
         },
         "mongoTypes": {
-          "LONG:LONG": 37,
-          "MCQ:MCQ": 414,
-          "SHORT:QA": 255
+          "LONG:LONG": 212,
+          "MCQ:MCQ": 2231,
+          "SHORT:QA": 1756
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": []
+        "countMismatch": [
+          {
+            "type": "LONG:LONG",
+            "pts": 37,
+            "mongo": 212
+          },
+          {
+            "type": "MCQ:MCQ",
+            "pts": 414,
+            "mongo": 2231
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 255,
+            "mongo": 1756
+          }
+        ]
       },
       "chapters": [
         {
           "chapter": 17,
           "title": "Group 2 Elements",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 285,
-          "mongoTotal": 285,
+          "mongoTotal": 282,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 107,
+              "mongo": 104
+            }
+          ]
         },
         {
           "chapter": 18,
           "title": "Transition Metals",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 386,
-          "mongoTotal": 386,
+          "mongoTotal": 381,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 126,
+              "mongo": 121
+            }
+          ]
         },
         {
           "chapter": 19,
           "title": "Basics of Organic Chemistry",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 35,
-          "mongoTotal": 35,
+          "mongoTotal": 396,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 4,
+              "mongo": 16
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 9,
+              "mongo": 242
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 22,
+              "mongo": 138
+            }
+          ]
         },
         {
           "chapter": 20,
           "title": "Aromatic Hydrocarbons",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 260,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 13
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 167
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 80
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 21,
           "title": "Halogenoalkanes",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 227,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 9
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 149
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 69
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 22,
           "title": "Hydroxy Compounds",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 225,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 11
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 103
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 111
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 23,
           "title": "Carbonyl Compounds and Carboxylic Acids",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 334,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 16
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 195
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 123
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 24,
           "title": "Organic Nitrogen Compounds",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 236,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 11
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 107
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 118
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 25,
           "title": "Organic Synthesis",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 159,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 10
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 72
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 77
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 26,
           "title": "Polymers",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 246,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 9
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 109
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 128
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 27,
           "title": "Biochemistry",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 303,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 11
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 135
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 157
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 28,
           "title": "Chromatography",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 150,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 7
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 61
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 82
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 29,
           "title": "Spectroscopy-1",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 229,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 9
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 95
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 125
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 30,
           "title": "Spectroscopy-2 Nmr",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 113,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 11
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 67
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 35
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 31,
           "title": "Materials and Energy",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 215,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 16
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 110
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 89
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 32,
           "title": "Medicien, Agriculture and Industry",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 267,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 17
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 134
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 116
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 33,
           "title": "Water",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 176,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 13
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 80
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 83
+            }
+          ],
           "countMismatch": []
         }
       ]
@@ -602,7 +892,7 @@
       "foundInMongo": true,
       "chapterCount": {
         "pts": 19,
-        "mongo": 18
+        "mongo": 19
       },
       "questionTotal": {
         "pts": 1991,
@@ -748,124 +1038,249 @@
       },
       "questionTotal": {
         "pts": 1472,
-        "mongo": 1472
+        "mongo": 2246
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": true,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:LONG": 161,
           "MCQ:MCQ": 675,
           "SHORT:QA": 636
         },
         "mongoTypes": {
-          "LONG:LONG": 161,
-          "MCQ:MCQ": 675,
-          "SHORT:QA": 636
+          "LONG:LONG": 196,
+          "MCQ:MCQ": 1043,
+          "SHORT:QA": 1007
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": []
+        "countMismatch": [
+          {
+            "type": "LONG:LONG",
+            "pts": 161,
+            "mongo": 196
+          },
+          {
+            "type": "MCQ:MCQ",
+            "pts": 675,
+            "mongo": 1043
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 636,
+            "mongo": 1007
+          }
+        ]
       },
       "chapters": [
         {
           "chapter": 1,
           "title": "Computer Networks",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 317,
-          "mongoTotal": 317,
+          "mongoTotal": 311,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 33,
+              "mongo": 29
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 135,
+              "mongo": 133
+            }
+          ]
         },
         {
           "chapter": 2,
           "title": "Computational Thinking & Algorithms",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 216,
-          "mongoTotal": 216,
+          "mongoTotal": 206,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 20,
+              "mongo": 15
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 93,
+              "mongo": 88
+            }
+          ]
         },
         {
           "chapter": 3,
           "title": "Object Oriented Programming Using Python",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 165,
-          "mongoTotal": 165,
+          "mongoTotal": 163,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 20,
+              "mongo": 19
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 78,
+              "mongo": 77
+            }
+          ]
         },
         {
           "chapter": 4,
           "title": "Development of Graphical User Interface (Gui)",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 214,
-          "mongoTotal": 214,
+          "mongoTotal": 213,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 22,
+              "mongo": 21
+            }
+          ]
         },
         {
           "chapter": 5,
           "title": "Code Testing and Debugging",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 165,
-          "mongoTotal": 165,
+          "mongoTotal": 164,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 17,
+              "mongo": 16
+            }
+          ]
         },
         {
           "chapter": 6,
           "title": "Data and Analysis",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 311,
-          "mongoTotal": 311,
+          "mongoTotal": 360,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 25,
+              "mongo": 27
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 142,
+              "mongo": 165
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 144,
+              "mongo": 168
+            }
+          ]
         },
         {
           "chapter": 7,
           "title": "Hypothesis Testing",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 28,
-          "mongoTotal": 28,
+          "mongoTotal": 216,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 8,
+              "mongo": 19
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 10,
+              "mongo": 105
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 10,
+              "mongo": 92
+            }
+          ]
         },
         {
           "chapter": 8,
           "title": "Applications of Computer Science",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 28,
-          "mongoTotal": 28,
+          "mongoTotal": 300,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 8,
+              "mongo": 22
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 10,
+              "mongo": 136
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 10,
+              "mongo": 142
+            }
+          ]
         },
         {
           "chapter": 9,
           "title": "Cybersecurity and Safe Digital Collaboration",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 28,
-          "mongoTotal": 28,
+          "mongoTotal": 313,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 8,
+              "mongo": 28
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 10,
+              "mongo": 134
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 10,
+              "mongo": 151
+            }
+          ]
         }
       ]
     },
@@ -879,11 +1294,11 @@
       },
       "questionTotal": {
         "pts": 1755,
-        "mongo": 1750
+        "mongo": 1755
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": false,
+        "countsMatch": true,
         "ptsTypes": {
           "LONG:LONG": 88,
           "MCQ:MCQ": 974,
@@ -891,36 +1306,24 @@
         },
         "mongoTypes": {
           "LONG:LONG": 88,
-          "MCQ:MCQ": 969,
+          "MCQ:MCQ": 974,
           "SHORT:QA": 693
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": [
-          {
-            "type": "MCQ:MCQ",
-            "pts": 974,
-            "mongo": 969
-          }
-        ]
+        "countMismatch": []
       },
       "chapters": [
         {
           "chapter": 1,
           "title": "باب نمبر 1: قومی آمدنی",
           "typesMatch": true,
-          "countsMatch": false,
+          "countsMatch": true,
           "ptsTotal": 159,
-          "mongoTotal": 155,
+          "mongoTotal": 159,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": [
-            {
-              "type": "MCQ:MCQ",
-              "pts": 87,
-              "mongo": 83
-            }
-          ]
+          "countMismatch": []
         },
         {
           "chapter": 2,
@@ -1036,18 +1439,12 @@
           "chapter": 12,
           "title": "باب نمبر 12: پاکستان کی تجارت خارجہ",
           "typesMatch": true,
-          "countsMatch": false,
+          "countsMatch": true,
           "ptsTotal": 146,
-          "mongoTotal": 145,
+          "mongoTotal": 146,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": [
-            {
-              "type": "MCQ:MCQ",
-              "pts": 93,
-              "mongo": 92
-            }
-          ]
+          "countMismatch": []
         },
         {
           "chapter": 13,
@@ -1155,183 +1552,443 @@
       "foundInMongo": true,
       "chapterCount": {
         "pts": 14,
-        "mongo": 14
+        "mongo": 15
       },
       "questionTotal": {
         "pts": 2011,
-        "mongo": 2011
+        "mongo": 3616
       },
       "allTopics": {
-        "typesMatch": true,
-        "countsMatch": true,
+        "typesMatch": false,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:ESSAYS": 36,
           "MCQ:MEANING": 962,
           "SHORT:QA": 1013
         },
         "mongoTypes": {
-          "LONG:ESSAYS": 36,
+          "LONG:CRITICAL": 3,
+          "LONG:ESSAYS": 41,
+          "LONG:TRANSLATE_EN": 40,
+          "MCQ:ANTONYM": 266,
           "MCQ:MEANING": 962,
-          "SHORT:QA": 1013
+          "MCQ:PREPOSITION": 561,
+          "MCQ:SENTENCE": 545,
+          "SHORT:IDIOM": 143,
+          "SHORT:QA": 1055
         },
         "onlyPts": [],
-        "onlyMongo": [],
-        "countMismatch": []
+        "onlyMongo": [
+          {
+            "type": "LONG:CRITICAL",
+            "mongo": 3
+          },
+          {
+            "type": "LONG:TRANSLATE_EN",
+            "mongo": 40
+          },
+          {
+            "type": "MCQ:ANTONYM",
+            "mongo": 266
+          },
+          {
+            "type": "MCQ:PREPOSITION",
+            "mongo": 561
+          },
+          {
+            "type": "MCQ:SENTENCE",
+            "mongo": 545
+          },
+          {
+            "type": "SHORT:IDIOM",
+            "mongo": 143
+          }
+        ],
+        "countMismatch": [
+          {
+            "type": "LONG:ESSAYS",
+            "pts": 36,
+            "mongo": 41
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 1013,
+            "mongo": 1055
+          }
+        ]
       },
       "chapters": [
         {
           "chapter": 1,
           "title": "Journey to Taif",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 103,
-          "mongoTotal": 103,
+          "mongoTotal": 207,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 58
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 44
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 38,
+              "mongo": 40
+            }
+          ]
         },
         {
           "chapter": 2,
           "title": "the Last Lesson",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 114,
-          "mongoTotal": 114,
+          "mongoTotal": 206,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 50
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 40
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 43,
+              "mongo": 45
+            }
+          ]
         },
         {
           "chapter": 3,
           "title": "On His Blindness  (Poem)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 33,
-          "mongoTotal": 33,
+          "mongoTotal": 62,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:CRITICAL",
+              "mongo": 1
+            },
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 14
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 14
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 4,
           "title": "the Power of Digital  Learning",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 117,
-          "mongoTotal": 117,
+          "mongoTotal": 210,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 50
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 40
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 50,
+              "mongo": 53
+            }
+          ]
         },
         {
           "chapter": 5,
           "title": "the Giving Tree",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 45,
-          "mongoTotal": 45,
+          "mongoTotal": 107,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 30
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 30
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 25,
+              "mongo": 27
+            }
+          ]
         },
         {
           "chapter": 6,
           "title": "the Fun They Had",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 90,
-          "mongoTotal": 90,
+          "mongoTotal": 157,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 35
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 30
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 43,
+              "mongo": 45
+            }
+          ]
         },
         {
           "chapter": 7,
           "title": "Because I Could Not  Stop for Death  (Poem)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 28,
-          "mongoTotal": 28,
+          "mongoTotal": 79,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CRITICAL",
+              "mongo": 1
+            },
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 24
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 23
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 10,
+              "mongo": 13
+            }
+          ]
         },
         {
           "chapter": 8,
           "title": "the Devoted Friend",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 213,
-          "mongoTotal": 213,
+          "mongoTotal": 388,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 87
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 85
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 96,
+              "mongo": 99
+            }
+          ]
         },
         {
           "chapter": 9,
           "title": "the Doll'S House",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 176,
-          "mongoTotal": 176,
+          "mongoTotal": 321,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 60
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 75
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 80,
+              "mongo": 90
+            }
+          ]
         },
         {
           "chapter": 10,
           "title": "ALL THE WORLD’S A  STAGE  (POEM)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 43,
-          "mongoTotal": 43,
+          "mongoTotal": 97,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:CRITICAL",
+              "mongo": 1
+            },
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 24
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 27
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 9,
+              "mongo": 11
+            }
+          ]
         },
         {
           "chapter": 11,
           "title": "a Letter to God",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 76,
-          "mongoTotal": 76,
+          "mongoTotal": 134,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 24
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 32
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 41,
+              "mongo": 43
+            }
+          ]
         },
         {
           "chapter": 12,
           "title": "a Visit to the Swat  Valley",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 126,
-          "mongoTotal": 126,
+          "mongoTotal": 219,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 45
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 45
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 59,
+              "mongo": 62
+            }
+          ]
         },
         {
           "chapter": 13,
           "title": "the Pearl  (Novel)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 811,
-          "mongoTotal": 811,
+          "mongoTotal": 1205,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "MCQ:ANTONYM",
+              "mongo": 266
+            },
+            {
+              "type": "MCQ:PREPOSITION",
+              "mongo": 60
+            },
+            {
+              "type": "MCQ:SENTENCE",
+              "mongo": 60
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 510,
+              "mongo": 518
+            }
+          ]
         },
         {
           "chapter": 14,
           "title": "English (B)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 36,
-          "mongoTotal": 36,
-          "onlyPts": [],
+          "mongoTotal": 0,
+          "onlyPts": [
+            {
+              "type": "LONG:ESSAYS",
+              "pts": 36
+            }
+          ],
           "onlyMongo": [],
           "countMismatch": []
+        },
+        {
+          "chapter": 15,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 224
         }
       ]
     },
@@ -3470,123 +4127,239 @@
       },
       "questionTotal": {
         "pts": 803,
-        "mongo": 803
+        "mongo": 1378
       },
       "allTopics": {
         "typesMatch": true,
-        "countsMatch": true,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:LONG": 64,
           "MCQ:MCQ": 375,
           "SHORT:QA": 364
         },
         "mongoTypes": {
-          "LONG:LONG": 64,
-          "MCQ:MCQ": 375,
-          "SHORT:QA": 364
+          "LONG:LONG": 125,
+          "MCQ:MCQ": 619,
+          "SHORT:QA": 634
         },
         "onlyPts": [],
         "onlyMongo": [],
-        "countMismatch": []
+        "countMismatch": [
+          {
+            "type": "LONG:LONG",
+            "pts": 64,
+            "mongo": 125
+          },
+          {
+            "type": "MCQ:MCQ",
+            "pts": 375,
+            "mongo": 619
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 364,
+            "mongo": 634
+          }
+        ]
       },
       "chapters": [
         {
           "chapter": 13,
           "title": "Thermal Physics",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 114,
-          "mongoTotal": 114,
+          "mongoTotal": 119,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 51,
+              "mongo": 56
+            }
+          ]
         },
         {
           "chapter": 14,
           "title": "Simple Harmonic Motion",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 182,
-          "mongoTotal": 182,
+          "mongoTotal": 187,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 14,
+              "mongo": 16
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 79,
+              "mongo": 82
+            }
+          ]
         },
         {
           "chapter": 15,
           "title": "Physical Optics",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 156,
-          "mongoTotal": 156,
+          "mongoTotal": 160,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 71,
+              "mongo": 75
+            }
+          ]
         },
         {
           "chapter": 16,
           "title": "Electrostatics",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 136,
-          "mongoTotal": 136,
+          "mongoTotal": 146,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:LONG",
+              "pts": 15,
+              "mongo": 18
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 62,
+              "mongo": 69
+            }
+          ]
         },
         {
           "chapter": 17,
           "title": "Alternating Current",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 194,
-          "mongoTotal": 194,
+          "mongoTotal": 196,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 91,
+              "mongo": 89
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 91,
+              "mongo": 95
+            }
+          ]
         },
         {
           "chapter": 18,
           "title": "Quantum Physics",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 21,
-          "mongoTotal": 21,
+          "mongoTotal": 126,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 21
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 11,
+              "mongo": 48
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 10,
+              "mongo": 57
+            }
+          ]
         },
         {
           "chapter": 19,
           "title": "Nuclear and Particle Physics",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 180,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 14
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 87
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 79
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 20,
           "title": "Medical Physics",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 106,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 6
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 50
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 50
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 21,
           "title": "Space and Environment",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 158,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:LONG",
+              "mongo": 15
+            },
+            {
+              "type": "MCQ:MCQ",
+              "mongo": 72
+            },
+            {
+              "type": "SHORT:QA",
+              "mongo": 71
+            }
+          ],
           "countMismatch": []
         }
       ]
@@ -4698,8 +5471,8 @@
         "mongo": 747
       },
       "allTopics": {
-        "typesMatch": true,
-        "countsMatch": true,
+        "typesMatch": false,
+        "countsMatch": false,
         "ptsTypes": {
           "LONG:AYAT": 46,
           "LONG:LONG": 17,
@@ -4711,200 +5484,451 @@
           "LONG:AYAT": 46,
           "LONG:LONG": 17,
           "MCQ:MCQ": 347,
-          "SHORT:MEANING": 110,
-          "SHORT:QA": 227
+          "SHORT:QA": 227,
+          "SHORT:WORD": 110
         },
-        "onlyPts": [],
-        "onlyMongo": [],
+        "onlyPts": [
+          {
+            "type": "SHORT:MEANING",
+            "pts": 110
+          }
+        ],
+        "onlyMongo": [
+          {
+            "type": "SHORT:WORD",
+            "mongo": 110
+          }
+        ],
         "countMismatch": []
       },
       "chapters": [
         {
           "chapter": 1,
-          "title": "سورۃ نمبر 4: سُورَۃُ النِسَآءِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 69,
-          "mongoTotal": 69,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 2,
-          "title": "سورۃ نمبر 5: سُورَۃُ المَآئِدَۃِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 83,
-          "mongoTotal": 83,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 3,
-          "title": "سورۃ نمبر6: سُورَۃُ النُّورِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "status": "only_pts",
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 51,
-          "mongoTotal": 51,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 0
         },
         {
           "chapter": 4,
           "title": "سورۃ نمبر 7: سُورَۃُ  الاَحزَابِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 85,
-          "mongoTotal": 85,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 69,
+          "onlyPts": [
+            {
+              "type": "SHORT:MEANING",
+              "pts": 20
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "SHORT:WORD",
+              "mongo": 25
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "LONG:AYAT",
+              "pts": 10,
+              "mongo": 8
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 34,
+              "mongo": 20
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 20,
+              "mongo": 15
+            }
+          ]
         },
         {
           "chapter": 5,
           "title": "سورۃ نمبر 8: سُورَۃُ مُحَمَّدِِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 30,
-          "mongoTotal": 30,
+          "mongoTotal": 83,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:AYAT",
+              "mongo": 9
+            },
+            {
+              "type": "SHORT:WORD",
+              "mongo": 25
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 17,
+              "mongo": 28
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 12,
+              "mongo": 20
+            }
+          ]
         },
         {
           "chapter": 6,
           "title": "سورۃ نمبر 9: سُورَۃُ  الفَتحِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 57,
-          "mongoTotal": 57,
-          "onlyPts": [],
+          "mongoTotal": 51,
+          "onlyPts": [
+            {
+              "type": "SHORT:MEANING",
+              "pts": 12
+            }
+          ],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "LONG:AYAT",
+              "pts": 2,
+              "mongo": 6
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 26,
+              "mongo": 28
+            }
+          ]
         },
         {
           "chapter": 7,
           "title": "سورۃ نمبر 10: سُورَۃُ الحُجُرٰتِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 58,
-          "mongoTotal": 58,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 85,
+          "onlyPts": [
+            {
+              "type": "SHORT:MEANING",
+              "pts": 14
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "SHORT:WORD",
+              "mongo": 20
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "LONG:AYAT",
+              "pts": 7,
+              "mongo": 10
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 23,
+              "mongo": 34
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 13,
+              "mongo": 20
+            }
+          ]
         },
         {
           "chapter": 8,
           "title": "سورۃ نمبر 11: سُورَۃُ الحَدِیدِ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 32,
-          "mongoTotal": 32,
+          "mongoTotal": 30,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 20,
+              "mongo": 17
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 11,
+              "mongo": 12
+            }
+          ]
         },
         {
           "chapter": 9,
           "title": "سورۃ نمبر 12: سُورَۃُ المُجَادَلَۃِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 41,
-          "mongoTotal": 41,
+          "mongoTotal": 57,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:AYAT",
+              "mongo": 2
+            },
+            {
+              "type": "SHORT:WORD",
+              "mongo": 12
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 25,
+              "mongo": 26
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 15,
+              "mongo": 16
+            }
+          ]
         },
         {
           "chapter": 10,
           "title": "سورۃ نمبر 13: سُورَۃُ الحَشرِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 67,
-          "mongoTotal": 67,
-          "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "mongoTotal": 58,
+          "onlyPts": [
+            {
+              "type": "SHORT:MEANING",
+              "pts": 14
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "SHORT:WORD",
+              "mongo": 14
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "LONG:AYAT",
+              "pts": 4,
+              "mongo": 7
+            },
+            {
+              "type": "MCQ:MCQ",
+              "pts": 29,
+              "mongo": 23
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 19,
+              "mongo": 13
+            }
+          ]
         },
         {
           "chapter": 11,
           "title": "سورۃ نمبر14: سُورَۃُ المُمتَحِنَۃِ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 30,
-          "mongoTotal": 30,
+          "mongoTotal": 32,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 16,
+              "mongo": 20
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 13,
+              "mongo": 11
+            }
+          ]
         },
         {
           "chapter": 12,
           "title": "سورۃ نمبر 15: سُورَۃُ الصَّفِّ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 30,
-          "mongoTotal": 30,
+          "mongoTotal": 41,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 15,
+              "mongo": 25
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 14,
+              "mongo": 15
+            }
+          ]
         },
         {
           "chapter": 13,
           "title": "سورۃ نمبر 16: سُورَۃُ الجُمُعَۃِ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 27,
-          "mongoTotal": 27,
+          "mongoTotal": 67,
           "onlyPts": [],
-          "onlyMongo": [],
-          "countMismatch": []
+          "onlyMongo": [
+            {
+              "type": "LONG:AYAT",
+              "mongo": 4
+            },
+            {
+              "type": "SHORT:WORD",
+              "mongo": 14
+            }
+          ],
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 15,
+              "mongo": 29
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 11,
+              "mongo": 19
+            }
+          ]
         },
         {
           "chapter": 14,
           "title": "سورۃ نمبر 17: سُورَۃُ المُنٰفِقُونَ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 30,
           "mongoTotal": 30,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 17,
+              "mongo": 16
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 12,
+              "mongo": 13
+            }
+          ]
         },
         {
           "chapter": 15,
           "title": "سورۃ نمبر 18: سُورَۃُ التَغَابُنِ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 26,
-          "mongoTotal": 26,
+          "mongoTotal": 30,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "SHORT:QA",
+              "pts": 10,
+              "mongo": 14
+            }
+          ]
         },
         {
           "chapter": 16,
           "title": "سورۃ نمبر 19: سُورَۃُ الطَّلَاقِ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 20,
-          "mongoTotal": 20,
+          "mongoTotal": 27,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 14,
+              "mongo": 15
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 5,
+              "mongo": 11
+            }
+          ]
         },
         {
           "chapter": 17,
           "title": "سورۃ نمبر 20: سُورَۃُ التَّحرِیمِ",
           "typesMatch": true,
-          "countsMatch": true,
+          "countsMatch": false,
           "ptsTotal": 11,
-          "mongoTotal": 11,
+          "mongoTotal": 30,
           "onlyPts": [],
           "onlyMongo": [],
-          "countMismatch": []
+          "countMismatch": [
+            {
+              "type": "MCQ:MCQ",
+              "pts": 5,
+              "mongo": 17
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 5,
+              "mongo": 12
+            }
+          ]
+        },
+        {
+          "chapter": 18,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 26
+        },
+        {
+          "chapter": 19,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 20
+        },
+        {
+          "chapter": 20,
+          "status": "only_mongo",
+          "typesMatch": false,
+          "countsMatch": false,
+          "ptsTotal": 0,
+          "mongoTotal": 11
         }
       ]
     },
@@ -4918,10 +5942,10 @@
       },
       "questionTotal": {
         "pts": 1552,
-        "mongo": 1524
+        "mongo": 1642
       },
       "allTopics": {
-        "typesMatch": true,
+        "typesMatch": false,
         "countsMatch": false,
         "ptsTypes": {
           "LONG:NAAT": 17,
@@ -4930,18 +5954,56 @@
           "SHORT:QA": 115
         },
         "mongoTypes": {
-          "LONG:NAAT": 17,
+          "LONG:AUTOBIOGRAPHY": 18,
+          "LONG:CENTRAL": 7,
+          "LONG:ESSAYS": 62,
+          "LONG:LETTER": 22,
+          "LONG:PASSAGE": 115,
           "LONG:POEM": 87,
-          "MCQ:MCQ": 1305,
-          "SHORT:QA": 115
+          "LONG:SUMMARY": 17,
+          "MCQ:MCQ": 1314
         },
-        "onlyPts": [],
-        "onlyMongo": [],
+        "onlyPts": [
+          {
+            "type": "LONG:NAAT",
+            "pts": 17
+          },
+          {
+            "type": "SHORT:QA",
+            "pts": 115
+          }
+        ],
+        "onlyMongo": [
+          {
+            "type": "LONG:AUTOBIOGRAPHY",
+            "mongo": 18
+          },
+          {
+            "type": "LONG:CENTRAL",
+            "mongo": 7
+          },
+          {
+            "type": "LONG:ESSAYS",
+            "mongo": 62
+          },
+          {
+            "type": "LONG:LETTER",
+            "mongo": 22
+          },
+          {
+            "type": "LONG:PASSAGE",
+            "mongo": 115
+          },
+          {
+            "type": "LONG:SUMMARY",
+            "mongo": 17
+          }
+        ],
         "countMismatch": [
           {
             "type": "MCQ:MCQ",
             "pts": 1333,
-            "mongo": 1305
+            "mongo": 1314
           }
         ]
       },
@@ -4949,188 +6011,466 @@
         {
           "chapter": 1,
           "title": "نظم نمبر 1: حمد",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 9,
-          "mongoTotal": 9,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "mongoTotal": 10,
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 2,
           "title": "نظم نمبر 2: نعت",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 8,
-          "mongoTotal": 8,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "mongoTotal": 9,
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 3,
           "title": "نثر نمبر 3: ہجرت حبشہ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 57,
           "mongoTotal": 57,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 8
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 8
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 4,
           "title": "نثر نمبر 4: ماں جی",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 69,
           "mongoTotal": 69,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 12
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 12
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 5,
           "title": "نثر نمبر 5: کافی",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 72,
           "mongoTotal": 72,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 13
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 13
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 6,
           "title": "نثر نمبر 6: رستم وسہراب",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 82,
           "mongoTotal": 82,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 4
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 4
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 7,
           "title": "نثر نمبر 7: محشر",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 78,
           "mongoTotal": 78,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 14
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 14
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 8,
           "title": "نثر نمبر 8: مینار",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 69,
           "mongoTotal": 69,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 12
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 12
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 9,
           "title": "نثر نمبر 9: سیردوسرے درویش کی",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 61,
           "mongoTotal": 61,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 11
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 11
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 10,
           "title": "نثر نمبر 10: بہادرخان کی سرگزشت",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 77,
           "mongoTotal": 77,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 17
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 17
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 11,
           "title": "نثر نمبر 11: حکیم احسن اللہ خان",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 79,
           "mongoTotal": 79,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 15
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 15
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 12,
           "title": "نثر نمبر 12: نظریہ پاکستان",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 65,
           "mongoTotal": 65,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            },
+            {
+              "type": "SHORT:QA",
+              "pts": 9
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:PASSAGE",
+              "mongo": 9
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 13,
           "title": "نظم نمبر 13: انسان کامل کی برکات",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 16,
-          "mongoTotal": 16,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "mongoTotal": 17,
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 14,
           "title": "نظم نمر 14: داستان تیاری میں باغ کی",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 13,
-          "mongoTotal": 13,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "mongoTotal": 14,
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 15,
           "title": "نظم نمبر 15: نثار میں تیری گلیوں کے۔۔۔",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 6,
-          "mongoTotal": 6,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "mongoTotal": 7,
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 16,
           "title": "نظم نمبر 16: نئی نسل کا نوحہ",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 1,
-          "mongoTotal": 1,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "mongoTotal": 2,
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
           "chapter": 17,
           "title": "نظم نمبر 17: میں روزے سے ہُوں",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 8,
-          "mongoTotal": 8,
-          "onlyPts": [],
-          "onlyMongo": [],
+          "mongoTotal": 9,
+          "onlyPts": [
+            {
+              "type": "LONG:NAAT",
+              "pts": 1
+            }
+          ],
+          "onlyMongo": [
+            {
+              "type": "LONG:CENTRAL",
+              "mongo": 1
+            },
+            {
+              "type": "LONG:SUMMARY",
+              "mongo": 1
+            }
+          ],
           "countMismatch": []
         },
         {
@@ -5194,26 +6534,39 @@
           "typesMatch": true,
           "countsMatch": false,
           "ptsTotal": 749,
-          "mongoTotal": 721,
+          "mongoTotal": 730,
           "onlyPts": [],
           "onlyMongo": [],
           "countMismatch": [
             {
               "type": "MCQ:MCQ",
               "pts": 749,
-              "mongo": 721
+              "mongo": 730
             }
           ]
         },
         {
           "chapter": 24,
           "title": "گرائمر (خطوط)، (مضامین)",
-          "typesMatch": true,
-          "countsMatch": true,
+          "typesMatch": false,
+          "countsMatch": false,
           "ptsTotal": 0,
-          "mongoTotal": 0,
+          "mongoTotal": 102,
           "onlyPts": [],
-          "onlyMongo": [],
+          "onlyMongo": [
+            {
+              "type": "LONG:AUTOBIOGRAPHY",
+              "mongo": 18
+            },
+            {
+              "type": "LONG:ESSAYS",
+              "mongo": 62
+            },
+            {
+              "type": "LONG:LETTER",
+              "mongo": 22
+            }
+          ],
           "countMismatch": []
         }
       ]
@@ -5222,14 +6575,14 @@
   "summary": {
     "subjectsCompared": 30,
     "missingInMongo": [],
-    "allTopicsTypeOk": 30,
-    "allTopicsTypeFail": 0,
-    "allTopicsCountOk": 28,
-    "allTopicsCountFail": 2,
-    "chaptersTypeOk": 384,
-    "chaptersTypeFail": 0,
-    "chaptersCountOk": 381,
-    "chaptersCountFail": 3
+    "allTopicsTypeOk": 27,
+    "allTopicsTypeFail": 3,
+    "allTopicsCountOk": 23,
+    "allTopicsCountFail": 7,
+    "chaptersTypeOk": 324,
+    "chaptersTypeFail": 64,
+    "chaptersCountOk": 291,
+    "chaptersCountFail": 97
   },
   "subjectsOnlyInMongo": []
 }

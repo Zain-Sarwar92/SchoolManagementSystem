@@ -1,4 +1,3 @@
-import CustomSelect from "../../../components/ui/CustomSelect.jsx";
 
 const FONT_WEIGHT_OPTIONS = [
   { value: "normal", label: "Normal" },
@@ -6,7 +5,7 @@ const FONT_WEIGHT_OPTIONS = [
 ];
 
 const LAYOUT_OPTIONS = [
-  { value: "1", label: "Layout 1 — Classic PTS" },
+  { value: "1", label: "Layout 1 — Classic" },
   { value: "2", label: "Layout 2 — Compact Pairs" },
   { value: "3", label: "Layout 3 — Centered Brand" },
   { value: "4", label: "Layout 4 — Chip Meta" },
@@ -15,6 +14,7 @@ const LAYOUT_OPTIONS = [
 
 const WATERMARK_OPTIONS = [
   { value: "mono", label: "Monogram Watermark" },
+  { value: "school", label: "School Name Watermark" },
   { value: "none", label: "No Watermark" },
   { value: "full", label: "Full Logo Watermark" },
 ];
@@ -106,36 +106,42 @@ export default function PrintFormatBar({
         </div>
         <div className="pts-print-field">
           <label>Font Weight</label>
-          <CustomSelect
-            className="tg-select"
-            searchable={false}
+          <select
             value={opts.fontWeight || "normal"}
-            onChange={(val) => set("fontWeight", String(val))}
-            options={FONT_WEIGHT_OPTIONS}
-            placeholder="Font weight"
-          />
+            onChange={(e) => set("fontWeight", e.target.value)}
+          >
+            {FONT_WEIGHT_OPTIONS.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="pts-print-field pts-print-field--wide">
           <label>Select Layout</label>
-          <CustomSelect
-            className="tg-select"
-            searchable={false}
+          <select
             value={opts.layout || "1"}
-            onChange={(val) => set("layout", String(val))}
-            options={LAYOUT_OPTIONS}
-            placeholder="Select layout"
-          />
+            onChange={(e) => set("layout", e.target.value)}
+          >
+            {LAYOUT_OPTIONS.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
         </div>
         <div className="pts-print-field pts-print-field--wide">
           <label>Select Watermark</label>
-          <CustomSelect
-            className="tg-select"
-            searchable={false}
+          <select
             value={opts.watermark || "mono"}
-            onChange={(val) => set("watermark", String(val))}
-            options={WATERMARK_OPTIONS}
-            placeholder="Select watermark"
-          />
+            onChange={(e) => set("watermark", e.target.value)}
+          >
+            {WATERMARK_OPTIONS.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
         </div>
       </div>
 

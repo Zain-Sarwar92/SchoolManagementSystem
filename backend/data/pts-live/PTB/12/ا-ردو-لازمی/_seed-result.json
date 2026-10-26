@@ -1,33 +1,33 @@
 {
   "classId": 12,
   "subjectId": 129,
-  "slug": "ا-ردو-لازمی",
+  "slug": "urdu-compulsory",
   "name": "اُردو لازمی",
-  "total": 1307,
-  "counts": {
-    "mcq": 1081,
-    "short": 226,
-    "long": 0
-  },
+  "className": "INTER-II",
+  "total": 1642,
   "typeTotals": {
-    "MCQ": 1081,
-    "QA": 0,
-    "LONG": 0,
-    "QA_19": 87,
-    "QA_29": 17,
-    "QA_30": 7,
-    "QA_49": 115
+    "MCQ": 1314,
+    "LETTER": 22,
+    "POEM": 87,
+    "AUTOBIOGRAPHY": 18,
+    "ESSAYS": 62,
+    "SUMMARY": 17,
+    "CENTRAL": 7,
+    "PASSAGE": 115
   },
   "mongo": {
-    "created": 1307,
+    "created": 1642,
     "skipped": 0,
     "typeCounts": {
-      "MCQ": 1081,
-      "SHORT": 226,
-      "LONG": 0
-    },
-    "chapters": 24,
-    "topics": 28
+      "LONG:AUTOBIOGRAPHY": 18,
+      "LONG:CENTRAL": 7,
+      "LONG:ESSAYS": 62,
+      "LONG:LETTER": 22,
+      "LONG:PASSAGE": 115,
+      "LONG:POEM": 87,
+      "LONG:SUMMARY": 17,
+      "MCQ:MCQ": 1314
+    }
   },
-  "at": "2026-10-23T00:17:45.877Z"
+  "at": "2026-10-24T21:09:21.371Z"
 }

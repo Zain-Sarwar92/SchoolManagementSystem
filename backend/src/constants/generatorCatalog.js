@@ -1,5 +1,5 @@
 /**
- * Built-in Test Generator catalog (PTS-style Select Syllabus).
+ * Built-in Test Generator catalog (board-style Select Syllabus).
  * Used only when Mongo has no GenBoard rows.
  */
 import { PTS_BOARD_CATALOG } from "./ptsBoardsCatalog.js";
@@ -26,7 +26,7 @@ const CORE_SUBJECTS_10 = [
   "Pakistan Studies",
 ];
 
-/** Stub tree — board cards match PTS; only PTB mid/high classes list sample subjects */
+/** Stub tree — board cards for Select Syllabus; only PTB mid/high classes list sample subjects */
 export const GENERATOR_BOARDS = PTS_BOARD_CATALOG.map((board) => ({
   id: board.code.toLowerCase(),
   name: board.name,

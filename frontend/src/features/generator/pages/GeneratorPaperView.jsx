@@ -424,6 +424,11 @@ function GeneratorPaperView() {
                   </strong>
                   {isUrduLikeSubject(meta?.subjectLabel) ? attemptNote : null}
                 </p>
+                {interactive && section.type === "LONG" ? (
+                  <p className="tg-exam-marks-hint no-print">
+                    Change any question’s marks below — total updates automatically
+                  </p>
+                ) : null}
               </div>
 
               {interactive ? (
@@ -474,6 +479,7 @@ function GeneratorPaperView() {
                     medium={mediumUi}
                     showAnswerKey={showAnswerKey}
                     inlineEdit={inlineEditing && interactive}
+                    marksEdit={interactive}
                     onUpdateText={(patch) =>
                       updateQuestionText(section.key, q.id, patch)
                     }

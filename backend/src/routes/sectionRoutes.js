@@ -5,7 +5,7 @@ import {
   updateSection,
   deleteSection,
 } from "../controllers/sectionController.js";
-import { protect, authorize } from "../middleware/auth.js";
+import { protect, authorize, requireAcademyModule } from "../middleware/auth.js";
 import {
   validate,
   createSectionSchema,
@@ -14,7 +14,11 @@ import {
 
 const router = Router();
 
-router.use(protect, authorize("academy_admin"));
+router.use(
+  protect,
+  authorize("academy_admin"),
+  requireAcademyModule("ACADEMY_MANAGEMENT")
+);
 
 router
   .route("/")

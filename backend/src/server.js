@@ -6,18 +6,16 @@ import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
 import rateLimit from "express-rate-limit";
+import mongoose from "mongoose";
 import connectDB from "./config/db.js";
 import routes from "./routes/index.js";
 import notFound from "./middleware/notFound.js";
 import errorHandler from "./middleware/errorHandler.js";
-import { uploadsRoot } from "./middleware/upload.js";
+import { academyLogosDir } from "./middleware/upload.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const ptsMediaRoot = path.resolve(
-  __dirname,
-  "../../_compare_Test_System/public/pts-media"
-);
+const defaultPtsMediaRoot = path.resolve(__dirname, "../public/pts-media");
 
 dotenv.config();
 
@@ -31,8 +29,25 @@ if (!process.env.MONGO_URI) {
   process.exit(1);
 }
 
+const isProd = process.env.NODE_ENV === "production";
+
+if (isProd && process.env.JWT_SECRET.length < 32) {
+  console.warn(
+    "Warning: JWT_SECRET should be at least 32 characters in production"
+  );
+}
+
+if (isProd && (!process.env.CLIENT_URL || process.env.CLIENT_URL.includes("localhost"))) {
+  console.warn(
+    "Warning: CLIENT_URL should be your real HTTPS frontend origin in production"
+  );
+}
+
 const app = express();
 const PORT = process.env.PORT || 5000;
+const ptsMediaRoot = process.env.PTS_MEDIA_ROOT
+  ? path.resolve(process.env.PTS_MEDIA_ROOT)
+  : defaultPtsMediaRoot;
 
 connectDB();
 
@@ -51,14 +66,26 @@ app.use(
 );
 app.use(express.json({ limit: "1mb" }));
 app.use(express.urlencoded({ extended: true, limit: "1mb" }));
-app.use(morgan(process.env.NODE_ENV === "production" ? "combined" : "dev"));
-app.use("/uploads", express.static(uploadsRoot, { fallthrough: true }));
-/* PTS equation / diagram assets used inside question HTML */
+app.use(morgan(isProd ? "combined" : "dev"));
+
+/* Public: academy logos only (paper print / header). Student files are auth-gated. */
+app.use(
+  "/uploads/academy-logos",
+  express.static(academyLogosDir, {
+    fallthrough: true,
+    index: false,
+    dotfiles: "deny",
+  })
+);
+
+/* Equation / diagram assets used inside question HTML */
 app.use(
   "/pts-media",
   express.static(ptsMediaRoot, {
     fallthrough: true,
-    maxAge: process.env.NODE_ENV === "production" ? "7d" : 0,
+    index: false,
+    dotfiles: "deny",
+    maxAge: isProd ? "7d" : 0,
   })
 );
 
@@ -76,6 +103,27 @@ app.use("/api", routes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+  if (!process.env.PTS_MEDIA_ROOT) {
+    console.log(`pts-media root (default): ${ptsMediaRoot}`);
+  } else {
+    console.log(`pts-media root: ${ptsMediaRoot}`);
+  }
 });
+
+const shutdown = async (signal) => {
+  console.log(`${signal} received, shutting down…`);
+  server.close(async () => {
+    try {
+      await mongoose.connection.close();
+    } catch (err) {
+      console.error("Error closing MongoDB:", err.message);
+    }
+    process.exit(0);
+  });
+  setTimeout(() => process.exit(1), 10_000).unref();
+};
+
+process.on("SIGTERM", () => shutdown("SIGTERM"));
+process.on("SIGINT", () => shutdown("SIGINT"));

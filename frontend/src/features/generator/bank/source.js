@@ -19,3 +19,11 @@ export function sourceLabel(source) {
   if (kind === "additional") return "Additional";
   return String(source || "").trim() || "Other";
 }
+
+/** Compact badge text for pool rows (mobile-friendly). */
+export function sourceLabelShort(source) {
+  const kind = sourceKind(source);
+  if (kind === "exercise") return "Ex";
+  if (kind === "additional") return "Add";
+  return "Other";
+}

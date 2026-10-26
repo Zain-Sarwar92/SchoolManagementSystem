@@ -49,20 +49,30 @@ export const ENGLISH_MATRIC_SUBTYPES = {
   1: { name: "mcq-comprehension", bankType: "mcq", field: "COMPREHENSION" },
   2: { name: "mcq-spelling", bankType: "mcq", field: "SPELLING" },
   3: { name: "mcq-meaning", bankType: "mcq", field: "MEANING" },
+  4: { name: "mcq-synonym", bankType: "mcq", field: "SYNONYM" },
   5: { name: "mcq-verb", bankType: "mcq", field: "VERB" },
   6: { name: "mcq-grammar", bankType: "mcq", field: "GRAMMAR" },
   14: { name: "short-qa", bankType: "short", field: "QA" },
   15: { name: "long-letters", bankType: "long", field: "LETTER" },
+  16: { name: "long-application", bankType: "long", field: "APPLICATION" },
   21: { name: "short-translate-en", bankType: "short", field: "TRANSLATE_EN" },
   22: { name: "short-voice", bankType: "short", field: "VOICE" },
   26: { name: "long-stories", bankType: "long", field: "STORY" },
+  27: { name: "long-essays", bankType: "long", field: "ESSAYS" },
   28: { name: "long-summary", bankType: "long", field: "SUMMARY" },
   31: { name: "long-dialogues", bankType: "long", field: "DIALOGUE" },
   34: { name: "short-word", bankType: "short", field: "WORD" },
+  35: { name: "short-pair", bankType: "short", field: "PAIR" },
   36: { name: "short-idioms", bankType: "short", field: "IDIOM" },
   43: { name: "long-translate-urdu", bankType: "long", field: "TRANSLATE_UR" },
+  44: { name: "long-translate-en", bankType: "long", field: "TRANSLATE_EN" },
   45: { name: "long-comprehension-para", bankType: "long", field: "PASSAGE" },
+  46: { name: "long-punctuation", bankType: "long", field: "PUNCTUATION" },
   47: { name: "long-poem-stanzas", bankType: "long", field: "POEM_STANZA" },
+  54: { name: "mcq-sentence", bankType: "mcq", field: "SENTENCE" },
+  55: { name: "mcq-preposition", bankType: "mcq", field: "PREPOSITION" },
+  64: { name: "long-critical", bankType: "long", field: "CRITICAL" },
+  65: { name: "mcq-antonym", bankType: "mcq", field: "ANTONYM" },
 };
 
 /** Primary English (ONE–8TH) — every PTS subtype ID stays distinct. */
@@ -102,7 +112,7 @@ export const URDU_PRIMARY_SUBTYPES = {
   45: { name: "passage", bankType: "long", field: "PASSAGE" },
 };
 
-/** Matric Urdu (9TH+). */
+/** Matric + Inter Urdu (9TH+). Inter adds 29/32/49/50/59/63. */
 export const URDU_MATRIC_SUBTYPES = {
   1: { name: "mcq", bankType: "mcq", field: "MCQ" },
   14: { name: "short-qa", bankType: "short", field: "QA" },
@@ -112,11 +122,20 @@ export const URDU_MATRIC_SUBTYPES = {
   24: { name: "short-correct", bankType: "short", field: "CORRECT" },
   25: { name: "short-idiom", bankType: "short", field: "IDIOM" },
   26: { name: "long-story", bankType: "long", field: "STORY" },
+  27: { name: "long-essays", bankType: "long", field: "ESSAYS" },
   28: { name: "long-summary", bankType: "long", field: "SUMMARY" },
+  29: { name: "long-summary-inter", bankType: "long", field: "SUMMARY" },
   30: { name: "long-central", bankType: "long", field: "CENTRAL" },
   31: { name: "long-dialogue", bankType: "long", field: "DIALOGUE" },
+  32: { name: "long-history", bankType: "long", field: "HISTORY" },
   42: { name: "short-meaning", bankType: "short", field: "MEANING" },
+  45: { name: "long-tafheem", bankType: "long", field: "TAFHEEM" },
   48: { name: "long-passage", bankType: "long", field: "PASSAGE" },
+  49: { name: "long-passage-inter", bankType: "long", field: "PASSAGE" },
+  50: { name: "long-abridged", bankType: "long", field: "ABRIDGED" },
+  59: { name: "long-receipt", bankType: "long", field: "RECEIPT" },
+  60: { name: "long-autobiography", bankType: "long", field: "AUTOBIOGRAPHY" },
+  63: { name: "long-newspaper", bankType: "long", field: "NEWSPAPER" },
 };
 
 export const PTS_SUBTYPE_BY_SUBJECT = [
@@ -125,12 +144,20 @@ export const PTS_SUBTYPE_BY_SUBJECT = [
     map: {
       1: { name: "mcq", bankType: "mcq", field: "MCQ" },
       14: { name: "short-qa", bankType: "short", field: "QA" },
+      15: { name: "long-letter", bankType: "long", field: "LETTER" },
       19: { name: "long-poem", bankType: "long", field: "POEM" },
+      26: { name: "long-story", bankType: "long", field: "STORY" },
+      27: { name: "long-essays", bankType: "long", field: "ESSAYS" },
       28: { name: "long-summary", bankType: "long", field: "SUMMARY" },
-      34: { name: "short-meaning", bankType: "short", field: "MEANING" },
-      37: { name: "short-word", bankType: "short", field: "WORD" },
-      38: { name: "short-idiom", bankType: "short", field: "IDIOM" },
+      29: { name: "long-summary-inter", bankType: "long", field: "SUMMARY" },
+      30: { name: "long-central", bankType: "long", field: "CENTRAL" },
+      33: { name: "long-vital", bankType: "long", field: "VITAL" },
+      34: { name: "short-word", bankType: "short", field: "WORD" },
+      37: { name: "short-meaning", bankType: "short", field: "MEANING" },
+      38: { name: "singular-plural", bankType: "short", field: "VOCAB" },
+      39: { name: "gender", bankType: "short", field: "GENDER" },
       48: { name: "long-passage", bankType: "long", field: "PASSAGE" },
+      49: { name: "long-passage-inter", bankType: "long", field: "PASSAGE" },
     },
   },
   {
@@ -138,7 +165,9 @@ export const PTS_SUBTYPE_BY_SUBJECT = [
     map: {
       1: { name: "mcq", bankType: "mcq", field: "MCQ" },
       12: { name: "short", bankType: "short", field: "QA" },
+      13: { name: "long", bankType: "long", field: "LONG" },
       17: { name: "long-ayat", bankType: "long", field: "AYAT" },
+      18: { name: "long-hadith", bankType: "long", field: "HADITH" },
     },
   },
   {

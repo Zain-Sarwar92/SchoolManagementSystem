@@ -6,226 +6,163 @@
   "chapters": [
     {
       "number": 1,
-      "title": "Khatam-Un-Nabiyeen Hazrat Muhammad (Saw)",
-      "_chapterId": 6378,
+      "title": "UNIT 1: Khatam-un-Nabiyeen Hazrat Muhammad (SAW)",
       "topics": [
         {
-          "id": "1.1",
-          "title": "Khatam-Un-Nabiyeen Hazrat Muhammad (Saw)"
+          "id": "1",
+          "title": "KHATAM-UN-NABIYEEN HAZRAT MUHAMMAD (SAW)"
         }
       ]
     },
     {
       "number": 2,
-      "title": "Responsibility of the Youth in Nation-Building",
-      "_chapterId": 6379,
+      "title": "UNIT 2: Responsibility of the Youth in Nation-Building",
       "topics": [
         {
-          "id": "2.1",
-          "title": "Responsibility of the Youth in Nation-Building"
+          "id": "2",
+          "title": "RESPONSIBILITY OF THE YOUTH IN NATION-BUILDING"
         }
       ]
     },
     {
       "number": 3,
-      "title": "a Bird Came Down the Walk (Poem)",
-      "_chapterId": 6380,
+      "title": "UNIT 3: A Bird Came Down the Walk (Poem)",
       "topics": [
         {
-          "id": "3.1",
-          "title": "a Bird Came Down the Walk"
+          "id": "3",
+          "title": "A BIRD CAME DOWN THE WALK"
         }
       ]
     },
     {
       "number": 4,
-      "title": "Team Moon",
-      "_chapterId": 6381,
+      "title": "UNIT 4: Team Moon",
       "topics": [
         {
-          "id": "4.1",
+          "id": "4",
           "title": "Team Moon"
         }
       ]
     },
     {
       "number": 5,
-      "title": "Impact of Global Warming On Pakistan",
-      "_chapterId": 6382,
+      "title": "UNIT 5: Impact of Global Warming on Pakistan",
       "topics": [
         {
-          "id": "5.1",
-          "title": "Impact of Global Warming On Pakistan"
+          "id": "5",
+          "title": "IMPACT OF GLOBAL WARMING ON PAKISTAN"
         }
       ]
     },
     {
       "number": 6,
-      "title": "the Echoing Green (Poem)",
-      "_chapterId": 6383,
+      "title": "UNIT 6: The Echoing Green (Poem)",
       "topics": [
         {
-          "id": "6.1",
-          "title": "the Echoing Green"
+          "id": "6",
+          "title": "THE ECHOING GREEN"
         }
       ]
     },
     {
       "number": 7,
-      "title": "What You Do Is What You Are",
-      "_chapterId": 6384,
+      "title": "UNIT 7: What You Do is What You Are",
       "topics": [
         {
-          "id": "7.1",
-          "title": "What You Do Is What You Are"
+          "id": "7",
+          "title": "What You Do is What You Are"
         }
       ]
     },
     {
       "number": 8,
-      "title": "Clean Water",
-      "_chapterId": 6385,
+      "title": "UNIT 8: Clean Water",
       "topics": [
         {
-          "id": "8.1",
-          "title": "Clean Water"
+          "id": "8",
+          "title": "CLEAN WATER"
         }
       ]
     },
     {
       "number": 9,
-      "title": "Freedom (Poem)",
-      "_chapterId": 6386,
+      "title": "UNIT 9: Freedom (Poem)",
       "topics": [
         {
-          "id": "9.1",
+          "id": "9",
           "title": "Freedom"
         }
       ]
     },
     {
       "number": 10,
-      "title": "the Punishment of Shahpesh, the Persian, On Khipil, the Builder",
-      "_chapterId": 6387,
+      "title": "UNIT 10: The Punishment of Shahpesh, the Persian, on Khipil, the Builder",
       "topics": [
         {
-          "id": "10.1",
-          "title": "the Punishment of Shahpesh, the Persian, On Khipil, the Builder"
+          "id": "10",
+          "title": "THE PUNISHMENT OF SHAHPESH, THE PERSIAN, ON KHIPIL, THE BUILDER"
         }
       ]
     },
     {
       "number": 11,
-      "title": "Those Winter Sundays (Poem)",
-      "_chapterId": 6388,
+      "title": "UNIT 11: Those Winter Sundays (Poem)",
       "topics": [
         {
-          "id": "11.1",
-          "title": "Those Winter Sundays"
+          "id": "11",
+          "title": "THOSE WINTER SUNDAYS"
         }
       ]
     },
     {
       "number": 12,
-      "title": "the Impact of Ai On Society, Human Relationships, and Ethics",
-      "_chapterId": 6389,
+      "title": "UNIT 12: The Impact of AI on Society, Human Relationships, and Ethics",
       "topics": [
         {
-          "id": "12.1",
-          "title": "the Impact of Ai On Society, Human Relationship, and Ethics"
+          "id": "12",
+          "title": "The Impact of AI on Society, Human Relationship, and Ethics"
         }
       ]
     },
     {
       "number": 13,
-      "title": "Ruba'Iyat (Poem)",
-      "_chapterId": 6390,
+      "title": "UNIT 13: Ruba'iyat (Poem)",
       "topics": [
         {
-          "id": "13.1",
-          "title": "Ruba'Iyat"
+          "id": "13",
+          "title": "RUBA'IYAT"
         }
       ]
     },
     {
       "number": 14,
-      "title": "the End of the Beginning",
-      "_chapterId": 6391,
+      "title": "UNIT 14: The End of the Beginning",
       "topics": [
         {
-          "id": "14.1",
-          "title": "the End of the Beginning"
+          "id": "14",
+          "title": "THE END OF THE BEGINNING"
         }
       ]
     },
     {
       "number": 15,
       "title": "English (B)",
-      "_chapterId": 6395,
       "topics": [
         {
-          "id": "15.1",
-          "title": "Present Indefinite Tense"
-        },
-        {
-          "id": "15.2",
-          "title": "Present Continuous Tense"
-        },
-        {
-          "id": "15.3",
-          "title": "Present Perfect Tense"
-        },
-        {
-          "id": "15.4",
-          "title": "Present Perfect Continuous Tense"
-        },
-        {
-          "id": "15.5",
-          "title": "Past Indefinite Tense"
-        },
-        {
-          "id": "15.6",
-          "title": "Past Continuous Tense"
-        },
-        {
-          "id": "15.7",
-          "title": "Past Perfect Tense"
-        },
-        {
-          "id": "15.8",
-          "title": "Past Perfect Continuous Tense"
-        },
-        {
-          "id": "15.9",
-          "title": "Future Indefinite Tense"
-        },
-        {
-          "id": "15.10",
-          "title": "Future Continuous Tense"
-        },
-        {
-          "id": "15.11",
-          "title": "Future Perfect Tense"
-        },
-        {
-          "id": "15.12",
-          "title": "Future Perfect Continuous Tense"
-        },
-        {
-          "id": "15.13",
+          "id": "1",
           "title": "Letters"
         },
         {
-          "id": "15.14",
+          "id": "2",
           "title": "Applications"
         },
         {
-          "id": "15.15",
+          "id": "3",
           "title": "Stories"
         },
         {
-          "id": "15.16",
-          "title": "Pair of Words"
+          "id": "4",
+          "title": "Pair Of Words"
         }
       ]
     }

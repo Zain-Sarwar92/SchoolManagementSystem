@@ -1,0 +1,28 @@
+{
+  "classId": 12,
+  "subjectId": 132,
+  "slug": "punjabi",
+  "name": "پنجابی",
+  "total": 1409,
+  "typeTotals": {
+    "MCQ": 619,
+    "QA": 588,
+    "POEM": 125,
+    "SUMMARY": 9,
+    "VITAL": 23,
+    "PASSAGE": 45
+  },
+  "mongo": {
+    "created": 1409,
+    "skipped": 0,
+    "typeCounts": {
+      "LONG:PASSAGE": 45,
+      "LONG:POEM": 125,
+      "LONG:SUMMARY": 9,
+      "LONG:VITAL": 23,
+      "MCQ:MCQ": 619,
+      "SHORT:QA": 588
+    }
+  },
+  "at": "2026-10-24T23:26:36.961Z"
+}

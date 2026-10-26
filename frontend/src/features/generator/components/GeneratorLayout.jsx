@@ -159,7 +159,7 @@ function GeneratorLayout({ title, children, mode = "default", wide = false }) {
           <button
             type="button"
             onClick={handleLogout}
-            className="inline-flex items-center gap-1.5 rounded-lg bg-white px-2.5 py-2 text-xs font-semibold text-[#0f2744]"
+            className="inline-flex items-center gap-1.5 rounded-lg bg-white px-2.5 py-2 text-xs font-semibold text-tg-navy"
             title="Logout"
           >
             <LogOut className="size-3.5" />
@@ -175,7 +175,7 @@ function GeneratorLayout({ title, children, mode = "default", wide = false }) {
               aria-label="Close menu"
               onClick={closeMenu}
             />
-            <aside className="fixed bottom-0 left-0 top-0 z-50 flex w-[min(18rem,88vw)] flex-col bg-[#0f2744] p-4 text-white shadow-2xl min-[900px]:hidden">
+            <aside className="tg-drawer fixed bottom-0 left-0 top-0 z-50 flex w-[min(18rem,88vw)] flex-col p-4 text-white shadow-2xl min-[900px]:hidden">
               <div className="mb-6 flex items-center justify-between gap-3">
                 <div className="min-w-0">
                   <p className="truncate font-display text-lg font-semibold">
@@ -210,7 +210,7 @@ function GeneratorLayout({ title, children, mode = "default", wide = false }) {
               <button
                 type="button"
                 onClick={handleLogout}
-                className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-white px-3 py-2.5 text-sm font-semibold text-[#0f2744]"
+                className="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-white px-3 py-2.5 text-sm font-semibold text-tg-navy"
               >
                 <LogOut className="size-4" />
                 Logout

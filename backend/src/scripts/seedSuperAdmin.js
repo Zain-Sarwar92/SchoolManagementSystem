@@ -5,13 +5,50 @@ import User from "../models/User.js";
 
 dotenv.config();
 
+const WEAK_DEFAULTS = new Set([
+  "SuperAdmin@123",
+  "superadmin@schoolsaas.com",
+  "admin",
+  "password",
+  "Password123",
+]);
+
 const seedSuperAdmin = async () => {
   try {
-    await connectDB();
-
-    const email = process.env.SUPER_ADMIN_EMAIL || "superadmin@schoolsaas.com";
-    const password = process.env.SUPER_ADMIN_PASSWORD || "SuperAdmin@123";
+    const isProd = process.env.NODE_ENV === "production";
+    const email = process.env.SUPER_ADMIN_EMAIL;
+    const password = process.env.SUPER_ADMIN_PASSWORD;
     const name = process.env.SUPER_ADMIN_NAME || "Super Admin";
+
+    if (!email || !password) {
+      console.error(
+        "Fatal: set SUPER_ADMIN_EMAIL and SUPER_ADMIN_PASSWORD in .env before seeding"
+      );
+      process.exitCode = 1;
+      return;
+    }
+
+    if (isProd && (WEAK_DEFAULTS.has(password) || WEAK_DEFAULTS.has(email))) {
+      console.error(
+        "Fatal: refuse weak/default Super Admin credentials in production"
+      );
+      process.exitCode = 1;
+      return;
+    }
+
+    if (!isProd && (WEAK_DEFAULTS.has(password) || password.length < 10)) {
+      console.warn(
+        "Warning: Super Admin password is weak — use a long unique password before any deploy"
+      );
+    }
+
+    if (password.length < 10) {
+      console.error("Fatal: SUPER_ADMIN_PASSWORD must be at least 10 characters");
+      process.exitCode = 1;
+      return;
+    }
+
+    await connectDB();
 
     const existing = await User.findOne({ email });
 
@@ -28,7 +65,12 @@ const seedSuperAdmin = async () => {
 
       console.log("Super Admin created successfully");
       console.log(`Email: ${email}`);
-      console.log(`Password: ${password}`);
+      if (!isProd) {
+        console.log("Password: (value from SUPER_ADMIN_PASSWORD — not echoed in production)");
+        console.log(`Password: ${password}`);
+      } else {
+        console.log("Password: set from SUPER_ADMIN_PASSWORD (not printed)");
+      }
     }
   } catch (error) {
     console.error("Seed failed:", error.message);

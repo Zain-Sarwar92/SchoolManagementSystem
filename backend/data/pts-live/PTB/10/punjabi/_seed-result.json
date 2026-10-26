@@ -1,0 +1,34 @@
+{
+  "classId": 10,
+  "subjectId": 71,
+  "slug": "punjabi",
+  "name": "پنجابی",
+  "total": 1155,
+  "typeTotals": {
+    "MCQ": 267,
+    "QA": 145,
+    "POEM": 99,
+    "ESSAYS": 30,
+    "WORD": 185,
+    "MEANING": 6,
+    "VOCAB": 292,
+    "GENDER": 102,
+    "PASSAGE": 29
+  },
+  "mongo": {
+    "created": 1155,
+    "skipped": 0,
+    "typeCounts": {
+      "LONG:ESSAYS": 30,
+      "LONG:PASSAGE": 29,
+      "LONG:POEM": 99,
+      "MCQ:MCQ": 267,
+      "SHORT:GENDER": 102,
+      "SHORT:MEANING": 6,
+      "SHORT:QA": 145,
+      "SHORT:VOCAB": 292,
+      "SHORT:WORD": 185
+    }
+  },
+  "at": "2026-10-24T23:14:17.941Z"
+}

@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { protect, authorize } from "../middleware/auth.js";
+import { protect, authorize, requireAcademyModule } from "../middleware/auth.js";
 import {
   listTeachers,
   getTeacher,
@@ -19,6 +19,7 @@ const router = Router();
 
 router.use(protect);
 router.use(authorize("academy_admin"));
+router.use(requireAcademyModule("ACADEMY_MANAGEMENT"));
 
 router.get("/levels", listTeacherLevels);
 router.get("/assignment-options", getTeacherAssignmentOptions);

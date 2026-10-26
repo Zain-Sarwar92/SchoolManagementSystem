@@ -1,4 +1,4 @@
-/** Infer ENGLISH | URDU | BOTH from bank text (PTS dual-column model). */
+/** Infer ENGLISH | URDU | BOTH from bank text (dual-column model). */
 
 function stripHtml(s) {
   return String(s || "")
