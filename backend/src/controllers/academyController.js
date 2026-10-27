@@ -147,6 +147,38 @@ export const updateAcademyStatus = asyncHandler(async (req, res) => {
   });
 });
 
+export const updateAcademyModules = asyncHandler(async (req, res) => {
+  const academy = await Academy.findById(req.params.id);
+
+  if (!academy) {
+    res.status(404);
+    throw new Error("Academy not found");
+  }
+
+  if (req.body.moduleAcademyManagement !== undefined) {
+    academy.moduleAcademyManagement = Boolean(req.body.moduleAcademyManagement);
+  }
+  if (req.body.moduleTestGenerator !== undefined) {
+    academy.moduleTestGenerator = Boolean(req.body.moduleTestGenerator);
+  }
+  if (req.body.plan !== undefined) {
+    academy.plan = req.body.plan;
+  }
+
+  if (!academy.moduleAcademyManagement && !academy.moduleTestGenerator) {
+    res.status(400);
+    throw new Error("Select at least one product: Academy Management or Test Generator");
+  }
+
+  await academy.save();
+
+  res.json({
+    success: true,
+    message: "Academy products updated",
+    academy,
+  });
+});
+
 export const getDashboardStats = asyncHandler(async (req, res) => {
   const [total, active, suspended] = await Promise.all([
     Academy.countDocuments(),

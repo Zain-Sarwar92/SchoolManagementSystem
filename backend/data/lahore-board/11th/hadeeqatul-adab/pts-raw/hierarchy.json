@@ -9,18 +9,7 @@
   },
   "subject": {
     "SubjectID": 367,
-    "AdminID": 14,
-    "CourseID": 1,
-    "ClassID": 11,
-    "SubjectName": "حَدِیقَۃُ الاَدَبِ",
-    "Category": "F.A",
-    "ImageUrl": null,
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2024-01-25T09:19:08.237",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null,
-    "Class": null
+    "SubjectName": "حَدِیقَۃُ الاَدَبِ"
   },
   "slug": "hadeeqatul-adab",
   "exportTypes": [
@@ -946,5 +935,6 @@
       "Subject": null,
       "Chapter": null
     }
-  ]
+  ],
+  "fetchedAt": "2026-10-27T13:53:00.036Z"
 }

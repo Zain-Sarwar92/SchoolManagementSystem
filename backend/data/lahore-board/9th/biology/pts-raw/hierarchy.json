@@ -8,18 +8,7 @@
   },
   "subject": {
     "SubjectID": 43,
-    "AdminID": 1,
-    "CourseID": 1,
-    "ClassID": 9,
-    "SubjectName": "Biology",
-    "Category": "SNC-2025",
-    "ImageUrl": "/images/subjects/638985323002816141.jpg",
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2025-11-12T08:18:20.283",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null,
-    "Class": null
+    "SubjectName": "Biology"
   },
   "slug": "biology",
   "exportTypes": [
@@ -1315,5 +1304,6 @@
       "Subject": null,
       "Chapter": null
     }
-  ]
+  ],
+  "fetchedAt": "2026-10-27T10:19:12.467Z"
 }

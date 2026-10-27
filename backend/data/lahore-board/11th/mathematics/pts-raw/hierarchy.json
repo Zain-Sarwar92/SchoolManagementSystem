@@ -4,23 +4,11 @@
     "name": "PTB"
   },
   "class": {
-    "ClassID": 11,
-    "name": "INTER-I"
+    "ClassID": 11
   },
   "subject": {
     "SubjectID": 97,
-    "AdminID": 1,
-    "CourseID": 1,
-    "ClassID": 11,
-    "SubjectName": "Mathematics",
-    "Category": "SNC-2025",
-    "ImageUrl": "/images/subjects/637341220664223739.jpg",
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2025-06-26T12:21:38.767",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null,
-    "Class": null
+    "SubjectName": "Mathematics"
   },
   "slug": "mathematics",
   "exportTypes": [
@@ -157,6 +145,23 @@
       "TextDirection": 1,
       "CreatedDateTime": "2025-11-11T00:00:00",
       "UpdatedDateTime": "2025-06-26T12:51:11.82",
+      "IsActive": true,
+      "Admin": null,
+      "Course": null,
+      "Class": null,
+      "Subject": null
+    },
+    {
+      "ChapterID": 6314,
+      "AdminID": 1,
+      "CourseID": 1,
+      "ClassID": 11,
+      "SubjectID": 97,
+      "ChapterName": "UNIT 8: Mathematical induction and Binomial Theorem",
+      "Syllabus": "CHAP 8",
+      "TextDirection": 1,
+      "CreatedDateTime": "2025-11-11T00:00:00",
+      "UpdatedDateTime": "2026-09-19T10:14:45.923",
       "IsActive": true,
       "Admin": null,
       "Course": null,
@@ -1255,5 +1260,6 @@
       "Subject": null,
       "Chapter": null
     }
-  ]
+  ],
+  "fetchedAt": "2026-10-27T13:35:33.680Z"
 }

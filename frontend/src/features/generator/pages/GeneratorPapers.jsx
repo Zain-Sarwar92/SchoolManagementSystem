@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { Link, useNavigate } from "react-router-dom";
 import {
   ArrowDownUp,
@@ -14,6 +15,8 @@ import TgConfirmModal from "../components/TgConfirmModal.jsx";
 import StatusPanel from "../components/StatusPanel.jsx";
 import { toast } from "../../../components/ui/toast.jsx";
 import api from "../../../services/api.js";
+
+const MENU_EST_HEIGHT = 240;
 
 function formatPaperDate(value) {
   if (!value) return "—";
@@ -74,13 +77,38 @@ function GeneratorPapers() {
   const [sortKey, setSortKey] = useState("createdAt");
   const [sortDir, setSortDir] = useState("desc");
   const [menuId, setMenuId] = useState(null);
+  const [menuPos, setMenuPos] = useState(null);
   const [deleteTarget, setDeleteTarget] = useState(null);
   const [isNarrow, setIsNarrow] = useState(() =>
     typeof window !== "undefined"
       ? window.matchMedia("(max-width: 900px)").matches
       : false
   );
-  const menuRef = useRef(null);
+  const menuPanelRef = useRef(null);
+  const pageRef = useRef(null);
+
+  const closeMenu = () => {
+    setMenuId(null);
+    setMenuPos(null);
+  };
+
+  const openMenuFor = (paperId, anchorEl) => {
+    if (menuId === paperId) {
+      closeMenu();
+      return;
+    }
+    const rect = anchorEl.getBoundingClientRect();
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const openUp = spaceBelow < MENU_EST_HEIGHT && rect.top > MENU_EST_HEIGHT;
+    setMenuPos({
+      top: openUp ? undefined : Math.round(rect.bottom + 4),
+      bottom: openUp
+        ? Math.round(window.innerHeight - rect.top + 4)
+        : undefined,
+      right: Math.max(8, Math.round(window.innerWidth - rect.right)),
+    });
+    setMenuId(paperId);
+  };
 
   const visibleColumns = useMemo(
     () =>
@@ -119,12 +147,23 @@ function GeneratorPapers() {
   }, []);
 
   useEffect(() => {
+    if (!menuId) return undefined;
     const onDoc = (e) => {
-      if (!menuRef.current?.contains(e.target)) setMenuId(null);
+      const t = e.target;
+      if (menuPanelRef.current?.contains(t)) return;
+      if (t?.closest?.(".tg-papers-kebab")) return;
+      closeMenu();
     };
+    const onClose = () => closeMenu();
     document.addEventListener("mousedown", onDoc);
-    return () => document.removeEventListener("mousedown", onDoc);
-  }, []);
+    window.addEventListener("scroll", onClose, true);
+    window.addEventListener("resize", onClose);
+    return () => {
+      document.removeEventListener("mousedown", onDoc);
+      window.removeEventListener("scroll", onClose, true);
+      window.removeEventListener("resize", onClose);
+    };
+  }, [menuId]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -167,7 +206,7 @@ function GeneratorPapers() {
   };
 
   const remove = (paper) => {
-    setMenuId(null);
+    closeMenu();
     setDeleteTarget(paper);
   };
 
@@ -185,15 +224,20 @@ function GeneratorPapers() {
   };
 
   const goPrint = (paper, mode) => {
-    setMenuId(null);
+    closeMenu();
     const url = `/academy/generator/print?id=${encodeURIComponent(paper._id)}&mode=${encodeURIComponent(mode)}`;
     window.open(url, "_blank", "noopener,noreferrer");
   };
 
   const goUpdate = (paper) => {
-    setMenuId(null);
+    closeMenu();
     navigate(`/academy/generator?edit=${paper._id}`);
   };
+
+  const menuPaper = useMemo(
+    () => papers.find((p) => p._id === menuId) || null,
+    [papers, menuId]
+  );
 
   const renderActions = (paper) => (
     <div className="tg-papers-actions-cell">
@@ -202,59 +246,80 @@ function GeneratorPapers() {
         className="tg-papers-kebab"
         aria-label="Paper actions"
         aria-expanded={menuId === paper._id}
-        onClick={() =>
-          setMenuId((id) => (id === paper._id ? null : paper._id))
-        }
+        onClick={(e) => {
+          e.stopPropagation();
+          openMenuFor(paper._id, e.currentTarget);
+        }}
       >
         <MoreVertical className="size-4" />
       </button>
-      {menuId === paper._id ? (
-        <div className="tg-papers-menu" role="menu">
-          <button type="button" role="menuitem" onClick={() => goUpdate(paper)}>
-            <Pencil className="size-3.5" />
-            Update Paper
-          </button>
-          <button
-            type="button"
-            role="menuitem"
-            onClick={() => goPrint(paper, "single")}
-          >
-            <Printer className="size-3.5" />
-            Print Single Copy
-          </button>
-          <button
-            type="button"
-            role="menuitem"
-            onClick={() => goPrint(paper, "double-v")}
-          >
-            <Printer className="size-3.5" />
-            Print 2 Copies (Vertical)
-          </button>
-          <button
-            type="button"
-            role="menuitem"
-            onClick={() => goPrint(paper, "double-h")}
-          >
-            <Printer className="size-3.5" />
-            Print 2 Copies (Horizontal)
-          </button>
-          <button
-            type="button"
-            role="menuitem"
-            className="tg-papers-menu-danger"
-            onClick={() => remove(paper)}
-          >
-            <X className="size-3.5" />
-            Delete Paper
-          </button>
-        </div>
-      ) : null}
     </div>
   );
 
+  const actionsMenu =
+    menuPaper && menuPos
+      ? createPortal(
+          <div
+            ref={menuPanelRef}
+            className="tg-papers-menu tg-papers-menu--portal"
+            role="menu"
+            style={{
+              top: menuPos.top != null ? `${menuPos.top}px` : "auto",
+              bottom:
+                menuPos.bottom != null ? `${menuPos.bottom}px` : "auto",
+              right: `${menuPos.right}px`,
+            }}
+          >
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => goUpdate(menuPaper)}
+            >
+              <Pencil className="size-3.5" />
+              Update Paper
+            </button>
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => goPrint(menuPaper, "single")}
+            >
+              <Printer className="size-3.5" />
+              Print Single Copy
+            </button>
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => goPrint(menuPaper, "double-v")}
+            >
+              <Printer className="size-3.5" />
+              Print 2 Copies (Vertical)
+            </button>
+            <button
+              type="button"
+              role="menuitem"
+              onClick={() => goPrint(menuPaper, "double-h")}
+            >
+              <Printer className="size-3.5" />
+              Print 2 Copies (Horizontal)
+            </button>
+            <button
+              type="button"
+              role="menuitem"
+              className="tg-papers-menu-danger"
+              onClick={() => remove(menuPaper)}
+            >
+              <X className="size-3.5" />
+              Delete Paper
+            </button>
+          </div>,
+          document.body
+        )
+      : null;
+
   return (
     <GeneratorLayout title="Saved Papers" wide>
-      <div className="tg-papers-page space-y-4" ref={menuRef}>
+      {actionsMenu}
+      <div className="tg-papers-page space-y-4" ref={pageRef}>
         <section className="tg-papers-toolbar">
           <div>
             <p className="tg-papers-count">

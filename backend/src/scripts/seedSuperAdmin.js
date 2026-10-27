@@ -51,9 +51,19 @@ const seedSuperAdmin = async () => {
     await connectDB();
 
     const existing = await User.findOne({ email });
+    const forceReset = process.env.SUPER_ADMIN_FORCE_RESET === "1";
 
     if (existing) {
-      console.log(`Super Admin already exists: ${email}`);
+      if (forceReset) {
+        existing.name = name;
+        existing.password = password;
+        existing.role = "super_admin";
+        await existing.save();
+        console.log(`Super Admin password reset for: ${email}`);
+      } else {
+        console.log(`Super Admin already exists: ${email}`);
+        console.log("Tip: set SUPER_ADMIN_FORCE_RESET=1 to update password");
+      }
     } else {
       await User.create({
         name,

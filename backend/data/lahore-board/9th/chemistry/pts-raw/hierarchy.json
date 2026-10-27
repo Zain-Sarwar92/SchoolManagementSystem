@@ -8,18 +8,7 @@
   },
   "subject": {
     "SubjectID": 45,
-    "AdminID": 1,
-    "CourseID": 1,
-    "ClassID": 9,
-    "SubjectName": "Chemistry",
-    "Category": "SNC-2025\t",
-    "ImageUrl": "/images/subjects/638985325993150208.jpg",
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2025-11-12T08:23:19.32",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null,
-    "Class": null
+    "SubjectName": "Chemistry"
   },
   "slug": "chemistry",
   "exportTypes": [
@@ -1577,5 +1566,6 @@
       "Subject": null,
       "Chapter": null
     }
-  ]
+  ],
+  "fetchedAt": "2026-10-27T10:39:59.058Z"
 }

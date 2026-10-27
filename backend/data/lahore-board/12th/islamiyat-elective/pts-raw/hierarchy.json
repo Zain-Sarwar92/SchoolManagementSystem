@@ -37,6 +37,12 @@
       "field": "QA"
     },
     {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    },
+    {
       "id": 17,
       "name": "long-ayat",
       "bankType": "long",

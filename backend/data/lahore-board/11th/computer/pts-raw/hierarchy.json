@@ -9,18 +9,7 @@
   },
   "subject": {
     "SubjectID": 98,
-    "AdminID": 1,
-    "CourseID": 1,
-    "ClassID": 11,
-    "SubjectName": "Computer",
-    "Category": "SNC-2025",
-    "ImageUrl": "/images/subjects/637341220781971210.jpg",
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2025-06-26T12:12:09.53",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null,
-    "Class": null
+    "SubjectName": "Computer"
   },
   "slug": "computer",
   "exportTypes": [
@@ -1206,5 +1195,6 @@
       "Subject": null,
       "Chapter": null
     }
-  ]
+  ],
+  "fetchedAt": "2026-10-27T13:49:24.370Z"
 }

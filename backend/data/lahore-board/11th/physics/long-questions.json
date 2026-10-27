@@ -3,18 +3,8 @@
   "class": "11",
   "subject": "Physics",
   "slug": "physics",
-  "source": "PTS PTB INTER-I (Class 11) Physics (read-only export)",
-  "total_questions": 2182,
-  "counts": {
-    "mcq": 1245,
-    "short": 696,
-    "long": 241
-  },
-  "fieldCounts": {
-    "MCQ": 1245,
-    "QA": 696,
-    "LONG": 241
-  },
+  "type": "long",
+  "total_questions": 266,
   "questions": [
     {
       "id": 410427,
@@ -24,7 +14,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain with example the writing of physical quantities into their dimensions. Write the two benefits."
+      "en": "Explain with example the writing of physical quantities into their dimensions. Write the two benefits.",
+      "ur": null
     },
     {
       "id": 410433,
@@ -34,7 +25,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Astronomers usually measure astronomical distance in light years. One light year is the distance that light travel in one year. If speed of light is 3x108ms-1, what is one light year in metres?"
+      "en": "Astronomers usually measure astronomical distance in light years. One light year is the distance that light travel in one year. If speed of light is 3x10<sup>8</sup>ms<sup>-1</sup>, what is one light year in metres?",
+      "ur": null
     },
     {
       "id": 410434,
@@ -44,7 +36,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Write the estimated answer of the following in standard form. (a) How many second are there in 1 year? (b) How many years are in 1 second?"
+      "en": "Write the estimated answer of the following in standard form. (a) How many second are there in 1 year? (b) How many years are in 1 second?",
+      "ur": null
     },
     {
       "id": 410191,
@@ -54,7 +47,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by uncertainty 1n a measurement? How the uncertainty in a digital instrument is indicated?"
+      "en": "What is meant by uncertainty 1n a measurement? How the uncertainty in a digital instrument is indicated?",
+      "ur": null
     },
     {
       "id": 410425,
@@ -64,7 +58,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The mass of solid cylinder is 12.85 g. Its length is 3.35 cm and diameter is 1.25 cm. Find the density of its material expressing the uncertainty in the density."
+      "en": "The mass of solid cylinder is 12.85 g. Its length is 3.35 cm and diameter is 1.25 cm. Find the density of its material expressing the uncertainty in the density.",
+      "ur": null
     },
     {
       "id": 410440,
@@ -74,7 +69,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Derive a formula for the period of a simple pendulum using dimensional analysis. The various possible factors on which the time period T may depend are: (i) length of the pendulum (ii) Mass of the bob m (iii) angle <img src=\"/pts-media/equations/11th/phynew-chap1-3.svg\" /> which the thread makes with the vertical (iv) acceleration due to gravity g."
+      "en": "Derive a formula for the period of a simple pendulum using dimensional analysis. The various possible factors on which the time period T may depend are: (i) length of the pendulum (ii) Mass of the bob m (iii) angle <img src=\"/Equations/11th/phynew-chap1-3.svg\" alt=\"\" /> which the thread makes with the vertical (iv) acceleration due to gravity g.",
+      "ur": null
     },
     {
       "id": 410420,
@@ -84,7 +80,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by signigicant figures? write two reasons for using them in measurements. How to find the uncertainty in a timing experiment such as the time period of a simple pendulum?"
+      "en": "What is meant by signigicant figures? write two reasons for using them in measurements. How to find the uncertainty in a timing experiment such as the time period of a simple pendulum?",
+      "ur": null
     },
     {
       "id": 410436,
@@ -94,7 +91,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The length and width of a rectangular plate are measured to be 18.3 cm and 14.60 cm, respectively. Find the area of the plate and state the answer to correct number of significant figures."
+      "en": "The length and width of a rectangular plate are measured to be 18.3 cm and 14.60 cm, respectively. Find the area of the plate and state the answer to correct number of significant figures.",
+      "ur": null
     },
     {
       "id": 410192,
@@ -104,7 +102,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Differentiate between the terms precision and accuracy with reference to measurement of physical quantities."
+      "en": "Differentiate between the terms precision and accuracy with reference to measurement of physical quantities.",
+      "ur": null
     },
     {
       "id": 410437,
@@ -114,7 +113,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The diameter and length of a metal cylinder measured with the help of a Vernier Callipers of least count 0.01 cm are 1.22 cm and 5.35 cm respectively. Calculate its volume and uncertainty in it."
+      "en": "The diameter and length of a metal cylinder measured with the help of a Vernier Callipers of least count 0.01 cm are 1.22 cm and 5.35 cm respectively. Calculate its volume and uncertainty in it.",
+      "ur": null
     },
     {
       "id": 410429,
@@ -124,7 +124,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Check the homogeneity of the relation <img src=\"/pts-media/equations/11th/phynew-chap1-1.svg\" />. where v is the speed of transverse wave of a stretched string of tension T, length l and mass m."
+      "en": "Check the homogeneity of the relation <img src=\"/Equations/11th/phynew-chap1-1.svg\" alt=\"\" />. where v is the speed of transverse wave of a stretched string of tension T, length l and mass m.",
+      "ur": null
     },
     {
       "id": 410438,
@@ -134,7 +135,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Show that the expression <img src=\"/pts-media/equations/11th/phynew-chap1-2.svg\" /> is dimensionally correct, where v is the initial velocity. a is the acceleration and Vf is the velocity after covering a distance S. Show that the famous \"Einstein equation E=mc2 is dimensionally consistent."
+      "en": "Show that the expression <img src=\"/Equations/11th/phynew-chap1-2.svg\" alt=\"\" /> is dimensionally correct, where v is the initial velocity. a is the acceleration and V<sub>f</sub> is the velocity after covering a distance S. Show that the famous \"Einstein equation E=mc<sup>2</sup> is dimensionally consistent.",
+      "ur": null
     },
     {
       "id": 410439,
@@ -144,7 +146,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Show that the famous \"Einstein equation E=mc2 is dimensionally consistent."
+      "en": "Show that the famous \"Einstein equation E=mc<sup>2</sup> is dimensionally consistent.",
+      "ur": null
     },
     {
       "id": 410480,
@@ -154,7 +157,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define and explain scalar product. Write down its important characteristics."
+      "en": "Define and explain scalar product. Write down its important characteristics.",
+      "ur": null
     },
     {
       "id": 410481,
@@ -164,7 +168,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define and explain vector product of two vectors. Discuss important characteristics of vector product."
+      "en": "Define and explain vector product of two vectors. Discuss important characteristics of vector product.",
+      "ur": null
     },
     {
       "id": 410490,
@@ -174,7 +179,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The magnitude of cross and scalar products of two vectors are <img src=\"/pts-media/equations/11th/phynew-chap2-1.svg\" />, respectively. Find the angle between the vectors."
+      "en": "The magnitude of cross and scalar products of two vectors are <img src=\"/Equations/11th/phynew-chap2-1.svg\" alt=\"\" />, respectively. Find the angle between the vectors.",
+      "ur": null
     },
     {
       "id": 410492,
@@ -184,7 +190,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "If IA+BI = IA-BI, then prove that A and B are perpendicular to each other."
+      "en": "If IA+BI = IA-BI, then prove that A and B are perpendicular to each other.",
+      "ur": null
     },
     {
       "id": 410482,
@@ -194,7 +201,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Derive three equations of motion by graphical method."
+      "en": "Derive three equations of motion by graphical method.",
+      "ur": null
     },
     {
       "id": 410491,
@@ -204,7 +212,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A helicopter is ascending vertically at the rate of 19.6 m s-1. When it is at a height of 156.8 m above the ground, a stone is dropped. How long does the stone take to reach the ground?"
+      "en": "A helicopter is ascending vertically at the rate of 19.6 m s<sup>-1</sup>. When it is at a height of 156.8 m above the ground, a stone is dropped. How long does the stone take to reach the ground?",
+      "ur": null
     },
     {
       "id": 410484,
@@ -214,7 +223,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is projectile motion? Explain."
+      "en": "What is projectile motion? Explain.",
+      "ur": null
     },
     {
       "id": 410485,
@@ -224,7 +234,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Derive the following expressions for projectile motion: (i) time of flight (ii) height attained (iii) range for projectile."
+      "en": "Derive the following expressions for projectile motion: (i) time of flight (ii) height attained (iii) range for projectile.",
+      "ur": null
     },
     {
       "id": 410496,
@@ -234,7 +245,19 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A cricket ball is hit upward with velocity of 20 m s-1 at an angle of 45o with the ground. Find its: (a) time of flight (b) maximum height (c) how far away it hits the ground."
+      "en": "A cricket ball is hit upward with velocity of 20 m s<sup>-1</sup> at an angle of 45<sup>o</sup> with the ground. Find its: (a) time of flight (b) maximum height (c) how far away it hits the ground.",
+      "ur": null
+    },
+    {
+      "id": 410503,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "An aeroplane is moving horizontally at a speed of 200 ms<sup>-1</sup> at a height of 8 km to drop a bomb on a target. Find horizontal distance from the target at which the bomb should be released.",
+      "ur": null
     },
     {
       "id": 410504,
@@ -244,7 +267,41 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Why does range R of a projectile remain the same when angle of projection is changed from 0 to 0' = 90o - 0. Also show that for complementary angles of projection, the ration R/R' is equal to 1."
+      "en": "Why does range R of a projectile remain the same when angle of projection is changed from 0 to 0' = 90<sup>o</sup> - 0. Also show that for complementary angles of projection, the ration R/R' is equal to 1.",
+      "ur": null
+    },
+    {
+      "id": 410494,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A body of mass M at  rest explodes into 3 pieces, two of which of mass M / 4 each are thrown off in perpendicular directions with velocities of 3 m s<sup>-1</sup> and 4 m s<sup>-1</sup>, respectively. Find the velocity of 3<sup>rd</sup> piece with which it will be flown away.",
+      "ur": null
+    },
+    {
+      "id": 410497,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A 20 g ball hits the wall of a squash court with a constant force of 50 N. If the time of impact of force is 0.50 s, Find the impulse.",
+      "ur": null
+    },
+    {
+      "id": 410499,
+      "chapter": 2,
+      "topic_id": "2.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A ball is kicked by a footballer. The average force on the ball is 240 N, and the impact lasts for a time interval of 0.25 s. (a) Calculate change on momentum (b) State the direction of change in momentum.",
+      "ur": null
     },
     {
       "id": 410506,
@@ -254,7 +311,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A trolley of mass 1.0 kg moving with velocity 1.0 ms-1 collides with a similar trolley at rest: (i) after collision, the 1st trolley comes to rest whereas the second starts moving with velocity of 1.0 m s-1 in the same direction. Show that it is an example of an elastic collision. (ii) After the collision, they stick together and move away with a velocity of 0.5 ms-1. Show that it is an example of an inelastic collision."
+      "en": "A trolley of mass 1.0 kg moving with velocity 1.0 ms<sup>-1</sup> collides with a similar trolley at rest: (i) after collision, the 1<sup>st</sup> trolley comes to rest whereas the second starts moving with velocity of 1.0 m s<sup>-1</sup> in the same direction. Show that it is an example of an elastic collision. (ii) After the collision, they stick together and move away with a velocity of 0.5 ms<sup>-1</sup>. Show that it is an example of an inelastic collision.",
+      "ur": null
     },
     {
       "id": 410486,
@@ -264,7 +322,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain elastic collision in one dimension. Show that magnitude of relative velocities before and after collision are equal."
+      "en": "Explain elastic collision in one dimension. Show that magnitude of relative velocities before and after collision are equal.",
+      "ur": null
     },
     {
       "id": 410489,
@@ -274,7 +333,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain an inelastic collision in one dimensions."
+      "en": "Explain an inelastic collision in one dimensions.",
+      "ur": null
     },
     {
       "id": 410508,
@@ -284,7 +344,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A railway wagon of mass 4 x 104 kg moving with velocity of 3 ms-1 collides with another wagon of mass 2 x 104 kg which is at rest. They stick together and more off together. Find their combined velocity."
+      "en": "A railway wagon of mass 4 x 10<sup>4</sup> kg moving with velocity of 3 ms<sup>-1</sup> collides with another wagon of mass 2 x 10<sup>4</sup> kg which is at rest. They stick together and more off together. Find their combined velocity.",
+      "ur": null
     },
     {
       "id": 410487,
@@ -294,7 +355,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain elastic collision in two dimensions."
+      "en": "Explain elastic collision in two dimensions.",
+      "ur": null
     },
     {
       "id": 410510,
@@ -304,7 +366,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A car with mass 575 kg moves at 15.0 ms-1 smashes into the rear end of a car with mass 1575 kg moves at 5 ms-1 in the same direction. (a) what is the final velocity if the wrecked car lock together? (b) How much kinetic energy is lost in the collision?"
+      "en": "A car with mass 575 kg moves at 15.0 ms<sup>-1</sup> smashes into the rear end of a car with mass 1575 kg moves at 5 ms<sup>-1</sup> in the same direction. (a) what is the final velocity if the wrecked car lock together? (b) How much kinetic energy is lost in the collision?",
+      "ur": null
     },
     {
       "id": 410554,
@@ -314,7 +377,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Prove that (i) <img src=\"/pts-media/equations/11th/phynew-chap3-2.svg\" /> (ii) <img src=\"/pts-media/equations/11th/phynew-chap3-3.svg\" />"
+      "en": "Prove that (i) <img src=\"/Equations/11th/phynew-chap3-2.svg\" alt=\"\" />  (ii) <img src=\"/Equations/11th/phynew-chap3-3.svg\" alt=\"\" />",
+      "ur": null
     },
     {
       "id": 410556,
@@ -324,7 +388,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A laser beam is directed from the Earth to the Moon. If the beam is to have a diameter of 2.50 m at the Moon, how small must divergence angle be for the beam? The distance of Moon from the Earth is 3.8 x 108m."
+      "en": "A laser beam is directed from the Earth to the Moon. If the beam is to have a diameter of 2.50 m at the Moon, how small must divergence angle be for the beam? The distance of Moon from the Earth is 3.8 x 10<sup>8</sup>m.",
+      "ur": null
     },
     {
       "id": 410557,
@@ -334,7 +399,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A car is moving with a speed of 108 km h-1. If its wheel has diameter of 60 cm, find its angular speed in rad s-1 and rev s-1."
+      "en": "A car is moving with a speed of 108 km h<sup>-1</sup>. If its wheel has diameter of 60 cm, find its angular speed in rad s<sup>-1</sup> and rev s<sup>-1</sup>.",
+      "ur": null
     },
     {
       "id": 410559,
@@ -344,7 +410,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An electric motor is running at 1800 rev min-1. On switching off, it comes to rest in 20 s. If angular retardation is uniform. Find the number of revolutions it makes before stopping."
+      "en": "An electric motor is running at 1800 rev min<sup>-1</sup>. On switching off, it comes to rest in 20 s. If angular retardation is uniform. Find the number of revolutions it makes before stopping.",
+      "ur": null
     },
     {
       "id": 410560,
@@ -354,7 +421,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A string 0.5 m long holding a stone can withstand maximum tension of 35.6 N, Find the maximum speed at which a stone of 0.5 kg mass can be whirled with it in a vertical circle."
+      "en": "A string 0.5 m long holding a stone can withstand maximum tension of 35.6 N, Find the maximum speed at which a stone of 0.5 kg mass can be whirled with it in a vertical circle.",
+      "ur": null
     },
     {
       "id": 410549,
@@ -364,7 +432,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What are artificial satellites? Calculate the minimum time period necessary to put a satellite into the orbit near the surface of the Earth."
+      "en": "What are artificial satellites? Calculate the minimum time period necessary to put a satellite into the orbit near the surface of the Earth.",
+      "ur": null
     },
     {
       "id": 410550,
@@ -374,7 +443,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define orbital velocity and derive an expression for the same."
+      "en": "Define orbital velocity and derive an expression for the same.",
+      "ur": null
     },
     {
       "id": 410552,
@@ -384,7 +454,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Write a note of artificial gravity. Derive an expression for frequency with which the spaceship rotate to provide artificial gravity."
+      "en": "Write a note of artificial gravity. Derive an expression for frequency with which the spaceship rotate to provide artificial gravity.",
+      "ur": null
     },
     {
       "id": 410564,
@@ -394,7 +465,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A satellite is orbiting the Earth at an altitude of 200 km. Assuming the Earth's radius is 6400 km. Calculate the orbital speed of the satellite."
+      "en": "A satellite is orbiting the Earth at an altitude of 200 km. Assuming the Earth's radius is 6400 km. Calculate the orbital speed of the satellite.",
+      "ur": null
     },
     {
       "id": 410565,
@@ -404,7 +476,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A space station has a radius of 20 m and rotates at an angular velocity of 0.5 rad s-1. What is the artificial gravity experienced by the astronauts on the space station?"
+      "en": "A space station has a radius of 20 m and rotates at an angular velocity of 0.5 rad s<sup>-1</sup>. What is the artificial gravity experienced by the astronauts on the space station?",
+      "ur": null
     },
     {
       "id": 410548,
@@ -414,7 +487,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define moment of inertia. Prove that torque acting on rotating rigid body is equal to the product of its moment of inertia and angular acceleration."
+      "en": "Define moment of inertia. Prove that torque acting on rotating rigid body is equal to the product of its moment of inertia and angular acceleration.",
+      "ur": null
     },
     {
       "id": 410561,
@@ -424,7 +498,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The flywheel of an engine is rotating at 2100 rev min-1 when the power source is shut off. What torque is required to stop it in 3 minutes? The moment of inertia of the flywheel is 36 kg m2."
+      "en": "The flywheel of an engine is rotating at 2100 rev min<sup>-1</sup> when the power source is shut off. What torque is required to stop it in 3 minutes? The moment of inertia of the flywheel is 36 kg m<sup>2</sup>.",
+      "ur": null
     },
     {
       "id": 410563,
@@ -434,7 +509,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is the moment of inertia of a 200 kg sphere whose diameter is 60 cm?"
+      "en": "What is the moment of inertia of a 200 kg sphere whose diameter is 60 cm?",
+      "ur": null
     },
     {
       "id": 410566,
@@ -444,7 +520,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A bicycle wheel has an angular momentum of 10 kg m2 s-1 and angular velocity of 2 rad s-1 Find the value of its moment of inertia."
+      "en": "A bicycle wheel has an angular momentum of 10 kg m<sup>2</sup> s<sup>-1</sup> and angular velocity of 2 rad s<sup>-1</sup> Find the value of its moment of inertia.",
+      "ur": null
     },
     {
       "id": 410545,
@@ -454,7 +531,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by angular momentum? Explain the law of conservation of angular momentum with daily life examples."
+      "en": "What is meant by angular momentum? Explain the law of conservation of angular momentum with daily life examples.",
+      "ur": null
     },
     {
       "id": 410546,
@@ -464,7 +542,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Show that orbital angular momentum is <img src=\"/pts-media/equations/11th/phynew-chap3-1.svg\" />."
+      "en": "Show that orbital angular momentum is <img src=\"/Equations/11th/phynew-chap3-1.svg\" alt=\"\" />.",
+      "ur": null
     },
     {
       "id": 410568,
@@ -474,7 +553,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A diver comes off a board with arms straight up and legs straight down, giving him a moment of inertia of 18 kg m2 about his rotation axis. Then tucks into a small ball. decreasing his moment of inertia to 3.6 kg m2. While tucked, he makes two complete rotations in 1.0 seconds. If he had not tucked at all, how many revolutions would he have made in 1.5 s from board to water?"
+      "en": "A diver comes off a board with arms straight up and legs straight down, giving him a moment of inertia of 18 kg m<sup>2</sup> about his rotation axis. Then tucks into a small ball. decreasing his moment of inertia to 3.6 kg m<sup>2</sup>. While tucked, he makes two complete rotations in 1.0 seconds. If he had not tucked at all, how many revolutions would he have made in 1.5 s from board to water?",
+      "ur": null
     },
     {
       "id": 410630,
@@ -484,7 +564,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An electrical motor of one horse power is used to run a water pump. water pump takes 15 minutes to fill a tank of 400 litres at a height of 10 m (1 hp 746 watts). Find: (a) actual input work done by electric motor to fill the tank (b) actual output work done."
+      "en": "An electrical motor of one horse power is used to run a water pump. water pump takes 15 minutes to fill a tank of 400 litres at a height of 10 m (1 hp 746 watts). Find: (a) actual input work done by electric motor to fill the tank (b) actual output work done.",
+      "ur": null
     },
     {
       "id": 410613,
@@ -494,7 +575,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "How is work done by a: (i) constant force (ii) variable force?"
+      "en": "How is work done by a: (i) constant force (ii) variable force?",
+      "ur": null
     },
     {
       "id": 410628,
@@ -504,7 +586,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "If an object of mass 2 kg thrown up from ground reaches a height of 5 m and flashback to the Earth (neglecting air resistance), calculate: (i) work done by gravity when the object reaches at 5 m height. (ii) work done by gravity when the object comes back to the Earth (iii) total work done by gravity in upward and downward motion. Also mention physical significance of the result."
+      "en": "If an object of mass 2 kg thrown up from ground reaches a height of 5 m and flashback to the Earth (neglecting air resistance), calculate: (i) work done by gravity when the object reaches at 5 m height. (ii) work done by gravity when the object comes back to the Earth (iii) total work done by gravity in upward and downward motion. Also mention physical significance of the result.",
+      "ur": null
     },
     {
       "id": 410633,
@@ -514,7 +597,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A passenger just arrives at the airport and dragging his suitcase to luggage check in at the desk. He pulls strap with a force of 200 N at an angle of 45o to the floor to displace it 50 m to the desk. Determine the value of work done by him on the suitcase."
+      "en": "A passenger just arrives at the airport and dragging his suitcase to luggage check in at the desk. He pulls strap with a force of 200 N at an angle of 45<sup>o</sup> to the floor to displace it 50 m to the desk. Determine the value of work done by him on the suitcase.",
+      "ur": null
     },
     {
       "id": 410614,
@@ -524,7 +608,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define conservative field. Show that gravitational field is conservative in nature."
+      "en": "Define conservative field. Show that gravitational field is conservative in nature.",
+      "ur": null
     },
     {
       "id": 410626,
@@ -534,7 +619,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An object weighing 98 N is dropped from a height of 10 m. Its speed just before hitting the ground is 12 ms-1. What is the frictional force acting on it?"
+      "en": "An object weighing 98 N is dropped from a height of 10 m. Its speed just before hitting the ground is 12 ms<sup>-1</sup>. What is the frictional force acting on it?",
+      "ur": null
     },
     {
       "id": 410619,
@@ -544,7 +630,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A machine gun is fires 6 bullets per minute with a velocity of 700 ms-1. If each bullet has a mass of 40 g. then find power developed by the gun?"
+      "en": "A machine gun is fires 6 bullets per minute with a velocity of 700 ms<sup>-1</sup>. If each bullet has a mass of 40 g. then find power developed by the gun?",
+      "ur": null
     },
     {
       "id": 410612,
@@ -554,7 +641,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define K.E and derive an expression for the same."
+      "en": "Define K.E and derive an expression for the same.",
+      "ur": null
     },
     {
       "id": 410616,
@@ -564,7 +652,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by absolute P.E? Derive an expression for absolute P.E."
+      "en": "What is meant by absolute P.E? Derive an expression for absolute P.E.",
+      "ur": null
     },
     {
       "id": 410618,
@@ -574,7 +663,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define escape velocity. Show that an expression for escape velocity can be expressed as <img src=\"/pts-media/equations/11th/phynew-chap4-4.svg\" />, where R and g denote radius of the Earth and acceleration due to gravity, respectively. Also find its numerical value near the surface of the Earth."
+      "en": "Define escape velocity. Show that an expression for escape velocity can be expressed as <img src=\"/Equations/11th/phynew-chap4-4.svg\" alt=\"\" />, where R and g denote radius of the Earth and acceleration due to gravity, respectively. Also find its numerical value near the surface of the Earth.",
+      "ur": null
     },
     {
       "id": 410634,
@@ -584,7 +674,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A 1200 kg car is running at a speed of 40 km h-1. How much power will be expended by it to accelerate at 2 ms-2."
+      "en": "A 1200 kg car is running at a speed of 40 km h<sup>-1</sup>. How much power will be expended by it to accelerate at 2 ms<sup>-2</sup>.",
+      "ur": null
     },
     {
       "id": 410635,
@@ -594,7 +685,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A 200 g apple is lifted to 10 m and then dropped. What is the its velocity when it hits the ground? Assume that 75% of work done in lifting the apple if transferred to K.E by the time it hits the ground."
+      "en": "A 200 g apple is lifted to 10 m and then dropped. What is the its velocity when it hits the ground? Assume that 75% of work done in lifting the apple if transferred to K.E by the time it hits the ground.",
+      "ur": null
     },
     {
       "id": 410617,
@@ -604,7 +696,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State and explain work-energy theorem in a resistive medium."
+      "en": "State and explain work-energy theorem in a resistive medium.",
+      "ur": null
     },
     {
       "id": 410624,
@@ -614,7 +707,19 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A family uses of 10 kW of power. Direct solar energy is incident on horizontal surface at an average rate of 300 W per square metre. If 75% of this energy can be converted into needed to supply 10 kW?"
+      "en": "A family uses of 10 kW of power. Direct solar energy is incident on horizontal surface at an average rate of 300 W per square metre. If 75% of this energy can be converted into needed to supply 10 kW?",
+      "ur": null
+    },
+    {
+      "id": 410625,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "The mass of the Earth is 6.0 x 10<sup>24</sup> kg and mass of the Sun is 1.99 x 10<sup>30</sup> kg. The Sun is 160 million km away from the Earth. Find the value of gravitational P.E of the Earth.",
+      "ur": null
     },
     {
       "id": 410627,
@@ -624,7 +729,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A 75 watt fan is used for 8 hours daily fro 30 day. Find: (i) Energy consumed in electrical units. (ii) Electricity bill if one unit costs Rs. 22.5?"
+      "en": "A 75 watt fan is used for 8 hours daily fro 30 day. Find: (i) Energy consumed in electrical units. (ii) Electricity bill if one unit costs Rs. 22.5?",
+      "ur": null
     },
     {
       "id": 410681,
@@ -634,7 +740,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain in detail the classification of solids with respect to atomic arrangements."
+      "en": "Explain in detail the classification of solids with respect to atomic arrangements.",
+      "ur": null
     },
     {
       "id": 410698,
@@ -644,7 +751,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A copper wire of length 3 metres and cross-sectional area of 1 x 10-6 m2 is subjected to a force of 500 N. Calculate the stress and strain produced in the wire. (Young;s modulus of copper Y = 1.1 x 1011 Nm-6)."
+      "en": "A copper wire of length 3 metres and cross-sectional area of 1 x 10<sup>-6</sup> m<sup>2</sup> is subjected to a force of 500 N. Calculate the stress and strain produced in the wire. (Young;s modulus of copper Y = 1.1 x 10<sup>11</sup> Nm<sup>-6</sup>).",
+      "ur": null
     },
     {
       "id": 410692,
@@ -654,7 +762,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A steel wire of length 2 metres and cross-sectional area of 2 x 10-6 m2 by a force of 400 N. If the Young's modulus of steel is 2 x 1011 Nm-2, calculate the extension of the wire."
+      "en": "A steel wire of length 2 metres and cross-sectional area of 2 x 10<sup>-6</sup> m<sup>2</sup> by a force of 400 N. If the Young's modulus of steel is 2 x 10<sup>11</sup> Nm<sup>-2</sup>, calculate the extension of the wire.",
+      "ur": null
     },
     {
       "id": 410697,
@@ -664,7 +773,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A spring with spring constant 200 N m-1 is stretched by 0.5 m. Find the elastic P.E. stored in the spring."
+      "en": "A spring with spring constant 200 N m<sup>-1</sup> is stretched by 0.5 m. Find the elastic P.E. stored in the spring.",
+      "ur": null
     },
     {
       "id": 410682,
@@ -674,7 +784,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is Archimedes principle? Explain it in detail for finding upthrust."
+      "en": "What is Archimedes principle? Explain it in detail for finding upthrust.",
+      "ur": null
     },
     {
       "id": 410700,
@@ -684,7 +795,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A block of wood of mass 10 kg and density of 600 kg m-3 floating in water. Calculate the buoyant force acting on the block. (Density of water = 1000 kg m-3)."
+      "en": "A block of wood of mass 10 kg and density of 600 kg m<sup>-3</sup> floating in water. Calculate the buoyant force acting on the block. (Density of water = 1000 kg m<sup>-3</sup>).",
+      "ur": null
     },
     {
       "id": 410683,
@@ -694,7 +806,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Justify that mass remains conserved when a fluid flows through a pipe."
+      "en": "Justify that mass remains conserved when a fluid flows through a pipe.",
+      "ur": null
     },
     {
       "id": 410686,
@@ -704,7 +817,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State and derive equation of continuity."
+      "en": "State and derive equation of continuity.",
+      "ur": null
     },
     {
       "id": 410687,
@@ -714,7 +828,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State and prove Bernoulli's equation."
+      "en": "State and prove Bernoulli's equation.",
+      "ur": null
     },
     {
       "id": 410688,
@@ -724,7 +839,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Give some practical applications of Bernoulli's equation."
+      "en": "Give some practical applications of Bernoulli's equation.",
+      "ur": null
     },
     {
       "id": 410704,
@@ -734,7 +850,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Water flows through a horizontal pipe with a velocity of 3 ms-1 and pressure of 200,000 pa at point 1. At the nozzle (point 2), the pressure decreases to atmospheric pressure 101,300 pa and the velocity increases to 14 ms-1. Calculate the velocity of the water exiting the nozzle."
+      "en": "Water flows through a horizontal pipe with a velocity of 3 ms<sup>-1</sup> and pressure of 200,000 pa at point 1. At the nozzle (point 2), the pressure decreases to atmospheric pressure 101,300 pa and the velocity increases to 14 ms<sup>-1</sup>. Calculate the velocity of the water exiting the nozzle.",
+      "ur": null
     },
     {
       "id": 410705,
@@ -744,7 +861,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A tank filled with water has a hole at a depth of 5 m from the water surface. Calculate the velocity of water flowing out of the hole."
+      "en": "A tank filled with water has a hole at a depth of 5 m from the water surface. Calculate the velocity of water flowing out of the hole.",
+      "ur": null
     },
     {
       "id": 410690,
@@ -754,7 +872,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define terminal velocity of a body and show that terminal velocity is directly proportional to the square of radius of the body."
+      "en": "Define terminal velocity of a body and show that terminal velocity is directly proportional to the square of radius of the body.",
+      "ur": null
     },
     {
       "id": 410701,
@@ -764,7 +883,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Water flows through a pipe with a diameter of 0.05 m at a velocity of 2 ms-1. If the pipe narrows to a diameter of 0.03 m. Calculate the velocity of water at narrow section."
+      "en": "Water flows through a pipe with a diameter of 0.05 m at a velocity of 2 ms<sup>-1</sup>. If the pipe narrows to a diameter of 0.03 m. Calculate the velocity of water at narrow section.",
+      "ur": null
     },
     {
       "id": 410706,
@@ -774,7 +894,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Calculate the terminal velocity of a spherical raindrop with a radius 0.5 mm falling through the air. (7 for air = 19 x 10-6kg m-1s-1, p=1000 kg m-3 for water)."
+      "en": "Calculate the terminal velocity of a spherical raindrop with a radius 0.5 mm falling through the air. (7 for air = 19 x 10<sup>-6</sup>kg m<sup>-1</sup>s<sup>-1</sup>, p=1000 kg m<sup>-3</sup> for water).",
+      "ur": null
     },
     {
       "id": 410685,
@@ -784,7 +905,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain the term of superfluidity."
+      "en": "Explain the term of superfluidity.",
+      "ur": null
     },
     {
       "id": 410756,
@@ -794,7 +916,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What are the postulates of kinetic theory of gases? Derive a relation for idea gas equation in the form PV=NK8 T from general gas equation."
+      "en": "What are the postulates of kinetic theory of gases? Derive a relation for idea gas equation in the form PV=NK<sub>8</sub> T from general gas equation.",
+      "ur": null
     },
     {
       "id": 410757,
@@ -804,7 +927,19 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State and explain various gas laws."
+      "en": "State and explain various gas laws.",
+      "ur": null
+    },
+    {
+      "id": 410764,
+      "chapter": 6,
+      "topic_id": "6.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "A gas occupies 60. L of volume at a pressure of 12 atm. What will be the volume of gas if the pressure is increased by 2.0 atm, assuming that temperature remains constant?",
+      "ur": null
     },
     {
       "id": 410766,
@@ -814,7 +949,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "In a vacuum chamber which is connected to a cryogenic pump, pressure as low as 1,00 npa is being attained. Calculate the number of molecules in 1.00 m3 vessel at this pressure and temperature of 300 K."
+      "en": "In a vacuum chamber which is connected to a cryogenic pump, pressure as low as 1,00 npa is being attained. Calculate the number of molecules in 1.00 m<sup>3</sup> vessel at this pressure and temperature of 300 K.",
+      "ur": null
     },
     {
       "id": 410776,
@@ -824,7 +960,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A gas occupies 400 mL at 20oC. What volume will it occupy at 80oC, assuming constant pressure?"
+      "en": "A gas occupies 400 mL at 20<sup>o</sup>C. What volume will it occupy at 80<sup>o</sup>C, assuming constant pressure?",
+      "ur": null
     },
     {
       "id": 410777,
@@ -834,7 +971,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A gas has pressure of 2 atm at 300 K. What pressure will it have at 450 K, assuming constant volume."
+      "en": "A gas has pressure of 2 atm at 300 K. What pressure will it have at 450 K, assuming constant volume.",
+      "ur": null
     },
     {
       "id": 410758,
@@ -844,7 +982,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain first law of thermodynamics in detail. Give an example in support to your explanation. Give its two applications."
+      "en": "Explain first law of thermodynamics in detail. Give an example in support to your explanation. Give its two applications.",
+      "ur": null
     },
     {
       "id": 410768,
@@ -854,7 +993,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A gas undergoes a thermodynamics process where it absorbs 500 j of heat energy and performs 300 j work on its surroundings. calculate the change in internal energy of the gas."
+      "en": "A gas undergoes a thermodynamics process where it absorbs 500 j of heat energy and performs 300 j work on its surroundings. calculate the change in internal energy of the gas.",
+      "ur": null
     },
     {
       "id": 410761,
@@ -864,7 +1004,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is Carnot engine? Describe Carnot cycle. State Carnot theorem and derive an expression for efficiency of Carnot engine."
+      "en": "What is Carnot engine? Describe Carnot cycle. State Carnot theorem and derive an expression for efficiency of Carnot engine.",
+      "ur": null
     },
     {
       "id": 410770,
@@ -874,7 +1015,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A Carnot engine is operating between a high temperature reservoir at 600 k and a low temperature reservoir at 300 K. Calculate: (i) the maximum possible efficiency (ii) the amount of work output if the engine absorb 500 j of heat from the high temperature reservoir."
+      "en": "A Carnot engine is operating between a high temperature reservoir at 600 k and a low temperature reservoir at 300 K. Calculate: (i) the maximum possible efficiency  (ii) the amount of work output if the engine absorb 500 j of heat from the high temperature reservoir.",
+      "ur": null
     },
     {
       "id": 410759,
@@ -884,7 +1026,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is refrigerator? Explain it working. Derive an expression for its coefficient of performance."
+      "en": "What is refrigerator? Explain it working. Derive an expression for its coefficient of performance.",
+      "ur": null
     },
     {
       "id": 410772,
@@ -894,7 +1037,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A refrigerator extracts 1200 j of heat from its interior (the cold reservoir) and release 1800 j of heat to the surrounding environment (the hot reservoir) during each cycle. Calculate: (i) the work input required per cycle (ii) the coefficient of performance (COP) of the refrigerator."
+      "en": "A refrigerator extracts 1200 j of heat from its interior (the cold reservoir) and release 1800 j of heat to the surrounding environment (the hot reservoir) during each cycle. Calculate: (i) the work input required per cycle (ii) the coefficient of performance (COP) of the refrigerator.",
+      "ur": null
     },
     {
       "id": 410762,
@@ -904,7 +1048,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define and explain the term \"Entropy\"."
+      "en": "Define and explain the term \"Entropy\".",
+      "ur": null
     },
     {
       "id": 410774,
@@ -914,7 +1059,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Calculate the entropy change when 1.0 moles of ice at 0oC melts from liquid water at the same temperature . (Heat of fusion of ice per mole= 6.01x103 j)."
+      "en": "Calculate the entropy change when 1.0 moles of ice at 0<sup>o</sup>C melts from liquid water at the same temperature . (Heat of fusion of ice per mole= 6.01x10<sup>3</sup> j).",
+      "ur": null
     },
     {
       "id": 410967,
@@ -924,7 +1070,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State and explain the principle of superposition of waves. Apply this principle to elaborate the working of noise canceling headphones."
+      "en": "State and explain the principle of superposition of waves. Apply this principle to elaborate the working of noise canceling headphones.",
+      "ur": null
     },
     {
       "id": 410970,
@@ -934,7 +1081,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What are standing waves? Illustrate a detailed experiment that demonstrates the standing waves using stretched strings."
+      "en": "What are standing waves? Illustrate a detailed experiment that demonstrates the standing waves using stretched strings.",
+      "ur": null
     },
     {
       "id": 410971,
@@ -944,7 +1092,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Find the frequencies of the harmonics produced in organ pipe when it is open at one end and when it is open at both ends."
+      "en": "Find the frequencies of the harmonics produced in organ pipe when it is open at one end and when it is open at both ends.",
+      "ur": null
     },
     {
       "id": 410977,
@@ -954,7 +1103,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The speed of a wave on a typical string is 24 ms-¹. What driving frequency will it resonate if its length is 6.0 m?"
+      "en": "The speed of a wave on a typical string is 24 ms<sup>-</sup>¹. What driving frequency will it resonate if its length is 6.0 m?",
+      "ur": null
     },
     {
       "id": 410992,
@@ -964,7 +1114,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An organ pipe has a length of 1m.Determine the frequencies of the fundamental and the first two harmonics:(a) if the pipe is open at both ends and (b) if the pipe is closed at one end.(Speed of sound in air is 340ms-1)"
+      "en": "An organ pipe has a length of 1m.Determine the frequencies of the fundamental and the first two harmonics:(a) if the pipe is open at both ends and (b) if the pipe is closed at one end.(Speed of sound in air is 340ms<sup>-1</sup>)",
+      "ur": null
     },
     {
       "id": 410972,
@@ -974,7 +1125,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define and exemplify diffraction of waves. Describe this phenomenon by ripple tank experiment."
+      "en": "Define and exemplify diffraction of waves. Describe this phenomenon by ripple tank experiment.",
+      "ur": null
     },
     {
       "id": 410973,
@@ -984,7 +1136,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by the term beats? Prove that number of beats per second is equal to the difference between the frequencies of vibrating tuning forks."
+      "en": "What is meant by the term beats? Prove that number of beats per second is equal to the difference between the frequencies of vibrating tuning forks.",
+      "ur": null
     },
     {
       "id": 410979,
@@ -994,7 +1147,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The lowest resonance frequency for a guitar string of length 0.75 m is 400 Hz. Calculate the speed of a transverse wave on the string."
+      "en": "The lowest resonance frequency for a guitar string of length 0.75 m is 400 Hz. Calculate the speed of a transverse wave on the string.",
+      "ur": null
     },
     {
       "id": 410980,
@@ -1004,7 +1158,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A tuning fork A produces 4 beats per second with another tuning fork B. It is found that by loading B with some wax, the beat frequency increases to 6 beats per second. If the frequency of A is 320 Hz, determine the frequency of B when loaded."
+      "en": "A tuning fork A produces 4 beats per second with another tuning fork B. It is found that by loading B with some wax, the beat frequency increases to 6 beats per second. If the frequency of A is 320 Hz, determine the frequency of B when loaded.",
+      "ur": null
     },
     {
       "id": 410984,
@@ -1014,7 +1169,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "(a) If the intensity of a wave is16W m-2 and the amplitude is 2m, what is the value of constant k? (b) If the intensity of a wave is 25 W m-² and the constant k is 5W m-4,what is the amplitude?"
+      "en": "(a) If the intensity of a wave is16W m<sup>-2 </sup>and the amplitude is 2m, what is the value of constant k?<br /><br />(b) If the intensity of a wave is 25 W m<sup>-</sup>² and the constant k is 5W m<sup>-4</sup>,what is the amplitude?",
+      "ur": null
     },
     {
       "id": 410993,
@@ -1024,7 +1180,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A train is approaching a station at 90 km h-1sounding a whistle of frequency1000 Hz. What will be the apparent frequency of the whistle as heard by a listener sitting on the platform?What will be the apparent frequency heard by the same listener if the train moves away from the station with the same speed?(Speed of sound is 340ms-1)"
+      "en": "A train is approaching a station at 90 km h<sup>-1</sup>sounding a whistle of frequency1000 Hz. What will be the apparent frequency of the whistle as heard by a listener sitting on the platform?What will be the apparent frequency heard by the same listener if the train moves away from the station with the same speed?(Speed of sound is 340ms<sup>-1</sup>)",
+      "ur": null
     },
     {
       "id": 410982,
@@ -1034,7 +1191,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A steel wire hangs vertically from a fixed point, supporting a weight of 80 N at its lower end, The diameter of the wire is 0.50 mm and its length from the fixed point to the weight is 1.5 m. Calculate the fundamental frequency emitted by the wire when it is plucked. Density of steel wire is 7.8 x 103 kg m-3"
+      "en": "A steel wire hangs vertically from a fixed point, supporting a weight of 80 N at its lower end, The diameter of the wire is 0.50 mm and its length from the fixed point to the weight is 1.5 m. Calculate the fundamental frequency emitted by the wire when it is plucked. Density of steel wire is 7.8 x 10<sup>3</sup> kg m<sup>-3</sup>",
+      "ur": null
     },
     {
       "id": 410983,
@@ -1044,7 +1202,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Average intensity of sunlight on the surface of the Earth is nearly 500 W m-². Determine the amount of energy that falls on a solar panel having an area of 0.5 m2 in four hours."
+      "en": "Average intensity of sunlight on the surface of the Earth is nearly 500 W m<sup>-</sup>². Determine the amount of energy that falls on a solar panel having an area of 0.5 m<sup>2</sup> in four hours.",
+      "ur": null
     },
     {
       "id": 410986,
@@ -1054,7 +1213,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "(a) A sound system produces 200 watts of power the sound is directed at a crowd with an area of 150m2,what is the intensity of the sound? (b) A light bulb emits 100 watts of power.If the light is spread out evenly over a sphere with a surface area of 400m2 ,what is the intensity of the light?"
+      "en": "(a) A sound system produces 200 watts of power the sound is directed at a crowd with an area of 150m<sup>2</sup>,what is the intensity of the sound?<br /><br />(b) A light bulb emits 100 watts of power.If the light is spread out evenly over a sphere with a surface area of 400m<sup>2</sup> ,what is the intensity of the light?",
+      "ur": null
     },
     {
       "id": 410990,
@@ -1064,7 +1224,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A radio antenna broadcasts 500 watts of power. If the signal is received at a distance of 10 km, what is the intensity of the signal?"
+      "en": "A radio antenna broadcasts 500 watts of power. If the signal is received at a distance of 10 km, what is the intensity of the signal?",
+      "ur": null
     },
     {
       "id": 410974,
@@ -1074,7 +1235,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What do you understand by progressive waves? Discuss the intensity of progressive waves."
+      "en": "What do you understand by progressive waves? Discuss the intensity of progressive waves.",
+      "ur": null
     },
     {
       "id": 410975,
@@ -1084,7 +1246,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Keeping in mind \"Doppler effect\", analyze the following cases:(a) when source of sound moves away from the stationary observer.(b) when source of sound moves towards the stationary observer"
+      "en": "Keeping in mind \"Doppler effect\", analyze the following cases:(a) when source of sound moves away from the stationary observer.(b) when source of sound moves towards the stationary observer",
+      "ur": null
     },
     {
       "id": 411041,
@@ -1094,7 +1257,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Define the phenomenon of polarization of waves. How does polarization of electromagnetic waves occur?"
+      "en": "Define the phenomenon of polarization of waves. How does polarization of electromagnetic waves occur?",
+      "ur": null
     },
     {
       "id": 411042,
@@ -1104,7 +1268,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "How can the plane polarized light be produced and detected? What does it prove?"
+      "en": "How can the plane polarized light be produced and detected? What does it prove?",
+      "ur": null
     },
     {
       "id": 411046,
@@ -1114,7 +1279,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "How can polarized light be obtained by the method of reflection? Explain."
+      "en": "How can polarized light be obtained by the method of reflection? Explain.",
+      "ur": null
     },
     {
       "id": 411062,
@@ -1124,7 +1290,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "At what angle of incidence, will light reflected from water be completely polarized?"
+      "en": "At what angle of incidence, will light reflected from water be completely polarized?",
+      "ur": null
     },
     {
       "id": 411066,
@@ -1134,7 +1301,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A polarizer and an analyzer have their axes aligned at 60o.What is the fraction of the initial intensity that emerges?"
+      "en": "A polarizer and an analyzer have their axes aligned at 60<sup>o</sup>.What is the fraction of the initial intensity that emerges?",
+      "ur": null
     },
     {
       "id": 411047,
@@ -1144,7 +1312,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State Malus's law. Explain the intensity formula."
+      "en": "State Malus's law. Explain the intensity formula.",
+      "ur": null
     },
     {
       "id": 411048,
@@ -1154,7 +1323,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is a polaroid? Explain two main applications of polarization."
+      "en": "What is a polaroid? Explain two main applications of polarization.",
+      "ur": null
     },
     {
       "id": 411052,
@@ -1164,7 +1334,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by optical activity? Discuss it."
+      "en": "What is meant by optical activity? Discuss it.",
+      "ur": null
     },
     {
       "id": 411053,
@@ -1174,7 +1345,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "When an unpolarized light of intensity lo is incident on a polarizing sheet, find the intensity of light which does not get transmitted."
+      "en": "When an unpolarized light of intensity lo is incident on a polarizing sheet, find the intensity of light which does not get transmitted.",
+      "ur": null
     },
     {
       "id": 411055,
@@ -1184,7 +1356,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A polarized light beam passes through a polarizer at an angle of 45o Find the intensity of the transmitted light if the initial intensity is 100 Wm-2"
+      "en": "A polarized light beam passes through a polarizer at an angle of 45<sup>o </sup>Find the intensity of the transmitted light if the initial intensity is 100 Wm<sup>-2</sup>",
+      "ur": null
     },
     {
       "id": 411056,
@@ -1194,7 +1367,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A light wave passes through a polarizer with its electric field aligned at 30 deg to the horizontal. If the amplitude of the wave is 10 units, what is the amplitude of the wave passing through the polarizer?"
+      "en": "A light wave passes through a polarizer with its electric field aligned at 30 deg to the horizontal. If the amplitude of the wave is 10 units, what is the amplitude of the wave passing through the polarizer?",
+      "ur": null
     },
     {
       "id": 411058,
@@ -1204,7 +1378,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An unpolarized light having intensity of 15 Wm-2 is incident on a pair of polarizers.The first polaroid filter has its transmission axis at 50 deg from the vertical. The second polaroid filter has its transmission axis at 20o from the vertical. Calculate the intensity of light transmitted to both filters."
+      "en": "An unpolarized light having intensity of 15 Wm<sup>-2</sup> is incident on a pair of polarizers.The first polaroid filter has its transmission axis at 50 deg from the vertical. The second polaroid filter has its transmission axis at 20<sup>o</sup> from the vertical. Calculate the intensity of light transmitted to both filters.",
+      "ur": null
     },
     {
       "id": 411060,
@@ -1214,7 +1389,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What angle is required between the direction of polaroid light and the axis of a polaroid filter to reduce its intensity by 85%?"
+      "en": "What angle is required between the direction of polaroid light and the axis of a polaroid filter to reduce its intensity by 85%?",
+      "ur": null
     },
     {
       "id": 411061,
@@ -1224,7 +1400,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Two polarizing sheets have their polarizing directions parallel so that intensity of emitted light is maximum. Through what angle must either sheet be rotated if the intensity is to be dropped by half?"
+      "en": "Two polarizing sheets have their polarizing directions parallel so that intensity of emitted light is maximum. Through what angle must either sheet be rotated if the intensity is to be dropped by half?",
+      "ur": null
     },
     {
       "id": 411063,
@@ -1234,7 +1411,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A beam of unpolarized light is incident on a stack of four polarizing sheets that are lined up so that the characteristic direction of each is rotated by 30o clockwise with respect to the preceding sheet. What fraction in percentage of the incident intensity be transmitted?"
+      "en": "A beam of unpolarized light is incident on a stack of four polarizing sheets that are lined up so that the characteristic direction of each is rotated by 30<sup>o</sup> clockwise with respect to the preceding sheet. What fraction in percentage of the incident intensity be transmitted?",
+      "ur": null
     },
     {
       "id": 411064,
@@ -1244,7 +1422,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "We wish to use a glass plate of refractive index of 1.5 in air as a polarizer. Find the polarizing angle and angle of refraction."
+      "en": "We wish to use a glass plate of refractive index of 1.5 in air as a polarizer. Find the polarizing angle and angle of refraction.",
+      "ur": null
     },
     {
       "id": 411050,
@@ -1254,7 +1433,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What are gravitational waves? Describe the basic types of gravitational waves."
+      "en": "What are gravitational waves? Describe the basic types of gravitational waves.",
+      "ur": null
     },
     {
       "id": 411068,
@@ -1264,7 +1444,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "If the gravitational waves have a wavelength of 3000 km, then find their frequency assuming it moves with the speed of light?"
+      "en": "If the gravitational waves have a wavelength of 3000 km, then find their frequency assuming it moves with the speed of light?",
+      "ur": null
     },
     {
       "id": 411051,
@@ -1274,7 +1455,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is an interferometer? Describe the basic LIGO interferometer in detail."
+      "en": "What is an interferometer? Describe the basic LIGO interferometer in detail.",
+      "ur": null
     },
     {
       "id": 411119,
@@ -1284,7 +1466,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Two unequal point charges repel each other with a force of 0.4 N when they are 5.0 cm apart. Find the force which each charge exerts on the other when they are (a) 2.5 cm apart (b) 15.0 cm apart."
+      "en": "Two unequal point charges repel each other with a force of 0.4 N when they are 5.0 cm apart. Find the force which each charge exerts on the other when they are (a) 2.5 cm apart (b) 15.0 cm apart.",
+      "ur": null
     },
     {
       "id": 411122,
@@ -1294,7 +1477,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The electron and proton in a hydrogen atom are separated (on the average) by a distance of approximately 5.3 x 10-11m. Find the ratio of the electric force and the gravitational force between the electron and proton in this state."
+      "en": "The electron and proton in a hydrogen atom are separated (on the average) by a distance of approximately 5.3 x 10<sup>-11</sup>m. Find the ratio of the electric force and the gravitational force between the electron and proton in this state.",
+      "ur": null
     },
     {
       "id": 411126,
@@ -1304,7 +1488,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An electron enters the region of a uniform electric filed, with v = 2.99x106 m s-1 and E = 300NC-1 The horizontal length of the plates is 10.0 cm. Find the acceleration of the electron while it is in the electric field. How long will it take to pass through the field?"
+      "en": "An electron enters the region of a uniform electric filed, with v = 2.99x10<sup>6</sup> m s<sup>-1</sup> and E = 300NC<sup>-1</sup> The horizontal length of the plates is 10.0 cm. Find the acceleration of the electron while it is in the electric field. How long will it take to pass through the field?",
+      "ur": null
     },
     {
       "id": 411128,
@@ -1314,7 +1499,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A disc of 10cm2 area is placed in a vertical electric field E = 5x10 ^ 5 * N C-1.If the plane of the disc makes an angle of 30o with the horizontal, determine the electric flux through the disc."
+      "en": "A disc of 10cm<sup>2</sup> area is placed in a vertical electric field E=5 x 10<sup>6</sup> NC<sup>-1</sup>.If the plane of the disc makes an angle of 30<sup>o</sup> with the horizontal, determine the electric flux through the disc.",
+      "ur": null
     },
     {
       "id": 411113,
@@ -1324,7 +1510,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain the electric potential and prove that electric field intensity is equal to the negative of potential gradient."
+      "en": "Explain the electric potential and prove that electric field intensity is equal to the negative of potential gradient.",
+      "ur": null
     },
     {
       "id": 411133,
@@ -1334,7 +1521,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "During an experiment, a copper wire of 50 m long and 150<img src=\"/pts-media/equations/11th/phynew-chap9-9.svg\" /> thick is hung vertically. Then a current of 1 A is passed across its ends for 50 s. Find the resistance of the wire and the heat. dissipated during this process. [Resistivity of copper is <img src=\"/pts-media/equations/11th/phynew-chap9-10.svg\" />"
+      "en": "During an experiment, a copper wire of 50 m long and 150<img src=\"/Equations/11th/phynew-chap9-9.svg\" alt=\"\" /> thick is hung vertically. Then a current of 1 A is passed across its ends for 50 s. Find the resistance of the wire and the heat. dissipated during this process. [Resistivity of copper is <img src=\"/Equations/11th/phynew-chap9-10.svg\" alt=\"\" />",
+      "ur": null
     },
     {
       "id": 411120,
@@ -1344,7 +1532,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A particle of charge +20 <img src=\"/pts-media/equations/11th/phynew-chap9-1.svg\" />C is placed between two parallel plates, 10 cm apart and having a potential difference of 0.5 kV between them. Calculate the electric field between the plates, and the electric force exerted on the charged particle."
+      "en": "A particle of charge +20 <img src=\"/Equations/11th/phynew-chap9-1.svg\" alt=\"\" />C is placed between two parallel plates, 10 cm apart and having a potential difference of 0.5 kV between them. Calculate the electric field between the plates, and the electric force exerted on the charged particle.",
+      "ur": null
     },
     {
       "id": 411130,
@@ -1354,7 +1543,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A circular copper rod is 50 cm long and has 1 cm diameter. Find the resistance across its ends. What should be the side of square cross-section of a 50 cm long tungsten rod if its resistance is the same? [Resistivity of copper is 1<img src=\"/pts-media/equations/11th/phynew-chap9-7.svg\" /> and that of tungsten is <img src=\"/pts-media/equations/11th/phynew-chap9-8.svg\" />"
+      "en": "A circular copper rod is 50 cm long and has 1 cm diameter. Find the resistance across its ends. What should be the side of square cross-section of a 50 cm long tungsten rod if its resistance is the same? [Resistivity of copper is 1<sub><img src=\"/Equations/11th/phynew-chap9-7.svg\" alt=\"\" /></sub> and that of tungsten is <img src=\"/Equations/11th/phynew-chap9-8.svg\" alt=\"\" />",
+      "ur": null
     },
     {
       "id": 411131,
@@ -1364,7 +1554,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The copper winding of an electric fan has a resistance of 50 at 30o C After running for some time, the resistance becomes 52.How much is the increase in temperature of the winding? [For copper a = 0.0039K-1]"
+      "en": "The copper winding of an electric fan has a resistance of 50 at 30<sup>o</sup> C After running for some time, the resistance becomes 52.How much is the increase in temperature of the winding? [For copper a = 0.0039K<sup>-1</sup>]",
+      "ur": null
     },
     {
       "id": 411134,
@@ -1374,7 +1565,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The emf of a battery is 12 V. It is connected to a <img src=\"/pts-media/equations/11th/phynew-chap9-11.svg\" /> resistor. If the internal resistance of the battery is <img src=\"/pts-media/equations/11th/phynew-chap9-12.svg\" />, what will be the terminal voltage across the battery?"
+      "en": "The emf of a battery is 12 V. It is connected to a <sub><img src=\"/Equations/11th/phynew-chap9-11.svg\" alt=\"\" /></sub> resistor. If the internal resistance of the battery is <sub><img src=\"/Equations/11th/phynew-chap9-12.svg\" alt=\"\" /></sub>, what will be the terminal voltage across the battery?",
+      "ur": null
     },
     {
       "id": 411114,
@@ -1384,7 +1576,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State and explain Kirchhoff's rules."
+      "en": "State and explain Kirchhoff's rules.",
+      "ur": null
     },
     {
       "id": 411115,
@@ -1394,7 +1587,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is a Wheatstone bridge? Explain its working with the help of a diagram."
+      "en": "What is a Wheatstone bridge? Explain its working with the help of a diagram.",
+      "ur": null
     },
     {
       "id": 411118,
@@ -1404,7 +1598,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is a potentiometer? Describe its working."
+      "en": "What is a potentiometer? Describe its working.",
+      "ur": null
     },
     {
       "id": 411117,
@@ -1414,7 +1609,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is a light dependent resistor (LDR)? How can this be used as ON-OFF switch for lighting?"
+      "en": "What is a light dependent resistor (LDR)? How can this be used as ON-OFF switch for lighting?",
+      "ur": null
     },
     {
       "id": 411209,
@@ -1424,7 +1620,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Find an expression for the force exerted on a current-carrying conductor placed in a uniform magnetic field."
+      "en": "Find an expression for the force exerted on a current-carrying conductor placed in a uniform magnetic field.",
+      "ur": null
     },
     {
       "id": 411208,
@@ -1434,7 +1631,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Distinguish between magnetic flux and flux density. How are they related?"
+      "en": "Distinguish between magnetic flux and flux density. How are they related?",
+      "ur": null
     },
     {
       "id": 411248,
@@ -1444,7 +1642,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A current-carrying conductor PQ of length 2 m is placed perpendicularly to a magnetic field of flux density 0.5 T as shown in the figure. The resulting force on the conductor is 1 N acting into the plane of the paper. What is the magnitude and direction of the current? <img src=\"/pts-media/equations/11th/phynew-chap10-4.png\" style=\"zoom:60%;\" />"
+      "en": "A current-carrying conductor PQ of length 2 m is placed perpendicularly to a magnetic field of flux density 0.5 T as shown in the figure. The resulting force on the conductor is 1 N acting into the plane of the paper. What is the magnitude and direction of the current?<br /><br /><img src=\"/Equations/11th/phynew-chap10-4.png\" alt=\"\" />",
+      "ur": null
     },
     {
       "id": 411212,
@@ -1454,7 +1653,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Determine the force acting on a charged particle moving through a uniform magnetic field."
+      "en": "Determine the force acting on a charged particle moving through a uniform magnetic field.",
+      "ur": null
     },
     {
       "id": 411219,
@@ -1464,7 +1664,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A positively charged particle is projected perpendicularly into a magnetic field at a speed of 1500 m s-¹. It experiences a force of magnitude F. At what angle with the field, the particle should be projected at a speed of 2000 m s-¹, so that it experiences the same magnitude of force?"
+      "en": "A positively charged particle is projected perpendicularly into a magnetic field at a speed of 1500 m s<sup>-</sup>¹. It experiences a force of magnitude F. At what angle with the field, the particle should be projected at a speed of 2000 m s<sup>-</sup>¹, so that it experiences the same magnitude of force?",
+      "ur": null
     },
     {
       "id": 411222,
@@ -1474,7 +1675,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Electrons are accelerated from rest through a potential difference of 15 kV in an oscilloscope. The electrons then pass through a 0.35 T magnetic field that deflects them to the desired position on the screen. Find the magnitude of the maximum force that an electron can experience."
+      "en": "Electrons are accelerated from rest through a potential difference of 15 kV in an oscilloscope. The electrons then pass through a 0.35 T magnetic field that deflects them to the desired position on the screen. Find the magnitude of the maximum force that an electron can experience.",
+      "ur": null
     },
     {
       "id": 411231,
@@ -1484,7 +1686,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A copper ring has a radius of 4.0 cm and resistance of 1.0 (eq). A magnetic field is applied over the ring, perpendicular to its plane. If the magnetic field increases from 0.2 T to 0.4 T in a time interval of 5 x 10-3s, what is current in the ring during the interval?"
+      "en": "A copper ring has a radius of 4.0 cm and resistance of 1.0m <img src=\"/Equations/11th/phynew-chap10-11.svg\" alt=\"\" />. A magnetic field is applied over the ring, perpendicular to its plane. If the magnetic field increases from 0.2 T to 0.4 T in a time interval of 5 x 10<sup>-3</sup>s, what is current in the ring during the interval?",
+      "ur": null
     },
     {
       "id": 411235,
@@ -1494,7 +1697,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A proton is accelerated by a potential difference of 6 x 105 volts. It then enters perpendicularly in a uniform magnetic field B = 1.0 weber m-2 ,Find the radius of curvature of the path of the proton. m = 1.67x10-27kg, e = 1.6x10-19C."
+      "en": "A proton is accelerated by a potential difference of 6 x 105 volts. It then enters perpendicularly in a uniform magnetic field B = 1.0 weber m<sup>-2 ,</sup>Find the radius of curvature of the path of the proton. m = 1.67x10<sup>-27</sup>kg, e = 1.6x10<sup>-19</sup>C.",
+      "ur": null
     },
     {
       "id": 411239,
@@ -1504,7 +1708,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A proton enters a uniform magnetic field B = 0.3 weber m-2 in a direction making an angle 45o with the magnetic field. What will be the radius of the circular path if the velocity of proton is 104 m s-1"
+      "en": "A proton enters a uniform magnetic field B = 0.3 weber m<sup>-2</sup> in a direction making an angle 45<sup>o</sup> with the magnetic field. What will be the radius of the circular path if the velocity of proton is 10<sup>4</sup> m s<sup>-1</sup>",
+      "ur": null
     },
     {
       "id": 411252,
@@ -1514,7 +1719,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A charged particle moves through a velocity selector at a constant velocity of 4.96 x 104 m s-1 in a direction perpendicular to both E and B. If the magnetic field strength is 0.114 T, what should be the magnitude of electric field intensity so that the particle moves undeflected?"
+      "en": "A charged particle moves through a velocity selector at a constant velocity of 4.96 x 10<sup>4</sup>  m s<sup>-1</sup> in a direction perpendicular to both E and B. If the magnetic field strength is 0.114 T, what should be the magnitude of electric field intensity so that the particle moves undeflected?",
+      "ur": null
     },
     {
       "id": 411213,
@@ -1524,7 +1730,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is a velocity selector? Explain its working."
+      "en": "What is a velocity selector? Explain its working.",
+      "ur": null
     },
     {
       "id": 411211,
@@ -1534,7 +1741,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State and explain Faraday's law . Also describe factors affecting the induced emf."
+      "en": "State and explain Faraday's law . Also describe factors affecting the induced emf.",
+      "ur": null
     },
     {
       "id": 411226,
@@ -1544,7 +1752,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A square coil of side 15 cm each consists of 60 turns. Initially, it is located in a uniform magnetic field of magnitude 0.8 T such that plane of the coil is perpendicular to the field. The coil is then turned through an angle of <img src=\"/pts-media/equations/11th/phynew-chap10-2.svg\" /> in a time of 2 s. Determine the average induced emf."
+      "en": "A square coil of side 15 cm each consists of 60 turns. Initially, it is located in a uniform magnetic field of magnitude 0.8 T such that plane of the coil is perpendicular to the field. The coil is then turned through an angle of <sub><img src=\"/Equations/11th/phynew-chap10-2.svg\" alt=\"\" /></sub> in a time of 2 s. Determine the average induced emf.",
+      "ur": null
     },
     {
       "id": 411227,
@@ -1554,7 +1763,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A metallic rod is moving through a uniform magnetic field of 0.2 T. The emf induced across its ends is found to be 0.8 V. It is required to induce an emf of 2.4 V across its ends. How much field strength is needed for this?"
+      "en": "A metallic rod is moving through a uniform magnetic field of 0.2 T. The emf induced across its ends is found to be 0.8 V. It is required to induce an emf of 2.4 V across its ends. How much field strength is needed for this?",
+      "ur": null
     },
     {
       "id": 411230,
@@ -1564,7 +1774,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A coil of 10 turns and 35 cm2 area is perpendicular magnetic field of 0.5 T. the coil is pulled out of the field in 1.0 s. Find the induced emf in the coil as it is pulled out of the field."
+      "en": "A coil of 10 turns and 35 cm<sup>2</sup> area is perpendicular magnetic field of 0.5 T. the coil is pulled out of the field in 1.0 s. Find the induced emf in the coil as it is pulled out of the field.",
+      "ur": null
     },
     {
       "id": 411243,
@@ -1574,7 +1785,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Three identical conducting rods L1,L2 and L3are moving in different planes with the same speeds v1 = v2 = v3 = 2.5 m s-1 as shown in the figure.The length of each rod is 60 cm. A constant magnetic field of magnitude B = 0.5T is directed along z-axis. Find the magnitude of emf induced in each rod and indicate which end of the rod is positive. <img src=\"/pts-media/equations/11th/phynew-chap10-6.png\" style=\"zoom:60%;\" />"
+      "en": "Three identical conducting rods L<sub>1,</sub>L<sub>2</sub> and L<sub>3</sub>are moving in different planes with the same speeds v<sub>1</sub> = v<sub>2</sub> = v<sub>3</sub> = 2.5 m s<sup>-1</sup> as shown in the figure.The length of each rod is 60 cm. A constant magnetic field of magnitude B = 0.5T is directed along z-axis. Find the magnitude of emf induced in each rod and indicate which end of the rod is positive. <img src=\"/Equations/11th/phynew-chap10-6.png\" alt=\"\" />",
+      "ur": null
     },
     {
       "id": 411246,
@@ -1584,7 +1796,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An emf of 0.5 V is induced across the ends of a metal rod moving through a magnetic field of 0.4 T. If an emf of 1.5 V has to be induced, what field strength would be needed for that? Assume that all other factors remain the same."
+      "en": "An emf of 0.5 V is induced across the ends of a metal rod moving through a magnetic field of 0.4 T. If an emf of 1.5 V has to be induced, what field strength would be needed for that? Assume that all other factors remain the same.",
+      "ur": null
     },
     {
       "id": 411215,
@@ -1594,7 +1807,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain how ferrofluids work?"
+      "en": "Explain how ferrofluids work?",
+      "ur": null
     },
     {
       "id": 411308,
@@ -1604,7 +1818,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An electron is accelerated to a speed v = 0.85c Calculate its total energy and kinetic energy in electron volt."
+      "en": "An electron is accelerated to a speed v = 0.85c Calculate its total energy and kinetic energy in electron volt.",
+      "ur": null
     },
     {
       "id": 411310,
@@ -1614,7 +1829,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The period of pendulum is measured to be 3 s in an inertial frame of reference. What will be the period measured by an observer in a spaceship with a constant speed of 0.95 c with respect to the pendulum?"
+      "en": "The period of pendulum is measured to be 3 s in an inertial frame of reference. What will be the period measured by an observer in a spaceship with a constant speed of 0.95 c with respect to the pendulum?",
+      "ur": null
     },
     {
       "id": 411300,
@@ -1624,7 +1840,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by the \"frame of reference\"? Distinguish between inertial frame of reference and non inertial frame of reference by giving examples."
+      "en": "What is meant by the \"frame of reference\"? Distinguish between inertial frame of reference and non inertial frame of reference by giving examples.",
+      "ur": null
     },
     {
       "id": 411304,
@@ -1634,7 +1851,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "An electron is accelerated to a speed of 0.995 c which passes down an evacuated tube 500 m long. How long will the tube appear to the electron?"
+      "en": "An electron is accelerated to a speed of 0.995 c which passes down an evacuated tube 500 m long. How long will the tube appear to the electron?",
+      "ur": null
     },
     {
       "id": 411305,
@@ -1644,7 +1862,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A neutron, being not a stable particle, disintegrates in 20 minutes on the average. How long will it seem to exist if shoots out from a nucleus with a speed of 0.8 c?"
+      "en": "A neutron, being not a stable particle, disintegrates in 20 minutes on the average. How long will it seem to exist if shoots out from a nucleus with a speed of 0.8 c?",
+      "ur": null
     },
     {
       "id": 411306,
@@ -1654,7 +1873,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "A spaceship is measured 100 m long while it is at rest with respect to an observer, if this spaceship now flies by the observer with a speed of 0.99 c, what length will the observer find for the spaceship?"
+      "en": "A spaceship is measured 100 m long while it is at rest with respect to an observer, if this spaceship now flies by the observer with a speed of 0.99 c, what length will the observer find for the spaceship?",
+      "ur": null
     },
     {
       "id": 411309,
@@ -1664,7 +1884,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "At what speed, would the mass of a proton in a particle accelerator be tripled?"
+      "en": "At what speed, would the mass of a proton in a particle accelerator be tripled?",
+      "ur": null
     },
     {
       "id": 411312,
@@ -1674,7 +1895,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Hypothetically, if a ball of mass 0.5 kg is projected with a velocity of 0.9 c, what will be its mass in flight?"
+      "en": "Hypothetically, if a ball of mass 0.5 kg is projected with a velocity of 0.9 c, what will be its mass in flight?",
+      "ur": null
     },
     {
       "id": 411301,
@@ -1684,7 +1906,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Describe the Einstein's mass-energy equation; why cannot we observe its effects in everyday life? What are its significant consequences? Give examples."
+      "en": "Describe the Einstein's mass-energy equation; why cannot we observe its effects in everyday life? What are its significant consequences? Give examples.",
+      "ur": null
     },
     {
       "id": 411314,
@@ -1694,7 +1917,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "The rest mass of an electron is 9.11 x 10-31 kg. Calculate the corresponding rest-mass energy."
+      "en": "The rest mass of an electron is 9.11 x 10<sup>-31</sup> kg. Calculate the corresponding rest-mass energy.",
+      "ur": null
     },
     {
       "id": 411303,
@@ -1704,7 +1928,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "State the Einstein's concept about the space-time. Describe the view of gravity according to this concept."
+      "en": "State the Einstein's concept about the space-time. Describe the view of gravity according to this concept.",
+      "ur": null
     },
     {
       "id": 411375,
@@ -1714,7 +1939,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Describe four fundamental forces in nature."
+      "en": "Describe four fundamental forces in nature.",
+      "ur": null
     },
     {
       "id": 411371,
@@ -1724,7 +1950,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is the difference between matter and anti-matter? Discuss reasons why our universe is almost entirely composed of matter."
+      "en": "What is the difference between matter and anti-matter? Discuss reasons why our universe is almost entirely composed of matter.",
+      "ur": null
     },
     {
       "id": 411372,
@@ -1734,7 +1961,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain the phenomenon of pair annihilation with an example. Explain the utility of its principle in the medical field."
+      "en": "Explain the phenomenon of pair annihilation with an example. Explain the utility of its principle in the medical field.",
+      "ur": null
     },
     {
       "id": 411369,
@@ -1744,7 +1972,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "What is meant by radioactivity? Compare the properties and behaviour of three types of radiations."
+      "en": "What is meant by radioactivity? Compare the properties and behaviour of three types of radiations.",
+      "ur": null
     },
     {
       "id": 411370,
@@ -1754,7 +1983,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Elaborate the phenomenon of beta-positive decay and beta-negative decay with examples."
+      "en": "Elaborate the phenomenon of beta-positive decay and beta-negative decay with examples.",
+      "ur": null
     },
     {
       "id": 411377,
@@ -1764,7 +1994,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Uranium-238 is an alpha emitter. In the process, it is transmutated into a daughter nucleus. What is the mass number A and charge number Z of the daughter nucleus? What is its chemical symbol?"
+      "en": "Uranium-238 is an alpha emitter. In the process, it is transmutated into a daughter nucleus. What is the mass number A and charge number Z of the daughter nucleus? What is its chemical symbol?",
+      "ur": null
     },
     {
       "id": 411379,
@@ -1774,7 +2005,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Polonium <img src=\"/pts-media/equations/11th/phynew-chap12-11.svg\" /> is a beta minus emitter. What will be the mass number A and charge number Z of the daughter nucleus?"
+      "en": "Polonium <sub><img src=\"/Equations/11th/phynew-chap12-11.svg\" alt=\"\" /> </sub>is a beta minus emitter. What will be the mass number A and charge number Z of the daughter nucleus?",
+      "ur": null
     },
     {
       "id": 411382,
@@ -1784,7 +2016,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Nitrogen <img src=\"/pts-media/equations/11th/phynew-chap12-12.svg\" /> bombarded by alpha particle results into <img src=\"/pts-media/equations/11th/phynew-chap12-13.svg\" />. What is the product particle in this nuclear reaction?"
+      "en": "Nitrogen <sub><img src=\"/Equations/11th/phynew-chap12-12.svg\" alt=\"\" /></sub> bombarded by alpha particle results into <sub><img src=\"/Equations/11th/phynew-chap12-13.svg\" alt=\"\" /></sub>. What is the product particle in this nuclear reaction?",
+      "ur": null
     },
     {
       "id": 411376,
@@ -1794,7 +2027,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Describe the classification of elementary particles."
+      "en": "Describe the classification of elementary particles.",
+      "ur": null
     },
     {
       "id": 411373,
@@ -1804,7 +2038,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Explain the law of conservation of energy and momentum in electron-positron pair annihilation."
+      "en": "Explain the law of conservation of energy and momentum in electron-positron pair annihilation.",
+      "ur": null
     },
     {
       "id": 411374,
@@ -1814,7 +2049,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Describe protons and neutrons in terms of their quark composition."
+      "en": "Describe protons and neutrons in terms of their quark composition.",
+      "ur": null
     },
     {
       "id": 411385,
@@ -1824,7 +2060,19 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Determine the rest-mass energy of electron in eV. Its rest-mass is 0.000555 u?"
+      "en": "Determine the rest-mass energy of electron in eV. Its rest-mass is 0.000555 u?",
+      "ur": null
+    },
+    {
+      "id": 411384,
+      "chapter": 12,
+      "topic_id": "12.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Exercise",
+      "priority": "Exercise",
+      "en": "Show that nucleon number N and charge number Z are conserved in the numerical question 12.3.",
+      "ur": null
     },
     {
       "id": 411387,
@@ -1834,7 +2082,8 @@
       "field": "LONG",
       "source": "Exercise",
       "priority": "Exercise",
-      "en": "Calculate the Q-value for the reaction taking place in Rutherford's experiment on artificial disintegration of nitrogen by bombardment with alpha particles. Relative masses are: <img src=\"/pts-media/equations/11th/phynew-chap12-14.svg\" /> <img src=\"/pts-media/equations/11th/phynew-chap12-15.svg\" />"
+      "en": "Calculate the Q-value for the reaction taking place in Rutherford's experiment on artificial disintegration of nitrogen by bombardment with alpha particles. Relative masses are: <img src=\"/Equations/11th/phynew-chap12-14.svg\" alt=\"\" /> <img src=\"/Equations/11th/phynew-chap12-15.svg\" alt=\"\" />",
+      "ur": null
     },
     {
       "id": 444436,
@@ -1842,9 +2091,10 @@
       "topic_id": "1.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is international system of units? Describe base quantities and derived quantities."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is international system of units? Describe base quantities and derived quantities.",
+      "ur": null
     },
     {
       "id": 444438,
@@ -1852,9 +2102,10 @@
       "topic_id": "1.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State the conventions for using Si units in detail."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State the conventions for using Si units in detail.",
+      "ur": null
     },
     {
       "id": 444439,
@@ -1862,9 +2113,10 @@
       "topic_id": "1.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "How to find the uncertainty in a timing experiment such as the time period of a simple pendulum?"
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "How to find the uncertainty in a timing experiment such as the time period of a simple pendulum?",
+      "ur": null
     },
     {
       "id": 444441,
@@ -1872,9 +2124,10 @@
       "topic_id": "1.4",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What are significant figures? Describe their use."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What are significant figures? Describe their use.",
+      "ur": null
     },
     {
       "id": 444444,
@@ -1882,9 +2135,10 @@
       "topic_id": "1.6",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "How is the total uncertainty in the final result assessed? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "How is the total uncertainty in the final result assessed? Explain.",
+      "ur": null
     },
     {
       "id": 444448,
@@ -1892,9 +2146,10 @@
       "topic_id": "2.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What are rectangular compenents of a vectors? How a vector can be determined from its rectangular components?"
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What are rectangular compenents of a vectors? How a vector can be determined from its rectangular components?",
+      "ur": null
     },
     {
       "id": 444454,
@@ -1902,9 +2157,10 @@
       "topic_id": "2.4",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Define first equation of motion by graphical method."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Define first equation of motion by graphical method.",
+      "ur": null
     },
     {
       "id": 444457,
@@ -1912,9 +2168,10 @@
       "topic_id": "2.6",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Define momentum and impulse. Show that rate of change of momentum of a body is equal to the applied force."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Define momentum and impulse. Show that rate of change of momentum of a body is equal to the applied force.",
+      "ur": null
     },
     {
       "id": 444460,
@@ -1922,9 +2179,10 @@
       "topic_id": "2.7",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State and prove law of conservation of momentum for an isolated system."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State and prove law of conservation of momentum for an isolated system.",
+      "ur": null
     },
     {
       "id": 451743,
@@ -1932,9 +2190,10 @@
       "topic_id": "2.8",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Explain elastic collision in one dimension. Show that relative velocities before and after collision are the same. Also discuss its different cases."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Explain elastic collision in one dimension. Show that relative velocities before and after collision are the same. Also discuss its different cases.",
+      "ur": null
     },
     {
       "id": 444463,
@@ -1942,9 +2201,10 @@
       "topic_id": "2.11",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Find the expression for momentum and energy in case of inelastic collision in two dimensions."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Find the expression for momentum and energy in case of inelastic collision in two dimensions.",
+      "ur": null
     },
     {
       "id": 444466,
@@ -1952,9 +2212,10 @@
       "topic_id": "2.12",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Write a note on rocket propulsion."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Write a note on rocket propulsion.",
+      "ur": null
     },
     {
       "id": 444470,
@@ -1962,9 +2223,10 @@
       "topic_id": "3.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is centrifuge? State some everyday applications of centripetal force."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is centrifuge? State some everyday applications of centripetal force.",
+      "ur": null
     },
     {
       "id": 444473,
@@ -1972,9 +2234,10 @@
       "topic_id": "3.6",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State some examples of law of conservation of angular momentum."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State some examples of law of conservation of angular momentum.",
+      "ur": null
     },
     {
       "id": 444475,
@@ -1982,9 +2245,10 @@
       "topic_id": "4.1",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "How is work done by a constant force? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "How is work done by a constant force? Explain.",
+      "ur": null
     },
     {
       "id": 444476,
@@ -1992,9 +2256,10 @@
       "topic_id": "4.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "How is work done by a variable force? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "How is work done by a variable force? Explain.",
+      "ur": null
     },
     {
       "id": 444479,
@@ -2002,9 +2267,10 @@
       "topic_id": "4.8",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Explain how do P.E and K.E are inter-convertable."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Explain how do P.E and K.E are inter-convertable.",
+      "ur": null
     },
     {
       "id": 444481,
@@ -2012,9 +2278,10 @@
       "topic_id": "5.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is meant by deformation of solids? Explain in detail."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is meant by deformation of solids? Explain in detail.",
+      "ur": null
     },
     {
       "id": 444482,
@@ -2022,9 +2289,10 @@
       "topic_id": "5.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "How can Young's Modulus of a wire be determined? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "How can Young's Modulus of a wire be determined? Explain.",
+      "ur": null
     },
     {
       "id": 451744,
@@ -2032,9 +2300,10 @@
       "topic_id": "5.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Explain the following: (i) Stress (ii) Strain (iii) Young's modulus"
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Explain the following: (i) Stress (ii) Strain (iii) Young's modulus",
+      "ur": null
     },
     {
       "id": 444483,
@@ -2042,9 +2311,10 @@
       "topic_id": "5.5",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is meant by elastic deformation, plastic deformation and elastic limit? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is meant by elastic deformation, plastic deformation and elastic limit? Explain.",
+      "ur": null
     },
     {
       "id": 444484,
@@ -2052,9 +2322,10 @@
       "topic_id": "5.7",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State the principle of \"floatation\". Enlist some application of Archimedes' principle in our daily life."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State the principle of \"floatation\". Enlist some application of Archimedes' principle in our daily life.",
+      "ur": null
     },
     {
       "id": 444485,
@@ -2062,9 +2333,10 @@
       "topic_id": "5.13",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Describe viscous Drag and Stokes'law."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Describe viscous Drag and Stokes'law.",
+      "ur": null
     },
     {
       "id": 444487,
@@ -2072,9 +2344,10 @@
       "topic_id": "6.1",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is the Kinetic theory of gases? Describe its assumptions."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is the Kinetic theory of gases? Describe its assumptions.",
+      "ur": null
     },
     {
       "id": 444490,
@@ -2082,9 +2355,10 @@
       "topic_id": "6.5",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What are reversible and irreversible processes? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What are reversible and irreversible processes? Explain.",
+      "ur": null
     },
     {
       "id": 444491,
@@ -2092,9 +2366,10 @@
       "topic_id": "6.7",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State and explain second law of thermodynamics."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State and explain second law of thermodynamics.",
+      "ur": null
     },
     {
       "id": 444493,
@@ -2102,9 +2377,10 @@
       "topic_id": "7.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Describe interference of sound waves and its types."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Describe interference of sound waves and its types.",
+      "ur": null
     },
     {
       "id": 444495,
@@ -2112,9 +2388,10 @@
       "topic_id": "7.7",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What are microwaves? How are stationary waves created by using microwave source?"
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What are microwaves? How are stationary waves created by using microwave source?",
+      "ur": null
     },
     {
       "id": 451745,
@@ -2122,9 +2399,10 @@
       "topic_id": "7.8",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Define and exemplify diffraction of waves. Describe this phenomenon by ripple tank experiment."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Define and exemplify diffraction of waves. Describe this phenomenon by ripple tank experiment.",
+      "ur": null
     },
     {
       "id": 444496,
@@ -2132,9 +2410,10 @@
       "topic_id": "7.11",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Describe briefly some applicationof Doppler's effect."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Describe briefly some applicationof Doppler's effect.",
+      "ur": null
     },
     {
       "id": 444497,
@@ -2142,9 +2421,10 @@
       "topic_id": "8.1",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "How can an unpolarized light be polarized? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "How can an unpolarized light be polarized? Explain.",
+      "ur": null
     },
     {
       "id": 444499,
@@ -2152,9 +2432,10 @@
       "topic_id": "8.6",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is meant by space-time distortion/tidal forces? explain"
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is meant by space-time distortion/tidal forces? explain",
+      "ur": null
     },
     {
       "id": 444500,
@@ -2162,9 +2443,10 @@
       "topic_id": "8.7",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "From which sources gravitational waves be produced? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "From which sources gravitational waves be produced? Explain.",
+      "ur": null
     },
     {
       "id": 444503,
@@ -2172,9 +2454,10 @@
       "topic_id": "9.1",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State and explain Coulomb's law."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State and explain Coulomb's law.",
+      "ur": null
     },
     {
       "id": 444505,
@@ -2182,9 +2465,10 @@
       "topic_id": "9.2",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is the behaviour of electric field lines in case of: (i) Two identical separated changes (ii) Two opposite charges (iii) Parallel and equally spaced capacitors."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is the behaviour of electric field lines in case of: (i) Two identical separated changes (ii) Two opposite charges (iii) Parallel and equally spaced capacitors.",
+      "ur": null
     },
     {
       "id": 444507,
@@ -2192,9 +2476,10 @@
       "topic_id": "9.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Define electric flux and find an expression for it through a patch of flat surface."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Define electric flux and find an expression for it through a patch of flat surface.",
+      "ur": null
     },
     {
       "id": 444509,
@@ -2202,9 +2487,10 @@
       "topic_id": "9.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Calculate the electric flux through a closed surface in the shape of a sphere."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Calculate the electric flux through a closed surface in the shape of a sphere.",
+      "ur": null
     },
     {
       "id": 444511,
@@ -2212,9 +2498,10 @@
       "topic_id": "9.4",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State and explain Gauss's law."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State and explain Gauss's law.",
+      "ur": null
     },
     {
       "id": 444512,
@@ -2222,9 +2509,10 @@
       "topic_id": "9.5",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Explain electric potential and show that the electric potential at any point in an electric field is equal to the work done."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Explain electric potential and show that the electric potential at any point in an electric field is equal to the work done.",
+      "ur": null
     },
     {
       "id": 451746,
@@ -2232,9 +2520,10 @@
       "topic_id": "9.6",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Define and explain electron volt."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Define and explain electron volt.",
+      "ur": null
     },
     {
       "id": 444514,
@@ -2242,9 +2531,10 @@
       "topic_id": "9.9",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is Faraday's cage? describe its working and principle."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is Faraday's cage? describe its working and principle.",
+      "ur": null
     },
     {
       "id": 444515,
@@ -2252,9 +2542,10 @@
       "topic_id": "9.10",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Describe briefly electric current, drift velocity and coventional current."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Describe briefly electric current, drift velocity and coventional current.",
+      "ur": null
     },
     {
       "id": 451747,
@@ -2262,9 +2553,10 @@
       "topic_id": "9.11",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Find an expression for current flowing through a conductor."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Find an expression for current flowing through a conductor.",
+      "ur": null
     },
     {
       "id": 444516,
@@ -2272,9 +2564,10 @@
       "topic_id": "9.13",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "How does the Resistivity of a substance depend upon temperature? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "How does the Resistivity of a substance depend upon temperature? Explain.",
+      "ur": null
     },
     {
       "id": 451748,
@@ -2282,9 +2575,10 @@
       "topic_id": "9.14",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Define electrical power in detail."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Define electrical power in detail.",
+      "ur": null
     },
     {
       "id": 444517,
@@ -2292,9 +2586,10 @@
       "topic_id": "9.15",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Define and explain the terms electromotive force (emf) and potential difference (p.d)."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Define and explain the terms electromotive force (emf) and potential difference (p.d).",
+      "ur": null
     },
     {
       "id": 444519,
@@ -2302,9 +2597,10 @@
       "topic_id": "9.19",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is a galvanometer? Describe null method and advantage of a galvanometer."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is a galvanometer? Describe null method and advantage of a galvanometer.",
+      "ur": null
     },
     {
       "id": 444522,
@@ -2312,9 +2608,10 @@
       "topic_id": "9.19",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is a galvanometer? Describe null method and advantage of a galvanometer."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is a galvanometer? Describe null method and advantage of a galvanometer.",
+      "ur": null
     },
     {
       "id": 451749,
@@ -2322,9 +2619,10 @@
       "topic_id": "9.20",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "State some applications of thermistors."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "State some applications of thermistors.",
+      "ur": null
     },
     {
       "id": 444525,
@@ -2332,9 +2630,10 @@
       "topic_id": "10.1",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is induced emf and motional emf? Find an expression for motional emf."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is induced emf and motional emf? Find an expression for motional emf.",
+      "ur": null
     },
     {
       "id": 451750,
@@ -2342,9 +2641,10 @@
       "topic_id": "10.10",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is a seismometer? Describe its construction and working."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is a seismometer? Describe its construction and working.",
+      "ur": null
     },
     {
       "id": 444526,
@@ -2352,9 +2652,10 @@
       "topic_id": "11.1",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is relative motion? How does it differ from absolute motion? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is relative motion? How does it differ from absolute motion? Explain.",
+      "ur": null
     },
     {
       "id": 444527,
@@ -2362,9 +2663,10 @@
       "topic_id": "11.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What is special theory of relativity? Write down its postulates."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What is special theory of relativity? Write down its postulates.",
+      "ur": null
     },
     {
       "id": 444528,
@@ -2372,9 +2674,10 @@
       "topic_id": "11.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What are the consequences of special theory of relativity? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What are the consequences of special theory of relativity? Explain.",
+      "ur": null
     },
     {
       "id": 444531,
@@ -2382,9 +2685,10 @@
       "topic_id": "11.3",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "What are the consequences of special theory of relativity? Explain."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "What are the consequences of special theory of relativity? Explain.",
+      "ur": null
     },
     {
       "id": 444533,
@@ -2392,9 +2696,10 @@
       "topic_id": "12.1",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Describe the structure and properties of the nucleus."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Describe the structure and properties of the nucleus.",
+      "ur": null
     },
     {
       "id": 444536,
@@ -2402,9 +2707,10 @@
       "topic_id": "12.4",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Write a note on alpha-decay. Also write the equation of gamma-radiation."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Write a note on alpha-decay. Also write the equation of gamma-radiation.",
+      "ur": null
     },
     {
       "id": 451751,
@@ -2412,9 +2718,10 @@
       "topic_id": "12.7",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Write a note on Higgs Bosons."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Write a note on Higgs Bosons.",
+      "ur": null
     },
     {
       "id": 444538,
@@ -2422,10 +2729,208 @@
       "topic_id": "12.11",
       "type": "long",
       "field": "LONG",
-      "source": "Additional",
-      "priority": "Additional",
-      "en": "Describe the theories about the forces between the massses of particles."
+      "source": "Past Paper",
+      "priority": "Past Paper",
+      "en": "Describe the theories about the forces between the massses of particles.",
+      "ur": null
+    },
+    {
+      "id": 553390,
+      "chapter": 1,
+      "topic_id": "1.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "Derive a formula for the centripetal force required to keep an object moving along a circle with uniform speed. Assuming that centripetal force depends on mass of the object, radius of the circle and uniform speed.",
+      "ur": null
+    },
+    {
+      "id": 553391,
+      "chapter": 2,
+      "topic_id": "2.2",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "Find the angle between two forces of equal magnitude when the magnitude of their resultant is also equal to the magnitude of either of these forces.",
+      "ur": null
+    },
+    {
+      "id": 553407,
+      "chapter": 2,
+      "topic_id": "2.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "An iron ball of mass 1 kg is dropped from a tower. The ball reaches the ground in 3.34 s. Find: (a) the velocity of the ball on striking the ground. (b) the height of the tower.",
+      "ur": null
+    },
+    {
+      "id": 553410,
+      "chapter": 2,
+      "topic_id": "2.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A ball is thrown with a speed of 30 ms<sup>-1</sup> in a direction 30<sup>o</sup> above the horizon. Determine the height to which it rise, the time of flight and the horizontal range.",
+      "ur": null
+    },
+    {
+      "id": 553445,
+      "chapter": 4,
+      "topic_id": "4.7",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A motorcycle rider weighing 60 kg is coasting down a 24<sup>o</sup> slope. The weight of motorcycle is 30 kg. At the top of the slop the speed of motorcycle is 3.2 ms<sup>-1</sup>. If the kinetic frictional force is 100 N, what will be the speed of the motorcycle 72 m downhill?",
+      "ur": null
+    },
+    {
+      "id": 553446,
+      "chapter": 4,
+      "topic_id": "4.8",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A car weighing 1100 kg is moving with a velocity of 12 ms<sup>-1</sup>. when it is at point P, its engine stops. If the frictional force is 120 N, what will be its velocity at point Q? How far beyond Q will it go before coming to rest?",
+      "ur": null
+    },
+    {
+      "id": 553465,
+      "chapter": 5,
+      "topic_id": "5.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A water hose with an internal diameter of 20 mm at the outlet discharge 30 kg of water in 60 s. Calculate the water speed at the outlet. Assume the density of water is 1000 kg m<sup>-3</sup> and its flow is steady.",
+      "ur": null
+    },
+    {
+      "id": 553469,
+      "chapter": 5,
+      "topic_id": "5.14",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A tiny water droplet of radius 0.010 cm descends through air from a high building. Calculate its terminal velocity. Given that n for air = 19 x 10<sup>-8</sup> kg m<sup>-1</sup> s<sup>-1</sup> and density of water p=1000 kg m<sup>-3</sup>.",
+      "ur": null
+    },
+    {
+      "id": 553482,
+      "chapter": 7,
+      "topic_id": "7.5",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A stationary wave is established in a string which is 120 cm long and fixed at both ends. The string vibrates in four segments; at a frequency of 120 Hz. Determine its wavelength and the fundamental frequency?",
+      "ur": null
+    },
+    {
+      "id": 553483,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "An organ pipe has length of 50 cm. Find the frequency of its fundamental note and the next harmonic, when it is: (a) open at both ends  (b) closed at one end. (speed of sound= 350 ms<sup>-1.</sup> )",
+      "ur": null
+    },
+    {
+      "id": 553484,
+      "chapter": 7,
+      "topic_id": "7.6",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A church organ consists of pipes, each open at one end, of different lengths. The minimum length is 30 mm and the longest is 4 m. Calculate the frequency range of the fundamental notes. (speed of sound=340 ms<sup>-1</sup>).",
+      "ur": null
+    },
+    {
+      "id": 553487,
+      "chapter": 7,
+      "topic_id": "7.9",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "Two tuning forks exhibit beats at a beat frequency of 3 Hz. The frequency of one fork is 256 Hz. Its frequency is then lowered slightly by adding a bit of wax to one of its prongs. The two forks then exhibit a beat frequency of 1 Hz. Determine the frequency of the second tuning fork.",
+      "ur": null
+    },
+    {
+      "id": 553490,
+      "chapter": 7,
+      "topic_id": "7.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "Two truks P and Q travelling along a motorway in the same direction. The loading truck P travels at a steady speed of 12 ms<sup>-1</sup>, the other truck Q, travelling at a steady speed of 20 ms<sup>-1</sup>. sound its horn to emit a steady note which P's driver estimate, has a frequency of 830 Hz. What frequency does Q's own driver hear?",
+      "ur": null
+    },
+    {
+      "id": 553491,
+      "chapter": 7,
+      "topic_id": "7.11",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A train sounds is horn before its sets off from the station and an observer waiting on the platform estimates its frequency at 1200 Hz. The train then moves off and accelerates steadily. Fifty seconds after departure, the driver sounds the horn again and the platform ovserver estimates the frequency at 1140 Hz. Calculate the train speed 50 s after departure. How far from the station is the train after 50 s. (speed of sound= 340 ms<sup>-1</sup>).",
+      "ur": null
+    },
+    {
+      "id": 553492,
+      "chapter": 7,
+      "topic_id": "7.12",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "The wavelength of one of its lines of the absorption spectrum of a faint galaxy is identified as Ca-<img src=\"/equations/12th/compnew-chap7-13.svg\" alt=\"\" /> line found to be 478 nm. The wavelength of same line is observed and measured as 397 nm in the laboratory. (a) Is the galaxy moving towards or away from the Earth?  (b) Compute the speed of the galaxy relative to the Earth.",
+      "ur": null
+    },
+    {
+      "id": 553493,
+      "chapter": 8,
+      "topic_id": "8.4",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "A beam of light strikes the surface of a plate of glass with a refractive index of <img src=\"/Equations/11th/phynew-chap8-10.svg\" alt=\"\" /> at the poiarizing angle. What will be the angle of refraction of the wave of light?",
+      "ur": null
+    },
+    {
+      "id": 553504,
+      "chapter": 9,
+      "topic_id": "9.1",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "Three point charges q<sub>1</sub>, q<sub>2</sub> and q<sub>3</sub> are lying in the same plane as <img src=\"/Equations/11th/phynew-chap9-20.png\" alt=\"\" />. Find the magnitude and direction of the net fore acting on q<sub>1</sub>.",
+      "ur": null
+    },
+    {
+      "id": 553519,
+      "chapter": 9,
+      "topic_id": "9.16",
+      "type": "long",
+      "field": "LONG",
+      "source": "Other",
+      "priority": "Other",
+      "en": "Calculate the currents in the three resistances of the circuit shown <img src=\"/Equations/11th/phynew-chap9-22.png\" alt=\"\" />.",
+      "ur": null
     }
-  ],
-  "type": "long"
+  ]
 }

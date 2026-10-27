@@ -3,17 +3,15 @@
   "class": "12",
   "subject": "حَدِیقَۃُ الاَدَبِ",
   "slug": "hadeeqatul-adab",
-  "source": "PTS PTB INTER-II (Class 12) حَدِیقَۃُ الاَدَبِ (read-only export)",
-  "total_questions": 311,
+  "source": "PTS PTB INTER-II (Class 12) حَدِیقَۃُ الاَدَبِ (live sync 2026-10-27T19:52:34.939Z)",
+  "total_questions": 0,
   "counts": {
-    "mcq": 167,
-    "short": 144,
+    "mcq": 0,
+    "short": 0,
     "long": 0
   },
   "fieldCounts": {
-    "MCQ": 167,
-    "QA": 144
+    "LONG": 0
   },
-  "questions": [],
-  "type": "long"
+  "questions": []
 }

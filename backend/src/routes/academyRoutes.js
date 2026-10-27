@@ -4,6 +4,7 @@ import {
   getAcademies,
   getMyAcademy,
   updateAcademyStatus,
+  updateAcademyModules,
   getDashboardStats,
 } from "../controllers/academyController.js";
 import { getOpsDashboard } from "../controllers/opsDashboardController.js";
@@ -13,6 +14,7 @@ import {
   validate,
   createAcademySchema,
   updateAcademyStatusSchema,
+  updateAcademyModulesSchema,
   requireAcademyLogo,
 } from "../middleware/validate.js";
 
@@ -55,6 +57,13 @@ router.patch(
   authorize("super_admin"),
   validate(updateAcademyStatusSchema),
   updateAcademyStatus
+);
+
+router.patch(
+  "/:id/modules",
+  authorize("super_admin"),
+  validate(updateAcademyModulesSchema),
+  updateAcademyModules
 );
 
 export default router;

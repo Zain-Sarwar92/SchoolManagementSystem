@@ -10,8 +10,8 @@
   "exportName": "mcq",
   "subTypeId": 1,
   "total": 111,
-  "exportedAt": "2026-08-10T12:46:11.939Z",
-  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "exportedAt": "2026-10-27T13:53:02.122Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (live sync)",
   "questions": [
     {
       "QuestionID": 279138,
@@ -55,13 +55,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279139,
@@ -105,13 +99,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279140,
@@ -155,13 +143,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279141,
@@ -205,13 +187,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279142,
@@ -255,13 +231,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279143,
@@ -305,13 +275,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279144,
@@ -355,13 +319,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279145,
@@ -405,13 +363,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279146,
@@ -455,13 +407,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279147,
@@ -505,13 +451,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279148,
@@ -555,13 +495,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279149,
@@ -605,13 +539,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279150,
@@ -655,13 +583,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279151,
@@ -705,13 +627,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279152,
@@ -755,13 +671,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279153,
@@ -805,13 +715,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279154,
@@ -855,13 +759,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279155,
@@ -905,13 +803,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279156,
@@ -955,13 +847,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279157,
@@ -1005,13 +891,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279158,
@@ -1055,13 +935,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279159,
@@ -1105,13 +979,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279160,
@@ -1155,13 +1023,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279161,
@@ -1205,13 +1067,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279162,
@@ -1255,13 +1111,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279167,
@@ -1305,13 +1155,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279170,
@@ -1355,13 +1199,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279173,
@@ -1405,13 +1243,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279189,
@@ -1455,13 +1287,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279193,
@@ -1505,13 +1331,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279203,
@@ -1555,13 +1375,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279206,
@@ -1605,13 +1419,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279210,
@@ -1655,13 +1463,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279214,
@@ -1705,13 +1507,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279216,
@@ -1755,13 +1551,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279218,
@@ -1805,13 +1595,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279221,
@@ -1855,13 +1639,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279223,
@@ -1905,13 +1683,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279226,
@@ -1955,13 +1727,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279228,
@@ -2005,13 +1771,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279229,
@@ -2055,13 +1815,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279230,
@@ -2105,13 +1859,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279231,
@@ -2155,13 +1903,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279232,
@@ -2205,13 +1947,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279233,
@@ -2255,13 +1991,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279234,
@@ -2305,13 +2035,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279235,
@@ -2355,13 +2079,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279236,
@@ -2405,13 +2123,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279237,
@@ -2455,13 +2167,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279238,
@@ -2505,13 +2211,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279243,
@@ -2555,13 +2255,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279245,
@@ -2605,13 +2299,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279248,
@@ -2655,13 +2343,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279249,
@@ -2705,13 +2387,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279252,
@@ -2755,13 +2431,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279256,
@@ -2805,13 +2475,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279260,
@@ -2855,13 +2519,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279262,
@@ -2905,13 +2563,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279265,
@@ -2955,13 +2607,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279268,
@@ -3005,13 +2651,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279272,
@@ -3055,13 +2695,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279274,
@@ -3105,13 +2739,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279277,
@@ -3155,13 +2783,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279280,
@@ -3205,13 +2827,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279282,
@@ -3255,13 +2871,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279292,
@@ -3305,13 +2915,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279298,
@@ -3355,13 +2959,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279305,
@@ -3405,13 +3003,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279308,
@@ -3455,13 +3047,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279310,
@@ -3505,13 +3091,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279311,
@@ -3555,13 +3135,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279312,
@@ -3605,13 +3179,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279313,
@@ -3655,13 +3223,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279314,
@@ -3705,13 +3267,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279316,
@@ -3755,13 +3311,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279325,
@@ -3805,13 +3355,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279329,
@@ -3855,13 +3399,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279331,
@@ -3905,13 +3443,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279336,
@@ -3955,13 +3487,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279338,
@@ -4005,13 +3531,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279340,
@@ -4055,13 +3575,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279345,
@@ -4105,13 +3619,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279347,
@@ -4155,13 +3663,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279350,
@@ -4205,13 +3707,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279353,
@@ -4255,13 +3751,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279356,
@@ -4305,13 +3795,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279358,
@@ -4355,13 +3839,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279362,
@@ -4405,13 +3883,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279363,
@@ -4455,13 +3927,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279364,
@@ -4505,13 +3971,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279365,
@@ -4555,13 +4015,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279366,
@@ -4605,13 +4059,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279368,
@@ -4655,13 +4103,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279369,
@@ -4705,13 +4147,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279370,
@@ -4755,13 +4191,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279371,
@@ -4805,13 +4235,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279372,
@@ -4855,13 +4279,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279373,
@@ -4905,13 +4323,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279375,
@@ -4955,13 +4367,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279376,
@@ -5005,13 +4411,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279377,
@@ -5055,13 +4455,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279378,
@@ -5105,13 +4499,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279379,
@@ -5155,13 +4543,7 @@
           "EmOption": null,
           "Answer": true
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279380,
@@ -5205,13 +4587,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279381,
@@ -5255,13 +4631,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279382,
@@ -5305,13 +4675,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279383,
@@ -5355,13 +4719,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279384,
@@ -5405,13 +4763,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279385,
@@ -5455,13 +4807,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279386,
@@ -5505,13 +4851,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     },
     {
       "QuestionID": 279387,
@@ -5555,13 +4895,7 @@
           "EmOption": null,
           "Answer": false
         }
-      ],
-      "_exportMeta": {
-        "subTypeId": 1,
-        "bankType": "mcq",
-        "field": "MCQ",
-        "exportName": "mcq"
-      }
+      ]
     }
   ]
 }

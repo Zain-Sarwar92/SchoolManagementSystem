@@ -5037,6 +5037,10 @@ button.tg-path-chip:hover {
   color: var(--color-tg-blue);
 }
 
+.tg-pool-summary--bank {
+  background: color-mix(in srgb, var(--color-tg-cream) 52%, white);
+}
+
 .tg-pool-summary--selected {
   background: color-mix(in srgb, var(--color-tg-blue) 12%, white);
   color: #7a3414;
@@ -5873,6 +5877,14 @@ button.tg-path-chip:hover {
   border-radius: 0.45rem;
   background: #fff;
   box-shadow: 0 12px 28px rgb(0 0 0 / 0.16);
+}
+
+/* Escapes table overflow:auto clipping */
+.tg-papers-menu--portal {
+  position: fixed;
+  z-index: 80;
+  right: auto;
+  top: auto;
 }
 
 .tg-papers-menu button {

@@ -9,9 +9,9 @@
   "field": "QA",
   "exportName": "short",
   "subTypeId": 12,
-  "total": 144,
-  "exportedAt": "2026-08-10T13:12:12.167Z",
-  "source": "paktestsolution.com AjaxCalling/GetQuestions (read-only)",
+  "total": 160,
+  "exportedAt": "2026-10-27T19:52:32.629Z",
+  "source": "paktestsolution.com AjaxCalling/GetQuestions (live sync)",
   "questions": [
     {
       "QuestionID": 276021,
@@ -26,13 +26,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276025,
@@ -47,13 +41,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276030,
@@ -68,13 +56,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276031,
@@ -89,13 +71,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276032,
@@ -110,13 +86,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276033,
@@ -131,13 +101,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276034,
@@ -152,13 +116,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276063,
@@ -173,13 +131,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276064,
@@ -194,13 +146,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276065,
@@ -215,13 +161,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276066,
@@ -236,13 +176,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276067,
@@ -257,13 +191,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276090,
@@ -278,13 +206,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276091,
@@ -299,13 +221,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276092,
@@ -320,13 +236,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276093,
@@ -341,13 +251,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276094,
@@ -362,13 +266,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276118,
@@ -383,13 +281,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276119,
@@ -404,13 +296,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276120,
@@ -425,13 +311,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276121,
@@ -446,13 +326,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276122,
@@ -467,13 +341,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276123,
@@ -488,13 +356,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276125,
@@ -509,13 +371,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276160,
@@ -530,13 +386,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276162,
@@ -551,13 +401,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276163,
@@ -572,13 +416,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276165,
@@ -593,13 +431,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276166,
@@ -614,13 +446,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276191,
@@ -635,13 +461,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276192,
@@ -656,13 +476,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276193,
@@ -677,13 +491,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276194,
@@ -698,13 +506,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276195,
@@ -719,13 +521,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276211,
@@ -740,13 +536,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276212,
@@ -761,13 +551,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276213,
@@ -782,13 +566,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276214,
@@ -803,13 +581,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276215,
@@ -824,13 +596,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276216,
@@ -845,13 +611,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276218,
@@ -866,13 +626,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276240,
@@ -887,13 +641,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276241,
@@ -908,13 +656,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276242,
@@ -929,13 +671,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276243,
@@ -950,13 +686,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276244,
@@ -971,13 +701,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276508,
@@ -992,13 +716,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276509,
@@ -1013,13 +731,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276510,
@@ -1034,13 +746,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276512,
@@ -1055,13 +761,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276513,
@@ -1076,13 +776,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276536,
@@ -1097,13 +791,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276542,
@@ -1118,13 +806,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276544,
@@ -1139,13 +821,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276551,
@@ -1160,13 +836,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276555,
@@ -1181,13 +851,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276680,
@@ -1202,13 +866,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276681,
@@ -1223,13 +881,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276682,
@@ -1244,13 +896,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276683,
@@ -1265,13 +911,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276684,
@@ -1286,13 +926,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276735,
@@ -1307,13 +941,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276736,
@@ -1328,13 +956,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276738,
@@ -1349,13 +971,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276739,
@@ -1370,13 +986,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276740,
@@ -1391,13 +1001,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276741,
@@ -1412,13 +1016,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276838,
@@ -1433,13 +1031,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276841,
@@ -1454,13 +1046,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276843,
@@ -1475,13 +1061,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276847,
@@ -1496,13 +1076,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276850,
@@ -1517,13 +1091,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276894,
@@ -1538,13 +1106,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276895,
@@ -1559,13 +1121,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276898,
@@ -1580,13 +1136,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276901,
@@ -1601,13 +1151,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276922,
@@ -1622,13 +1166,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276951,
@@ -1643,13 +1181,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276952,
@@ -1664,13 +1196,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276953,
@@ -1685,13 +1211,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276954,
@@ -1706,13 +1226,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276956,
@@ -1727,13 +1241,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276958,
@@ -1748,13 +1256,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276975,
@@ -1769,13 +1271,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276976,
@@ -1790,13 +1286,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276977,
@@ -1811,13 +1301,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276978,
@@ -1832,13 +1316,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 276980,
@@ -1853,13 +1331,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277020,
@@ -1874,13 +1346,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277021,
@@ -1895,13 +1361,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277022,
@@ -1916,13 +1376,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277023,
@@ -1937,13 +1391,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277024,
@@ -1958,13 +1406,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277025,
@@ -1979,13 +1421,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277059,
@@ -2000,13 +1436,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277061,
@@ -2021,13 +1451,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277064,
@@ -2042,13 +1466,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277067,
@@ -2063,13 +1481,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277070,
@@ -2084,13 +1496,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277108,
@@ -2105,13 +1511,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277109,
@@ -2126,13 +1526,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277110,
@@ -2147,13 +1541,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277111,
@@ -2168,13 +1556,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277112,
@@ -2189,13 +1571,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277113,
@@ -2210,13 +1586,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277114,
@@ -2231,13 +1601,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277115,
@@ -2252,13 +1616,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277136,
@@ -2273,13 +1631,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277137,
@@ -2294,13 +1646,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277139,
@@ -2315,13 +1661,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277140,
@@ -2336,13 +1676,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277142,
@@ -2357,13 +1691,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277165,
@@ -2378,13 +1706,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277166,
@@ -2399,13 +1721,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277168,
@@ -2420,13 +1736,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277170,
@@ -2441,13 +1751,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277173,
@@ -2462,13 +1766,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277176,
@@ -2483,13 +1781,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277221,
@@ -2504,13 +1796,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277222,
@@ -2525,13 +1811,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277224,
@@ -2546,13 +1826,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277226,
@@ -2567,13 +1841,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277228,
@@ -2588,13 +1856,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277230,
@@ -2609,13 +1871,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277231,
@@ -2630,13 +1886,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277258,
@@ -2651,13 +1901,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277259,
@@ -2672,13 +1916,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277260,
@@ -2693,13 +1931,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277262,
@@ -2714,13 +1946,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277265,
@@ -2735,13 +1961,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277266,
@@ -2756,13 +1976,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277268,
@@ -2777,13 +1991,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277298,
@@ -2798,13 +2006,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277300,
@@ -2819,13 +2021,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277302,
@@ -2840,13 +2036,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277304,
@@ -2861,13 +2051,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277305,
@@ -2882,13 +2066,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277306,
@@ -2903,13 +2081,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277343,
@@ -2924,13 +2096,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277344,
@@ -2945,13 +2111,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277345,
@@ -2966,13 +2126,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277347,
@@ -2987,13 +2141,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277348,
@@ -3008,13 +2156,7 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
     },
     {
       "QuestionID": 277350,
@@ -3029,13 +2171,247 @@
       "EnglishFillAnswer": null,
       "TrueFalseAnswer": false,
       "IsSameMcq": false,
-      "MultipleOptions": [],
-      "_exportMeta": {
-        "subTypeId": 12,
-        "bankType": "short",
-        "field": "QA",
-        "exportName": "short"
-      }
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276049,
+      "SubjectID": 368,
+      "TopicID": 8693,
+      "TopicRef": "26",
+      "TopicName": "26 السَّیّدُ جَمَالُ الدِّیْنِ الْافْغَانِیُّ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفِی الْمَاضِیَّ وَالْمُضَارِعَ مِنَ الْاَفْعَالِ الْآتِیَۃِ: اِسْتَقْبَلَ۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276050,
+      "SubjectID": 368,
+      "TopicID": 8693,
+      "TopicRef": "26",
+      "TopicName": "26 السَّیّدُ جَمَالُ الدِّیْنِ الْافْغَانِیُّ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفِی الْمَاضِیَّ وَالْمُضَارِعَ مِنَ الْاَفْعَالِ الْآتِیَۃِ: اِخْتَلَقَ۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276051,
+      "SubjectID": 368,
+      "TopicID": 8693,
+      "TopicRef": "26",
+      "TopicName": "26 السَّیّدُ جَمَالُ الدِّیْنِ الْافْغَانِیُّ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفِی الْمَاضِیَّ وَالْمُضَارِعَ مِنَ الْاَفْعَالِ الْآتِیَۃِ: اِنْصَرَفَ۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276068,
+      "SubjectID": 368,
+      "TopicID": 8694,
+      "TopicRef": "27",
+      "TopicName": "27 بَیْنَ النُّکتِ الْعَرَبیّۃِ وَالبَاکِسْتَانِیّۃِ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفِی الْمَاضِیَ وَالْمُضَارِعَ مِنَ التَّنْکِیْتِ۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276203,
+      "SubjectID": 368,
+      "TopicID": 8698,
+      "TopicRef": "31",
+      "TopicName": "31 حُقُوْقُ الْعِبَادَ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">عَادَ، یَعُوْدُ، فعل معتمل یسمی اجوفاوا ویاً، صَرِّفِ / صِرّفی الفعل ما ضیا و مضارعًا۔</p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276887,
+      "SubjectID": 368,
+      "TopicID": 8705,
+      "TopicRef": ".",
+      "TopicName": ". اَلدُّوَلَ الْعَرَبیَّۃُ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">اِسْتَعْمَر / یَسْتَعْمِرُ اِسْتَعْمَارً مِنْ بَابِ الْاِسْتَفْعَالِ صَرِّف / صَرِّفِی الْفِعْلَ مَاضِیًا وَّمُضَارِعًا۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276932,
+      "SubjectID": 368,
+      "TopicID": 8706,
+      "TopicRef": "39",
+      "TopicName": "39 جَلَالَۃُ الْمَلِکِ فَیْصَل الْمُعَظَّم",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفی الماضِیَ وَالْمُضَارعَ مِنَ الْمَصَادِرِالتَّالِیَۃِ: تَجَاھُلٌ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276933,
+      "SubjectID": 368,
+      "TopicID": 8706,
+      "TopicRef": "39",
+      "TopicName": "39 جَلَالَۃُ الْمَلِکِ فَیْصَل الْمُعَظَّم",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفی الماضِیَ وَالْمُضَارعَ مِنَ الْمَصَادِرِالتَّالِیَۃِ: اِنْجَاحٌ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276935,
+      "SubjectID": 368,
+      "TopicID": 8706,
+      "TopicRef": "39",
+      "TopicName": "39 جَلَالَۃُ الْمَلِکِ فَیْصَل الْمُعَظَّم",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفی الماضِیَ وَالْمُضَارعَ مِنَ الْمَصَادِرِالتَّالِیَۃِ: تَثْقِیْفٌ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 276937,
+      "SubjectID": 368,
+      "TopicID": 8706,
+      "TopicRef": "39",
+      "TopicName": "39 جَلَالَۃُ الْمَلِکِ فَیْصَل الْمُعَظَّم",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفی الماضِیَ وَالْمُضَارعَ مِنَ الْمَصَادِرِالتَّالِیَۃِ: تَحَمُّلٌ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 277042,
+      "SubjectID": 368,
+      "TopicID": 8709,
+      "TopicRef": "42",
+      "TopicName": "42 جَوَامِعُ الْکَلِم",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّف / صَرِّفی الْاَفْعَالَ التَّالِیَۃَ تَصْریِفَ الْمَاضِیْ وَالْمُضَارِع وَالْاَمْرِ: حَدَّثَ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 277043,
+      "SubjectID": 368,
+      "TopicID": 8709,
+      "TopicRef": "42",
+      "TopicName": "42 جَوَامِعُ الْکَلِم",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّف / صَرِّفی الْاَفْعَالَ التَّالِیَۃَ تَصْریِفَ الْمَاضِیْ وَالْمُضَارِع وَالْاَمْرِ: کَفَّ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 277045,
+      "SubjectID": 368,
+      "TopicID": 8709,
+      "TopicRef": "42",
+      "TopicName": "42 جَوَامِعُ الْکَلِم",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّف / صَرِّفی الْاَفْعَالَ التَّالِیَۃَ تَصْریِفَ الْمَاضِیْ وَالْمُضَارِع وَالْاَمْرِ: اَنْزَلَ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 277129,
+      "SubjectID": 368,
+      "TopicID": 8711,
+      "TopicRef": "44",
+      "TopicName": "44 مُبَارَاۃُ الکریْکَت",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">دَعَا / یَدْعُوْ فِعْلٌ مُعْتَلٌّ یُسَمَّی نَا قِصًا وَاوِیَّا ، صَرِّفِ / صَرِّفی الْفِعْلَ مَاضِیاًوَمُضَارِعًا۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 277370,
+      "SubjectID": 368,
+      "TopicID": 8717,
+      "TopicRef": "50",
+      "TopicName": "50 فِیْ مُسَاعَدَۃِ الْبَائِسِیْنَ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفِی الْاَفْعَالَ الْاٰتِیَۃَ تَصْرِیْفَ الْمَاضِیْ وَالْاَمْرِ: یَجِلُّ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
+    },
+    {
+      "QuestionID": 277371,
+      "SubjectID": 368,
+      "TopicID": 8717,
+      "TopicRef": "50",
+      "TopicName": "50 فِیْ مُسَاعَدَۃِ الْبَائِسِیْنَ",
+      "QuestionPeriority": "Grammar",
+      "UrduQuestionDetails": "<p style=\"font-family:'Al Qalam Quran Majeed Web'\">صَرِّفِ / صَرِّفِی الْاَفْعَالَ الْاٰتِیَۃَ تَصْرِیْفَ الْمَاضِیْ وَالْاَمْرِ: یَعُدُّ۔</strong></p>\r\n",
+      "EnglishQuestionDetails": null,
+      "UrduFillAnswer": null,
+      "EnglishFillAnswer": null,
+      "TrueFalseAnswer": false,
+      "IsSameMcq": false,
+      "MultipleOptions": []
     }
   ]
 }

@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import {
   Building2,
   CheckCircle2,
-  LayoutDashboard,
   PauseCircle,
   Plus,
+  Settings2,
   X,
 } from "lucide-react";
 import DashboardLayout from "../components/DashboardLayout.jsx";
@@ -75,6 +75,13 @@ function SuperAdminDashboard() {
   const [logoUrl, setLogoUrl] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [statusUpdating, setStatusUpdating] = useState(null);
+  const [modulesEditing, setModulesEditing] = useState(null);
+  const [modulesForm, setModulesForm] = useState({
+    moduleAcademyManagement: true,
+    moduleTestGenerator: false,
+    plan: "free",
+  });
+  const [modulesSaving, setModulesSaving] = useState(false);
 
   const loadData = async () => {
     setLoading(true);
@@ -157,6 +164,38 @@ function SuperAdminDashboard() {
       toast.error(err.response?.data?.message || "Failed to update status");
     } finally {
       setStatusUpdating(null);
+    }
+  };
+
+  const openModules = (academy) => {
+    setModulesEditing(academy);
+    setModulesForm({
+      moduleAcademyManagement: academy.moduleAcademyManagement !== false,
+      moduleTestGenerator: Boolean(academy.moduleTestGenerator),
+      plan: academy.plan || "free",
+    });
+  };
+
+  const closeModules = () => {
+    setModulesEditing(null);
+  };
+
+  const saveModules = async (e) => {
+    e.preventDefault();
+    if (!modulesForm.moduleAcademyManagement && !modulesForm.moduleTestGenerator) {
+      toast.error("Select at least one product access");
+      return;
+    }
+    setModulesSaving(true);
+    try {
+      await api.patch(`/academies/${modulesEditing._id}/modules`, modulesForm);
+      toast.success("Products updated");
+      closeModules();
+      await loadData();
+    } catch (err) {
+      toast.error(err.response?.data?.message || "Failed to update products");
+    } finally {
+      setModulesSaving(false);
     }
   };
 
@@ -278,18 +317,28 @@ function SuperAdminDashboard() {
                         </span>
                       </td>
                       <td className="px-2 py-3">
-                        <button
-                          type="button"
-                          disabled={statusUpdating === academy._id}
-                          onClick={() => toggleStatus(academy)}
-                          className="cursor-pointer rounded-xl border border-rose/50 px-3 py-1.5 text-xs font-semibold text-navy transition hover:bg-blush disabled:cursor-not-allowed disabled:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-lavender"
-                        >
-                          {statusUpdating === academy._id
-                            ? "Updating..."
-                            : academy.status === "active"
-                              ? "Suspend"
-                              : "Activate"}
-                        </button>
+                        <div className="flex flex-wrap gap-2">
+                          <button
+                            type="button"
+                            onClick={() => openModules(academy)}
+                            className="inline-flex cursor-pointer items-center gap-1 rounded-xl border border-rose/50 px-3 py-1.5 text-xs font-semibold text-navy transition hover:bg-blush focus-visible:outline focus-visible:outline-2 focus-visible:outline-lavender"
+                          >
+                            <Settings2 className="size-3.5" aria-hidden="true" />
+                            Products
+                          </button>
+                          <button
+                            type="button"
+                            disabled={statusUpdating === academy._id}
+                            onClick={() => toggleStatus(academy)}
+                            className="cursor-pointer rounded-xl border border-rose/50 px-3 py-1.5 text-xs font-semibold text-navy transition hover:bg-blush disabled:cursor-not-allowed disabled:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-lavender"
+                          >
+                            {statusUpdating === academy._id
+                              ? "Updating..."
+                              : academy.status === "active"
+                                ? "Suspend"
+                                : "Activate"}
+                          </button>
+                        </div>
                       </td>
                     </tr>
                   ))}
@@ -299,6 +348,92 @@ function SuperAdminDashboard() {
           )}
         </section>
       </div>
+
+      {modulesEditing && (
+        <div className="fixed inset-0 z-50 grid place-items-end bg-navy/45 p-0 backdrop-blur-sm sm:place-items-center sm:p-4">
+          <div
+            role="dialog"
+            aria-modal="true"
+            className="max-h-[92vh] w-full max-w-lg overflow-y-auto rounded-t-3xl border border-rose/40 bg-white p-4 shadow-[0_20px_50px_rgb(31_34_50_/0.25)] sm:rounded-3xl sm:p-6"
+          >
+            <div className="mb-5 flex items-start justify-between gap-3">
+              <div>
+                <h2 className="font-display text-2xl text-navy">Edit products</h2>
+                <p className="text-sm text-slate">{modulesEditing.name}</p>
+              </div>
+              <button
+                type="button"
+                onClick={closeModules}
+                className="cursor-pointer rounded-xl p-2 text-slate transition hover:bg-blush hover:text-navy"
+                aria-label="Close"
+              >
+                <X className="size-5" />
+              </button>
+            </div>
+            <form onSubmit={saveModules} className="space-y-4">
+              <CustomSelect
+                label="Plan"
+                required
+                value={modulesForm.plan}
+                onChange={(next) => setModulesForm((prev) => ({ ...prev, plan: next }))}
+                options={[
+                  { value: "free", label: "Free" },
+                  { value: "basic", label: "Basic" },
+                  { value: "pro", label: "Pro" },
+                ]}
+                searchable={false}
+              />
+              <fieldset className="rounded-2xl border border-rose/50 bg-bg-soft/80 p-4">
+                <legend className="px-1 text-sm font-semibold text-navy">Product access</legend>
+                <div className="mt-2 grid gap-3">
+                  {ACADEMY_PRODUCTS.map((product) => (
+                    <label
+                      key={product.key}
+                      className="flex cursor-pointer gap-3 rounded-2xl border border-rose/40 bg-white px-3 py-3"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={Boolean(modulesForm[product.key])}
+                        onChange={(e) =>
+                          setModulesForm((prev) => ({
+                            ...prev,
+                            [product.key]: e.target.checked,
+                          }))
+                        }
+                        className="mt-1 size-4 accent-navy"
+                      />
+                      <span>
+                        <span className="block text-sm font-semibold text-navy">
+                          {product.label}
+                        </span>
+                        <span className="mt-0.5 block text-xs text-slate">
+                          {product.description}
+                        </span>
+                      </span>
+                    </label>
+                  ))}
+                </div>
+              </fieldset>
+              <div className="flex flex-col-reverse gap-3 sm:flex-row sm:justify-end">
+                <button
+                  type="button"
+                  onClick={closeModules}
+                  className="min-h-11 cursor-pointer rounded-2xl border border-rose/50 px-4 py-2.5 text-sm font-semibold text-navy hover:bg-blush"
+                >
+                  Cancel
+                </button>
+                <button
+                  type="submit"
+                  disabled={modulesSaving}
+                  className="min-h-11 cursor-pointer rounded-2xl bg-navy px-4 py-2.5 text-sm font-semibold text-blush hover:bg-slate disabled:opacity-60"
+                >
+                  {modulesSaving ? "Saving…" : "Save"}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
 
       {showForm && (
         <div className="fixed inset-0 z-50 grid place-items-end bg-navy/45 p-0 backdrop-blur-sm sm:place-items-center sm:p-4">

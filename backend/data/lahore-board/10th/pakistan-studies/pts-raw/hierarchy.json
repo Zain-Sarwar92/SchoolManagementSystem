@@ -4,31 +4,33 @@
     "name": "PTB"
   },
   "class": {
-    "ClassID": 10,
-    "AdminID": 1,
-    "CourseID": 1,
-    "ClassName": "10TH",
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2023-12-01T00:00:00",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null
+    "ClassID": 10
   },
   "subject": {
     "SubjectID": 65,
-    "AdminID": 1,
-    "CourseID": 1,
-    "ClassID": 10,
-    "SubjectName": "Pakistan Studies",
-    "Category": "SNC-2026",
-    "ImageUrl": "/images/subjects/637341213848515479.jpg",
-    "CreatedDateTime": "2025-11-11T00:00:00",
-    "UpdatedDateTime": "2026-08-10T09:12:38.32",
-    "IsActive": true,
-    "Admin": null,
-    "Course": null,
-    "Class": null
+    "SubjectName": "Pakistan Studies"
   },
+  "slug": "pakistan-studies",
+  "exportTypes": [
+    {
+      "id": 1,
+      "name": "mcq",
+      "bankType": "mcq",
+      "field": "MCQ"
+    },
+    {
+      "id": 12,
+      "name": "short",
+      "bankType": "short",
+      "field": "QA"
+    },
+    {
+      "id": 13,
+      "name": "long",
+      "bankType": "long",
+      "field": "LONG"
+    }
+  ],
   "chapters": [
     {
       "ChapterID": 8347,
@@ -170,16 +172,16 @@
   "topics": [
     {
       "TopicID": 15410,
-      "AdminID": 21,
+      "AdminID": 14,
       "CourseID": 1,
       "ClassID": 10,
       "SubjectID": 65,
       "ChapterID": 8347,
       "TopicName": "IDEOLOGY",
       "TopicRef": "1.1",
-      "CreatedDateTime": "2026-07-01T11:20:23.383",
-      "UpdatedDateTime": "2026-07-01T11:20:23.383",
-      "IsTrial": false,
+      "CreatedDateTime": "2026-07-01T11:20:23",
+      "UpdatedDateTime": "2026-09-21T16:18:04.76",
+      "IsTrial": true,
       "IsActive": true,
       "Admin": null,
       "Course": null,
@@ -189,16 +191,16 @@
     },
     {
       "TopicID": 15411,
-      "AdminID": 21,
+      "AdminID": 14,
       "CourseID": 1,
       "ClassID": 10,
       "SubjectID": 65,
       "ChapterID": 8347,
       "TopicName": "SOCIAL AND ECONOMIC DEPRIVATION OF MUSLIMS IN INDIAN",
       "TopicRef": "1.2",
-      "CreatedDateTime": "2026-07-01T11:20:59.81",
-      "UpdatedDateTime": "2026-07-01T11:20:59.81",
-      "IsTrial": false,
+      "CreatedDateTime": "2026-07-01T11:20:59",
+      "UpdatedDateTime": "2026-09-21T16:18:08.463",
+      "IsTrial": true,
       "IsActive": true,
       "Admin": null,
       "Course": null,
@@ -208,16 +210,16 @@
     },
     {
       "TopicID": 15412,
-      "AdminID": 21,
+      "AdminID": 14,
       "CourseID": 1,
       "ClassID": 10,
       "SubjectID": 65,
       "ChapterID": 8347,
       "TopicName": "EXPLANATION OF THE IDEOLOGY OF PAKISTAN(ALLAMA MUHAMMAD IQBAL AND QUAID-E-AZAM MUHAMMAD ALI JINNAH)",
       "TopicRef": "1.3",
-      "CreatedDateTime": "2026-07-01T11:24:27.283",
-      "UpdatedDateTime": "2026-07-01T11:24:27.283",
-      "IsTrial": false,
+      "CreatedDateTime": "2026-07-01T11:24:27",
+      "UpdatedDateTime": "2026-09-21T16:18:11.453",
+      "IsTrial": true,
       "IsActive": true,
       "Admin": null,
       "Course": null,
@@ -227,16 +229,16 @@
     },
     {
       "TopicID": 15413,
-      "AdminID": 21,
+      "AdminID": 14,
       "CourseID": 1,
       "ClassID": 10,
       "SubjectID": 65,
       "ChapterID": 8347,
       "TopicName": "MUSLIM REFORMERS AND THE SOCIO-CULTURAL ASPECTS OF MUSLIM INDIA",
       "TopicRef": "1.4",
-      "CreatedDateTime": "2026-07-01T11:26:36.51",
-      "UpdatedDateTime": "2026-07-01T11:26:36.51",
-      "IsTrial": false,
+      "CreatedDateTime": "2026-07-01T11:26:36",
+      "UpdatedDateTime": "2026-09-21T16:18:15.297",
+      "IsTrial": true,
       "IsActive": true,
       "Admin": null,
       "Course": null,
@@ -246,16 +248,16 @@
     },
     {
       "TopicID": 15414,
-      "AdminID": 21,
+      "AdminID": 14,
       "CourseID": 1,
       "ClassID": 10,
       "SubjectID": 65,
       "ChapterID": 8347,
       "TopicName": "TWO-NATION THEORY: ORIGIN AND EVOLUTION",
       "TopicRef": "1.5",
-      "CreatedDateTime": "2026-07-01T11:28:12.51",
-      "UpdatedDateTime": "2026-07-01T11:28:12.51",
-      "IsTrial": false,
+      "CreatedDateTime": "2026-07-01T11:28:12",
+      "UpdatedDateTime": "2026-09-21T16:18:23.22",
+      "IsTrial": true,
       "IsActive": true,
       "Admin": null,
       "Course": null,
@@ -1403,5 +1405,6 @@
       "Subject": null,
       "Chapter": null
     }
-  ]
+  ],
+  "fetchedAt": "2026-10-27T13:16:59.404Z"
 }

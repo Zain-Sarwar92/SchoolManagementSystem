@@ -41,6 +41,23 @@ export const updateAcademyStatusSchema = z.object({
   status: z.enum(["active", "suspended"]),
 });
 
+export const updateAcademyModulesSchema = z
+  .object({
+    moduleAcademyManagement: formBool.optional(),
+    moduleTestGenerator: formBool.optional(),
+    plan: z.enum(["free", "basic", "pro"]).optional(),
+  })
+  .superRefine((data, ctx) => {
+    const hasModuleFlags =
+      data.moduleAcademyManagement !== undefined || data.moduleTestGenerator !== undefined;
+    if (!hasModuleFlags && data.plan === undefined) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message: "Provide at least one field to update",
+      });
+    }
+  });
+
 export const createClassSchema = z.object({
   name: z.string().min(1, "Class name is required").max(80),
   description: z.string().max(300).optional().default(""),

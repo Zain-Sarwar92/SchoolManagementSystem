@@ -12,6 +12,7 @@ import scheduleRoutes from "./scheduleRoutes.js";
 import generatorRoutes from "./generatorRoutes.js";
 import activityRoutes from "./activityRoutes.js";
 import uploadRoutes from "./uploadRoutes.js";
+import adminCurriculumRoutes from "./adminCurriculumRoutes.js";
 
 const router = Router();
 
@@ -49,5 +50,6 @@ router.use("/schedules", scheduleRoutes);
 router.use("/generator", generatorRoutes);
 router.use("/activities", activityRoutes);
 router.use("/uploads", uploadRoutes);
+router.use("/admin/curriculum", adminCurriculumRoutes);
 
 export default router;

@@ -141,6 +141,8 @@ function GeneratorCreate() {
   const [paperSections, setPaperSections] = useState([]);
   const [editingSectionKey, setEditingSectionKey] = useState(null);
   const [pickerMessage, setPickerMessage] = useState(null);
+  /** Total matching bank size from last search (PTS-style count). */
+  const [poolTotal, setPoolTotal] = useState(0);
 
   const [title, setTitle] = useState("");
   const [durationMinutes, setDurationMinutes] = useState(60);
@@ -239,6 +241,7 @@ function GeneratorCreate() {
         setEditingSectionKey(null);
         setDraftSelected([]);
         setPool([]);
+        setPoolTotal(0);
         setModalOpen(Boolean(openMenuOnLoad) && !editSectionKeyOnLoad);
         setStep("paper");
         if (editSectionKeyOnLoad) {
@@ -399,6 +402,7 @@ function GeneratorCreate() {
     setActiveType(first.type);
     setActiveSubType(first.subType);
     setPool([]);
+    setPoolTotal(0);
     setDraftSelected([]);
     setPickerMessage(null);
   }, [pickerOptions, pickerValue]);
@@ -502,6 +506,7 @@ function GeneratorCreate() {
     setMedium("BOTH");
     setSourceFilter("ALL");
     setPool([]);
+    setPoolTotal(0);
     setDraftSelected([]);
     setPickerMessage(null);
     setEditingSectionKey(null);
@@ -809,6 +814,7 @@ function GeneratorCreate() {
     setAttemptCount("");
     setMarksPerQuestion("");
     setPool([]);
+    setPoolTotal(0);
     setDraftSelected([]);
     setPickerMessage(null);
     if (hasChapterPlan) {
@@ -867,6 +873,7 @@ function GeneratorCreate() {
       });
       const found = data.questions || [];
       const total = Number(data.total) || found.length;
+      setPoolTotal(total);
       const truncNote =
         data.truncated || total > found.length
           ? ` (showing ${found.length} of ${total})`
@@ -880,16 +887,16 @@ function GeneratorCreate() {
         setPool([...byId.values()]);
         setDraftSelected(keepSelected);
         setPickerMessage(
-          `Found ${found.length} questions${truncNote} · ${keepSelected.length} selected`
+          `Found ${total} questions${truncNote} · ${keepSelected.length} selected`
         );
       } else {
         setPool(found);
-      setDraftSelected([]);
-      setPickerMessage(
-          found.length
-            ? `Found ${found.length} questions${truncNote}`
-          : "No questions match this filter"
-      );
+        setDraftSelected([]);
+        setPickerMessage(
+          total
+            ? `Found ${total} questions${truncNote}`
+            : "No questions match this filter"
+        );
       }
     } catch (err) {
       toast.error(err.response?.data?.message || "Search failed");
@@ -950,6 +957,7 @@ function GeneratorCreate() {
 
       if (questions.length === 0) {
         setPool([]);
+        setPoolTotal(0);
         setPickerMessage("Not enough questions for random pick");
         return;
       }
@@ -958,6 +966,7 @@ function GeneratorCreate() {
       const pickedIds = new Set(questions.map((q) => q.id));
       const excludeIds = usedQuestionIds.filter((id) => !pickedIds.has(id));
       let bank = [];
+      let bankTotal = 0;
       let truncNote = "";
       try {
         const bankData = await searchPool({
@@ -970,13 +979,14 @@ function GeneratorCreate() {
           limit: 3000,
         });
         bank = bankData.questions || [];
-        const total = Number(bankData.total) || bank.length;
-        if (bankData.truncated || total > bank.length) {
-          truncNote = ` (showing ${bank.length} of ${total})`;
+        bankTotal = Number(bankData.total) || bank.length;
+        if (bankData.truncated || bankTotal > bank.length) {
+          truncNote = ` (showing ${bank.length} of ${bankTotal})`;
         }
       } catch {
         /* Bank load failed — still show the random picks. */
         bank = [];
+        bankTotal = questions.length;
       }
 
       const byId = new Map();
@@ -985,6 +995,7 @@ function GeneratorCreate() {
         if (!byId.has(q.id)) byId.set(q.id, q);
       }
       setPool([...byId.values()]);
+      setPoolTotal(bankTotal || byId.size);
       setPickerMessage(
         hasChapterPlan
           ? `Random · planner quotas · ${questions.length} selected · bank open${truncNote}`
@@ -1252,6 +1263,7 @@ function GeneratorCreate() {
     setEditingSectionKey(null);
     setDraftSelected([]);
     setPool([]);
+    setPoolTotal(0);
     setPickerMessage(null);
     setAttemptCount("");
     const first = pickerOptions[0];
@@ -1334,6 +1346,7 @@ function GeneratorCreate() {
       });
       const found = data.questions || [];
       const total = Number(data.total) || found.length;
+      setPoolTotal(total);
       const byId = new Map();
       for (const q of selected) byId.set(q.id, q);
       for (const q of found) {
@@ -1343,13 +1356,14 @@ function GeneratorCreate() {
       setPool(merged);
       setDraftSelected(selected);
       setPickerMessage(
-        `Editing Q${sectionQNumber(section.key, paperSections)} · ${selected.length} selected · ${merged.length} in bank` +
+        `Editing Q${sectionQNumber(section.key, paperSections)} · ${selected.length} selected · ${total} in bank` +
           (data.truncated || total > found.length
-            ? ` (of ${total} match)`
+            ? ` (showing ${merged.length})`
             : "")
       );
     } catch (err) {
       setPool(selected);
+      setPoolTotal(selected.length);
       toast.error(err.response?.data?.message || "Failed to load questions");
     } finally {
       setPending(false);
@@ -2847,6 +2861,7 @@ function GeneratorCreate() {
                           onChange={(e) => {
                             setSourceFilter(String(e.target.value));
                             setPool([]);
+                            setPoolTotal(0);
                             setDraftSelected([]);
                           }}
                         >
@@ -2961,6 +2976,20 @@ function GeneratorCreate() {
                 </section>
 
                 <section className="tg-picker-sec tg-picker-sec--bank">
+                  <div className="tg-pool-summary tg-pool-summary--bank">
+                    <span>2. Questions Bank</span>
+                    <span aria-live="polite">
+                      {pending
+                        ? "Searching…"
+                        : poolTotal > 0 || pool.length > 0
+                          ? `${poolTotal || pool.length} Record${
+                              (poolTotal || pool.length) === 1 ? "" : "'s"
+                            } Found`
+                          : pickerMessage?.includes("No ")
+                            ? "0 Record's Found"
+                            : "Search to load"}
+                    </span>
+                  </div>
                   <div
                     className="tg-pool-zone tg-pool-zone--bank tg-scroll-quiet"
                     onWheel={(e) => e.stopPropagation()}
