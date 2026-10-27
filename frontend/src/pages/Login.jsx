@@ -46,8 +46,8 @@ function Login() {
             <School className="size-5" aria-hidden="true" />
           </div>
           <div>
-            <p className="font-display text-xl text-navy">CampusCloud</p>
-            <p className="text-sm text-slate">Sign in to your workspace</p>
+            <p className="font-display text-xl text-navy">Paper PRO</p>
+            <p className="text-sm text-slate">Sign in to your academy workspace</p>
           </div>
         </div>
 

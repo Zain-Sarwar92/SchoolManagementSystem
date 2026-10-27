@@ -3,6 +3,7 @@ import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import ModuleRoute from "./components/ModuleRoute.jsx";
 import { useAuth } from "./context/AuthContext.jsx";
 import Login from "./pages/Login.jsx";
+import Landing from "./pages/Landing.jsx";
 import SuperAdminDashboard from "./pages/SuperAdminDashboard.jsx";
 import SuperAdminCurriculum from "./pages/SuperAdminCurriculum.jsx";
 import SuperAdminQuestionBank from "./pages/SuperAdminQuestionBank.jsx";
@@ -65,7 +66,7 @@ function HomeRedirect() {
   }
 
   if (!isAuthenticated) {
-    return <Navigate to="/login" replace />;
+    return <Landing />;
   }
 
   return <Navigate to={roleHome(user.role, user)} replace />;
@@ -75,6 +76,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomeRedirect />} />
+      <Route path="/landing" element={<Landing />} />
       <Route path="/login" element={<Login />} />
       <Route
         path="/super-admin"
