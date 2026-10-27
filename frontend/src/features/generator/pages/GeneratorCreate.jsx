@@ -206,7 +206,7 @@ function GeneratorCreate() {
         }
 
         if (!foundSubject) {
-          toast.error("Could not match this paper’s subject in the catalog");
+          toast.error("This paper's subject wasn't found in the catalog");
           navigate("/academy/generator/papers");
           return;
         }
@@ -249,12 +249,12 @@ function GeneratorCreate() {
         }
         toast.success(
           openMenuOnLoad
-            ? "Add a new question section from the menu"
-            : "Paper loaded — Question Menu adds; section pencil edits"
+            ? "Use Question Menu to add a section"
+            : "Paper loaded"
         );
       } catch (err) {
         if (!cancelled) {
-          toast.error(err.response?.data?.message || "Failed to load paper");
+          toast.error(err.response?.data?.message || "Couldn't load paper");
           navigate("/academy/generator/papers");
         }
       } finally {
@@ -555,7 +555,7 @@ function GeneratorCreate() {
       resetBuildState();
       setStep("chapters");
     } catch (err) {
-      toast.error(err.response?.data?.message || "Failed to load syllabus");
+      toast.error(err.response?.data?.message || "Couldn't load syllabus");
     } finally {
       setPending(false);
     }
@@ -648,7 +648,7 @@ function GeneratorCreate() {
   /** Compare flow: skip Build → paper + picker modal (or chapter planner first). */
   const openSelectQuestions = () => {
     if (!selectedTopicIds.length) {
-      toast.error("Select at least one chapter or topic");
+      toast.error("Select at least one chapter or topic first");
       return;
     }
     if (useChapterPlanner) {
@@ -668,9 +668,7 @@ function GeneratorCreate() {
     }
     setPlannerOpen(false);
     beginPaperWorkspace({ withPlan: true });
-    toast.success(
-      `Planner ready · ${plannerTotals.MCQ} MCQ · ${plannerTotals.SHORT} Short · ${plannerTotals.LONG} Long`
-    );
+    toast.success("Chapter planner applied");
   };
 
   const clearPaperWorkspace = () => {
@@ -846,11 +844,11 @@ function GeneratorCreate() {
       return;
     }
     if (!hasChapterPlan && parsedRequired() < 1) {
-      toast.error("Enter how many questions are required.");
+      toast.error("Enter the number of questions");
       return;
     }
     if (parsedMarks() < 1) {
-      toast.error("Enter marks for each question first.");
+      toast.error("Enter marks for each question");
       return;
     }
     setPickerMenuOpen(false);
@@ -899,7 +897,7 @@ function GeneratorCreate() {
         );
       }
     } catch (err) {
-      toast.error(err.response?.data?.message || "Search failed");
+      toast.error(err.response?.data?.message || "Couldn't search questions");
     } finally {
       setPending(false);
     }
@@ -916,7 +914,7 @@ function GeneratorCreate() {
     if (hasChapterPlan) {
       if (plannedNeed < 1) {
         toast.error(
-          `No chapter quota is set for ${TYPE_META[activeType].short} in the planner.`
+          `No planner quota for ${TYPE_META[activeType].short}`
         );
         return;
       }
@@ -926,11 +924,11 @@ function GeneratorCreate() {
     }
     const need = hasChapterPlan ? plannedNeed : parsedRequired();
     if (need < 1) {
-      toast.error("Enter the required number of questions first.");
+      toast.error("Enter the number of questions");
       return;
     }
     if (parsedMarks() < 1) {
-      toast.error("Enter marks for each question first.");
+      toast.error("Enter marks for each question");
       return;
     }
     if (!selectedTopicIds.length) {
@@ -1002,7 +1000,7 @@ function GeneratorCreate() {
           : `Random selected · ${questions.length} selected · bank open${truncNote}`
       );
     } catch (err) {
-      toast.error(err.response?.data?.message || "Random select failed");
+      toast.error(err.response?.data?.message || "Couldn't pick random questions");
     } finally {
       setPending(false);
     }
@@ -1011,7 +1009,7 @@ function GeneratorCreate() {
   const toggleDraftQuestion = (question) => {
     const need = parsedRequired();
     if (need < 1) {
-      toast.error("Enter the required number of questions first.");
+      toast.error("Enter the number of questions");
       return;
     }
     const already = draftSelected.some((q) => q.id === question.id);
@@ -1021,7 +1019,7 @@ function GeneratorCreate() {
     }
     if (draftSelected.length >= need) {
       toast.error(
-        `You already selected ${need} ${TYPE_META[activeType].short} — uncheck one first to swap.`
+        `Limit reached (${need} ${TYPE_META[activeType].short}). Uncheck one to swap.`
       );
       return;
     }
@@ -1033,7 +1031,7 @@ function GeneratorCreate() {
         const chapterName =
           chapters.find((c) => c.id === question.chapterId)?.name || "Chapter";
         toast.error(
-          `${chapterName}: no ${TYPE_META[activeType].short} quota in the planner.`
+          `${chapterName}: no ${TYPE_META[activeType].short} quota`
         );
         return;
       }
@@ -1044,7 +1042,7 @@ function GeneratorCreate() {
         const chapterName =
           chapters.find((c) => c.id === question.chapterId)?.name || "Chapter";
         toast.error(
-          `${chapterName}: you can select up to ${quota} ${TYPE_META[activeType].short} (planner limit).`
+          `${chapterName}: max ${quota} ${TYPE_META[activeType].short}`
         );
         return;
       }
@@ -1091,7 +1089,7 @@ function GeneratorCreate() {
       });
       const next = data.questions?.[0];
       if (!next) {
-        toast.error("No replacement question available");
+        toast.error("No replacement available");
         return;
       }
       setDraftSelected((prev) =>
@@ -1108,7 +1106,7 @@ function GeneratorCreate() {
       });
       toast.success("Question replaced");
     } catch (err) {
-      toast.error(err.response?.data?.message || "Replace failed");
+      toast.error(err.response?.data?.message || "Couldn't replace question");
     } finally {
       setRefreshingId(null);
     }
@@ -1121,29 +1119,29 @@ function GeneratorCreate() {
     if (need < 1) {
       setPickerMenuOpen(true);
       showQuestionMenu();
-      toast.error("Enter the required number of questions.");
+      toast.error("Enter the number of questions");
       return;
     }
     if (!(marksPerQuestion !== "" && marks >= 1)) {
       setPickerMenuOpen(true);
       showQuestionMenu();
-      toast.error("Marks each is required (enter at least 1).");
+      toast.error("Enter marks for each question (min 1)");
       return;
     }
     const typeLabel = TYPE_META[activeType].short;
     if (draftSelected.length === 0) {
-      toast.error(`Pick ${need} ${typeLabel} before adding this section.`);
+      toast.error(`Select ${need} ${typeLabel} first`);
       return;
     }
     if (draftSelected.length < need) {
       toast.error(
-        `${need} ${typeLabel} required, but only ${draftSelected.length} selected.`
+        `Need ${need} ${typeLabel}; ${draftSelected.length} selected`
       );
       return;
     }
     if (draftSelected.length > need) {
       toast.error(
-        `${need} ${typeLabel} required, but ${draftSelected.length} selected.`
+        `Need ${need} ${typeLabel}; ${draftSelected.length} selected`
       );
       return;
     }
@@ -1157,7 +1155,7 @@ function GeneratorCreate() {
           const chapterName =
             chapters.find((c) => c.id === quota.chapterId)?.name || "Chapter";
           toast.error(
-            `${chapterName}: ${quota.count} ${typeLabel} required; ${picked} currently selected.`
+            `${chapterName}: need ${quota.count} ${typeLabel}, ${picked} selected`
           );
           return;
         }
@@ -1202,8 +1200,6 @@ function GeneratorCreate() {
     );
     const nextOpt =
       pickerOptions.find((o) => !coveredKeys.has(o.value)) || null;
-    const qNo = sectionQNumber(sectionPayload.key, nextSections);
-
     resetPicker();
     if (nextOpt) {
       setActiveType(nextOpt.type);
@@ -1222,8 +1218,8 @@ function GeneratorCreate() {
     showQuestionMenu();
     toast.success(
       wasEditing
-        ? `${TYPE_META[activeType].short} section updated (Q${qNo})`
-        : `${TYPE_META[activeType].short} section added (Q${qNo})`
+        ? `${TYPE_META[activeType].short} section updated`
+        : `${TYPE_META[activeType].short} section added`
     );
   };
 
@@ -1253,9 +1249,8 @@ function GeneratorCreate() {
     const section = confirmDialog?.section;
     setConfirmDialog(null);
     if (!section) return;
-    const qNo = sectionQNumber(section.key, paperSections);
     removeSection(section.key);
-    toast.success(`Q${qNo} removed`);
+    toast.success("Section removed");
   };
 
   /** Rail: Question Menu — add a NEW section (does not replace an existing one) */
@@ -1364,7 +1359,7 @@ function GeneratorCreate() {
     } catch (err) {
       setPool(selected);
       setPoolTotal(selected.length);
-      toast.error(err.response?.data?.message || "Failed to load questions");
+      toast.error(err.response?.data?.message || "Couldn't load questions");
     } finally {
       setPending(false);
     }
@@ -1388,12 +1383,12 @@ function GeneratorCreate() {
   const refreshSectionQuestions = async (sectionKey) => {
     if (!subject) return;
     if (!selectedTopicIds.length) {
-      toast.error("Syllabus topics missing");
+      toast.error("Syllabus topics are missing");
       return;
     }
     const section = paperSections.find((s) => s.key === sectionKey);
     if (!section?.questions?.length) {
-      toast.error("No questions in this section");
+      toast.error("This section has no questions");
       return;
     }
     const count = section.questions.length;
@@ -1428,7 +1423,7 @@ function GeneratorCreate() {
       });
       const questions = data.questions || [];
       if (!questions.length) {
-        toast.error("No replacement questions available for this section");
+        toast.error("No replacements available for this section");
         return;
       }
       setPaperSections((prev) =>
@@ -1441,11 +1436,9 @@ function GeneratorCreate() {
             : s
         )
       );
-      toast.success(
-        `Q${sectionQNumber(sectionKey, paperSections)} updated · ${questions.length} questions`
-      );
+      toast.success("Section questions refreshed");
     } catch (err) {
-      toast.error(err.response?.data?.message || "Search update failed");
+      toast.error(err.response?.data?.message || "Couldn't refresh section");
     } finally {
       setRefreshingSection(null);
     }
@@ -1463,7 +1456,7 @@ function GeneratorCreate() {
         await document.exitFullscreen();
       }
     } catch {
-      toast.error("Fullscreen not available");
+      toast.error("Fullscreen isn't available here");
     }
   };
 
@@ -1478,7 +1471,7 @@ function GeneratorCreate() {
       return;
     }
     if (!blueprintHasMarks(paperSections)) {
-      toast.error("Enter marks for each section before printing.");
+      toast.error("Enter marks for each section before printing");
       return;
     }
     setPrintMode(mode);
@@ -1527,18 +1520,16 @@ function GeneratorCreate() {
       academy?._id || academy?.id
     );
     if (!tab) {
-      toast.error("Allow pop-ups in this browser to open the print window.");
+      toast.error("Allow pop-ups to open the print window");
     }
   };
   const openSaveModal = () => {
     if (!paperSections.length) {
-      toast.error(
-        "Add at least one section first (MCQs / Short Questions / Long Questions)."
-      );
+      toast.error("Add at least one section before saving");
       return;
     }
     if (!blueprintHasMarks(paperSections)) {
-      toast.error("Enter marks for each question section before saving.");
+      toast.error("Enter marks for each section before saving");
       return;
     }
     if (!title.trim() && subject?.name) {
@@ -1551,31 +1542,31 @@ function GeneratorCreate() {
 
   const savePaper = async () => {
     if (!subject || !klass || !board) {
-      toast.error("Subject missing");
+      toast.error("Subject is missing");
       return;
     }
     if (!title.trim()) {
-      toast.error("Enter a test name.");
+      toast.error("Enter a test name");
       return;
     }
     if (!paperCategory.trim()) {
-      toast.error("Select a paper category.");
+      toast.error("Select a paper category");
       return;
     }
     if (!examDate) {
-      toast.error("Select an exam date.");
+      toast.error("Select an exam date");
       return;
     }
     if (Number(durationMinutes) < 5) {
-      toast.error("Duration must be at least 5 minutes.");
+      toast.error("Duration must be at least 5 minutes");
       return;
     }
     if (!paperSections.length) {
-      toast.error("Test is empty");
+      toast.error("Paper is empty");
       return;
     }
     if (!blueprintHasMarks(paperSections)) {
-      toast.error("Enter marks for each question section.");
+      toast.error("Enter marks for each section");
       return;
     }
 
@@ -1598,14 +1589,14 @@ function GeneratorCreate() {
       });
       if (editingPaperId) {
         await api.put(`/generator/papers/${editingPaperId}`, payload);
-        toast.success("Paper updated successfully.");
+        toast.success("Paper updated");
       } else {
         await api.post("/generator/papers", payload);
-        toast.success("Test saved successfully.");
+        toast.success("Paper saved");
       }
       navigate("/academy/generator/papers");
     } catch (err) {
-      toast.error(err.response?.data?.message || "Save failed");
+      toast.error(err.response?.data?.message || "Couldn't save paper");
     } finally {
       setPending(false);
     }

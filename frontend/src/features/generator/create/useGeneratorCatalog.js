@@ -16,7 +16,7 @@ export function useGeneratorCatalog() {
       setBoards(data.boards || []);
     } catch (err) {
       const message =
-        err.response?.data?.message || "Failed to load catalog";
+        err.response?.data?.message || "Couldn't load catalog";
       setCatalogError(message);
       setBoards([]);
       toast.error(message);

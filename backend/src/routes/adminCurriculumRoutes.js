@@ -33,6 +33,8 @@ router.post("/topics", ctrl.createTopic);
 router.patch("/topics/:id", ctrl.updateTopic);
 router.delete("/topics/:id", ctrl.deleteTopic);
 
+router.get("/subjects/:subjectId/question-summary", ctrl.getSubjectQuestionSummary);
+
 router.get("/questions", ctrl.listQuestions);
 router.get("/questions/:id", ctrl.getQuestion);
 router.post("/questions", ctrl.createQuestion);

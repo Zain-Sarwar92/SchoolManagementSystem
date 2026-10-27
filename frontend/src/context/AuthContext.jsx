@@ -1,5 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import api from "../services/api.js";
+import { toast } from "../components/ui/toast.jsx";
 
 const AuthContext = createContext(null);
 
@@ -46,6 +47,7 @@ export function AuthProvider({ children }) {
     localStorage.removeItem("sms_user");
     setToken(null);
     setUser(null);
+    toast.success("Signed out");
   };
 
   const value = useMemo(

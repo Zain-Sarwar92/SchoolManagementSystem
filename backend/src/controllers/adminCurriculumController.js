@@ -115,6 +115,11 @@ export const deleteTopic = asyncHandler(async (req, res) => {
 });
 
 /* Questions */
+export const getSubjectQuestionSummary = asyncHandler(async (req, res) => {
+  const summary = await curriculum.getSubjectQuestionSummary(req.params.subjectId);
+  res.json({ success: true, summary });
+});
+
 export const listQuestions = asyncHandler(async (req, res) => {
   const result = await curriculum.listQuestions(req.query || {});
   res.json({ success: true, ...result });

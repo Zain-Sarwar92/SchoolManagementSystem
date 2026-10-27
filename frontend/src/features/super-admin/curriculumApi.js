@@ -35,6 +35,9 @@ export const curriculumApi = {
   deleteTopic: (id, cascade = false) =>
     api.delete(`${base}/topics/${id}${cascade ? "?cascade=true" : ""}`),
 
+  subjectQuestionSummary: (subjectId) =>
+    api.get(`${base}/subjects/${subjectId}/question-summary`),
+
   listQuestions: (params) => api.get(`${base}/questions`, { params }),
   createQuestion: (body) => api.post(`${base}/questions`, body),
   updateQuestion: (id, body) => api.patch(`${base}/questions/${id}`, body),

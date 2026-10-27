@@ -94,7 +94,7 @@ function GeneratorPaperView() {
           }
         }
       } catch (err) {
-        toast.error(err.response?.data?.message || "Failed to load paper");
+        toast.error(err.response?.data?.message || "Couldn't load paper");
         navigate("/academy/generator/papers");
       } finally {
         setLoading(false);
@@ -142,24 +142,23 @@ function GeneratorPaperView() {
     const section = confirmDialog?.section;
     setConfirmDialog(null);
     if (!section) return;
-    const qNo = sectionQNumber(section.key, paperSections);
     setPaperSections((prev) => prev.filter((s) => s.key !== section.key));
-    toast.success(`Q${qNo} removed`);
+    toast.success("Section removed");
   };
 
   const refreshSectionQuestions = async (sectionKey) => {
     const subjectId = meta?.subject ? String(meta.subject) : "";
     if (!subjectId) {
-      toast.error("Subject missing — cannot refresh this section");
+      toast.error("Subject is missing — can't refresh this section");
       return;
     }
     if (!topicIds.length) {
-      toast.error("Syllabus topics missing for refresh");
+      toast.error("Syllabus topics are missing");
       return;
     }
     const section = paperSections.find((s) => s.key === sectionKey);
     if (!section?.questions?.length) {
-      toast.error("No questions in this section");
+      toast.error("This section has no questions");
       return;
     }
     const count = section.questions.length;
@@ -186,17 +185,15 @@ function GeneratorPaperView() {
         id: String(q.id || q._id || `${section.type}-${i}`),
       }));
       if (!questions.length) {
-        toast.error("No replacement questions available for this section");
+        toast.error("No replacements available for this section");
         return;
       }
       setPaperSections((prev) =>
         prev.map((s) => (s.key === sectionKey ? { ...s, questions } : s))
       );
-      toast.success(
-        `Q${sectionQNumber(sectionKey, paperSections)} updated · ${questions.length} questions`
-      );
+      toast.success("Section questions refreshed");
     } catch (err) {
-      toast.error(err.response?.data?.message || "Refresh failed");
+      toast.error(err.response?.data?.message || "Couldn't refresh section");
     } finally {
       setRefreshingSection(null);
     }
@@ -215,7 +212,7 @@ function GeneratorPaperView() {
       return;
     }
     if (!blueprintHasMarks(paperSections)) {
-      toast.error("Enter marks for each question section.");
+      toast.error("Enter marks for each section");
       return;
     }
     setPending(true);
@@ -229,7 +226,7 @@ function GeneratorPaperView() {
       toast.success("Paper updated");
       navigate("/academy/generator/papers");
     } catch (err) {
-      toast.error(err.response?.data?.message || "Update failed");
+      toast.error(err.response?.data?.message || "Couldn't update paper");
     } finally {
       setPending(false);
     }
@@ -240,7 +237,7 @@ function GeneratorPaperView() {
       return;
     }
     if (!blueprintHasMarks(paperSections)) {
-      toast.error("Enter marks for each section before printing.");
+      toast.error("Enter marks for each section before printing");
       return;
     }
     const tab = openGeneratorPrintTab(
@@ -272,7 +269,7 @@ function GeneratorPaperView() {
       academy?._id || academy?.id
     );
     if (!tab) {
-      toast.error("Allow pop-ups in this browser to open the print window.");
+      toast.error("Allow pop-ups to open the print window");
     }
   };
   const cancelPaper = () => {
@@ -292,7 +289,7 @@ function GeneratorPaperView() {
         await document.exitFullscreen();
       }
     } catch {
-      toast.error("Fullscreen not available");
+      toast.error("Fullscreen isn't available here");
     }
   };
 

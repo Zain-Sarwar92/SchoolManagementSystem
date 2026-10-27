@@ -29,10 +29,10 @@ function Login() {
 
     try {
       const loggedInUser = await login(email.trim(), password);
-      toast.success(`Welcome, ${loggedInUser.name}`);
+      toast.success(`Welcome back, ${loggedInUser.name}`);
       navigate(homeFor(loggedInUser.role));
     } catch (err) {
-      toast.error(err.response?.data?.message || "Login failed");
+      toast.error(err.response?.data?.message || "Couldn't sign in");
     } finally {
       setSubmitting(false);
     }

@@ -5,6 +5,7 @@ import { useAuth } from "./context/AuthContext.jsx";
 import Login from "./pages/Login.jsx";
 import SuperAdminDashboard from "./pages/SuperAdminDashboard.jsx";
 import SuperAdminCurriculum from "./pages/SuperAdminCurriculum.jsx";
+import SuperAdminQuestionBank from "./pages/SuperAdminQuestionBank.jsx";
 import AcademyAdminDashboard from "./pages/AcademyAdminDashboard.jsx";
 import AcademyClasses from "./pages/AcademyClasses.jsx";
 import AcademySections from "./pages/AcademySections.jsx";
@@ -88,6 +89,14 @@ function App() {
         element={
           <ProtectedRoute roles={["super_admin"]}>
             <SuperAdminCurriculum />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/super-admin/question-bank"
+        element={
+          <ProtectedRoute roles={["super_admin"]}>
+            <SuperAdminQuestionBank />
           </ProtectedRoute>
         }
       />

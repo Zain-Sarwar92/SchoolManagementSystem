@@ -517,6 +517,54 @@ export async function deleteTopic(id, { cascade = false } = {}) {
 
 /* ─── Questions ─── */
 
+/** Per-subject bank breakdown for Super Admin Question Bank UI. */
+export async function getSubjectQuestionSummary(subjectId) {
+  const subject = await assertSubject(subjectId);
+  const rows = await GenQuestion.aggregate([
+    { $match: { subject: subject._id } },
+    {
+      $group: {
+        _id: {
+          type: "$type",
+          subType: "$subType",
+          isActive: "$isActive",
+        },
+        n: { $sum: 1 },
+      },
+    },
+  ]);
+
+  const byType = { MCQ: 0, SHORT: 0, LONG: 0 };
+  const bySubType = {};
+  let active = 0;
+  let inactive = 0;
+  let total = 0;
+
+  for (const row of rows) {
+    const n = row.n || 0;
+    total += n;
+    const type = String(row._id?.type || "").toUpperCase();
+    const subType = String(row._id?.subType || "").toUpperCase() || "(none)";
+    if (byType[type] !== undefined) byType[type] += n;
+    bySubType[subType] = (bySubType[subType] || 0) + n;
+    if (row._id?.isActive === false) inactive += n;
+    else active += n;
+  }
+
+  return {
+    subject: {
+      _id: subject._id,
+      name: subject.name,
+      slug: subject.slug,
+    },
+    total,
+    active,
+    inactive,
+    byType,
+    bySubType,
+  };
+}
+
 export async function listQuestions(query = {}) {
   const filter = {};
   if (query.subjectId) filter.subject = query.subjectId;

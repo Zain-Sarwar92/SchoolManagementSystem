@@ -75,7 +75,7 @@ export function usePrintSession({
           setPrintMode(mode);
         } catch (err) {
           if (!cancelled) {
-            toast.error(err.response?.data?.message || "Failed to load paper");
+            toast.error(err.response?.data?.message || "Couldn't load paper");
             setPayload(null);
             setSections([]);
           }

@@ -126,7 +126,7 @@ function GeneratorPapers() {
       setPapers(data.papers || []);
     } catch (err) {
       const message =
-        err.response?.data?.message || "Failed to load papers";
+        err.response?.data?.message || "Couldn't load papers";
       setLoadError(message);
       toast.error(message);
     } finally {
@@ -219,7 +219,7 @@ function GeneratorPapers() {
       toast.success("Paper deleted");
       await load();
     } catch (err) {
-      toast.error(err.response?.data?.message || "Delete failed");
+      toast.error(err.response?.data?.message || "Couldn't delete paper");
     }
   };
 
