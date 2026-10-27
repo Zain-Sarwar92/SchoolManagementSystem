@@ -438,7 +438,7 @@ export function buildPickerOptions({
   }
 
   if (!catalog) {
-    return buildPickerOptions(questionTypes);
+    return buildGenericPickerOptions(questionTypes);
   }
 
   /** Fixed type catalog only — do not append extra discovered/custom subtypes. */
@@ -540,7 +540,7 @@ function inferTypeFromSubType(subType, countsByType = {}) {
 }
 
 /** Generic fallback when subject has no type catalog — flat class labels. */
-function buildPickerOptions(questionTypes) {
+function buildGenericPickerOptions(questionTypes) {
   const rows = Array.isArray(questionTypes) ? questionTypes : [];
   if (!rows.length) {
     return [
