@@ -231,7 +231,7 @@ function GeneratorPapers() {
 
   const goUpdate = (paper) => {
     closeMenu();
-    navigate(`/academy/generator?edit=${paper._id}`);
+    navigate(`/academy/generator/papers/${paper._id}`);
   };
 
   const menuPaper = useMemo(
